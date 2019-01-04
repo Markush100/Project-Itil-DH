@@ -51,8 +51,8 @@
     } 
    SpyInfo                = {  country = "DEN" NumberOfSpies = 3  } 
    nationalprovinces      = {  1 2 3 216 217 218 219 220 294 1783  } 
-   ownedprovinces         = {  1 2 3 216 217 218 219 220 294 1783  } 
-   controlledprovinces    = {  1 2 3 216 217 218 219 220 294 1783  } 
+   ownedprovinces         = {  1 2 3 217 218 219 220 294 1783  } 
+   controlledprovinces    = {  1 2 3 217 218 219 220 294 1783  } 
    # Western Minor Tech '36 
    # Group C 1936 techs 
    # ###################### 

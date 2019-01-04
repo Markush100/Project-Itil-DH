@@ -1,10 +1,10 @@
 name       = "1936_SCENARIO"
 panel      = "scenarios/data/scenario_1936.bmp"
 header =
-{ name       = "Grand Campaign"
+{ name       = "The Old Order"
   startdate  = { year = 1936 }
   selectable = { AFG ALB ARG AST AUS BEL BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE IRQ ITA 
-		 JAP LAT LIB LIT LUX MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TAN TIB TUR URU USA VEN YEM YUG U02 U06 U03 U04 U05
+		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TAN TIB TUR URU UKR USA VEN YEM YUG U02 U06 U03 U04 U05
                }
   ENG        = { }
   FRA        = { }
@@ -916,7 +916,7 @@ include = "scenarios\1936\japan.inc"
 include = "scenarios\1936\latvia.inc"
 include = "scenarios\1936\liberia.inc"
 include = "scenarios\1936\lithuania.inc"
-include = "scenarios\1936\luxemburg.inc"
+include = "scenarios\1936\ukraine.inc"
 include = "scenarios\1936\manchuko.inc"
 include = "scenarios\1936\mexico.inc"
 include = "scenarios\1936\mongolia.inc"
@@ -949,7 +949,6 @@ include = "scenarios\1936\turkey.inc"
 include = "scenarios\1936\british raj.inc"
 include = "scenarios\1936\indochinese union.inc"
 include = "scenarios\1936\mandate syria and lebanon.inc"
-include = "scenarios\1936\danzig.inc"
 include = "scenarios\1936\uruguay.inc"
 include = "scenarios\1936\usa.inc"
 include = "scenarios\1936\venezuela.inc"
@@ -957,3 +956,4 @@ include = "scenarios\1936\yemen.inc"
 include = "scenarios\1936\yugoslavia.inc"
 include = "scenarios\1936\bases.inc"
 include = "scenarios\1936\depots.inc"
+include = "scenarios\1936\ukraine.inc"

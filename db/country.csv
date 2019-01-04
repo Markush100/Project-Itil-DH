@@ -151,7 +151,7 @@ TRA;LightOrange;SOV;SOV;;;;X
 TRK;DarkBrown;SOV;SOV;;;;X
 TUN;Brown;FRA;FRA;;;;X
 TUR;LightGreen;TUR;MIN;;;;X
-UKR;LightYellow;SOV;SOV;;;;X
+UKR;Blue;SOV;SOV;;;;X
 URU;DarkGray;SPA;USA;;;;X
 USA;DarkBlue;USA;USA;;;;X
 UZB;LightGreen;SOV;SOV;;;;X
@@ -165,7 +165,7 @@ ALS;DarkBlue;ENG;USA;;;;X
 AXI;Gray;GER;GER;;;;X
 ALI;Black;ALI;ALI;;;;X
 U00;DarkGray;ENG;MIN;;;;X
-U01;LightBlue;ENG;MIN;;;;X
+U01;Blue;SOV;MIN;;;;X
 U02;DarkYellow;ENG;MIN;;;;X
 U03;UserColor2;FRA;FRA;;;;X
 U04;UserColor2;FRA;FRA;;;;X

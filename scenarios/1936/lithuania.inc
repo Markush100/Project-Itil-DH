@@ -10,7 +10,7 @@
  country = 
  {  tag                    = LIT
 	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes } } 
-	capital                = 262 
+	capital                = 258
 	manpower               = 17 
 	# Resource Reserves 
 	energy                 = 480
@@ -52,13 +52,13 @@
        value      = 40 
        guaranteed = {  day = 12 month = september year = 1934  } 
       } 
-     relation = {  tag = POL value = -125  } 
+     relation = {  tag = POL value = 50  } 
      relation = {  tag = SOV value = 75  } 
     } 
    SpyInfo                = {  country = "LIT" NumberOfSpies = 3  } 
    nationalprovinces      = {  252 255 258 259 260 261 262 263 } 
-   ownedprovinces         = {  259 260 261 262 263  } 
-   controlledprovinces    = {  259 260 261 262 263  } 
+   ownedprovinces         = {  258 259 260 262 263  } 
+   controlledprovinces    = {  258 259 260 262 263  } 
    # Eastern Minor Tech '36 
    # Group D 1936 techs 
    # ###################### 

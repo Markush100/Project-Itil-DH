@@ -55,9 +55,9 @@
      relation = {  tag = USA value = 75  } 
     } 
    SpyInfo                = {  country = "BEL" NumberOfSpies = 6  } 
-   nationalprovinces      = {  108 110 111 112 113 114 115 116 117 } 
-   ownedprovinces         = {  108 110 111 112 113 114 115 116 117 846 847 894 897 898 899 901 902 903 904 905 906  } 
-   controlledprovinces    = {  108 110 111 112 113 114 115 116 117 846 847 894 897 898 899 901 902 903 904 905 906  } 
+   nationalprovinces      = {  108 111 112 113 114 115 116 117 } 
+   ownedprovinces         = {  108 111 112 113 114 115 116 117 846 847 894 897 898 899 901 902 903 904 905 906  } 
+   controlledprovinces    = {  108 111 112 113 114 115 116 117 846 847 894 897 898 899 901 902 903 904 905 906  } 
    claimedprovinces       = {  846 847 894 897 898 899 901 902 903 904 905 906 } #Belgian Congo
    # Western Minor Tech '36 
    # Group C 1936 techs 
