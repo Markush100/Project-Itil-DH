@@ -20,23 +20,13 @@
 	oil                    = 500 
 	supplies               = 500 
 	money                  = 10
-    diplomacy = {
-     relation = {  tag = ENG value = 50  } 
-     relation = {  tag = EST value = 75  } 
-     relation = {  tag = FIN value = 100  } 
-     relation = {  tag = FRA value = 100  } 
-     relation = {  tag = GER value = -10  } 
-     relation = {  tag = GRE value = 35  } 
-     relation = {  tag = HUN value = 50  } 
-     relation = {  tag = LAT value = 75  } 
-     relation = {  tag = LIT value = -125  } 
-	 relation = {  tag = SOV value = -200  } 
-    }
+
     
    SpyInfo                = {  country = "UKR" NumberOfSpies = 9  } 
-   nationalprovinces      = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 } 
    ownedprovinces         = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 } 
-   controlledprovinces    = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 } 
+   controlledprovinces    = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 }
+   nationalprovinces      = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 } 
+ 
    # Air Doctrines 
    techapps               = {
 #Early Infantry Division  
@@ -126,7 +116,7 @@ inventions = { 3000027 }
    # ########################################### 
    landunit = {
      id       = {  type = 32500 id = 1  } 
-     location = 262 
+     location = 617 
      name     = "Armiya Oborony Budynku" 
      Division = 
      {  id       = {  type = 32500 id = 2  } 
@@ -159,3 +149,4 @@ inventions = { 3000027 }
        strength = 30 
       } 
     }  
+	
