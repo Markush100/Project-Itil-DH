@@ -19,9 +19,9 @@
 	energy                 = 9000
 	metal                  = 4500
 	rare_materials         = 2250
-	oil                    = 1000 
+	oil                    = 5000 
 	supplies               = 500 
-	money                  = 70 
+	money                  = 200 
    diplomacy = 
    {  relation = {  tag = ARG value = 75  } 
      relation = {  tag = AST value = 1  } 
@@ -122,7 +122,6 @@
  143 186 187 188 189 190 191 192 193 194 195 
  # Poland 
  # 226 230 222 # Granted by Ribbentrop-Molotov pact, allow 'Danzig or War?'
- 401 402 # Trento Bolzano
                              } 
    ownedprovinces         = {  104 105 107 109 110 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 216 221 222 224 225 226 261 
                              } 
@@ -247,16 +246,16 @@ inventions = { 3000027 3000028 }
 blueprints = { 6240 6260 6270 7560 } # Elastic Defense, Combined Arms Off. and Kampfgruppe doctrines
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 1 
-     political_left    = 1 
-     free_market       = 5 
-     freedom           = 2 
+     democratic        = 7
+     political_left    = 5 
+     free_market       = 7
+     freedom           = 7                                              
      professional_army = 4 
      defense_lobby     = 6 
-     interventionism   = 5 
+     interventionism   = 7 
     } 
-	peacetime_ic_mod       = 0.9 # +10% added by 1 event before the war
-   headofstate            = {  type = 9 id = 1  } 
+	peacetime_ic_mod       = 1.0
+   headofstate            = {  type = 9 id = 855001  } 
    headofgovernment       = {  type = 9 id = 2  } 
    foreignminister        = {  type = 9 id = 3  } 
    armamentminister       = {  type = 9 id = 4  } 

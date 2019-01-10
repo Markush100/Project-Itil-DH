@@ -1,10 +1,10 @@
 MON;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-300001;Head of State;Agdanbuugiyn Amar;1933;1964;1999;LE;Weary Stiffneck;High;M94001;X
-300002;Head of Government;Dogijavyn Luvsanshara;1933;1964;1999;LE;Happy Amateur;High;M94002;X
-300003;Foreign Minister;Peljidiyn Genden;1933;1964;1999;LE;Great Compromiser;Very High;M94003;X
+300001;Head of State;Bogd Khan;1914;1945;1999;PA;Stern Imperialist;Very High;2862;X
+300002;Head of Government;Togs-Ochiryn Namnansuren;1933;1964;1999;PA;silent workhorse;Very High;AR14;X
+300003;Foreign Minister;Mijiddorjiin Khanddorj;1933;1964;1999;PA;Great Compromiser;Very High;AR13;X
 300004;Minister of Armament;Jambyn Lhümbe;1933;1964;1999;LE;Military Entrepreneur;Very High;M94004;X
-300005;Minister of Security;Jamtsangryin Damdinsüren;1933;1964;1999;LE;Efficient Sociopath;Very High;M94005;X
+300005;Minister of Security;Gonchigjalzangiin Badamdorj;1933;1964;1999;PA;crooked kleptocrat;Very High;AR15;X
 300006;Head of Military Intelligence;Horloogiyn Choybalsan;1933;1964;1999;LE;Logistics Specialist;Very High;M94006;X
 300007;Chief of Staff;Chimid;1933;1964;1999;LE;School of Psychology;Very High;M94007;X
 300008;Chief of Army;Chimid;1933;1964;1999;LE;Elastic Defence Doctrine;Very High;M94007;X
@@ -17,7 +17,7 @@ MON;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 300015;Head of State;Buma Tsende;1946;1964;1999;ST;Ruthless Powermonger;High;M94035;X
 300016;Head of Government;Demcuydungrub;1937;1964;1999;PA;Political Protege;High;M94012;X
 300017;Head of Government;Pai Yun-ti;1937;1964;1999;SD;Happy Amateur;High;M94021;X
-300018;Head of Government;Dashiyin Damba;1937;1964;1999;LWR;Smiling Oilman;High;M94038;X
+300018;Head of Government;Dashiyin Damba;1937;1964;1999;LWR;Smiling Oilman;High;M94038;Xd
 300019;Head of Government;Horloogiyn Choybalsan;1938;1964;1999;LWR;Old General;High;M94006;X
 300020;Head of Government;Horloogiyn Choybalsan;1940;1964;1999;ST;Old General;High;M94006;X
 300021;Head of Government;Jumdjaagijn Tsedenbal;1942;1964;1999;ST;Corporate Suit;High;M94041;X
@@ -109,7 +109,7 @@ MON;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 300107;Head of Military Intelligence;Sukhe Bator;1920;1933;1999;ST;Dismal Enigma;Very High;2853;X
 300108;Head of Military Intelligence;Ferdynand Ossendowski;1920;1933;1999;PA;Dismal Enigma;Very High;2860;X
 300109;Head of Military Intelligence;Horloogiyn Dandzan;1922;1933;1999;ST;Logistics Specialist;Very High;unknownminister;X
-300110;Head of State;Bogd Khan;1914;1933;1999;PA;Stern Imperialist;Very High;2862;X
+300110;Head of State;Bogd Khan;1914;1945;1999;PA;Stern Imperialist;Very High;2862;X
 300111;Head of State;Bogd Khan;1920;1933;1999;ST;Weary Stiffneck;Very High;2862;X
 300112;Head of State;Balingiin Tserendorj;1924;1933;1999;ST;Weary Stiffneck;Very High;2861;X
 300113;Head of State;Navaandorjiin Jadambaa;1924;1933;1999;ST;Weary Stiffneck;Very High;unknownminister;X

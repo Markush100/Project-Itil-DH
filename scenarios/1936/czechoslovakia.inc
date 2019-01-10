@@ -48,9 +48,9 @@
 	 relation = {  tag = EST value = 65  }
     } 
    SpyInfo                = {  country = "CZE" NumberOfSpies = 7  } 
-   nationalprovinces      = {  196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215  } 
-   ownedprovinces         = {  196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215  } 
-   controlledprovinces    = {  196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215  } 
+   nationalprovinces      = {  196 197 198 199 200 201 202 203 204 205 206 207 } 
+   ownedprovinces         = {  196 197 198 199 200 201 202 203 204 205 206 207 } 
+   controlledprovinces    = {  196 197 198 199 200 201 202 203 204 205 206 207 } 
    # Eastern Minor Tech '36 
    # Group C 1936 techs 
    # ###################### 

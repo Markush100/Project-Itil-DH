@@ -39,8 +39,8 @@
              #Macedonia and Greece 
              328 333 363 365 366 
               } 
-   ownedprovinces         = {  317 318 319 320 321 322 323 324 325 326  } 
-   controlledprovinces    = {  317 318 319 320 321 322 323 324 325 326  }
+   ownedprovinces         = {  317 318 319 320 321 322 323 324 325 326 363 370 } 
+   controlledprovinces    = {  317 318 319 320 321 322 323 324 325 326 363 370 }
    claimedprovinces = { 331 334 } 
    # Eastern Minor Tech '36 
    # Group D 1936 techs 

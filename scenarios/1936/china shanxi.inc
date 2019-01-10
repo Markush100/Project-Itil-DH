@@ -36,9 +36,9 @@
      interventionism   = 1 
     } 
   
-   nationalprovinces      = { 1238 1239 1248 1249 1250 1251 1252 1253 1254 1257 1258 } 
-   ownedprovinces         = { 1238 1239 1248 1249 1250 1251 1252 1253 1254 1257 1258 }
-   controlledprovinces    = { 1238 1239 1248 1249 1250 1251 1252 1253 1254 1257 1258 }
+   nationalprovinces      = { 1248 1249 1250 1251 1252 1253 1254 1257 1258 } 
+   ownedprovinces         = { 1248 1249 1250 1251 1252 1253 1254 1257 1258 }
+   controlledprovinces    = { 1248 1249 1250 1251 1252 1253 1254 1257 1258 }
 
    #Shanxi
 techapps = { 

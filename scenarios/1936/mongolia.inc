@@ -9,9 +9,7 @@
   
  country = 
  {  tag                    = MON 
-	name 				   = MON1924
-	puppet                 = SOV 
-	control                = SOV
+	name 				   = MON
 	ai_settings	= { flags = { MOB1 = yes MOB2 = yes } }	
 	# Resource Reserves 
 	energy                 = 300
@@ -25,12 +23,11 @@
    diplomacy = 
    {  relation = {  tag = CHC value = 25  } 
      relation = {  tag = MON value = 150  } 
-     relation = {  tag = TAN value = 200  } 
     } 
    SpyInfo                = {  country = "MON" NumberOfSpies = 3  } 
-   nationalprovinces      = {  1120 1121 1122 1123 1124 1125  } 
-   ownedprovinces         = {  1120 1121 1122 1123 1124 1125  } 
-   controlledprovinces    = {  1120 1121 1122 1123 1124 1125  } 
+   nationalprovinces      = {  1119 1120 1121 1122 1123 1124 1125 1238 1239 1240 1270 } 
+   ownedprovinces         = {  1119 1120 1121 1122 1123 1124 1125 1238 1239 1240 1270 } 
+   controlledprovinces    = {  1119 1120 1121 1122 1123 1124 1125 1238 1239 1240 1270 } 
    # ROTW Minor Tech '36 
    # Group E 1936 techs 
    # ###################### 
@@ -64,15 +61,15 @@
  inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 1 
-     political_left    = 7 
-     freedom           = 5 
+     democratic        = 2
+     political_left    = 3
+     freedom           = 4 
      free_market       = 3 
-     professional_army = 2 
-     defense_lobby     = 4 
+     professional_army = 8 
+     defense_lobby     = 9 
      interventionism   = 1 
     } 
-   headofstate            = {  type = 9 id = 300001  } 
+   headofstate            = {  type = 9 id = 300110  } 
    headofgovernment       = {  type = 9 id = 300002  } 
    foreignminister        = {  type = 9 id = 300003  } 
    armamentminister       = {  type = 9 id = 300004  } 

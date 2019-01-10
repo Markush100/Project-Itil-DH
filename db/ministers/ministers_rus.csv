@@ -1,10 +1,10 @@
 RUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
-515001;Head of State;Andrei Vlasov;1933;1964;1999;NS;Resigned Generalissimo;High;M4090;X
+515001;Head of State;Lavr Kornilov;1933;1964;1999;FA;Resigned Generalissimo;High;AR17;X
 515002;Head of State;Alexander Kerensky;1933;1964;1999;SC;Die-hard Reformer;High;3030;X
 515003;Head of Government;Petr Wrangel;1925;1930;1999;PA;Old General;High;3956;X
 515004;Head of Government;Garold Graf;1925;1964;1999;PA;silent workhorse;High;9314;X
 515005;Head of Government;Alexander von Lampe;1925;1967;1999;PA;old general;High;5628;X
-515006;Head of Government;Konstantin Rodzaevsky;1925;1964;1999;FA;Local tyrant;High;9311;X
+515006;Head of Government;Anastasy Vonsiatsky;1925;1964;1999;FA;Local tyrant;High;AR16;X
 515007;Head of Government;Anton Denikin;1925;1947;1999;PA;Old General;High;L500009;X
 515008;Head of Government;Lavr Kornilov;1925;1933;1999;PA;Old General;High;L500046;X
 515009;Head of Government;Nikolay Avksentiev;1925;1943;1999;SD;happy amateur;High;8902;X
@@ -17,7 +17,7 @@ RUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 515016;Foreign Minister;Evgeny Balabin;1925;1964;1999;PA;general staffer;High;9310;X
 515017;Foreign Minister;Garold Graf;1925;1964;1999;PA;great compromiser;High;9314;X
 515018;Foreign Minister;Grand Duke Andrey;1925;1956;1999;SC;biased intellectual;High;4451;X
-515019;Foreign Minister;Konstantin Rodzaevsky;1925;1964;1999;FA;iron fisted brute;High;9311;X
+515019;Foreign Minister;Anastasy Vonsiatsky;1925;1964;1999;FA;iron fisted brute;High;AR16;X
 515020;Foreign Minister;Alexander Gadd;1925;1964;1999;SL;Great Compromiser;High;9322;X
 515021;Foreign Minister;Konstantin Voskoboinik;1925;1964;1999;NS;ideological crusader;High;9312;X
 515022;Foreign Minister;Nikolay Avksentiev;1925;1943;1999;SD;apologetic clerk;High;8902;X
@@ -92,7 +92,7 @@ RUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 515091;Chief of Air Force;Vyacheslav Baranov;1925;1964;1999;SL;army aviation doctrine;High;9319;X
 515092;Chief of Air Force;Viktor Maltsev;1933;1964;1999;NS;Carpet Bombing Doctrine;High;9195;X
 515093;Chief of Air Force;Semyon Bychkov;1940;1964;1999;FA;army aviation doctrine;High;9316;X
-515094;Chief of Air Force;Duke Andrey Alexandrovich;1940;1980;1999;SC;vertical envelopment doctrine;High;9317;X
+515094;Chief of Air Force;Duke Andrey Alexandrovich;1936;1980;1999;PA;vertical envelopment doctrine;High;9317;X
 515095;Head of State;Nikolay II;1915;1933;1999;ML;Despotic Autocrat;High;3045;X
 515096;Head of State;Nikolay II;1894;1933;1999;PA;Despotic Autocrat;High;3045;X
 515097;Head of State;Georgy Lvov;1915;1925;1999;ML;Die-hard Reformer;High;3067;X
@@ -172,7 +172,7 @@ RUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 515171;Chief of Staff;Mikhail Alekseyev;1915;1918;1999;SC;commando doctrine staff;High;8732;X
 515172;Chief of Staff;Vasily Gurko;1916;1918;1999;PA;school of fire support;Very High;3050;X
 515173;Chief of Staff;Vladislav Klembovsky;1917;1922;1999;PA;school of manoeuvre;High;6500;X
-515174;Chief of Staff;Anton Denikin;1917;1948;1999;SC;school of defence;High;8696;X
+515174;Chief of Staff;Anton Denikin;1917;1948;1999;PA;school of defence;High;8696;X
 515175;Chief of Staff;Alexander Lukomsky;1917;1940;1999;PA;school of psychology;Very High;3953;X
 515176;Chief of Staff;Nikolay Dukhonin;1917;1918;1999;ML;school of mass combat;Very High;3954;X
 515177;Chief of Staff;Mikhail Diterihs;1917;1938;1999;ML;commando doctrine staff;High;8898;X

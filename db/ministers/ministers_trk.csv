@@ -1,15 +1,15 @@
 TRK;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-540001;Head of State;Kaikhaziz Atabayev;1933;1964;1999;ST;Weary Stiffneck;High;M525001;X
-540002;Head of Government;Grigorij Aronshtam;1933;1964;1999;ST;Flamboyant Tough Guy;High;M525002;X
-540003;Foreign Minister;Nikolai Sysin;1933;1964;1999;ST;Iron Fisted Brute;High;M525003;X
-540004;Minister of Armament;Yakov Popok;1933;1964;1999;ST;Tank Proponent;Medium;M525004;X
-540005;Minister of Security;Nerdibay Aytakov;1933;1964;1999;ST;Back Stabber;Medium;M525005;X
-540006;Head of Military Intelligence;Khivali Babayev;1933;1964;1999;ST;Technical Specialist;Medium;M525006;X
-540007;Chief of Staff;Nikita N. Belov;1933;1964;1999;ST;School of Manoeuvre;Medium;M525007;X
-540008;Chief of Army;Andrej Ulrich;1933;1964;1999;ST;Armoured Spearhead Doctrine;Medium;M525008;X
-540009;Chief of Navy;Yuri Batalov;1933;1964;1999;ST;Base Control Doctrine;Medium;M525009;X
-540010;Chief of Air Force;Aleksandr Baturin;1933;1964;1999;ST;Naval Aviation Doctrine;Medium;M525010;X
+540001;Head of State;Ismail Enver Basbug;1933;1964;1999;FA;resigned generalissimo;Very High;AR7;X
+540002;Head of Government;Ismail Enver Basbug;1933;1964;1999;FA;old general;Very High;AR7;X
+540003;Foreign Minister;Mehmet Fuat Koprulu;1933;1964;1999;FA;ideological crusader;High;AR9;X
+540004;Minister of Armament;Nuri Killigil;1933;1964;1999;FA;infantry proponent;High;AR8;X
+540005;Minister of Security;Talaat Pasha;1933;1964;1999;FA;Back Stabber;Medium;AR10;X
+540006;Head of Military Intelligence;Nihal Astiz;1933;1964;1999;NS;dismal enigma;Medium;AR12;X
+540007;Chief of Staff;Ismail Enver Basbug;1933;1964;1999;FA;school of psychology;Medium;AR7;X
+540008;Chief of Army;Djemal Pasha;1933;1964;1999;FA;Armoured Spearhead Doctrine;Medium;AR11;X
+540009;Chief of Navy;Djemal Pasha;1933;1964;1999;FA;indirect approach doctrine;Medium;AR11;X
+540010;Chief of Air Force;Djemal Pasha;1933;1964;1999;FA;Army Aviation Doctrine;Medium;AR11;X
 540011;Head of State;Boris Stein;1933;1964;1999;SD;Benevolent Gentleman;High;M525011;X
 540012;Head of State;Jacob Suritz;1933;1964;1999;SC;Pig-headed Isolationist;High;M525012;X
 540013;Head of Government;Rozalia Zalikind;1933;1964;1999;SD;Ambitious Union Boss;High;M525013;X

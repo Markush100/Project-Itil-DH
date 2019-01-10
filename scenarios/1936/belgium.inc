@@ -24,41 +24,24 @@
 	
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 9 
+     democratic        = 6 
      political_left    = 3 
-     free_market       = 9 
-     freedom           = 10 
-     professional_army = 5 
-     defense_lobby     = 2 
-     interventionism   = 2 
+     free_market       = 4 
+     freedom           = 6 
+     professional_army = 9 
+     defense_lobby     = 9 
+     interventionism   = 1 
     } 	
 	
 	
    diplomacy = 
-   {  relation = {  tag = AST value = 75  } 
-     relation = {  tag = CAN value = 150  } 
-     relation = {  tag = DEN value = 100  } 
-     relation = {  tag = ENG value = 150  } 
-     relation = {  tag = FIN value = 100  } 
-     relation = {  tag = FRA value = 120  } 
-     relation = {  tag = GER value = 20  } 
-     relation = {  tag = HOL value = 150  } 
-     relation = {  tag = IRE value = 75  } 
-     relation = {  tag = ITA value = -5  } 
-     relation = {  tag = JAP value = -25  } 
-     relation = {  tag = LUX value = 200  } 
-     relation = {  tag = NOR value = 100  } 
-     relation = {  tag = NZL value = 20  } 
-     relation = {  tag = POR value = -20  } 
-     relation = {  tag = SAF value = 35  } 
-     relation = {  tag = SWE value = 100  } 
-     relation = {  tag = USA value = 75  } 
+   {  
+     relation = {  tag = GER value = 200 access = yes } 
     } 
-   SpyInfo                = {  country = "BEL" NumberOfSpies = 6  } 
-   nationalprovinces      = {  108 111 112 113 114 115 116 117 } 
-   ownedprovinces         = {  108 111 112 113 114 115 116 117 846 847 894 897 898 899 901 902 903 904 905 906  } 
-   controlledprovinces    = {  108 111 112 113 114 115 116 117 846 847 894 897 898 899 901 902 903 904 905 906  } 
-   claimedprovinces       = {  846 847 894 897 898 899 901 902 903 904 905 906 } #Belgian Congo
+   SpyInfo                = {  country = "BEL" NumberOfSpies = 3  } 
+   nationalprovinces      = {  114 115 116 117  } 
+   ownedprovinces         = {  114 115 116 117  } 
+   controlledprovinces    = {  114 115 116 117  } 
    # Western Minor Tech '36 
    # Group C 1936 techs 
    # ###################### 

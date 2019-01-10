@@ -1,34 +1,60 @@
- 
- ############################## 
- # Country definition for UKR # 
- ############################## 
+#Republic of Ukraine
+#Made by Markush
 
- ##################### 
- # Country main data # 
- ##################### 
-  
- country = 
- {  tag                    = UKR
-	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes } } 
-	capital                = 617
-	manpower               = 124 
-	# Resource Reserves 
-	energy                 = 3900
-	metal                  = 2000
-	rare_materials         = 2000
-	transports = 100
-	oil                    = 500 
-	supplies               = 500 
-	money                  = 10
+#Main section
+country = {
+   tag = UKR 
+   capital = 617 #Kiev
+   
+ai_settings = { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes } }
 
-    
-   SpyInfo                = {  country = "UKR" NumberOfSpies = 9  } 
-   ownedprovinces         = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 } 
-   controlledprovinces    = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 }
-   nationalprovinces      = { 238 239 240 241 242 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 625 626 633 634 635 636 637 638 639 640 641 644 691 692 693 694 695 696 } 
+   #Resources
+   
+    energy                 = 1000
+    metal                  = 1000
+    rare_materials         = 1000
+    oil                    = 500
+    supplies               = 1000
+    money                  = 100
+    manpower               =  250
+    transports             = 50
+    escorts                = 5
+	
+	#Government	
  
-   # Air Doctrines 
-   techapps               = {
+   headofstate            = {  type = 9 id = 545011 }  # Hrushevsky
+   headofgovernment       = {  type = 9 id = 545163 } # Vynnychenko
+   foreignminister        = {  type = 9 id = 545099 } 
+   armamentminister       = {  type = 9 id = 545115 } 
+   ministerofsecurity     = {  type = 9 id = 545136 } 
+   ministerofintelligence = {  type = 9 id = 545142 } 
+   chiefofstaff           = {  type = 9 id = 545146 } 
+   chiefofarmy            = {  type = 9 id = 545152 } 
+   chiefofnavy            = {  type = 9 id = 545156 } 
+   chiefofair             = {  type = 9 id = 545161 }  
+
+   policy = {
+    date  = {  year = 0 month = january day = 0  }
+        democratic = 7
+        political_left = 4
+        free_market = 6
+        freedom = 7
+        professional_army = 4
+        defense_lobby = 9
+        interventionism = 2
+    }
+
+
+
+  diplomacy = {
+  relation = { tag = SOV value = -200 }
+  relation = { tag = GER value = 50 }
+  relation = { tag = POL value = -40 }
+  relation = { tag = ROM value = -10 }
+  }
+
+
+  techapps               = {
 #Early Infantry Division  
 1010  1020 1030 1040 1050 1060 1070 1080 1090
 #Early Mountain Division 
@@ -97,56 +123,54 @@
 8010 8040  8050
 #Air Doctrines - ww2 techs
 27480 27490 27500 27510 27520 27530 27540 27550 27570 27580 27590 27600 9030 9020 27560 27460 27470 9010 
-} 
+}
 inventions = { 3000027 }
-   policy = 
-   {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 7 
-     political_left    = 1 
-     freedom           = 4 
-     free_market       = 5 
-     professional_army = 5 
-     defense_lobby     = 8 
-     interventionism   = 6 
-    } 
 
-   # Firepower 
-   # ########################################### 
-   # ###Ukrainian Army########################## 
-   # ########################################### 
-   landunit = {
+
+#Territory
+
+ nationalprovinces = { 238 239 240 241 242 245 249 244 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 644 691 692 693 694   } 
+ ownedprovinces = { 238 239 240 241 242 244 245 249 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 644 691 692 693 694  }
+ controlledprovinces = { 238 239 240 241 242 244 245 249 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 644 691 692 693 694  }
+
+
+#OOB
+
+landunit = {
      id       = {  type = 32500 id = 1  } 
-     location = 617 
+     location = 617
      name     = "Armiya Oborony Budynku" 
      Division = 
      {  id       = {  type = 32500 id = 2  } 
        name     = "1. Divizija" 
        type     = infantry 
-	   model = 7
+     model = 7
        strength = 50 
       } 
      Division = 
      {  id       = {  type = 32500 id = 3  } 
        name     = "2. Divizija" 
        type     = infantry 
-	   model = 7
+     model = 7
         strength = 50 
        extra = artillery 
-       brigade_model = 1	   
+       brigade_model = 1     
       }
      Division = 
      {  id       = {  type = 32500 id = 4  } 
        name     = "3. Divizija" 
        type     = infantry 
        strength = 50
-	   model = 7
+     model = 7
       } 
      Division = 
      {  id       = {  type = 32500 id = 5  } 
        name     = "1-a Kavaleriysʹka Bryhada" 
        type     = cavalry
-	   model = 7
+     model = 7
        strength = 30 
       } 
     }  
-	
+
+   } 
+

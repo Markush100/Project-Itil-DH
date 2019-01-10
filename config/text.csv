@@ -806,15 +806,15 @@ HOIG_CHIEF_OF_NAVY;Chief of the Navy;Chef de la Marine;Capo della Marina;Jefe Ma
 HOIG_CHIEF_OF_AIR;Chief of the Air Force;Chef de l'Aviation;Capo dell'Aeronautica;Jefe Fuerzas Aйreas;Chef der Luftwaffe;Dowуdca siі pow.;;Главком ВВС;;;X
 ##;;;;;;;;;;;X
 CATEGORY_NATIONAL_SOCIALIST;National Socialist;National-socialiste;Nazionalsocialista;Nacionalsocialista;Nationalsozialist;Narodowy socjalizm;;Национал-социалисты;;;X
-CATEGORY_FASCIST;Fascist;Fasciste;Fascista;Fascista;Faschist;Faszyzm;;Фашисты;;;X
+CATEGORY_FASCIST;National Integralist;Fasciste;Fascista;Fascista;Faschist;Faszyzm;;Фашисты;;;X
 CATEGORY_PATERNAL_AUTOCRAT;Paternal Autocrat;Autoritariste;Autocrate paterno;Autуcrata paternalista;Vдterlicher Autokrat;Opiekuсcza autokracja;;Патерналисты;;;X
 CATEGORY_SOCIAL_CONSERVATIVE;Social Conservative;Conservateur;Social-conservatore;Social conservador;Sozialkonservativ;Konserwatyzm socjalny;;Социал-консерваторы;;;X
 CATEGORY_MARKET_LIBERAL;Market Liberal;Libйral;Liberoscambista;Ultraliberal;Marktliberal;Liberalizm rynkowy;;Либералы-рыночники;;;X
 CATEGORY_SOCIAL_LIBERAL;Social Liberal;Social-libйral;Social-liberale;Social liberal;Sozialliberal;Liberalizm socjalny;;Социал-либералы;;;X
-CATEGORY_SOCIAL_DEMOCRAT;Social Democrat;Social-dйmocrate;Socialdemocratico;Socialdemуcrata;Sozialdemokrat;Socjaldemokracja;;Социал-демократы;;;X
-CATEGORY_LEFT_WING_RADICAL;Left-Wing Radical;Marxiste;Radicale di sinistra;Izquierda radical;Linksradikal;Radykalna lewica;;Левые радикалы;;;X
-CATEGORY_LENINIST;Leninist;Lйninien;Leninista;Leninista;Leninist;Leninizm;;Ленинисты;;;X
-CATEGORY_STALINIST;Stalinist;Stalinien;Stalinista;Estalinista;Stalinist;Stalinizm;;Сталинисты;;;X
+CATEGORY_SOCIAL_DEMOCRAT;Social Reformist;Social-dйmocrate;Socialdemocratico;Socialdemуcrata;Sozialdemokrat;Socjaldemokracja;;Социал-демократы;;;X
+CATEGORY_LEFT_WING_RADICAL;Moderate Socialist;Marxiste;Radicale di sinistra;Izquierda radical;Linksradikal;Radykalna lewica;;Левые радикалы;;;X
+CATEGORY_LENINIST;Socialist;Lйninien;Leninista;Leninista;Leninist;Leninizm;;Ленинисты;;;X
+CATEGORY_STALINIST;Kirovist;Stalinien;Stalinista;Estalinista;Stalinist;Stalinizm;;Сталинисты;;;X
 ##;;;;;;;;;;;X
 BATTLE_ATTACKMOD;Attack effectiveness %.f percent.\n;Efficacitй en attaque: %.f pour cent.\n;Efficacia dell'attacco %.f per cento.\n;Eficacia ataque: %.f por ciento.\n;Angriffseffizienz %.f Prozent.\n;Efektywnoњж ataku %.f procent.\n;;Эффективность атаки: %.f процентов.\n;;;X
 BATTLE_DEFENDMOD;Defense effectiveness %.f percent.\n;Efficacitй en dйfense: %.f pour cent.\n;Efficacia della difesa %.f per cento.\n;Eficacia defensa: %.f por ciento.\n;Verteidigungseffizienz %.f Prozent.\n;Efektywnoњж obrony %.f procent.\n;;Эффективность защиты: %.f процентов.\n;;;X

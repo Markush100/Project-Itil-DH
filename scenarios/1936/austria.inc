@@ -39,9 +39,9 @@
      relation = {  tag = SCH value = 50  } 
     } 
    SpyInfo                = {  country = "AUS" NumberOfSpies = 6  } 
-   nationalprovinces      = {  186 187 188 189 190 191 192 193 194 195 401 402 } 
-   ownedprovinces         = {  186 187 188 189 190 191 192 193 194 195  } 
-   controlledprovinces    = {  186 187 188 189 190 191 192 193 194 195  } 
+   nationalprovinces      = {  186 187 189 190 191 192 193 194 195 401 402 346 349 403 404 406 } 
+   ownedprovinces         = {  186 187 189 190 191 192 193 194 195 346 349 402 403 404 406 } 
+   controlledprovinces    = {  186 187 189 190 191 192 193 194 195 346 349 402 403 404 406 } 
    claimedprovinces 	  = {  197 279 } 
    # Western Minor Tech '36 
    # Group C 1936 techs 

@@ -1,15 +1,15 @@
 SOV;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-30001;Head of State;Mikhail I. Kalinin;1922;1964;1999;ST;Weary Stiffneck;High;3176;X
-30002;Head of State;Iosif V. Stalin;1930;1964;1999;ST;Paranoid megalomaniac2;High;3177;X
-30003;Foreign Minister;Maksim M. Litvinov;1930;1964;1999;ST;Persuader of Democracies;Medium;3178;X
-30004;Minister of Armament;Lazar M. Kaganovich;1930;1962;1999;ST;Iron Lazar;High;3179;X
-30005;Minister of Security;Genrikh G. Yagoda;1933;1939;1999;ST;Purged Purger;Low;3180;X
-30006;Head of Military Intelligence;Yan K. Berzin;1930;1964;1999;ST;Technical Specialist;Medium;3181;X
-30007;Chief of Staff;Mikhail N. Tukhatchevskiy;1933;1964;1999;LE;Deep Battle Proponent;Low;3182;X
-30008;Chief of Army;Kliment Y. Voroshilov;1933;1970;1999;ST;Guns and Butter Doctrine;Very High;3183;X
-30009;Chief of Navy;Vladimir M. Orlov;1930;1964;1999;LE;Indirect Approach Doctrine;Very Low;M4009;X
-30010;Chief of Air Force;Yakov I. Alksnis;1922;1939;1999;LE;Air Superiority Doctrine;High;3184;X
+30001;Head of State;Lev Trotsky;1922;1964;1999;LE;Determined Revolutionary;Very High;AR3;X
+30002;Head of Government;Nikolai Bukharin;1914;1964;1999;LE;Silent Workhorse;High;AR6;X
+30003;Foreign Minister;Raphael Abramovitch;1930;1964;1999;LWR;biased intellectual;Medium;AR18;X
+30004;Minister of Armament;Alexander Shliapnikov;1930;1962;1999;LWR;administrative genius;High;AR19;X
+30005;Minister of Security;Sergey Kirov;1933;1964;1999;ST;man of the people;High;AR4;X
+30006;Head of Military Intelligence;Yakov Peters;1914;1964;1999;LE;dismal;Medium;AR20;X
+30007;Chief of Staff;Mikhail N. Tukhachevsky;1933;1964;1999;LE;Deep Battle Proponent1;Very High;AR5;X
+30008;Chief of Army;Mikhail Frunze;1933;1964;1999;ST;Deep Battle Proponent2;Very High;AR21;X
+30009;Chief of Navy;Nikolay G. Kuznetsov;1935;1964;1999;ST;Decisive Naval Battle Doctrine;High;3202;X
+30010;Chief of Air Force;Yakov I. Alksnis;1922;1964;1999;LE;Air Superiority Doctrine;High;3184;X
 30011;Head of State;Iosif V. Stalin;1933;1964;1999;ST;Ruthless Powermonger;Very High;3177;X
 30012;Head of State;Vyacheslav M. Molotov;1933;1964;1999;ST;Autocratic Charmer;High;3185;X
 30013;Head of State;Nikolay M. Shvernik;1946;1964;1999;ST;Insignificant Layman;High;3186;X
@@ -140,7 +140,7 @@ SOV;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 30139;Chief of Air Force;Andrey Znamensky;1920;1932;1999;LE;vertical envelopment doctrine;Medium;8675;X
 30140;Chief of Air Force;Arkady Rosengolts;1920;1932;1999;LE;carpet bombing doctrine;Medium;8671;X
 30141;Chief of Air Force;Pyotr Baranov;1920;1932;1999;LE;naval aviation doctrine;Medium;3035;X
-30142;Head of Government;Nikolai Bukharin;1914;1932;1999;LWR;Political Protege;Medium;8656;X
+30142;Head of Government;Nikolai Bukharin;1914;1964;1999;LE;Silent Workhorse;High;AR6;X
 30143;Chief of Air Force;Pavel F. Zhigarev;1938;1959;1999;ST;Army Aviation Doctrine;Medium;L10512;X
 30144;Head of Government;Iosif V. Stalin;1933;1954;1999;ST;flamboyant tough guy;High;3177;X
 30145;Head of State;Leon Trotsky;1924;1932;1999;ST;Ruthless Powermonger;Very High;9909;X
@@ -153,3 +153,4 @@ SOV;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 30152;Chief of Air Force;Pavel Stepanovich Kutakhov;1969;1984;1985;LE;Air Superiority Doctrine;High;L10478;X
 30153;Chief of Staff;Alexander Yegorov;1931;1938;1999;ST;School of Mass Combat;Low;6936;X
 30154;Chief of Army;Alexander Yegorov;1931;1938;1999;ST;Decisive Battle Doctrine;Very High;6936;X
+30155;Chief of Army;Mikhail N. Tukhatchevskiy;1933;1964;1999;LE;Deep Battle Proponent2;Very High;AR5;X

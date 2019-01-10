@@ -3,8 +3,8 @@ panel      = "scenarios/data/scenario_1936.bmp"
 header =
 { name       = "The Old Order"
   startdate  = { year = 1936 }
-  selectable = { AFG ALB ARG AST AUS BEL BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE IRQ ITA 
-		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TAN TIB TUR URU USA VEN YEM YUG U02 U06 U03 U04 U05 UKR
+  selectable = { AFG ARG AST AUS BEL BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE IRQ ITA 
+		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TIB TUR URU USA VEN YEM YUG U02 U06 U03 U04 U05 UKR TRK RUS
                }
   ENG        = { }
   FRA        = { }
@@ -20,7 +20,7 @@ header =
   AST 	     = { }
   NZL 	     = { }  
   UKR 	     = { }
-  CZE 	     = { }
+  RUS 	     = { }
   MAN 	     = { }
   HUN 	     = { }
   ROM 	     = { }
@@ -39,15 +39,11 @@ globaldata =
   }
   comintern =
   { id          = { type = 15000 id = 3 }
-    participant = { SOV MON TAN }
+    participant = { SOV LAT PER }
   }
   alliance =
   { id          = { type = 15000 id = 10 }
     participant = { CHI CXB }
-  }
-  alliance =
-  { id          = { type = 15000 id = 11 }
-    participant = { EST LAT }
   }
   alliance =
   { id          = { type = 15000 id = 12 }
@@ -872,7 +868,6 @@ include = "scenarios\1936\vp.inc"
 # Include files for each country tag used in the scenario
 include = "scenarios\1936\abyssinia.inc"
 include = "scenarios\1936\afghanistan.inc"
-include = "scenarios\1936\albania.inc"
 include = "scenarios\1936\argentina.inc"
 include = "scenarios\1936\australia.inc"
 include = "scenarios\1936\austria.inc"
@@ -942,7 +937,6 @@ include = "scenarios\1936\china sinkiang.inc"
 include = "scenarios\1936\soviet union.inc"
 include = "scenarios\1936\spain.inc"
 include = "scenarios\1936\sweden.inc"
-include = "scenarios\1936\tannu tuva.inc"
 include = "scenarios\1936\tibet.inc"
 include = "scenarios\1936\turkey.inc"
 include = "scenarios\1936\british raj.inc"
@@ -956,4 +950,9 @@ include = "scenarios\1936\yugoslavia.inc"
 include = "scenarios\1936\bases.inc"
 include = "scenarios\1936\depots.inc"
 include = "scenarios\1936\ukraine.inc"
-
+include = "scenarios\1936\wallonia.inc"
+include = "scenarios\1936\georgia.inc"
+include = "scenarios\1936\armenia.inc"
+include = "scenarios\1936\azerbaijan.inc"
+include = "scenarios\1936\turkestan.inc"
+include = "scenarios\1936\russia.inc"

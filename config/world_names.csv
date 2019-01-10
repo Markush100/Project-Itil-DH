@@ -15,7 +15,7 @@ AST;Australia;Australie;Australia;Australia;Australien;Australia;;Австралия;;;X
 AUS;Austria;Autriche;Austria;Austria;Цsterreich;Austria;;Австрия;;;X
 AXI;The Axis;L'Axe;L'Asse;El Eje;Die Achsenmдchte;Paсstwa Osi;;Ось;;;X
 AZB;Azerbaijan;Azerbaпdjan;Azerbaigian;Azerbaiyбn;Aserbaidschan;Azerbejdїan;;Азербайджан;;;X
-BEL;Belgium;Belgique;Belgio;Bйlgica;Belgien;Belgia;;Бельгия;;;X
+BEL;Flanders;Belgique;Belgio;Bйlgica;Belgien;Belgia;;Бельгия;;;X
 BEN;Benin-Sahel;Bйnin-Sahel;Benin-Sahel;Benin-Sahel;Benin-Sahel;Benin-Sahel;;Бенин;;;X
 BHU;Bhutan;Bhoutan;Bhutan;Butбn;Bhutan;Bhutan;;Бутан;;;X
 BLR;Byelorussia;Biйlorussie;Bielorussia;Bielorrusia;Belarus;Biaіoruњ;;Беларусь;;;X
@@ -99,7 +99,7 @@ MEN;Mengjiang;Mengjiang;Mengjiang;Mengjiang;Mengjiang;Mongolia Wewnкtrzna;;Внутр
 MEX;Mexico;Mexique;Messico;Mйxico;Mexiko;Meksyk;;Мексика;;;X
 MIN;(Undefined Nation);(nation non dйfinie);(Nazione non specificata);(Naciуn sin definir);(nicht definierte Nation);(Nieokreњlone paсstwo);;(Неопределенная страна);;;X
 MLY;Malaysia;Malaisie;Malesia;Malasia;Malaysia;Malezja;;Малайзия;;;X
-MON;Mongolia;Mongolie;Mongolia;Mongolia;Mongolei;Mongolia;;Монголия;;;X
+MON;Bogd Khanate;Mongolie;Mongolia;Mongolia;Mongolei;Mongolia;;Монголия;;;X
 MOR;Morocco;Maroc;Marocco;Marruecos;Marokko;Maroko;;Марокко;;;X
 MOZ;Mozambique;Mozambique;Mozambico;Mozambique;Mosambik;Mozambik;;Мозамбик;;;X
 MTN;Montenegro;Montйnйgro;Montenegro;Montenegro;Montenegro;Czarnogуra;;Черногория;;;X
@@ -126,7 +126,7 @@ QUE;Quebec;Quйbec;Quebec;Quйbec;Quebec;Quebec;;Квебек;;;X
 RHO;Rhodesia and Nyasaland;Rhodйsie et Nyassaland;Rhodesia e Nyasaland;Rhodesia y Nyasaland;Rhodesien und Njassaland;Rodezja i Niasa;;Родезия и Ньясаленда;;;X
 ROM;Romania;Roumanie;Romania;Rumania;Rumдnien;Rumunia;;Румыния;;;X
 RSI;Italian Social Republic;Rйpublique sociale Italienne;Repubblica Sociale Italiana;Repъblica Socialista Italiana;Italienische Sozialrepublik;Wіoska Republika Socjalna;;Итальянская Соц. Респ.;;;X
-RUS;Russia;Russie;Russia;Rusia;Russland;Rosja;;Россия;;;X
+RUS;Russian State;Russie;Russia;Rusia;Russland;Rosja;;Россия;;;X
 SAF;Union of South Africa;Union d'Afrique du sud;Sudafrica;Sudбfrica;Sьdafrika;RPA;;Южная Африка;;;X
 SAL;El Salvador;Salvador;El Salvador;El Salvador;El Salvador;Salwador;;Сальвадор;;;X
 SAR;Sarawak;Sarawak;Sarawak;Sarawak;Sarawak;Sarawak;;Саравак;;;X
@@ -154,7 +154,7 @@ TAN;Tannu Tuva;Tannu Tuva;Tannu Tuva;Tannu Tuva;Tannu-Tuwa;Tanu Tuwa;;Тува;;;X
 TEX;Texas;Texas;Texas;Texas;Texas;Teksas;;Техас;;;X
 TIB;Tibet;Tibet;Tibet;Tнbet;Tibet;Tybet;;Тибет;;;X
 TRA;Transural Republic;Rйpublique Transourale;Repubblica Transurale;Repъblica Transural;Transural-Republik;Republika Zauralska;;Дальневост.республика;;;X
-TRK;Turkmenistan;Turkmйnistan;Turkmenistan;Turkmenistбn;Turkmenistan;Turkmenistan;;Туркменистан;;;X
+TRK;Turkestan;Turkmйnistan;Turkmenistan;Turkmenistбn;Turkmenistan;Turkmenistan;;Туркменистан;;;X
 TUN;Tunisia;Tunisie;Tunisia;Tъnez;Tunesien;Tunezja;;Тунис;;;X
 TUR;Turkey;Turquie;Turchia;Turquнa;Tьrkei;Turcja;;Турция;;;X
 UKR;Ukraine;Ukraine;Ucraina;Ucrania;Ukraine;Ukraina;;Украина;;;X
@@ -183,7 +183,7 @@ U13;Hungarian Socialist Republic;Rйpublique socialiste de Hongrie;Repubblica Soc
 U14;Italian Union;Union Italienne;Unione Italiana;Uniуn Italiana;Italienische Union;Zwi№zek Wіoski;;Итальянский Союз;;;X
 U15;Socialist Republic of Portugal;Rйpublique socialiste du Portugal;Repubblica Socialista del Portogallo;Repъblica Socialista de Portugal;Sozialistische Republik Portugal;Portugalska Republika Socjalistyczna;;Социалистическая Республика Португалия;;;X
 U16;Austrian Democratic Republic;Rйpublique dйmocratique d'Autriche;Repubblica Democratica Austriaca;Repъblica Democrбtica de Austria;Цsterreichsche Demokratische Republik;Austriacka Republika Demokratyczna;;Демократическая Республика Австрия;;;X
-U17;People's Republic of Belgium;Rйpublique populaire de Belgique;Repubblica Popolare del Belgio;Repъblica Popular Belga;Volksrepublik Belgien;Belgijska Republika Ludowa;;Народная Республика Бельгия;;;X
+U17;Wallonia;Rйpublique populaire de Belgique;Repubblica Popolare del Belgio;Repъblica Popular Belga;Volksrepublik Belgien;Belgijska Republika Ludowa;;Народная Республика Бельгия;;;X
 U18;Luxembourg;Luxembourg;Lussemburgo;Luxemburgo;Luxemburg;Luksemburg;;Социалистическая Республика Люксембург;;;X
 U19;People's Republic of Norway;Rйpublique populaire de Norvиge;Repubblica Popolare di Norvegia;Repъblica del Pueblo Noruego;Volksrepublik Norwegen;Norweska Republika Ludowa;;Народная Республика Норвегия;;;X
 U20;Finnish Democratic Republic;Rйpublique dйmocratique de Finlande;Repubblica Democratica Finlandese;Repъblica Democrбtica de Finlandia;Finnische Demokratische Republik;Fiсska Republika Demokratyczna;;Финская Демократическая Республика;;;X
