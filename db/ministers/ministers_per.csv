@@ -1,15 +1,15 @@
 PER;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-150001;Head of State;Reza Pahlavi;1925;1943;1999;PA;Resigned Generalissimo;High;M53001;X
-150002;Head of Government;Mahmud Jam;1933;1964;1999;PA;Silent Workhorse;High;M53002;X
-150003;Foreign Minister;Inoyatullah Khan Sami;1933;1964;1999;PA;Great Compromiser;Medium;M53003;X
-150004;Minister of Armament;Ahmad Khan Nakhjavan;1933;1964;1999;PA;Battle Fleet Proponent;Medium;M53004;X
-150005;Minister of Security;Ali Akbar Deiva;1933;1964;1999;PA;Back Stabber;Medium;M53005;X
-150006;Head of Military Intelligence;Reza Mizani;1933;1964;1999;PA;Naval Intelligence Specialist;Medium;M53006;X
-150007;Chief of Staff;Reza Pahlavi;1933;1943;1999;PA;School of Defence;Medium;M53001;X
-150008;Chief of Army;Abdolreza Afkhami;1933;1964;1999;PA;Static Defence Doctrine;Medium;M53008;X
-150009;Chief of Navy;Ahmad Mira Khosravani;1933;1964;1999;PA;Indirect Approach Doctrine;High;M53009;X
-150010;Chief of Air Force;Ahmad Khan Nakhjavan;1933;1964;1999;PA;Naval Aviation Doctrine;High;M53004;X
+150001;Head of State;Haydar Khan Amo-oghli;1925;1943;1999;LE;autocratic charmer;Medium;AR22;X
+150002;Head of Government;Taqi Arani;1933;1964;1999;LE;happy amateur;High;AR23;X
+150003;Foreign Minister;Avetis Sultan-Zade;1933;1964;1999;LE;ideological crusader;Medium;AR24;X
+150004;Minister of Armament;Ja'far Pishevari;1933;1964;1999;LE;resource industrialist;Medium;AR25;X
+150005;Minister of Security;Ehsanollah Khan Dustdar;1933;1964;1999;LE;crime fighter;Medium;AR26;X
+150006;Head of Military Intelligence;Guaoke Hooshang;1933;1964;1999;ST;dismal enigma;Low;AR27;X
+150007;Chief of Staff;Mirza Kuchik Khan;1933;1963;1999;ST;School of Defence;Low;AR28;X
+150008;Chief of Army;Khalo Ghorban Harsini;1933;1964;1999;ST;guns and butter doctrine;Low;AR29;X
+150009;Chief of Navy;Under Army Control;1933;1964;1999;PA;Indirect Approach Doctrine;High;AR30;X
+150010;Chief of Air Force;Under Army Control;1933;1964;1999;PA;army aviation doctrine;High;AR30;X
 150011;Head of State;Mohammed Reza Pahlavi;1941;1964;1999;SC;Benevolent Gentleman;High;M53011;X
 150012;Head of State;Mohammed Reza Pahlavi;1941;1964;1999;PA;Autocratic Charmer;High;M53011;X
 150013;Head of Government;Ahmad Matin-Daftary;1939;1964;1999;FA;Naive Optimist;High;M53033;X

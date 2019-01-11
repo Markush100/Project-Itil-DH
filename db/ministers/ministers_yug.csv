@@ -1,10 +1,10 @@
 YUG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-100001;Head of State;Pavle Karadjordjevic;1933;1964;1999;PA;Benevolent Gentleman;High;3691;X
-100002;Head of Government;Milan Stojadinovic;1933;1964;1999;PA;Silent Workhorse;High;M20002;X
-100003;Foreign Minister;Milan Stojadinovic;1933;1964;1999;PA;The Cloak N Dagger Schemer;Medium;M20002;X
-100004;Minister of Armament;Bogoljub Jevtic;1933;1964;1999;PA;Corrupt Kleptocrat;Medium;M20004;X
-100005;Minister of Security;Pavle Karadjordjevic;1933;1964;1999;PA;Prince of Terror;High;3691;X
+100001;Head of State;Alekasandar I Karadjordjevic;1933;1964;1999;PA;ruthless powermonger;High;AR31;X
+100002;Head of Government;Nikola Uzunovic;1933;1964;1999;SC;political protege;High;AR32;X
+100003;Foreign Minister;Vojislav Marinkovic;1933;1964;1999;SC;apologetic clerk;Medium;AR33;X
+100004;Minister of Armament;Milan Stojadinovic;1933;1964;1999;FA;Corrupt Kleptocrat;Medium;AR34;X
+100005;Minister of Security;Bozidar Maksimovic;1933;1964;1999;SC;silent lawyer;High;AR35;X
 100006;Head of Military Intelligence;Borivoje Joksimovic;1933;1964;1999;PA;Political Specialist;Medium;L46013;X
 100007;Chief of Staff;Petar Kosic;1933;1964;1999;PA;School of Mass Combat;Medium;L46015;X
 100008;Chief of Army;Aleksandar Cincar-Markovic;1933;1964;1999;PA;Decisive Battle Doctrine;Very High;L46005;X

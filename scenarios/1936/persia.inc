@@ -24,17 +24,17 @@
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
      democratic        = 3 
-     political_left    = 4 
-     freedom           = 3 
-     free_market       = 5 
-     professional_army = 5 
-     defense_lobby     = 5 
-     interventionism   = 5 
+     political_left    = 8
+     freedom           = 4 
+     free_market       = 3 
+     professional_army = 7 
+     defense_lobby     = 6 
+     interventionism   = 6 
     } 
 
    nationalprovinces      = {  1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 1095  } 
-   ownedprovinces         = {  1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 1095  } 
-   controlledprovinces    = {  1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094 1095  } 
+   ownedprovinces         = {  1080 1081 1082 1083 1084 1085 1086 1087 1092  } 
+   controlledprovinces    = {  1080 1081 1082 1083 1084 1085 1086 1087 1092  } 
    # ROTW Minor Tech '36 
    # Group E 1936 techs 
    # ###################### 
@@ -87,7 +87,7 @@
    ministerofintelligence = {  type = 9 id = 150006  } 
    chiefofstaff           = {  type = 9 id = 150007  } 
    chiefofarmy            = {  type = 9 id = 150008  } 
-   chiefofnavy            = {  type = 9 id = 150125  } #Gholamali Bayandor
+   chiefofnavy            = {  type = 9 id = 150009  } 
    chiefofair             = {  type = 9 id = 150010  } 
    landunit = 
    {  location = 1085 
@@ -108,5 +108,5 @@
        type = cavalry 
       } 
     } 
-  } 
+  }
  
