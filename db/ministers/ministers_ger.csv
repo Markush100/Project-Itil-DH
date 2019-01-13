@@ -1,14 +1,14 @@
 GER;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
-1;Head of State;Adolf Hitler;1933;1964;1999;NS;Paranoid megalomaniac;High;2634;X
-2;Head of Government;Rudolf Hess;1933;1964;1999;NS;Silent Workhorse;High;2635;X
-3;Foreign Minister;Konstantin von Neurath;1933;1964;1999;FA;respectable compromiser;High;2636;X
-4;Minister of Armament;Werner von Blomberg;1933;1964;1999;NS;Infantry Proponent;High;L607;X
-5;Minister of Security;Wilhelm Frick;1933;1964;1999;NS;Ruthless Organizer;High;M5;X
-6;Head of Military Intelligence;Wilhelm Canaris;1933;1946;1999;FA;Brilliant Spymaster;Medium;2639;X
-7;Chief of Staff;Ludwig Beck;1933;1945;1999;PA;School of Manoeuvre;High;2640;X
-8;Chief of Army;Werner von Fritsch;1933;1940;1999;PA;Armoured Spearhead Doctrine;High;L611;X
-9;Chief of Navy;Erich Raeder;1933;1964;1999;NS;Decisive Naval Battle Doctrine;High;L409;X
-10;Chief of Air Force;Hermann Göring;1933;1964;1999;NS;The Iron Knight;Very High;L440;X
+1;Head of State;Wilhelm II;1888;1941;1999;PA;Benevolent Puppet Kaiser;High;AR46;X
+2;Head of Government;Konrad Adenauer;1933;1964;1999;SC;Silent Workhorse;High;AR47;X
+3;Foreign Minister;Franz von Papen;1933;1964;1999;SC;biased intellectual;High;AR48;X
+4;Minister of Armament;Julius Curtius;1933;1964;1999;SL;Infantry Proponent;High;AR49;X
+5;Minister of Security;Joseph Wirth;1933;1964;1999;SC;Health and safety;High;AR50;X
+6;Head of Military Intelligence;Konrad Patzig;1933;1972;1999;SC;naval intelligence specialist;Medium;AR51;X
+7;Chief of Staff;Werner von Blomberg;1933;1945;1999;PA;school of mass combat;High;AR52;X
+8;Chief of Army;Wilhelm Groener;1933;1939;1999;SC;guns and butter doctrine;High;AR53;X
+9;Chief of Navy;Erich Raeder;1933;1964;1999;PA;Decisive Naval Battle Doctrine;High;L409;X
+10;Chief of Air Force;Manfred Von Richtofen;1933;1964;1999;SC;The Red Baron;Very High;AR54;X
 11;Head of State;Hermann Göring;1933;1964;1999;NS;Barking Buffoon;Very High;L440;X
 12;Head of State;Joseph Goebbels;1942;1946;1999;NS;Powerhungry Demagogue;Very High;3587;X
 13;Head of State;Karl Dönitz;1945;1964;1999;NS;Resigned Generalissimo;High;M32;X

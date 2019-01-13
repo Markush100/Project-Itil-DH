@@ -97,13 +97,13 @@
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 5 
-     political_left    = 1 
+     democratic        = 8
+     political_left    = 4 
      free_market       = 8 
      freedom           = 7 
-     professional_army = 4 
-     defense_lobby     = 5 
-     interventionism   = 1 
+     professional_army = 5 
+     defense_lobby     = 4 
+     interventionism   = 4 
     } 
 	
    headofstate            = {  type = 9 id = 115001  } 

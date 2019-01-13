@@ -55,8 +55,8 @@
     } 
    SpyInfo                = {  country = "NZL" NumberOfSpies = 5  } 
    nationalprovinces      = {  1718 1719 1720 1721 1722 1723  } 
-   ownedprovinces         = {  1718 1719 1720 1721 1722 1723 1731 1732 1741 1742 1748  } 
-   controlledprovinces    = {  1718 1719 1720 1721 1722 1723 1731 1732 1741 1742 1748  } 
+   ownedprovinces         = {  1718 1719 1720 1721 1722 1723 1732 1741 1742 1748  } 
+   controlledprovinces    = {  1718 1719 1720 1721 1722 1723 1732 1741 1742 1748  } 
    # Commonwealth Tech '36 
    # UK 1936 techs 
    # ###################### 

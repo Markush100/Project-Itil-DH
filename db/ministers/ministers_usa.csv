@@ -3,7 +3,7 @@ USA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 240002;Head of Government;John Nance Garner;1932;1942;1942;SL;Corporate Suit;High;M6002;X
 240003;Foreign Minister;Cordell Hull;1933;1946;1946;SL;Father of United Nations;High;7374;X
 240004;Minister of Armament;Henry Morgenthau;1933;1946;1946;SD;orthodox economist;High;M6077;X
-240005;Minister of Security;J. Edgar Hoover;1933;1973;1973;SL;Director of FBI;Very High;M6005;X
+240005;Minister of Security;Robert H. Jackson;1939;1955;1955;ML;Silent Lawyer;Very High;M6108;X
 240006;Head of Military Intelligence;William F. Friedman;1917;1957;1957;SL;Cryptographer;Very High;M6006;X
 240007;Chief of Staff;Malin Craig;1935;1964;1964;SL;School of Defence;High;7375;X
 240008;Chief of Army;Malin Craig;1935;1946;1946;SL;Armoured Spearhead Doctrine;High;7375;X
@@ -358,7 +358,7 @@ USA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 240366;Minister of Security;Hugh L. Scott;1912;1920;1920;PA;Crime Fighter;High;3608;X
 240367;Minister of Security;Alexander M. Palmer;1917;1937;1937;ML;Prince of Terror;High;3676;X
 240368;Minister of Security;William J. Burns;1921;1933;1933;ML;Compassionate Gentleman;High;3677;X
-240369;Minister of Security;J. Edgar Hoover;1924;1932;1973;ML;Director of FBI;High;3678;X
+240369;Minister of Security;J. Edgar Hoover;1924;1932;1973;FA;Director of ANPA;High;3678;X
 240371;Minister of Security;Robert Minor;1920;1953;1953;ST;crooked kleptocrat;High;3655;X
 240372;Minister of Security;Cornelius N. Bliss;1897;1912;1912;ML;Silent Lawyer;High;3635;X
 240373;Foreign Minister;Francis Parker Yockey;1945;1961;1961;FA;Biased Intellectual;High;5908;X

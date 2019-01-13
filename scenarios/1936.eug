@@ -3,27 +3,27 @@ panel      = "scenarios/data/scenario_1936.bmp"
 header =
 { name       = "The Old Order"
   startdate  = { year = 1936 }
-  selectable = { AFG ARG AST AUS BEL BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE IRQ ITA 
-		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TIB TUR URU USA VEN YEM YUG U02 U06 U03 U04 U05 UKR TRK RUS
+  selectable = { AFG ARG AST AUS BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE IRQ ITA 
+		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TIB TUR URU USA VEN YEM YUG U02 U06 U04 U05 UKR TRK RUS U00 WLL FLA
                }
-  ENG        = { }
-  FRA        = { }
-  ITA        = { }
   GER        = { }
+  AUS        = { }
+  FRA        = { }
+  ENG        = { }
   SOV        = { picture = "scenarios\data\propaganda_SOV_1936.bmp" }
-  POL        = { }
+  RUS        = { }
+  TRK        = { }  
+  UKR        = { }
   JAP        = { }
+  MAN        = { }
   CHI        = { }
-  CAN        = { }
+  ITA        = { }
+  U00        = { }
   USA        = { }
-  YUG 	     = { }
   AST 	     = { }
-  NZL 	     = { }  
-  UKR 	     = { }
-  RUS 	     = { }
-  MAN 	     = { }
   HUN 	     = { }
   ROM 	     = { }
+  YUG        = { }
   SPR 	     = { }
   BRA 	     = { }
 }
@@ -871,7 +871,6 @@ include = "scenarios\1936\afghanistan.inc"
 include = "scenarios\1936\argentina.inc"
 include = "scenarios\1936\australia.inc"
 include = "scenarios\1936\austria.inc"
-include = "scenarios\1936\belgium.inc"
 include = "scenarios\1936\bhutan.inc"
 include = "scenarios\1936\bolivia.inc"
 include = "scenarios\1936\brasil.inc"
@@ -940,7 +939,6 @@ include = "scenarios\1936\sweden.inc"
 include = "scenarios\1936\tibet.inc"
 include = "scenarios\1936\turkey.inc"
 include = "scenarios\1936\british raj.inc"
-include = "scenarios\1936\indochinese union.inc"
 include = "scenarios\1936\mandate syria and lebanon.inc"
 include = "scenarios\1936\uruguay.inc"
 include = "scenarios\1936\usa.inc"
@@ -956,3 +954,5 @@ include = "scenarios\1936\armenia.inc"
 include = "scenarios\1936\azerbaijan.inc"
 include = "scenarios\1936\turkestan.inc"
 include = "scenarios\1936\russia.inc"
+include = "scenarios\1936\america.inc"
+include = "scenarios\1936\flanders.inc"

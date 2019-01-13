@@ -51,10 +51,12 @@
      relation = {  tag = USA value = 125  } 
      relation = {  tag = YEM value = 150  } 
     } 
+
+
    SpyInfo                = {  country = "SAF" NumberOfSpies = 5  } 
-   nationalprovinces      = {  872 873 875 876 878 879 880 881 882 883 884 885 886  } 
-   ownedprovinces         = {  872 873 875 876 878 879 880 881 882 883 884 885 886  } 
-   controlledprovinces    = {  872 873 875 876 878 879 880 881 882 883 884 885 886  } 
+   nationalprovinces      = {  872 873 875 876 878 879 880 881  } 
+   ownedprovinces         = {  872 873 875 876 878 879 880 881  } 
+   controlledprovinces    = {  872 873 875 876 878 879 880 881  } 
    # Commonwealth Tech '36 
    # UK 1936 techs 
    # ###################### 

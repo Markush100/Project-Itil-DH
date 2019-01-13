@@ -1,15 +1,15 @@
 AUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-115001;Head of State;Wilhelm Miklas;1933;1964;1999;FA;Weary Stiffneck;High;8141;X
-115002;Head of Government;Kurt Schuschnigg;1933;1964;1999;FA;Silent Workhorse;High;8594;X
-115003;Foreign Minister;Egon Berger-Waldenegg;1933;1964;1999;FA;Apologetic Clerk;High;8596;X
-115004;Minister of Armament;Julius Raab;1933;1964;1999;FA;Resource Industrialist;Medium;8597;X
-115005;Minister of Security;Eduard Baar-Baarenfels;1933;1964;1999;FA;Man of the People;High;8623;X
-115006;Head of Military Intelligence;Wilhelm Gebauer;1933;1964;1999;FA;Logistics Specialist;Medium;8626;X
-115007;Chief of Staff;Alfred von Jansa;1933;1964;1999;FA;School of Defence;Medium;M23007;X
-115008;Chief of Army;Wilhelm Zehner;1933;1964;1999;FA;Elastic Defence Doctrine;High;8627;X
-115009;Chief of Navy;Paul von Hegedüs;1933;1964;1999;FA;Decisive Naval Battle Doctrine;High;M23009;X
-115010;Chief of Air Force;Alexander Löhr;1933;1964;1999;NS;Army Aviation Doctrine;Medium;8628;X
+115001;Head of State;Karl I von Habsburg;1933;1964;1999;PA;popular figurehead;High;AR55;X
+115002;Head of Government;Otto Ender;1933;1964;1999;SC;happy amateur;High;AR56;X
+115003;Foreign Minister;Leopold Berchtold;1933;1964;1999;PA;biased intellectual;High;AR57;X
+115004;Minister of Armament;Julius Raab;1933;1964;1999;SC;Resource Industrialist;Medium;AR58;X
+115005;Minister of Security;Ernst Streeruwitz;1933;1964;1999;SC;Secret police chief;High;AR59;X
+115006;Head of Military Intelligence;Maximilian Ronge;1933;1964;1999;PA;Logistics Specialist;Medium;AR60;X
+115007;Chief of Staff;Siegmund Knaus;1933;1964;1999;PA;School of Defence;Medium;AR61;X
+115008;Chief of Army;Josef Ferdinand von Habsburg;1933;1964;1999;PA;decisive battle doctrine;High;AR62;X
+115009;Chief of Navy;Karl I von Habsburg;1933;1964;1999;PA;Decisive Naval Battle Doctrine;High;AR55;X
+115010;Chief of Air Force;Gottfried Freiherr von Banfield;1933;1964;1999;SC;naval aviation doctrine;Medium;AR63;X
 115011;Head of State;Otto I;1933;1964;1999;PA;Autocratic Charmer;High;M23041;X
 115012;Head of State;Josef Bürckel;1938;1964;1999;FA;Insignificant Layman;High;M23042;X
 115013;Head of State;Arthur Seyss-Inquart;1938;1964;1999;NS;Die-hard Reformer;High;M23011;X

@@ -1,14 +1,15 @@
  
- ######################################### 
- # Country definition for Wallonia (U17) # 
- #########################################
+ ############################## 
+ # Country definition for WLL # 
+ ##############################
  ## Made by Markush ##
  ##################### 
  # Country main data # 
  ##################### 
   
  country = 
- {  tag                    = U17 
+ {  tag                    = WLL 
+    puppet                 = GER
 	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes } }
 	capital                = 108 
 	manpower               = 5 
@@ -38,7 +39,7 @@
    {  
      relation = {  tag = GER value = 200 access = yes }  
     } 
-   SpyInfo                = {  country = "U17" NumberOfSpies = 6  } 
+   SpyInfo                = {  country = "WLL" NumberOfSpies = 6  } 
    nationalprovinces      = {  108 111 112 113  } 
    ownedprovinces         = {  108 111 112 113  } 
    controlledprovinces    = {  108 111 112 113  } 

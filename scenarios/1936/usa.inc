@@ -22,7 +22,7 @@
 	escorts                = 53   
 	dissent = 10
 
-	capital                = 1809   
+	capital                = 1888   
 	diplomacy = 
      {  relation =   
        {  tag        = ARG   
@@ -166,10 +166,10 @@
         
      nationalprovinces      = {  889 1778 1784 1785 1786 1787 1788 1789 1790 1791 1792 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 1803 1804 1805 1806 1807 1808 1809 1810 1811 1812 1813 1814 1815 1816 1817 1818 1819 1820 1821 1822 1823 1824 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 1841 1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 1858 1859 1860 1861 1862 1863 1864 1865 1866 1867 1868 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1898 1899 1900 1901 1902 1903 1904 1905 1906 1907 1908 1909 1910 1911 1912 1913 1914 1915 1916 1917 1918 1919 1920 1921 1922 1923 1924 1925 1926 1927 1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 2139 2140 2141 2142 2143 2144 2145 2146 2147 2150 2151 2174 
                               }  
-    ownedprovinces         = {  889 1673 1683 1733 1734 1735 1736 1737 1738 1739 1745 1747 1751 1765 1778 1784 1785 1786 1787 1788 1789 1790 1791 1792 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 1803 1804 1805 1806 1807 1808 1809 1810 1811 1812 1813 1814 1815 1816 1817 1818 1819 1820 1821 1822 1823 1824 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 1841 1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 1858 1859 1860 1861 1862 1863 1864 1865 1866 1867 1868 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1898 1899 1900 1901 1902 1903 1904 1905 1906 1907 1908 1909 1910 1911 1912 1913 1914 1915 1916 1917 1918 1919 1920 1921 1922 1923 1924 1925 1926 1927 1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 2139 2140 2141 2142 2143 2144 2145 2146 2147 2150 2151 2174  
+    ownedprovinces         = { 1734 1735 1736 1737 1861 1863 1865 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1899 1900 1901 1902 1904 2139 2140 2141 2142 2143 2144 2145 2146 2147 2150 2151
                               }  
-    controlledprovinces    = {  889 1673 1683 1733 1734 1735 1736 1737 1738 1739 1745 1747 1751 1765 1778 1784 1785 1786 1787 1788 1789 1790 1791 1792 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 1803 1804 1805 1806 1807 1808 1809 1810 1811 1812 1813 1814 1815 1816 1817 1818 1819 1820 1821 1822 1823 1824 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 1841 1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 1858 1859 1860 1861 1862 1863 1864 1865 1866 1867 1868 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1898 1899 1900 1901 1902 1903 1904 1905 1906 1907 1908 1909 1910 1911 1912 1913 1914 1915 1916 1917 1918 1919 1920 1921 1922 1923 1924 1925 1926 1927 1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 2139 2140 2141 2142 2143 2144 2145 2146 2147 2150 2151 2174  
-                }  
+    controlledprovinces    = { 1734 1735 1736 1737 1861 1863 1865 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1899 1900 1901 1902 1904 2139 2140 2141 2142 2143 2144 2145 2146 2147 2150 2151
+                            }  
 
 	# USA 1936 techs  
 	# ######################  
@@ -303,7 +303,7 @@ inventions = { 3000027 }
     chiefofnavy            = {  type = 9 id = 240121  }  
     chiefofair             = {  type = 9 id = 240010  }  
     landunit =  
-    {  location = 1789  
+    {  location = 1904  
       name     = "I Corps"  
       id       = {  type = 14800 id = 601  }  
       Division =  
@@ -322,7 +322,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1795  
+    {  location = 1897  
       name     = "II Corps"  
       id       = {  type = 14800 id = 604  }  
       Division =  
@@ -357,8 +357,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1808  
-       leader   = 240112 # Craig
+    {  location = 1896  
       name     = "III Corps"  
       id       = {  type = 14800 id = 609  }  
      Division = 
@@ -384,7 +383,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1955  
+    {  location = 1899  
       name     = "IV Corps"  
       id       = {  type = 14800 id = 613  }  
       Division =  
@@ -403,7 +402,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1821  
+    {  location = 1869  
       name     = "V Corps"  
       id       = {  type = 14800 id = 616  }  
       Division =  
@@ -429,7 +428,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1832  
+    {  location = 1870  
       name     = "VI Corps"  
       id       = {  type = 14800 id = 620  }  
       Division =  
@@ -441,7 +440,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1859  
+    {  location = 1863  
       name     = "VII Corps"  
       id       = {  type = 14800 id = 622  }  
       Division =  
@@ -467,7 +466,7 @@ inventions = { 3000027 }
        }  
      }  
     landunit =  
-    {  location = 1926  
+    {  location = 1865  
       name     = "VIII Corps"  
       id       = {  type = 14800 id = 626  }  
       Division =  
@@ -596,20 +595,7 @@ inventions = { 3000027 }
 	extra = engineer
 		brigade_model = 3
        }  
-     }  
-    landunit =  
-    {  id       = {  type = 14800 id = 647  }  
-      name     = "Panama Canal Department"  
-      location = 889  
-      Division =  
-      {  id     = {  type = 14800 id = 648  }  
-        name   = "Panama Canal Garrison"  
-		strength = 100
-        type   = garrison  
-        model  = 3
-        locked = yes  
-       }  
-     }  
+     }   
 	 
 	# US PACIFIC FLEET-SAN DIEGO, CALIFORNIA  
 	# Battleship Division 1  
@@ -1238,8 +1224,8 @@ inventions = { 3000027 }
 		}
 	}
 	navalunit = {
-		location = 889  
-		base     = 889  
+		location = 1886  
+		base     = 1886  
 		id       = {  type = 14800 id = 95  }  
 		name     = "USN Carribean Fleet"  
 		division = {
@@ -1250,8 +1236,8 @@ inventions = { 3000027 }
 		}
 	}
 	navalunit = {
-		location = 889  
-		base     = 889  
+		location = 1886  
+		base     = 1886  
 		id       = {  type = 14800 id = 2322  }  
 		name     = "4th USN Submarine Fleet"  
 		division = {
@@ -1259,364 +1245,6 @@ inventions = { 3000027 }
 			name  = "Submarine Division 11"  
 			type  = submarine  
 			model = 2 
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 98  }  
-		name     = "USN Battleship Fleet 3"  
-		division = {
-			id    = {  type = 14800 id = 99  }  
-			name  = "USS New Mexico"  
-			type  = battleship  
-			model = 4  
-			extra1 = floatplane
-			brigade_model1 = 4
-			extra2 = naval_anti_air_l
-		}
-		division = {
-			id    = {  type = 14800 id = 100  }  
-			name  = "USS Mississippi"  
-			type  = battleship  
-			model = 4  
-			extra1 = floatplane
-			brigade_model1 = 4
-			extra2 = naval_anti_air_l
-		}
-		division = {
-			id    = {  type = 14800 id = 101  }  
-			name  = "USS Idaho"  
-			type  = battleship  
-			model = 4
-			extra1 = floatplane
-			brigade_model1 = 4			
-			extra2 = naval_anti_air_l
-			extra3 = naval_improved_hull_l
-		}
-		division = {
-			id    = {  type = 14800 id = 103  }  
-			name  = "USS Arkansas"  
-			type  = battleship  
-			model = 2 
-			extra1 = floatplane
-			brigade_model1 = 4
-			extra2 = naval_improved_hull_l
-		}
-		division = {
-			id    = {  type = 14800 id = 993  }  
-			name  = "USS Wyoming"  
-			type  = battleship  
-			model = 2 
-			extra1 = floatplane
-			brigade_model1 = 4
-			extra2 = naval_improved_hull_l
-		}
-		division = {
-			id    = {  type = 14800 id = 104  }  
-			name  = "USS New York"  
-			type  = battleship  
-			model = 3  
-			extra1 = floatplane
-			brigade_model1 = 4
-		}
-		division = {
-			id    = {  type = 14800 id = 105  }  
-			name  = "USS Texas"  
-			type  = battleship  
-			model = 3
-			extra1 = floatplane
-			brigade_model1 = 4
-			extra2 = naval_fire_controll_l
-		}
-		division = {
-			id    = {  type = 14800 id = 107  }  
-			name  = "USS Omaha"  
-			type  = light_cruiser  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 108  }  
-			name  = "USS Milwaukee"  
-			type  = light_cruiser  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 109  }  
-			name  = "USS Cincinnati"  
-			type  = light_cruiser  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 110  }  
-			name  = "USS Memphis"  
-			type  = light_cruiser  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 194  }  
-			name  = "Destroyer Division 45"  
-			type  = destroyer  
-			model = 3
-		}
-		division = {
-			id    = {  type = 14800 id = 195  }  
-			name  = "Destroyer Division 46"  
-			type  = destroyer  
-			model = 3  
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 102  }  
-		name     = "Atlantic Transport Fleet 1"  
-		division = {
-			id   = {  type = 14800 id = 143  }  
-			name = "Dolly Madison Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 144  }  
-			name = "Frederick Douglass Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 145  }  
-			name = "Clara Barton Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id    = {  type = 14800 id = 117  }  
-			name  = "Destroyer Division 19"  
-			type  = destroyer  
-			model = 3
-		}
-		division = {
-			id    = {  type = 14800 id = 118  }  
-			name  = "Destroyer Division 20"  
-			type  = destroyer  
-			model = 3  
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 106  }  
-		name     = "USN Cruiser Fleet 2"  
-		division = {
-			id       = {  type = 14800 id = 93  }  
-			name     = "USS Houston"  
-			strength = 100  
-			type     = heavy_cruiser  
-			model    = 3  
-			extra1 = floatplane
-			brigade_model1 = 4
-		}
-		division = {
-			id    = {  type = 14800 id = 113  }  
-			name  = "USS Tuscaloosa"  
-			type  = heavy_cruiser  
-			model = 4  
-			extra1 = floatplane
-			brigade_model1 = 4
-		}
-		division = {
-			id    = {  type = 14800 id = 193  }  
-			name  = "Destroyer Division 44"  
-			type  = destroyer  
-			model = 3
-		}
-		division = {
-			id    = {  type = 14800 id = 176  }  
-			name  = "Destroyer Division 27"  
-			type  = destroyer  
-			model = 3
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 111  }  
-		name     = "Atlantic Transport Fleet 2"  
-		division = {
-			id   = {  type = 14800 id = 134  }  
-			name = "Abner Doubleday Flotilla"  
-			type = transport
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 135  }  
-			name = "Brigham Young Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 136  }  
-			name = "William B. Travis Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id    = {  type = 14800 id = 121  }  
-			name  = "Destroyer Division 23"  
-			type  = destroyer  
-			model = 3
-		}
-		division = {
-			id    = {  type = 14800 id = 172  }  
-			name  = "Destroyer Division 24"  
-			type  = destroyer  
-			model = 3  
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 114  }  
-		name     = "USS Ranger Taskforce"  
-		division = {
-			id            = {  type = 14800 id = 115  }  
-			name          = "USS Ranger"  
-			type          = carrier  
-			model         = 1  
-			extra         = cag  
-			brigade_model = 2  
-		}
-		division = {
-			id    = {  type = 14800 id = 116  }  
-			name  = "Destroyer Division 18"  
-			type  = destroyer  
-			model = 3  
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 122  }  
-		name     = "Atlantic Submarine Fleet"  
-		division = {
-			id    = {  type = 14800 id = 123  }  
-			name  = "Submarine Division 12"  
-			type  = submarine  
-			model = 2
-		}
-		division = {
-			id    = {  type = 14800 id = 124  }  
-			name  = "Submarine Division 13"  
-			type  = submarine  
-			model = 2  
-		}
-		division = {
-			id    = {  type = 14800 id = 125  }  
-			name  = "Submarine Division 14"  
-			type  = submarine  
-			model = 2  
-		}
-		division = {
-			id    = {  type = 14800 id = 126  }  
-			name  = "Submarine Division 15"  
-			type  = submarine  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 127  }  
-			name  = "Submarine Division 16"  
-			type  = submarine  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 129  }  
-			name  = "Submarine Division 17"  
-			type  = submarine  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 128  }  
-			name  = "Submarine Division 18"  
-			type  = submarine  
-			model = 4  
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 133  }  
-		name     = "Atlantic Transport Fleet 3"  
-		division = {
-			id   = {  type = 14800 id = 137  }  
-			name = "Peter Stuyvesant Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 138  }  
-			name = "Henry L. Benning Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 139  }  
-			name = "Casimir Pulaski Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id    = {  type = 14800 id = 119  }  
-			name  = "Destroyer Division 21"  
-			type  = destroyer  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 174  }  
-			name  = "Destroyer Division 26"  
-			type  = destroyer  
-			model = 3  
-		}
-	}
-	navalunit = {
-		location = 1812  
-		base     = 1812  
-		id       = {  type = 14800 id = 2323  }  
-		name     = "Atlantic Transport Fleet 4"  
-		division = {
-			id   = {  type = 14800 id = 140  }  
-			name = "Sam Houston Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 141  }  
-			name = "Francis Scott Key Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id   = {  type = 14800 id = 142  }  
-			name = "Walter Reed Flotilla"  
-			type = transport  
-			model = 1
-		}
-		division = {
-			id    = {  type = 14800 id = 2315  }  
-			name  = "Destroyer Division 5"  
-			type  = destroyer  
-			model = 3
-		}
-		division = {
-			id    = {  type = 14800 id = 2316  }  
-			name  = "Destroyer Division 6"  
-			type  = destroyer  
-			model = 3  
-		}
-		division = {
-			id    = {  type = 14800 id = 2317  }  
-			name  = "Destroyer Division 7"  
-			type  = destroyer  
-			model = 3  
 		}
 	}
 	navalunit = {

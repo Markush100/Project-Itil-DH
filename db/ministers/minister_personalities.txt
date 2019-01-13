@@ -2133,25 +2133,25 @@
 	}
 
 	minister =  { 
-		trait		= "The Iron Knight" #Hermann Göring Chief of hair
+		trait		= "The Red Baron" #von richtofen
 		id			= 136
-		name		= NPERSONALITY_GOERING
-		desc		= DPERSONALITY_GOERING
+		name		= NPERSONALITY_RICHTOFEN
+		desc		= DPERSONALITY_RICHTOFEN
 		position	= chiefofair
 		value		= 0
-		command		= { type = unit which = tactical_bomber value = -0.0500 }
-		command		= { type = unit which = cas value = -0.1000 }
-		command		= { type = unit which = tactical_bomber when = attack value = 0.0500 }
-		command		= { type = unit which = tactical_bomber when = defence value = 0.0500 }
-		command		= { type = unit which = cas when = attack value = 0.1000 }
-		command		= { type = unit which = cas when = defence value = 0.1000 }
-		command		= { type = unit which = strategic_bomber value = 0.1500 }
-		command		= { type = unit which = interceptor when = attack value = -0.0500 }
-		command		= { type = unit which = interceptor when = defence value = -0.0500 }
-		command		= { type = unit which = rocket_interceptor when = attack value = -0.0500 }
-		command		= { type = unit which = rocket_interceptor when = defence value = -0.0500 }
-		command		= { type = unit which = multi_role when = attack value = -0.0500 }
-		command		= { type = unit which = multi_role when = defence value = -0.0500 }
+		command		= { type = unit which = interceptor value = -0.0500 }
+		command		= { type = unit which = multi_role value = -0.1000 }
+		command		= { type = unit which = tactical_bomber when = attack value = -0.0500 }
+		command		= { type = unit which = tactical_bomber when = defence value = -0.0500 }
+		command		= { type = unit which = cas when = attack value = -0.1000 }
+		command		= { type = unit which = cas when = defence value = -0.1000 }
+		command		= { type = unit which = strategic_bomber value = -0.1500 }
+		command		= { type = unit which = interceptor when = attack value = 0.0500 }
+		command		= { type = unit which = interceptor when = defence value = 0.0500 }
+		command		= { type = unit which = rocket_interceptor when = attack value = 0.0500 }
+		command		= { type = unit which = rocket_interceptor when = defence value = 0.0500 }
+		command		= { type = unit which = multi_role when = attack value = 0.1000 }
+		command		= { type = unit which = multi_role when = defence value = 0.1000 }
 	}
 	minister =  { 
 		trait		= "The Brown Eminence" #Martin Bormann
@@ -2469,7 +2469,7 @@
 	}	
 	
 	minister =  { 
-		trait		= "Director of FBI"		#J. Edgar Hoover
+		trait		= "Director of ANPA"		#J. Edgar Hoover
 		id			= 157
 		name		= NPERSONALITY_HOOVER
 		desc		= DPERSONALITY_HOOVER
@@ -2478,6 +2478,8 @@
 		command		= { type = production which = consumer value = -0.1000 }
 		command		= { type = production which = production value = -0.0100 } 
 		command		= { type = dissent value = -0.2000 }
+		command		= { type = extra which = police when = organisation value = 0.300 }
+		command		= { type = extra which = police when = morale value = 0.0500 }
 	}	
 	
 	minister =  { 
