@@ -7,19 +7,25 @@ header =
 		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TIB TUR URU USA VEN YEM YUG U02 U06 U05 U36 UKR TRK RUS U00 WLL FLA SYR ISR ARM LBY AZB GEO MOR
                }
   GER        = { }
-  ENG        = { }
   AUS        = { }
   FRA        = { }
+  ENG        = { }
   SOV        = { picture = "scenarios\data\propaganda_SOV_1936.bmp" }
-  UKR        = { }
-  TRK        = { }  
   RUS        = { }
+  TRK        = { }  
+  UKR        = { }
   JAP        = { }
   MAN        = { }
+  CHI        = { }
   ITA        = { }
   U00        = { }
   USA        = { }
+  AST        = { }
+  HUN        = { }
+  ROM        = { }
   YUG        = { }
+  SPR        = { }
+  BRA        = { }
 }
 globaldata =
 { startdate = { year = 1936 month = january day = 0 }
