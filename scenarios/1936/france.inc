@@ -101,19 +101,18 @@
 
 
    # Togoland 
-   # Metropolitan France 
+   # Metropolitan France  
    nationalprovinces      = { 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 106 
           
                              } 
    # Metropolitan France 
-   ownedprovinces         = {  37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 106 717 718 719 720 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 921 922 942 943 944 945 946 947 957 958 959 960 961 962 965 966 967 968 970 971 972 973 974 975 976 977 978 980 981 982 983 984 985 986 996 999 1000 1581 1582 1583 1584 1585 1586 1730 1740 1743 1744 2135 
+   ownedprovinces         = {  37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 95 96 97 98 99 100 101 102 103 106 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 921 922 942 943 944 945 946 947 957 958 959 960 961 962 965 966 967 968 970 971 972 973 974 975 976 977 978 980 981 982 983 984 985 986 2135 
                              } 
    # Togoland 
    # Metropolitan France 
-   controlledprovinces    = {  37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 106 717 718 719 720 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 921 922 942 943 944 945 946 947 957 958 959 960 961 962 965 966 967 968 970 971 972 973 974 975 976 977 978 980 981 982 983 984 985 986 1581 1582 1583 1584 1585 1586 1730 1740 1743 1744 2135 
+   controlledprovinces    = {  37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 95 96 97 98 99 100 101 102 103 106 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 921 922 942 943 944 945 946 947 957 958 959 960 961 962 965 966 967 968 970 971 972 973 974 975 976 977 978 980 981 982 983 984 985 986  2135 
                              }
 	claimedprovinces = {
-                            717 718 719 720 721 722 723 724 725 726 #Morocco 
                             727 728 729 730 731 732 733 734 735 736 737 738 739 743 #Algeria
                             740 741 742 744 745 746 747 748 749 # Tunisia
                             907 908 909 910 911 914 915 917 918 919 #French Congo and Cameroon
@@ -256,7 +255,7 @@ inventions = { 3000027 }
      defense_lobby     = 7 
      interventionism   = 5 
     } 
-	peacetime_ic_mod       = 0.36 # +64% added by 4 events before the war 
+	peacetime_ic_mod       = 0.3 #
    headofstate            = {  type = 9 id = 5001  } 
    headofgovernment       = {  type = 9 id = 5002  } 
    foreignminister        = {  type = 9 id = 5003  } 
@@ -265,895 +264,223 @@ inventions = { 3000027 }
    ministerofintelligence = {  type = 9 id = 5006  } 
    chiefofstaff           = {  type = 9 id = 5007  } 
    chiefofarmy            = {  type = 9 id = 5008  } 
-   chiefofnavy            = {  type = 9 id = 5397  } # Georges Durand-Viel
+   chiefofnavy            = {  type = 9 id = 5009  } 
    chiefofair             = {  type = 9 id = 5010  } 
    # #################
    # ###FRENCH OOB####
    # #################
    landunit = 
    {  id       = {  type = 13500 id = 1  } 
-     name     = "Région militaire de Paris" 
-     leader   = 5076 # Gamelin
+     name     = "Garnison de Paris" 
      location = 55 
-     Division = 
-     {  id       = {  type = 13500 id = 201  } 
-       name     = "Grand Quartier Général" 
-       type     = hq 
-       model    = 2 
-       strength = 10 
-      } 
+     leader   = 5144 #Weygand
      Division = 
      {  id    = {  type = 13500 id = 2  } 
-       name  = "10ème Division d'Infanterie" 
+       name  = "1ème Division d'Infanterie" 
        type  = infantry 
 	   model = 7
       } 
      Division = 
      {  id   = {  type = 13500 id = 3  } 
-       name = "3ème Division d'Infanterie Coloniale" 
+       name = "2ème Division d'Infanterie" 
        type = infantry 
 	   model = 6
       } 
-     Division = 
-     {  id    = {  type = 13500 id = 4  } 
-       name  = "2ème Division Légère Mécanisée" 
-       strength = 80
-       type  = light_armor 
-       model = 0
-       extra    = anti_air 
-	   brigade_model = 2
-      } 
-     Division = 
+      Division = 
      {  id       = {  type = 13500 id = 5  } 
-       name     = "3ème Division de Cavalerie" 
+       name     = "1ème Division de Cavalerie" 
        type     = cavalry 
        model    = 7 
-       extra    = light_armor_brigade 
-	     brigade_model = 1
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 6  } 
-       name  = "41ème Division d'Infanterie" 
-       strength = 10
-       type  = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 7  } 
-       name  = "71ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
       } 
     }
-   landunit = 
-   {  id       = {  type = 13500 id = 8  } 
-     name     = "Corps d'Armée Colonial" 
-     location = 55 
+
+    landunit = 
+   {  id       = {  type = 13500 id = 6  } 
+     name     = "Garnison de Lyon" 
+     location = 85 
      Division = 
-     {  id    = {  type = 13500 id = 9  } 
-       name  = "5ème Division d'Infanterie Coloniale" 
-       strength = 10
+     {  id    = {  type = 13500 id = 7  } 
+       name  = "3ème Division d'Infanterie" 
+       strength = 20
        type  = infantry 
-	   model = 5
+       model = 6
       } 
      Division = 
-     {  id    = {  type = 13500 id = 10  } 
-       name  = "6ème Division d'Infanterie Coloniale"
-       strength = 10 
+     {  id    = {  type = 13500 id = 8  } 
+       name  = "5ème Division d'Infanterie"
+       strength = 20 
        type  = infantry 
-	   model = 5
+        model = 5
+      } 
+    }
+
+   landunit = 
+   {  id       = {  type = 13500 id = 9  } 
+     name     = "Police Coloniale d'Alger" 
+     location = 727 
+     Division = 
+     {  id    = {  type = 13500 id = 10  } 
+       name  = "1ère Division Police Coloniale" 
+       strength = 20
+       type  = militia 
+	   model = 4
+     extra = police
+       model = 1
       } 
      Division = 
      {  id    = {  type = 13500 id = 11  } 
-       name  = "7ème Division d'Infanterie Coloniale" 
-       strength = 10
-       type  = infantry 
-	   model = 5
+       name  = "2ème Division Police Coloniale"
+       strength = 20 
+       type  = militia 
+	   model = 4
+     extra = police
+       model = 1
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 12  } 
+       name  = "3ème Division Police Coloniale" 
+       strength = 20
+       type  = militia 
+	     model = 4
+       extra = police
+       model = 1
       } 
     } 
-   landunit = 
-   {  id       = {  type = 13500 id = 12  } 
-     name     = "Ier Corps d'Armée" 
-     location = 52 
-     Division = 
-     {  id    = {  type = 13500 id = 13  } 
-       name  = "1ère Division d'Infanterie Motorisée" 
-       type  = infantry 
-       model = 7 
-       extra = armored_car 
-	   brigade_model = 4
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 14  } 
-       name  = "2ème Division d'Infanterie" 
-       strength = 10 
-       type  = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 15  } 
-       name  = "51ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    }
-   landunit = 
-   {  id       = {  type = 13500 id = 16  } 
-     name     = "IIème Corps d'Armée" 
-     location = 50 
-     Division = 
-     {  id   = {  type = 13500 id = 17  } 
-       name = "4ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id       = {  type = 13500 id = 18  } 
-       name     = "3ème Division d'Infanterie Motorisée" 
-       strength = 70 
-       type     = infantry 
-       model    = 8 
-       extra    = armored_car 
-	   brigade_model = 3
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 19  } 
-       name  = "52ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 20  } 
-     name     = "IIIème Corps d'Armée" 
-     location = 45 
-     Division = 
-     {  id   = {  type = 13500 id = 21  } 
-       name = "6ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id       = {  type = 13500 id = 22  } 
-       name     = "5ème Division d'Infanterie Motorisée" 
-       strength = 70 
-       type     = infantry 
-       model    = 8 
-       extra    = armored_car 
-	   brigade_model = 3
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 23  } 
-       name  = "53ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 24  } 
-     name     = "IVème Corps d'Armée" 
-     location = 58 
-     Division = 
-     {  id   = {  type = 13500 id = 25  } 
-       name = "19ème Division d'Infanterie" 
-       type = infantry
-	   model = 7
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 26  } 
-       name = "7ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id   = {  type = 13500 id = 27  } 
-       name = "20ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 28  } 
-       name  = "54ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 29  } 
-     name     = "Vème Corps d'Armée" 
-     location = 66 
-     Division = 
-     {  id       = {  type = 13500 id = 30  } 
-       name     = "1ère Division de Cavalerie" 
-       type     = cavalry 
-       model    = 7 
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 31  } 
-       name     = "9ème Division d'Infanterie Motorisée" 
-       strength = 70 
-       type     = infantry 
-	   model = 7
-       extra    = armored_car 
-	   brigade_model = 3
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 32  } 
-       name = "45ème Division d'Infanterie" 
-       strength = 10
-       type = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 33  } 
-       name  = "55ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 34  } 
-     name     = "VIème Corps d'Armée" 
-     location = 106 
-     Division = 
-     {  id       = {  type = 13500 id = 35  } 
-       name     = "42ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-       extra    = light_armor_brigade 
-	   brigade_model = 1
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 36  } 
-       name     = "2ème Division d'Infanterie Nord-Africaine" 
-       type     = infantry 
-	   model = 6
-       extra    = light_armor_brigade 
-	   brigade_model = 0
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 37  } 
-       name  = "55ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 38  } 
-     name     = "VIIème Corps d'Armée" 
-     location = 97 
-     Division = 
-     {  id       = {  type = 13500 id = 39  } 
-       name     = "13ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 40  } 
-       name     = "14ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 41  } 
-       name = "47ème Division d'Infanterie" 
-       strength = 10
-       type = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 42  } 
-       name  = "57ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 43  } 
-     name     = "VIIIème Corps d'Armée" 
-     location = 64 
-     Division = 
-     {  id   = {  type = 13500 id = 44  } 
-       name = "16ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id       = {  type = 13500 id = 45  } 
-       name     = "15ème Division d'Infanterie Motorisée" 
-       strength = 70 
-       type     = infantry 
-       model    = 8 
-       extra    = armored_car 
-	   brigade_model = 3
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 46  } 
-       name  = "58ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 47  } 
-     name     = "IXème Corps d'Armée" 
-     location = 61 
-     Division = 
-     {  id       = {  type = 13500 id = 48  } 
-       name     = "23ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-       extra    = light_armor_brigade 
-	   brigade_model = 1
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 49  } 
-       name     = "3ème Division d'Infanterie Nord-Africaine" 
-       type     = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 50  } 
-       name  = "18ème Division d'Infanterie"
-       strength = 10 
-       type  = infantry 
-	   model = 6
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 51  } 
-     name     = "Xème Corps d'Armée" 
-     location = 97 
-     Division = 
-     {  id       = {  type = 13500 id = 52  } 
-       name     = "43ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 53  } 
-       name  = "60ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 54  } 
-     name     = "XIème Corps d'Armée" 
-     location = 57 
-     Division = 
-     {  id       = {  type = 13500 id = 55  } 
-       name     = "21ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 56  } 
-       name = "22ème Division d'Infanterie" 
-       strength = 10
-       type = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 57  } 
-       name  = "61ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 58  } 
-     name     = "XIIème Corps d'Armée" 
-     location = 99 
-     Division = 
-     {  id    = {  type = 13500 id = 59  } 
-       name  = "1ère Division Légère Mécanisée" 
-       strength = 75
-       type  = light_armor 
-       model = 0
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 60  } 
-       name = "24ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id       = {  type = 13500 id = 61  } 
-       name     = "12ème Division d'Infanterie Motorisée" 
-       strength = 70 
-       type     = infantry 
-       model    = 8 
-       extra    = armored_car 
-	   brigade_model = 3
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 62  } 
-       name  = "62ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 63  } 
-     name     = "XIIIème Corps d'Armée" 
-     location = 71 
-     Division = 
-     {  id   = {  type = 13500 id = 64  } 
-       name = "26ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id       = {  type = 13500 id = 65  } 
-       name     = "25ème Division d'Infanterie Motorisée" 
-       strength = 70 
-       type     = infantry 
-       model    = 8 
-       extra    = armored_car 
-	   brigade_model = 3
-      }
-     Division = 
-     {  id    = {  type = 13500 id = 66  } 
-       name  = "63ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 67  } 
-     name     = "XIVème Corps d'Armée" 
-     location = 85 
-     Division = 
-     {  id   = {  type = 13500 id = 68  } 
-       name = "27ème Division d'Infanterie Alpine" 
-       type = bergsjaeger 
-	   model = 6
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 69  } 
-       name = "28ème Division d'Infanterie Alpine" 
-       strength = 10
-       type = bergsjaeger 
-	   model = 5
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 70  } 
-       name = "64ème Division d'Infanterie Alpine" 
-       strength = 5
-       type = bergsjaeger 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 71  } 
-       name     = "1ère Division d'Infanterie Nord-Africaine" 
-       type     = infantry 
-	   model = 6
-       extra    = light_armor_brigade 
-	   brigade_model = 0
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 72  } 
-     name     = "XVème Corps d'Armée" 
-     location = 89 
-     Division = 
-     {  id   = {  type = 13500 id = 73  } 
-       name = "29ème Division d'Infanterie Alpine" 
-       type = bergsjaeger 
-	   model = 6
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 74  } 
-       name = "30ème Division d'Infanterie Alpine" 
-       strength = 10
-       type = bergsjaeger 
-	   model = 5
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 75  } 
-       name = "65ème Division d'Infanterie Alpine" 
-       strength = 5
-       type = bergsjaeger 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 76  } 
-       name     = "2ème Division d'Infanterie Coloniale" 
-       type     = infantry 
-	   model = 6
-       extra    = light_armor_brigade 
-	   brigade_model = 0
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 77  } 
-     name     = "XVIème Corps d'Armée" 
-     location = 82 
-     Division = 
-     {  id   = {  type = 13500 id = 78  } 
-       name = "32ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-     Division = 
-     {  id   = {  type = 13500 id = 79  } 
-       name = "31ème Division d'Infanterie Alpine" 
-       type = bergsjaeger 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 80  } 
-       name  = "66ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 81  } 
-     name     = "XVIIème Corps d'Armée" 
-     location = 77 
-     Division = 
-     {  id       = {  type = 13500 id = 82  } 
-       name     = "4ème Division d'Infanterie Coloniale" 
-       type     = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 83  } 
-       name  = "67ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 84  } 
-     name     = "XVIIIème Corps d'Armée" 
-     location = 68 
-     Division = 
-     {  id       = {  type = 13500 id = 85  } 
-       name     = "1ère Division d'Infanterie Coloniale" 
-       type     = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 86  } 
-       name = "36ème Division d'Infanterie"
-       type = infantry 
-	   model = 7
-      }
-     Division = 
-     {  id   = {  type = 13500 id = 87  } 
-       name = "35ème Division d'Infanterie"
-       strength = 10 
-       type = infantry 
-	   model = 6
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 88  } 
-     name     = "XXème Corps d'Armée" 
-     location = 106 
-     Division = 
-     {  id       = {  type = 13500 id = 89  } 
-       name     = "QG Théâtre d'Opérations Nord-Est" 
-       type     = hq 
-       model    = 2
-       strength = 10 
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 90  } 
-       name     = "2ème Division de Cavalerie" 
-       type     = cavalry 
-       model    = 7 
-       extra    = light_armor_brigade 
-	   brigade_model = 1
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 91  } 
-       name     = "11ème Division d'Infanterie" 
-       type     = infantry 
-	   model = 7
-       extra    = artillery 
-	   brigade_model = 3
-      } 
-     Division = 
-     {  id   = {  type = 13500 id = 92  } 
-       name = "4ème Division d'Infanterie Nord-Africaine" 
-       type = infantry 
-	   model = 6
-      } 
-     Division = 
-     {  id    = {  type = 13500 id = 93  } 
-       name  = "70ème Division d'Infanterie"
-       strength = 5 
-       type  = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 94  } 
-     name     = "Division d'Alger" 
-     location = 727 
-     Division = 
-     {  id   = {  type = 13500 id = 95  } 
-       name = "Division d'Alger" 
-       type = infantry 
-	   model = 6
-       extra    = armored_car 
-	   brigade_model = 2
-      } 
-    }
-   landunit = 
-   {  id       = {  type = 13500 id = 96  } 
-     name     = "Division d'Oran" 
-     location = 728 
-     Division = 
-     {  id   = {  type = 13500 id = 97  } 
-       name = "Division d'Oran" 
-       type = infantry 
-	   model = 6
-       extra    = armored_car 
-	   brigade_model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 98  } 
-     name     = "Division de Constantine" 
-     location = 734 
-     Division = 
-     {  id   = {  type = 13500 id = 99  } 
-       name = "Division de Constantine" 
-       type = infantry 
-	   model = 6
-       extra    = armored_car 
-	   brigade_model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 100  } 
-     name     = "Division de Tunis" 
-     location = 747 
-     Division = 
-     {  id   = {  type = 13500 id = 101  } 
-       name = "Division de Tunis" 
-       type = infantry 
-	   model = 6
-       extra    = armored_car 
-	   brigade_model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 102  } 
-     name     = "Division de Sousse" 
-     location = 745 
-     Division = 
-     {  id   = {  type = 13500 id = 103  } 
-       name = "Division de Sousse" 
-       type = garrison 
-	   model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 104  } 
-     name     = "XIXème Région Militaire" 
-     location = 727 
-     Division = 
-     {  id       = {  type = 13500 id = 105  } 
-       name     = "81ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 106  } 
-       name     = "82ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 107  } 
-       name     = "83ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 108  } 
-       name     = "84ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 109  } 
-       name     = "85ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 110  } 
-       name     = "86ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 111  } 
-       name     = "87ème Division d'Infanterie d'Afrique" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 112  } 
-     name     = "Commandement des troupes du Maroc" 
-     location = 717 
-     Division = 
-     {  id       = {  type = 13500 id = 113  } 
-       name     = "1ère Division Marocaine" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 114  } 
-       name     = "2ème Division Marocaine" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-     Division = 
-     {  id       = {  type = 13500 id = 115  } 
-       name     = "3ème Division Marocaine" 
-       strength = 5 
-       type     = infantry 
-	   model = 5
-      } 
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 116  } 
-     name     = "Division de Fès" 
-     location = 721 
-     Division = 
-     {  id   = {  type = 13500 id = 117  } 
-       name = "Division de Fès" 
-       type = garrison 
-	   model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 318  } 
-     name     = "Division de Marrakech" 
-     location = 722 
-     Division = 
-     {  id   = {  type = 13500 id = 319  } 
-       name = "Division de Marrakech" 
-       type = garrison 
-	   model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 320  } 
-     name     = "Division de Meknès" 
-     location = 717 
-     Division = 
-     {  id   = {  type = 13500 id = 321  } 
-       name = "Division de Meknès" 
-       type = garrison 
-	   model = 2
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 322  } 
-     name     = "Subdivision de Casablanca" 
-     location = 718 
-     Division = 
-     {  id   = {  type = 13500 id = 323  } 
-       name = "Subdivision de Casablanca" 
-       type = militia 
-	   model = 3
-      }
-     Division = 
-     {  id   = {  type = 13500 id = 324  } 
-       name = "Goumiers" 
-       type = militia 
-	   model = 3
-      }
-    } 
-   landunit = 
-   {  id       = {  type = 13500 id = 325  } 
-     name     = "Troupes d'Afrique occidentale" 
+
+     landunit = 
+   {  id       = {  type = 13500 id = 13  } 
+     name     = "Police Coloniale de Dakar" 
      location = 978 
      Division = 
-     {  id   = {  type = 13500 id = 326  } 
-       name = "Point d'appui de la flotte de Dakar" 
-       type = garrison 
-	   model = 2
+     {  id    = {  type = 13500 id = 14  } 
+       name  = "4ème Division Police Coloniale" 
        strength = 20
-      }
+       type  = militia 
+     model = 4
+     extra = police
+       model = 1
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 15  } 
+       name  = "5ème Division Police Coloniale"
+       strength = 20 
+       type  = militia 
+     model = 4
+     extra = police
+       model = 1
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 16  } 
+       name  = "6ème Division Police Coloniale" 
+       strength = 20
+       type  = militia 
+       model = 4
+       extra = police
+       model = 1
+      } 
     } 
+
    landunit = 
-   {  id       = {  type = 13500 id = 327  } 
-     name     = "1ère Brigade de Tirailleurs Sénégalais" 
-     location = 983 
+   {  id       = {  type = 13500 id = 17  } 
+     name     = "Garnison de Caen" 
+     location = 44 
+     leader   = 5746 #Petain
      Division = 
-     {  id       = {  type = 13500 id = 328  } 
-       name     = "1ère Brigade de Tirailleurs Sénégalais" 
-       type     = militia 
-       model    = 3 
+     {  id    = {  type = 13500 id = 18  } 
+       name  = "6ème Division d'Infanterie" 
+       strength = 40
+       type  = infantry 
+       model = 6
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 19  } 
+       name  = "7ème Division d'Infanterie"
+       strength = 20 
+       type  = infantry 
+        model = 5
       } 
     }
+
    landunit = 
-   {  id       = {  type = 13500 id = 329  } 
-     name     = "2ème Brigade de Tirailleurs Sénégalais" 
-     location = 976 
+   {  id       = {  type = 13500 id = 20  } 
+     name     = "Garnison Bordelaise" 
+     location = 68 
      Division = 
-     {  id       = {  type = 13500 id = 330  } 
-       name     = "2ème Brigade de Tirailleurs Sénégalais" 
-       type     = militia 
-       model    = 3 
+     {  id   = {  type = 13500 id = 21  } 
+       name = "Garnison Bordelaise"
+       strength = 50 
+       type = garrison 
+	   model = 3
+      }
+      Division =
+     {  id   = {  type = 13500 id = 22  } 
+       name = "Garnison Bordelaise"
+       strength = 50 
+       type = garrison 
+     model = 3
+      }
+    }
+
+    landunit = 
+   {  id       = {  type = 13500 id = 23  } 
+     name     = "Garnison de Nice" 
+     location = 87
+     Division = 
+     {  id    = {  type = 13500 id = 24  } 
+       name  = "8ème Division d'Infanterie" 
+       strength = 20
+       type  = infantry 
+       model = 6
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 25  } 
+       name  = "9ème Division d'Infanterie"
+       strength = 20 
+       type  = infantry 
+        model = 5
       } 
     }
-   landunit = 
-   {  id       = {  type = 13500 id = 331  } 
-     name     = "3ème Brigade de Tirailleurs Sénégalais" 
-     location = 962 
+
+    landunit = 
+   {  id       = {  type = 13500 id = 26  } 
+     name     = "Garnison de Marseille" 
+     location = 89
      Division = 
-     {  id       = {  type = 13500 id = 332  } 
-       name     = "3ème Brigade de Tirailleurs Sénégalais" 
-       type     = militia 
-       model    = 3 
+     {  id    = {  type = 13500 id = 27  } 
+       name  = "10ème Division d'Infanterie" 
+       strength = 20
+       type  = infantry 
+       model = 6
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 28  } 
+       name  = "11ème Division d'Infanterie"
+       strength = 20 
+       type  = infantry 
+        model = 5
       } 
     }
-   landunit = 
-   {  id       = {  type = 13500 id = 333  } 
-     name     = "Troupes d'Afrique équatoriale" 
-     location = 920 
+
+    landunit = 
+   {  id       = {  type = 13500 id = 29  } 
+     name     = "Garnison de Brest" 
+     location = 37
      Division = 
-     {  id       = {  type = 13500 id = 334  } 
-       name     = "Tirailleurs du Tchad" 
-       type     = militia 
-       model    = 3 
+     {  id    = {  type = 13500 id = 30  } 
+       name  = "12ème Division d'Infanterie" 
+       strength = 20
+       type  = infantry 
+       model = 6
+      } 
+     Division = 
+     {  id    = {  type = 13500 id = 31  } 
+       name  = "13ème Division d'Infanterie"
+       strength = 20 
+       type  = infantry 
+        model = 5
       } 
     }
-   landunit = 
-   {  id       = {  type = 13500 id = 335  } 
-     name     = "Troupes d'Afrique orientale" 
-     location = 1001 
-     Division = 
-     {  id       = {  type = 13500 id = 336  } 
-       name     = "Tirailleurs Malgaches" 
-       type     = militia 
-       model    = 3 
-      } 
-    }
+
 	# ############
 	# French Navy
 	# ############
@@ -1172,7 +499,7 @@ inventions = { 3000027 }
 			id = { type = 13500 id = 120 } 
 			name = "1ère Flottille de Contre-Torpilleurs" 
 			type = destroyer 
-			model = 5
+			model = 4
 			} 
 		division = { 
 			id = { type = 13500 id = 121 } 
@@ -1182,42 +509,6 @@ inventions = { 3000027 }
 			extra1 = naval_anti_air_l
 			extra2 = floatplane
 			brigade_model2 = 4
-			} 
-		division = { 
-			id = { type = 13500 id = 122 } 
-			name = "Provence" 
-			type = battleship 
-			model = 3 
-			} 
-		division = { 
-			id = { type = 13500 id = 123 } 
-			name = "Colbert" 
-			type = heavy_cruiser 
-			model = 3 
-			extra1 = floatplane
-			brigade_model1 = 4
-			} 
-		division = { 
-			id = { type = 13500 id = 124 } 
-			name = "Dupleix" 
-			type = heavy_cruiser 
-			model = 3 
-			extra1 = floatplane
-			brigade_model1 = 4
-			} 
-		division = { 
-			id = { type = 13500 id = 125 } 
-			name = "Emile Bertin" 
-			type = light_cruiser 
-			model = 4 
-			} 
-		division = { 
-			id = { type = 13500 id = 128 } 
-			name = "Algérie" 
-			type = heavy_cruiser 
-			model = 4 
-			extra1 = floatplane
-			brigade_model1 = 4
 			} 
 		division = { 
 			id = { type = 13500 id = 126 } 
@@ -1237,13 +528,8 @@ inventions = { 3000027 }
 			type = light_cruiser 
 			model = 3 
 			} 
-		division = { 
-			id = { type = 13500 id = 131 } 
-			name = "La Galissonnière" 
-			type = light_cruiser 
-			model = 4 
-			} 
 		} 
+
 	navalunit = { 
 		id = { type = 13500 id = 130 } 
 		name = "2ème Flotte" 
@@ -1260,14 +546,6 @@ inventions = { 3000027 }
 			name = "Paris" 
 			type = battleship 
 			model = 2 
-			} 
-		division = { 
-			id = { type = 13500 id = 134 } 
-			name = "Suffren" 
-			type = heavy_cruiser 
-			model = 3 
-			extra1 = floatplane
-			brigade_model1 = 4
 			} 
 		division = { 
 			id = { type = 13500 id = 135 } 
@@ -1309,37 +587,12 @@ inventions = { 3000027 }
 		location = 728 
 		base = 728 
 
-# Removing Ocean... this ship was disarmed and hulked in 1936, used as 
-# a harbor training ship.
-#		division = { 
-#			id = { type = 13500 id = 141 } 
-#			name = "Océan" 
-#			type = battleship 
-#			model = 2 
-#			} 
-
 		division = { 
 			id = { type = 13500 id = 142 } 
 			name = "Bretagne" 
 			type = battleship 
 			model = 3 
 			} 
-		division = { 
-			id = { type = 13500 id = 143 } 
-			name = "Foch" 
-			type = heavy_cruiser 
-			model = 3 
-			extra1 = floatplane
-			brigade_model1 = 4
-			} 
-		division = {
-			id = { type = 13500 id = 307 }
-			name = "Commandant Teste"
-			type = escort_carrier
-			model = 0
-			extra1 = naval_anti_air_l
-			brigade_model1 = 0
-			}
 		division = { 
 			id = { type = 13500 id = 144 } 
 			name = "Tourville" 
@@ -1360,19 +613,8 @@ inventions = { 3000027 }
 			type = destroyer 
 			model = 4 
 			} 
-		division = { 
-			id = { type = 13500 id = 147 } 
-			name = "6ème Flottille de Contre-Torpilleurs" 
-			type = destroyer 
-			model = 4 
-			} 
-		division = { 
-			id = { type = 13500 id = 148 } 
-			name = "7ème Flottille de Contre-Torpilleurs" 
-			type = destroyer 
-			model = 4 
-			} 
 		} 
+
 	navalunit = { 
 		id = { type = 13500 id = 149 } 
 		name = "1ère Flotte de Sous-marins" 
@@ -1404,43 +646,8 @@ inventions = { 3000027 }
 			type = submarine 
 			model = 3 
 			} 
-		division = { 
-			id = { type = 13500 id = 154 } 
-			name = "4ème Flottille de Sous-Marins" 
-			type = submarine 
-			model = 3
-			} 
 		} 
-	navalunit = { 
-		id = { type = 13500 id = 155 } 
-		name = "2ème Flotte de Sous-marins" 
-		location = 86 
-		base = 86 
-		division = { 
-			id = { type = 13500 id = 156 } 
-			name = "5ème Flottille de Sous-Marins" 
-			type = submarine 
-			model = 3 
-			} 
-		division = { 
-			id = { type = 13500 id = 157 } 
-			name = "6ème Flottille de Sous-Marins" 
-			type = submarine 
-			model = 3
-			} 
-		division = { 
-			id = { type = 13500 id = 158 } 
-			name = "7ème Flottille de Sous-Marins" 
-			type = submarine 
-			model = 3 
-			} 
-		division = { 
-			id = { type = 13500 id = 159 } 
-			name = "8ème Flottille de Sous-Marins" 
-			type = submarine 
-			model = 3 
-			} 
-		} 
+
 	navalunit = { 
 		id = { type = 13500 id = 160 } 
 		name = "3ème Flotte de Sous-marins" 
@@ -1494,18 +701,6 @@ inventions = { 3000027 }
 			type = destroyer 
 			model = 4
 			} 
-		division = { 
-			id = { type = 13500 id = 172 } 
-			name = "9ème Flottille de Contre-torpilleurs" 
-			type = destroyer 
-			model = 4
-			} 
-		division = { 
-			id = { type = 13500 id = 173 } 
-			name = "10ème Flottille de Contre-torpilleurs" 
-			type = destroyer 
-			model = 4
-			} 
 		} 
 	navalunit = { 
 		id = { type = 13500 id = 174 } 
@@ -1537,36 +732,7 @@ inventions = { 3000027 }
 			model = 4
 			} 
 		}      
-	navalunit = { 
-		id = { type = 13500 id = 179 } 
-		name = "1ère Flotte de la France" 
-		location = 86 
-		base = 86 
-		division = { 
-			id = { type = 13500 id = 180 } 
-			name = "13ème Flottille de Contre-torpilleurs" 
-			type = destroyer 
-			model = 2
-			} 
-		division = { 
-			id = { type = 13500 id = 181 } 
-			name = "14ème Flottille de Contre-torpilleurs" 
-			type = destroyer 
-			model = 0
-			} 
-		division = { 
-			id = { type = 13500 id = 182 } 
-			name = "6ème Flottille de Convoi" 
-			type = transport 
-			model = 1 
-			} 
-		division = { 
-			id = { type = 13500 id = 183 } 
-			name = "5ème Flottille de Convoi" 
-			type = transport 
-			model = 1 
-			} 
-		} 
+
 	navalunit = { 
 		id = { type = 13500 id = 184 } 
 		name = "2e Flotte de la France" 
@@ -1610,19 +776,6 @@ inventions = { 3000027 }
      Division = 
      {  id       = {  type = 13500 id = 191  } 
        name     = "Groupe de Bombardement Tactique 3" 
-       strength = 100 
-       type     = tactical_bomber 
-	   model = 4
-      } 
-    } 
-   airunit = 
-   {  location = 728 
-     base     = 728 
-     id       = {  type = 13500 id = 192  } 
-     name     = "4ème Groupe de Bombardement" 
-     Division = 
-     {  id       = {  type = 13500 id = 293  } 
-       name     = "Groupe de Bombardement Tactique 6" 
        strength = 100 
        type     = tactical_bomber 
 	   model = 4
@@ -1674,120 +827,12 @@ inventions = { 3000027 }
 	   model = 7
       } 
     } 
+
+
    # ################################# 
    # Naval units under construction 
    # ################################# 
-   division_development = 
-   {  name  = "Dunkerque" 
-     type  = battlecruiser 
-     model = 3
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 300  } 
-     date  = {  year = 1937 month = may day = 1  } 
-    }
-   division_development = 
-   {  name  = "Strasbourg" 
-     type  = battlecruiser 
-     model = 3
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 301  } 
-     date  = {  year = 1939 month = april day = 6  } 
-    }
-   division_development = 
-   {  name  = "George Leygues" 
-     type  = light_cruiser 
-     model = 4
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 302  } 
-     date  = {  year = 1937 month = november day = 15  } 
-    }
-   division_development = 
-   {  name  = "Gloire" 
-     type  = light_cruiser 
-     model = 4
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 303  } 
-     date  = {  year = 1937 month = november day = 15  } 
-    }
-   division_development = 
-   {  name  = "Marsellaise" 
-     type  = light_cruiser 
-     model = 4
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 304  } 
-     date  = {  year = 1937 month = october day = 10  } 
-    }
-   division_development = 
-   {  name  = "Jean de Vienne" 
-     type  = light_cruiser 
-     model = 4
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 305  } 
-     date  = {  year = 1937 month = february day = 10  } 
-    }
-   division_development = 
-   {  name  = "Montcalm" 
-     type  = light_cruiser 
-     model = 4
-     new_model = no
-     cost  = 0.4 
-     id    = {  type = 13500 id = 306  } 
-     date  = {  year = 1937 month = november day = 15  } 
-    }
-
-	division_development = {
-		type = submarine
-		model = 4
-		cost = 0.1
-		id = { type = 13500 id = 308 }
-		date = { year = 1936 month = may day = 1 }
-	}
-	division_development = {
-		type = submarine
-		model = 4
-		cost = 0.1
-		id = { type = 13500 id = 309 }
-		date = { year = 1936 month = may day = 1 }
-	}
-	
-	division_development = {
-		type = destroyer
-		model = 5
-		name = "17ème Flottille de Contre-Torpilleurs"
-		cost = 0.2
-		id = { type = 13500 id = 310 }
-		date = { year = 1936 month = april day = 15 }
-	}
-	division_development = {
-		type = destroyer
-		model = 5
-		name = "18ème Flottille de Contre-Torpilleurs"
-		cost = 0.2
-		id = { type = 13500 id = 311 }
-		date = { year = 1936 month = may day = 20 }
-	}
-	division_development = {
-		type = destroyer
-		model = 5
-		name = "19ème Flottille de Contre-Torpilleurs"
-		cost = 0.2
-		id = { type = 13500 id = 312 }
-		date = { year = 1936 month = june day = 24 }
-	}
-	division_development = {
-		type = destroyer
-		model = 5
-		name = "20ème Flottille de Contre-Torpilleurs"
-		cost = 0.2
-		id = { type = 13500 id = 313 }
-		date = { year = 1936 month = july day = 10 }
-	}
+   #france is shid lol they cant build ships
 
 } 
  

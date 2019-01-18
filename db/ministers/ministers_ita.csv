@@ -1,15 +1,15 @@
 ITA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-25001;Head of State;Vittorio Emanuele III;1933;1964;1999;FA;Weary Stiffneck;High;6377;X
-25002;Head of Government;Benito Mussolini;1933;1964;1999;FA;Imperialist buffoon;High;2688;X
-25003;Foreign Minister;Gian Galeazzo Ciano;1933;1964;1999;FA;Fascist Crusader;Very High;6378;X
-25004;Minister of Armament;Benito Mussolini;1933;1964;1999;FA;Autarkic Fascist;Very High;2688;X
-25005;Minister of Security;Guido Buffarini-Guidi;1933;1964;1999;FA;Man of the People;Very High;6380;X
-25006;Head of Military Intelligence;Cesare Amè;1933;1964;1999;FA;Industrial Specialist;Very High;9938;X
-25007;Chief of Staff;Francesco Grazioli;1933;1964;1999;FA;School of Mass Combat;Medium;6381;X
-25008;Chief of Army;Alberto Pariani;1933;1964;1999;FA;Undersecretary of War;Medium;M3008;X
-25009;Chief of Navy;Domenico Cavagnari;1933;1964;1999;FA;Old School Admiral;Medium;6382;X
-25010;Chief of Air Force;Giuseppe Valle;1933;1964;1999;FA;Army Aviation Doctrine;Medium;M3010;X
+25001;Head of State;Alberto Meschi;1933;1964;1999;LWR;pig-headed isolationist;High;AR99;X
+25002;Head of Government;Filippo Corridoni;1933;1964;1999;LWR;flamboyant tough guy;High;AR100;X
+25003;Foreign Minister;Amilcare De Ambris;1933;1964;1999;LWR;apologetic clerk;Very High;AR101;X
+25004;Minister of Armament;Agostino Lanzillo;1933;1964;1999;LE;Mixed economy;Very High;AR102;X
+25005;Minister of Security;Benito Mussolini;1933;1964;1999;LE;media magnate;Very High;AR103;X
+25006;Head of Military Intelligence;Teodoro Savelli;1933;1964;1999;LWR;logistics specialist;Very High;AR104;X
+25007;Chief of Staff;Consiglio della Guardia Rossa;1933;1964;1999;LWR;School of Mass Combat;Medium;AR105;X
+25008;Chief of Army;Consiglio della Guardia Rossa;1933;1964;1999;LWR;Doctrine of autonomy;Medium;AR105;X
+25009;Chief of Navy;Consiglio della Guardia Rossa;1933;1964;1999;LWR;indirect approach doctrine;Medium;AR105;X
+25010;Chief of Air Force;Consiglio della Guardia Rossa;1933;1964;1999;LWR;Army Aviation Doctrine;Medium;AR105;X
 25011;Minister of Armament;A. de Marinis de Ricia;1933;1964;1999;SL;Administrative Genius;High;M3014;X
 25012;Head of Military Intelligence;Umberto Ricci;1933;1964;1999;SC;Industrial Specialist;High;M3015;X
 25013;Chief of Army;Enrico Mattei;1943;1964;1999;SC;Decisive Battle Doctrine;High;M3018;X

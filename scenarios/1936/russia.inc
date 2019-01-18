@@ -31,7 +31,10 @@ ai_settings = { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes
    chiefofstaff           = {  type = 9 id = 515174 } 
    chiefofarmy            = {  type = 9 id = 515082 } 
    chiefofnavy            = {  type = 9 id = 515087 } 
-   chiefofair             = {  type = 9 id = 515094 }  
+   chiefofair             = {  type = 9 id = 515094 }
+
+   peacetime_ic_mod = 2.0 
+   peacetime_ic_mod = 2.5
 
    policy = {
     date  = {  year = 0 month = january day = 0  }

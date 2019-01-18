@@ -3,20 +3,19 @@ panel      = "scenarios/data/scenario_1936.bmp"
 header =
 { name       = "The Old Order"
   startdate  = { year = 1936 }
-  selectable = { AFG ARG AST AUS BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE IRQ ITA 
-		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TIB TUR URU USA VEN YEM YUG U02 U06 U04 U05 UKR TRK RUS U00 WLL FLA
+  selectable = { AFG ARG AST AUS BHU BOL BRA BUL CAN CGX CHC CHI CHL COL COS CSX CUB CXB CYN CZE DEN DOM ECU EGY ENG EST ETH FIN FRA GER GRE GUA HAI HOL HON HUN IRE ITA 
+		 JAP LAT LIB LIT MAN MEX MON NEP NIC NOR NZL OMN PAN PAR PER PHI POL POR PRU ROM SOV SWE SAF SAL SAU SCH SIA SIK SPR TIB TUR URU USA VEN YEM YUG U02 U06 U05 UKR TRK RUS U00 WLL FLA SYR ISR ARM LBY AZB GEO MOR
                }
   GER        = { }
+  ENG        = { }
   AUS        = { }
   FRA        = { }
-  ENG        = { }
   SOV        = { picture = "scenarios\data\propaganda_SOV_1936.bmp" }
-  RUS        = { }
-  TRK        = { }  
   UKR        = { }
+  TRK        = { }  
+  RUS        = { }
   JAP        = { }
   MAN        = { }
-  CHI        = { }
   ITA        = { }
   U00        = { }
   USA        = { }
@@ -31,15 +30,15 @@ globaldata =
 { startdate = { year = 1936 month = january day = 0 }
   axis =
   { id          = { type = 15000 id = 2 }
-    participant = { GER }
+    participant = { GER AUS FLA WLL }
   }
   allies =
   { id          = { type = 15000 id = 1 }
-    participant = { ENG FRA BEL AST NZL CAN SAF NEP EGY }
+    participant = { ENG AST NZL CAN SAF NEP EGY }
   }
   comintern =
   { id          = { type = 15000 id = 3 }
-    participant = { SOV LAT PER }
+    participant = { SOV LAT PER AZB }
   }
   alliance =
   { id          = { type = 15000 id = 10 }
@@ -886,7 +885,7 @@ include = "scenarios\1936\china shanxi.inc"
 include = "scenarios\1936\cuba.inc"
 include = "scenarios\1936\china xibei.inc"
 include = "scenarios\1936\china yunan.inc"
-include = "scenarios\1936\czechoslovakia.inc"
+include = "scenarios\1936\bohemia.inc"
 include = "scenarios\1936\denmark.inc"
 include = "scenarios\1936\dominican republic.inc"
 include = "scenarios\1936\ecuador.inc"
@@ -904,7 +903,6 @@ include = "scenarios\1936\holland.inc"
 include = "scenarios\1936\honduras.inc"
 include = "scenarios\1936\hungary.inc"
 include = "scenarios\1936\ireland.inc"
-include = "scenarios\1936\iraq.inc"
 include = "scenarios\1936\italy.inc"
 include = "scenarios\1936\japan.inc"
 include = "scenarios\1936\latvia.inc"
@@ -939,7 +937,7 @@ include = "scenarios\1936\sweden.inc"
 include = "scenarios\1936\tibet.inc"
 include = "scenarios\1936\turkey.inc"
 include = "scenarios\1936\british raj.inc"
-include = "scenarios\1936\mandate syria and lebanon.inc"
+include = "scenarios\1936\syria.inc"
 include = "scenarios\1936\uruguay.inc"
 include = "scenarios\1936\usa.inc"
 include = "scenarios\1936\venezuela.inc"
@@ -956,3 +954,6 @@ include = "scenarios\1936\turkestan.inc"
 include = "scenarios\1936\russia.inc"
 include = "scenarios\1936\america.inc"
 include = "scenarios\1936\flanders.inc"
+include = "scenarios\1936\israel.inc"
+include = "scenarios\1936\morocco.inc"
+include = "scenarios\1936\libya.inc"

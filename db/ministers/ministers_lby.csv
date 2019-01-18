@@ -1,15 +1,15 @@
 LBY;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-495001;Head of State;Guglielmo Nasi;1933;1964;1999;FA;Ruthless Powermonger;High;L6108;X
-495002;Head of Government;Italo Gariboldi;1933;1964;1999;FA;Old General;High;L6077;X
-495003;Foreign Minister;Ettore Bastico;1933;1964;1999;FA;General Staffer;High;L6021;X
-495004;Minister of Armament;Giacomo Acerbo;1933;1964;1999;FA;Military Entrepreneur;High;M3073;X
-495005;Minister of Security;Umberto Ricci;1933;1964;1999;FA;Silent Lawyer;High;M3015;X
-495006;Head of Military Intelligence;Giovanni Messe;1933;1964;1999;PA;Logistics Specialist;Medium;L6102;X
-495007;Chief of Staff;Giovanni Messe;1933;1964;1999;PA;School of Psychology;Medium;L6102;X
-495008;Chief of Army;Lorenzo Dalmazzo;1933;1964;1999;PA;Decisive Battle Doctrine;Medium;L6052;X
-495009;Chief of Navy;Stefano de Laurentiis;1933;1964;1999;PA;Base Control Doctrine;Medium;L6166;X
-495010;Chief of Air Force;Aroldo Soffritti;1933;1964;1999;PA;Air Superiority Doctrine;Medium;L6235;X
+495001;Head of State;Mohamed Ali El Hammi;1933;1964;1999;LWR;benevolent gentleman;High;AR106;X
+495002;Head of Government;Tahar Haddad;1933;1964;1999;LWR;ambitious union boss;High;AR108;X
+495003;Foreign Minister;Muammar al-Rashed;1933;1964;1999;LWR;undistinguished suit;High;AR109;X
+495004;Minister of Armament;Ali Arshad;1933;1964;1999;LWR;undistinguished suit;High;AR110;X
+495005;Minister of Security;Farhat Hached;1933;1964;1999;LWR;man of the people;High;AR107;X
+495006;Head of Military Intelligence;Aristotele Stassi;1933;1964;1999;LWR;undistinguished suit;Medium;AR111;X
+495007;Chief of Staff;Gioventino Sciascia;1933;1964;1999;LWR;undistinguished suit;Medium;AR112;X
+495008;Chief of Army;Lorenzo Dalmazzo;1933;1964;1999;LWR;undistinguished suit;Medium;AR113;X
+495009;Chief of Navy;Consiglio della Guardia Rossa;1933;1964;1999;LWR;indirect approach doctrine;Medium;AR105;X
+495010;Chief of Air Force;Consiglio delle Guardie Rivoluzionarie;1933;1964;1999;LWR;Army Aviation Doctrine;Medium;AR105;X
 495011;Head of State;H.M. Idris I. al Sanussi;1939;1964;1999;ML;Popular Figurehead;High;M576011;X
 495012;Head of Government;Duncan C. Cumming;1939;1964;1999;ML;Corporate Suit;High;M576012;X
 495013;Foreign Minister;Leonard F. Mayhood;1939;1964;1999;ML;Apologetic Clerk;High;M576013;X

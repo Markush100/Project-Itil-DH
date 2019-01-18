@@ -1,17 +1,17 @@
 POL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-60001;Head of State;Ignacy Moscicki;1926;1964;1999;PA;Stern Imperialist;High;M13001;X
-60002;Head of Government;Marian Zyndram-Koscialkowski;1933;1964;1999;PA;Flamboyant Tough Guy;High;M13002;X
-60003;Foreign Minister;Józef Beck;1933;1964;1999;PA;General Staffer;High;M13003;X
-60004;Minister of Armament;Tadeusz Kasprzycki;1933;1964;1999;PA;Military Entrepreneur;Medium;M13004;X
-60005;Minister of Security;Wladyslaw Raczkiewicz;1933;1964;1999;PA;Crime Fighter;Medium;M13005;X
-60006;Head of Military Intelligence;T. Pelczynski-Grzegorz;1933;1964;1999;PA;Logistics Specialist;High;M13006;X
-60007;Chief of Staff;Edward Rydz-Smigly;1933;1942;1942;PA;School of Defence;High;M13007;X
-60008;Chief of Army;Edward Rydz-Smigly;1933;1942;1942;PA;Decisive battle doctrine;High;M13007;X
-60009;Chief of Navy;Jerzy Swirski;1918;1964;1999;PA;Open Seas Doctrine;Medium;M13009;X
-60010;Chief of Air Force;Józef Zajac;1933;1964;1999;PA;Air Superiority Doctrine;Medium;M13010;X
+60001;Head of State;Maurycy Klemens Zamoyski;1926;1964;1999;SC;weary stiffneck;High;AR64;X
+60002;Head of Government;Stanislaw Glabinski;1933;1964;1999;SC;naive optimist;High;AR65;X
+60003;Foreign Minister;Gabriel Narutowicz;1933;1964;1999;SC;iron fisted brute;High;AR66;X
+60004;Minister of Armament;Kazimierz Sosnkowski;1933;1964;1999;SL;infantry proponent;Medium;AR68;X
+60005;Minister of Security;Stanislaw Wojciechowski;1933;1964;1999;LE;compassionate gentleman;Medium;AR70;X
+60006;Head of Military Intelligence;Tadeusz Kasprzycki;1933;1964;1999;SC;political specialist;High;AR71;X
+60007;Chief of Staff;Wladyslaw Sikorski;1933;1942;1942;SC;School of Defence;High;AR72;X
+60008;Chief of Army;Henryk Minkiewicz;1933;1942;1942;SL;static defence doctrine;High;AR73;X
+60009;Chief of Navy;Jerzy Swirski;1918;1964;1999;SL;Open Seas Doctrine;Medium;M13009;X
+60010;Chief of Air Force;Ludomil Rayski;1933;1964;1999;SC;Air Superiority Doctrine;Medium;AR74;X
 60011;Head of State;Kazimierz Sosnkowski;1939;1964;1999;SC;Resigned Generalissimo;High;M13032;X
-60012;Head of State;Boleslaw Bierut;1945;1964;1999;LWR;Stern Imperialist;High;M13033;X
+60012;Head of State;Roza Luksemburg;1926;1964;1999;LE;die-hard reformer;High;AR69;X
 60013;Head of State;Boleslaw Bierut;1947;1964;1999;ST;Barking Buffoon;High;M13033;X
 60014;Head of State;Boleslaw Wieniawa-Dlugoszowski;1939;1964;1999;SL;Benevolent Gentleman;High;M13035;X
 60015;Head of State;Ignacy Jan Paderewski;1933;1964;1999;SC;Weary Stiffneck;High;M13036;X

@@ -1,15 +1,15 @@
 AZB;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-460001;Head of State;Nizham Narimanov;1933;1964;1999;LWR;Stern Imperialist;High;M516001;X
-460002;Head of Government;Faraz Guzeinov;1933;1964;1999;LWR;Backroom Backstabber;High;M516002;X
-460003;Foreign Minister;Suleyman Rustam;1933;1964;1999;LWR;The Cloak N Dagger Schemer;High;M516003;X
-460004;Minister of Armament;Ilyas Afandiev;1933;1964;1999;LWR;Theoretical Scientist;Medium;M516004;X
-460005;Minister of Security;Arash Bulbul;1933;1964;1999;LWR;Compassionate Gentleman;Medium;M516005;X
-460006;Head of Military Intelligence;Rasul Reza;1933;1964;1999;LWR;Industrial Specialist;Medium;M516006;X
+460001;Head of State;Mirza Davud Huseynov;1933;1964;1999;LE;insignificant layman;High;AR90;X
+460002;Head of Government;Huseyn Rahmanov;1933;1964;1999;LE;political protege;High;AR91;X
+460003;Foreign Minister;Nariman Narimanov;1933;1964;1999;LE;great compromiser;High;AR92;X
+460004;Minister of Armament;Ilyas Afandiev;1933;1964;1999;LE;Theoretical Scientist;Medium;M516004;X
+460005;Minister of Security;Arash Bulbul;1933;1964;1999;LE;Compassionate Gentleman;Medium;M516005;X
+460006;Head of Military Intelligence;Rasul Reza;1933;1964;1999;LE;Industrial Specialist;Medium;M516006;X
 460007;Chief of Staff;Mahmud Nuri Berköz;1933;1964;1999;LWR;School of Mass Combat;Medium;M516007;X
 460008;Chief of Army;Khalil Mamedov;1933;1964;1999;LWR;Elastic Defence Doctrine;Medium;M516008;X
-460009;Chief of Navy;Kambiz Krasnoshapka;1933;1964;1999;LWR;Open Seas Doctrine;High;M516009;X
-460010;Chief of Air Force;Gurgen Voskan Kamalyan;1933;1964;1999;LWR;Air Superiority Doctrine;Medium;M516010;X
+460009;Chief of Navy;Kambiz Krasnoshapka;1933;1964;1999;LE;Open Seas Doctrine;High;M516009;X
+460010;Chief of Air Force;Gurgen Voskan Kamalyan;1933;1964;1999;LE;Air Superiority Doctrine;Medium;M516010;X
 460011;Head of State;Rajib Kulbenzhian;1933;1964;1999;ML;Barking Buffoon;High;M516011;X
 460012;Head of Government;Suleyman Rustam;1933;1964;1999;SD;Smiling Oilman;High;M516003;X
 460013;Head of Government;Arash Bulbul;1933;1964;1999;ML;Flamboyant Tough Guy;Medium;M516005;X

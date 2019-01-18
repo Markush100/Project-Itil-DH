@@ -1,15 +1,15 @@
 GEO;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-475001;Head of State;Kandid Charkviani;1933;1964;1999;ST;Barking Buffoon;High;M519001;X
-475002;Head of Government;Lavrentij Beria;1933;1964;1999;ST;Flamboyant Tough Guy;High;M519002;X
-475003;Foreign Minister;Budu Mdivani;1933;1964;1999;ST;The Cloak N Dagger Schemer;High;M519003;X
-475004;Minister of Armament;Georgi Eliava;1933;1964;1999;ST;Theoretical Scientist;Medium;M519004;X
-475005;Minister of Security;Sergo Ordzhonikidzhe;1933;1964;1999;ST;Prince of Terror;Medium;M519005;X
-475006;Head of Military Intelligence;Nikola Nakashidzhe;1933;1964;1999;ST;Industrial Specialist;Medium;M519006;X
-475007;Chief of Staff;Lavrentij Beria;1933;1964;1999;ST;School of Psychology;Medium;M519007;X
-475008;Chief of Army;Igor D. Tcherniakhovski;1933;1964;1999;ST;Elastic Defence Doctrine;Medium;M519008;X
-475009;Chief of Navy;Alexei Brusilov;1933;1964;1999;ST;Open Seas Doctrine;Medium;M519009;X
-475010;Chief of Air Force;Mamia Orakhelashvili;1933;1964;1999;ST;Naval Aviation Doctrine;Medium;M519010;X
+475001;Head of State;Noe Ramishvili;1933;1964;1999;LWR;weary stiffneck;High;AR82;X
+475002;Head of Government;Noe Zhordania;1933;1964;1999;LWR;ambitious union boss;High;AR81;X
+475003;Foreign Minister;Akaki Chkhenkeli;1933;1964;1999;LWR;great compromiser;High;AR83;X
+475004;Minister of Armament;Victor Tevzaia;1933;1964;1999;LWR;administrative genius;Medium;AR84;X
+475005;Minister of Security;Valiko Jugheli;1933;1964;1999;LWR;secret police chief;Medium;AR86;X
+475006;Head of Military Intelligence;Nikola Nakashidzhe;1933;1964;1999;LWR;Industrial Specialist;Medium;M519006;X
+475007;Chief of Staff;Giorgi Kvinitadze;1933;1964;1999;LWR;school of defence;Medium;AR87;X
+475008;Chief of Army;Giorgi Mazniashvili;1933;1964;1999;LWR;static defence doctrine;Medium;AR88;X
+475009;Chief of Navy;Giorgi Abashvili;1933;1964;1999;LWR;indirect approach doctrine;Medium;AR89;X
+475010;Chief of Air Force;Samson Pirtskhalava;1933;1964;1999;LWR;Air Superiority Doctrine;Medium;M519056;X
 475011;Head of State;Raphael Ivanitski-Ingilo;1933;1964;1999;SD;Pig-headed Isolationist;High;M519011;X
 475012;Head of State;H.R.H. Margaretha I. Abkhazi;1933;1964;1999;SL;Popular Figurehead;High;M519012;X
 475013;Head of State;H.R.H. Irakly IV. Bagration de Moukhani;1933;1964;1999;SC;Autocratic Charmer;High;M519013;X

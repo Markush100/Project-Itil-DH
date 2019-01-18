@@ -120,13 +120,13 @@
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 7 
-     political_left    = 1 
-     freedom           = 4 
-     free_market       = 5 
-     professional_army = 5 
-     defense_lobby     = 8 
-     interventionism   = 6 
+     democratic        = 8 
+     political_left    = 5
+     freedom           = 7 
+     free_market       = 6 
+     professional_army = 7 
+     defense_lobby     = 1 
+     interventionism   = 3 
     } 
 
    headofstate            = {  type = 9 id = 60001  } 
@@ -245,7 +245,7 @@ inventions = { 3000027 }
     } 
    landunit = 
    {  id       = {  type = 18600 id = 14  } 
-     location = 255 
+     location = 254 
      name     = "3 Okreg Wojskowy" 
      Division = 
      {  id   = {  type = 18600 id = 15  } 
@@ -310,7 +310,7 @@ inventions = { 3000027 }
     } 
    landunit = 
    {  id       = {  type = 18600 id = 23  } 
-     location = 223 
+     location = 227 
      name     = "4 Okreg Wojskowy" 
      Division = 
      {  id   = {  type = 18600 id = 24  } 
@@ -400,7 +400,7 @@ inventions = { 3000027 }
     } 
    landunit = 
    {  id       = {  type = 18600 id = 35  } 
-     location = 242 
+     location = 237 
      name     = "6 Okreg Wojskowy" 
      Division = 
      {  id   = {  type = 18600 id = 36  } 
@@ -443,7 +443,7 @@ inventions = { 3000027 }
     } 
    landunit = 
    {  id       = {  type = 18600 id = 41  } 
-     location = 224 
+     location = 231 
      name     = "7 Okreg Wojskowy" 
      Division = 
      {  id   = {  type = 18600 id = 42  } 
@@ -481,7 +481,7 @@ inventions = { 3000027 }
     } 
    landunit = 
    {  id       = {  type = 18600 id = 46  } 
-     location = 222 
+     location = 230 
      name     = "8 Okreg Wojskowy" 
      Division = 
      {  id   = {  type = 18600 id = 47  } 
@@ -518,7 +518,7 @@ inventions = { 3000027 }
    landunit = 
    {  id       = {  type = 18600 id = 51  } 
      name     = "9 Okreg Wojskowy" 
-     location = 247 
+     location = 246 
      Division = 
      {  id   = {  type = 18600 id = 52  } 
        name = "18 Dywizja Piechoty" 
@@ -567,7 +567,7 @@ inventions = { 3000027 }
     } 
    landunit = 
    {  id       = {  type = 18600 id = 58  } 
-     location = 239 
+     location = 236
      name     = "10 Okreg Wojskowy" 
      Division = 
      {  id   = {  type = 18600 id = 59  } 
@@ -604,7 +604,7 @@ inventions = { 3000027 }
    navalunit = 
    {  id       = {  type = 18600 id = 63  } 
      name     = "Polska Flota Wojenna" 
-     location = 226 
+     location = 252 
      base     = 226 
      Division = 
      {  id       = {  type = 18600 id = 64  } 

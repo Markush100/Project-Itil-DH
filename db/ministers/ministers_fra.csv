@@ -1,13 +1,13 @@
 FRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
 5001;Head of State;Albert Lebrun;1932;1964;1999;SL;Barking Buffoon;High;3871;X
-5002;Head of Government;Albert Sarraut;1933;1964;1999;SL;Happy Amateur;High;5900;X
-5003;Foreign Minister;Pierre Étienne Flandin;1933;1964;1999;SL;Ideological Crusader;Low;M2003;X
-5004;Minister of Armament;Vincent Auriol;1933;1964;1999;SL;Supporter of Devaluation;High;5901;X
+5002;Head of Government;Louis Marin;1933;1964;1999;ML;naive optimist;High;AR93;X
+5003;Foreign Minister;Edouard Daladier;1933;1964;1999;SL;Ideological Crusader;Low;AR94;X
+5004;Minister of Armament;Paul Reynaud;1933;1964;1999;ML;laissez-faire capitalist;High;AR95;X
 5005;Minister of Security;Marx Dormoy;1933;1964;1999;SL;Opposer of the far right;Medium;M2005;X
 5006;Head of Military Intelligence;Joseph Paganon;1933;1964;1999;SL;Political Specialist;Medium;M2006;X
-5007;Chief of Staff;Maurice Gamelin;1935;1964;1999;SL;Fortifications Supporter;Very High;5902;X
-5008;Chief of Army;Maurice Gamelin;1935;1964;1999;SL;Static Defense Supporter;Very High;5902;X
+5007;Chief of Staff;Philippe Petain;1935;1964;1999;PA;school of fire support;Very High;AR96;X
+5008;Chief of Army;Maurice Gamelin;1935;1964;1999;PA;static defence doctrine;Very High;AR96;X
 5009;Chief of Navy;François Darlan;1924;1943;1967;PA;Decisive Naval Battle Doctrine;Low;M57002;X
 5010;Chief of Air Force;Victor Denain;1933;1964;1999;SL;Carpet Bombing Doctrine;Medium;M2010;X
 5011;Head of State;Vincent Auriol;1947;1964;1999;SL;Autocratic Charmer;High;5901;X

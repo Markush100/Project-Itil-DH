@@ -32,9 +32,9 @@
      interventionism   = 3 
     } 
 
-   nationalprovinces      = {  1040 1044 1045 1046 1047 1048 1049  } 
-   ownedprovinces         = {  1040 1044 1045 1046 1047 1048 1049  } 
-   controlledprovinces    = {  1040 1044 1045 1046 1047 1048 1049  } 
+   nationalprovinces      = {  1025 1026 1040 1044 1045 1046 1047 1048 1049  } 
+   ownedprovinces         = {  1025 1026 1040 1044 1045 1046 1047 1048 1049  } 
+   controlledprovinces    = {  1025 1026 1040 1044 1045 1046 1047 1048 1049  } 
    # ROTW Minor Tech '36 
    # Group E 1936 techs 
    # ###################### 

@@ -9,19 +9,19 @@
   
  country = 
  {  tag                    = GER 
-	ai_settings	= { flags = { GERBuildStandard = yes MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes } }
+	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes } }
 	capital                = 163 
-	manpower               = 124.5
-	transports             = 450 
-	escorts                = 23 
+	manpower               = 0
+	transports             = 600 
+	escorts                = 80
 
 	# Resource Reserves 
 	energy                 = 9000
 	metal                  = 4500
 	rare_materials         = 2250
-	oil                    = 5000 
-	supplies               = 500 
-	money                  = 200 
+	oil                    = 15000 
+	supplies               = 3000
+	money                  = 300 
    diplomacy = 
    {  relation = {  tag = ARG value = 75  } 
      relation = {  tag = AST value = 1  } 
@@ -123,13 +123,13 @@
    ###COLONIES
    846 847 894 897 898 899 901 902 903 904 905 906 #Congo
    846 847 848 849 850 851 852 #Tanganyika
-   893 907 908 909 910 911 912 913 914 915 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
+   893 907 908 909 910 911 912 913 914 915 916 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
    882 883 884 885 886 #Namibia
    948 949 950 951 955 #Togo
    834 835 836 837 838 816 833 #East Africa
    1001 1002 1003 996 999 1000 #Madagascar
    1752 1767 1768 2000 #West Indies
-   1234 1587 1602 1603 1604 1605 1610 1725 1726 1727 1731 # Pacific
+   1234 1587 1602 1603 1604 1605 1610 1725 1726 1727 1731 1730 1740 1743 1744 1581 1582 1583 1584 1585 1586 # Pacific
    1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 1404 1405 #Indochina
                              } 
    controlledprovinces    = {  104 105 107 109 110 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 216 221 222 224 225 226 261 
@@ -137,26 +137,26 @@
    # AFRICA
    846 847 894 897 898 899 901 902 903 904 905 906 #From Belgium
    846 847 848 849 850 851 852 #Tanganyika
-   893 907 908 909 910 911 912 913 914 915 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
+   893 907 908 909 910 911 912 913 914 915 916 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
    882 883 884 885 886 #Namibia
    948 949 950 951 955 #Togo
    834 835 836 837 838 815 816 817 833 #East Africa
    1001 1002 1003 996 999 1000 #Madagascar
    1752 1767 1768 2000 #West Indies
-   1234 1587 1602 1603 1604 1605 1610 1725 1726 1727 1731 # Pacific
+   1234 1587 1602 1603 1604 1605 1610 1725 1726 1727 1731 1730 1740 1743 1744 1581 1582 1583 1584 1585 1586 # Pacific 
    1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 1404 1405 #Indochina
                              } 
 claimedprovinces = { 
    # AFRICA
    846 847 894 897 898 899 901 902 903 904 905 906 #From Belgium
    846 847 848 849 850 851 852 #Tanganyika
-   893 907 908 909 910 911 912 913 914 915 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
+   893 907 908 909 910 911 912 913 914 915 916 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
    882 883 884 885 886 #Namibia
    948 949 950 551 955 #Togo
-   834 835 836 837 838 816 833 #East Africa
-   1001 1002 1003 996 999 1000 #Madagascar
+   834 835 836 837 838 815 816 817 833 #East Africa
+   1001 1002 1003 996 999 1000 #Madagascar 1730 1740 1743 1744
    1752 1767 1768 #West Indies
-   1234 1587 1602 1603 1605 1610 1665 1666 1667 1668 1669 1670 1671 1674 1675 1676 1677 1681 1684 1685 1686 1725 1726 1727 # Pacific
+   1234 1587 1602 1603 1605 1610 1665 1666 1667 1668 1669 1670 1671 1674 1675 1676 1677 1681 1684 1685 1686 1725 1726 1727 1730 1740 1743 1744 1581 1582 1583 1584 1585 1586 # Pacific
    1731 #Apia
    1328 # Qingdao
 }
@@ -283,7 +283,7 @@ blueprints = { 6240 6260 6270 7560 } # Elastic Defense, Combined Arms Off. and K
      interventionism   = 7 
     } 
 	peacetime_ic_mod       = 1.0
-   headofstate            = {  type = 9 id = 855001  } 
+   headofstate            = {  type = 9 id = 1  } 
    headofgovernment       = {  type = 9 id = 2  } 
    foreignminister        = {  type = 9 id = 3  } 
    armamentminister       = {  type = 9 id = 4  } 
@@ -1222,101 +1222,409 @@ landunit =
 #MARINE
 
    navalunit = 
-   {  name     = "Kaiserliche Marine" 
+   {  name     = "Hochseeflotte" 
      id       = {  type = 14500 id = 500  } 
      location = 147 
      base     = 147 
      Division = 
      {  id    = {  type = 14500 id = 501  } 
-       name  = "Baden" 
+       name  = "SMS SMS Baden" 
        type  = battleship 
-       model = 4
+       model = 5
       } 
      Division = 
      {  id    = {  type = 14500 id = 502  } 
-       name  = "Bayern" 
+       name  = "SMS Bayern" 
+       type  = battleship 
+       model = 5
+      } 
+      Division = 
+     {  id    = {  type = 14500 id = 503  } 
+       name  = "SMS Friedrich der Grosse" 
        type  = battleship 
        model = 4
       } 
       Division = 
-     {  id    = {  type = 14500 id = 503  } 
-       name  = "Friedrich der Grosse" 
-       type  = battleship 
-       model = 3
-      } 
-      Division = 
      {  id    = {  type = 14500 id = 504  } 
-       name  = "Grosser Kurfurst" 
+       name  = "SMS Grosser Kurfurst" 
        type  = battleship 
        model = 4
       } 
       Division = 
      {  id    = {  type = 14500 id = 506  } 
-       name  = "Kaiser" 
+       name  = "SMS Kaiser" 
        type  = battleship 
        model = 4
       } 
        Division = 
       {  id    = {  type = 14500 id = 507  } 
-       name  = "Kaiserin" 
+       name  = "SMS Kaiserin" 
        type  = battleship 
        model = 4
       } 
        Division = 
       {  id    = {  type = 14500 id = 508  } 
-       name  = "Konig" 
+       name  = "SMS Konig" 
        type  = battleship 
        model = 5
       } 
        Division = 
       {  id    = {  type = 14500 id = 509  } 
-       name  = "Konig Albert" 
+       name  = "SMS Konig Albert" 
        type  = battleship 
        model = 5
       }
-       Division =  
-      {  id    = {  type = 14500 id = 510  } 
-       name  = "Kronprinz Wilhelm" 
-       type  = battleship 
-       model = 5
-      } 
+        
        Division = 
       {  id    = {  type = 14500 id = 511  } 
-       name  = "Markgraf" 
+       name  = "SMS Markgraf" 
        type  = battleship 
        model = 5
       } 
        Division = 
       {  id    = {  type = 14500 id = 512  } 
-       name  = "Prinzregent Luitpold" 
+       name  = "SMS Prinzregent Luitpold" 
        type  = battleship 
        model = 4
       } 
        Division = 
      {  id    = {  type = 14500 id = 513  } 
-       name  = "Kaiser Wilhelm" 
+       name  = "SMS Kaiser Wilhelm" 
        type  = battleship 
        model = 6
       } 
        Division = 
       {  id    = {  type = 14500 id = 514  } 
-       name  = "Preussen" 
+       name  = "SMS Preussen" 
        type  = battleship 
        model = 6
       } 
+            Division = 
+     {  id    = {  type = 14500 id = 522  } 
+       name  = "SMS Wurttemberg" 
+       type  = battleship 
+       model = 5
+      } 
      Division = 
-     {  id    = {  type = 14500 id = 310  } 
-       name  = "3. Zerstörergeschwader" 
+     {  id    = {  type = 14500 id = 523  } 
+       name  = "SMS Sachsen" 
+       type  = battleship 
+       model = 5
+      } 
+     Division = 
+     {  id    = {  type = 14500 id = 524  } 
+       name  = "SMS Moltke" 
+       type  = battlecruiser
+       model = 0
+      } Division = 
+      {  id    = {  type = 14500 id = 525  } 
+       name  = "SMS Seydlitz" 
+       type  = battlecruiser
+       model = 1
+      } Division = 
+      {  id    = {  type = 14500 id = 526  } 
+       name  = "SMS Derfflinger" 
+       type  = battlecruiser
+       model = 1
+      } Division = 
+      {  id    = {  type = 14500 id = 527  } 
+       name  = "SMS Lutzow" 
+       type  = battlecruiser
+       model = 1
+      } Division = 
+      {  id    = {  type = 14500 id = 528  } 
+       name  = "SMS Hindenburg" 
+       type  = battlecruiser
+       model = 1
+      }  Division = 
+      {  id    = {  type = 14500 id = 531  } 
+       name  = "SMS Prinz Eitel Friedrich" 
+       type  = battlecruiser
+       model = 1
+      } Division = 
+      {  id    = {  type = 14500 id = 532  } 
+       name  = "SMS Furst Bismarck" 
+       type  = battlecruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 533  } 
+       name  = "SMS Ersatz Yorck" 
+       type  = battlecruiser
+       model = 2
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 534  } 
+       name  = "SMS Ersatz Gniesenau" 
+       type  = battlecruiser
+       model = 2
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 536  } 
+       name  = "SMS Hipper" 
+       type  = battlecruiser
+       model = 2
+      } 
+      Division = 
+      {  id    = {  type = 14500 id = 537  } 
+       name  = "SMS Blucher" 
+       type  = heavy_cruiser
+       model = 3
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 538  } 
+       name  = "SMS Gazelle" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 539  } 
+       name  = "SMS Niobe" 
+       type  = light_cruiser
+       model = 1
+      } 
+      Division = 
+     {  id    = {  type = 14500 id = 546  } 
+       name  = "3. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 3
+      } 
+     Division = 
+     {  id    = {  type = 14500 id = 547  } 
+       name  = "4. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 3 
+      } 
+      Division = 
+     {  id    = {  type = 14500 id = 548  } 
+       name  = "5. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 3
+      } 
+     Division = 
+     {  id    = {  type = 14500 id = 548  } 
+       name  = "6. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 4 
+      } 
+      Division = 
+     {  id    = {  type = 14500 id = 549  } 
+       name  = "7. Zerstorergeschwader" 
        type  = destroyer 
        model = 4
       } 
      Division = 
-     {  id    = {  type = 14500 id = 333  } 
-       name  = "4. Zerstörergeschwader" 
+     {  id    = {  type = 14500 id = 550  } 
+       name  = "8. Zerstorergeschwader" 
        type  = destroyer 
        model = 4 
       } 
     } 
+      
+
+ navalunit = 
+   {  name     = "Atlantischflotte" 
+     id       = {  type = 14500 id = 599  } 
+     location = 915
+     base     = 915
+     Division =  
+      {  id    = {  type = 14500 id = 510  } 
+       name  = "SMS Kronprinz Wilhelm" 
+       type  = battleship 
+       model = 5
+      }
+     Division = 
+      {  id    = {  type = 14500 id = 529  } 
+       name  = "SMS Mackensen" 
+       type  = battlecruiser
+       model = 1
+      } Division = 
+      {  id    = {  type = 14500 id = 530  } 
+       name  = "SMS Graf Spee" 
+       type  = battlecruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 540  } 
+       name  = "SMS Nymphe" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 541  } 
+       name  = "SMS Thetis" 
+       type  = light_cruiser
+       model = 1
+      } 
+       Division = 
+      {  id    = {  type = 14500 id = 542  } 
+       name  = "SMS Ariadne" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 543  } 
+       name  = "SMS Amazone" 
+       type  = light_cruiser
+       model = 1
+      } 
+      Division = 
+     {  id    = {  type = 14500 id = 544  } 
+       name  = "1. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 0
+      } 
+     Division = 
+     {  id    = {  type = 14500 id = 545  } 
+       name  = "2. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 0 
+      } 
+     Division = 
+      {  id    = {  type = 14500 id = 535  } 
+       name  = "SMS Ersatz Scharnhorst" 
+       type  = battlecruiser
+       model = 2
+      }
+}
+
+
+
+
+
+
+ navalunit = 
+   {  name     = "Ostasiengeschwader" 
+     id       = {  type = 14500 id = 551  } 
+     location = 1602
+     base     = 1602
+     Division = 
+      {  id    = {  type = 14500 id = 552  } 
+       name  = "SMS Scheer" 
+       type  = heavy_cruiser
+       model = 3
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 553  } 
+       name  = "SMS Schmidt" 
+       type  = heavy_cruiser
+       model = 3
+      }  
+      Division = 
+      {  id    = {  type = 14500 id = 554  } 
+       name  = "SMS Maass" 
+       type  = heavy_cruiser
+       model = 3
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 555  } 
+       name  = "SMS Qingdao" 
+       type  = carrier
+       model = 0
+       extra = cag
+       brigade_model = 0
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 556  } 
+       name  = "SMS Frauenlob" 
+       type  = light_cruiser
+       model = 1
+      } 
+       Division = 
+      {  id    = {  type = 14500 id = 557  } 
+       name  = "SMS Arcona" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 558  } 
+       name  = "SMS Undine" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 559  } 
+       name  = "SMS Stuttgart" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 560  } 
+       name  = "SMS Stettin" 
+       type  = light_cruiser
+       model = 1
+      } 
+       Division = 
+      {  id    = {  type = 14500 id = 561  } 
+       name  = "SMS Kolberg" 
+       type  = light_cruiser
+       model = 1
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 562  } 
+       name  = "SMS Augsburg" 
+       type  = light_cruiser
+       model = 1
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 563  } 
+       name  = "SMS Stralsund" 
+       type  = light_cruiser
+       model = 1
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 564  } 
+       name  = "SMS Wiesbaden" 
+       type  = light_cruiser
+       model = 2
+      } 
+       Division = 
+      {  id    = {  type = 14500 id = 565  } 
+       name  = "SMS Magdeburg" 
+       type  = light_cruiser
+       model = 2
+      }
+       Division = 
+      {  id    = {  type = 14500 id = 566  } 
+       name  = "SMS Leipzig" 
+       type  = light_cruiser
+       model = 2
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 567  } 
+       name  = "SMS Frauenlob" 
+       type  = light_cruiser
+       model = 2
+      }
+      Division = 
+     {  id    = {  type = 14500 id = 568  } 
+       name  = "9. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 4
+      } 
+     Division = 
+     {  id    = {  type = 14500 id = 569  } 
+       name  = "10. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 4 
+      } 
+      Division = 
+     {  id    = {  type = 14500 id = 570  } 
+       name  = "11. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 4
+      } 
+     Division = 
+     {  id    = {  type = 14500 id = 571  } 
+       name  = "12. Zerstorergeschwader" 
+       type  = destroyer 
+       model = 4 
+      } 
+}
+
+
+
+     
  navalunit = 
    {  name     = "I. Truppentransporter Flotte" 
      id       = {  type = 14500 id = 3104  } 
@@ -1382,45 +1690,69 @@ landunit =
      id       = {  type = 14500 id = 328  } 
      location = 184 
      base     = 184 
-     Division = 
-     {  id    = {  type = 14500 id = 329  } 
-       name  = "Schleswig-Holstein" 
+           Division = 
+      {  id    = {  type = 14500 id = 515  } 
+       name  = "Wilhelmshaven" 
        type  = battleship 
-       model = 1
+       model = 6
       } 
-     Division = 
-     {  id    = {  type = 14500 id = 330  } 
-       name  = "Schlesien" 
+      Division = 
+      {  id    = {  type = 14500 id = 516  } 
+       name  = "Nassau" 
        type  = battleship 
-       model = 1
-      } 
-     Division = 
-     {  id    = {  type = 14500 id = 3157  } 
-       name  = "Hannover" 
+       model = 3
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 517  } 
+       name  = "Westfalen" 
        type  = battleship 
-       model = 1
-      } 
+       model = 4
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 518  } 
+       name  = "Helgoland" 
+       type  = battleship 
+       model = 4
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 519  } 
+       name  = "Ostfrieseland" 
+       type  = battleship 
+       model = 4
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 520  } 
+       name  = "Thuringen" 
+       type  = battleship 
+       model = 4
+      }
+      Division = 
+      {  id    = {  type = 14500 id = 521  } 
+       name  = "Oldenburg" 
+       type  = battleship 
+       model = 4
+      }
      Division = 
      {  id    = {  type = 14500 id = 331  } 
-       name  = "1. Zerstörergeschwader" 
+       name  = "13. Zerstorergeschwader" 
        type  = destroyer 
-       model = 1
+       model = 3
       } 
      Division = 
      {  id    = {  type = 14500 id = 332  } 
-       name  = "2. Zerstörergeschwader" 
+       name  = "14. Zerstorergeschwader" 
        type  = destroyer 
-       model = 1 
+       model = 2
       } 
      Division = 
      {  id    = {  type = 14500 id = 3155 } 
-       name  = "5. Zerstörergeschwader" 
+       name  = "15. Zerstorergeschwader" 
        type  = destroyer 
-       model = 0
+       model = 1
       } 
      Division = 
      {  id    = {  type = 14500 id = 3156  } 
-       name  = "6. Zerstörergeschwader" 
+       name  = "16. Zerstorergeschwader" 
        type  = destroyer 
        model = 0
       } 
@@ -1533,7 +1865,46 @@ landunit =
        type     = tactical_bomber 
        model    = 4
       } 
-    } 
+    }
+
+airunit = 
+   {  location = 142 
+     id       = {  type = 14500 id = 4104  } 
+     name     = "Luftflotte V" 
+     base     = 142 
+     Division = 
+     {  id            = {  type = 14500 id = 4105  } 
+       name          = "JG 19 'M. Richthofen'" 
+       strength      = 100 
+       type          = multi_role 
+       model         = 3
+      } 
+     Division = 
+     {  id            = {  type = 14500 id = 4106  } 
+       name          = "JG 11 'Reinhard'" 
+       strength      = 100 
+       type          = multi_role 
+       model         = 3
+      } 
+      Division = 
+     {  id            = {  type = 14500 id = 4107  } 
+       name          = "JG 12 'L. Richthofen'" 
+       strength      = 100 
+       type          = multi_role 
+       model         = 3
+      } 
+     Division = 
+     {  id            = {  type = 14500 id = 4108  } 
+       name          = "JG 26 'Goering'" 
+       strength      = 100 
+       type          = multi_role 
+       model         = 4
+      } 
+    }
+
+
+
+
 
 }
 	

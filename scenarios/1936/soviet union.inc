@@ -214,8 +214,8 @@ inventions = { 3000027 }
     } 
 	peacetime_ic_mod       = 0.70 # +0.3 from 1 event during WWII
 	wartime_ic_mod       = 0.75
-   headofstate            = {  type = 9 id = 30001  } # Trotsky 
-   headofgovernment       = {  type = 9 id = 30002  } # Bukharin 
+   headofstate            = {  type = 9 id = 30001  } #Trotsky 
+   headofgovernment       = {  type = 9 id = 30002  } #Bukharin 
    foreignminister        = {  type = 9 id = 30003  } #Abramovitch
    armamentminister       = {  type = 9 id = 30004  } #Shliapnikov
    ministerofsecurity     = {  type = 9 id = 30005  } #Kirov
@@ -1725,7 +1725,7 @@ landunit =
    landunit = 
    {  id       = {  type = 10848 id = 214 } 
      name     = "Zakavkazskyi Voennyi Okrug" 
-     location =  709 # Tbilisi
+     location =  703 # Tbilisi
         Division = 
      {  id       = {  type = 10848 id = 217  } 
        name     = "1-ya Gorskaya Kavkazskaya Strelkovaya Diviziya" 

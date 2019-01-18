@@ -1,15 +1,15 @@
 ARM;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-455001;Head of State;Antranig Osanian;1933;1964;1999;FA;Popular Figurehead;High;M515001;X
-455002;Head of Government;Antranig Osanian;1933;1964;1999;FA;Old General;High;M515001;X
-455003;Foreign Minister;Boghas Nubar Pasha;1933;1964;1999;FA;Ideological Crusader;High;M515003;X
-455004;Minister of Armament;Hagop Andonian;1933;1964;1999;FA;Military Entrepreneur;Medium;M515004;X
-455005;Minister of Security;Karek Pastermadjan;1933;1964;1999;FA;Prince of Terror;Medium;M515005;X
+455001;Head of State;Andranik Ozanian;1933;1964;1999;PA;Popular Figurehead;High;AR76;X
+455002;Head of Government;Andranik Ozanian;1933;1964;1999;PA;Old General;High;AR76;X
+455003;Foreign Minister;Hovhannes Tumanyan;1933;1964;1999;PA;biased intellectual;High;AR77;X
+455004;Minister of Armament;Kristapor Araratian;1933;1964;1999;PA;infantry proponent;Medium;AR78;X
+455005;Minister of Security;Karek Pastermadjan;1933;1964;1999;PA;Prince of Terror;Medium;M515005;X
 455006;Head of Military Intelligence;Jack Agazarian;1933;1964;1999;PA;Dismal Enigma;Medium;M515006;X
-455007;Chief of Staff;Paul Hoffmann;1933;1964;1999;FA;School of Mass Combat;Medium;M515007;X
-455008;Chief of Army;Antranig Osanian;1933;1964;1999;FA;Guns and Butter Doctrine;Medium;M515008;X
-455009;Chief of Navy;Wilhelm Betche;1933;1964;1999;FA;Indirect Approach Doctrine;Medium;M515009;X
-455010;Chief of Air Force;Hans Klein;1933;1964;1999;FA;Army Aviation Doctrine;Medium;M515010;X
+455007;Chief of Staff;Movses Silikyan;1933;1964;1999;PA;School of Mass Combat;Medium;AR79;X
+455008;Chief of Army;Garegin Nzhdeh;1933;1964;1999;PA;Guerilla warfare doctrine;Medium;AR80;X
+455009;Chief of Navy;Wilhelm Betche;1933;1964;1999;PA;Indirect Approach Doctrine;Medium;M515009;X
+455010;Chief of Air Force;Hans Klein;1933;1964;1999;PA;Army Aviation Doctrine;Medium;M515010;X
 455011;Foreign Minister;Berch Keresteciyan;1933;1964;1999;PA;Great Compromiser;High;M515011;X
 455012;Foreign Minister;Jivan Hamparsumian;1933;1964;1999;FA;The Cloak N Dagger Schemer;High;M515012;X
 455013;Foreign Minister;Father Romanos;1933;1964;1999;NS;Iron Fisted Brute;High;M515013;X
