@@ -7,7 +7,6 @@
  {  tag                    = CYN 
 	flag_ext 	= _PNE
 	regular_id             = CHI 
-	puppet				   = CHI
 	ai_settings = { flags = { MOB1 = yes MOB2 = yes RES = yes } }
 	intrinsic_gov_type     = paternal_autocrat 
 	extra_tc               = 4 
@@ -32,8 +31,8 @@
      interventionism   = 1 
     } 
    nationalprovinces      = {  1291 1292 1293 1296 1297 1298 1299 1300 1302 1304 1384 1385 1386 1387 1388 1389 1390 1413  } 
-   ownedprovinces         = {  1291 1292 1293 1384 1385 1386 1387 1388 1389 1390 } 
-   controlledprovinces    = {  1291 1292 1293 1384 1385 1386 1387 1388 1389 1390 } 
+   ownedprovinces         = {  1291 1384 1385 1386 1387 1388 1389 1390 } 
+   controlledprovinces    = {  1291 1384 1385 1386 1387 1388 1389 1390 } 
 	#Yunnan
    techapps = { 
 	

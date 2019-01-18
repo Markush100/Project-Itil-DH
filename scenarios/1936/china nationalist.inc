@@ -26,13 +26,13 @@
    
    diplomacy = 
    {  relation = {  tag = CHC value = -200  }
-     relation = {  tag = CGX value = 100  } 
-     relation = {  tag = CSX value = 100 access = yes  } 
-     relation = {  tag = CXB value = 200 access = yes  } 
-     relation = {  tag = CYN value = 200  } 
+     relation = {  tag = CGX value = -100  } 
+     relation = {  tag = CSX value = -100  } 
+     relation = {  tag = CXB value = -100   } 
+     relation = {  tag = CYN value = -100  } 
      relation = {  tag = JAP value = -100  } 
-     relation = {  tag = MAN value = -100  } 
-	 relation = {  tag = U74 value = 100 access = yes  } 
+     relation = {  tag = MAN value = -150  } 
+	 relation = {  tag = U74 value = -100  } 
     } 
    SpyInfo                = {  country = "CHI" NumberOfSpies = 5  } 
    # Fujian   
@@ -82,12 +82,12 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-    1338 1255 1259 1260 1261 1267 1296 1297 1298 1299 1302 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1328 1329 1330 1331 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344
+    1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-    1338 1255 1259 1260 1261 1267 1296 1297 1298 1299 1302 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1328 1329 1330 1331 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
+    1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
@@ -250,146 +250,6 @@ inventions = { 3000027 }
    # CHINA 1936/1937 OOB #
    #######################
    # TYPE = 22000
-   
-   ###################
-   # Shandong Clique #
-   ###################
-   # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15468195&viewfull=1#post15468195
-
-    landunit = 
-   {  location = 1330 # Jinan 
-     name     = "6th Corps" 
-     id       = {  type = 22000 id = 1  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 2  } 
-       name       = "22nd Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 3  } 
-       name       = "29th Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 4  } 
-       name       = "74th Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1330 # Jinan 
-     name     = "12th Corps" 
-     id       = {  type = 22000 id = 5  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 6  } 
-       name       = "20th Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 7  } 
-       name       = "81st Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-	   locked = yes
-      }
-    }
-    landunit = 
-   {  location = 1330 # Jinan 
-     name     = "3rd Route Army" 
-     id       = {  type = 22000 id = 8  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 9  } 
-       name       = "3rd Route Army HQ" 
-       type       = hq
-	   strength  = 80
-       model     = 1
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 10  } 
-       name       = "1st 2nd Independent Artillery Regiments" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 5
-	   locked = yes
-      }
-    }
-    landunit = 
-   {  location = 1330 # Jinan 
-     name     = "Shandong Provincial Security Group" 
-     id       = {  type = 22000 id = 11  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 12  } 
-       name       = "1st Route Militia" 
-       type       = militia
-	   strength  = 60
-       model     = 3
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 13  } 
-       name       = "2nd Route Militia" 
-       type       = militia
-	   strength  = 60
-       model     = 3
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 14  } 
-       name       = "3rd Route Militia" 
-       type       = militia
-	   strength  = 60
-       model     = 3
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 15  } 
-       name       = "4th Route Militia" 
-       type       = militia
-	   strength  = 60
-       model     = 3
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 16  } 
-       name       = "5th Route Militia" 
-       type       = militia
-	   strength  = 60
-       model     = 3
-	   locked = yes
-      }
-    }
 	
 	##############################################
 	# 29th Army (Hebei/Hebei Autonomous Council) #

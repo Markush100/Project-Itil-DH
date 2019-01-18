@@ -1,5 +1,5 @@
 ##############################
-# Country definition for U36 #
+# Country definition for UCH #
 ##############################
 
  
@@ -8,9 +8,9 @@
  ##################### 
   
  country = 
- {  tag                    = U36
+ {  tag                    = UCH
 	ai_settings	= { flags = { RES = yes MOB1 = yes MOB2 = yes 1330110043_HISTORICAL_SCENARIO = yes } }
-	capital                = 1247 
+	capital                = 1337 # Nanjing 
 	# Resource Reserves 
 	energy                 = 2100
 	metal                  = 1050
@@ -26,14 +26,17 @@
    
    diplomacy = 
    {  relation = {  tag = CHC value = -100  }
+     relation = {  tag = CGX value = -100  } 
      relation = {  tag = CSX value = -100  } 
-     relation = {  tag = CXB value = -100  } 
-     relation = {  tag = CYN value = -100  } 
-     relation = {  tag = JAP value = -150  } 
-     relation = {  tag = MAN value = -100  } 
-	 relation = {  tag = U74 value = 100 access = yes  } 
+     relation = {  tag = CXB value = -100   } 
+     relation = {  tag = CYN value = -150  } 
+     relation = {  tag = JAP value = -100  } 
+     relation = {  tag = MAN value = -150  } 
+	 relation = {  tag = U74 value = -100  } 
+	 relation = {  tag = CHI value = -100  } 
+	 relation = {  tag = TIB value = -50  } 
     } 
-   SpyInfo                = {  country = "U36" NumberOfSpies = 5  } 
+   SpyInfo                = {  country = "UCH" NumberOfSpies = 5  } 
    # Fujian   
    nationalprovinces      = {   
  #Nationalist China at Start 
@@ -81,21 +84,21 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-      1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323
+    1267 1302 1299 1261 1299 1297 1298 1261 1296 1292 1293 1294  
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-    1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323
+   1267 1302 1299 1261 1299 1297 1298 1261 1296 1292 1293 1294 
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
 	1119 #Tannu Tuva
-	1414 #KaU36n 
+	1414 #Kachin 
 	1413
 	}
 						
-	# NatU36 1936 techs 
+	# sichuan 1936 techs 
 	# ###################### 
 techapps = { 
 	
@@ -225,26 +228,35 @@ blueprints = {
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 5 
+     democratic        = 3 
      political_left    = 4 
-     free_market       = 4 
+     free_market       = 9 
      freedom           = 4 
-     professional_army = 5 
+     professional_army = 2 
      defense_lobby     = 8 
      interventionism   = 4 
     } 
 
-   headofstate            = {  type = 9 id = 995109  } 
-   headofgovernment       = {  type = 9 id = 995101  } 
-   foreignminister        = {  type = 9 id = 995102  } 
-   armamentminister       = {  type = 9 id = 995103  } 
-   ministerofsecurity     = {  type = 9 id = 995104  } 
-   ministerofintelligence = {  type = 9 id = 995105  } 
-   chiefofstaff           = {  type = 9 id = 995123  } 
-   chiefofarmy            = {  type = 9 id = 995107  } 
-   chiefofnavy            = {  type = 9 id = 995130  } 
-   chiefofair             = {  type = 9 id = 995132  } 
+   headofstate            = {  type = 9 id = 55022  } 
+   headofgovernment       = {  type = 9 id = 55009  } 
+   foreignminister        = {  type = 9 id = 55029  } 
+   armamentminister       = {  type = 9 id = 55051  } 
+   ministerofsecurity     = {  type = 9 id = 55065  } 
+   ministerofintelligence = {  type = 9 id = 55066  } 
+   chiefofstaff           = {  type = 9 id = 55013  } 
+   chiefofarmy            = {  type = 9 id = 55014  } 
+   chiefofnavy            = {  type = 9 id = 55019  } 
+   chiefofair             = {  type = 9 id = 55035  } 
    dormant_leaders        = {  55368 55375  } 
+   #######################
+   # CHINA 1936/1937 OOB #
+   #######################
+   # TYPE = 22000
+   
+   ###################
+   # Shandong Clique #
+   ###################
+   # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15468195&viewfull=1#post15468195
 
     
   } 
