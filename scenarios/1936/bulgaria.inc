@@ -38,9 +38,11 @@
    nationalprovinces      = {   307 317 318 319 320 321 322 323 324 325 326 364 370 
              #Macedonia and Greece 
              328 333 363 365 366 
+             #Thrace
+             384 385
               } 
-   ownedprovinces         = {  317 318 319 320 321 322 323 324 325 326 363 370 } 
-   controlledprovinces    = {  317 318 319 320 321 322 323 324 325 326 363 370 }
+   ownedprovinces         = { 307 317 318 319 320 321 322 323 324 325 326 328 333 363 364 365 366 370 384 385 } 
+   controlledprovinces    = { 307 317 318 319 320 321 322 323 324 325 326 328 333 363 364 365 366 370 384 385 }
    claimedprovinces = { 331 334 } 
    # Eastern Minor Tech '36 
    # Group D 1936 techs 
@@ -117,7 +119,7 @@
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 5
+     democratic        = 7
      political_left    = 5 
      free_market       = 6 
      freedom           = 7 
@@ -129,7 +131,7 @@ inventions = { 3000027 }
    headofgovernment       = {  type = 9 id = 95002  } 
    foreignminister        = {  type = 9 id = 95003  } 
    armamentminister       = {  type = 9 id = 95004  } 
-   ministerofsecurity     = {  type = 9 id = 95060  } # Ivan Krasnovski
+   ministerofsecurity     = {  type = 9 id = 95005  } 
    ministerofintelligence = {  type = 9 id = 95006  } 
    chiefofstaff           = {  type = 9 id = 95007  } 
    chiefofarmy            = {  type = 9 id = 95008  } 
@@ -143,78 +145,116 @@ inventions = { 3000027 }
      Division = 
      {  id       = {  type = 19000 id = 2  } 
        name     = "1-va Sofiiska pekhotna divizija" 
-       strength = 20 
+       strength = 90
        type     = infantry 
        model    = 6
       } 
 
      Division = 
      {  id       = {  type = 19000 id = 4  } 
-       name     = "1-va Konna divizija" 
-       strength = 20 
+       name     = "1-va Kavaleriska divizija" 
+       strength = 90 
        type     = cavalry 
        model    = 6
       } 
     } 
    landunit = 
    {  id       = {  type = 19000 id = 5  } 
-     location = 325 
+     location = 385 
      name     = "2-ra Armija" 
      Division = 
      {  id       = {  type = 19000 id = 6  } 
        name     = "2-ra Trakiiska pekhotna divizija" 
-       strength = 20 
+       strength = 60 
        type     = infantry 
        model    = 7
       } 
 
      Division = 
      {  id       = {  type = 19000 id = 19  } 
-       name     = "2-ra Konna divizija" 
-       strength = 20 
+       name     = "2-ra Kavaleriska divizija" 
+       strength = 60 
        type     = cavalry 
        model    = 7 
       } 
     } 
    landunit = 
-   {  id       = {  type = 19000 id = 9  } 
-     location = 324 
+   {  id       = {  type = 19000 id = 7  } 
+     location = 365 
      name     = "3-ta Armija" 
      Division = 
-     {  id       = {  type = 19000 id = 10  } 
-       name     = "3-ta Balkanska pekhotna divizija" 
-       strength = 20 
+     {  id       = {  type = 19000 id = 8  } 
+       name     = "3-ta Solunska pekhotna divizija" 
+       strength = 60 
+       type     = infantry 
+       model    = 7 
+      } 
+     Division = 
+     {  id       = {  type = 19000 id = 9  } 
+       name     = "4-ta Makedonska pekhotna divizija" 
+       strength = 60 
        type     = infantry 
        model    = 7 
       } 
 
     } 
    landunit = 
-   {  id       = {  type = 19000 id = 12  } 
-     location = 323 
+   {  id       = {  type = 19000 id = 10  } 
+     location = 307 
      name     = "4-ta Armija" 
      Division = 
-     {  id       = {  type = 19000 id = 13  } 
+     {  id       = {  type = 19000 id = 11  } 
        name     = "5-ta Dunavska pekhotna divizija" 
-       strength = 20 
+       strength = 60 
        type     = infantry 
        model    = 8 
        extra    = artillery 
 	   brigade_model = 5
       } 
+     Division = 
+     {  id       = {  type = 19000 id = 12  } 
+       name     = "6-ta Dobruzhanska pekhotna divizija" 
+       strength = 60 
+       type     = infantry 
+       model    = 7 
+      } 
  
-    } 
-   # navalunit = {  
-   # id = {  type = 19000 id = 15  } 
-   # name = "Bulgarska Flota" 
-   # location = 325 
-   # base = 325 
-   # Division = {  
-   # id = {  type = 19000 id = 16  } 
-   # name = "1-va Podvodnikova flotilija" 
-   # type = destroyer 
-   # model = 0 
-   #  } 
-   #  } 
+    }
+
+    landunit = 
+   {  id       = {  type = 19000 id = 10  } 
+     location = 333 
+     name     = "4-ta Armija" 
+     Division = 
+     {  id       = {  type = 19000 id = 11  } 
+       name     = "7-ma Skopska pekhotna divizija" 
+       strength = 60 
+       type     = infantry 
+       model    = 8 
+       extra    = artillery 
+     brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 19000 id = 12  } 
+       name     = "8-ma Bitolska pekhotna divizija" 
+       strength = 60 
+       type     = infantry 
+       model    = 7 
+      } 
+ 
+    }
+
+    navalunit = {  
+    id = {  type = 19000 id = 15  } 
+    name = "Bulgarska Flota" 
+    location = 325 
+    base = 325 
+    Division = {  
+    id = {  type = 19000 id = 16  } 
+    name = "1-va Podvodnikova flotilija" 
+    type = destroyer 
+    model = 0 
+     } 
+     } 
   } 
  

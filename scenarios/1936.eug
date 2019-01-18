@@ -11,9 +11,9 @@ header =
   FRA        = { }
   ENG        = { }
   SOV        = { picture = "scenarios\data\propaganda_SOV_1936.bmp" }
-  RUS        = { }
-  TRK        = { }  
   UKR        = { }
+  TRK        = { }  
+  RUS        = { }
   JAP        = { }
   MAN        = { }
   CHI        = { }
@@ -24,7 +24,7 @@ header =
   HUN        = { }
   ROM        = { }
   YUG        = { }
-  SPR        = { }
+  BUL        = { }
   BRA        = { }
 }
 globaldata =

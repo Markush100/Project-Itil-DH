@@ -47,8 +47,8 @@
     } 
    SpyInfo                = {  country = "YUG" NumberOfSpies = 7  } 
    nationalprovinces      = {  327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 349 350 351 352 353 354 355 356 357 358  } 
-   ownedprovinces         = {  327 328 329 330 331 332 333 334 335 337 338 339 340 342 343 344 345 347 350 351 352 353 354 355 356 357 358 359 361 362  } 
-   controlledprovinces    = {  327 328 329 330 331 332 333 334 335 337 338 339 340 342 343 344 345 347 350 351 352 353 354 355 356 357 358 359 361 362 } 
+   ownedprovinces         = {  327 329 330 331 332 334 335 337 338 339 340 342 343 344 345 347 350 351 352 353 354 355 356 357 358 359 361 362  } 
+   controlledprovinces    = {  327 329 330 331 332 334 335 337 338 339 340 342 343 344 345 347 350 351 352 353 354 355 356 357 358 359 361 362 } 
    # Eastern Minor Tech '36 
    # Group D 1936 techs 
    # ###################### 
@@ -151,7 +151,7 @@ inventions = { 3000027 }
      Division = 
      {  id       = {  type = 19800 id = 4  } 
        name     = "32. Triglavska Pesadijska Divizija" 
-       strength = 50 # 70
+       strength = 70
        type     = infantry 
 	   model    = 6
        extra    = artillery 
@@ -160,14 +160,14 @@ inventions = { 3000027 }
      Division = 
      {  id       = {  type = 19800 id = 5  } 
        name     = "Triglavski Odred" 
-       strength = 50 # 70
+       strength = 70
        type     = bergsjaeger 
 	   model    = 6
       } 
      Division = 
      {  id       = {  type = 19800 id = 6  } 
        name     = "1. Konjicka Divizija" 
-       strength = 50 # 70
+       strength = 70
        type     = cavalry 
 	   model    = 7
       } 
