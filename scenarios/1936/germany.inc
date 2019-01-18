@@ -126,7 +126,7 @@
    893 907 908 909 910 911 912 913 914 915 916 917 918 919 920 923 924 925 926 927 928 #France, Portugal, Spain, Cameroon
    882 883 884 885 886 #Namibia
    948 949 950 951 955 #Togo
-   834 835 836 837 838 816 833 #East Africa
+   834 835 836 837 838 815 816 817 833 #East Africa
    1001 1002 1003 996 999 1000 #Madagascar
    1752 1767 1768 2000 #West Indies
    1234 1587 1602 1603 1604 1605 1610 1725 1726 1727 1731 1730 1740 1743 1744 1581 1582 1583 1584 1585 1586 1772 # Pacific
@@ -1400,12 +1400,6 @@ landunit =
        name  = "5. Zerstorergeschwader" 
        type  = destroyer 
        model = 3
-      } 
-     Division = 
-     {  id    = {  type = 14500 id = 548  } 
-       name  = "6. Zerstorergeschwader" 
-       type  = destroyer 
-       model = 4 
       } 
       Division = 
      {  id    = {  type = 14500 id = 549  } 

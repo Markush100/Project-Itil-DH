@@ -338,22 +338,4 @@
       } 
   }
 
-
- airunit = { 
-  id = { type = 10848 id = 7037 } 
-  name = "1 PIABR " 
-  location = 1085 
-  base = 1085 
-  division = { 
-  id = { type = 10848 id = 7038 } 
-    name = "1.PIABR" 
-    strength = 80 
-    type = interceptor 
-    model = 5 
-      } 
-    }
-
-
-
-
  }

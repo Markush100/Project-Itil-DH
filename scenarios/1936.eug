@@ -70,8 +70,6 @@ globaldata =
  #   }
   #}
   queued_events = { 
-    event = { tag = CHI  id = 1330110043 hour = 0 } # Nanjing Decade
-    event = { tag = CHI  id = 1330110052 hour = 8640 } # Defense of Nanjing
   }
   dormant_leaders = { 
 	#SPA
@@ -870,7 +868,6 @@ include = "scenarios\1936\bolivia.inc"
 include = "scenarios\1936\brasil.inc"
 include = "scenarios\1936\bulgaria.inc"
 include = "scenarios\1936\canada.inc"
-include = "scenarios\1936\china guangxi.inc"
 include = "scenarios\1936\china communist.inc"
 include = "scenarios\1936\china nationalist.inc"
 include = "scenarios\1936\chile.inc"
@@ -893,7 +890,6 @@ include = "scenarios\1936\germany.inc"
 include = "scenarios\1936\greece.inc"
 include = "scenarios\1936\guatemala.inc"
 include = "scenarios\1936\haiti.inc"
-include = "scenarios\1936\hebei autonomous.inc"
 include = "scenarios\1936\holland.inc"
 include = "scenarios\1936\honduras.inc"
 include = "scenarios\1936\hungary.inc"

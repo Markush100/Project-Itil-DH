@@ -81,12 +81,12 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-      1235 1216 1236 1237
+      1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323 1332
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-    743 1242 1243 1244 1255 1259 1260 1261 1267 1296 1297 1298 1299 1302 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1328 1329 1330 1331 1332 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
+    1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323 1332
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
@@ -225,25 +225,25 @@ blueprints = {
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 3 
+     democratic        = 5 
      political_left    = 4 
-     free_market       = 9 
+     free_market       = 4 
      freedom           = 4 
-     professional_army = 2 
+     professional_army = 5 
      defense_lobby     = 8 
      interventionism   = 4 
     } 
 
-   headofstate            = {  type = 9 id = 55022  } 
-   headofgovernment       = {  type = 9 id = 55009  } 
-   foreignminister        = {  type = 9 id = 55029  } 
-   armamentminister       = {  type = 9 id = 55051  } 
-   ministerofsecurity     = {  type = 9 id = 55065  } 
-   ministerofintelligence = {  type = 9 id = 55066  } 
-   U36efofstaff           = {  type = 9 id = 55013  } 
-   U36efofarmy            = {  type = 9 id = 55014  } 
-   U36efofnavy            = {  type = 9 id = 55019  } 
-   U36efofair             = {  type = 9 id = 55035  } 
+   headofstate            = {  type = 9 id = 995109  } 
+   headofgovernment       = {  type = 9 id = 995101  } 
+   foreignminister        = {  type = 9 id = 995102  } 
+   armamentminister       = {  type = 9 id = 995103  } 
+   ministerofsecurity     = {  type = 9 id = 995104  } 
+   ministerofintelligence = {  type = 9 id = 995105  } 
+   chiefofstaff           = {  type = 9 id = 995123  } 
+   chiefofarmy            = {  type = 9 id = 995107  } 
+   chiefofnavy            = {  type = 9 id = 995108  } 
+   chiefofair             = {  type = 9 id = 995132  } 
    dormant_leaders        = {  55368 55375  } 
 
     

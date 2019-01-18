@@ -36,9 +36,9 @@
      interventionism   = 8 
     }
 
-   nationalprovinces      = { 1247 1246 1241 1245 } 
-   ownedprovinces         = { 1247 1246 1241 1245 } 
-   controlledprovinces    = { 1247 1246 1241 1245 }
+   nationalprovinces      = {  } 
+   ownedprovinces         = {  } 
+   controlledprovinces    = {  }
   
 
    #Shanxi
