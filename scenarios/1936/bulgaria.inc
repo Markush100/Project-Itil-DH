@@ -26,13 +26,13 @@
    {  relation = {  tag = ENG value = 20  } 
      relation = {  tag = FIN value = 35  } 
      relation = {  tag = FRA value = 20  } 
-     relation = {  tag = GER value = 25  } 
+     relation = {  tag = GER value = 100  } 
      relation = {  tag = GRE value = -75  } 
-     relation = {  tag = ITA value = 150  } 
-     relation = {  tag = ROM value = 25  } 
-     relation = {  tag = SOV value = 15  } 
-     relation = {  tag = TUR value = 75  } 
-     relation = {  tag = YUG value = 25  } 
+     relation = {  tag = ITA value = -150  } 
+     relation = {  tag = ROM value = -25  } 
+     relation = {  tag = SOV value = -150  } 
+     relation = {  tag = TUR value = -75  } 
+     relation = {  tag = YUG value = -25  } 
     } 
    SpyInfo                = {  country = "BUL" NumberOfSpies = 6  } 
    nationalprovinces      = {   307 317 318 319 320 321 322 323 324 325 326 364 370 
@@ -117,13 +117,13 @@
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 3 
-     political_left    = 4 
-     free_market       = 7 
-     freedom           = 6 
-     professional_army = 2 
-     defense_lobby     = 5 
-     interventionism   = 9 
+     democratic        = 5
+     political_left    = 5 
+     free_market       = 6 
+     freedom           = 7 
+     professional_army = 4 
+     defense_lobby     = 6 
+     interventionism   = 6 
     } 
    headofstate            = {  type = 9 id = 95001  } 
    headofgovernment       = {  type = 9 id = 95002  } 

@@ -1,16 +1,16 @@
 BUL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
-95001;Head of State;Boris III;1933;1964;1999;PA;Autocratic Charmer;High;M19001;X
-95002;Head of Government;Georgi Kyoseivanov;1933;1964;1999;PA;Backroom Backstabber;High;M19002;X
-95003;Foreign Minister;Georgi Kyoseivanov;1933;1964;1999;PA;Biased Intellectual;High;M19002;X
-95004;Minister of Armament;Kiril Gunev;1933;1964;1999;PA;Administrative Genius;Medium;M19004;X
-95005;Minister of Security;Georgi Sapov;1933;1964;1999;PA;Crime Fighter;Low;M19005;X
-95006;Head of Military Intelligence;Dimitar Peshev;1933;1964;1999;PA;Dismal Enigma;Medium;M19006;X
-95007;Chief of Staff;Hristo Lukov;1933;1964;1999;PA;School of Defence;Low;M19007;X
-95008;Chief of Army;Todor Georgiev;1933;1964;1999;PA;Static Defence Doctrine;Medium;M19008;X
+95001;Head of State;Ferdinand I;1933;1948;1999;SC;stern imperialist;High;AR121;X
+95002;Head of Government;Nikola Mushanov;1933;1964;1999;ML;Backroom Backstabber;High;AR122;X
+95003;Foreign Minister;Georgi Kyoseivanov;1933;1964;1999;ML;Biased Intellectual;High;AR123;X
+95004;Minister of Armament;Vladimir Mollov;1933;1964;1999;ML;silent lawyer;Medium;AR124;X
+95005;Minister of Security;Andrey Lyapchev;1933;1964;1999;ML;health and safety;Low;AR125;X
+95006;Head of Military Intelligence;Dimitar Peshev;1933;1964;1999;ML;Dismal Enigma;Medium;M19006;X
+95007;Chief of Staff;Nikola Zhekov;1933;1964;1999;SC;decisive battle doctrine;Low;AR126;X
+95008;Chief of Army;Vladimir Stoychev;1933;1964;1999;SL;Static Defence Doctrine;Medium;AR127;X
 95009;Chief of Navy;Sava Ivanov;1933;1964;1999;PA;Open Seas Doctrine;Medium;M19009;X
 95010;Chief of Air Force;Vasil Boydev;1933;1964;1999;PA;Air Superiority Doctrine;Medium;M19010;X
 95011;Head of State;Kiril Preslavski;1943;1964;1999;PA;Stern Imperialist;High;M19042;X
-95012;Head of State;Boris III;1939;1964;1999;NS;Autocratic Charmer;High;M19001;X
+95012;Head of State;Boris III;1939;1964;1999;PA;Autocratic Charmer;High;M19001;X
 95013;Head of State;Aleksandar Tsankov;1943;1964;1999;NS;Barking Buffoon;High;M19021;X
 95014;Head of State;Boris III;1939;1964;1999;SC;Autocratic Charmer;High;M19001;X
 95015;Head of State;Kiril Preslavski;1943;1964;1999;SC;Stern Imperialist;High;M19042;X

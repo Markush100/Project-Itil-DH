@@ -1,13 +1,13 @@
 TUR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-45001;Head of State;Kemal Atatürk;1921;1964;1999;PA;Resigned Generalissimo;High;3379;X
-45002;Head of Government;Mustafa Ismet Inönü;1921;1964;1999;PA;Political Protege;High;3380;X
-45003;Foreign Minister;Tewfik Rüstü Aras;1921;1964;1999;PA;Biased Intellectual;Medium;M12003;X
-45004;Minister of Armament;Zekai Apaydin;1933;1964;1999;SC;Resource Industrialist;Medium;M12004;X
-45005;Minister of Security;Sükrü Kaya;1933;1964;1999;SC;Man of the People;Medium;M12005;X
+45001;Head of State;Abdülmecid II;1921;1964;1999;PA;weary stiffneck;High;AR114;X
+45002;Head of Government;Kazim Karabekir Pasha;1921;1964;1999;SC;silent workhorse;High;AR115;X
+45003;Foreign Minister;Hüseyin Rauf Orbay;1921;1964;1999;SC;Biased Intellectual;Medium;AR116;X
+45004;Minister of Armament;Ali Fethi Okyar;1933;1964;1999;SC;infantry proponent;Medium;AR117;X
+45005;Minister of Security;Ali Haydar Yulug;1933;1964;1999;SC;silent lawyer;Medium;AR118;X
 45006;Head of Military Intelligence;Sükrü Ali Ogel;1921;1964;1999;PA;Industrial Specialist;Medium;M12006;X
-45007;Chief of Staff;Fevzi Cakmak;1921;1964;1999;PA;School of Defence;Medium;3381;X
-45008;Chief of Army;Mehmet Nuri Yamut;1933;1964;1999;PA;Static Defence Doctrine;Medium;M12008;X
+45007;Chief of Staff;Mustafa Kemal Bey;1921;1964;1999;SC;School of Defence;Medium;AR119;X
+45008;Chief of Army;Ismail Hakki Okday;1933;1964;1999;PA;Static Defence Doctrine;Medium;AR120;X
 45009;Chief of Navy;Mehmet Ali Ülgen;1921;1964;1999;PA;Base Control Doctrine;Medium;M12009;X
 45010;Chief of Air Force;Ali Örlungat;1921;1964;1999;PA;Army Aviation Doctrine;Medium;M12010;X
 45011;Head of State;Mustafa Ismet Inönü;1938;1964;1999;SC;Pig-headed Isolationist;High;3380;X
