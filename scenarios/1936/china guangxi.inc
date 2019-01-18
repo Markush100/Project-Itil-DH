@@ -38,8 +38,8 @@
     } 
    SpyInfo                = {  country = "CGX" NumberOfSpies = 2  } 
    nationalprovinces      = {   1365 1367 1368 1369 1370 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383  } 
-   ownedprovinces         = {   1365 1367 1368 1369 1370 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383  } 
-   controlledprovinces    = {   1365 1367 1368 1369 1370 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383  } 
+   ownedprovinces         = {     } 
+   controlledprovinces    = {     } 
    # Guangxi 
  	techapps = { 
 	

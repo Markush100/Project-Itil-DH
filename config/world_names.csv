@@ -14,7 +14,7 @@ ARM;Armenia;Armйnie;Armenia;Armenia;Armenien;Armenia;;Армения;;;X
 AST;Australia;Australie;Australia;Australia;Australien;Australia;;Австралия;;;X
 AUS;Austria;Autriche;Austria;Austria;Цsterreich;Austria;;Австрия;;;X
 AXI;The Axis;L'Axe;L'Asse;El Eje;Die Achsenmдchte;Paсstwa Osi;;Ось;;;X
-AZB;Azerbaijan;Azerbaпdjan;Azerbaigian;Azerbaiyбn;Aserbaidschan;Azerbejdїan;;Азербайджан;;;X
+AZB;Soviet Republic of Azerbaijan;Azerbaпdjan;Azerbaigian;Azerbaiyбn;Aserbaidschan;Azerbejdїan;;Азербайджан;;;X
 BEL;Flanders;Belgique;Belgio;Bйlgica;Belgien;Belgia;;Бельгия;;;X
 BEN;Benin-Sahel;Bйnin-Sahel;Benin-Sahel;Benin-Sahel;Benin-Sahel;Benin-Sahel;;Бенин;;;X
 BHU;Bhutan;Bhoutan;Bhutan;Butбn;Bhutan;Bhutan;;Бутан;;;X
@@ -23,14 +23,14 @@ BOL;Bolivia;Bolivie;Bolivia;Bolivia;Bolivien;Boliwia;;Боливия;;;X
 BOS;Bosnia;Bosnie;Bosnia;Bosnia;Bosnien;Boњnia;;Босния;;;X
 BRA;Brazil;Brйsil;Brasile;Brasil;Brasilien;Brazylia;;Бразилия;;;X
 BRU;Brunei;Bruneп;Brunei;Brunei;Brunei;Brunei;;Бруней;;;X
-BUL;Bulgaria;Bulgarie;Bulgaria;Bulgaria;Bulgarien;Buіgaria;;Болгария;;;X
+BUL;Tsardom of Bulgaria;Bulgarie;Bulgaria;Bulgaria;Bulgarien;Buіgaria;;Болгария;;;X
 BUR;Burma;Birmanie;Birmania;Birmania;Burma;Birma;;Бирма;;;X
 CAL;California;Californie;California;California;Kalifornien;Kalifornia;;Калифорния;;;X
 CAM;Cameroon;Cameroun;Camerun;Camerъn;Kamerun;Kamerun;;Камерун;;;X
-CAN;Canada;Canada;Canada;Canadб;Kanada;Kanada;;Канада;;;X
+CAN;Dominion of Canada;Canada;Canada;Canadб;Kanada;Kanada;;Канада;;;X
 CGX;Guangxi Clique;Clan Guangxi;Cricca Guangxi;Camarilla de Guangxi;Guangxi Clique;Klika Guangxi;;Клика Гуанси;;;X
-CHC;Communist China;Chine communiste;Cina comunista;China Comunista;Rotchina;Kom. Chiny;;Коммун. Китай;;;X
-CHI;Nationalist China;Chine nationaliste;Cina Nazionalista;China Nacionalista;Nationalchina;Nacj. Chiny;;Нац. Китай;;;X
+CHC;Kuomintang;Chine communiste;Cina comunista;China Comunista;Rotchina;Kom. Chiny;;Коммун. Китай;;;X
+CHI;National Revival Party;Chine nationaliste;Cina Nazionalista;China Nacionalista;Nationalchina;Nacj. Chiny;;Нац. Китай;;;X
 CHL;Chile;Chili;Cile;Chile;Chile;Chile;;Чили;;;X
 CMB;Cambodia;Cambodge;Cambogia;Camboya;Kambodscha;Kambodїa;;Камбоджа;;;X
 COL;Colombia;Colombie;Colombia;Colombia;Kolumbien;Kolumbia;;Колумбия;;;X
@@ -40,7 +40,7 @@ CRO;Croatia;Croatie;Croazia;Croacia;Kroatien;Chorwacja;;Хорватия;;;X
 CSA;Confederate States;Etats confйdйrйs;Stati Confederati;Estados Confederados;Konfцderierte Staaten;Konfederacja;;Конфедеративные штаты;;;X
 CSX;Shanxi Clique;Clan Shanxi;Cricca Shanxi;Camarilla de Shanxi;Shanxi Clique;Klika Shanxi;;Шаньси;;;X
 CUB;Cuba;Cuba;Cuba;Cuba;Kuba;Kuba;;Куба;;;X
-CXB;San Ma Clique;Clan San Ma;Cricca San Ma;Camarilla de San Ma;San Ma Clique;Klika San Ma;;Северозап. земли Ма;;;X
+CXB;Ma Clique;Clan San Ma;Cricca San Ma;Camarilla de San Ma;San Ma Clique;Klika San Ma;;Северозап. земли Ма;;;X
 CYN;Yunnan Clique;Clan Yunnan;Cricca Yunnan;Camarilla de Yunnan;Yunnan Clique;Klika Yunnan;;Юньнань;;;X
 CYP;Cyprus;Chypre;Cipro;Chipre;Zypern;Cypr;;Кипр;;;X
 CZE;Bohemia;Tchйcoslovaquie;Cecoslovacchia;Checoslovaquia;Tschechoslowakei;Czechosіowacja;;Чехословакия;;;X
@@ -50,74 +50,74 @@ DFR;FRG;RFA;RFT;RFA;BRD;RFN;;ФРГ;;;X
 DOM;Dominican Republic;Rйpublique Dominicaine;Rep. Dominicana;Repъblica Dominicana;Dominikanische Rep.;Rep. Dominikany;;Доминик. республика;;;X
 EAF;East African Union;Union Est-Africaine;Unione Africana orientale;Uniуn Africana Oriental;Ostafrikanische Union;Wsp. Wschodnioafr.;;Вост.-африк. союз;;;X
 ECU;Ecuador;Equateur;Ecuador;Ecuador;Ecuador;Ekwador;;Эквадор;;;X
-EGY;Egypt;Egypte;Egitto;Egipto;Дgypten;Egipt;;Египет;;;X
+EGY;Kingdom of Egypt;Egypte;Egitto;Egipto;Дgypten;Egipt;;Египет;;;X
 ENG;United Kingdom;Royaume-Uni;Regno Unito;Reino Unido;GroЯbritannien;Wielka Brytania;;Великобритания;;;X
 EQA;Equatorial Africa;Afrique Equatoriale;Africa equatoriale;Бfrica Ecuatorial;Дquatorialafrika;Afryka Rуwnikowa;;Экваториальная Африка;;;X
 EST;Estonia;Estonie;Estonia;Estonia;Estland;Estonia;;Эстония;;;X
 ETH;Abyssinia;Abyssinie;Etiopia;Etiopнa;Дthiopien;Etiopia;;Эфиопия;;;X
 EUS;Euskadi;Pays Basque;Euskadi;Euskadi;Euskadi;Kraj Baskуw;;Страна Басков;;;X
-FIN;Finland;Finlande;Finlandia;Finlandia;Finnland;Finlandia;;Финляндия;;;X
+FIN;Republic of Finland;Finlande;Finlandia;Finlandia;Finnland;Finlandia;;Финляндия;;;X
 FLA;Flanders;Flandre;Fiandre;Flandes;Flandern;Flandria;;Фландрия;;;X
-FRA;France;France;Francia;Francia;Frankreich;Francja;;Франция;;;X
+FRA;Republic of France;France;Francia;Francia;Frankreich;Francja;;Франция;;;X
 GAB;Gabon;Gabon;Gabon;Gabуn;Gabun;Gabon;;Габон;;;X
 GEO;Georgia;Gйorgie;Georgia;Georgia;Georgien;Gruzja;;Грузия;;;X
-GER;Germany;Allemagne;Germania;Alemania;Deutsches Reich;Niemcy;;Германия;;;X
+GER;German Empire;Allemagne;Germania;Alemania;Deutsches Reich;Niemcy;;Германия;;;X
 GLD;Ghana;Ghana;Ghana;Ghana;Ghana;Ghana;;Гана;;;X
-GRE;Greece;Grиce;Grecia;Grecia;Griechenland;Grecja;;Греция;;;X
+GRE;Kingdom of Greece;Grиce;Grecia;Grecia;Griechenland;Grecja;;Греция;;;X
 GUA;Guatemala;Guatemala;Guatemala;Guatemala;Guatemala;Gwatemala;;Гватемала;;;X
 GUI;Guinea;Guinйe;Guinea;Guinea;Guinea;Gwinea;;Гвинея;;;X
 GUY;Guyana;Guyane;Guyana;Guayana;Guyana;Gujana;;Гайана;;;X
 HAI;Haiti;Haiti;Haiti;Haitн;Haiti;Haiti;;Гаити;;;X
-HOL;Netherlands;Pays-Bas;Paesi Bassi;Paнses Bajos;Niederlande;Holandia;;Нидерланды;;;X
-HON;Honduras;Honduras;Honduras;Honduras;Honduras;Honduras;;Гондурас;;;X
-HUN;Hungary;Hongrie;Ungheria;Hungrнa;Ungarn;Wкgry;;Венгрия;;;X
+HOL;Kingdom of the Netherlands;Pays-Bas;Paesi Bassi;Paнses Bajos;Niederlande;Holandia;;Нидерланды;;;X
+HON;Republic of Honduras;Honduras;Honduras;Honduras;Honduras;Honduras;;Гондурас;;;X
+HUN;Republic of Hungary;Hongrie;Ungheria;Hungrнa;Ungarn;Wкgry;;Венгрия;;;X
 ICL;Iceland;Islande;Islanda;Islandia;Island;Islandia;;Исландия;;;X
 IDC;Indochina;Indochine;Indocina;Indochina;Indochina;Indochiny;;Индокитай;;;X
 IND;India;Inde;India;India;Indien;Indie;;Индия;;;X
 INO;Indonesia;Indonйsie;Indonesia;Indonesia;Indonesien;Indonezja;;Индонезия;;;X
-IRE;Ireland;Irlande;Irlanda;Irlanda;Irland;Irlandia;;Ирландия;;;X
+IRE;Dominion of Ireland;Irlande;Irlanda;Irlanda;Irland;Irlandia;;Ирландия;;;X
 IRQ;Iraq;Irak;Iraq;Irak;Irak;Irak;;Ирак;;;X
-ISR;Israel;Israлl;Israele;Israel;Israel;Izrael;;Израиль;;;X
-ITA;Italy;Italie;Italia;Italia;Italien;Wіochy;;Италия;;;X
-JAP;Japan;Japon;Giappone;Japуn;Japan;Japonia;;Япония;;;X
+ISR;State of Israel;Israлl;Israele;Israel;Israel;Izrael;;Израиль;;;X
+ITA;Italian Syndicalist Union;Italie;Italia;Italia;Italien;Wіochy;;Италия;;;X
+JAP;Empire of Japan;Japon;Giappone;Japуn;Japan;Japonia;;Япония;;;X
 JOR;Jordan;Jordanie;Giordania;Jordбn;Jordanien;Jordania;;Иордания;;;X
 KAZ;Kazakhstan;Kazakhstan;Kazakistan;Kazajstбn;Kasachstan;Kazachstan;;Казахстан;;;X
 KOR;Korea;Corйe;Corea;Corea;Korea;Korea;;Корея;;;X
 KUR;Kurdistan;Kurdistan;Kurdistan;Kurdistбn;Kurdistan;Kurdystan;;Курдистан;;;X
 KYG;Kyrgyzstan;Kirghizistan;Kirghizistan;Kirguizistбn;Kirgistan;Kirgistan;;Киргизия;;;X
 LAO;Laos;Laos;Laos;Laos;Laos;Laos;;Лаос;;;X
-LAT;Latvia;Lettonie;Lettonia;Letonia;Lettland;Јotwa;;Латвия;;;X
-LBY;Libya;Libye;Libia;Libia;Libyen;Libia;;Ливия;;;X
+LAT;Soviet Republic of Latvia;Lettonie;Lettonia;Letonia;Lettland;Јotwa;;Латвия;;;X
+LBY;Arab Syndicalist Federation;Libye;Libia;Libia;Libyen;Libia;;Ливия;;;X
 LEB;Lebanon;Liban;Libano;Lнbano;Libanon;Liban;;Ливан;;;X
 LIB;Liberia;Libйria;Liberia;Liberia;Liberia;Liberia;;Либерия;;;X
-LIT;Lithuania;Lituanie;Lituania;Lituania;Litauen;Litwa;;Литва;;;X
+LIT;Republic of Lithuania;Lituanie;Lituania;Lituania;Litauen;Litwa;;Литва;;;X
 LUX;Luxemburg;Luxembourg;Lussemburgo;Luxemburgo;Luxemburg;Luksemburg;;Люксембург;;;X
 MAD;Madagascar;Madagascar;Madagascar;Madagascar;Madagaskar;Madagaskar;;Мадагаскар;;;X
 MAL;Union of Mali;Union du Mali;Unione del Mali;Uniуn de Malн;Union von Mali;Mali;;Федерация Мали;;;X
-MAN;Manchuria;Mandchoukouo;Manchukuo;Manchuria;Mandschuko;Mandїukuo;;Маньчжоу-Го;;;X
+MAN;Republic of Manchuria;Mandchoukouo;Manchukuo;Manchuria;Mandschuko;Mandїukuo;;Маньчжоу-Го;;;X
 MEN;Mengjiang;Mengjiang;Mengjiang;Mengjiang;Mengjiang;Mongolia Wewnкtrzna;;Внутренняя Монголия;;;X
 MEX;Mexico;Mexique;Messico;Mйxico;Mexiko;Meksyk;;Мексика;;;X
 MIN;(Undefined Nation);(nation non dйfinie);(Nazione non specificata);(Naciуn sin definir);(nicht definierte Nation);(Nieokreњlone paсstwo);;(Неопределенная страна);;;X
 MLY;Malaysia;Malaisie;Malesia;Malasia;Malaysia;Malezja;;Малайзия;;;X
 MON;Bogd Khanate;Mongolie;Mongolia;Mongolia;Mongolei;Mongolia;;Монголия;;;X
-MOR;Morocco;Maroc;Marocco;Marruecos;Marokko;Maroko;;Марокко;;;X
+MOR;Kingdom of Morocco;Maroc;Marocco;Marruecos;Marokko;Maroko;;Марокко;;;X
 MOZ;Mozambique;Mozambique;Mozambico;Mozambique;Mosambik;Mozambik;;Мозамбик;;;X
 MTN;Montenegro;Montйnйgro;Montenegro;Montenegro;Montenegro;Czarnogуra;;Черногория;;;X
 NAM;Namibia;Namibie;Namibia;Namibia;Namibia;Namibia;;Намибия;;;X
-NEP;Nepal;Nйpal;Nepal;Nepal;Nepal;Nepal;;Непал;;;X
-NIC;Nicaragua;Nicaragua;Nicaragua;Nicaragua;Nicaragua;Nikaragua;;Никарагуа;;;X
+NEP;Kingdom of Nepal;Nйpal;Nepal;Nepal;Nepal;Nepal;;Непал;;;X
+NIC;Republic of Nicaragua;Nicaragua;Nicaragua;Nicaragua;Nicaragua;Nikaragua;;Никарагуа;;;X
 NIG;Nigeria;Nigйria;Nigeria;Nigeria;Nigeria;Nigeria;;Нигерия;;;X
-NOR;Norway;Norvиge;Norvegia;Noruega;Norwegen;Norwegia;;Норвегия;;;X
+NOR;Kingdom of Norway;Norvиge;Norvegia;Noruega;Norwegen;Norwegia;;Норвегия;;;X
 NZL;New Zealand;Nlle-Zйlande;Nuova Zelanda;Nueva Zelanda;Neuseeland;Nowa Zelandia;;Новая Зеландия;;;X
-OMN;Oman;Oman;Oman;Omбn;Oman;Oman;;Оман;;;X
+OMN;Sultanate of Oman;Oman;Oman;Omбn;Oman;Oman;;Оман;;;X
 OTT;Ottoman Empire;Empire Ottoman;Impero Ottomano;Imperio Otomano;Osmanisches Reich;Imperium Osmaсskie;;Османская Империя;;;X
 PAK;Pakistan;Pakistan;Pakistan;Pakistбn;Pakistan;Pakistan;;Пакистан;;;X
 PAL;Palestine;Palestine;Palestina;Palestina;Palдstina;Palestyna;;Палестина;;;X
-PAN;Panama;Panama;Panama;Panamб;Panama;Panama;;Панама;;;X
+PAN;Republic of Panama;Panama;Panama;Panamб;Panama;Panama;;Панама;;;X
 PAR;Paraguay;Paraguay;Paraguay;Paraguay;Paraguay;Paragwaj;;Парагвай;;;X
-PER;Iran;Iran;Iran;Iran;Iran;Iran;;Персия;;;X
+PER;Socialist Republic of Iran;Iran;Iran;Iran;Iran;Iran;;Персия;;;X
 PHI;Philippines;Philippines;Filippine;Filipinas;Philippinen;Filipiny;;Филиппины;;;X
-POL;Poland;Pologne;Polonia;Polonia;Polen;Polska;;Польша;;;X
+POL;Republic of Poland;Pologne;Polonia;Polonia;Polen;Polska;;Польша;;;X
 POR;Portugal;Portugal;Portogallo;Portugal;Portugal;Portugalia;;Португалия;;;X
 PRI;Primorsk;Primorsk;Primorsk;Primorsk;Primorsk;Kraj Nadmorski;;Приморье;;;X
 PRK;People's Republic of Korea;Rйpublique populaire de Corйe;Repubblica popolare di Corea;Repъblica Popular de Corea;Volksrepublik Korea;Korea Pуіnocna;;Народная Республика Корея;;;X
@@ -148,7 +148,7 @@ SPA;Spanish State;Йtat espagnol;Stato Spagnolo;Espaсa;Spanischer Staat;Paсstwo H
 SPR;Spanish Republic;Rйpublique d'Espagne;Repubblica Spagnola;Repъblica Espaсola;Spanische Republik;Republika Hiszpaсska;;Испанская республика;;;X
 SUD;Sudan;Soudan;Sudan;Sudбn;Sudan;Sudan;;Судан;;;X
 SWE;Sweden;Suиde;Svezia;Suecia;Schweden;Szwecja;;Швеция;;;X
-SYR;Syria;Syrie;Siria;Siria;Syrien;Syria;;Сирия;;;X
+SYR;Kingdom of Syria;Syrie;Siria;Siria;Syrien;Syria;;Сирия;;;X
 TAJ;Tajikistan;Tadjikistan;Tagikistan;Tayikistбn;Tadschikistan;Tadїykistan;;Таджикистан;;;X
 TAN;Tannu Tuva;Tannu Tuva;Tannu Tuva;Tannu Tuva;Tannu-Tuwa;Tanu Tuwa;;Тува;;;X
 TEX;Texas;Texas;Texas;Texas;Texas;Teksas;;Техас;;;X
@@ -157,9 +157,9 @@ TRA;Transural Republic;Rйpublique Transourale;Repubblica Transurale;Repъblica Tr
 TRK;Turkestan;Turkmйnistan;Turkmenistan;Turkmenistбn;Turkmenistan;Turkmenistan;;Туркменистан;;;X
 TUN;Tunisia;Tunisie;Tunisia;Tъnez;Tunesien;Tunezja;;Тунис;;;X
 TUR;Turkey;Turquie;Turchia;Turquнa;Tьrkei;Turcja;;Турция;;;X
-UKR;Ukraine;Ukraine;Ucraina;Ucrania;Ukraine;Ukraina;;Украина;;;X
+UKR;Republic of Ukraine;Ukraine;Ucraina;Ucrania;Ukraine;Ukraina;;Украина;;;X
 URU;Uruguay;Uruguay;Uruguay;Uruguay;Uruguay;Urugwaj;;Уругвай;;;X
-USA;USA;Etats-Unis;USA;EE. UU.;USA;USA;;США;;;X
+USA;United States of America;Etats-Unis;USA;EE. UU.;USA;USA;;США;;;X
 UZB;Uzbekistan;Ouzbйkistan;Uzbekistan;Uzbekistбn;Usbekistan;Uzbekistan;;Узбекистан;;;X
 VEN;Venezuela;Vйnйzuйla;Venezuela;Venezuela;Venezuela;Wenezuela;;Венесуэла;;;X
 VIC;Vichy France;Rйgime de Vichy;Francia di Vichy;Francia de Vichy;Vichy-Frankreich;Vichy;;Вишистская Франция;;;X
