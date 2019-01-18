@@ -9,7 +9,6 @@
 	regular_id             = CHI 
 	intrinsic_gov_type     = paternal_autocrat 
 	extra_tc               = 2 
-	puppet                 = CHI 
 	# Resource Reserves 
 	energy                 = 360
 	metal                  = 180
@@ -31,9 +30,9 @@
      interventionism   = 3 
     } 
 	
-   nationalprovinces      = {  1256 1262 1263 1264 1265 1266 1268 1271 1272 1283 1284 1285  } 
-   ownedprovinces         = {  1256 1262 1263 1264 1265 1266 1268 1271 1272 1283 1284 1285  } 
-   controlledprovinces    = {  1256 1262 1263 1264 1265 1266 1268 1271 1272 1283 1284 1285  } 
+   nationalprovinces      = {  1262 1264 1265 1266 1268 1271 1272 1283 1284 1285  } 
+   ownedprovinces         = {  1262 1264 1265 1266 1268 1271 1272 1283 1284 1285  } 
+   controlledprovinces    = {  1262 1264 1265 1266 1268 1271 1272 1283 1284 1285  } 
     #Xibei
 	techapps = { 
 	

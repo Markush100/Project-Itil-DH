@@ -238,7 +238,7 @@ U70;DarkGreen;ENG;ENG;;;;X
 U71;LightBlue;ENG;ENG;;;;X
 U72;LightYellow;CHI;SOV;;;;X
 U73;DarkGray;ENG;MIN;;;;X
-U74;DarkOrange;CHI;CHI;;;;X
+U74;LightOrange;CHI;CHI;;;;X
 U75;LightOrange;ENG;MIN;;;;X
 U76;Green;ENG;MIN;;;;X
 U77;LightRed;ENG;MIN;;;;X
@@ -326,7 +326,7 @@ UF8;Yellow;ENG;MIN;;;;X
 UF9;Yellow;ENG;MIN;;;;X
 USN;DarkGray;USA;USA;;;;X
 UAU;LightGray;AST;ENG;;;;X
-UCH;LightOrange;CHI;MIN;;;;X
+UCH;Red;CHI;MIN;;;;X
 UBO;Blue;FRA;FRA;;;;X
 UTC;LightGreen;SOV;SOV;;;;X
 UGS;Green;SOV;SOV;;;;X

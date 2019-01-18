@@ -27,8 +27,8 @@
    interventionism  	= 1 
     } 
  nationalprovinces   = {  1294 1286 1287 1288 1289 1295 1290 1278 1285 } 
-   ownedprovinces         = { 1286 1287 1288 1289 1290 1294 1295  } 
-   controlledprovinces    = { 1286 1287 1288 1289 1290 1294 1295  } 
+   ownedprovinces         = { 1286 1287 1288 1289 1295 1290 } 
+   controlledprovinces    = { 1286 1287 1288 1289 1295 1290 } 
  claimedprovinces = { 1455 1458 1283 1284 1292 1293 1262}
 # Tibet
    techapps = { 
