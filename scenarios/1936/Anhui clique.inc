@@ -83,12 +83,12 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-	1331 1328
+	
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-	1331 1328
+	
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
@@ -230,22 +230,22 @@ inventions = { 3000027 }
      democratic        = 3 
      political_left    = 4 
      free_market       = 9 
-     freedom           = 4 
+     freedom           = 1 
      professional_army = 2 
-     defense_lobby     = 8 
-     interventionism   = 4 
+     defense_lobby     = 1 
+     interventionism   = 1 
     } 
 
-   headofstate            = {  type = 9 id = 55022  } 
-   headofgovernment       = {  type = 9 id = 55009  } 
-   foreignminister        = {  type = 9 id = 55029  } 
-   armamentminister       = {  type = 9 id = 55051  } 
-   ministerofsecurity     = {  type = 9 id = 55065  } 
-   ministerofintelligence = {  type = 9 id = 55066  } 
-   chiefofstaff           = {  type = 9 id = 55013  } 
-   chiefofarmy            = {  type = 9 id = 55014  } 
-   chiefofnavy            = {  type = 9 id = 55019  } 
-   chiefofair             = {  type = 9 id = 55035  } 
+   headofstate            = {  type = 9 id = 1135001  } 
+   headofgovernment       = {  type = 9 id = 1135002  } 
+   foreignminister        = {  type = 9 id = 1135003  } 
+   armamentminister       = {  type = 9 id = 1135004  } 
+   ministerofsecurity     = {  type = 9 id = 1135005  } 
+   ministerofintelligence = {  type = 9 id = 1135006  } 
+   chiefofstaff           = {  type = 9 id = 1135007  } 
+   chiefofarmy            = {  type = 9 id = 1135008  } 
+   chiefofnavy            = {  type = 9 id = 1135009  } 
+   chiefofair             = {  type = 9 id = 1135010  } 
    dormant_leaders        = {  55368 55375  } 
    #######################
    # CHINA 1936/1937 OOB #
@@ -257,92 +257,9 @@ inventions = { 3000027 }
    ###################
    # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15468195&viewfull=1#post15468195
 
+
     landunit = 
-   {  location = 1330 # Jinan 
-     name     = "6th Corps" 
-     id       = {  type = 22000 id = 1  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 2  } 
-       name       = "22nd Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 3  } 
-       name       = "29th Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 4  } 
-       name       = "74th Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1330 # Jinan 
-     name     = "12th Corps" 
-     id       = {  type = 22000 id = 5  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 6  } 
-       name       = "20th Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 7  } 
-       name       = "81st Division" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-	   locked = yes
-      }
-    }
-    landunit = 
-   {  location = 1330 # Jinan 
-     name     = "3rd Route Army" 
-     id       = {  type = 22000 id = 8  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 9  } 
-       name       = "3rd Route Army HQ" 
-       type       = hq
-	   strength  = 80
-       model     = 1
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 10  } 
-       name       = "1st 2nd Independent Artillery Regiments" 
-       type       = infantry 
-	   strength  = 65
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 5
-	   locked = yes
-      }
-    }
-    landunit = 
-   {  location = 1330 # Jinan 
+   {  location = 1328 # Jinan 
      name     = "Shandong Provincial Security Group" 
      id       = {  type = 22000 id = 11  } 
      Division = 
@@ -352,7 +269,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 60
        model     = 3
-	   locked = yes
+	   locked = no
       }
 	 Division = 
      {  experience = 30 
@@ -361,7 +278,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 60
        model     = 3
-	   locked = yes
+	   locked = no
       }
 	 Division = 
      {  experience = 30 
@@ -370,7 +287,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 60
        model     = 3
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -379,7 +296,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 60
        model     = 3
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -388,7 +305,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 60
        model     = 3
-	   locked = yes
+	   locked = no
       }
     }
 	

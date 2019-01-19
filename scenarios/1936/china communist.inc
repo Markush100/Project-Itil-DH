@@ -174,138 +174,260 @@ inventions = { 3000027 }
    # ###### 
    # COMMUNIST CHINA 1936 OOB
    # http://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%86%9C%E7%BA%A2%E5%86%9B%E6%88%98%E6%96%97%E5%BA%8F%E5%88%97
-   # ###### 
-#   1st Army Front (Ya'an)
-#	 1st Army Group (8800)
-#	  1st/2nd/3rd Division
-#	 15th Army Group (7000)
-#     75th/78th/81st Division
-#    28th/29th Army (3200)
-#   2nd Army Front (Garze County) # 1296
-#	 2nd Red Army Group (2000)
-#	  4th/5th/6th Division
-#	 6th Red Army Group (2000)
-#	  16th/17th/18th Division
-#   4th Army Front (Garze County) # 1296
-#    4th Army (6000)
-#	  10th/11/12th Division
-#	 9th Army (3000) (Well Armed)
-#     25th/26th/27th Division
-#	 30th Army (800)
-#     88th/89th Division
-#    31st Army (???)
-#     91st/93rd Division
-#    5th Army (2500)
-#     13th/15th Division
-#    32nd Army (1000)
-#     94th/96th Division
-#   16th Army (Nanyang) #1325
-#    6th Army Group (9000)
-#     ???
-  landunit = 
-   {  location = 1259 # Yan'an 
-     name     = "1st Red Army Front" 
-     id       = {  type = 24000 id = 1  } 
+   ####################
+	# Hunan Task Force #
+	####################
+	landunit = 
+   {  location = 1308 # Changsha
+     name     = "28th Corps" 
+     id       = {  type = 22000 id = 37  } 
      Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 2  } 
-       name       = "1st Army Group" 
-       type       = bergsjaeger 
-       strength  = 80 
-       model      = 7 
-      } 
-     Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 3  } 
-       name       = "15th Army Group" 
-       type       = bergsjaeger 
-       strength  = 63 
-       model      = 7 
+     {  experience = 30 
+       id         = {  type = 22000 id = 38 } 
+       name       = "15th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
       }
-     Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 4  } 
-       name       = "28th 29th Armies" 
-       type       = bergsjaeger 
-       strength  = 29
-       model      = 7 
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 39  } 
+       name       = "16th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
       }
-     dig_in   = 20.000 
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 40  } 
+       name       = "19th Division" # Different from the CGX
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
     }
 	landunit = 
-   {  location = 1296 # Guanxian
-     name     = "2nd Army Front" 
-     id       = {  type = 24000 id = 5  } 
+   {  location = 1308 # Changsha
+     name     = "4th Route Army" 
+     id       = {  type = 22000 id = 41  } 
      Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 6  } 
-       name       = "2nd Red Army Group" 
-       type       = bergsjaeger 
-       strength  = 18 
-       model      = 7 
-      } 
-     Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 7  } 
-       name       = "6th Red Army Group" 
-       type       = bergsjaeger 
-       strength  = 18
-       model      = 7 
+     {  experience = 30 
+       id         = {  type = 22000 id = 42 } 
+       name       = "62nd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
       }
-     dig_in   = 20.000 
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 43  } 
+       name       = "63rd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 44  } 
+       name       = "New 34th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 45  } 
+       name       = "4th Route Army Reserve Regiments" 
+       type       = infantry
+	   strength  = 75
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 46  } 
+       name       = "4th Route Army Reserve Regiments" 
+       type       = infantry
+	   strength  = 75
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 47 } 
+       name       = "4th Route Army HQ" 
+       type       = hq
+	   strength  = 100
+       model     = 1
+	   locked = yes
+      }
     }
 	landunit = 
-   {  location = 1296 # Guanxian
-     name     = "4th Army Front" 
-     id       = {  type = 24000 id = 8  } 
+   {  location = 1308 # Changsha
+     name     = "Hunan Provincial Security Group" 
+     id       = {  type = 22000 id = 48  } 
      Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 9  } 
-       name       = "4th Army" 
-       type       = bergsjaeger 
-       strength  = 54
-       model      = 7 
-      } 
-     Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 10  } 
-       name       = "9th Army" 
-       type       = bergsjaeger 
-       strength  = 27
-       model      = 8 
-      }
-	  Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 11  } 
-       name       = "30th 31st 32nd Armies" 
-       type       = bergsjaeger 
-       strength  = 24
-       model      = 7 
-      }
-	  Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 12  } 
-       name       = "5th Army" 
-       type       = bergsjaeger 
-       strength  = 22
-       model      = 7 
-      }
-     dig_in   = 20.000 
-    } 
-	landunit = 
-   {  location = 1325 # Nanyang
-     name     = "16th Army" 
-     id       = {  type = 24000 id = 13  } 
-     Division = 
-     {  experience = 60 
-       id         = {  type = 24000 id = 14  } 
-       name       = "6th Army Group" 
+     {  experience = 30 
+       id         = {  type = 22000 id = 49 } 
+       name       = "1st Zone Security Command" 
        type       = militia
-       strength  = 50
-       model      = 5
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 50  } 
+       name       = "2nd Zone Security Command" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 51  } 
+       name       = "3rd Zone Security Command" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 52  } 
+       name       = "4th Zone Security Command" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 53  } 
+       name       = "5th Zone Security Command" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 54  } 
+       name       = "6th Zone Security Command" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+    }
+
+######################
+	# Guizhou Task Force #
+	######################
+	landunit = 
+   {  location = 1305 # Guiyang
+     name     = "25th Corps" 
+     id       = {  type = 22000 id = 55  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 56 } 
+       name       = "103rd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 57 } 
+       name       = "102nd Division" 
+       type       = infantry
+	   strength  = 75
+       model     = 5
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 58  } 
+       name       = "New 8th Division" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 59 } 
+       name       = "121st Division" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 60  } 
+       name       = "New 25th Division" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1305 # Guiyang
+     name     = "Guizhou Provincial Security Group" 
+     id       = {  type = 22000 id = 61  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 62 } 
+       name       = "1st Provincial Militia" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 63 } 
+       name       = "2nd Provincial Militia" 
+       type       = militia
+	   strength  = 50
+       model     = 4
+	   locked = yes
+      }
+    }
+	################
+	# Airforce OOB #
+	###############
+	# Hunan
+	airunit = 
+   {  location = 1312 # Hengyang
+     name     = "Hunan Air Force" 
+     base     = 1312 # Hengyang
+     id       = {  type = 22000 id = 193  } 
+     Division = 
+     {  id           = {  type = 22000 id = 194  } 
+       name         = "11th 13th 14th Squadron" 
+       type         = tactical_bomber
+       model        = 2
+       strength     = 25
       } 
-     dig_in   = 20.000 
-    } 
+	  Division = 
+     {  id           = {  type = 22000 id = 195  } 
+       name         = "12th Squadron" 
+       type         = interceptor 
+       model        = 0
+       strength     = 9 
+      } 
+    }
   } 
  
  

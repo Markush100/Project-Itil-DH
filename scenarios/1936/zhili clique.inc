@@ -245,7 +245,122 @@ inventions = { 3000027 }
    chiefofnavy            = {  type = 9 id = 995130  } 
    chiefofair             = {  type = 9 id = 995132  } 
    dormant_leaders        = {  55368 55375  } 
+	
+	##############################################
+	# 29th Army (Hebei/Hebei Autonomous Council) #
+	##############################################
+    landunit = 
+   {  location = 1247 # Beijing
+     name     = "29th Army" 
+     id       = {  type = 22000 id = 17  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 18  } 
+       name       = "37th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 19 } 
+       name       = "38th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 20  } 
+       name       = "132nd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 21  } 
+       name       = "143rd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 22  } 
+       name       = "9th Cavalry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 23  } 
+       name       = "39th Independent Brigade" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 24  } 
+       name       = "13th Independent Cavalry Brigade" 
+       type       = cavalry
+	   strength  = 80
+       model     = 6
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 25  } 
+       name       = "29th Army Special Brigade" 
+       type       = infantry
+	   strength  = 100
+       model     = 7
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 26  } 
+       name       = "29th Army HQ" 
+       type       = hq
+	   strength  = 100
+       model     = 1
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1247 # Beijing
+     name     = "Hebei Provincial Security Group" 
+     id       = {  type = 22000 id = 27  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 28  } 
+       name       = "North Hebei Security Group" 
+       type       = infantry
+	   strength  = 25
+       model     = 6
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 29  } 
+       name       = "South Hebei Security Group" 
+       type       = infantry
+	   strength  = 25
+       model     = 6
+	   locked = yes
+      }
+    }
 
+	
+	
     
   } 
  

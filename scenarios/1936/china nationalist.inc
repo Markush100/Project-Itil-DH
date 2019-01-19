@@ -82,12 +82,12 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-    1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344
+   1331 1328 1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-    1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1323 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
+   1331 1328 1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
@@ -226,23 +226,23 @@ blueprints = {
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 3 
-     political_left    = 4 
+     democratic        = 2 
+     political_left    = 3 
      free_market       = 9 
-     freedom           = 4 
-     professional_army = 2 
+     freedom           = 2 
+     professional_Army = 4 
      defense_lobby     = 8 
      interventionism   = 4 
     } 
 
-   headofstate            = {  type = 9 id = 55022  } 
-   headofgovernment       = {  type = 9 id = 55009  } 
-   foreignminister        = {  type = 9 id = 55029  } 
-   armamentminister       = {  type = 9 id = 55051  } 
-   ministerofsecurity     = {  type = 9 id = 55065  } 
+   headofstate            = {  type = 9 id = 55001  } 
+   headofgovernment       = {  type = 9 id = 55113  } 
+   foreignminister        = {  type = 9 id = 55115  } 
+   armamentminister       = {  type = 9 id = 55116  } 
+   ministerofsecurity     = {  type = 9 id = 55114  } 
    ministerofintelligence = {  type = 9 id = 55066  } 
-   chiefofstaff           = {  type = 9 id = 55013  } 
-   chiefofarmy            = {  type = 9 id = 55014  } 
+   chiefofstaff           = {  type = 9 id = 55320  } 
+   chiefofArmy            = {  type = 9 id = 55014  } 
    chiefofnavy            = {  type = 9 id = 55019  } 
    chiefofair             = {  type = 9 id = 55035  } 
    dormant_leaders        = {  55368 55375  } 
@@ -250,785 +250,178 @@ inventions = { 3000027 }
    # CHINA 1936/1937 OOB #
    #######################
    # TYPE = 22000
-	
-	##############################################
-	# 29th Army (Hebei/Hebei Autonomous Council) #
-	##############################################
-    landunit = 
-   {  location = 1247 # Beijing
-     name     = "29th Army" 
-     id       = {  type = 22000 id = 17  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 18  } 
-       name       = "37th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 19 } 
-       name       = "38th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 20  } 
-       name       = "132nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 21  } 
-       name       = "143rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 22  } 
-       name       = "9th Cavalry Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 23  } 
-       name       = "39th Independent Brigade" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 24  } 
-       name       = "13th Independent Cavalry Brigade" 
-       type       = cavalry
-	   strength  = 80
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 25  } 
-       name       = "29th Army Special Brigade" 
-       type       = infantry
-	   strength  = 100
-       model     = 7
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 26  } 
-       name       = "29th Army HQ" 
-       type       = hq
-	   strength  = 100
-       model     = 1
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1247 # Beijing
-     name     = "Hebei Provincial Security Group" 
-     id       = {  type = 22000 id = 27  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 28  } 
-       name       = "North Hebei Security Group" 
-       type       = infantry
-	   strength  = 25
-       model     = 6
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 29  } 
-       name       = "South Hebei Security Group" 
-       type       = infantry
-	   strength  = 25
-       model     = 6
-	   locked = yes
-      }
-    }
-
-	#####################
-	# Shaanxi Task Force #
-	#####################
-	# http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15499404&viewfull=1#post15499404
-	landunit = 
-   {  location = 1258 # Xian
-     name     = "7th Corps" 
-     id       = {  type = 22000 id = 30  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 31  } 
-       name       = "42nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   extra1 = cavalry_brigade
-	   brigade_model1 = 5
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 32  } 
-       name       = "17th Division" 
-       type       = infantry 
-	   strength  = 100
-       model     = 5
-	   extra1 = cavalry_brigade
-	   brigade_model1 = 5
-      }
-    }
-	landunit = 
-   {  location = 1258 # Xian
-     name     = "17th Route Army" 
-     id       = {  type = 22000 id = 33  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 34 } 
-       name       = "17th Route Army HQ" 
-       type       = hq
-	   strength  = 100
-       model     = 1
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 35  } 
-       name       = "Shaanxi Guard" 
-       type       = militia 
-	   strength  = 100
-       model     = 3
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 36  } 
-       name       = "1st 2nd 3rd Special Regiments" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   extra1 = cavalry_brigade
-	   brigade_model1 = 6
-      }
-    }
-	####################
-	# Hunan Task Force #
-	####################
-	landunit = 
-   {  location = 1308 # Changsha
-     name     = "28th Corps" 
-     id       = {  type = 22000 id = 37  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 38 } 
-       name       = "15th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 39  } 
-       name       = "16th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 40  } 
-       name       = "19th Division" # Different from the CGX
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1308 # Changsha
-     name     = "4th Route Army" 
-     id       = {  type = 22000 id = 41  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 42 } 
-       name       = "62nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 43  } 
-       name       = "63rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 44  } 
-       name       = "New 34th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 45  } 
-       name       = "4th Route Army Reserve Regiments" 
-       type       = infantry
-	   strength  = 75
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 46  } 
-       name       = "4th Route Army Reserve Regiments" 
-       type       = infantry
-	   strength  = 75
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 47 } 
-       name       = "4th Route Army HQ" 
-       type       = hq
-	   strength  = 100
-       model     = 1
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1308 # Changsha
-     name     = "Hunan Provincial Security Group" 
-     id       = {  type = 22000 id = 48  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 49 } 
-       name       = "1st Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 50  } 
-       name       = "2nd Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 51  } 
-       name       = "3rd Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 52  } 
-       name       = "4th Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 53  } 
-       name       = "5th Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 54  } 
-       name       = "6th Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-    }
-
-	######################
-	# Guizhou Task Force #
-	######################
-	landunit = 
-   {  location = 1305 # Guiyang
-     name     = "25th Corps" 
-     id       = {  type = 22000 id = 55  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 56 } 
-       name       = "103rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 57 } 
-       name       = "102nd Division" 
-       type       = infantry
-	   strength  = 75
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 58  } 
-       name       = "New 8th Division" 
-       type       = infantry
-	   strength  = 50
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 59 } 
-       name       = "121st Division" 
-       type       = infantry
-	   strength  = 50
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 60  } 
-       name       = "New 25th Division" 
-       type       = infantry
-	   strength  = 50
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1305 # Guiyang
-     name     = "Guizhou Provincial Security Group" 
-     id       = {  type = 22000 id = 61  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 62 } 
-       name       = "1st Provincial Militia" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 63 } 
-       name       = "2nd Provincial Militia" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-    }
-	######################
-	# Sichaun Task Force #
-	######################
-	landunit = 
-   {  location = 1297 # Chengdu
-     name     = "21st Corps" 
-     id       = {  type = 22000 id = 64  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 65 } 
-       name       = "146th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 66 } 
-       name       = "147th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 67 } 
-       name       = "162nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 68 } 
-       name       = "12th Independent Brigades" 
-       type       = infantry
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 69 } 
-       name       = "15th Independent Brigade" 
-       type       = infantry
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1297 # Chengdu
-     name     = "23rd Corps" 
-     id       = {  type = 22000 id = 70  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 71 } 
-       name       = "144th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 72 } 
-       name       = "148th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 73 } 
-       name       = "17th Independent Brigade" 
-       type       = infantry
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1297 # Chengdu
-     name     = "44th Corps" 
-     id       = {  type = 22000 id = 74  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 75 } 
-       name       = "149th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 76 } 
-       name       = "150th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 77 } 
-       name       = "163rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1297 # Chengdu
-     name     = "7th Route Army" 
-     id       = {  type = 22000 id = 78 } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 79 } 
-       name       = "145th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 80 } 
-       name       = "161st Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 81 } 
-       name       = "164th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 82 } 
-       name       = "11th Independent Brigade" 
-       type       = infantry
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 83 } 
-       name       = "13th Independent Brigade" 
-       type       = infantry
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 84 } 
-       name       = "16th Independent Brigade" 
-       type       = infantry
-	   strength  = 65
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 85 } 
-       name       = "7th Route Army HQ" 
-       type       = hq
-	   strength  = 100
-       model     = 2
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1299 # Chongqing
-     name     = "41st Corps" 
-     id       = {  type = 22000 id = 86  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 87 } 
-       name       = "122nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   extra1 = cavalry_brigade
-	   brigade_model1 = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 88 } 
-       name       = "123rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   extra1 = cavalry_brigade
-	   brigade_model1 = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 89 } 
-       name       = "124th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   extra1 = cavalry_brigade
-	   brigade_model1 = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1299 # Chongqing
-     name     = "45th Corps" 
-     id       = {  type = 22000 id = 90  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 91 } 
-       name       = "125th Division" 
-       type       = infantry
-	   strength  = 62
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 92 } 
-       name       = "126th Division" 
-       type       = infantry
-	   strength  = 62
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 93 } 
-       name       = "127th Division" 
-       type       = infantry
-	   strength  = 62
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 94 } 
-       name       = "128th Division" 
-       type       = infantry
-	   strength  = 62
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 95 } 
-       name       = "131st Division" 
-       type       = infantry
-	   strength  = 62
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1299 # Chongqing
-     name     = "47th Corps" 
-     id       = {  type = 22000 id = 96  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 97 } 
-       name       = "104th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 98 } 
-       name       = "Reinforcement Regiments" 
-       type       = infantry
-	   strength  = 60
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1299 # Chongqing
-     name     = "14th Route Army" 
-     id       = {  type = 22000 id = 99  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 100 } 
-       name       = "14th Independent Brigade" 
-       type       = infantry
-	   strength  = 60
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 101 } 
-       name       = "14th Route Army HQ" 
-       type       = hq
-	   strength  = 60
-       model     = 2
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1299 # Chongqing
-     name     = "Sichuan Provincial Security Group" 
-     id       = {  type = 22000 id = 102  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 103 } 
-       name       = "1st 2nd 3rd 4th 5th 6th Militia Regiments" 
-       type       = militia
-	   strength  = 100
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 104 } 
-       name       = "7th 8th 9th 10th 11th 12th Militia Regiments" 
-       type       = militia
-	   strength  = 100
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 105 } 
-       name       = "13th 14th 15th 16th 17th 18th Militia Regiments" 
-       type       = militia
-	   strength  = 100
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 106 } 
-       name       = "20th 21st 22nd 23rd 24th Militia Regiments" 
-       type       = militia
-	   strength  = 100
-       model     = 4
-	   locked = yes
-      }
-    }
-
-	##################
-	# Central Forces #
-	##################
-
-	# Five Main Forces
-
+   
+    
 	landunit = 
    {  location = 1337 # Nanjing
-     name     = "New 1st Corps" 
+     name     = "Blue shirts Youth Force"
+     id       = {  type = 22000 id = 1500  }
+	 Division = 
+     {  experience = 0
+       id         = {  type = 22000 id = 1501 } 
+       name       = "1st Young Blueshirts " 
+       type       = militia
+	   strength  = 80
+       model     = 3
+      }
+	  Division = 
+     {  experience = 0
+       id         = {  type = 22000 id = 1502 } 
+       name       = "2nd Young Blueshirts" 
+       type       = militia
+	   strength  = 50
+       model     = 3
+      }
+
+    }
+	###nanyang###
+	landunit = {
+		
+		location = 1325 
+		name = "Nanyang Blueshirt Army"
+		id = { type = 22000 id = 1503 }
+		Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1504 } 
+       name       = "Nanyang 1st Army" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	  Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1505 } 
+       name       = "Nanyang 2nd Army" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+      }
+	  Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1506 } 
+       name       = "Nanyang 3rd Army" 
+       type       = infantry
+	   strength  = 90
+       model     = 6
+      }
+	}
+	###kaifeng###
+	landunit = {
+		
+		location = 1319 
+		name = "Kaifeng Blueshirt Army"
+		id = { type = 22000 id = 1507 }
+		Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1508 } 
+       name       = "Kaifeng 1st Army" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	  Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1509 } 
+       name       = "Kaifeng 2nd Army" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+      }
+	  Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1510 } 
+       name       = "Kaifeng 3rd Army" 
+       type       = infantry
+	   strength  = 90
+       model     = 5
+      }
+	}
+	landunit = {
+		
+		location = 1319 
+		name = "Kaifeng National Pinoeers"
+		id = { type = 22000 id = 1511 }
+		Division = 
+		{  experience = 30 
+       id         = {  type = 22000 id = 1512 } 
+       name       = "Kaifeng Pionneers" 
+       type       = militia
+	   strength  = 100
+       model     = 5
+		}
+	  }
+	  ###################
+   # Shandong #
+   ###################
+   # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15468195&viewfull=1#post15468195
+
+    landunit = 
+   {  location = 1328 # Jinan 
+     name     = "Shandong Blueshirt Militia" 
+     id       = {  type = 22000 id = 1513  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 1514  } 
+       name       = "1st Shandong Blueshirts" 
+       type       = militia
+	   strength  = 100
+       model     = 3
+	   locked = no
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 1515 } 
+       name       = "2nd Shandong Blueshirts" 
+       type       = militia
+	   strength  = 80
+       model     = 3
+	   locked = no
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 1516 } 
+       name       = "3rd Shandong Blueshirts" 
+       type       = militia
+	   strength  = 80
+       model     = 3
+	   locked = no
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 1517  } 
+       name       = "4th Shandong Blueshirts" 
+       type       = militia
+	   strength  = 60
+       model     = 3
+	   locked = no
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 1518  } 
+       name       = "5th Shandong Blueshirts" 
+       type       = militia
+	   strength  = 60
+       model     = 3
+	   locked = no
+      }
+    }
+	
+	
+	##################
+	# Nanjing #
+	##################
+	landunit = 
+   {  location = 1337 # Nanjing
+     name     = "Nanjing Blueshirts" 
      id       = {  type = 22000 id = 107  } 
      Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 108 } 
-       name       = "50th Division" 
+       name       = "1st Nanjing Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
@@ -1038,7 +431,7 @@ inventions = { 3000027 }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 109 } 
-       name       = "New 30th Division" 
+       name       = "2nd Nanjing Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
@@ -1048,7 +441,7 @@ inventions = { 3000027 }
 	  Division = 
      {  experience = 50 
        id         = {  type = 22000 id = 110 } 
-       name       = "New 38th Division" 
+       name       = "3rd Nanjing Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
@@ -1058,7 +451,7 @@ inventions = { 3000027 }
     }
 	landunit = 
    {  location = 1337 # Nanjing
-     name     = "New 6th Corps" 
+     name     = "4th Nanjing Blueshirts" 
      id       = {  type = 22000 id = 111  } 
      Division = 
      {  experience = 30 
@@ -1069,23 +462,19 @@ inventions = { 3000027 }
        model     = 8
 	   extra1 = engineer
 	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 6
       }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 113 } 
-       name       = "207th Division" 
+       name       = "5th Nanjing Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
       }
 	  Division = 
      {  experience = 50 
        id         = {  type = 22000 id = 114 } 
-       name       = "New 22nd Division" 
+       name       = "6th Nanjing Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
@@ -1094,13 +483,13 @@ inventions = { 3000027 }
       }
     }
 	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "74th Corps" 
+   {  location = 1338 # Shanghai
+     name     = "Shanghai Blueshirts" 
      id       = {  type = 22000 id = 115  } 
      Division = 
      {  experience = 50 
        id         = {  type = 22000 id = 116 } 
-       name       = "51st Division" 
+       name       = "1st Shanghai Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
@@ -1110,7 +499,7 @@ inventions = { 3000027 }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 117 } 
-       name       = "57th Division" 
+       name       = "2nd Shanghai Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 6
@@ -1122,34 +511,28 @@ inventions = { 3000027 }
 	  Division = 
      {  experience = 40 
        id         = {  type = 22000 id = 118 } 
-       name       = "58th Division" 
+       name       = "3rd Shanghai Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
       }
     }
 	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "18th Corps" 
+   {  location = 1324 # Zhengzhou
+     name     = "Zhengzhou Blueshirts" 
      id       = {  type = 22000 id = 119  } 
      Division = 
      {  experience = 0 
        id         = {  type = 22000 id = 120 } 
-       name       = "11th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 6
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 4
+       name       = "1st Zhengzhou Blueshirts" 
+       type       = Militia
+	   strength  = 100
+       model     = 3
       }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 121 } 
-       name       = "18th Division" 
+       name       = "2nd Zhengzhou Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
@@ -1159,591 +542,40 @@ inventions = { 3000027 }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 122 } 
-       name       = "118th Division" 
+       name       = "3rd Zhengzhou Blueshirts" 
        type       = infantry
 	   strength  = 80
        model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
       }
     }
 	landunit = 
    {  location = 1337 # Nanjing
-     name     = "5th Corps" 
+     name     = "Blueshirt Motorized Army" 
      id       = {  type = 22000 id = 123  } 
      Division = 
      {  experience = 30
        id         = {  type = 22000 id = 124 } 
-       name       = "45th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
+       name       = "1st Motorized Division" 
+       type       = motorized
+	   strength  = 100
+       model     = 1
+	   extra1 = armored_car 
+       brigade_model1     = 2
+	   
       }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22000 id = 125 } 
-       name       = "96th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-      }
-
-    }
-	landdivision = 
-     {  experience = 0 
-       id         = {  type = 22000 id = 126 } 
-       name       = "200th Division" 
+       name       = "2nd Motorized Division" 
        type       = motorized
-	   strength  = 80
-       model     = 0
-	   dormant = yes
-      }
-
-	# Attack Corps
-	# 1st/2nd Corps: See CGX
-	# 5/74 Corps: See 5 Main Forces Above
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "2nd Corps"  # Different than the one in CGX. Includes 9th Division from CGX post 1937.
-     id       = {  type = 22000 id = 127  } 
-     Division = 
-     {  experience = 30
-       id         = {  type = 22000 id = 128 } 
-       name       = "76th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 129 } 
-       name       = "2nd Preparation Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
+	   strength  = 100
+	   model = 1
+	   extra1 = armored_car 
+       brigade_model1     = 3
       }
 
     }
 
-	#Other Main Forces
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "13th Corps" #Includes 3rd Division from CGX post 1937
-     id       = {  type = 22000 id = 130  } 
-     Division = 
-     {  experience = 30
-       id         = {  type = 22000 id = 131 } 
-       name       = "54th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-      }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 132 } 
-       name       = "89th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 6
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 4
-      }
-
-    }
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "26th Corps" #Includes 44th Division from CGX post 1937
-     id       = {  type = 22000 id = 133  } 
-     Division = 
-     {  experience = 30
-       id         = {  type = 22000 id = 134 } 
-       name       = "41st Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 135 } 
-       name       = "169th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 5
-	   extra1 = artillery
-	   brigade_model1 = 4
-      }
-
-    }
-
-	#Misc Other Corps/Outdated Corps (Upgraded with USA Arms post 1941)
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "8th Corps" #Different from the CGX 8th, includes 103rd Division from Guizhou post 1937
-     id       = {  type = 22000 id = 136  } 
-     Division = 
-     {  experience = 15
-       id         = {  type = 22000 id = 137 } 
-       name       = "1st Honor Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-	  Division = 
-     {  experience = 10
-       id         = {  type = 22000 id = 138 } 
-       name       = "166th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-
-    }
-	
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "53rd Corps"
-     id       = {  type = 22000 id = 139  } 
-     Division = 
-     {  experience = 10
-       id         = {  type = 22000 id = 140 } 
-       name       = "2nd Honor Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-	  Division = 
-     {  experience = 10
-       id         = {  type = 22000 id = 141 } 
-       name       = "116th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-	  Division = 
-     {  experience = 10
-       id         = {  type = 22000 id = 142 } 
-       name       = "130th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "54th Corps" # Includes 8th Division from CGX post 1937
-     id       = {  type = 22000 id = 143  }
-	  Division = 
-     {  experience = 40
-       id         = {  type = 22000 id = 144 } 
-       name       = "36th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 8
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 6
-      }
-	  Division = 
-     {  experience = 10
-       id         = {  type = 22000 id = 145 } 
-       name       = "198th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-	 Division = 
-     {  experience = 0 
-       id         = {  type = 22000 id = 182 } 
-       name       = "67th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 6
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 4
-      }
-    }
-
-	
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "71st Corps"
-     id       = {  type = 22000 id = 146  }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 147 } 
-       name       = "87th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 8
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 6
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 148 } 
-       name       = "88th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 8
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 6
-      }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 149 } 
-       name       = "91st Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-    }
-	
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "73rd Corps" # Contains 15th Division from Hunan post 1937
-     id       = {  type = 22000 id = 150  }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 151 } 
-       name       = "77th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 152 } 
-       name       = "193rd Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 4
-      }
-    }
-    #name     = "94th Corps" # Contains 5th, 43rd Division from CGX post 1937, 121st Division from Guizhou post 1937.
-	#name     = "100th Corps" # Contains 19th, 63rd Division from Hunan post 1937.
-
-	
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "20th Corps" # Contains 15th Division from Hunan post 1937
-     id       = {  type = 22000 id = 153  }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 154 } 
-       name       = "133rd Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 155 } 
-       name       = "134th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "28th Corps" # Different from the Hunan task force.
-     id       = {  type = 22000 id = 156  }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 157 } 
-       name       = "52nd Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 158 } 
-       name       = "80th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 6
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 4
-      }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 159 } 
-       name       = "192nd Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "46th Corps"
-     id       = {  type = 22000 id = 160  }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 161 } 
-       name       = "175th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	  Division = 
-     {  experience = 0 
-       id         = {  type = 22000 id = 162 } 
-       name       = "188th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 163 } 
-       name       = "New 19th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "52nd Corps" # Contains 2nd and 25th Division from CGX post 1937
-     id       = {  type = 22000 id = 164  }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 165 } 
-       name       = "195th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "62nd Corps"
-     id       = {  type = 22000 id = 166  }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 167 } 
-       name       = "95th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 168 } 
-       name       = "151st Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 169 } 
-       name       = "157th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "64th Corps" # Contains 131st Division from Sichuan Task Force post 1937
-     id       = {  type = 22000 id = 170  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 171 } 
-       name       = "156th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 172 } 
-       name       = "159th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "92nd Corps" # Contains 21st Division from CGX post 1937
-     id       = {  type = 22000 id = 173  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 174 } 
-       name       = "56th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 175 } 
-       name       = "142nd Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	 landunit = 
-   {  location = 1337 # Nanjing
-     name     = "93rd Corps"
-     id       = {  type = 22000 id = 176  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 177 } 
-       name       = "18th Training Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 178 } 
-       name       = "20th Training Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 179 } 
-       name       = "22nd Training Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	# Unassigned
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "9th Army Group"
-     id       = {  type = 22000 id = 180  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 181 } 
-       name       = "10th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 6
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 4
-      }
-	  	#ID 182 is USED! See 54th Corps
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 183 } 
-       name       = "83rd Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 6
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 4
-      }
-	  Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 230 } 
-       name       = "46th Division" 
-       type       = infantry
-	   strength  = 80
-       model     = 8
-	   extra1 = engineer
-	   brigade_model1 = 2
-	   extra2 = artillery
-	   brigade_model2 = 6
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "10th Corps" #Contains 3rd Division from CGX after 1937
-     id       = {  type = 22000 id = 184  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 185 } 
-       name       = "190th Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 186 } 
-       name       = "10th Training Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "35th Corps" #Different from the one in CSX
-     id       = {  type = 22000 id = 187  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 188 } 
-       name       = "New 32nd Division" 
-       type       = infantry
-	   strength  = 60
-       model     = 3
-      }
-
-    }
-
-	landunit = 
-   {  location = 1337 # Nanjing
-     name     = "NRA Youth Force"
-     id       = {  type = 22000 id = 189  }
-	 Division = 
-     {  experience = 0
-       id         = {  type = 22000 id = 190 } 
-       name       = "201st Division" 
-       type       = militia
-	   strength  = 60
-       model     = 3
-      }
-
-    }
 	# Name = "60th Corps" #Contains units from Yunnan 10th Route Army
 
 	# German Trained
@@ -1756,47 +588,12 @@ inventions = { 3000027 }
 
 	################
 	# Airforce OOB #
-	################
-	# Sichuan
-	airunit = 
-   {  location = 1297 # Chengdu 
-     name     = "Sichuan Air Force" 
-     base     = 1297 # Guangzhou 
-     id       = {  type = 22000 id = 191  } 
-     Division = 
-     {  id           = {  type = 22000 id = 192 } 
-       name         = "33rd Squadron" 
-       type         = multi_role 
-       model        = 3
-       strength     = 9
-      } 
-    }
-	# Hunan
-	airunit = 
-   {  location = 1312 # Hengyang
-     name     = "Hunan Air Force" 
-     base     = 1312 # Hengyang
-     id       = {  type = 22000 id = 193  } 
-     Division = 
-     {  id           = {  type = 22000 id = 194  } 
-       name         = "11th 13th 14th Squadron" 
-       type         = tactical_bomber
-       model        = 2
-       strength     = 25
-      } 
-	  Division = 
-     {  id           = {  type = 22000 id = 195  } 
-       name         = "12th Squadron" 
-       type         = interceptor 
-       model        = 0
-       strength     = 9 
-      } 
-    }
+	###############
 	# Main
 	airunit = 
-   {  location = 1352 # Nanchang
-     name     = "RoC Airforce" 
-     base     = 1352 # Nanchang
+   {  location = 1330 # Jinan
+     name     = "Blueshirt Airforce" 
+     base     = 1330 # Jinan
      id       = {  type = 22000 id = 196  } 
      Division = 
      {  id           = {  type = 22000 id = 197  } 

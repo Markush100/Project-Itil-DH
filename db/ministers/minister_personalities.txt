@@ -2777,7 +2777,7 @@
 		id			= 177
 		name		= NPERSONALITY_JIANG_JIESHI_1
 		desc		= DPERSONALITY_JIANG_JIESHI_1
-		position	= HeadOfGovernment
+		position	= HeadOfState
 		value		= 0
 		command     = { type = production which = production when = national value = -0.05 }
 		command     = { type = resource which = money value = 0.2 }

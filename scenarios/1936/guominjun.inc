@@ -201,27 +201,172 @@ blueprints = {
    ministerofintelligence = {  type = 9 id = 1185006 }
    chiefofstaff           = {  type = 9 id = 1185007 }
    chiefofarmy            = {  type = 9 id = 1185008 }
-   landunit = 
-   {  location = 1247 # Beijing
-     name     = "East Hebei Security Group" 
-     id       = {  type = 22001 id = 1  } 
+  #####################
+	# Shaanxi Task Force #
+	#####################
+	# http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15499404&viewfull=1#post15499404
+	landunit = 
+   {  location = 1258 # Xian
+     name     = "7th Corps" 
+     id       = {  type = 22000 id = 30  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22001 id = 2  } 
-       name       = "1st 2nd Divisions" 
-       type       = infantry 
-	   strength  = 80
+       id         = {  type = 22000 id = 31  } 
+       name       = "42nd Division" 
+       type       = infantry
+	   strength  = 100
        model     = 5
+	   extra1 = cavalry_brigade
+	   brigade_model1 = 5
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 32  } 
+       name       = "17th Division" 
+       type       = infantry 
+	   strength  = 100
+       model     = 5
+	   extra1 = cavalry_brigade
+	   brigade_model1 = 5
+      }
+    }
+	landunit = 
+   {  location = 1258 # Xian
+     name     = "17th Route Army" 
+     id       = {  type = 22000 id = 33  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 34 } 
+       name       = "17th Route Army HQ" 
+       type       = hq
+	   strength  = 100
+       model     = 1
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 35  } 
+       name       = "Shaanxi Guard" 
+       type       = militia 
+	   strength  = 100
+       model     = 3
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 36  } 
+       name       = "1st 2nd 3rd Special Regiments" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   extra1 = cavalry_brigade
+	   brigade_model1 = 6
+      }
+    }
+	
+	landunit = 
+   {  location = 1259 # Yan'an 
+     name     = "1st Red Army Front" 
+     id       = {  type = 24000 id = 1  } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 2  } 
+       name       = "1st Army Group" 
+       type       = bergsjaeger 
+       strength  = 80 
+       model      = 7 
+      } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 3  } 
+       name       = "15th Army Group" 
+       type       = bergsjaeger 
+       strength  = 63 
+       model      = 7 
+      }
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 4  } 
+       name       = "28th 29th Armies" 
+       type       = bergsjaeger 
+       strength  = 29
+       model      = 7 
+      }
+     dig_in   = 20.000 
+    }
+	landunit = 
+   {  location = 1296 # Guanxian
+     name     = "2nd Army Front" 
+     id       = {  type = 24000 id = 5  } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 6  } 
+       name       = "2nd Red Army Group" 
+       type       = bergsjaeger 
+       strength  = 18 
+       model      = 7 
+      } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 7  } 
+       name       = "6th Red Army Group" 
+       type       = bergsjaeger 
+       strength  = 18
+       model      = 7 
+      }
+     dig_in   = 20.000 
+    }
+	landunit = 
+   {  location = 1296 # Guanxian
+     name     = "4th Army Front" 
+     id       = {  type = 24000 id = 8  } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 9  } 
+       name       = "4th Army" 
+       type       = bergsjaeger 
+       strength  = 54
+       model      = 7 
+      } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 10  } 
+       name       = "9th Army" 
+       type       = bergsjaeger 
+       strength  = 27
+       model      = 8 
       }
 	  Division = 
-     {  experience = 30 
-       id         = {  type = 22001 id = 3  } 
-       name       = "3rd 4th 5th Divisions" 
-       type       = militia 
-	   strength  = 40
-       model     = 5
+     {  experience = 60 
+       id         = {  type = 24000 id = 11  } 
+       name       = "30th 31st 32nd Armies" 
+       type       = bergsjaeger 
+       strength  = 24
+       model      = 7 
       }
-	}
+	  Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 12  } 
+       name       = "5th Army" 
+       type       = bergsjaeger 
+       strength  = 22
+       model      = 7 
+      }
+     dig_in   = 20.000 
+    } 
+	landunit = 
+   {  location = 1325 # Nanyang
+     name     = "16th Army" 
+     id       = {  type = 24000 id = 13  } 
+     Division = 
+     {  experience = 60 
+       id         = {  type = 24000 id = 14  } 
+       name       = "6th Army Group" 
+       type       = militia
+       strength  = 50
+       model      = 5
+      } 
+     dig_in   = 20.000 
+    } 
+	
 }
   
  

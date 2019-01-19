@@ -253,11 +253,366 @@ inventions = { 3000027 }
    #######################
    # TYPE = 22000
    
-   ###################
-   # Shandong Clique #
-   ###################
-   # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15468195&viewfull=1#post15468195
-
+   ######################
+	# Sichaun Task Force #
+	######################
+	landunit = 
+   {  location = 1297 # Chengdu
+     name     = "21st Corps" 
+     id       = {  type = 22000 id = 64  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 65 } 
+       name       = "146th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 66 } 
+       name       = "147th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 67 } 
+       name       = "162nd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 68 } 
+       name       = "12th Independent Brigades" 
+       type       = infantry
+	   strength  = 65
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 69 } 
+       name       = "15th Independent Brigade" 
+       type       = infantry
+	   strength  = 65
+       model     = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1297 # Chengdu
+     name     = "23rd Corps" 
+     id       = {  type = 22000 id = 70  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 71 } 
+       name       = "144th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 72 } 
+       name       = "148th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 73 } 
+       name       = "17th Independent Brigade" 
+       type       = infantry
+	   strength  = 65
+       model     = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1297 # Chengdu
+     name     = "44th Corps" 
+     id       = {  type = 22000 id = 74  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 75 } 
+       name       = "149th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 76 } 
+       name       = "150th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 77 } 
+       name       = "163rd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1297 # Chengdu
+     name     = "7th Route Army" 
+     id       = {  type = 22000 id = 78 } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 79 } 
+       name       = "145th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 80 } 
+       name       = "161st Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 81 } 
+       name       = "164th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 82 } 
+       name       = "11th Independent Brigade" 
+       type       = infantry
+	   strength  = 65
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 83 } 
+       name       = "13th Independent Brigade" 
+       type       = infantry
+	   strength  = 65
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 84 } 
+       name       = "16th Independent Brigade" 
+       type       = infantry
+	   strength  = 65
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 85 } 
+       name       = "7th Route Army HQ" 
+       type       = hq
+	   strength  = 100
+       model     = 2
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1299 # Chongqing
+     name     = "41st Corps" 
+     id       = {  type = 22000 id = 86  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 87 } 
+       name       = "122nd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   extra1 = cavalry_brigade
+	   brigade_model1 = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 88 } 
+       name       = "123rd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   extra1 = cavalry_brigade
+	   brigade_model1 = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 89 } 
+       name       = "124th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   extra1 = cavalry_brigade
+	   brigade_model1 = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1299 # Chongqing
+     name     = "45th Corps" 
+     id       = {  type = 22000 id = 90  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 91 } 
+       name       = "125th Division" 
+       type       = infantry
+	   strength  = 62
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 92 } 
+       name       = "126th Division" 
+       type       = infantry
+	   strength  = 62
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 93 } 
+       name       = "127th Division" 
+       type       = infantry
+	   strength  = 62
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 94 } 
+       name       = "128th Division" 
+       type       = infantry
+	   strength  = 62
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 95 } 
+       name       = "131st Division" 
+       type       = infantry
+	   strength  = 62
+       model     = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1299 # Chongqing
+     name     = "47th Corps" 
+     id       = {  type = 22000 id = 96  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 97 } 
+       name       = "104th Division" 
+       type       = infantry
+	   strength  = 60
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 98 } 
+       name       = "Reinforcement Regiments" 
+       type       = infantry
+	   strength  = 60
+       model     = 5
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1299 # Chongqing
+     name     = "14th Route Army" 
+     id       = {  type = 22000 id = 99  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 100 } 
+       name       = "14th Independent Brigade" 
+       type       = infantry
+	   strength  = 60
+       model     = 5
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 101 } 
+       name       = "14th Route Army HQ" 
+       type       = hq
+	   strength  = 60
+       model     = 2
+	   locked = yes
+      }
+    }
+	landunit = 
+   {  location = 1299 # Chongqing
+     name     = "Sichuan Provincial Security Group" 
+     id       = {  type = 22000 id = 102  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 103 } 
+       name       = "1st 2nd 3rd 4th 5th 6th Militia Regiments" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 104 } 
+       name       = "7th 8th 9th 10th 11th 12th Militia Regiments" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 105 } 
+       name       = "13th 14th 15th 16th 17th 18th Militia Regiments" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   locked = yes
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 106 } 
+       name       = "20th 21st 22nd 23rd 24th Militia Regiments" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   locked = yes
+      }
+    }
     
   } 
  

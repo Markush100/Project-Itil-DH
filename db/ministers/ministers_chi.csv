@@ -37,7 +37,7 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55309;Chief of Army;Tang Jiyao;1913;1927;1927;PA;Decisive Battle Doctrine;Medium;9457;X
 55310;Chief of Army;Chen Jiongming;1909;1922;1933;PA;Guns and Butter Doctrine;Medium;9515;X
 55311;Head of Military Intelligence;Chen Jiongming;1909;1922;1933;PA;Dismal Enigma;Very High;9515;X
-55312;Head of Military Intelligence;Jiang Jieshi;1912;1976;1976;PA;Logistics Specialist;High;9516;X
+55312;Head of Military Intelligence;Chiang Kai-shek;1912;1976;1976;FA;Logistics Specialist;High;9516;X
 55313;Foreign Minister;Wu Chaoshu;1913;1935;1935;SC;Apologetic Clerk;High;9517;X
 55314;Minister of Armament;Liao Zhongkai;1905;1926;1926;SC;Administrative Genius;Medium;9518;X
 55315;Minister of Security;Chen Jiongming;1909;1922;1933;PA;Prince of Terror;Medium;9515;X
@@ -45,11 +45,11 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55317;Chief of Staff;Chen Jiongming;1909;1922;1933;PA;School of Manoeuvre;High;9515;X
 55318;Head of State;Hu Hanmin;1907;1934;1937;SC;Weary Stiffneck;High;9512;X
 55319;Head of Government;Hu Hanmin;1907;1934;1937;SC;Political Protege;Very High;9512;X
-55320;Chief of Staff;Jiang Jieshi;1912;1976;1976;PA;School of Mass Combat;Medium;9516;X
-55321;Chief of Army;Jiang Jieshi;1912;1976;1976;PA;Decisive Battle Doctrine;Medium;9516;X
+55320;Chief of Staff;Chiang Kai-shek;1912;1976;1976;FA;School of Mass Combat;Very High;9516;X
+55321;Chief of Army;Chiang Kai-shek;1912;1976;1976;FA;Decisive Battle Doctrine;Very High;9516;X
 55322;Head of Military Intelligence;Mikhail Borodin;1923;1928;1928;LWR;Dismal Enigma;Very High;9520;X
-55323;Head of State;Jiang Jieshi;1912;1976;1976;PA;Resigned Generalissimo;High;9516;X
-55324;Head of Government;Jiang Jieshi;1912;1976;1976;PA;Jiang_Jieshi_1;High;9516;X
+55323;Head of State;Chiang Kai-shek;1912;1976;1976;FA;Resigned Generalissimo;High;9516;X
+55324;Head of Government;Chiang Kai-shek;1912;1976;1976;FA;Jiang_Jieshi_1;High;9516;X
 55325;Foreign Minister;Wu Tingfang;1896;1922;1922;SC;Biased Intellectual;High;9488;X
 55326;Head of Government;Wu Tingfang;1896;1922;1922;SC;Naive Optimist;High;9488;X
 55350;Head of State;Lu Rongting;1886;1925;1929;PA;Resigned Generalissimo;High;9544;X
@@ -107,7 +107,7 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55418;Minister of Armament;Gu Mengyu;1926;1964;1964;SD;Construction Magnate;Medium;9418;X
 55419;Minister of Armament;Chen Gongbo;1926;1947;1968;LWR;Keynesian economy;Medium;M52014;X
 55420;Chief of Navy;Li Zhilong;1921;1927;1963;LWR;Power Projection Doctrine;Very High;9439;X
-55001;Head of State;Jiang Jieshi;1912;1976;1976;PA;Resigned Generalissimo;Undying;9516;X
+55001;Head of State;Chiang Kai-shek;1912;1976;1976;FA;Jiang_Jieshi_1;Undying;9516;X
 55002;Head of Government;Tan Yankai;1907;1931;1931;SD;Naive Optimist;High;9528;X
 55003;Foreign Minister;Wang Zhengting;1911;1933;1958;SC;Apologetic Clerk;High;3391;X
 55004;Minister of Armament;Song Ziwen;1917;1945;1970;SC;Administrative Genius;Medium;9235;X
@@ -115,7 +115,7 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55006;Chief of Staff;Feng Yuxiang;1911;1945;1949;SD;School of Manoeuvre;High;9303;X
 55007;Chief of Army;Feng Yuxiang;1911;1945;1949;SD;Guns and Butter Doctrine;Medium;9303;X
 55008;Chief of Navy;Yang Shuzhuang;1903;1934;1935;PA;Open Seas Doctrine;Medium;9304;X
-55009;Head of Government;Jiang Jieshi;1912;1976;1976;PA;Jiang_Jieshi_1;High;9516;X
+55009;Head of Government;Chiang Kai-shek;1912;1976;1976;FA;old general;High;9516;X
 55010;Minister of Security;Liu Shangqing;1911;1944;1944;PA;Prince of Terror;Medium;9305;X
 55011;Minister of Armament;Liu Shangqing;1911;1944;1944;PA;Military Entrepreneur;Medium;9305;X
 55012;Head of Military Intelligence;He Yingqin;1911;1956;1956;FA;Technical Specialist;High;9306;X
@@ -200,8 +200,8 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55091;Chief of Navy;Ou Yangge;1913;1941;1961;PA;Open Seas Doctrine;High;M52101;X
 55092;Chief of Navy;Sa Shijun;1913;1939;1962;PA;Base Control Doctrine;High;9438;X
 55093;Head of Military Intelligence;Sa Shijun;1938;1939;1962;PA;Naval Intelligence Specialist;High;9438;X
-55094;Foreign Minister;He Zhonghan;1919;1966;1966;LWR;Ideological Crusader;High;9442;X
-55095;Minister of Security;He Zhonghan;1931;1966;1966;LWR;Man of the People;High;9442;X
+55094;Foreign Minister;He Zhonghan;1919;1966;1966;NS;Ideological Crusader;High;9442;X
+55095;Minister of Security;He Zhonghan;1931;1966;1966;NS;Man of the People;High;9442;X
 55096;Chief of Navy;Chen Jiliang;1914;1946;1949;PA;Power Projection Doctrine;High;M52103;X
 55097;Chief of Navy;Ceng Yiding;1922;1958;1958;SC;Indirect Approach Doctrine;Low;9444;X
 55098;Chief of Navy;Chen Ce;1917;1950;1950;ML;Open Seas Doctrine;Very High;9445;X
@@ -219,3 +219,10 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55110;Chief of Air Force;Gao Zhihang;1927;1938;1973;PA;Air Superiority Doctrine;High;9449;X
 55111;Chief of Air Force;Liu Cuigang;1934;1938;1979;PA;Naval Aviation Doctrine;High;9598;X
 55112;Chief of Air Force;Chen Chonghui;1935;1938;1977;PA;Naval Aviation Doctrine;High;2342;X
+55113;Head of Government;He Zhonghan;1935;1966;1966;NS;backroom backstabber;High;AR204;X
+55114;Minister of Security;Kang Ze;1935;1966;1967;NS;prince of terror;High;AR200;X
+55115;Foreign Minister;Teng Jie;1935;1999;1999;FA;ideological crusader;High;AR201;X
+55116;Minister of Armament;Liu Jianqun;1935;1972;1972;FA;Planned economy proponent;High;AR202;X
+551171;Head of Military Intelligence;Zeng Kuoqing;1935;1983;1983;FA;political specialist;High;AR203;X
+551172;Foreign Minister;Xiao Zanyu;1935;1999 ;1999 ;NS;the cloak n dagger schemer;High;AR205;X
+551174;Minister of Security;Hu Zongnan;1935;1962;1962;NS;efficient sociopath;High;AR206;X
