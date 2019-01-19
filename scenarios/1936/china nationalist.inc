@@ -34,7 +34,8 @@
      relation = {  tag = MAN value = -150  } 
 	 relation = {  tag = U74 value = -100  } 
     } 
-   SpyInfo                = {  country = "CHI" NumberOfSpies = 5  } 
+   SpyInfo   
+   = {  country = "CHI" NumberOfSpies = 5  } 
    # Fujian   
    nationalprovinces      = {   
  #Nationalist China at Start 
@@ -575,7 +576,39 @@ inventions = { 3000027 }
       }
 
     }
+#####cavalry######
+	landunit = 
+   {  location = 1326 # 
+     name     = "Blueshirt Cavalry Army" 
+     id       = {  type = 22000 id = 126  } 
+     Division = 
+     {  experience = 30
+       id         = {  type = 22000 id = 127 } 
+       name       = "1st Cavalry Division" 
+       type       = cavalry
+	   strength  = 100
+       model     = 3
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 128 } 
+       name       = "2nd Cavalry Division" 
+       type       = cavalry
+	   strength  = 100
+	   model = 3
+      }
+	  
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 129 } 
+       name       = "3rd Cavalry Division" 
+       type       = cavalry
+	   strength  = 50
+	   model = 1
+      }
 
+    }
 	# Name = "60th Corps" #Contains units from Yunnan 10th Route Army
 
 	# German Trained
