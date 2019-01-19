@@ -81,7 +81,7 @@ KUR;DarkYellow;TUR;SOV;;;;X
 KYG;LightGreen;SOV;SOV;;;;X
 LAO;White;ENG;JAP;;;;X
 LAT;DarkBrown;LAT;GER;;;;X
-LBY;UserColor1;ENG;ITA;;;;X
+LBY;LightGreen;ENG;ITA;;;;X
 LEB;LightGray;ENG;ENG;;;;X
 LIB;LightGray;ENG;USA;;;;X
 LIT;UserColor2;LIT;GER;;;;X
@@ -142,7 +142,7 @@ SPA;LightOrange;SPA;GER;;;;X
 SPR;DarkYellow;SPA;SOV;;;;X
 SUD;DarkYellow;ENG;MIN;;;;X
 SWE;LightBlue;SWE;MIN;;;;X
-SYR;LightGreen;ENG;MIN;;;;X
+SYR;UserColor2;ENG;MIN;;;;X
 TAJ;DarkBrown;SOV;SOV;;;;X
 TAN;LightRed;CHI;SOV;;;;X
 TEX;Yellow;USA;USA;;;;X

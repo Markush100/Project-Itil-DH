@@ -34,8 +34,8 @@
     } 
 
    nationalprovinces      = { 360 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 }
-   ownedprovinces         = { 360 364 365 366 367 368 369 371 372 373 374 375 376 377 379 380 381 382 383 } 
-   controlledprovinces    = { 360 364 365 366 367 368 369 371 372 373 374 375 376 377 379 380 381 382 383 }
+   ownedprovinces         = { 360 367 368 369 371 372 373 374 375 376 377 378 379 380 381 382 383 } 
+   controlledprovinces    = { 360 367 368 369 371 372 373 374 375 376 377 378 379 380 381 382 383 }
 
    # Western Minor Tech '36 
    # Group D 1936 techs 
@@ -188,7 +188,7 @@ landunit =
     }
    landunit =
    { id = { type = 15500 id = 8 }
-     location = 365
+     location = 368
      name = "III. Soma Stratou"
      Division =
      { id = { type = 15500 id = 9 }

@@ -11,8 +11,8 @@ header =
   FRA        = { }
   ENG        = { }
   SOV        = { picture = "scenarios\data\propaganda_SOV_1936.bmp" }
-  RUS        = { }
   TRK        = { }  
+  RUS        = { }
   JAP        = { }
   MAN        = { }
   CHI        = { }
@@ -20,7 +20,7 @@ header =
   U00        = { }
   USA        = { }
   YUG        = { }
-
+  BUL        = { }
 }
 globaldata =
 { startdate = { year = 1936 month = january day = 0 }
