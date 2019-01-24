@@ -1,15 +1,15 @@
 HUN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-105001;Head of State;Miklós Horthy de Nagybánya;1933;1964;1999;FA;Resigned Generalissimo;High;M21001;X
-105002;Head of Government;Gyula Gömbös de Jakfa;1932;1937;1999;FA;Flamboyant Tough Guy;High;M21002;X
-105003;Foreign Minister;Kálmán Kánya;1933;1964;1999;FA;Great Compromiser;Medium;M21003;X
-105004;Minister of Armament;Tihamér Fabinyi;1933;1964;1999;FA;Military Entrepreneur;Medium;9939;X
-105005;Minister of Security;Miklós Kozma;1933;1964;1999;FA;Prince of Terror;Medium;M21005;X
-105006;Head of Military Intelligence;Gyula Gömbös de Jakfa;1933;1964;1999;FA;Political Specialist;High;M21002;X
-105007;Chief of Staff;Gusztáv Hennyey;1933;1964;1999;FA;School of Mass Combat;High;9893;X
+105001;Head of State;Zoltán Tildy;1933;1964;1999;SC;benevolent gentleman;High;AR128;X
+105002;Head of Government;Mihály Károlyi;1932;1937;1999;SC;Flamboyant Tough Guy;High;AR129;X
+105003;Foreign Minister;Márton Lovászy;1933;1964;1999;SC;Great Compromiser;Medium;AR130;X
+105004;Minister of Armament;Lóránt Hegedüs;1933;1964;1999;SC;Industrial chemist;Medium;AR131;X
+105005;Minister of Security;Ferenc Keresztes-Fischer;1933;1964;1999;PA;prince of terror;High;AR132;X
+105006;Head of Military Intelligence;Ferenc Keresztes-Fischer;1933;1964;1999;PA;political specialist;Medium;AR132;X
+105007;Chief of Staff;Vilmos Roder;1933;1964;1999;SC;School of Mass Combat;High;AR133;X
 105008;Chief of Army;István Shvoy;1933;1964;1999;FA;Decisive Battle Doctrine;Medium;M21008;X
-105009;Chief of Navy;Miklós Horthy de Nagybánya;1933;1964;1999;FA;Decisive Naval Battle Doctrine;Medium;M21001;X
-105010;Chief of Air Force;László Tomor;1933;1964;1999;FA;Air Superiority Doctrine;Medium;M21010;X
+105009;Chief of Navy;Miklós Horthy de Nagybánya;1933;1964;1999;PA;Decisive Naval Battle Doctrine;Medium;M21001;X
+105010;Chief of Air Force;László Tomor;1933;1964;1999;PA;Air Superiority Doctrine;Medium;M21010;X
 105011;Head of State;Ferenc Szálasi;1944;1964;1999;NS;Powerhungry Demagogue;High;M21021;X
 105012;Head of State;Miklós Horthy de Nagybánya;1944;1964;1999;NS;Resigned Generalissimo;High;M21001;X
 105013;Head of State;Otto I Habsburg;1945;1964;1999;PA;Benevolent Gentleman;High;M21044;X

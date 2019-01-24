@@ -17,7 +17,7 @@
 	oil                    = 500 
 	supplies               = 500 
 	money                  = 20 
-	capital                = 1075 
+	capital                = 409
 	manpower               = 38 
 
 	transports             = 135 
@@ -148,7 +148,7 @@ inventions = { 3000027 }
    chiefofnavy            = {  type = 9 id = 45009  } 
    chiefofair             = {  type = 9 id = 45010  } 
    landunit = 
-   {  location = 1075 
+   {  location = 409 
      name     = "I. Topluluk" 
      id       = {  type = 11700 id = 8  } 
      Division = 
@@ -186,7 +186,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 1078 
+   {  location = 1077 
      name     = "III. Topluluk" 
      id       = {  type = 11700 id = 13  } 
      Division = 
@@ -199,7 +199,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 1059 
+   {  location = 1056 
      name     = "IV. Topluluk" 
      id       = {  type = 11700 id = 15  } 
      Division = 
@@ -240,7 +240,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 1061 
+   {  location = 1036 
      name     = "VII. Topluluk" 
      id       = {  type = 11700 id = 21  } 
      Division = 
@@ -253,7 +253,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 1060 
+   {  location = 1029 
      name     = "VIII. Topluluk" 
      id       = {  type = 11700 id = 23  } 
      Division = 
@@ -294,7 +294,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 1074 
+   {  location = 409
      name     = "Türkce Süvari Topluluk" 
      id       = {  type = 11700 id = 29  } 
      Division = 

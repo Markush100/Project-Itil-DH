@@ -2050,6 +2050,19 @@ province = { id = 1164   # Ust-Kut - Irkutsk - Irkutsk
    air_base = { size = 3 current_size = 3 } 
  } 
 
+ province = { id = 1162   # Irkutsk - Irkutsk - Irkutsk
+   air_base = { size = 5 current_size = 3 } 
+   landfort = 2
+ } 
+
+ province = { id = 1167   # Ulan-Ude - Irkutsk - Irkutsk
+   landfort = 4
+ } 
+
+  province = { id = 1163   # Bodaybo - Irkutsk - Irkutsk
+   landfort = 2
+ } 
+
 
  province = { id = 654 # Voronezh
    air_base = { size = 2 current_size = 1 }
@@ -2126,6 +2139,10 @@ province = { id = 641   # Sevastopol - Krim - Ukraine
 
   province = { id = 644 # Rostov na Donu
    air_base = { size = 2 current_size = 2 }
+ } 
+
+ province = { id = 695 # Sochi
+   naval_base = { size = 3 current_size = 3 }
  } 
  
 
@@ -2244,6 +2261,11 @@ province ={ id = 392   # Bern - Switzerland - Switzerland
 province = { id = 1075   # Ankara - Central Turkey - Anatolia
    anti_air = 4 
    air_base = { size = 6 current_size = 6 } 
+ } 
+
+ province = { id = 409   # Constantinople - Bosporus - Balkan
+   anti_air = 4 
+   landfort = 5
  } 
  
 province = { id = 1076   # Izmit - Bosporus - Anatolia

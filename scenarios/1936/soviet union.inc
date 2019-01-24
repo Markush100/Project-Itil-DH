@@ -12,7 +12,7 @@
 	regular_id             = RUS
 	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes MOB6 = yes SOVBuildLand = yes } }	   
 	intrinsic_gov_type     = leninist 
-	capital                = 572 
+	capital                = 553
 	# Resource Reserves 
 	energy                 = 12000
 	metal                  = 6000
@@ -28,61 +28,56 @@
    diplomacy = 
    {  relation = 
      {  tag        = AFG 
-       value      = 1 
-       guaranteed = {  day = 16 month = may year = 1935  } 
+       value      = -100
       } 
      relation = {  tag = BRA value = -50  } 
      relation = 
      {  tag        = BUL 
-       value      = 15 
-       guaranteed = {  day = 16 month = may year = 1935  } 
+       value      = -100  
       } 
-     relation = {  tag = CHC value = 100  } 
-     relation = {  tag = CZE value = 100  } 
-     relation = {  tag = ENG value = -25  } 
+     relation = {  tag = CHC value = 150  } 
+     relation = {  tag = CZE value = -200  } 
+     relation = {  tag = ENG value = -90  } 
      relation = 
      {  tag        = EST 
-       value      = -30 
-       guaranteed = {  day = 16 month = may year = 1935  } 
+       value      = -150 
       } 
-     relation = {  tag = FIN value = 1  } 
+     relation = {  tag = FIN value = -70  } 
      relation = 
      {  tag        = FRA 
-       value      = 100 
-       guaranteed = {  day = 7 month = january year = 1935  } 
+       value      = -150 
       } 
-     relation = {  tag = GER value = 1  } 
-     relation = {  tag = GRE value = 15  } 
-     relation = {  tag = IRE value = 1  } 
-     relation = {  tag = JAP value = -10  } 
+     relation = {  tag = GER value = -150  } 
+     relation = {  tag = GRE value = -105  } 
+     relation = {  tag = IRE value = -100  } 
+     relation = {  tag = JAP value = -200  } 
      relation = 
      {  tag        = LAT 
-       value      = -30 
+       value      = 200
        guaranteed = {  day = 16 month = may year = 1935  } 
       } 
      relation = 
      {  tag        = LIT 
-       value      = 75 
-       guaranteed = {  day = 16 month = may year = 1935  } 
+       value      = -150  
       } 
      relation = {  tag = MON value = -150 } 
      relation = 
      {  tag        = PER 
-       value      = -20 
+       value      = 200 
        guaranteed = {  day = 16 month = may year = 1935  } 
       } 
      relation = {  tag = POL value = -50  } 
-     relation = {  tag = ROM value = 1  } 
-     relation = {  tag = SAU value = 1  } 
-     relation = {  tag = SIK value = 125  } 
-     relation = {  tag = SPR value = -10  } 
+     relation = {  tag = ROM value = -100  } 
+     relation = {  tag = SAU value = -100  } 
+     relation = {  tag = SIK value = -125  } 
+     relation = {  tag = SPR value = 10  } 
      relation = 
      {  tag        = TUR 
-       value      = 100 
-       guaranteed = {  day = 29 month = december year = 1935  } 
+       value      = -100 
       } 
      relation = {  tag = URU value = -100  } 
-     relation = {  tag = USA value = 35  } 
+     relation = {  tag = USA value = -80  } 
+     relation = {  tag = U00 value = -200  } 
      relation = 
      {  tag        = SCH 
        value      = 1 
@@ -212,8 +207,8 @@ inventions = { 3000027 }
      defense_lobby     = 6 
      interventionism   = 9 
     } 
-	peacetime_ic_mod       = 0.70 # +0.3 from 1 event during WWII
-	wartime_ic_mod       = 0.75
+	peacetime_ic_mod       = 0.9 
+	wartime_ic_mod       = 1.1
    headofstate            = {  type = 9 id = 30001  } #Trotsky 
    headofgovernment       = {  type = 9 id = 30002  } #Bukharin 
    foreignminister        = {  type = 9 id = 30003  } #Abramovitch
@@ -228,1853 +223,1256 @@ inventions = { 3000027 }
 
 
 
-# Moscow okrug - Belov I.P.
-# Leningrad okrug - Shaposhnikov B.
-# Kiev okrug - Yakir
-# Kharkov okrug - Dubovoi I.N.
-# Belorusskij okrug - Uborevich
-# Severokavkazskij - Kashirin N.D.
-# Privolzhskij - Dybenko P.E.
-# Uralskij - Garkavyj I.I.
-# Sredneaziatskij - Velikanov M.D.
-# Sibirskij - Kujbyshev N.V.
-# Zakavkazskij Voennyj Okrug - Levandovsky
-# Zabajkalsky voennyj okrug - Gryaznov I.K.
-# Osobaya Krasnoznamennaja Dalnevostochnaja Armiya - Blukher
 
 
-   landunit = 
+
+######MILITARY DISTRICTS
+
+landunit = 
    {  id       = {  type = 10848 id =  1 } 
-     name     = "Raboche-Krest'yanskaya Krasnaya Armyia" 
-     location = 572 #Moscow 
+     name     = "Petrogradskyi Voennyi Okrug" 
+     location = 553 #Leningrad 
+     leader   = 30572 #Yakir
      Division = 
      {  id       = {  type = 10848 id = 2  } 
-       name     = "Generalnyi Shtab RKKA" 
+       name     = "Petrogradskyi Voennyi Okrug" 
+       strength = 100 
+       type     = HQ
+     model    = 3
+     extra    = police
+     brigade_model = 1
+     } 
+     Division = 
+     {  id       = {  type = 10848 id = 3  } 
+       name     = "1-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = medium_armor
+       brigade_model = 1  
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 4  } 
+       name     = "2-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = medium_armor
+       brigade_model = 1
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 5  } 
+       name     = "3-ya Mekhanizirovannaya Diviziya" 
        strength = 100
-       type     = HQ
-	   model    = 2
-	   } 
- } 
-landunit = { 
-	id = { type = 10848 id = 3 }
-	name = "Vozdushno Desantnye Voiska" 
-	location = 572 # Moscow 	
-
-	division = { 
-	id = { type = 10848 id = 4 } 
-		name = "1-i Vozdushno-Desantnyi Korpus" 
-		strength = 25 
-		type = paratrooper
-		model = 0
-		} 
-	}
-landunit = { 
-	id = { type = 10848 id = 5 }
-	name = "Voiska NKVD" 
-	location = 572 # Moscow 	
-
-	division = { 
-	id = { type = 10848 id = 6 } 
-		name = "1-ya Konvoynaya Diviziya NKVD" 
-		strength = 100 
-		type = garrison 
-		model = 4
-			} 
-	division = { 
-	id = { type = 10848 id = 7 } 
-		name = "Diviziya o. n. Dzerzhinskogo" 
-		strength = 100 
-		type = motorized 
-		model = 0 
-		extra = armored_car
-		brigade_model = 3
-		} 
-	}
-
-   landunit = 
-   {  id       = {  type = 10848 id =  8 } 
-     name     = "Leningradskyi Voennyi Okrug" 
-     location = 553 #Leningrad 
-     Division = 
-     {  id       = {  type = 10848 id = 9  } 
-       name     = "Leningradskyi Voennyi Okrug" 
-       strength = 100 
-       type     = HQ
-	   model    = 2
-	   extra    = anti_air
-	   brigade_model = 0
-	   } 
-     Division = 
-     {  id       = {  type = 10848 id =  10 } 
-       name     = "25-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = heavy_armor
-	brigade_model = 1
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 11  } 
-       name     = "7-i Mekhanizirovannyi Korpus" 
-       strength = 100 
-       type     = light_armor
-	   model    = 0
-	   extra    = heavy_armor
-	   brigade_model    = 1	   
-      } 	  
- } 
-   landunit = 
-   {  id       = {  type = 10848 id =  12 } 
-     name     = "1-i Strelkovyi Korpus" 
-     location = 553 #Leningrad 
-     Division = 
-     {  id       = {  type = 10848 id = 13  } 
-       name     = "16-ya Ulianovskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-	   extra    = artillery
-	   brigade_model    = 7		   
+       type     = motorized 
+       model    = 0
+       extra    = medium_armor
+       brigade_model = 2
       }
-     Division = 
-     {  id       = {  type = 10848 id = 14  } 
-       name     = "18-ya Yaroslavskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	   extra    = artillery
-	   brigade_model = 7
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 15  } 
-       name     = "20-ya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-	   extra    = heavy_armor
-	   brigade_model = 1
-      }
- } 
-   landunit = 
-   {  id       = {  type = 10848 id =  16 } 
-     name     = "19-i Strelkovyi Korpus" 
-     location = 550 #Kingisepp 
-     Division = 
-     {  id       = {  type = 10848 id = 17  } 
-       name     = "4-ya Turkestanskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-	   extra    = artillery
-	   brigade_model = 6
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 18  } 
-       name     = "56-ya Moskovskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-      }
- } 
-	landunit = 
-   {  id       = {  type = 10848 id = 19  } 
-     name     = "5-i Kavaleriiski Korpus" 
-     location = 566 # Pskov
-      Division = 
-     {  id       = {  type = 10848 id = 20  } 
-       name     = "3-ya Bessarabskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 21  } 
-       name     = "14-ya Maykopskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 22  } 
-       name     = "16-ya Sibirskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
  }
-   landunit = 
-   {  id       = {  type = 10848 id =  23 } 
-     name     = "33-i Strelkovyi Korpus" 
-     location = 550 # Kingisepp
-     Division = 
-     {  id       = {  type = 10848 id = 24  } 
-       name     = "11-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 25  } 
-       name     = "158-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
- } 
-   landunit = 
-   {  id       = {  type = 10848 id =  26 } 
-     name     = "29-i Strelkovyi Korpus" 
-     location = 553 #Leningrad 
-     Division = 
-     {  id       = {  type = 10848 id = 27  } 
-       name     = "54-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 28  } 
-       name     = "153-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
- } 
 
-   landunit = 
-   {  id       = {  type = 10848 id = 29  } 
-     name     = "Severnyi Voennyi Kommissariat" 
-     location = 542 # Arkhangelsk
-     Division = 
-     {  id       = {  type = 10848 id =  30 } 
-       name     = "10-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-      Division = 
-     {  id       = {  type = 10848 id =  31 } 
-       name     = "88-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-
-   landunit = 
-   {  id       = {  type = 10848 id = 32  } 
-     name     = "Uralskyi Voennyi Okrug" 
-     location = 1151 # Sverdlovsk
-     Division = 
-     {  id       = {  type = 10848 id =  34 } 
-       name     = "65-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	extra = engineer
-	brigade_model = 2
-      } 
-      Division = 
-     {  id       = {  type = 10848 id =  35 } 
-       name     = "82-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		extra = anti_air
-		brigade_model = 0   
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 36  } 
-       name     = "85-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 37  } 
-       name     = "29-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-	extra = light_armor_brigade
-	brigade_model = 2
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 38  } 
-       name     = "110-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 39  } 
-       name     = "112-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 40  } 
-       name     = "86-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      }
-     Division = 
-     {  id       = {  type = 10848 id = 41  } 
-       name     = "87-ya Strelkovaya Diviziya" 
-       strength = 5 
-       type     = infantry 
-	   model    = 4
-      }
-	} 
-
-   landunit = 
-   {  id       = {  type = 10848 id = 42  } 
+ landunit = 
+   {  id       = {  type = 10848 id =  6 } 
      name     = "Belorusskyi Voennyi Okrug" 
-     location = 599 # Minsk
+     location = 253 #Wolkowysk 
+     leader   = 30543 #Tukhachevsky
      Division = 
-     {  id       = {  type = 10848 id = 43  } 
+     {  id       = {  type = 10848 id = 7  } 
        name     = "Belorusskyi Voennyi Okrug" 
        strength = 100 
        type     = HQ
-	   model    = 2
-	extra = anti_air
-	brigade_model = 0
-	   } 
-      Division = 
-     {  id       = {  type = 10848 id = 44  } 
-       name     = "24-ya Kavaleriiskaya Diviziya" 
+     model    = 3
+     extra    = police
+     brigade_model = 1
+     } 
+     Division = 
+     {  id       = {  type = 10848 id = 8  } 
+       name     = "4-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = medium_armor
+       brigade_model = 2    
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 9  } 
+       name     = "5-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = medium_armor
+       brigade_model = 2
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 10  } 
+       name     = "1-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 11  } 
+       name     = "2-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+  landunit = 
+   {  id       = {  type = 10848 id =  12 } 
+     name     = "Ukrainskiy Voennyi Okrug" 
+     location = 601 #Gomel 
+     leader   = 30735 #Frunze
+     Division = 
+     {  id       = {  type = 10848 id = 13  } 
+       name     = "Ukrainskiy Voennyi Okrug" 
        strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = armored_car
-	brigade_model = 3
+       type     = HQ
+     model    = 3
+     extra    = police
+     brigade_model = 1
+     } 
+     Division = 
+     {  id       = {  type = 10848 id = 14  } 
+       name     = "6-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = medium_armor
+       brigade_model = 1    
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 15  } 
+       name     = "7-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = medium_armor
+       brigade_model = 1
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 16  } 
+       name     = "3-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+  landunit = 
+   {  id       = {  type = 10848 id =  17 } 
+     name     = "Don Voennyi Okrug" 
+     location = 643 #Morozovsk 
+     leader   = 30193 #Kamenev
+     Division = 
+     {  id       = {  type = 10848 id = 18  } 
+       name     = "Don Voennyi Okrug" 
+       strength = 100 
+       type     = HQ
+     model    = 3
+     extra    = police
+     brigade_model = 1
+     } 
+     Division = 
+     {  id       = {  type = 10848 id = 19  } 
+       name     = "8-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = medium_armor
+       brigade_model = 1    
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 20  } 
+       name     = "9-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = medium_armor
+       brigade_model = 1
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 21  } 
+       name     = "4-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+ landunit = 
+   {  id       = {  type = 10848 id =  22 } 
+     name     = "Generalshtab RKKA" 
+     location = 572 #Moscow 
+     leader   = 30232 #Kork
+     Division = 
+     {  id       = {  type = 10848 id = 23  } 
+       name     = "Generalshtab RKKA" 
+       strength = 100 
+       type     = HQ
+     model    = 3
+     extra    = anti_air
+     brigade_model = 3
+     locked   = yes
+     } 
+ }
+
+
+ ####EUROPE CORPS###############################################
+
+
+
+
+ landunit = 
+   {  id       = {  type = 10848 id = 24  } 
+     name     = "I Korpus" 
+     location = 550 
+     Division = 
+     {  id       = {  type = 10848 id = 25  } 
+       name     = "1-ya Strelkovaya Diviziya" 
+       strength = 60
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-      Division = 
+     Division = 
+     {  id       = {  type = 10848 id = 26  } 
+       name     = "2-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 27  } 
+       name     = "3-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 28  } 
+     name     = "IV Korpus" 
+     location = 552 
+     Division = 
+     {  id       = {  type = 10848 id = 29  } 
+       name     = "4-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 30  } 
+       name     = "5-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 31  } 
+       name     = "6-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 32  } 
+     name     = "II Korpus" 
+     location = 566 
+     Division = 
+     {  id       = {  type = 10848 id = 33  } 
+       name     = "7-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 34  } 
+       name     = "8-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 35  } 
+       name     = "9-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 36  } 
+     name     = "III Korpus" 
+     location = 268 
+     Division = 
+     {  id       = {  type = 10848 id = 37  } 
+       name     = "10-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 38  } 
+       name     = "11-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+     extra = medium_armor
+       brigade_model = 2
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 39  } 
+       name     = "12-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+     extra = heavy_armor
+       brigade_model = 1
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 40  } 
+     name     = "V Korpus" 
+     location = 267 
+     Division = 
+     {  id       = {  type = 10848 id = 41  } 
+       name     = "13-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 42  } 
+       name     = "14-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 43  } 
+       name     = "15-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 44  } 
+     name     = "VII Korpus" 
+     location = 269 
+     Division = 
      {  id       = {  type = 10848 id = 45  } 
-       name     = "27-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+       name     = "16-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 46  } 
-     name     = "4-i Strelkovyi Korpus" 
-     location = 599 # Minsk
+     Division = 
+     {  id       = {  type = 10848 id = 46  } 
+       name     = "17-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
      Division = 
      {  id       = {  type = 10848 id = 47  } 
-       name     = "27-ya Omskaya Strelkovaya Diviziya" 
-       strength = 40 
+       name     = "18-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 7
+     model     = 8
       } 
-      Division = 
-     {  id       = {  type = 10848 id = 48  } 
-       name     = "2-ya Belorusskaya Strelkovaya Diviziya" 
-       strength = 80 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 48  } 
+     name     = "VI Korpus" 
+     location = 255 
+     Division = 
+     {  id       = {  type = 10848 id = 49 } 
+       name     = "19-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 8
-	extra = artillery
-	brigade_model = 7
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 49  } 
-       name     = "8-ya Minskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-      } 
-	} 	
-    landunit = 
-   {  id       = {  type = 10848 id = 50  } 
-     name     = "5-i Strelkovyi Korpus" 
-     location = 598 # Rechytsa
-      Division = 
-     {  id       = {  type = 10848 id = 51  } 
-       name     = "4-ya Smolenskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	extra = artillery
-	brigade_model = 7
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
      Division = 
-     {  id       = {  type = 10848 id = 52  } 
-       name     = "37-ya Strelkovaya Diviziya" 
-       strength = 40 
+     {  id       = {  type = 10848 id = 50  } 
+       name     = "20-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 7
+     model     = 8
       } 
+     Division = 
+     {  id       = {  type = 10848 id = 51  } 
+       name     = "21-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+     extra = cavalry_brigade
+       brigade_model = 6
+      } 
+       
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 52  } 
+     name     = "IX Korpus" 
+     location = 248 
      Division = 
      {  id       = {  type = 10848 id = 53  } 
-       name     = "43-ya Strelkovaya Diviziya" 
-       strength = 40 
+       name     = "22-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 7
-	extra = engineer
-	brigade_model = 2
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 54  } 
-     name     = "11-i Strelkovyi Korpus" 
-     location = 590 # Vitebsk
-      Division = 
-     {  id       = {  type = 10848 id = 55  } 
-       name     = "5-ya Vitebskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	extra = artillery
-	brigade_model = 7
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
      Division = 
-     {  id       = {  type = 10848 id = 56  } 
-       name     = "29-ya Finskaya Strelkovaya Diviziya" 
-       strength = 30 
+     {  id       = {  type = 10848 id = 54  } 
+       name     = "23-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 6
+     model     = 8
       } 
+     Division = 
+     {  id       = {  type = 10848 id = 55  } 
+       name     = "24-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 56  } 
+     name     = "X Korpus" 
+     location = 597 
      Division = 
      {  id       = {  type = 10848 id = 57  } 
-       name     = "64-ya Strelkovaya Diviziya" 
-       strength = 30 
+       name     = "33-ya  Strelkovaya Diviziya" 
+       strength = 25 
        type     = infantry 
-	   model    = 6
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 	
-    landunit = 
-   {  id       = {  type = 10848 id = 58  } 
-     name     = "16-i Strelkovyi Korpus" 
-     location = 600 # Mogilev
+     Division = 
+     {  id       = {  type = 10848 id = 58  } 
+       name     = "26-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
      Division = 
      {  id       = {  type = 10848 id = 59  } 
-       name     = "33-ya Belorusskaya Strelkovaya Diviziya" 
-       strength = 30 
+       name     = "27-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 6
-	extra = artillery
-	brigade_model = 5
+     model     = 8
+     extra = heavy_armor
+       brigade_model = 1
       } 
-     Division = 
-     {  id       = {  type = 10848 id = 60  } 
-       name     = "48-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 60  } 
+     name     = "VIII Korpus" 
+     location = 598 
      Division = 
      {  id       = {  type = 10848 id = 61  } 
-       name     = "81-ya Kaluzhskaya Strelkovaya Diviziya" 
-       strength = 30 
+       name     = "28-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 6
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 
-		landunit = 
-   {  id       = {  type = 10848 id = 62  } 
-     name     = "3-i Kavaleriiski Korpus" 
-     location = 599 # Minsk
-      Division = 
+     Division = 
+     {  id       = {  type = 10848 id = 62  } 
+       name     = "29-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+     Division = 
      {  id       = {  type = 10848 id = 63  } 
-       name     = "7-ya Samarskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+       name     = "30-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
       } 
-      Division = 
-     {  id       = {  type = 10848 id = 64  } 
-       name     = "11-ya Orenburgskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 64  } 
+     name     = "XII Korpus" 
+     location = 602 
+     Division = 
+     {  id       = {  type = 10848 id = 65  } 
+       name     = "31-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
- }		
-landunit = 
-   {  id       = {  type = 10848 id = 65  } 
-     name     = "6-i Kavaleriiski Korpus" 
-     location = 609 # Korosten
-      Division = 
+     Division = 
      {  id       = {  type = 10848 id = 66  } 
-       name     = "6-ya Changarskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+       name     = "32-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
       } 
- }		
-landunit = 
-   {  id       = {  type = 10848 id = 67  } 
-     name     = "7-i Kavaleriiski Korpus" 
-     location = 596 # Slutsk
-      Division = 
-     {  id       = {  type = 10848 id = 68  } 
-       name     = "4-ya Leningradskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+     Division = 
+     {  id       = {  type = 10848 id = 67  } 
+       name     = "33-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
       } 
- }
-    landunit = 
-   {  id       = {  type = 10848 id =  69 } 
-     name     = "22-i Strelkovyi Korpus" 
-     location = 599 # Minsk
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 68  } 
+     name     = "XI Korpus" 
+     location = 603 
+     Division = 
+     {  id       = {  type = 10848 id = 69  } 
+       name     = "34-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
      Division = 
      {  id       = {  type = 10848 id = 70  } 
-       name     = "63-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "35-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
       } 
      Division = 
      {  id       = {  type = 10848 id = 71  } 
-       name     = "67-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "36-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
       } 
-	} 	
-    landunit = 
-   {  id       = {  type = 10848 id =  72 } 
-     name     = "23-i Strelkovyi Korpus" 
-     location = 598 # Rechytsa
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 72  } 
+     name     = "XVI Korpus" 
+     location = 257 
      Division = 
      {  id       = {  type = 10848 id = 73  } 
-       name     = "76-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "37-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
      Division = 
      {  id       = {  type = 10848 id = 74  } 
-       name     = "155-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "38-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
       } 
-	} 	
-    landunit = 
-   {  id       = {  type = 10848 id =  75 } 
-     name     = "24-i Strelkovyi Korpus" 
-     location = 590 # Vitebsk
      Division = 
-     {  id       = {  type = 10848 id = 76  } 
-       name     = "150-ya Strelkovaya Diviziya" 
-       strength = 10 
+     {  id       = {  type = 10848 id = 75  } 
+       name     = "39-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
       } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 76  } 
+     name     = "XIV Korpus" 
+     location = 648 
      Division = 
      {  id       = {  type = 10848 id = 77  } 
-       name     = "145-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "40-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 	
-    landunit = 
-   {  id       = {  type = 10848 id =  78 } 
-     name     = "28-i Strelkovyi Korpus" 
-     location = 600 # Mogilev
+     Division = 
+     {  id       = {  type = 10848 id = 78  } 
+       name     = "41-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
      Division = 
      {  id       = {  type = 10848 id = 79  } 
-       name     = "62-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "42-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+       extra = engineer
+       brigade_model = 3
       } 
-     Division = 
-     {  id       = {  type = 10848 id = 80  } 
-       name     = "66-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 80  } 
+     name     = "XV Korpus" 
+     location = 649 
      Division = 
      {  id       = {  type = 10848 id = 81  } 
-       name     = "120-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "43-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 		
-	
-   landunit = 
-   {  id       = {  type = 10848 id = 82 } 
-     name     = "Moskovskyi Voennyi Okrug" 
-     location = 572 #Moscow 
      Division = 
-     {  id       = {  type = 10848 id =  83 } 
-       name     = "Moskovskyi Voennyi Okrug" 
-       strength = 100 
-       type     = HQ
-	   model    = 2
-		extra = anti_air
-		brigade_model = 0   
-	 } 
-      Division = 
-     {  id       = {  type = 10848 id = 84  } 
-       name     = "Osobaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+     {  id       = {  type = 10848 id = 82  } 
+       name     = "44-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
       } 
-      Division = 
+     Division = 
+     {  id       = {  type = 10848 id = 83  } 
+       name     = "45-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 84  } 
+     name     = "XVII Korpus" 
+     location = 645 
+     Division = 
      {  id       = {  type = 10848 id = 85  } 
-       name     = "30-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = engineer
-	brigade_model = 2
+       name     = "46-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-      Division = 
+     Division = 
      {  id       = {  type = 10848 id = 86  } 
-       name     = "5-i Mekhanizirovannyi Korpus" 
-       strength = 100 
-       type     = light_armor
-	   model    = 0
-	   extra    = heavy_armor
-	   brigade_model    = 1	   
+       name     = "47-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
       } 
      Division = 
      {  id       = {  type = 10848 id = 87  } 
-       name     = "Moskovskaya Proletarskaya Strelkovaya Diviziya" 
-       strength = 80 
+       name     = "48-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 8
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 88  } 
-       name     = "126-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
+     model     = 8
+     extra = heavy_armor
+     brigade_model = 1
       } 
   } 
-    landunit = 
-   {  id       = {  type = 10848 id =  89 } 
-     name     = "2-i Territorialnyi Korpus" 
-     location = 678 # Vladimir
-      Division = 
-     {  id       = {  type = 10848 id =  90 } 
-       name     = "14-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		} 
-      Division = 
-     {  id       = {  type = 10848 id =  91 } 
-       name     = "49-ya Krasnozamennaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		} 
+
+  landunit = 
+   {  id       = {  type = 10848 id =  88 } 
+     name     = "I Motokorpus" 
+     leader   = 30023 #Badanov
+     location = 265 
      Division = 
-     {  id       = {  type = 10848 id = 92  } 
-       name     = "55-ya Kurskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	   extra    = artillery
-	   brigade_model    = 5		   
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id =  93 } 
-     name     = "3-i Territorialnyi Korpus" 
-     location = 584 # Tula
-      Division = 
-     {  id       = {  type = 10848 id =  94 } 
-       name     = "6-ya Orlovskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		} 
+     {  id       = {  type = 10848 id = 89  } 
+       name     = "9-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+     model    = 0
+      }
      Division = 
-     {  id       = {  type = 10848 id =  95 } 
-       name     = "52-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
+     {  id       = {  type = 10848 id = 90  } 
+       name     = "10-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+       model    = 0
+      }
      Division = 
-     {  id       = {  type = 10848 id =  96 } 
-       name     = "84-ya Tulskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	   extra    = artillery
-	   brigade_model    = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id =  97 } 
-     name     = "10-i Territorialnyi Korpus" 
-     location = 571 # Orekhovo
+     {  id       = {  type = 10848 id = 91  } 
+       name     = "5-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+ landunit = 
+   {  id       = {  type = 10848 id =  92 } 
+     name     = "II Motokorpus" 
+     location = 256 
+     leader   = 30053 #Bogdanov
      Division = 
-     {  id       = {  type = 10848 id =  98 } 
-       name     = "17-ya Gorkovskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
+     {  id       = {  type = 10848 id = 93  } 
+       name     = "11-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 0     
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 94  } 
+       name     = "12-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 0
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 95  } 
+       name     = "6-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+ landunit = 
+   {  id       = {  type = 10848 id =  96 } 
+     name     = "III Motokorpus" 
+     location = 587 
+     leader   = 30203 #Katukov
+     Division = 
+     {  id       = {  type = 10848 id = 97  } 
+       name     = "13-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 0     
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 98  } 
+       name     = "14-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 0
+      }
      Division = 
      {  id       = {  type = 10848 id = 99  } 
-       name     = "19-ya Voronezhskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	   extra    = artillery
-	   brigade_model    = 5		   
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 100  } 
-     name     = "20-i Strelkovyi Korpus" 
-     location = 678 # Vladimir
-      Division = 
+       name     = "7-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+ landunit = 
+   {  id       = {  type = 10848 id =  100 } 
+     name     = "IV Motokorpus" 
+     location = 646 
+     leader   = 30458 
+     Division = 
      {  id       = {  type = 10848 id = 101  } 
-       name     = "68-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
+       name     = "15-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 0    
+      }
      Division = 
      {  id       = {  type = 10848 id = 102  } 
-       name     = "113-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
+       name     = "16-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 0
+      }
+     Division = 
      {  id       = {  type = 10848 id = 103  } 
-       name     = "142-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-    landunit = 
+       name     = "7-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+      }
+ }
+
+ landunit = 
    {  id       = {  type = 10848 id = 104  } 
-     name     = "21-i Strelkovyi Korpus" 
-     location = 584 # Tula
-      Division = 
+     name     = "XVIII Korpus" 
+     location = 695 
+     Division = 
      {  id       = {  type = 10848 id = 105  } 
-       name     = "77-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "49-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-      Division = 
+     Division = 
      {  id       = {  type = 10848 id = 106  } 
-       name     = "38-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "50-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
       } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 107  } 
-     name     = "30-i Strelkovyi Korpus" 
-     location = 571 # Orekhovo
-      Division = 
-     {  id       = {  type = 10848 id = 108  } 
-       name     = "59-ya Strelkovaya Diviziya" 
-       strength = 10 
+     Division = 
+     {  id       = {  type = 10848 id = 107  } 
+       name     = "51-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+     extra = heavy_armor
+     brigade_model = 1
       } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 108  } 
+     name     = "XIX Korpus" 
+     location = 696 
      Division = 
      {  id       = {  type = 10848 id = 109  } 
-       name     = "39-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "52-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 110  } 
-     name     = "40-i Strelkovyi Korpus" 
-     location = 571 # Orekhovo
+     Division = 
+     {  id       = {  type = 10848 id = 110  } 
+       name     = "53-ya Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
      Division = 
      {  id       = {  type = 10848 id = 111  } 
-       name     = "60-ya Strelkovaya Diviziya" 
-       strength = 5
+       name     = "54-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 4
+     model     = 8
+     extra = cavalry_brigade
+     brigade_model = 7
       } 
-      Division = 
-     {  id       = {  type = 10848 id = 112  } 
-       name     = "42-ya Strelkovaya Diviziya" 
-       strength = 5
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 112  } 
+     name     = "XX Korpus" 
+     location = 698 
+     Division = 
+     {  id       = {  type = 10848 id = 113  } 
+       name     = "55-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 4
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 113  } 
-     name     = "41-i Strelkovyi Korpus" 
-     location = 678 # Vladimir
      Division = 
      {  id       = {  type = 10848 id = 114  } 
-       name     = "127-ya Strelkovaya Diviziya" 
-       strength = 5
+       name     = "56-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 4
+     model     = 8
       } 
-	} 
+     Division = 
+     {  id       = {  type = 10848 id = 115  } 
+       name     = "57-ya  Strelkovaya Diviziya" 
+       strength = 60 
+       type     = infantry 
+     model     = 8
+      } 
+  } 
 
-   landunit = 
-   {  id       = {  type = 10848 id = 115 } 
-     name     = "Privoljsyi Voennyi Okrug" 
-     location = 672 # Kazan
-      Division = 
+  landunit = 
+   {  id       = {  type = 10848 id = 116  } 
+     name     = "XXI Korpus" 
+     location = 697 
+     Division = 
      {  id       = {  type = 10848 id = 117  } 
-       name     = "125-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "58-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-      Division = 
+     Division = 
      {  id       = {  type = 10848 id = 118  } 
-       name     = "128-ya Strelkovaya Diviziya" 
-       strength = 10 
+       name     = "59-ya Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 5
+     model     = 8
       } 
      Division = 
      {  id       = {  type = 10848 id = 119  } 
-       name     = "159-ya Strelkovaya Diviziya" 
-       strength = 5
+       name     = "60-ya  Strelkovaya Diviziya" 
+       strength = 60 
        type     = infantry 
-	   model    = 4
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 120  } 
-       name     = "79-ya Strelkovaya Diviziya" 
-       strength = 5
-       type     = infantry 
-	   model    = 4
-      } 
-  }
-    landunit = 
-   {  id       = {  type = 10848 id = 121  } 
-     name     = "12-i Territorialnyi Korpus" 
-     location = 672 # Kazan
-     Division = 
-     {  id       = {  type = 10848 id = 122  } 
-       name     = "1-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	   extra    = artillery
-	   brigade_model    = 5		   
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 123  } 
-       name     = "31-ya Stalingradskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		extra = anti_air
-		brigade_model = 0   
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 124  } 
-       name     = "53-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		}
-     Division = 
-     {  id       = {  type = 10848 id = 125  } 
-       name     = "61-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		}
-     Division = 
-     {  id       = {  type = 10848 id = 126  } 
-       name     = "70-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		}
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 127  } 
-     name     = "34-i Strelkovyi Korpus" 
-     location = 672 # Kazan
-     Division = 
-     {  id       = {  type = 10848 id = 128  } 
-       name     = "111-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 129  } 
-       name     = "97-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 130  } 
-     name     = "26-i Strelkovyi Korpus" 
-     location = 672 # Kazan
-     Division = 
-     {  id       = {  type = 10848 id = 131  } 
-       name     = "129-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 132  } 
-       name     = "102-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 133  } 
-     name     = "42-i Strelkovyi Korpus" 
-     location = 672 # Kazan
-     Division = 
-     {  id       = {  type = 10848 id = 134  } 
-       name     = "108-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 4
-      } 
-	} 
-
-   landunit = 
-   {  id       = {  type = 10848 id = 135 } 
-     name     = "Kievskyi Voennyi Okrug" 
-     location = 617 # Kiev 
-     Division = 
-     {  id       = {  type = 10848 id =  136 } 
-       name     = "Kievskyi Voennyi Okrug" 
-       strength = 100 
-       type     = HQ
-	   model    = 2
-	extra = anti_air
-	brigade_model = 0
-	 } 
-      Division = 
-     {  id       = {  type = 10848 id = 137  } 
-       name     = "23-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = armored_car
-	brigade_model = 3
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 138  } 
-       name     = "26-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 139  } 
-       name     = "28-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = engineer
-	brigade_model = 2
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 140  } 
-       name     = "45-i Mekhanizirovannyi Korpus" 
-       strength = 100 
-       type     = light_armor
-	   model    = 0
-	   extra    = heavy_armor
-	   brigade_model    = 1	   
+     model     = 8
       } 
   } 
-    landunit = 
-   {  id       = {  type = 10848 id = 141  } 
-     name     = "6-i Strelkovyi Korpus" 
-     location = 617 # Kiev
+
+  landunit = 
+   {  id       = {  type = 10848 id =  120 } 
+     name     = "V Motokorpus" 
+     location = 247 
+     leader   = 30437 #Rokossovsky
+     Division = 
+     {  id       = {  type = 10848 id = 121  } 
+       name     = "17-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+     model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 2
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 122  } 
+       name     = "18-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = light_armor_brigade
+       brigade_model = 2
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 123  } 
+       name     = "8-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+       extra = engineer
+       brigade_model = 3
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 1132  } 
+       name     = "8-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+       extra = engineer
+       brigade_model = 3
+      }
+ }
+
+ landunit = 
+   {  id       = {  type = 10848 id = 124  } 
+     name     = "I Kavkazskiy korpus" 
+     location = 703
+     Division = 
+     {  id       = {  type = 10848 id = 125  } 
+       name     = "1-ya  Gornaya Diviziya" 
+       strength = 70 
+       type     = bergsjaeger 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 126  } 
+       name     = "2-ya  Gornaya Diviziya" 
+       strength = 70 
+       type     = bergsjaeger 
+     model     = 8
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 127  } 
+       name     = "3-ya  Gornaya Diviziya" 
+       strength = 70 
+       type     = bergsjaeger 
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 128  } 
+     name     = "II Kavkazskiy korpus" 
+     location = 712 
+     Division = 
+     {  id       = {  type = 10848 id = 129  } 
+       name     = "4-ya  Gornaya Diviziya" 
+       strength = 70 
+       type     = bergsjaeger 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 130  } 
+       name     = "5-ya  Gornaya Diviziya" 
+       strength = 70 
+       type     = bergsjaeger 
+     model     = 8
+     extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 131  } 
+       name     = "6-ya  Gornaya Diviziya" 
+       strength = 70 
+       type     = bergsjaeger 
+     model     = 8
+      } 
+  } 
+
+
+  ###############ASIA CORPS
+
+
+landunit = 
+   {  id       = {  type = 10848 id = 132  } 
+     name     = "II Kavaleriyskiy Korpus" 
+     location = 1114 
+     leader = 30732 #Budennyi
+     Division = 
+     {  id       = {  type = 10848 id = 133  } 
+       name     = "3-ya Kustanayska Kavaleriyskaya Diviziya" 
+       strength = 60 
+       type     = cavalry 
+     model     = 10
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 134  } 
+       name     = "5-ya Cherkasskaya Kavaleriyskaya Diviziya" 
+       strength = 60 
+       type     = cavalry 
+     model     = 9
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 135  } 
+       name     = "1-ya Astrakhanskaya Kavaleriyskaya Diviziya" 
+       strength = 60 
+       type     = cavalry 
+     model     = 9
+      }
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 136  } 
+     name     = "I Kavaleriyskiy Korpus" 
+     location = 502 
+     leader = 30534 #Timoshenko
+     Division = 
+     {  id       = {  type = 10848 id = 137  } 
+       name     = "2-ya Barnaulskaya Kavaleriyskaya Diviziya" 
+       strength = 60 
+       type     = cavalry 
+     model     = 10
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 138  } 
+       name     = "7-ya Buryatskaya Kavaleriyskaya Diviziya" 
+       strength = 60 
+       type     = cavalry 
+     model     = 9
+      } 
+     Division = 
+     {  id       = {  type = 10848 id = 139  } 
+       name     = "4-ya Derzhavinskaya Kavaleriyskaya Diviziya" 
+       strength = 60 
+       type     = cavalry 
+     model     = 9
+      }
+  } 
+
+  ####FAR EAST#####################################
+
+
+  landunit = 
+   {  id       = {  type = 10848 id =  140 } 
+     name     = "Irkutskiy Voyennyy Okrug" 
+     location = 1162 #Irkutsk 
+     leader   = 30819 #Triandafilov
+     Division = 
+     {  id       = {  type = 10848 id = 141  } 
+       name     = "Irkutskiy Voennyi Okrug" 
+       strength = 100 
+       type     = HQ
+       model    = 3
+       extra    = anti_air
+       brigade_model = 3
+     } 
      Division = 
      {  id       = {  type = 10848 id = 142  } 
-       name     = "2-ya Kavkazskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-      } 
+       name     = "9-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = medium_armor
+       brigade_model = 2    
+      }
      Division = 
      {  id       = {  type = 10848 id = 143  } 
-       name     = "24-ya Zheleznaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	   extra    = artillery
-	   brigade_model    = 7		   
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 144  } 
-       name     = "46-ya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 145  } 
-     name     = "8-i Strelkovyi Korpus" 
-     location = 611 # Vinnitsa
+       name     = "10-ya Mekhanizirovannaya Diviziya" 
+       type     = motorized 
+       model    = 0
+       extra    = heavy_armor
+       brigade_model = 1
+      }
      Division = 
+     {  id       = {  type = 10848 id = 144  } 
+       name     = "8-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+       extra    = heavy_armor
+       brigade_model = 1
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 145  } 
+       name     = "9-ya Tankovaya Diviziya" 
+       strength = 100
+       type     = armor 
+       model    = 0
+       extra    = heavy_armor
+       brigade_model = 1
+      }
+      Division = 
      {  id       = {  type = 10848 id = 146  } 
-       name     = "44-ya Kievskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	   extra    = artillery
-	   brigade_model    = 7		   
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 147  } 
-       name     = "51-ya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-      } 
-      Division = 
+       name     = "19-ya Motostrelkovaya Diviziya" 
+       type     = motorized 
+       model    = 0
+      }
+ }
+
+ landunit = 
+   {  id       = {  type = 10848 id = 147  } 
+     name     = "XXII Korpus" 
+     location = 1070 
+     Division = 
      {  id       = {  type = 10848 id = 148  } 
-       name     = "95-ya Strelkovaya Diviziya" 
-       strength = 40 
+       name     = "61-ya  Strelkovaya Diviziya" 
+       strength = 70 
        type     = infantry 
-	   model    = 7
+       model     = 8
+       extra = artillery
+       brigade_model = 5
       } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 149  } 
-     name     = "15-i Strelkovyi Korpus" 
-     location = 614 # Proskurov
+     Division = 
+     {  id       = {  type = 10848 id = 149  } 
+       name     = "62-ya Strelkovaya Diviziya" 
+       strength = 70 
+       type     = infantry 
+     model     = 8
+      } 
      Division = 
      {  id       = {  type = 10848 id = 150  } 
-       name     = "2-ya Turkestanskaya Strelkovaya Diviziya" 
-       strength = 30 
+       name     = "63-ya  Strelkovaya Diviziya" 
+       strength = 70 
        type     = infantry 
-	   model    = 6
-		}
-      Division = 
-     {  id       = {  type = 10848 id = 151  } 
-       name     = "99-ya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-	   extra    = heavy_armor
-	   brigade_model    = 1
+     model     = 8
       } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 151  } 
+     name     = "XXIII Korpus" 
+     location = 1164 
      Division = 
      {  id       = {  type = 10848 id = 152  } 
-       name     = "100-ya Strelkovaya Diviziya" 
-       strength = 40 
+       name     = "64-ya  Strelkovaya Diviziya" 
+       strength = 70 
        type     = infantry 
-	   model    = 7
-	   extra    = artillery
-	   brigade_model    = 6		   
+     model     = 8
+  extra = artillery
+  brigade_model = 5
       } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 153  } 
-     name     = "17-i Strelkovyi Korpus" 
-     location = 621 # Tiraspol
+     Division = 
+     {  id       = {  type = 10848 id = 153  } 
+       name     = "65-ya Strelkovaya Diviziya" 
+       strength = 70 
+       type     = infantry 
+     model     = 8
+      } 
      Division = 
      {  id       = {  type = 10848 id = 154  } 
-       name     = "7-ya Chernigovskaya Strelkovaya Diviziya" 
-       strength = 30 
+       name     = "66-ya  Strelkovaya Diviziya" 
+       strength = 70 
        type     = infantry 
-	   model    = 6
-		}
+     model     = 8
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10848 id = 155  } 
+     name     = "1-ya Nzv. Tankovaya Armiya" 
+     location = 1070 
+     leader   = 30403 #Primakov
      Division = 
-     {  id       = {  type = 10848 id = 155  } 
-       name     = "15-ya Sivashskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		}
-      Division = 
      {  id       = {  type = 10848 id = 156  } 
-       name     = "96-ya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-	   extra    = artillery
-	   brigade_model    = 6		
+       name     = "13-y Kavaleriyskiy Polk" 
+       type     = cavalry 
+       model     = 11
       } 
      Division = 
      {  id       = {  type = 10848 id = 157  } 
-       name     = "58-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-		}
-    } 
-   landunit = 
-   {  id       = {  type = 10848 id = 158  } 
-     name     = "1-i Kavaleriiski Korpus" 
-     location = 611 # Vinnitsa
+       name     = "10-ya Tankovaya Diviziya" 
+       strength = 60 
+       type     = armor 
+     model     = 0
+      } 
      Division = 
+     {  id       = {  type = 10848 id = 158  } 
+       name     = "11-ya Tankovaya Diviziya" 
+       strength = 60 
+       type     = armor 
+     model     = 0
+      } 
+      Division = 
      {  id       = {  type = 10848 id = 159  } 
-       name     = "1-ya Lenina Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
+       name     = "12-ya Tankovaya Diviziya" 
+       strength = 60 
+       type     = light_armor 
+     model     = 0
       } 
-     Division = 
-     {  id       = {  type = 10848 id = 160  } 
-       name     = "2-ya Krasnogo Znameni Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
-  }
-   landunit = 
-   {  id       = {  type = 10848 id = 161  } 
-     name     = "2-i Kavaleriiski Korpus" 
-     location = 612 # Zhitomir
-     Division = 
-     {  id       = {  type = 10848 id = 162  } 
-       name     = "5-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 163  } 
-       name     = "9-ya Krimskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = light_armor_brigade
-	brigade_model = 3
-      } 
-  }
-    landunit = 
-   {  id       = {  type = 10848 id = 164  } 
-     name     = "35-i Strelkovyi Korpus" 
-     location = 617 # Kiev
-     Division = 
-     {  id       = {  type = 10848 id = 165  } 
-       name     = "159-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 166  } 
-     name     = "36-i Strelkovyi Korpus" 
-     location = 611 # Vinnitsa
-      Division = 
-     {  id       = {  type = 10848 id = 167  } 
-       name     = "160-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 168  } 
-       name     = "161-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 169  } 
-     name     = "27-i Strelkovyi Korpus" 
-     location = 614 # Proskurov
-      Division = 
-     {  id       = {  type = 10848 id = 170  } 
-       name     = "89-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 171  } 
-       name     = "101-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 172  } 
-       name     = "130-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 173  } 
-     name     = "37-i Strelkovyi Korpus" 
-     location = 621 # Tiraspol
-     Division = 
-     {  id       = {  type = 10848 id = 174  } 
-       name     = "131-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 175  } 
-       name     = "140-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 176  } 
-       name     = "152-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 177  } 
-       name     = "47-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-
-   landunit = 
-   {  id       = {  type = 10848 id = 178 } 
-     name     = "Kharkovskyi Voennyi Okrug" 
-     location = 636 #Kharkov 
-      Division = 
-     {  id       = {  type = 10848 id = 180  } 
-       name     = "75-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	   extra    = engineer
-	   brigade_model    = 2	
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 181  } 
-       name     = "151-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-  }
-    landunit = 
-   {  id       = {  type = 10848 id = 182  } 
-     name     = "7-i Territorialnyi Korpus" 
-     location = 630 # Zaporozhie
-     Division = 
-     {  id       = {  type = 10848 id = 183  } 
-       name     = "3-ya Krimskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = infantry 
-	   model    = 7
-	extra = anti_air
-	brigade_model = 0
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 184  } 
-       name     = "25-ya Chapaeva Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	extra = artillery
-	brigade_model = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 185  } 
-       name     = "41-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 186  } 
-     name     = "14-i Territorialnyi Korpus" 
-     location = 636 # Kharkov
-      Division = 
-     {  id       = {  type = 10848 id = 187  } 
-       name     = "30-ya Irkutskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 188  } 
-       name     = "80-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 189  } 
-       name     = "23-ya Kharkovskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	extra = artillery
-	brigade_model = 5
-      } 
-	} 
-    landunit = 
-   {  id       = {  type = 10848 id = 190  } 
-     name     = "25-i Strelkovyi Korpus" 
-     location = 636 # Kharkov
-     Division = 
-     {  id       = {  type = 10848 id = 191  } 
-       name     = "72-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 192  } 
-       name     = "132-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 193  } 
-       name     = "83-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 194  } 
-       name     = "141-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 195  } 
-       name     = "69-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 196  } 
-       name     = "156-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 197  } 
-       name     = "134-ya Strelkovaya Diviziya" 
-       strength = 5
-       type     = infantry 
-	   model    = 4
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 198  } 
-       name     = "139-ya Strelkovaya Diviziya" 
-       strength = 5
-       type     = infantry 
-	   model    = 4
-      } 
-	} 
-
-   landunit = 
-   {  id       = {  type = 10848 id = 199 } 
-     name     = "Severokavkazskyi Voennyi Okrug" 
-     location =  644 # Rostov
-      Division = 
-     {  id       = {  type = 10848 id =  201 } 
-       name     = "10-ya Severokavkazskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-	extra = engineer
-	brigade_model = 2
-      } 
-        Division = 
-     {  id       = {  type = 10848 id = 202  } 
-       name     = "28-ya Gorskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = bergsjaeger
-	   model    = 8
-	extra = anti_air
-	brigade_model = 0
-      } 
-	  Division = 
-     {  id       = {  type = 10848 id = 203  } 
-       name     = "12-ya Kubanskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 9
-      } 	 
-    }
- landunit = 
-   {  id       = {  type = 10848 id = 204  } 
-     name     = "9-i Territorialnyi Korpus" 
-     location =  691 # Krasnodar
-     Division = 
-     {  id       = {  type = 10848 id = 205  } 
-       name     = "9-ya Krasnodarskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	extra = artillery
-	brigade_model = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 206  } 
-       name     = "13-ya Dagestanskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	extra = cavalry_brigade
-	brigade_model = 6
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 207  } 
-       name     = "22-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 208  } 
-       name     = "74-ya Tamanskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-      } 
-	}
-    landunit = 
-   {  id       = {  type = 10848 id = 209  } 
-     name     = "38-i Strelkovyi Korpus" 
-     location = 691
-     Division = 
-     {  id       = {  type = 10848 id = 210  } 
-       name     = "103-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-      Division = 
-     {  id       = {  type = 10848 id = 211  } 
-       name     = "118-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 212  } 
-       name     = "119-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-     Division = 
-     {  id       = {  type = 10848 id = 213  } 
-       name     = "157-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-      } 
-	} 
-
-   landunit = 
-   {  id       = {  type = 10848 id = 214 } 
-     name     = "Zakavkazskyi Voennyi Okrug" 
-     location =  703 # Tbilisi
-        Division = 
-     {  id       = {  type = 10848 id = 217  } 
-       name     = "1-ya Gorskaya Kavkazskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = bergsjaeger
-	   model    = 8
-	extra = engineer
-	brigade_model = 2
-      } 
-        Division = 
-     {  id       = {  type = 10848 id = 218  } 
-       name     = "3-ya Gorskaya Kavkazskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = bergsjaeger
-	   model    = 8
-	extra = anti_air
-	brigade_model = 0
-      } 
-        Division = 
-     {  id       = {  type = 10848 id = 219  } 
-       name     = "1-ya Gorskaya Gruzinskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = bergsjaeger
-	   model    = 7
-      } 
-        Division = 
-     {  id       = {  type = 10848 id = 220  } 
-       name     = "Gorskaya Azerbaidzhanskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = bergsjaeger
-	   model    = 7
-      } 
-        Division = 
-     {  id       = {  type = 10848 id = 221  } 
-       name     = "Gorskaya Armianskaya Strelkovaya Diviziya" 
-       strength = 40 
-       type     = bergsjaeger
-	   model    = 7
-      } 
-        Division = 
-     {  id       = {  type = 10848 id = 222  } 
-       name     = "2-ya Gruzinskaya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry
-	   model    = 6
-      }  
-    }
-
-   landunit = 
-   {  id       = {  type = 10848 id = 223 } 
-     name     = "Sredneaziatskyi Voennyi Okrug" 
-     location =  1103#
-     Division = 
-     {  id       = {  type = 10848 id = 225  } 
-       name     = "1-ya Gorskaya Turkestanskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = bergsjaeger
-	   model    = 8
-	extra = engineer
-	brigade_model = 2
-      }	 
-     Division = 
-     {  id       = {  type = 10848 id = 226  } 
-       name     = "3-ya Gorskaya Turkestanskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = bergsjaeger
-	   model    = 8
-      }	 
-  Division = #SAVO
-     {  id       = {  type = 10848 id = 227  } 
-       name     = "18-ya Turkmenskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-     } 
-  Division = #SAVO
-     {  id       = {  type = 10848 id = 228  } 
-       name     = "19-ya Turkmenskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-     } 
-  Division = #SAVO
-     {  id       = {  type = 10848 id = 229  } 
-       name     = "21-ya Turkmenskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-     } 
-  Division = #SAVO
-     {  id       = {  type = 10848 id = 230  } 
-       name     = "20-ya Tadzhikskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-     } 
- }
-
- landunit = 
-   {  id       = {  type = 10848 id = 231  } 
-     name     = "Sibirskyi Voennyi Okrug" 
-     location =  1142 #  Novosibirsk
-     Division = 
-     {  id       = {  type = 10848 id = 233  } 
-       name     = "71-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-	   extra    = engineer 
-	   brigade_model    = 2
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 234  } 
-       name     = "73-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 235  } 
-       name     = "78-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 236  } 
-       name     = "94-ya Strelkovaya Diviziya" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 237  } 
-       name     = "133-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 238  } 
-       name     = "109-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 239  } 
-       name     = "107-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 240  } 
-       name     = "91-ya Strelkovaya Diviziya" 
-       strength = 10 
-       type     = infantry 
-	   model    = 5
-     } 
-    }
-
- landunit = 
-   {  id       = {  type = 10848 id = 241  } 
-     name     = "Zabaikalskyi Voennyi Okrug" 
-     location =  1169 #  Chita
-     Division = 
-     {  id       = {  type = 10848 id = 243 } 
-       name     = "36-ya Strelkovaya Divizija" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	extra = cavalry_brigade
-	brigade_model = 6
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 244 } 
-       name     = "57-ya Strelkovaya Divizija" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	extra = anti_air
-	brigade_model = 0
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 245 } 
-       name     = "93-ya Strelkovaya Divizija" 
-       strength = 30 
-       type     = infantry 
-	   model    = 6
-     } 
-      Division = # ZabVO
-     {  id       = {  type = 10848 id = 246  } 
-       name     = "15-ya Kubanskaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-      } 
-      Division = # ZabVO
-     {  id       = {  type = 10848 id = 247  } 
-       name     = "17-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-      } 
-      Division = # ZabVO
-     {  id       = {  type = 10848 id = 248  } 
-       name     = "22-ya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-      } 
-       Division = 
-     {  id       = {  type = 10848 id =  249 } 
-       name     = "11-i Mekhanizirovannyi Korpus" 
-       strength = 100 
-       type     = light_armor
-	   model    = 0
-	extra = engineer
-	brigade_model = 2
-      } 
-    }
+  } 
 
 
-    landunit = 
-   {  id       = {  type = 10848 id = 250 } 
-     name     = "Osobaya Krasnozamennaya Dalnevostochnaya Armyia" 
-     location =  1190 #Khabarovsk
+
+
+
+
+
+
+######EXTRA LAND UNITS
+
+landunit = 
+   {  id       = {  type = 10848 id = 1032  } 
+     name     = "Vozdushno-Desantnaya Armiya" 
+     location = 553 #Leningrad 
      Division = 
-     {  id       = {  type = 10848 id = 251  } 
-       name     = "Dalnevostochnyi Voennyi Okrug" 
-       strength = 100 
-       type     = HQ
-	   model    = 2
-	   extra    = anti_air
-	   brigade_model    = 0	
-     } 
-     Division = 
-     {  id       = {  type = 10848 id = 252  } 
-       name     = "12-ya 'SibRevKoma' Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
- 	   extra    = artillery
-	   brigade_model = 7
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 253  } 
-       name     = "21-ya Permskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
- 	   extra    = engineer
-	   brigade_model = 2
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 254  } 
-       name     = "34-ya Srednevolzhskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 255  } 
-       name     = "35-ya Sibirskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 256  } 
-       name     = "40-ya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-      Division = 
-     {  id       = {  type = 10848 id = 257  } 
-       name     = "8-ya Dalnevostochnaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
-	extra = light_armor_brigade
-	brigade_model = 3
+     {  id       = {  type = 10848 id = 1033  } 
+       name     = "1-ya Gv. Vozdushno-Desantnaya" 
+       type     = paratrooper 
+       model     = 0
+       extra = glider_armor
+       brigade_model = 0
       } 
- }
-    landunit = 
-	{  id       = {  type = 10848 id = 258  } 
-     name     = "18-i Strelkovyi Korpus" 
-     location = 1176 # Blagoveschensk
-      Division = 
-     {  id       = {  type = 10848 id = 259  } 
-       name     = "1-ya Tikhookeanskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
- 	   extra    = artillery
-	   brigade_model = 7
-	  } 
      Division = 
-     {  id       = {  type = 10848 id = 260  } 
-       name     = "26-ya Zlatoustovskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 261  } 
-       name     = "32-ya Saratovskaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-	} 	
-    landunit = 
-    {  id       = {  type = 10848 id = 262  } 
-     name     = "Osobyi Kolkhoznyi Korpus" 
-     location = 1191# Vladivostok
-      Division = 
-     {  id       = {  type = 10848 id = 263  } 
-       name     = "1-ya Kolkhoznaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
- 	   extra    = artillery
-	   brigade_model = 7
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 264  } 
-       name     = "2-ya Kolkhoznaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-     Division = 
-     {  id       = {  type = 10848 id = 265  } 
-       name     = "3-ya Kolkhoznaya Strelkovaya Diviziya" 
-       strength = 80 
-       type     = infantry 
-	   model    = 8
-	  } 
-      Division = 
-     {  id       = {  type = 10848 id = 266  } 
-       name     = "Kolkhoznaya Kavaleriiskaya Diviziya" 
-       strength = 100 
-       type     = cavalry
-	   model    = 8
+     {  id       = {  type = 10848 id = 1034  } 
+       name     = "2-ya Gv. Vozdushno-Desantnaya" 
+       type     = paratrooper 
+       model     = 0
       } 
-	} 	
+  } 
+
+
+
+
 
 
 	
@@ -2167,10 +1565,15 @@ airunit = {
 	division = { 
 	id = { type = 10848 id = 7012 } 
 		name = "3.ABRON" 
-		strength = 70 
 		type = transport_plane 
 		model = 1 
 			} 
+  division = { 
+  id = { type = 10848 id = 9012 } 
+    name = "4.ABRON" 
+    type = transport_plane 
+    model = 1 
+      } 
 	}	
 airunit = { 
 	id = { type = 10848 id = 7013 } 
@@ -2427,8 +1830,8 @@ airunit = {
 airunit = { 
 	id = { type = 10848 id = 7049 } 
 	name = "5 AviaKorpus" 
-	location = 1169 #  Chita
-	base = 1169 # Chita	
+	location = 1162 # Irkutsk
+	base = 1162 # Irkutsk
 	division = { 
 	id = { type = 10848 id = 7050 } 
 		name = "29.TBABR" 
@@ -2449,8 +1852,8 @@ airunit = {
 airunit = { 
 	id = { type = 10848 id = 7052 } 
 	name = "26 TBABR DVO" 
-	location = 1190 #  Khabarovsk
-	base = 1190 # Khabarovsk	
+	location = 1162 # Irkutsk
+	base = 1162 # Irkutsk	
 	division = { 
 	id = { type = 10848 id = 7053 } 
 		name = "26.TBABR" 
@@ -2462,8 +1865,8 @@ airunit = {
 airunit = { 
 	id = { type = 10848 id = 7054 } 
 	name = "50 LSHABR DVO" 
-	location = 1190 #  Khabarovsk
-	base = 1190 # Khabarovsk
+	location = 1162 # Irkutsk
+	base = 1162 # Irkutsk
 	division = { 
 	id = { type = 10848 id = 7055 } 
 		name = "50.LSHABR" 
@@ -2520,8 +1923,8 @@ airunit = {
 airunit = { 
 	id = { type = 10848 id = 7082 } 
 	name = "20 TBABR TOF" 
-	location = 1190 #  Khabarovsk
-	base = 1190 # Khabarovsk
+	location = 1162 # Irkutsk
+	base = 1162 # Irkutsk
 	division = { 
 	id = { type = 10848 id = 7083 } 
 		name = "20.TBABR" 
@@ -2535,8 +1938,8 @@ airunit = {
 airunit = { 
 	id = { type = 10848 id = 7084 } 
 	name = "106 TBABR CHF" 
-	location = 641 #  Sevastopol
-	base = 641 # Sevastopol
+	location = 663 #  Tsaritsyn
+	base = 663 # Tsaritsyn
 	division = { 
 	id = { type = 10848 id = 7085 } 
 		name = "106.TBABR" 
@@ -2614,8 +2017,8 @@ airunit = {
 	navalunit = { # Kozhanov I.K.
 		id = { type = 10848 id = 5200 } 
 		name = "Chernomorskiy Flot" 
-		location = 641 
-		base = 641 
+		location = 645 
+		base = 645 
 		division = { 
 			id = { type = 10848 id = 5201 } 
 			name = "Parizhskaya Kommuna" 
@@ -2660,7 +2063,7 @@ airunit = {
 			type = destroyer 
 			model = 2 
 			}
-		} 
+		}
        
 	navalunit = { # Dushenov K.I.
 		id = { type = 10848 id = 5400 } 
@@ -2681,36 +2084,6 @@ airunit = {
 			} 
 		} 	
 
-	navalunit = { # Viktorov M.V.
-		id = { type = 10848 id = 5500 } 
-		name = "Tikhookeanskiy Flot" 
-		location = 1191 
-		base = 1191 
-		division = { 
-			id = { type = 10848 id = 5501 } 
-			name = "4. Divizion Esmintsev" 
-			type = destroyer 
-			model = 0
-			} 
-		division = { 
-			id = { type = 10848 id = 5502 } 
-			name = "5. Divizion Esmintsev" 
-			type = destroyer 
-			model = 0
-			} 
-		} 
-	navalunit = { 
-		id = { type = 10848 id = 5550 } 
-		name = "1ya Brigada PL TOF" 
-		location = 1191 
-		base = 1191 
-		division = { 
-			id = { type = 10848 id = 5551 } 
-			name = "4. Divizion Podlodok" 
-			type = submarine 
-			model = 3
-			} 
-		} 	
 	
 	# Starting Build Queue
 	division_development = {
@@ -2730,7 +2103,7 @@ airunit = {
 		date  = {  year = 1936 month = march day = 1  } 
 	} 
 	division_development = {
-		name  = "Kirov"
+		name  = "Odessa"
 		type  = heavy_cruiser
 		model = 5
 		new_model = no
@@ -2741,7 +2114,7 @@ airunit = {
 		date  = { year = 1938 month = september day = 23 }
 	}
 	division_development = {
-		name  = "Voroshilov"
+		name  = "Matushenko"
 		type  = heavy_cruiser
 		model = 5
 		new_model = no
@@ -2751,7 +2124,55 @@ airunit = {
 		id    = { type = 10848 id = 8504 }
 		date  = { year = 1940 month = june day = 20 }
 	}
+  division_development = {
+    name  = "13-ya Tankovaya Diviziya"
+    type  = armor
+    model = 0
+    cost  = 10
+    id    = { type = 10848 id = 8505 }
+    date  = { year = 1937 month = july day = 31 }
+  }
+  division_development = {
+    name  = "14-ya Tankovaya Diviziya"
+    type  = armor
+    model = 0
+    cost  = 10
+    id    = { type = 10848 id = 8506 }
+    date  = { year = 1937 month = july day = 31 }
+  }
+  division_development = {
+    name  = "15-ya Tankovaya Diviziya"
+    type  = armor
+    model = 0
+    cost  = 10
+    id    = { type = 10848 id = 8507 }
+    date  = { year = 1937 month = july day = 31 }
+  }
+  division_development = {
+    name  = "16-ya Tankovaya Diviziya"
+    type  = armor
+    model = 0
+    cost  = 10
+    id    = { type = 10848 id = 8508 }
+    date  = { year = 1937 month = july day = 31 }
+  }
+  division_development = {
+    name  = "17-ya Tankovaya Diviziya"
+    type  = armor
+    model = 0
+    cost  = 10
+    id    = { type = 10848 id = 8509 }
+    date  = { year = 1937 month = july day = 31 }
+  }
+  division_development = {
+    name  = "18-ya Tankovaya Diviziya"
+    type  = armor
+    model = 0
+    cost  = 10
+    id    = { type = 10848 id = 8510 }
+    date  = { year = 1937 month = july day = 31 }
+  }
 
- }	
+ }
 
  

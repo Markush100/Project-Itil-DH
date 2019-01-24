@@ -25,6 +25,18 @@
 
        diplomacy =
        {  
+           relation = { tag = ITA value = 200 access = yes }
+           relation = { tag = FRA value = -70 }
+           relation = { tag = ENG value = -100 }
+           relation = { tag = AUS value = -150 }
+           relation = { tag = GER value = -150 }
+           relation = { tag = SOV value = -20 }
+           relation = { tag = YUG value = -50 }
+           relation = { tag = SWI value = -80 }
+           relation = { tag = SPR value = -20 }
+           relation = { tag = GRE value = -50 }
+           relation = { tag = CZE value = -100 }
+           relation = { tag = SYR value = -50 }
         }
        SpyInfo                = {  country = "ITA" NumberOfSpies = 9  } 
        # Somaliland
@@ -180,5 +192,90 @@
        chiefofarmy            = {  type = 9 id = 495008  }
        chiefofnavy            = {  type = 9 id = 495009  }
        chiefofair             = {  type = 9 id = 495010  }
+
+   landunit = 
+   {  location = 747 
+     name     = "Guardia rossa della Tunisia" 
+     id       = {  type = 23510 id = 1  } 
+     Division = 
+     {  id       = {  type = 23510 id = 2  } 
+       name     = "1a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4 
+      } 
+     Division = 
+     {  id       = {  type = 23510 id = 3  } 
+       name     = "2a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4
+      } 
+      Division = 
+     {  id       = {  type = 23510 id = 4  } 
+       name     = "3a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4
+      } 
+}
+
+landunit = 
+   {  location = 765 
+     name     = "Guardia rossa della Tobruk" 
+     id       = {  type = 23510 id = 5  } 
+     Division = 
+     {  id       = {  type = 23510 id = 6  } 
+       name     = "4a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4
+      } 
+      Division = 
+     {  id       = {  type = 23510 id = 7  } 
+       name     = "5a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4
+      } 
+}
+
+landunit = 
+   {  location = 761 
+     name     = "Guardia rossa della Benghazi" 
+     id       = {  type = 23510 id = 8  } 
+     Division = 
+     {  id       = {  type = 23510 id = 9  } 
+       name     = "6a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4
+      } 
+      Division = 
+     {  id       = {  type = 23510 id = 10  } 
+       name     = "7a Guardia Rossa Araba" 
+       type     = militia 
+       model    = 4
+      } 
+}
+
+landunit = 
+   {  location = 776
+     name     = "Cavalleria Ausiliaria" 
+     id       = {  type = 23510 id = 11  } 
+     Division = 
+     {  id       = {  type = 23510 id = 12  } 
+       name     = "1a Cavalleria Berbera" 
+       type     = cavalry 
+       model    = 3
+      } 
+     Division = 
+     {  id       = {  type = 23510 id = 13  } 
+       name     = "2a Cavalleria Berbera" 
+       type     = cavalry 
+       model    = 3
+      } 
+      Division = 
+     {  id       = {  type = 23510 id = 14  } 
+       name     = "3a Cavalleria Berbera" 
+       type     = cavalry 
+       model    = 3
+      } 
+}
+
 
 }

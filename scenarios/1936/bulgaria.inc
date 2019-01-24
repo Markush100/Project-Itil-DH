@@ -235,7 +235,7 @@ inventions = { 3000027 }
      brigade_model = 5
       } 
      Division = 
-     {  id       = {  type = 19000 id = 15  } 
+     {  id       = {  type = 19000 id = 17  } 
        name     = "8-ma Bitolska pekhotna divizija" 
        strength = 60 
        type     = infantry 
@@ -245,12 +245,12 @@ inventions = { 3000027 }
     }
 
     navalunit = {  
-    id = {  type = 19000 id = 16  } 
+    id = {  type = 19000 id = 15  } 
     name = "Bulgarska Flota" 
     location = 325 
     base = 325 
     Division = {  
-    id = {  type = 19000 id = 17  } 
+    id = {  type = 19000 id = 16  } 
     name = "1-va Podvodnikova flotilija" 
     type = destroyer 
     model = 0 

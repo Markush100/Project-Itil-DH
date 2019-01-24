@@ -93,9 +93,9 @@ inventions = { 3000027 }
 landunit = 
    {  location = 711 
      name     = "Armenian National Army" 
-     id       = {  type = 91000 id = 1  } 
+     id       = {  type = 11710 id = 1  } 
      Division = 
-     {  id    = {  type = 91000 id = 2  } 
+     {  id    = {  type = 11710 id = 2  } 
        name  = "1-in Hakarrakordi Bazhanumy" 
        type  = infantry 
      model    = 8
@@ -103,21 +103,21 @@ landunit =
      brigade_model = 5
       } 
      Division = 
-     {  id   = {  type = 91000 id = 3  } 
+     {  id   = {  type = 11710 id = 3  } 
        name = "2-rd Hakarrakordi Hazhanumy" 
        strength = 75
        type  = infantry 
        model    = 7
       } 
      Division = 
-     {  id   = {  type = 91000 id = 4  } 
+     {  id   = {  type = 11710 id = 4  } 
        name = "3-rd Hakarrakordi Hazhanumy" 
        strength = 75
        type  = infantry 
        model    = 7
       } 
      Division = 
-     {  id   = {  type = 91000 id = 5  } 
+     {  id   = {  type = 11710 id = 5  } 
        name = "1-in Jokati Bazhin" 
        model    = 8
        type = cavalry 
@@ -127,9 +127,9 @@ landunit =
 landunit = 
    {  location = 1063 
      name     = "Erzerum Garrison" 
-     id       = {  type = 91000 id = 6  } 
+     id       = {  type = 11710 id = 6  } 
      Division = 
-     {  id    = {  type = 91000 id = 7  } 
+     {  id    = {  type = 11710 id = 7  } 
        name  = "4-rd Hakarrakordi Bazhanumy" 
        type  = infantry 
      model    = 7
@@ -137,14 +137,14 @@ landunit =
      brigade_model = 5
       } 
      Division = 
-     {  id   = {  type = 91000 id = 8  } 
+     {  id   = {  type = 11710 id = 8  } 
        name = "5-rd Hakarrakordi Hazhanumy" 
        strength = 75
        type  = infantry 
        model    = 7
       } 
      Division = 
-     {  id   = {  type = 91000 id = 9  } 
+     {  id   = {  type = 11710 id = 9  } 
        name = "6-rd Hakarrakordi Hazhanumy" 
        strength = 75
        type  = infantry 
@@ -153,18 +153,18 @@ landunit =
 }
 
   navalunit = { 
-    id = { type = 91000 id = 140 } 
+    id = { type = 11710 id = 140 } 
     name = "Ap’i Pahakakhumb" 
     location = 1067 
     base = 1067 
     division = { 
-      id = { type = 91000 id = 142 } 
+      id = { type = 11710 id = 142 } 
       name = "Andranik" 
       type = light_cruiser
       model = 1
       } 
     division = { 
-      id = { type = 91000 id = 143 } 
+      id = { type = 11710 id = 142 } 
       name = "Nazarbekian" 
       type = light_cruiser
       model = 1

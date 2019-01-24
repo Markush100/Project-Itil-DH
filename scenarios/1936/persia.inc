@@ -186,6 +186,8 @@
        strength = 90 
        type     = infantry 
      model    = 8
+       extra = heavy_armor
+       model = 0
       } 
       Division = 
      {  id       = {  type = 16600 id = 5  } 
@@ -194,14 +196,14 @@
        type     = cavalry
        model    = 8
        extra = light_armor_brigade
-       brigade_model = 2
+       brigade_model = 0
       } 
      Division = 
      {  id       = {  type = 16600 id = 6  } 
        name     = "4-ya Persidskaya Strelkovaya Diviziya" 
        strength = 60 
        type     = infantry 
-     model    = 8
+       model    = 8
       }
      Division = 
      {  id       = {  type = 16600 id = 7  } 
@@ -223,6 +225,8 @@
        strength = 50 
        type     = infantry 
      model    = 8
+     extra = heavy_armor
+       model = 0
       }
   } 
   

@@ -11,6 +11,7 @@ header =
   FRA        = { }
   ENG        = { }
   SOV        = { picture = "scenarios\data\propaganda_SOV_1936.bmp" }
+  UKR        = { }
   TRK        = { }  
   RUS        = { }
   JAP        = { }
@@ -19,18 +20,22 @@ header =
   ITA        = { }
   U00        = { }
   USA        = { }
+  AST        = { }
+  HUN        = { }
+  ROM        = { }
   YUG        = { }
   BUL        = { }
+  BRA        = { }
 }
 globaldata =
 { startdate = { year = 1936 month = january day = 0 }
   axis =
   { id          = { type = 15000 id = 2 }
-    participant = { GER AUS FLA WLL }
+    participant = { GER AUS FLA WLL CZE }
   }
   allies =
   { id          = { type = 15000 id = 1 }
-    participant = { ENG AST NZL CAN SAF NEP EGY }
+    participant = { ENG AST NZL CAN SAF NEP EGY POR }
   }
   comintern =
   { id          = { type = 15000 id = 3 }

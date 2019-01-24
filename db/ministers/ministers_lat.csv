@@ -13,7 +13,7 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135011;Head of State;Hans Heinrich Lohse;1941;1964;1999;NS;Stern Imperialist;High;M27031;X
 135012;Head of State;Kàrlis Ulmanis;1933;1964;1999;FA;Barking Buffoon;High;M27002;X
 135013;Head of State;Janis Andersons;1945;1964;1999;PA;Benevolent Gentleman;High;M27033;X
-135014;Head of State;Pauls Kalniñs;1933;1964;1999;SC;Insignificant Layman;High;M27011;X
+135014;Head of State;Pauls Kalniñs;1933;1964;1999;LE;Insignificant Layman;High;M27011;X
 135015;Head of State;Jazeps Rancans;1945;1964;1999;SC;Autocratic Charmer;High;M27035;X
 135016;Head of State;Augusts Kirchensteins;1933;1964;1999;LE;Weary Stiffneck;High;M27021;X
 135017;Head of State;Ernests Kreismanis;1945;1964;1999;ST;Ruthless Powermonger;High;M27037;X
@@ -34,7 +34,7 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135032;Foreign Minister;Reinhold K. Zariñs;1933;1964;1999;SC;Apologetic Clerk;Medium;M27012;X
 135033;Foreign Minister;Alfreds Bïlmanis;1940;1964;1999;SC;Biased Intellectual;Medium;M27054;X
 135034;Foreign Minister;Julijcs Lacis;1933;1964;1999;LE;Great Compromiser;Medium;M27029;X
-135035;Foreign Minister;Augusts Kirchensteins;1940;1964;1999;LE;Ideological Crusader;Undying;M27021;X
+135035;Foreign Minister;Augusts Kirchensteins;1934;1964;1999;LE;Ideological Crusader;Undying;M27021;X
 135036;Foreign Minister;Arnolds Skrebers;1945;1964;1999;ST;Great Compromiser;Medium;M27057;X
 135037;Foreign Minister;Peteris Valeskalns;1946;1964;1999;ST;Ideological Crusader;Medium;M27058;X
 135038;Foreign Minister;Ernests Kreismanis;1947;1964;1999;ST;The Cloak N Dagger Schemer;Very High;M27037;X
@@ -48,7 +48,7 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135046;Minister of Armament;Petrus Apskalns;1933;1964;1999;SC;Infantry Proponent;Medium;M27068;X
 135047;Minister of Armament;Edgars Andersons;1945;1964;1999;SC;Military Entrepreneur;Medium;M27014;X
 135048;Minister of Armament;Roberts Dambïtis;1933;1964;1999;LE;Resource Industrialist;Medium;M27070;X
-135049;Minister of Armament;Kàrlis Karlsons;1940;1964;1999;LE;Military Entrepreneur;Medium;M27024;X
+135049;Minister of Armament;Kàrlis Karlsons;1935;1964;1999;LE;Military Entrepreneur;Medium;M27024;X
 135050;Minister of Armament;Aleksandrs Bulle;1945;1964;1999;ST;laissez-faire capitalist;Medium;M27072;X
 135051;Minister of Armament;Arnolds Tabaks;1946;1964;1999;ST;Resource Industrialist;Medium;M27073;X
 135052;Minister of Security;Alfreds Valdmanis;1941;1964;1999;NS;Crime Fighter;Medium;M27038;X
@@ -60,7 +60,7 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135058;Minister of Security;Pauls Kalniñs;1933;1964;1999;SC;Efficient Sociopath;High;M27011;X
 135059;Minister of Security;Jazeps Rancans;1945;1964;1999;SC;Man of the People;Very High;M27035;X
 135060;Minister of Security;Jurijs Rabersz;1933;1964;1999;LE;Compassionate Gentleman;Medium;M27082;X
-135061;Minister of Security;Vilis Làcis;1940;1964;1999;LE;Efficient Sociopath;Medium;M27025;X
+135061;Minister of Security;Vilis Làcis;1935;1964;1999;LE;Efficient Sociopath;Medium;M27025;X
 135062;Minister of Security;Rodolfs Rocin;1945;1964;1999;ST;Silent Lawyer;Medium;M27084;X
 135063;Minister of Security;Andrejs Jablonskis;1946;1964;1999;ST;Prince of Terror;Medium;M27085;X
 135064;Head of Military Intelligence;Hans Heinrich Lohse;1941;1964;1999;NS;Industrial Specialist;Medium;M27031;X
@@ -78,7 +78,7 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135076;Chief of Staff;Rudolfs Kociñs;1945;1964;1999;PA;School of Psychology;Medium;M27101;X
 135077;Chief of Staff;Verners Tefpers;1933;1964;1999;SC;School of Manoeuvre;Medium;M27017;X
 135078;Chief of Staff;Janis Berzins;1933;1964;1999;LE;School of Mass Combat;Medium;M27027;X
-135079;Chief of Staff;Roberts Dambïtis;1938;1964;1999;LE;School of Fire Support;Medium;M27070;X
+135079;Chief of Staff;Roberts Dambïtis;1936;1964;1999;LE;School of Fire Support;Medium;M27070;X
 135080;Chief of Staff;Izglitibas Tautas;1945;1964;1999;ST;School of Mass Combat;Medium;M27030;X
 135081;Chief of Staff;Arturs Sprogis;1946;1964;1999;ST;School of Fire Support;High;M27106;X
 135082;Chief of Army;Otto Hellmich;1941;1964;1999;NS;Elastic Defence Doctrine;Medium;M27107;X
@@ -91,7 +91,7 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135089;Chief of Navy;Konstantins Cakste;1941;1964;1999;NS;Base Control Doctrine;Medium;M27097;X
 135090;Chief of Navy;Janis Andersons;1933;1964;1999;SC;Base Control Doctrine;Low;M27033;X
 135091;Chief of Navy;Augusts Kirchensteins;1933;1964;1999;LE;Open Seas Doctrine;Medium;M27021;X
-135092;Chief of Navy;Julijcs Lacis;1940;1964;1999;LE;Indirect Approach Doctrine;Medium;M27029;X
+135092;Chief of Navy;Julijcs Lacis;1934;1964;1999;LE;Indirect Approach Doctrine;Medium;M27029;X
 135093;Chief of Navy;Teodors Zvejnieks;1945;1964;1999;ST;Power Projection Doctrine;Low;M27075;X
 135094;Chief of Air Force;Konstantins Cakste;1941;1964;1999;NS;Army Aviation Doctrine;Medium;M27097;X
 135095;Chief of Air Force;Rudolfs Bangerskis;1945;1964;1999;PA;Army Aviation Doctrine;Low;M27008;X
@@ -107,11 +107,11 @@ LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 135105;Head of Government;Andrievs Niedra;1919;1933;1999;ML;Backroom Backstabber;High;2817;X
 135106;Head of Government;Janis Pauluks;1923;1933;1999;ML;Smiling Oilman;High;2818;X
 135107;Head of Government;Karlis Ulmanis;1914;1933;1999;ML;Corporate Suit;High;2819;X
-135108;Head of Government;Peteris Stucka;1914;1933;1999;ST;Ambitious Union Boss;High;3873;X
+135108;Head of Government;Peteris Stucka;1914;1964;1999;LE;Ambitious Union Boss;High;3873;X
 135109;Head of Government;Voldemars Zamuels;1924;1933;1999;SL;Naive Optimist;High;2820;X
 135110;Head of Military Intelligence;Jànis Lencmanis;1914;1933;1999;ST;Political Specialist;High;unknownminister;X
 135111;Head of State;Janis Cakste;1914;1933;1999;ML;Benevolent Gentleman;High;2821;X
-135112;Head of State;Pauls Kalnins;1919;1933;1999;SD;Popular Figurehead;High;2822;X
+135112;Head of State;Pauls Kalnins;1919;1933;1999;LE;Popular Figurehead;High;2822;X
 135113;Head of State;Peteris Stucka;1914;1933;1999;ST;Autocratic Charmer;High;3873;X
 135114;Minister of Armament;Hermanis Punga;1923;1933;1999;ML;Laissez-Faire Capitalist;High;2823;X
 135115;Minister of Armament;Kàrlis Puriks;1914;1933;1999;ML;military entrepreneur;High;unknownminister;X
