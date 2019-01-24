@@ -251,115 +251,142 @@ inventions = { 3000027 }
 	##############################################
     landunit = 
    {  location = 1247 # Beijing
-     name     = "29th Army" 
-     id       = {  type = 22000 id = 17  } 
+     name     = "Zhili Clique" 
+     id       = {  type = 22000 id = 1  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 18  } 
-       name       = "37th Division" 
+       id         = {  type = 22000 id = 2  } 
+       name       = "1st Infantry Division" 
        type       = infantry
 	   strength  = 100
        model     = 6
-	   locked = yes
+	   locked = no
       }
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 19 } 
-       name       = "38th Division" 
+       id         = {  type = 22000 id = 3 } 
+       name       = "2nd Infantry Division" 
        type       = infantry
 	   strength  = 100
        model     = 6
-	   locked = yes
+	   locked = no
       }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 20  } 
-       name       = "132nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 21  } 
-       name       = "143rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 22  } 
-       name       = "9th Cavalry Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 23  } 
-       name       = "39th Independent Brigade" 
-       type       = infantry
-	   strength  = 100
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 24  } 
-       name       = "13th Independent Cavalry Brigade" 
-       type       = cavalry
-	   strength  = 80
-       model     = 6
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 25  } 
-       name       = "29th Army Special Brigade" 
-       type       = infantry
-	   strength  = 100
-       model     = 7
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 26  } 
-       name       = "29th Army HQ" 
-       type       = hq
-	   strength  = 100
-       model     = 1
-	   locked = yes
-      }
-    }
+	
 	landunit = 
-   {  location = 1247 # Beijing
+   {  location = 1323 # Anyang
      name     = "Hebei Provincial Security Group" 
-     id       = {  type = 22000 id = 27  } 
+     id       = {  type = 22000 id = 11  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 28  } 
+       id         = {  type = 22000 id = 12  } 
        name       = "North Hebei Security Group" 
        type       = infantry
 	   strength  = 25
        model     = 6
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 29  } 
+       id         = {  type = 22000 id = 13  } 
        name       = "South Hebei Security Group" 
        type       = infantry
 	   strength  = 25
        model     = 6
-	   locked = yes
+	   locked = no
       }
     }
-
+	landunit = {
+	location = 1244 # 
+     name     = "Zhili Cavalry Army" 
+     id       = {  type = 22000 id = 14  } 
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 6  } 
+       name       = "1st Cavalry Division" 
+       type       = cavalry
+	   strength  = 100
+       model     = 6
+	   locked = no
+      }
+		 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 15  } 
+       name       = "2nd Cavalry Brigade" 
+       type       = cavalry
+	   strength  = 80
+       model     = 6
+	   locked = no
+      }
+	   Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 16  } 
+       name       = "3rd Cavalry Division" 
+       type       = cavalry
+	   strength  = 100
+       model     = 6
+	   locked = no
+      }
 	
+	}
+
+	landunit = {
+	location = 1244 # 
+     name     = "Zhili 1st Army" 
+     id       = {  type = 22000 id = 17  } 
+		 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 4  } 
+       name       = "3rd Infantry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 5  } 
+       name       = "4th Infantry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 7  } 
+       name       = "6th Infantry Brigade" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 9  } 
+       name       = "7th Infantry Brigade" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = no
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22000 id = 10  } 
+       name       = "Zhili Clique" 
+       type       = hq
+	   strength  = 100
+       model     = 1
+	
+      }
+	
+	}
 	
     
   } 

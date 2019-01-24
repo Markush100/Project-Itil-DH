@@ -267,7 +267,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	 Division = 
      {  experience = 30 
@@ -276,7 +276,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -285,7 +285,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -294,7 +294,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 65
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -303,7 +303,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 65
        model     = 5
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -317,7 +317,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -326,7 +326,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -335,7 +335,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 65
        model     = 5
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -349,7 +349,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -358,7 +358,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -367,7 +367,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -381,7 +381,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -390,7 +390,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -399,7 +399,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 100
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -408,7 +408,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 65
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -417,7 +417,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 65
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -426,7 +426,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 65
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -435,7 +435,7 @@ inventions = { 3000027 }
        type       = hq
 	   strength  = 100
        model     = 2
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -451,7 +451,7 @@ inventions = { 3000027 }
        model     = 5
 	   extra1 = cavalry_brigade
 	   brigade_model1 = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -462,7 +462,7 @@ inventions = { 3000027 }
        model     = 5
 	   extra1 = cavalry_brigade
 	   brigade_model1 = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -473,7 +473,7 @@ inventions = { 3000027 }
        model     = 5
 	   extra1 = cavalry_brigade
 	   brigade_model1 = 5
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -487,7 +487,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 62
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -496,7 +496,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 62
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -505,7 +505,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 62
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -514,7 +514,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 62
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -523,7 +523,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 62
        model     = 5
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -537,7 +537,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 60
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -546,7 +546,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 60
        model     = 5
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -560,7 +560,7 @@ inventions = { 3000027 }
        type       = infantry
 	   strength  = 60
        model     = 5
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -569,7 +569,7 @@ inventions = { 3000027 }
        type       = hq
 	   strength  = 60
        model     = 2
-	   locked = yes
+	   locked = no
       }
     }
 	landunit = 
@@ -583,7 +583,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 100
        model     = 4
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -592,7 +592,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 100
        model     = 4
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -601,7 +601,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 100
        model     = 4
-	   locked = yes
+	   locked = no
       }
 	  Division = 
      {  experience = 30 
@@ -610,7 +610,7 @@ inventions = { 3000027 }
        type       = militia
 	   strength  = 100
        model     = 4
-	   locked = yes
+	   locked = no
       }
     }
     
