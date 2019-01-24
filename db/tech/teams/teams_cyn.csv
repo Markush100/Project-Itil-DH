@@ -26,3 +26,5 @@ CYN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 615025;Cai E;100767;4;1900;1917;large_unit_tactics;infantry_focus;individual_courage;training;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 615026;Central Machine Works;100777;3;1930;1970;industrial_engineering;mechanics;general_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 615027;53rd Arsenal;100768;3;1941;1999;mechanics;munitions;artillery;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+615028;Alexander von Falkenhausen;T1005;4;1930;1948;large_unit_tactics;infantry_focus;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+615029;Luftwaffe Beraterschaft ;100794;6;1930;1970;combined_arms_focus;fighter_tactics;bomber_tactics;piloting;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

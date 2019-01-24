@@ -1,27 +1,15 @@
 CHC;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
-260001;China North Industries Group;T8304;4;1939;1999;industrial_engineering;technical_efficiency;chemistry;general_equipment;munitions;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260002;NORINCO;T8304;6;1999;1999;industrial_engineering;technical_efficiency;chemistry;general_equipment;munitions;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260003;General Armament Department;100808;4;1900;1970;mechanics;artillery;general_equipment;training;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260004;Fang Ziyi;100810;4;1930;1983;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260005;Fudan College;T8310;1;1905;1911;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260006;Fudan Public School;T8310;1;1912;1917;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260007;Private Fudan University;T8310;2;1917;1929;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260008;Private Fudan University;T8310;3;1929;1937;mathematics;chemistry;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260009;Private Fudan University;T8310;2;1937;1941;mathematics;chemistry;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260010;National Fudan University;T8310;4;1941;1946;mathematics;chemistry;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260011;Fudan University;T8310;5;1946;1952;mathematics;chemistry;management;industrial_engineering;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260012;Fudan University;T8310;6;1952;1970;mathematics;chemistry;management;industrial_engineering;technical_efficiency;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260013;Fudan University;T8310;7;1970;1999;mathematics;chemistry;management;industrial_engineering;technical_efficiency;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260014;Li Kenong;100809;2;1926;1959;mathematics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260015;PLA Navy;T8314;4;1950;1970;small_taskforce_tactics;naval_training;seamanship;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260015;Chinese National Navy;T8314;4;1950;1970;small_taskforce_tactics;naval_training;seamanship;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260016;Peng Dehuai;100698;4;1926;1974;centralized_execution;large_unit_tactics;large_unit_focus;individual_courage;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260017;Hanyang Arsenal;100061;3;1890;1970;general_equipment;training;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260018;Han-Ye-Ping Coal and Iron Company;100062;2;1894;1970;industrial_engineering;mechanics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260019;Jiangnan SF (Chongqing);100063;2;1964;1999;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260020;Jiangnan Shipbuilding Factory;100063;3;1912;1999;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260021;Jiangnan Machine Manufacturer;100064;2;1865;1912;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260022;China State Shipbuilding Corporation;T8305;5;1999;2999;naval_engineering;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260023;Dalian Shipyard;100820;2;1905;1955;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260024;China Shipbuilding Company;100820;4;1955;1999;naval_engineering;naval_artillery;technical_efficiency;submarine_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260025;China Shipbuilding Industry Corporation;100821;6;1999;2999;naval_engineering;naval_artillery;technical_efficiency;electronics;carrier_design;submarine_design;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260026;Zhang Guotao;100522;2;1924;1963;centralized_execution;large_unit_tactics;large_unit_focus;individual_courage;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -32,8 +20,7 @@ CHC;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 260031;Liu Yalou;100527;5;1950;1965;piloting;fighter_tactics;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260032;Zhejiang Medical University;100824;3;1952;1998;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260033;Zhejiang University;100824;3;1952;1998;mathematics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260034;Anshan Iron and Steel Group;100529;4;1950;1999;industrial_engineering;management;mechanics;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260035;PLA Air Force;100530;4;1950;1999;fighter_tactics;bomber_tactics;piloting;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260035;Chinese National Air Force;100530;4;1950;1999;fighter_tactics;bomber_tactics;piloting;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260036;Shao Xianghua;100531;5;1945;1999;chemistry;training;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260037;Zhu De;100608;3;1940;1949;small_unit_tactics;training;combined_arms_focus;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260100;Deng Xiaoping;100803;1;1921;1924;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -59,13 +46,12 @@ CHC;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 260120;University of Science and Technology of China;100797;3;1958;1969;mathematics;chemistry;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260121;University of Science and Technology of China;100797;4;1969;1978;mathematics;chemistry;nuclear_engineering;nuclear_physics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260122;University of Science and Technology of China;100797;5;1978;1999;mathematics;chemistry;nuclear_engineering;nuclear_physics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260123;Xi'an Jiaotong University;100798;5;1956;1999;management;mathematics;electronics;chemistry;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260124;Red Army University;100799;1;1927;1936;infantry_focus;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260125;People's Resistance Military-Political University;100799;2;1936;1999;individual_courage;decentralized_execution;infantry_focus;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260126;PLA Military Academy;100800;3;1945;1985;large_unit_tactics;centralized_execution;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260127;PLA Political Academy ;100800;3;1945;1985;management;mathematics;technical_efficiency;individual_courage;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260128;PLA Logistics Academy ;100800;4;1945;1985;management;general_equipment;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-260129;PLA National Defense University;100801;5;1985;1999;management;centralized_execution;decentralized_execution;training;combined_arms_focus;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260124;National Revolutionary Army University;100799;1;1927;1936;infantry_focus;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260125;Communist Party Military-Political University;100799;2;1936;1999;individual_courage;decentralized_execution;infantry_focus;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260126;CNRA Military Academy;100800;3;1945;1985;large_unit_tactics;centralized_execution;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260127;CNRA Political Academy ;100800;3;1945;1985;management;mathematics;technical_efficiency;individual_courage;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260128;CNRA Logistics Academy ;100800;4;1945;1985;management;general_equipment;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260129;CNRA National Defense University;100801;5;1985;1999;management;centralized_execution;decentralized_execution;training;combined_arms_focus;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260130;Li Dazhao;100802;1;1920;1927;individual_courage;decentralized_execution;small_unit_tactics;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260131;9th Theoretical Research Department;100811;7;1958;1999;mathematics;nuclear_engineering;nuclear_physics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260132;5th National Defense Research Institute;100528;7;1956;1999;rocketry;aeronautics;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -90,3 +76,32 @@ CHC;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 260151;Aviation Industry Corporation I;100823;5;1993;2008;rocketry;aeronautics;bomber_design;avionics;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260152;Aviation Industry Corporation II;100823;5;1993;2008;rocketry;aeronautics;fighter_design;avionics;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 260153;Aviation Industry Corporation;100823;7;2008;2999;rocketry;aeronautics;fighter_design;bomber_design;avionics;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260154;Sanjiang Normal College;100761;1;1902;1906;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260155;Liangjiang Normal College;100761;2;1906;1915;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260156;National Southeastern University;100761;3;1921;1928;mathematics;management;industrial_engineering;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260157;Southeast University;100753;6;1988;1999;electronics;chemistry;industrial_engineering;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260158;Wang Jingwei;100765;2;1905;1958;individual_courage;training;management;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260159;Kaiping Coal Mine;T1004;3;1877;1898;industrial_engineering;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260160;Kaiping Coal Mine;T1004;1;1898;1912;industrial_engineering;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260161;Kailan Mining Administration;T1004;2;1912;1999;industrial_engineering;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260162;National Southwestern Associated University;100746;6;1911;1999;mathematics;industrial_engineering;mechanics;management;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260163;Guangxi Army Primary School;100718;1;1907;1918;training;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260164;Guangxi Army Primary School;100718;2;1918;1928;training;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260165;Guangxi University;100719;1;1928;1936;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260166;Guangxi University;100719;2;1936;1939;chemistry;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260167;Guangxi University;100719;4;1939;1949;mathematics;industrial_engineering;chemistry;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260168;Guangxi University;100719;5;1949;1999;mathematics;industrial_engineering;mechanics;electronics;chemistry;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260169;Guangxi Aviation Academy;100720;2;1934;1999;aeronautics;training;piloting;mechanics;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260170;Guangxi Military Cadre Training School ;100721;1;1900;1923;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260171;Guangdong Arsenal;100723;2;1900;1999;mechanics;artillery;general_equipment;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260172;Guangzhou Shipyard;T8702;2;1881;1999;naval_engineering;naval_artillery;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260173;Guangdong Naval Academy;100727;1;1882;1911;small_taskforce_tactics;seamanship;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260174;Guangdong-Hankou Railway Authority;100728;1;1936;1999;industrial_engineering;mechanics;general_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260175;Guangzhou Diesel Engine Factory;100729;1;1911;1928;mechanics;general_equipment;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260176;Guangzhou Diesel Engine Factory;100729;2;1928;1935;mechanics;general_equipment;vehicle_engineering;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260177;Guangzhou Diesel Engine Factory;100729;4;1935;1999;mechanics;general_equipment;vehicle_engineering;electronics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260178;Shaoguan Airplane Factory;100730;1;1936;1999;aeronautics;general_equipment;aircraft_testing;bomber_design;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260179;Dongshan Airplane Factory;100731;1;1928;1949;aeronautics;general_equipment;aircraft_testing;fighter_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260180;Southwest University;100733;1;1906;1926;mathematics;chemistry;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260181;Southwest University;100733;2;1926;1945;mathematics;chemistry;medicine;industrial_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260182;Southwest University;100733;4;1945;1999;mathematics;chemistry;medicine;industrial_engineering;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;x

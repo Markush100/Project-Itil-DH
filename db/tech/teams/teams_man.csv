@@ -12,3 +12,5 @@ MAN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 235011;Mukden Arsenal;T1003;4;1900;1970;artillery;general_equipment;munitions;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 235012;Showa Steel Works;100004;5;1900;1970;industrial_engineering;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 235013;Zhang Zuolin;100420;3;1911;1929;centralized_execution;small_unit_tactics;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260023;Dalian Shipyard;100820;2;1905;1955;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+260034;Anshan Iron and Steel Group;100529;4;1950;1999;industrial_engineering;management;mechanics;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

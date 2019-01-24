@@ -154,10 +154,10 @@ inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
      democratic        = 4 
-     political_left    = 8 
+     political_left    = 9 
      free_market       = 4 
-     freedom           = 4 
-     professional_army = 2 
+     freedom           = 7 
+     professional_army = 5 
      defense_lobby     = 10 
      interventionism   = 5 
     } 
@@ -175,235 +175,359 @@ inventions = { 3000027 }
    # COMMUNIST CHINA 1936 OOB
    # http://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%86%9C%E7%BA%A2%E5%86%9B%E6%88%98%E6%96%97%E5%BA%8F%E5%88%97
    ####################
-	# Hunan Task Force #
+	# Guangzhou Force #
 	####################
 	landunit = 
-   {  location = 1308 # Changsha
-     name     = "28th Corps" 
-     id       = {  type = 22000 id = 37  } 
+   {  location = 1369 # Guangzhou
+     name     = "Chinese National Revolutionary Army" 
+     id       = {  type = 22055 id = 1001  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 38 } 
-       name       = "15th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 39  } 
-       name       = "16th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 40  } 
-       name       = "19th Division" # Different from the CGX
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-    }
-	landunit = 
-   {  location = 1308 # Changsha
-     name     = "4th Route Army" 
-     id       = {  type = 22000 id = 41  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 42 } 
-       name       = "62nd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 43  } 
-       name       = "63rd Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 44  } 
-       name       = "New 34th Division" 
-       type       = infantry
-	   strength  = 100
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 45  } 
-       name       = "4th Route Army Reserve Regiments" 
-       type       = infantry
-	   strength  = 75
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 46  } 
-       name       = "4th Route Army Reserve Regiments" 
-       type       = infantry
-	   strength  = 75
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 47 } 
-       name       = "4th Route Army HQ" 
+       id         = {  type = 22055 id = 1002 } 
+       name       = "CNRA Headquarters" 
        type       = hq
 	   strength  = 100
-       model     = 1
-	   locked = yes
+       model     = 2
+	  extra1 = police
+	   brigade_model1 = 1
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1003  } 
+       name       = "1st Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 8
+	  
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1004  } 
+       name       = "2nd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	  
+      }
+    }
+	landunit = 
+   {  location = 1369 # Guangzhou
+     name     = "Guangzhou National Revolutionary Army" 
+     id       = {  type = 22055 id = 1005  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1006 } 
+       name       = "3rd Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 8
+	   extra1 = artillery
+	   brigade_model1 = 4
+	  
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1007  } 
+       name       = "4th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 7
+	   extra1 = artillery
+	   brigade_model1 = 4
+	   
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1008  } 
+       name       = "5th division" 
+       type       = infantry
+	   strength  = 100
+       model     = 7
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1009  } 
+       name       = "Guangzhou NRA Reserves" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   
+      }
+	 }
+	landunit = 
+   {  location = 1369 # Guangzhou
+     name     = "Guangzhou Red Army" 
+     id       = {  type = 22055 id = 1010  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1011 } 
+       name       = "1st Guangzhou Red Guards" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1012  } 
+       name       = "2nd Guangzhou Red Guards" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   
+      }
+	 
+    }
+	landunit = 
+   {  location = 1369 # Guangzhou
+     name     = "Soviet Military Mission" 
+     id       = {  type = 22055 id = 1013  } 
+     Division = 
+     {  experience = 30
+       id         = {  type = 22055 id = 1014 } 
+       name       = "1-ya Kitayskaya Motostrelkovaya Diviziya" 
+       type       = motorized
+	   strength  = 100
+       model     = 0
+	   extra1 = light_armor_brigade 
+       brigade_model1     = 3
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1015 } 
+       name       = "2-ya Kitayskaya Motostrelkovaya Diviziya" 
+       type       = motorized
+	   strength  = 100
+	   model = 0
+	   extra1 = light_armor_brigade 
+       brigade_model1     = 3
+      }
+
+    }
+######################
+	# Changsha Task Force #
+	######################
+	landunit = 
+   {  location = 1308 # Changsha
+     name     = "Changsha National Revolutionary Army" 
+     id       = {  type = 22055 id = 1016  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1017 } 
+       name       = "6th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   extra1 = artillery 
+       brigade_model1     = 5
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1018 } 
+       name       = "7th Division" 
+       type       = infantry
+	   strength  = 95
+       model     = 6
+	   extra1 = armored_car 
+       brigade_model1     = 2
+	   
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1019  } 
+       name       = "8th Division" 
+       type       = infantry
+	   strength  = 70
+       model     = 5
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1020 } 
+       name       = "9th Division" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1021  } 
+       name       = "Changsha CNRA Reserves" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   
       }
     }
 	landunit = 
    {  location = 1308 # Changsha
-     name     = "Hunan Provincial Security Group" 
-     id       = {  type = 22000 id = 48  } 
+     name     = "CNRA Cavalry Corps" 
+     id       = {  type = 22055 id = 1022  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 49 } 
-       name       = "1st Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 50  } 
-       name       = "2nd Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 51  } 
-       name       = "3rd Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 52  } 
-       name       = "4th Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 53  } 
-       name       = "5th Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 54  } 
-       name       = "6th Zone Security Command" 
-       type       = militia
-	   strength  = 50
-       model     = 4
-	   locked = yes
-      }
-    }
-
-######################
-	# Guizhou Task Force #
-	######################
-	landunit = 
-   {  location = 1305 # Guiyang
-     name     = "25th Corps" 
-     id       = {  type = 22000 id = 55  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 56 } 
-       name       = "103rd Division" 
-       type       = infantry
+       id         = {  type = 22055 id = 1023 } 
+       name       = "1st 1st Cavalry Division" 
+       type       = cavalry
 	   strength  = 100
-       model     = 5
-	   locked = yes
+       model     = 6
+	   extra1 = engineer 
+       brigade_model1     = 1
+	   
       }
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 57 } 
-       name       = "102nd Division" 
-       type       = infantry
+       id         = {  type = 22055 id = 1024 } 
+       name       = "2nd Cavalry Division" 
+       type       = cavalry
+	   strength  = 100
+       model     = 6
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1025 } 
+       name       = "3rd Cavalry Division" 
+       type       = cavalry
 	   strength  = 75
        model     = 5
-	   locked = yes
-      }
-	 Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 58  } 
-       name       = "New 8th Division" 
-       type       = infantry
-	   strength  = 50
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 59 } 
-       name       = "121st Division" 
-       type       = infantry
-	   strength  = 50
-       model     = 5
-	   locked = yes
-      }
-	  Division = 
-     {  experience = 30 
-       id         = {  type = 22000 id = 60  } 
-       name       = "New 25th Division" 
-       type       = infantry
-	   strength  = 50
-       model     = 5
-	   locked = yes
+	   
       }
     }
+	
+	######################
+	# Chengde Task Force #
+	######################
+	
 	landunit = 
-   {  location = 1305 # Guiyang
-     name     = "Guizhou Provincial Security Group" 
-     id       = {  type = 22000 id = 61  } 
+   {  location = 1310 # Chengde
+     name     = "Chengde Red Army" 
+     id       = {  type = 22055 id = 1026  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 62 } 
-       name       = "1st Provincial Militia" 
+       id         = {  type = 22055 id = 1027 } 
+       name       = "1st Chengde Red Guards" 
        type       = militia
-	   strength  = 50
+	   strength  = 100
        model     = 4
-	   locked = yes
+	   
       }
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 63 } 
-       name       = "2nd Provincial Militia" 
+       id         = {  type = 22055 id = 1028  } 
+       name       = "2nd Chengde Red Guards" 
+       type       = militia
+	   strength  = 100
+       model     = 4
+	   
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1029  } 
+       name       = "3rd Chengde Red Guards" 
        type       = militia
 	   strength  = 50
        model     = 4
-	   locked = yes
+	   
+      }
+	 
+    }
+	
+	######################
+	# Hangzhou Task Force #
+	######################
+	landunit = 
+   {  location = 1345 # Hangzhou
+     name     = "Hangzhou National Revolutionary Army" 
+     id       = {  type = 22055 id = 1030  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1031 } 
+       name       = "10th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   extra1 = artillery 
+       brigade_model1     = 5
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1032 } 
+       name       = "11th Division" 
+       type       = infantry
+	   strength  = 95
+       model     = 6
+	   extra1 = artillery 
+       brigade_model1     = 3
+	   
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1033  } 
+       name       = "12th Division" 
+       type       = infantry
+	   strength  = 90
+       model     = 6
+	   extra1 = cavalry_brigade 
+       brigade_model1     = 3
       }
     }
+	######################
+	# Southwestern Task Force #
+	######################
+	landunit = 
+   {  location = 1300 # Yibin
+     name     = "Southwestern Border Force" 
+     id       = {  type = 22055 id = 1034  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1035 } 
+       name       = "13th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 4
+	   extra1 = artillery 
+       brigade_model1     = 5
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1036 } 
+       name       = "Yibin Red Guards" 
+       type       = militia
+	   strength  = 100
+       model     = 3
+	   
+      }
+	 }
+	######################
+	# Southern Task Force #
+	######################
+	landunit = 
+   {  location = 1374 # 
+     name     = "Southern Border Force" 
+     id       = {  type = 22055 id = 1037  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1038 } 
+       name       = "14th Division" 
+       type       = infantry
+	   strength  = 80
+       model     = 4
+	   extra1 = artillery 
+       brigade_model1     = 5
+      }
+	 Division = 
+     {  experience = 30 
+       id         = {  type = 22055 id = 1039 } 
+       name       = "Viet Nam Quoc Dan Dang" 
+       type       = militia
+	   strength  = 100
+       model     = 2
+	   
+      }
+	 }
 	################
 	# Airforce OOB #
 	###############
@@ -412,22 +536,73 @@ inventions = { 3000027 }
    {  location = 1312 # Hengyang
      name     = "Hunan Air Force" 
      base     = 1312 # Hengyang
-     id       = {  type = 22000 id = 193  } 
+     id       = {  type = 22055 id = 1040  } 
      Division = 
-     {  id           = {  type = 22000 id = 194  } 
+     {  id           = {  type = 22055 id = 1041  } 
        name         = "11th 13th 14th Squadron" 
        type         = tactical_bomber
-       model        = 2
+       model        = 3
        strength     = 25
       } 
 	  Division = 
-     {  id           = {  type = 22000 id = 195  } 
+     {  id           = {  type = 22055 id = 1042  } 
        name         = "12th Squadron" 
        type         = interceptor 
-       model        = 0
+       model        = 1
        strength     = 9 
       } 
     }
+	airunit = 
+   {  location = 1312 # Hengyang
+     name     = "Soviet Air Volunteers" 
+     base     = 1312 # Hengyang
+     id       = {  type = 22055 id = 1043  } 
+     Division = 
+     {  id           = {  type = 22055 id = 1044  } 
+       name         = "1. KIABR" 
+       type         = interceptor
+       model        = 6
+       strength     = 50
+      } 
+    }
+	###navy####
+	navalunit = 
+   {  location = 1369 # Guangzhou 
+     name     = "RoC Naval Academy Fleet" 
+     id       = {  type = 22055 id = 1045  } 
+     base     = 1328
+	   Division = 
+     {  id           = {  type = 22055 id = 1046  } 
+       name  = "1st Destroyer Flotilla" 
+       type  = destroyer
+	   strength = 100
+       model = 1  #Gunboat
+	   experience = 20
+      }
+	  Division = 
+     {  id           = {  type = 22055 id = 1047  } 
+       name  = "2nd Destroyer Flotilla" 
+       type  = destroyer
+	   strength = 80
+       model = 1  #Gunboat
+	   experience = 20
+      }
+	 Division = 
+     {  id           = {  type = 22055 id = 1048  } 
+       name  = "3rd Destroyer Flotilla" 
+       type  = destroyer
+	   strength = 80
+       model = 1  #Gunboat
+	   experience = 20
+      }
+     Division = 
+     {  id    = {  type = 22055 id = 1049 } 
+       name  = "1st Transport Flotilla"
+       type  = transport
+	   strength = 60
+       model = 0  
+      } 
+	}
   } 
  
  

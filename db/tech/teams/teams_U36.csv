@@ -1,8 +1,32 @@
 U36;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
-995001;Tianjin Belgian Tram & Electric Co.;T8807;3;1906;1933;mechanics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-995002;Tianjin Belgian Tram & Electric Co.;T8807;4;1933;1976;mechanics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 995003;Zhili Industrial Bureau;T8808;1;1904;1921;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-995004;Zhili Industrial Bureau;T8808;2;1921;1928;industrial_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+995004;Zhili Industrial Bureau;T8808;4;1921;1999;industrial_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 995005;Tianjin Industrial Bureau;T8808;3;1928;1999;industrial_engineering;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-995006;Wu Peifu;100364;4;1902;1940;combined_arms_focus;small_unit_tactics;centralized_execution;decentralized_execution;training;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-995007;Zhili Army Primary School;100718;1;1905;1926;training;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+995006;Wu Peifu;100364;4;1902;1945;combined_arms_focus;small_unit_tactics;centralized_execution;decentralized_execution;training;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+995007;Zhili Army Primary School;100718;1;1905;1999;training;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55001;CAMCO;T1000;2;1920;1970;aeronautics;fighter_design;general_equipment;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55018;Central Bank of China;100778;2;1924;1999;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55024;Joseph Stilwell;100793;5;1946;1946;training;management;general_equipment;decentralized_execution;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55114;China Science Society;100752;2;1918;1999;mathematics;chemistry;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55204;Tianjin Belgian Tram & Electric Co.;T8807;3;1906;1933;mechanics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55205;Tianjin Belgian Tram & Electric Co.;T8807;4;1933;1976;mechanics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55213;Beijing University;100742;2;1898;1928;mathematics;industrial_engineering;mechanics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55214;Beijing University;100742;3;1928;1945;mathematics;industrial_engineering;mechanics;management;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55215;Beijing University;100742;4;1945;1999;mathematics;industrial_engineering;mechanics;management;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55216;Capital Normal School;100756;3;1912;1923;mathematics;training;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55217;Beijing Normal University;100756;4;1923;1954;mathematics;training;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55218;Beijing Normal University;100756;6;1954;1999;mathematics;training;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55219;Qinghua University;100743;3;1911;1928;mathematics;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55220;National Qinghua University;100743;4;1928;1937;mathematics;industrial_engineering;technical_efficiency;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55221;National Qinghua University;100743;5;1937;1999;mathematics;industrial_engineering;technical_efficiency;chemistry;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55222;Qinghua University;100744;3;1911;1960;mathematics;industrial_engineering;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55223;Qinghua University;100744;4;1960;1999;mathematics;industrial_engineering;technical_efficiency;chemistry;electronics;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55224;National Qinghua Institute of Nuclear Technology;100743;7;1911;1999;avionics;rocketry;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55225;National Qinghua University;100743;6;1911;1999;chemistry;nuclear_engineering;nuclear_physics;industrial_engineering;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55226;Nankai University;100745;4;1919;1945;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55227;Nankai University;100745;6;1945;1999;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55229;Beijing Union Medical College;100757;2;1906;1945;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55230;Beijing Union Medical College;100757;4;1945;1999;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55236;Baoding Officer School;T8803;2;1906;1999;training;decentralized_execution;centralized_execution;mountain_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55237;Baoding Military Academy;T8803;1;1912;1913;training;large_unit_tactics;centralized_execution;individual_courage;cavalry_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+55238;Baoding Military Academy;T8803;3;1912;1999;training;large_unit_tactics;centralized_execution;individual_courage;decentralized_execution;mountain_training;;;;;;;;;;;;;;;;;;;;;;;;;;;x

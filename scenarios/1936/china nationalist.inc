@@ -559,7 +559,7 @@ inventions = { 3000027 }
        name       = "1st Motorized Division" 
        type       = motorized
 	   strength  = 100
-       model     = 1
+       model     = 0
 	   extra1 = armored_car 
        brigade_model1     = 2
 	   
@@ -570,7 +570,7 @@ inventions = { 3000027 }
        name       = "2nd Motorized Division" 
        type       = motorized
 	   strength  = 100
-	   model = 1
+	   model = 0
 	   extra1 = armored_car 
        brigade_model1     = 3
       }
