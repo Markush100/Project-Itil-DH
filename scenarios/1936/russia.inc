@@ -16,7 +16,7 @@ ai_settings = { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes
     oil                    = 500
     supplies               = 1000
     money                  = 100
-    manpower               =  250
+    manpower               = 500
     transports             = 50
     escorts                = 5
 	
@@ -33,8 +33,8 @@ ai_settings = { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes
    chiefofnavy            = {  type = 9 id = 515087 } 
    chiefofair             = {  type = 9 id = 515094 }
 
-   peacetime_ic_mod = 2.0 
-   peacetime_ic_mod = 2.5
+   peacetime_ic_mod = 1
+   peacetime_ic_mod = 1.5
 
    policy = {
     date  = {  year = 0 month = january day = 0  }
@@ -142,4 +142,190 @@ inventions = { 3000027 }
 
 
 #OOB
+
+
+
+ landunit = 
+   {  id       = {  type = 10849 id = 1  } 
+     name     = "1-ya Armiya" 
+     location = 1163 
+     leader   = 515421 #Denikin
+     Division = 
+     {  id       = {  type = 10849 id = 2  } 
+       name     = "1-ya Pekhotnaya Diviziya" 
+       strength = 100 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 3  } 
+       name     = "2-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 7
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 4  } 
+       name     = "3-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 7
+      } 
+      Division = 
+     {  id       = {  type = 10849 id = 5  } 
+       name     = "4-ya Pekhotnaya Diviziya" 
+       strength = 100 
+       type     = infantry 
+     model     = 7
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 6  } 
+       name     = "5-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 7  } 
+       name     = "6-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 6
+      } 
+  }
+
+  landunit = 
+   {  id       = {  type = 10849 id = 8  } 
+     name     = "I Kavaleriyskiy Korpus" 
+     location = 1167 
+     leader = 515860 #Krasnov
+     Division = 
+     {  id       = {  type = 10849 id = 9  } 
+       name     = "1-ya Buryatskaya diviziya" 
+       strength = 100 
+       type     = cavalry 
+     model     = 5
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 10  } 
+       name     = "2-ya Buryatskaya diviziya" 
+       strength = 100 
+       type     = cavalry 
+     model     = 5
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 11  } 
+       name     = "3-ya Buryatskaya diviziya" 
+       strength = 100 
+       type     = cavalry 
+     model     = 6
+      }
+  } 
+
+  landunit = 
+   {  id       = {  type = 10849 id = 12  } 
+     name     = "2-ya Armiya" 
+     location = 1167 
+     leader   = 516842 #Wrangel
+     Division = 
+     {  id       = {  type = 10849 id = 13  } 
+       name     = "7-ya Pekhotnaya Diviziya" 
+       strength = 100 
+       type     = infantry 
+     model     = 8
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 14  } 
+       name     = "8-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 7
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 15  } 
+       name     = "9-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 7
+      } 
+      Division = 
+     {  id       = {  type = 10849 id = 16  } 
+       name     = "10-ya Pekhotnaya Diviziya" 
+       strength = 100 
+       type     = infantry 
+     model     = 7
+  extra = artillery
+  brigade_model = 5
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 17  } 
+       name     = "11-ya Pekhotnaya Diviziya" 
+       strength = 100  
+       type     = infantry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 18  } 
+       name     = "12-ya Pekhotnaya Diviziya" 
+       strength = 100 
+       type     = infantry 
+     model     = 6
+      } 
+  }
+
+
+  landunit = 
+   {  id       = {  type = 10849 id = 19  } 
+     name     = "Blagoveschensk Garnizon" 
+     location = 1176 
+     leader = 515834 #Kornilov
+     Division = 
+     {  id       = {  type = 10849 id = 20  } 
+       name     = "Severnyy Garnizon"  
+       type     = garrison 
+      model     = 4
+      locked    = yes
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 21  } 
+       name     = "Vostochnyy Garnizon" 
+       type     = garrison 
+      model     = 4
+      locked    = yes
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10849 id = 22  } 
+     name     = "Severnaya Armiya" 
+     location = 1179 
+     leader   = 516450 #Semyonov
+     Division = 
+     {  id       = {  type = 10849 id = 23  } 
+       name     = "13-ya Pekhotnaya Diviziya" 
+       strength = 70  
+       type     = infantry 
+     model     = 7
+      }      Division = 
+     {  id       = {  type = 10849 id = 24  } 
+       name     = "14-ya Pekhotnaya Diviziya" 
+       strength = 70  
+       type     = infantry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10849 id = 25  } 
+       name     = "15-ya Pekhotnaya Diviziya" 
+       strength = 70 
+       type     = infantry 
+     model     = 6
+      } 
+  }
+
 }

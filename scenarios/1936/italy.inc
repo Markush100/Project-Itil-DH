@@ -24,6 +24,22 @@
 
        diplomacy =
        {  
+          relation = 
+          {  tag        = LBY 
+            value      = 200 
+            guaranteed = {  day = 29 month = december year = 1934  } 
+           } 
+           relation = { tag = FRA value = -70 }
+           relation = { tag = ENG value = -100 }
+           relation = { tag = AUS value = -150 }
+           relation = { tag = GER value = -150 }
+           relation = { tag = SOV value = -20 }
+           relation = { tag = YUG value = -50 }
+           relation = { tag = SWI value = -80 }
+           relation = { tag = SPR value = -20 }
+           relation = { tag = GRE value = -50 }
+           relation = { tag = CZE value = -100 }
+           relation = { tag = SYR value = -50 }
         }
        SpyInfo                = {  country = "ITA" NumberOfSpies = 9  } 
        # Somaliland

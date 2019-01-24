@@ -132,4 +132,240 @@ inventions = { 3000027 }
 
 
 #OOB
+
+landunit = 
+   {  id       = {  type = 10851 id = 1  } 
+     name     = "Tashkent Muhafizi" 
+     location = 1103 
+     leader = 540001 #Enver
+     Division = 
+     {  id       = {  type = 10851 id = 2  } 
+       name     = "1. Suvari Muhafizi" 
+       type     = cavalry 
+     model     = 1
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 3  } 
+       name     = "1. Suvari Muhafizi" 
+       type     = cavalry 
+     model     = 1
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 4  } 
+       name     = "1. Piyade Muhafizi" 
+       type     = infantry 
+       model     = 1
+       extra = police
+       brigade_model = 0
+      }
+  } 
+
+
+  landunit = 
+   {  id       = {  type = 10851 id = 5  } 
+     name     = "1. Suvari Birligi" 
+     location = 1118 
+     leader = 540005 #Kairatev
+     Division = 
+     {  id       = {  type = 10851 id = 6  } 
+       name     = "1. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 7  } 
+       name     = "4. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 8  } 
+       name     = "3. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      }
+  } 
+
+  landunit = 
+   {  id       = {  type = 10851 id = 9  } 
+     name     = "2. Suvari Birligi" 
+     location = 503 
+     leader = 540011 #Karasu
+     Division = 
+     {  id       = {  type = 10851 id = 10  } 
+       name     = "2. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 11  } 
+       name     = "8. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 12  } 
+       name     = "5. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      }
+  }
+
+    landunit = 
+   {  id       = {  type = 10851 id = 13  } 
+     name     = "3. Suvari Birligi" 
+     location = 505
+     leader = 540008 #Kholmatzhonov
+     Division = 
+     {  id       = {  type = 10851 id = 14  } 
+       name     = "6. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 8
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 15  } 
+       name     = "7. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      } 
+  }
+
+  landunit = 
+   {  id       = {  type = 10851 id = 16  } 
+     name     = "4. Suvari Birligi" 
+     location = 1111
+     leader = 540007 #Cakmak
+     Division = 
+     {  id       = {  type = 10851 id = 17  } 
+       name     = "8. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 18  } 
+       name     = "11. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      } 
+  }
+
+  landunit = 
+   {  id       = {  type = 10851 id = 19  } 
+     name     = "5. Suvari Birligi" 
+     location = 1097
+     leader = 540012 #Aydogan
+     Division = 
+     {  id       = {  type = 10851 id = 20  } 
+       name     = "9. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 21  } 
+       name     = "10. Suvari Tumeni" 
+       type     = cavalry 
+     model     = 7
+      } 
+  }
+
+
+  landunit = 
+   {  id       = {  type = 10851 id = 22  } 
+     name     = "Antisovet. Assonovskaya Armiya" 
+     location = 1110 
+     leader   = 540004 #Assonov
+     Division = 
+     {  id       = {  type = 10851 id = 23  } 
+       name     = "1-ya Belaya Strel'tsovskaya Diviziya" 
+       type     = infantry 
+       model     = 8
+       extra = armored_car
+       brigade_model = 0
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 24  } 
+       name     = "1-yye Belyye Volontery" 
+       type     = militia 
+       model     = 4
+       extra = police
+       brigade_model = 1
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 25  } 
+       name     = "2-yye Belyye Volontery" 
+       type     = militia 
+       model     = 4
+      } 
+  } 
+
+  landunit = 
+   {  id       = {  type = 10851 id = 26  } 
+     name     = "Khwarazm Ordusu" 
+     location = 1101
+     leader = 540002 #Djemal
+     Division = 
+     {  id       = {  type = 10851 id = 27  } 
+       name     = "1. Piyade Alayi" 
+       type     = militia 
+     model     = 3
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 28  } 
+       name     = "2. Piyade Alayi" 
+       type     = militia 
+     model     = 3
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 29  } 
+       name     = "3. Piyade Alayi" 
+       type     = militia 
+     model     = 3
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 30  } 
+       name     = "4. Piyade Alayi" 
+       type     = militia 
+     model     = 3
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 31  } 
+       name     = "5. Piyade Alayi" 
+       type     = militia 
+     model     = 3
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 32  } 
+       name     = "6. Piyade Alayi" 
+       type     = militia 
+     model     = 3
+      } 
+  }
+
+  landunit = 
+   {  id       = {  type = 10851 id = 33  } 
+     name     = "Farsca Seferi Gucu" 
+     location = 1098
+     leader = 540013 #Hajar
+     Division = 
+     {  id       = {  type = 10851 id = 34  } 
+       name     = "1. Farsca Tumeni" 
+       type     = infantry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 35  } 
+       name     = "2. Farsca Tumeni" 
+       type     = infantry 
+     model     = 6
+      } 
+     Division = 
+     {  id       = {  type = 10851 id = 36  } 
+       name     = "3. Farsca Tumeni" 
+       type     = infantry 
+     model     = 6
+      } 
+  }
+
+
+
 }

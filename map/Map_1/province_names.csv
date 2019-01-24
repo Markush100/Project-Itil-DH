@@ -408,7 +408,7 @@ PROV405;Udine;Udine;Udine;Udine;Udine;Udine;Udine;Удине;;;X
 PROV406;Pola;Pola;Pola;Pola;Pola;Pola;Pola;Пола;;;X
 PROV407;Milan;Milan;Milan;Milбn;Milan;Milan;Milan;Милан;;;X
 PROV408;Parma;Parma;Parma;Parma;Parma;Parma;Parma;Парма;;;X
-PROV409;Istanbul;Istanbul;Istanbul;Estambul;Istanbul;Istanbul;Istanbul;Стамбул;;;X
+PROV409;Constantinople;Istanbul;Istanbul;Estambul;Istanbul;Istanbul;Istanbul;Стамбул;;;X
 PROV410;Florence;Florence;Florence;Florencia;Florence;Florence;Florence;Флоренция;;;X
 PROV411;Bologna;Bologna;Bologna;Bolonia;Bologna;Bologna;Bologna;Болонья;;;X
 PROV412;Ancona;Ancona;Ancona;Ancona;Ancona;Ancona;Ancona;Анкона;;;X
@@ -552,7 +552,7 @@ PROV549;Luga;Luga;Luga;Luga;Luga;Luga;Luga;Луга;;;X
 PROV550;Kingisepp;Kingisepp;Kingisepp;Kingisepp;Kingisepp;Kingisepp;Kingisepp;Кингисепп;;;X
 PROV551;Gatchina;Gatchina;Gatchina;Gatchina;Gatchina;Gatchina;Gatchina;Гатчина;;;X
 PROV552;Gdov;Gdov;Gdov;Gdov;Gdov;Gdov;Gdov;Гдов;;;X
-PROV553;Leningrad;Leningrad;Leningrad;Leningrado;Leningrad;Leningrad;Leningrad;Ленинград;;;X
+PROV553;Petrograd;Leningrad;Leningrad;Leningrado;Leningrad;Leningrad;Leningrad;Ленинград;;;X
 PROV554;Kinry;Kinry;Kinry;Kinry;Kinry;Kinry;Kinry;Кимры;;;X
 PROV555;Cherepovets;Cherepovets;Cherepovets;Cherepovets;Cherepovets;Cherepovets;Cherepovets;Череповец;;;X
 PROV556;Vytegra;Vytegra;Vytegra;Vytegra;Vytegra;Vytegra;Vytegra;Вытегра;;;X
@@ -633,7 +633,7 @@ PROV630;Zaporozhye;Zaporozhye;Zaporozhye;Zaporozhie;Zaporozhye;Zaporozhye;Zaporo
 PROV631;Mariupol;Mariupol;Mariupol;Mariupol;Mariupol;Mariupol;Mariupol;Мариуполь;;;X
 PROV632;Dnepropetrovsk;Dnepropetrovsk;Dnepropetrovsk;Dniepropetrovsk;Dnepropetrovsk;Dnepropetrovsk;Dnepropetrovsk;Днепропетровск;;;X
 PROV633;Kupyansk;Kupyansk;Kupyansk;Kupyansk;Kupyansk;Kupyansk;Kupyansk;Купянск;;;X
-PROV634;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Ворошиловград;;;X
+PROV634;Luhansk;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Voroshilovgrad;Ворошиловград;;;X
 PROV635;Bakhmut;Bakhmut;Bakhmut;Bakhmut;Bakhmut;Bakhmut;Bakhmut;Бахмут;;;X
 PROV636;Kharkov;Kharkov;Kharkov;Kharkov;Kharkov;Kharkov;Kharkov;Харьков;;;X
 PROV637;Yevpatoria;Yevpatoria;Yevpatoria;Yevpatoria;Yevpatoria;Yevpatoria;Yevpatoria;Евпатория;;;X
@@ -697,7 +697,7 @@ PROV694;Novorossiysk;Novorossiysk;Novorossiysk;Novorossiysk;Novorossiysk;Novoros
 PROV695;Sochi;Sochi;Sochi;Sochi;Sochi;Sochi;Sochi;Сочи;;;X
 PROV696;Cherkessk;Cherkessk;Cherkessk;Cherkessk;Cherkessk;Cherkessk;Cherkessk;Черкесск;;;X
 PROV697;Volgodonsk;Volgodonsk;Volgodonsk;Volgodonsk;Volgodonsk;Volgodonsk;Volgodonsk;Волгодонск;;;X
-PROV698;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Ворошиловск;;;X
+PROV698;Stavropol;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Voroshilovsk;Ворошиловск;;;X
 PROV699;Elista;Elista;Elista;Elista;Elista;Elista;Elista;Элиста;;;X
 PROV700;Khasavyurt;Khasavyurt;Khasavyurt;Khasavyurt;Khasavyurt;Khasavyurt;Khasavyurt;Хасавюрт;;;X
 PROV701;Nalchik;Nalchik;Nalchik;Nalchik;Nalchik;Nalchik;Nalchik;Нальчик;;;X
@@ -1106,7 +1106,7 @@ PROV1103;Tashkent;Tashkent;Tashkent;Taskent;Tashkent;Tashkent;Tashkent;Ташкент;;
 PROV1104;Khorugh;Khorugh;Khorugh;Khorugh;Khorugh;Khorugh;Khorugh;Хоруг;;;X
 PROV1105;Dushanbe;Dushanbe;Dushanbe;Duchanbй;Dushanbe;Dushanbe;Dushanbe;Душанбе;;;X
 PROV1106;Osh;Osh;Osh;Osh;Osh;Osh;Osh;Ош;;;X
-PROV1107;Frunze;Frunze;Frunze;Frunze;Frunze;Frunze;Frunze;Фрунзе;;;X
+PROV1107;Bishkek;Frunze;Frunze;Frunze;Frunze;Frunze;Frunze;Фрунзе;;;X
 PROV1108;Dzhambul;Dzhambul;Dzhambul;Dzhambul;Dzhambul;Dzhambul;Dzhambul;Джамбул;;;X
 PROV1109;Chimkent;Chimkent;Chimkent;Chimkent;Chimkent;Chimkent;Chimkent;Чимкент;;;X
 PROV1110;Kzyl-Orda;Kzyl-Orda;Kzyl-Orda;Kzyl-Orda;Kzyl-Orda;Kzyl-Orda;Kzyl-Orda;Кзыл-Орда;;;X

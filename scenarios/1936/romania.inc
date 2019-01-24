@@ -50,9 +50,9 @@
    SpyInfo                = {  country = "ROM" NumberOfSpies = 8  } 
    nationalprovinces      = {  285 286 287 288 289 291 292 293 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 621 
     } 
-   ownedprovinces         = { 289 291 293 297 298 299 300 301 302 303 304 305 306 308 309 310 311 312 313 314 315 316 
+   ownedprovinces         = { 289 291 293 295 297 298 299 300 301 302 303 304 305 306 308 309 310 311 312 313 314 315 316 
     } 
-   controlledprovinces    = { 289 291 293 297 298 299 300 301 302 303 304 305 306 308 309 310 311 312 313 314 315 316 
+   controlledprovinces    = { 289 291 293 295 297 298 299 300 301 302 303 304 305 306 308 309 310 311 312 313 314 315 316 
     } 
 	
 	# Romania 1936 techs
@@ -375,7 +375,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 286 
+   {  location = 295 
      name     = "Corp VI Armata" 
      id       = {  type = 20600 id = 31  } 
      Division = 
@@ -435,7 +435,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 288 
+   {  location = 293 
      name     = "Corp Munte" 
      id       = {  type = 20600 id = 39  } 
      Division = 
@@ -539,7 +539,7 @@ inventions = { 3000027 }
       } 
     } 
    landunit = 
-   {  location = 296 
+   {  location = 301 
      name     = "Brigada 2 Graniceri" 
      id       = {  type = 20600 id = 55  } 
      Division = 

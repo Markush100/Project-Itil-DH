@@ -23,7 +23,7 @@
       
    diplomacy = 
    {  relation = {  tag = BUL value = 25  } 
-     relation = {  tag = CZE value = 50 guaranteed = {  day = 29 month = december year = 1932  } } 
+     relation = {  tag = CZE value = 50  } 
      relation = {  tag = FIN value = 35  } 
      relation = {  tag = FRA value = 50  } 
      relation = {  tag = GER value = 50  } 

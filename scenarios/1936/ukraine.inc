@@ -165,12 +165,506 @@ landunit = {
       } 
      Division = 
      {  id       = {  type = 32500 id = 5  } 
-       name     = "1-a Kavaleriysʹka Bryhada" 
+       name     = "1-a Kavaleriys'ka Bryhada" 
        type     = cavalry
      model = 7
        strength = 30 
       } 
     }  
 
-   } 
+landunit = {
+     id       = {  type = 32500 id = 6  } 
+     location = 644
+     name     = "1-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 7  } 
+       name     = "4. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 8  } 
+       name     = "5. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 9  } 
+     location = 634
+     name     = "2-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 10  } 
+       name     = "6. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 11  } 
+       name     = "7. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 12  } 
+     location = 692
+     name     = "3-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 13  } 
+       name     = "8. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 14  } 
+       name     = "9. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 15  } 
+     location = 616
+     name     = "4-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 120  } 
+       name     = "10. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 16  } 
+       name     = "11. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 17  } 
+     location = 245
+     name     = "5-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 18  } 
+       name     = "12. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 19  } 
+       name     = "13. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 20  } 
+     location = 636
+     name     = "6-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 21  } 
+       name     = "14. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 22  } 
+       name     = "15. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 23  } 
+     location = 249
+     name     = "7-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 24  } 
+       name     = "16. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 25  } 
+       name     = "17. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 26  } 
+     location = 605
+     name     = "8-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 27  } 
+       name     = "18. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 28  } 
+       name     = "19. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 29  } 
+     location = 609
+     name     = "9-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 30  } 
+       name     = "20. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 31  } 
+       name     = "21. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 32  } 
+     location = 694
+     name     = "10-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 33  } 
+       name     = "22. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 34  } 
+       name     = "23. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 35  } 
+     location = 691
+     name     = "11-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 36  } 
+       name     = "24. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 37  } 
+       name     = "25. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 38  } 
+     location = 606
+     name     = "12-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 39  } 
+       name     = "26. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 40  } 
+       name     = "27. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 41  } 
+     location = 239
+     name     = "13-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 42  } 
+       name     = "28. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 43  } 
+       name     = "29. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 44  } 
+     location = 607
+     name     = "14-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 45  } 
+       name     = "30. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 46  } 
+       name     = "31. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 47  } 
+     location = 633
+     name     = "15-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 48  } 
+       name     = "32. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 49  } 
+       name     = "33. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 50  } 
+     location = 242
+     name     = "16-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 51  } 
+       name     = "34. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 52  } 
+       name     = "35. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 53  } 
+     location = 630
+     name     = "Nezalezhnyy Kozats'kyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 54  } 
+       name     = "Zaporiz'ki Kozaky" 
+       type     = cavalry 
+     model = 6
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 55  } 
+       name     = "Kubans'ki Kozaky" 
+       type     = cavalry 
+     model = 6
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 56  } 
+       name     = "Azovs'ki Kozaky" 
+       type     = cavalry 
+     model = 6
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 57  } 
+       name     = "Dons'ki Kozaky" 
+       type     = cavalry 
+     model = 6
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 58  } 
+     location = 241
+     name     = "17-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 59  } 
+       name     = "36. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 60  } 
+       name     = "37. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 61  } 
+     location = 240
+     name     = "18-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 62  } 
+       name     = "38. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 63  } 
+       name     = "39. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 64  } 
+     location = 621
+     name     = "19-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 65  } 
+       name     = "40. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 66  } 
+       name     = "41. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 67  } 
+     location = 238
+     name     = "20-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 68  } 
+       name     = "42. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 69  } 
+       name     = "43. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 70  } 
+     location = 619
+     name     = "21-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 71  } 
+       name     = "44. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 72  } 
+       name     = "45. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+  landunit = {
+     id       = {  type = 32500 id = 73  } 
+     location = 618
+     name     = "22-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 74  } 
+       name     = "46. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 75  } 
+       name     = "47. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+  landunit = {
+     id       = {  type = 32500 id = 76  } 
+     location = 626
+     name     = "23-y Prykordonnyy Korpus" 
+     Division = 
+     {  id       = {  type = 32500 id = 77  } 
+       name     = "48. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30 
+      } 
+     Division = 
+     {  id       = {  type = 32500 id = 78  } 
+       name     = "49. Divizija" 
+       type     = infantry 
+     model = 6
+       strength = 30
+      } 
+  }
+
+
+
+
+
+
+}
 
