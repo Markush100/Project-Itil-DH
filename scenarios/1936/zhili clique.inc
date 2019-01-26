@@ -523,7 +523,7 @@ inventions = { 3000027 }
    {  location = 1247 # Jinan
      name     = "Zhili Airforce" 
      base     = 1247 # Jinan
-     id       = {  type = 22222 id = 30  } 
+     id       = {  type = 22222 id = 43  } 
      Division = 
      {  id           = {  type = 22222 id = 32  } 
        name         = "Zhili Bomber Squad" 

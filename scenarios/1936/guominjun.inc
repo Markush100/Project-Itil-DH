@@ -193,14 +193,17 @@ blueprints = {
     }
 
    SpyInfo                = {  country = "U74" NumberOfSpies = 2  } 
-   headofstate            = {  type = 9 id = 1185001  }
-   headofgovernment       = {  type = 9 id = 1185002  }
-   foreignminister        = {  type = 9 id = 1185003  }
-   armamentminister       = {  type = 9 id = 1185004 }
-   ministerofsecurity     = {  type = 9 id = 1185005 }
-   ministerofintelligence = {  type = 9 id = 1185006 }
-   chiefofstaff           = {  type = 9 id = 1185007 }
-   chiefofarmy            = {  type = 9 id = 1185008 }
+   headofstate            = {  type = 9 id = 1185102  }
+   headofgovernment       = {  type = 9 id = 1185106  }
+   foreignminister        = {  type = 9 id = 1185108  }
+   armamentminister       = {  type = 9 id = 1185109 }
+   ministerofsecurity     = {  type = 9 id = 1185110 }
+   ministerofintelligence = {  type = 9 id = 1185111 }
+   chiefofstaff           = {  type = 9 id = 1185105 }
+   chiefofarmy            = {  type = 9 id = 1185112 }
+   chiefofnavy        	  = {  type = 9 id = 1185113 }
+   chiefofair             = {  type = 9 id = 1185008 }
+   
   #####################
 	# Shaanxi Task Force #
 	#####################
