@@ -225,7 +225,7 @@ blueprints = {
 inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
-     democratic        = 5 
+     democratic        = 6 
      political_left    = 4 
      free_market       = 4 
      freedom           = 4 
@@ -235,73 +235,80 @@ inventions = { 3000027 }
     } 
 
    headofstate            = {  type = 9 id = 995109  } 
-   headofgovernment       = {  type = 9 id = 995101  } 
-   foreignminister        = {  type = 9 id = 995102  } 
+   headofgovernment       = {  type = 9 id = 995110  } 
+   foreignminister        = {  type = 9 id = 995115  } 
    armamentminister       = {  type = 9 id = 995103  } 
-   ministerofsecurity     = {  type = 9 id = 995104  } 
-   ministerofintelligence = {  type = 9 id = 995105  } 
-   chiefofstaff           = {  type = 9 id = 995123  } 
-   chiefofarmy            = {  type = 9 id = 995107  } 
-   chiefofnavy            = {  type = 9 id = 995130  } 
-   chiefofair             = {  type = 9 id = 995132  } 
-   dormant_leaders        = {  55368 55375  } 
+   ministerofsecurity     = {  type = 9 id = 995120  } 
+   ministerofintelligence = {  type = 9 id = 995135  } 
+   chiefofstaff           = {  type = 9 id = 995134  } 
+   chiefofarmy            = {  type = 9 id = 995124  } 
+   chiefofnavy            = {  type = 9 id = 995151  } 
+   chiefofair             = {  type = 9 id = 995133  } 
 	
 	##############################################
 	# 29th Army (Hebei/Hebei Autonomous Council) #
 	##############################################
     landunit = 
-   {  location = 1247 # Beijing
-     name     = "Zhili Clique" 
-     id       = {  type = 22000 id = 1  } 
+   {  location = 1244 # Beijing
+     name     = "Zhili 1st Army" 
+     id       = {  type = 22222 id = 1  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 2  } 
+       id         = {  type = 22222 id = 2  } 
        name       = "1st Infantry Division" 
        type       = infantry
 	   strength  = 100
        model     = 6
 	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
       }
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 3 } 
+       id         = {  type = 22222 id = 3 } 
        name       = "2nd Infantry Division" 
        type       = infantry
 	   strength  = 100
        model     = 6
 	   locked = no
+	   extra1 = armored_car
+	   brigade_model1 = 3
       }
-	
+	}
 	landunit = 
    {  location = 1323 # Anyang
-     name     = "Hebei Provincial Security Group" 
-     id       = {  type = 22000 id = 11  } 
+     name     = "Zhili 2nd Army" 
+     id       = {  type = 22222 id = 11  } 
      Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 12  } 
-       name       = "North Hebei Security Group" 
+       id         = {  type = 22222 id = 12  } 
+       name       = "9th Division" 
        type       = infantry
-	   strength  = 25
+	   strength  = 100
        model     = 6
 	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
       }
 	  Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 13  } 
-       name       = "South Hebei Security Group" 
+       id         = {  type = 22222 id = 13  } 
+       name       = "10th Division" 
        type       = infantry
-	   strength  = 25
+	   strength  = 100
        model     = 6
 	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 2
       }
     }
 	landunit = {
 	location = 1244 # 
-     name     = "Zhili Cavalry Army" 
-     id       = {  type = 22000 id = 14  } 
+     name     = "Zhili Cavalry Corps" 
+     id       = {  type = 22222 id = 14  } 
 	  Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 6  } 
+       id         = {  type = 22222 id = 6  } 
        name       = "1st Cavalry Division" 
        type       = cavalry
 	   strength  = 100
@@ -310,7 +317,7 @@ inventions = { 3000027 }
       }
 		 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 15  } 
+       id         = {  type = 22222 id = 15  } 
        name       = "2nd Cavalry Brigade" 
        type       = cavalry
 	   strength  = 80
@@ -319,7 +326,7 @@ inventions = { 3000027 }
       }
 	   Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 16  } 
+       id         = {  type = 22222 id = 16  } 
        name       = "3rd Cavalry Division" 
        type       = cavalry
 	   strength  = 100
@@ -330,12 +337,12 @@ inventions = { 3000027 }
 	}
 
 	landunit = {
-	location = 1244 # 
-     name     = "Zhili 1st Army" 
-     id       = {  type = 22000 id = 17  } 
+	location = 1247# 
+     name     = "Zhili Clique" 
+     id       = {  type = 22222 id = 17  } 
 		 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 4  } 
+       id         = {  type = 22222 id = 4  } 
        name       = "3rd Infantry Division" 
        type       = infantry
 	   strength  = 100
@@ -346,7 +353,7 @@ inventions = { 3000027 }
       }
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 5  } 
+       id         = {  type = 22222 id = 5  } 
        name       = "4th Infantry Division" 
        type       = infantry
 	   strength  = 100
@@ -357,7 +364,7 @@ inventions = { 3000027 }
       }
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 7  } 
+       id         = {  type = 22222 id = 7  } 
        name       = "6th Infantry Brigade" 
        type       = infantry
 	   strength  = 100
@@ -369,7 +376,7 @@ inventions = { 3000027 }
 	
 	 Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 9  } 
+       id         = {  type = 22222 id = 9  } 
        name       = "7th Infantry Brigade" 
        type       = infantry
 	   strength  = 100
@@ -378,7 +385,7 @@ inventions = { 3000027 }
       }
 	  Division = 
      {  experience = 30 
-       id         = {  type = 22000 id = 10  } 
+       id         = {  type = 22222 id = 10  } 
        name       = "Zhili Clique" 
        type       = hq
 	   strength  = 100
@@ -388,7 +395,217 @@ inventions = { 3000027 }
 	
 	}
 	
-    
-  } 
+  landunit = 
+   {  location = 1235 # Fuxin
+     name     = "Zhili 3rd Army" 
+     id       = {  type = 22222 id = 18  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 19  } 
+       name       = "11th Infantry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 20  } 
+       name       = "12th Infantry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = no
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 21  } 
+       name       = "13th Infantry Division" 
+       type       = infantry
+	   strength  = 80
+       model     = 5
+	   locked = no
+      }
+	}
+	landunit = 
+   {  location = 1216 # 
+     name     = "Zhili 4th Army" 
+     id       = {  type = 22222 id = 22  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 23  } 
+       name       = "14th Infantry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 24  } 
+       name       = "15th Infantry Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 5
+	   locked = no
+	   extra1 = engineer
+	   brigade_model1 = 1
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 25  } 
+       name       = "16th Infantry Division" 
+       type       = infantry
+	   strength  = 50
+       model     = 5
+	   locked = no
+	   extra1 = light_armor_brigade
+	   brigade_model1 = 1
+      }
+	}
+	
+	landunit = 
+   {  location = 1216 # 
+     name     = "Zhili Motorized Corps" 
+     id       = {  type = 22222 id = 26  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 27  } 
+       name       = "1st Motorized Division" 
+       type       = motorized
+	   strength  = 100
+       model     = 0
+	   locked = no
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 28  } 
+       name       = "2nd Motorized Division" 
+       type       = motorized
+	   strength  = 100
+       model     = 0
+	   locked = no
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 29  } 
+       name       = "3rd Motorized Division" 
+       type       = motorized
+	   strength  = 50
+       model     = 0
+	   locked = no
+      }
+	}
+	landunit = 
+   {  location = 1241 # 
+     name     = "Tianjin Garrison" 
+     id       = {  type = 22222 id = 30  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 31  } 
+       name       = "Tianjin Garrison" 
+       type       = garrison
+	   strength  = 100
+       model     = 4
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 2
+	   extra2 = anti_air		
+	   brigade_model2 = 1
+      }
+	 }
+	 
+	airunit = 
+   {  location = 1247 # Jinan
+     name     = "Zhili Airforce" 
+     base     = 1247 # Jinan
+     id       = {  type = 22222 id = 30  } 
+     Division = 
+     {  id           = {  type = 22222 id = 32  } 
+       name         = "Zhili Bomber Squad" 
+       type         = tactical_bomber
+       model        = 4
+       strength     = 40
+      } 
+	  Division = 
+     {  id           = {  type = 22222 id = 33  } 
+       name         = "Zhili Intercepter Squads" 
+       type         = interceptor
+       model        = 5
+       strength     = 100
+      } 
+	 }
+	 
+	 navalunit = 
+   {  location = 1241 # Tianjin 
+     name     = "1st Fleet" 
+     id       = {  type = 22222 id = 34  } 
+     base     = 1328
+	  Division = 
+     {  id    = {  type = 22222 id = 35  } 
+       name  = "Beijing"
+       type  = battleship
+	   strength = 100
+       model = 5  #Interwar
+      } 
+	  Division = 
+     {  id    = {  type = 22222 id = 36  } 
+       name  = "Tianjin"
+       type  = light_cruiser
+	   strength = 100
+       model = 3  #Interwar
+      } 
+	 Division = 
+     {  id    = {  type = 22222 id = 37  } 
+       name  = "1st Destroyer Division" 
+       type  = destroyer
+	   strength = 40
+       model = 0  #Gunboat
+	   experience = 10
+      }
+	   Division = 
+     {  id    = {  type = 22222 id = 38  } 
+       name  = "Anyang"
+       type  = light_cruiser
+	   strength = 100
+       model = 2  #Early Light
+      } 
+	  Division = 
+     {  id    = {  type = 22222 id = 39  } 
+       name  = "Fuxin"
+       type  = light_cruiser
+	   strength = 100
+       model = 1  #Scout Cruiser
+      } 
+	  Division = 
+     {  id    = {  type = 22222 id = 40  } 
+       name  = "Zhili"
+       type  = light_cruiser
+	   strength = 100
+       model = 1  #Scout Cruiser
+      } 
+	 Division = 
+     {  id           = {  type = 22222 id = 41  } 
+       name  = "2nd Destroyer Division" 
+       type  = destroyer
+	   strength = 80
+       model = 0  #Gunboat
+	   experience = 20
+      }
+
+	 Division = 
+     {  id           = {  type = 22222 id = 42  } 
+       name  = "3rd Destroyer Division" 
+       type  = destroyer
+	   strength = 40
+       model = 0  #Gunboat
+	   experience = 20
+      }
+	}
+ }
  
  

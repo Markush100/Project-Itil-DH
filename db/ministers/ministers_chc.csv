@@ -98,3 +98,26 @@ CHC;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 260895;Chief of Army;Li Xiannian;1931;1974;1975;LE;Armoured Spearhead Doctrine;Medium;321;X
 260896;Chief of Navy;Jiang Xianyun;1925;1928;1968;LE;Decisive Naval Battle Doctrine;High;9440;X
 260897;Chief of Army;Chen Gang;1927;1962;1962;LE;Guns and Butter Doctrine;High;9441;X
+260898;Head of State;Wang Jingwei;1905;1958;1958;LE;benevolent gentleman;Very High;M52041;X
+260899;Head of Government;Sun Fo;1920;1971;1971;LWR;Happy Amateur;High;9307;X
+260900;Minister of Armament;Sun Fo;1920;1971;1971;LWR;Theoretical Scientist;High;9307;X
+260901;Minister of Security;Sun Fo;1920;1971;1971;LWR;Man of the People;High;9307;X
+260902;Minister of Armament;Song Ziwen;1917;1945;1970;LWR;Administrative Genius;Medium;9235;X
+260903;Foreign Minister;Chen Youren;1922;1935;1945;LE;Iron Fisted Brute;High;9308;X
+260904;Minister of Security;Tan Yankai;1907;1988;1988;LWR;Man of the People;Medium;9528;X
+260905;Minister of Armament;Jiang Jingguo;1937;1989;1989;LE;Mixed Economy;Very High;9423;X
+260906;Minister of Security;Jiang Jingguo;1937;1989;1989;LE;Crime Fighter;Very High;9423;X
+260907;Head of State;Jiang Jingguo;1900;1989;1989;LE;Die-hard Reformer;Very High;9423;X
+260908;Head of Government;Jiang Jingguo;1900;1989;1989;LE;Political Protege;Very High;9423;X
+260909;Head of Military Intelligence;Jiang Jingguo;1922;1989;1989;LE;Political Specialist;Very High;9423;X
+260910;Foreign Minister;Chen Youren;1922;1935;1945;LE;Iron Fisted Brute;Low;9308;X
+260911;Head of Government;Sun Fo;1920;1971;1971;LWR;Happy Amateur;High;9307;X
+260912;Minister of Armament;Sun Fo;1920;1971;1971;LWR;Theoretical Scientist;High;9307;X
+260913;Minister of Security;Sun Fo;1920;1971;1971;LWR;Man of the People;High;9307;X
+260914;Minister of Armament;Zhu Jiahua;1919;1964;1964;LE;Keynesian economy;Medium;9417;X
+260915;Minister of Security;Zhu Jiahua;1919;1964;1964;LE;Crime Fighter;Medium;9417;X
+260916;Minister of Armament;Gu Mengyu;1926;1964;1964;LWR;Construction Magnate;Medium;9418;X
+260917;Minister of Armament;Chen Gongbo;1926;1947;1968;LE;Keynesian economy;Medium;M52014;X
+260918;Head of Government;Tan Yankai;1907;1988;1988;LWR;Naive Optimist;High;9528;X
+260919;Foreign Minister;Wang Chonghui;1905;1949;1949;LWR;Ideological Crusader;High;9524;X
+260920;Head of Government;Wang Jingwei;1905;1958;1958;LE;naive optimist;Very High;M52041;X

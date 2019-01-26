@@ -86,11 +86,6 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55262;Head of Government;Li Zongren;1910;1950;1966;PA;Flamboyant Tough Guy;High;620;X
 55263;Minister of Armament;Huang Shaohong;1924;1961;1961;PA;Keynesian economy;High;9416;X
 55264;Chief of Army;Huang Shaohong;1924;1961;1961;PA;Decisive Battle Doctrine;High;9416;X
-55400;Head of State;Wang Jingwei;1905;1936;1958;SD;Autocratic Charmer;High;M52041;X
-55401;Head of Government;Wang Jingwei;1905;1936;1958;SD;Backroom Backstabber;High;M52041;X
-55402;Foreign Minister;Chen Youren;1922;1935;1945;LWR;Iron Fisted Brute;High;9308;X
-55403;Minister of Armament;Song Ziwen;1917;1945;1970;SD;Administrative Genius;Medium;9235;X
-55404;Minister of Security;Tan Yankai;1907;1931;1931;SD;Man of the People;Medium;9528;X
 55405;Head of Military Intelligence;Zhou Fuhai;1927;1945;1945;SD;Logistics Specialist;High;unknownminister;X
 55406;Chief of Staff;Zhang Fakui;1927;1949;1949;SC;School of Manoeuvre;High;unknownminister;X
 55407;Chief of Army;Tang Shenghzi;1927;1949;1949;SC;Static Defence Doctrine;High;unknownminister;X
@@ -98,17 +93,8 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55409;Head of Military Intelligence;Hu Hanmin;1897;1934;1937;SC;Political Specialist;Very High;9512;X
 55410;Chief of Army;Xu Chongzhi;1906;1933;1951;SC;Decisive Battle Doctrine;Medium;9513;X
 55411;Chief of Air Force;Xu Chongzhi;1906;1933;1951;SC;Army Aviation Doctrine;Medium;9513;X
-55412;Head of Government;Sun Fo;1920;1971;1971;SD;Happy Amateur;High;9307;X
-55413;Minister of Armament;Sun Fo;1920;1971;1971;SD;Theoretical Scientist;High;9307;X
-55414;Minister of Security;Sun Fo;1920;1971;1971;SD;Man of the People;High;9307;X
-55415;Foreign Minister;Chen Youren;1922;1935;1945;LWR;Iron Fisted Brute;Low;9308;X
-55416;Minister of Armament;Zhu Jiahua;1919;1964;1964;LWR;Keynesian economy;Medium;9417;X
-55417;Minister of Security;Zhu Jiahua;1919;1964;1964;LWR;Crime Fighter;Medium;9417;X
-55418;Minister of Armament;Gu Mengyu;1926;1964;1964;SD;Construction Magnate;Medium;9418;X
-55419;Minister of Armament;Chen Gongbo;1926;1947;1968;LWR;Keynesian economy;Medium;M52014;X
-55420;Chief of Navy;Li Zhilong;1921;1927;1963;LWR;Power Projection Doctrine;Very High;9439;X
+55420;Chief of Navy;Li Zhilong;1921;1927;1963;FA;Power Projection Doctrine;Very High;9439;X
 55001;Head of State;Chiang Kai-shek;1912;1976;1976;FA;Jiang_Jieshi_1;Undying;9516;X
-55002;Head of Government;Tan Yankai;1907;1931;1931;SD;Naive Optimist;High;9528;X
 55003;Foreign Minister;Wang Zhengting;1911;1933;1958;SC;Apologetic Clerk;High;3391;X
 55004;Minister of Armament;Song Ziwen;1917;1945;1970;SC;Administrative Genius;Medium;9235;X
 55005;Head of Military Intelligence;Feng Yuxiang;1911;1945;1949;SD;Logistics Specialist;High;9303;X
@@ -121,13 +107,8 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55012;Head of Military Intelligence;He Yingqin;1911;1956;1956;FA;Technical Specialist;High;9306;X
 55013;Chief of Staff;He Yingqin;1911;1956;1956;FA;School of Psychology;High;9306;X
 55014;Chief of Army;He Yingqin;1911;1956;1956;FA;Decisive Battle Doctrine;High;9306;X
-55015;Head of Government;Sun Fo;1920;1971;1971;SD;Happy Amateur;High;9307;X
-55016;Minister of Armament;Sun Fo;1920;1971;1971;SD;Theoretical Scientist;High;9307;X
-55017;Minister of Security;Sun Fo;1920;1971;1971;SD;Man of the People;High;9307;X
 55018;Minister of Armament;Huang Hanliang;1930;1933;1969;SC;Resource Industrialist;Low;9309;X
 55019;Chief of Navy;Chen Shaokuan;1909;1955;1955;PA;Decisive Naval Battle Doctrine;High;9443;X
-55020;Head of Government;Wang Jingwei;1905;1936;1958;FA;Backroom Backstabber;Low;M52041;X
-55021;Foreign Minister;Wang Jingwei;1905;1936;1958;FA;Biased Intellectual;Low;M52041;X
 55022;Head of State;Lin Sen;1927;1944;1944;PA;Weary Stiffneck;High;2341;X
 55023;Chief of Air Force;Huang Bingheng;1922;1950;1966;PA;Carpet Bombing Doctrine;Medium;9404;X
 55024;Chief of Staff;Li Liejun;1908;1946;1946;PA;School of Mass Combat;Medium;9463;X
@@ -148,7 +129,6 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55039;Head of Government;Song Ziwen;1919;1949;1967;SC;Political Protege;High;9235;X
 55040;Foreign Minister;Song Ziwen;1919;1949;1967;SC;The Cloak N Dagger Schemer;High;9235;X
 55041;Head of Military Intelligence;Song Ziwen;1919;1949;1967;SC;Political Specialist;High;9235;X
-55042;Foreign Minister;Wang Chonghui;1905;1949;1949;SD;Ideological Crusader;High;9524;X
 55043;Minister of Security;Wang Chonghui;1905;1949;1949;SD;Silent Lawyer;High;9524;X
 55044;Head of Government;Kong Xiangxi;1911;1957;1957;SC;Corporate Suit;High;M52030;X
 55045;Head of Military Intelligence;Kong Xiangxi;1911;1957;1957;SC;Dismal Enigma;High;M52030;X
@@ -163,11 +143,6 @@ CHI;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 55054;Minister of Armament;Ceng Yangfu;1925;1949;1970;SC;Tank Proponent;High;9420;X
 55055;Minister of Armament;Yu Dawei;1932;1973;1973;SC;Administrative Genius;Medium;9421;X
 55056;Foreign Minister;Yu Dawei;1930;1973;1973;SC;General Staffer;Medium;9421;X
-55057;Minister of Armament;Jiang Jingguo;1937;1989;1989;LWR;Mixed Economy;Very High;9423;X
-55058;Minister of Security;Jiang Jingguo;1937;1989;1989;LWR;Crime Fighter;Very High;9423;X
-55059;Head of State;Jiang Jingguo;1965;1989;1989;LWR;Die-hard Reformer;Very High;9423;X
-55060;Head of Government;Jiang Jingguo;1965;1989;1989;LWR;Political Protege;Very High;9423;X
-55061;Head of Military Intelligence;Jiang Jingguo;1950;1989;1989;LWR;Political Specialist;Very High;9423;X
 55062;Chief of Army;Du Jianshi;1939;1971;1971;SC;Static Defence Doctrine;High;9424;X
 55063;Minister of Armament;Weng Wenhao;1932;1949;1965;SC;Resource Industrialist;Low;9425;X
 55064;Head of Government;Weng Wenhao;1945;1949;1965;SC;Smiling Oilman;Low;9425;X

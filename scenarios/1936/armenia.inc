@@ -164,7 +164,7 @@ landunit =
       model = 1
       } 
     division = { 
-      id = { type = 11710 id = 142 } 
+      id = { type = 11710 id = 143 } 
       name = "Nazarbekian" 
       type = light_cruiser
       model = 1

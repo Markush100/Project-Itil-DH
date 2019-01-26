@@ -1,35 +1,48 @@
 U36;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-995100;Head of State;Feng Guozhang;1903;1999;1999;PA;Resigned Generalissimo;High;9496;X
-995101;Head of Government;Cao Kun;1885;1999;1999;PA;Political Protege;Very High;9531;X
-995102;Foreign Minister;Feng Guozhang;1903;1999;1999;PA;General Staffer;High;9496;X
-995103;Minister of Armament;Gao Enhong;1912;1999;1999;PA;Resource Industrialist;Medium;9534;X
-995104;Minister of Security;Gao Lingwei;1910;1999;1999;PA;Compassionate Gentleman;Medium;9521;X
-995105;Head of Military Intelligence;Cao Kun;1885;1999;1999;PA;Political Specialist;High;9531;X
-995106;Chief of Staff;Zhang Shaozeng;1903;1999;1999;PA;School of Psychology;High;9526;X
-995107;Chief of Army;Zhang Shaozeng;1903;1999;1999;PA;Decisive Battle Doctrine;Medium;9526;X
-995108;Chief of Navy;Du Xigui;1911;1999;1999;PA;Decisive Naval Battle Doctrine;Medium;9535;X
-995109;Head of State;Cao Kun;1885;1999;1999;PA;Autocratic Charmer;High;9531;X
-995110;Head of Government;Gao Lingwei;1910;1999;1999;PA;Political Protege;Very High;9521;X
-995111;Head of State;Wu Peifu;1902;1999;1999;PA;Resigned Generalissimo;High;9529;X
-995112;Head of State;Sun Chuanfang;1901;1999;1999;PA;Autocratic Charmer;Medium;9536;X
-995113;Chief of Army;Sun Chuanfang;1901;1999;1999;PA;Decisive Battle Doctrine;Low;9536;X
-995114;Head of Government;Du Xigui;1911;1999;1999;PA;Old Admiral;High;9535;X
-995115;Foreign Minister;Gao Lingwei;1910;1999;1999;PA;Biased Intellectual;High;9521;X
-995116;Minister of Armament;Liu Enyuan;1895;1999;1999;PA;Military Entrepreneur;Medium;9537;X
-995117;Minister of Armament;Wu Yulin;1895;1999;1999;PA;Battle Fleet Proponent;High;9538;X
-995118;Minister of Armament;Gao Lingwei;1910;1999;1999;PA;Resource Industrialist;Medium;9521;X
-995119;Minister of Armament;Zhang Yinghua;1918;1999;1999;PA;Administrative Genius;Medium;9539;X
-995120;Minister of Security;Deng Xihou;1917;1999;1999;PA;Prince of Terror;Medium;9540;X
-995121;Minister of Security;Wang Tan;1911;1999;1999;PA;Crime Fighter;Low;9532;X
-995122;Head of Military Intelligence;Wu Peifu;1902;1999;1999;PA;Logistics Specialist;High;9529;X
-995123;Chief of Staff;Wu Peifu;1902;1999;1999;PA;School of Manoeuvre;High;9529;X
-995124;Chief of Army;Wu Peifu;1902;1999;1999;PA;Wu_Peifu;Medium;9529;X
-995125;Chief of Staff;Wang Tan;1911;1999;1999;PA;School of Mass Combat;Medium;9532;X
-995126;Chief of Army;Wang Tan;1911;1999;1999;PA;Guns and Butter Doctrine;Medium;9532;X
-995127;Chief of Staff;Lu Jin;1912;1999;1999;PA;School of Defence;Medium;9533;X
-995128;Chief of Army;Lu Jin;1912;1999;1999;PA;Static Defence Doctrine;High;9533;X
-995129;Chief of Navy;Li Dingxin;1886;1928;1999;PA;Decisive Naval Battle Doctrine;High;9464;X
-995130;Chief of Navy;Wu Yulin;1895;1944;1999;PA;Open Seas Doctrine;Medium;9538;X
-995131;Chief of Air Force;Wu Peifu;1902;1999;1999;PA;Army Aviation Doctrine;Medium;9529;X
-995132;Chief of Air Force;Wang Chengbin;1913;1938;1999;PA;Carpet Bombing Doctrine;Medium;9541;X
+995101;Head of Government;Cao Kun;1885;1939;1939;PA;Political Protege;Very High;9531;X
+995103;Minister of Armament;Gao Enhong;1912;1943;1943;SC;Resource Industrialist;High;9534;X
+995104;Minister of Security;Gao Lingwei;1910;1940;1940;SC;Compassionate Gentleman;High;9521;X
+995105;Head of Military Intelligence;Cao Kun;1885;1939;1939;PA;Political Specialist;High;9531;X
+995109;Head of State;Cao Kun;1885;1939;1939;PA;Cao_Kun;High;9531;X
+995110;Head of Government;Gao Lingwei;1910;1940;1940;SC;Political Protege;Very High;9521;X
+995111;Head of State;Wu Peifu;1902;1939;1939;PA;Resigned Generalissimo;High;9529;X
+995112;Head of State;Sun Chuanfang;1901;1939;1939;PA;Autocratic Charmer;High;9536;X
+995113;Chief of Army;Sun Chuanfang;1901;1939;1939;PA;Decisive Battle Doctrine;Low;9536;X
+995115;Foreign Minister;Gao Lingwei;1910;1940;1940;SC;Biased Intellectual;High;9521;X
+995117;Minister of Armament;Wu Yulin;1895;1944;1944;PA;Battle Fleet Proponent;High;9538;X
+995118;Minister of Armament;Gao Lingwei;1910;1940;1940;SC;Resource Industrialist;High;9521;X
+995120;Minister of Security;Deng Xihou;1917;1964;1964;SC;Prince of Terror;High;9540;X
+995121;Minister of Security;Wang Tan;1911;1941;1941;ML;Crime Fighter;Low;9532;X
+995122;Head of Military Intelligence;Wu Peifu;1902;1939;1939;PA;Logistics Specialist;High;9529;X
+995123;Chief of Staff;Wu Peifu;1902;1939;1939;PA;School of Manoeuvre;High;9529;X
+995124;Chief of Army;Wu Peifu;1902;1939;1939;PA;Wu_Peifu;High;9529;X
+995125;Chief of Staff;Wang Tan;1911;1941;1941;ML;School of Mass Combat;High;9532;X
+995126;Chief of Army;Wang Tan;1911;1941;1941;ML;Guns and Butter Doctrine;High;9532;X
+995127;Chief of Staff;Lu Jin;1912;1946;1946;PA;School of Defence;High;9533;X
+995128;Chief of Army;Lu Jin;1912;1946;1946;PA;Static Defence Doctrine;High;9533;X
+995130;Chief of Navy;Wu Yulin;1895;1944;1944;PA;Open Seas Doctrine;High;9538;X
+995131;Chief of Air Force;Wu Peifu;1902;1939;1939;PA;Army Aviation Doctrine;High;9529;X
+995132;Chief of Air Force;Wang Chengbin;1913;1938;1938;PA;Carpet Bombing Doctrine;High;9541;X
+995133;Chief of Air Force;Bao Bingchen;1913;1952;1952;SC;army aviation doctrine;High;AR210;X
+995134;Chief of Staff;Cai Chengxun;1902;1946;1946;PA;school of defence;High;AR211;X
+995135;Head of Military Intelligence;Chen Tiaoyuan;1902;1943;1943;PA;logistics specialist;High;AR212;X
+995136;Head of State;Ding Zhizhen;1902;1988;1988;ML;die-hard reformer;High;AR213;X
+995137;Head of Government;Ding Zhizhen;1902;1988;1988;ML;old general;High;AR213;X
+995138;Foreign Minister;Ding Zhizhen;1902;1988;1988;ML;ideological crusader;High;AR213;X
+995139;Chief of Staff;Jiang Yanxing;1902;1941;1941;PA;school of psychology;High;AR214;X
+995140;Chief of Staff;Liu Menggen;1902;1945;1945;SC;school of fire support;High;AR215;X
+995141;Foreign Minister;Liu Menggen;1902;1945;1945;SC;the cloak n dagger schemer;High;AR215;X
+995142;Head of Military Intelligence;Liu Menggen;1902;1945;1945;SC;technical specialist;High;AR215;X
+995143;Chief of Army;Liu Zhenhua;1902;1955;1955;SC;commando doctrine army;High;AR216;X
+995144;Minister of Security;Liu Zhenhua;1902;1955;1955;SC;commando doctrine army;High;AR216;X
+995145;Chief of Air Force;Qi Xieyuan‎;1902;1945;1945;SC;Army Aviation Doctrine;High;AR217;X
+995146;Chief of Air Force;Zhang Jingyu;1902;1984;1984;ML;air superiority doctrine;High;AR218;X
+995147;Chief of Air Force;Chen Qingyun;1902;1981;1981;ML;naval aviation doctrine;High;AR219;X
+995148;Minister of Armament;Chen Qingyun;1902;1981;1981;ML;strategic air proponent;High;AR219;X
+995149;Chief of Navy;Sa Zhenbing;1902;1952;1952;SL;indirect approach doctrine;High;AR220;X
+995150;Minister of Armament;Sa Zhenbing;1902;1952;1952;SL;battle fleet proponent;High;AR220;X
+995151;Chief of Navy;Tang Yuming;1902;1975;1975;SC;Old School Admiral;High;AR221;X
+995106;Head of Government;Wang Jiaxuan;1900;1984;1984;SL;happy amateur;Very High;AR223;X
+995107;Foreign Minister;Wang Jiaxuan;1900;1984;1984;SL;great compromiser;Very High;AR223;X
+

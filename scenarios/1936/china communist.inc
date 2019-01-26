@@ -161,12 +161,12 @@ inventions = { 3000027 }
      defense_lobby     = 10 
      interventionism   = 5 
     } 
-   headofstate            = {  type = 9 id = 260848  } 
-   headofgovernment       = {  type = 9 id = 260858  } 
+   headofstate            = {  type = 9 id = 260898  } 
+   headofgovernment       = {  type = 9 id = 260904  } 
    foreignminister        = {  type = 9 id = 260861  } 
-   armamentminister       = {  type = 9 id = 260814  } 
-   ministerofsecurity     = {  type = 9 id = 260856  } 
-   ministerofintelligence = {  type = 9 id = 260868  } 
+   armamentminister       = {  type = 9 id = 260902  } 
+   ministerofsecurity     = {  type = 9 id = 260850  } 
+   ministerofintelligence = {  type = 9 id = 260909  } 
    chiefofstaff           = {  type = 9 id = 260820  } 
    chiefofarmy            = {  type = 9 id = 260867  } 
    chiefofnavy            = {  type = 9 id = 260806  } 
@@ -602,6 +602,14 @@ inventions = { 3000027 }
 	   strength = 60
        model = 0  
       } 
+	  Division = 
+     {  id           = {  type = 22055 id = 1050  } 
+       name  = "Sun Yat-Sen" 
+       type  = light_cruiser
+	   strength = 100
+       model = 1  #Gunboat
+	   experience = 20
+      }
 	}
   } 
  

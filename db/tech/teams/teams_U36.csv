@@ -1,12 +1,11 @@
 U36;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
 995003;Zhili Industrial Bureau;T8808;1;1904;1921;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-995004;Zhili Industrial Bureau;T8808;4;1921;1999;industrial_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+995004;Zhili Industrial Bureau;T8808;4;1921;1999;industrial_engineering;technical_efficiency;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 995005;Tianjin Industrial Bureau;T8808;3;1928;1999;industrial_engineering;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 995006;Wu Peifu;100364;4;1902;1945;combined_arms_focus;small_unit_tactics;centralized_execution;decentralized_execution;training;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 995007;Zhili Army Primary School;100718;1;1905;1999;training;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55001;CAMCO;T1000;2;1920;1970;aeronautics;fighter_design;general_equipment;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55018;Central Bank of China;100778;2;1924;1999;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-55024;Joseph Stilwell;100793;5;1946;1946;training;management;general_equipment;decentralized_execution;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55114;China Science Society;100752;2;1918;1999;mathematics;chemistry;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55204;Tianjin Belgian Tram & Electric Co.;T8807;3;1906;1933;mechanics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55205;Tianjin Belgian Tram & Electric Co.;T8807;4;1933;1976;mechanics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -30,3 +29,5 @@ U36;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 55236;Baoding Officer School;T8803;2;1906;1999;training;decentralized_execution;centralized_execution;mountain_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55237;Baoding Military Academy;T8803;1;1912;1913;training;large_unit_tactics;centralized_execution;individual_courage;cavalry_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 55238;Baoding Military Academy;T8803;3;1912;1999;training;large_unit_tactics;centralized_execution;individual_courage;decentralized_execution;mountain_training;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+155237;Zhang Jingyu Aviation Committee;ART200;3;1912;1999;bomber_tactics;aircraft_testing;fighter_tactics;rocketry;piloting;fighter_design;;;;;;;;;;;;;;;;;;;;;;;;;;x
+155238;Tang Yuming;ART201;5;1912;1975;large_taskforce_tactics;naval_artillery;naval_training;seamanship;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
