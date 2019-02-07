@@ -549,7 +549,7 @@ inventions = { 3000027 }
        name         = "12th Squadron" 
        type         = interceptor 
        model        = 1
-       strength     = 9 
+       strength     = 35 
       } 
     }
 	airunit = 

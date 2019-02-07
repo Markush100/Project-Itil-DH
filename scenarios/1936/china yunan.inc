@@ -158,44 +158,7 @@ blueprints = {
    # CHINA 1936 OOB 
    # Type = 22100
    # ###### 
-   # Xikang
-   # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15451250&viewfull=1#post15451250
-	landunit = 
-   {  location = 1292 # Ya'an
-     name     = "24th Corps" 
-     # leader =  
-     id       = {  type = 22100 id = 1  } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22100 id = 2  } 
-       name       = "136th Division" 
-       type     = militia 
-       strength   = 33
-       model      = 3
-	   extra1 = police
-	   brigade_model1 = 1
-      }
-      Division = 
-     {  experience = 30 
-       id         = {  type = 22100 id = 3  } 
-       name       = "137th Division" 
-       type     = militia
-       strength   = 33
-       model      = 3
-	   extra1 = police
-	   brigade_model1 = 1
-      } 
-     Division = 
-     {  experience = 30 
-       id         = {  type = 22100 id = 4  } 
-       name       = "138th Division" 
-       type       = militia
-       strength   = 33
-       model      = 3
-	   extra1 = police
-	   brigade_model1 = 1
-      }
-    }
+   #
 	#Yunnan
 	landunit = 
    {  location = 1390 # Kunming

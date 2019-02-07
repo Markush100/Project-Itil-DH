@@ -201,8 +201,8 @@ blueprints = {
    ministerofintelligence = {  type = 9 id = 1185111 }
    chiefofstaff           = {  type = 9 id = 1185105 }
    chiefofarmy            = {  type = 9 id = 1185112 }
-   chiefofnavy        	  = {  type = 9 id = 1185113 }
-   chiefofair             = {  type = 9 id = 1185008 }
+   chiefofnavy        	  = {  type = 9 id = 1185101 }
+   chiefofair             = {  type = 9 id = 1185113 }
    
   #####################
 	# Shaanxi Task Force #
@@ -296,7 +296,7 @@ blueprints = {
      dig_in   = 20.000 
     }
 	landunit = 
-   {  location = 1296 # Guanxian
+   {  location = 1256 # Guanxian
      name     = "2nd Army Front" 
      id       = {  type = 24000 id = 5  } 
      Division = 
@@ -318,7 +318,7 @@ blueprints = {
      dig_in   = 20.000 
     }
 	landunit = 
-   {  location = 1296 # Guanxian
+   {  location = 1255 # Guanxian
      name     = "4th Army Front" 
      id       = {  type = 24000 id = 8  } 
      Division = 
@@ -356,7 +356,7 @@ blueprints = {
      dig_in   = 20.000 
     } 
 	landunit = 
-   {  location = 1325 # Nanyang
+   {  location = 1260 # Nanyang
      name     = "16th Army" 
      id       = {  type = 24000 id = 13  } 
      Division = 
@@ -369,6 +369,8 @@ blueprints = {
       } 
      dig_in   = 20.000 
     } 
+	
+	
 	
 }
   
