@@ -1,0 +1,39 @@
+###Intro Event
+event = {
+id = 999001
+picture = "Ante_Rebellum_1"
+style = 1
+
+trigger = { ai = no }
+
+date = { day = 1 month = january year = 1936 }
+
+name = "Ante Rebellum"
+desc = "Ante Rebellum is an alternative history mod for Hearts of Iron 2: Darkest Hour, made by a small group of internet friends for fun and to share our love of history and video games. AR's timeline diverges from ours in 1905, where the Russian-Japanese war destabilizes the Russian empire into a civil war that eventually causes the total collapse of the Tsardom.
+Developed by Koach and Markush"
+
+action = {
+name = "Great!"
+command = { }
+}
+}
+
+###Intro Event 2
+event = {
+id = 999002
+picture = "Ante_Rebellum"
+style = 1
+
+trigger = { ai = no }
+
+date = { day = 2 month = january year = 1936 }
+
+name = "The World - 1936"
+desc = "EVT_999002_DESC"
+
+action = {
+name = "Interesting"
+command = { }
+}
+}
+

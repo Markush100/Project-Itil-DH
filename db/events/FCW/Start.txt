@@ -1,0 +1,340 @@
+###Intro Event
+event = {
+id = 100101
+picture = "Franceintro"
+style = 1
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { day = 3 month = january year = 1936 }
+
+name = "France, 1936"
+desc = "EVT_100101_DESC"
+
+action = {
+name = "Terrible..."
+command = { }
+}
+}
+
+###National Front 
+event = {
+id = 100102
+picture = "Croixdefeu"
+style = 1
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { day = 10 month = january year = 1936 }
+
+name = "The French National Front"
+desc = "EVT_100102_DESC"
+
+action = {
+name = "Terrible..."
+command = { type = 	dissent value = 10 }
+}
+}
+
+###Popular Front 
+event = {
+id = 100103
+picture = "popularfront"
+style = 1
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { day = 20 month = january year = 1936 }
+
+name = "The French Popular Front"
+desc = "EVT_100103_DESC"
+
+action = {
+name = "Terrible..."
+command = { type = 	dissent value = 10 }
+}
+}
+
+###Elections
+event = {
+id = 100104
+picture = "fraelect"
+style = 1
+
+TAG = { FRA }
+date = { day = 25 month = april year = 1936 }
+
+name = "French legislative elections - 1936"
+desc = "A new age for France is dawning. On one side, the Popular front, a coalition of the French Socialist Party and the Radical-Socialist Republican Party are opposed to the Conservative Republican Federation, and the Far-Right National Front, which even though enjoys popularity among the people, still lacks the political capital and organization to win an election. With the opening of the ballot boxes, violence has erupted on the streets as militants attempt to stop a Popular Front victory."
+
+action = {
+name = "The Popular Front secures victory!"
+command = { type = headofgovernment which = 5011 }
+command = { type = armamentminister which = 5012 }
+command = { type = dissent which = 15 }
+command = { type = setflag which = FRA_END_ELECT }
+}
+}
+
+###Start of War
+event = {
+id = 100105
+picture = "petain_speech"
+style = 1
+
+date = { day = 8 month = may year = 1936 }
+
+TAG = { FRA }
+
+name = "France in Chaos"
+desc = "EVT_100105_DESC"
+
+action = {
+name = "How could it have come to this..."
+command = { type = 	independence which = VIC value = 0 when = 0 }
+command = { type = 	country which = U11 }
+command = { type = 	independence which = U01 value = 0 when = 0 }
+command = { type = 	independence which = U04 value = 0 when = 0 }
+command = { type = 	independence which = U14 value = 0 when = 0 }
+command = { type = 	independence which = U03 value = 0 when = 0 } 
+####French Salvation Front
+command = { type =	secedeprovince which = VIC value = 37 when = 2 }
+command = { type =	secedeprovince which = VIC value = 38 when = 2 }
+command = { type =	secedeprovince which = VIC value = 39 when = 2 }
+command = { type =	secedeprovince which = VIC value = 40 when = 2 }
+command = { type =	secedeprovince which = VIC value = 41 when = 2 }
+command = { type =	secedeprovince which = VIC value = 42 when = 2 }
+command = { type =	secedeprovince which = VIC value = 43 when = 2 }
+command = { type =	secedeprovince which = VIC value = 44 when = 2 }
+command = { type =	secedeprovince which = VIC value = 46 when = 2 }
+command = { type =	secedeprovince which = VIC value = 47 when = 2 }
+command = { type =	secedeprovince which = VIC value = 48 when = 2 }
+command = { type =	secedeprovince which = VIC value = 58 when = 2 }
+command = { type = secedeprovince which = VIC value = 59 when = 2 }
+command = { type = secedeprovince which = VIC value = 60 when = 2 }
+command = { type = secederegion which = VIC value = REGION_ALGERIA when = 2 }
+command = { type = secedearea which = VIC value = AREA_CENTRAL_AFRICA_DESERT when = 2 }
+command = { type = switch_allegiance which = 13500 value = 1 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 9 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 17 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 23 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 29 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 118 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 140 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 160 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 184 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 201 where = VIC } 
+command = { type = event which = 100108 where = VIC } #Policy
+####Action Francaise
+command = { type =	secedeprovince which = U04 value = 63 when = 2 }
+command = { type =	secedeprovince which = U04 value = 64 when = 2 }
+command = { type =	secedeprovince which = U04 value = 95 when = 2 }
+command = { type =	secedeprovince which = U04 value = 96 when = 2 }
+command = { type =	secedeprovince which = U04 value = 97 when = 2 }
+command = { type =	secedeprovince which = U04 value = 100 when = 2 }
+command = { type =	secedeprovince which = U04 value = 102 when = 2 }
+command = { type =	secedeprovince which = U04 value = 106 when = 2 }
+command = { type = event which = 100109 where = U04 } #Policy
+####League of Patriots
+command = { type = 	independence which = U03 value = 0 when = 0 }
+command = { type =	secedeprovince which = U03 value = 69 when = 2 }
+command = { type =	secedeprovince which = U03 value = 70 when = 2 }
+command = { type =	secedeprovince which = U03 value = 71 when = 2 }
+command = { type =	secedeprovince which = U03 value = 72 when = 2 }
+command = { type =	secedeprovince which = U03 value = 73 when = 2 }
+command = { type =	secedeprovince which = U03 value = 74 when = 2 }
+command = { type =	secedeprovince which = U03 value = 75 when = 2 }
+command = { type =	secedeprovince which = U03 value = 76 when = 2 }
+command = { type =	secedeprovince which = U03 value = 61 when = 2 }
+command = { type =	secedeprovince which = U03 value = 62 when = 2 }
+command = { type =	secedeprovince which = U03 value = 65 when = 2 }
+command = { type =	secedeprovince which = U03 value = 57 when = 2 }
+command = { type = switch_allegiance which = 13500 value = 199 where = U03 }
+command = { type = event which = 100110 where = U03 } #Policy
+####CGT-UAC 
+command = { type =	secedeprovince which = U14 value = 90 when = 2 }
+command = { type =	secedeprovince which = U14 value = 91 when = 2 }
+command = { type =	secedeprovince which = U14 value = 92 when = 2 }
+command = { type =	secedeprovince which = U14 value = 93 when = 2 }
+command = { type =	secedeprovince which = U14 value = 86 when = 2 }
+command = { type =	secedeprovince which = U14 value = 87 when = 2 }
+command = { type =	secedeprovince which = U14 value = 89 when = 2 }
+command = { type = switch_allegiance which = 13500 value = 294 where = U14 }
+command = { type = switch_allegiance which = 13500 value = 149 where = U14 }
+command = { type = switch_allegiance which = 13500 value = 167 where = U14 }
+command = { type = event which = 100112 where = U14 } #Policy
+#####Republicans
+command = { type =	secedeprovince which = U01 value = 80 when = 2 }
+command = { type =	secedeprovince which = U01 value = 81 when = 2 }
+command = { type =	secedeprovince which = U01 value = 82 when = 2 }
+command = { type =	secedeprovince which = U01 value = 83 when = 2 }
+command = { type =	secedeprovince which = U01 value = 84 when = 2 }
+command = { type =	secedeprovince which = U01 value = 77 when = 2 }
+command = { type =	secedeprovince which = U01 value = 79 when = 2 }
+command = { type =	secedeprovince which = U01 value = 67 when = 2 }
+command = { type =	secedeprovince which = U01 value = 68 when = 2 }
+command = { type = switch_allegiance which = 13500 value = 20 where = U01 }
+command = { type = switch_allegiance which = 13500 value = 26 where = U01 }
+command = { type = switch_allegiance which = 13500 value = 130 where = U01 }
+command = { type = switch_allegiance which = 13500 value = 174 where = U01 }
+command = { type = event which = 100111 where = U01 } #Policy
+
+###Other 
+
+command = { type =	alliance which = U01 when = 1 }
+command = { type =	alliance which = U14 when = 1 }
+command = { type = event which = 100106 where = VIC } 
+command = { type = event which = 100107 where = VIC when = 7 } 
+command = { type = setflag which = FRA_civil_start }
+
+command = { type = 	set_domestic which = political_left value = 8 }
+command = { type = 	set_domestic which = democratic value = 3 }
+command = { type = 	set_domestic which = free_market value = 4 }
+command = { type = 	set_domestic which = freedom value = 5 }
+command = { type = 	set_domestic which = professional_army value = 9 }
+command = { type = 	set_domestic which = defense_lobby value = 9 }
+command = { type = 	set_domestic which = interventionism value = 7 }
+}
+}
+
+###Formation of the National Front
+event = {
+id = 100106
+picture = "petain_speech"
+style = 1
+
+
+name = "Forging the National Front"
+desc = "In order to defend France from anarchism, we must form a military alliance for the inevitable war."
+
+action = {
+name = "For France!"
+command = { type =	alliance which = U03 when = 1 }
+command = { type =	alliance which = U04 when = 1 }
+}
+}
+
+###Start of War
+event = {
+id = 100107
+picture = "fcw_start"
+style = 1
+
+
+name = "The French Civil War"
+desc = "The time has come. We have organized and set up our forces. Up until now only small street skirmishes have happened between Factions, but it is time for the French Third Republic to be declared defunct, and for us to declare our independence from the anarchists. The French Civil War has started."
+
+action = {
+name = "Travail, famille, patrie"
+command = { type = 	war which = U11 }
+command = { type = setflag which = FCW_start } 
+}
+}
+
+###FSF policy
+event = {
+id = 100108
+style = 1
+
+
+name = "The Petain Government"
+desc = "The government of the French Salvation Front is chosen by marshal Petain. It is a military dictatorship under the iron fist of Petain and his associates."
+
+action = {
+name = "Fair"
+command = { type = 	set_domestic which = political_left value = 3 }
+command = { type = 	set_domestic which = democratic value = 4 }
+command = { type = 	set_domestic which = free_market value = 4 }
+command = { type = 	set_domestic which = freedom value = 5 }
+command = { type = 	set_domestic which = professional_army value = 9 }
+command = { type = 	set_domestic which = defense_lobby value = 9 }
+command = { type = 	set_domestic which = interventionism value = 5 }
+}
+}
+
+###AF policy
+event = {
+id = 100109
+style = 1
+
+
+name = "French Action!"
+desc = "The government of the provisional Kingdom of France is an autocracy led by a council consisting of top Action Francaise members. While we declare ourselves a continuation of the monarchy, we still need to choose who to place as puppet king. For now a regency council is keeping the seat warm for the future king."
+
+action = {
+name = "Fair"
+command = { type = 	set_domestic which = political_left value = 2 }
+command = { type = 	set_domestic which = democratic value = 3 }
+command = { type = 	set_domestic which = free_market value = 3 }
+command = { type = 	set_domestic which = freedom value = 3 }
+command = { type = 	set_domestic which = professional_army value = 9 }
+command = { type = 	set_domestic which = defense_lobby value = 9 }
+command = { type = 	set_domestic which = interventionism value = 8 }
+}
+}
+
+###FPL policy
+event = {
+id = 100110
+style = 1
+
+
+name = "The Patriots of France"
+desc = "The government of the French State is an amalgamation of the Croix-de-Feu army, and the French Patriot League. While the Patriot League controls the civillian posts, the Croix-de-Feu has complete monopoly over the Army."
+
+action = {
+name = "Fair"
+command = { type = 	set_domestic which = political_left value = 1 }
+command = { type = 	set_domestic which = democratic value = 2 }
+command = { type = 	set_domestic which = free_market value = 1 }
+command = { type = 	set_domestic which = freedom value = 2 }
+command = { type = 	set_domestic which = professional_army value = 9 }
+command = { type = 	set_domestic which = defense_lobby value = 9 }
+command = { type = 	set_domestic which = interventionism value = 6 }
+}
+}
+
+###RF policy
+event = {
+id = 100111
+style = 1
+
+
+name = "The True France"
+desc = "Our government is the only one loyal to France, as the Socialists in the north have declared a provisional 'fourth' Republic. Our cabinet mainly consists of officers loyal to liberty, along with the previous cabinet."
+
+action = {
+name = "Fair"
+command = { type = 	set_domestic which = political_left value = 6 }
+command = { type = 	set_domestic which = democratic value = 8 }
+command = { type = 	set_domestic which = free_market value = 8 }
+command = { type = 	set_domestic which = freedom value = 7 }
+command = { type = 	set_domestic which = professional_army value = 9 }
+command = { type = 	set_domestic which = defense_lobby value = 9 }
+command = { type = 	set_domestic which = interventionism value = 7 }
+}
+}
+
+###CGT policy
+event = {
+id = 100112
+style = 1
+
+
+name = "The People's government"
+desc = "Our government mainly consists of trade unionists, whose only wish is to repel the reactionary invaders from the north. We have hastily assembled Revolutionary Guard councils, and we are preparing on fortifying our territory."
+
+action = {
+name = "Fair"
+command = { type = 	set_domestic which = political_left value = 9 }
+command = { type = 	set_domestic which = democratic value = 5 }
+command = { type = 	set_domestic which = free_market value = 4 }
+command = { type = 	set_domestic which = freedom value = 4 }
+command = { type = 	set_domestic which = professional_army value = 7 }
+command = { type = 	set_domestic which = defense_lobby value = 5 }
+command = { type = 	set_domestic which = interventionism value = 1 }
+}
+}

@@ -1035,14 +1035,14 @@ BRIG_MODEL_SOV_1_10;15,2cm M1937 ML-20;15,2cm M1937 ML-20;15,2cm M1937 ML-20;15,
 BRIG_MODEL_SOV_1_11;20,3cm B-4;20,3cm B-4;20,3cm B-4;20,3cm B-4;20,3cm B-4;20,3cm B-4;;203-мм. гаубица обр. 1931 г. (Б-4);;;X
 BRIG_MODEL_SOV_1_12;;;;;;;;;;;X
 BRIG_MODEL_SOV_1_13;;;;;;;;;;;X
-BRIG_MODEL_SOV_2_0;KV-2;KV-2;KV-2;KV-2;KV-2;KV-2;;КВ-2;;;X
+BRIG_MODEL_SOV_2_0;T-2;KV-2;KV-2;KV-2;KV-2;KV-2;;КВ-2;;;X
 BRIG_MODEL_SOV_2_1;SU-76;SU-76;SU-76;SU-76;SU-76;SU-76;;СУ-76;;;X
 BRIG_MODEL_SOV_2_2;SU-152;SU-152;SU-152;SU-152;SU-152;SU-152;;СУ-152;;;X
 BRIG_MODEL_SOV_2_3;ISU-152;ISU-152;ISU-152;ISU-152;ISU-152;ISU-152;;ИСУ-152;;;X
 BRIG_MODEL_SOV_2_4;ISU-152 m45;ISU-152 m45;ISU-152 m45;ISU-152 m45;ISU-152 m45;ISU-152 m45;;ИСУ-152 обр. 1945г.;;;X
 BRIG_MODEL_SOV_2_5;ISU-152K;ISU-152K;ISU-152K;ISU-152K;ISU-152K;ISU-152K;;ИСУ-152K;;;X
 BRIG_MODEL_SOV_2_6;ISU-152M;ISU-152M;ISU-152M;ISU-152M;ISU-152M;ISU-152M;;ИСУ-152M;;;X
-BRIG_MODEL_SOV_6_0;ZiS-30;ZiS-30;ZiS-30;ZiS-30;ZiS-30;ZiS-30;;ЗиС-30;;;X
+BRIG_MODEL_SOV_6_0;ZiL-30;ZiS-30;ZiS-30;ZiS-30;ZiS-30;ZiS-30;;ЗиС-30;;;X
 BRIG_MODEL_SOV_6_1;SU-76;SU-76;SU-76;SU-76;SU-76;SU-76;;СУ-76;;;X
 BRIG_MODEL_SOV_6_2;SU-85;SU-85;SU-85;SU-85;SU-85;SU-85;;Су-85;;;X
 BRIG_MODEL_SOV_6_3;SU-100;SU-100;SU-100;SU-100;SU-100;SU-100;;СУ-100;;;X
@@ -1061,10 +1061,10 @@ BRIG_MODEL_SOV_7_7;T-26 m38;T-26 m38;T-26 m38;T-26 m38;T-26 m38;T-26 m38;;T-26 о
 BRIG_MODEL_SOV_7_8;T-70/80;T-70/80;T-70/80;T-70/80;T-70/80;T-70/80;;T-70/80;;;X
 BRIG_MODEL_SOV_8_0;Mark V Rikardo;Mark V Rikardo;Mark V Rikardo;Mark V Rikardo;Mark V Rikardo;Mark V Rikardo;;Марк V 'Рикардо';;;X
 BRIG_MODEL_SOV_8_1;T-35;T-35;T-35;T-35;T-35;T-35;;T-35;;;X
-BRIG_MODEL_SOV_8_2;KV-1;KV-1;KV-1;KV-1;KV-1;KV-1;;KВ-1;;;X
-BRIG_MODEL_SOV_8_3;KV-85;KV-85;KV-85;KV-85;KV-85;KV-85;;KВ-85;;;X
-BRIG_MODEL_SOV_8_4;IS-2;IS-2;IS-2;IS-2;IS-2;IS-2;;ИС-2;;;X
-BRIG_MODEL_SOV_8_5;T-10;T-10;T-10;T-10;T-10;T-10;;T-10;;;X
+BRIG_MODEL_SOV_8_2;T-1;KV-1;KV-1;KV-1;KV-1;KV-1;;KВ-1;;;X
+BRIG_MODEL_SOV_8_3;T-85;KV-85;KV-85;KV-85;KV-85;KV-85;;KВ-85;;;X
+BRIG_MODEL_SOV_8_4;VIL-2;IS-2;IS-2;IS-2;IS-2;IS-2;;ИС-2;;;X
+BRIG_MODEL_SOV_8_5;VIL-7;T-10;T-10;T-10;T-10;T-10;;T-10;;;X
 BRIG_MODEL_SOV_9_0;;;;;;;;;;;X
 BRIG_MODEL_SOV_9_1;KV-4;KV-4;KV-4;KV-4;KV-4;KV-4;;KВ-4;;;X
 BRIG_MODEL_SOV_10_0;Nakashidze-Charon;Nakashidze-Charon;Nakashidze-Charon;Nakashidze-Charon;Nakashidze-Charon;Nakashidze-Charon;;Накашидзе-Шаррон;;;X
@@ -1183,12 +1183,12 @@ MODEL_SOV_22_5;Project 65-class;Classe Project 65;Classe Project 65;Clase Projec
 MODEL_SOV_22_8;Kynda-class;Classe Kynda;Classe Kynda;Clase Kynda;Kynda-Klasse;Kynda-Klasse;;Проект 58;;;X
 MODEL_SOV_23_0;Kniaz Pozharskii-class;Classe Kniaz Pozharskii;Classe Kniaz Pozharskii;Clase Kniaz Pozharskii;Kniaz Pozharskii-Klasse;Kniaz Pozharskii-Klasse;;класса 'Князь Пожарский';;;X
 MODEL_SOV_23_1;Bayan-class;Classe Bayan;Classe Bayan;Clase Bayan;Bayan-Klasse;Bayan-klasa;;класса 'Баян';;;X
-MODEL_SOV_23_5;Kirov-class;Classe Kirov;Classe Kirov;Clase Kirov;Kirov-Klasse;Kirov-Klasse;;класса 'Киров';;;X
+MODEL_SOV_23_5;Potemkin-class;Classe Kirov;Classe Kirov;Clase Kirov;Kirov-Klasse;Kirov-Klasse;;класса 'Киров';;;X
 MODEL_SOV_23_7;Sverdlov-class;Classe Sverdlov;Classe Sverdlov;Clase Sverdlov;Sverdlov-Klasse;Sverdlov-Klasse;;класса 'Свердлов';;;X
 MODEL_SOV_23_8;Slava-class;Classe Slava;Classe Slava;Clase Slava;Slava-Klasse;Slava-Klasse;;класса 'Слава';;;X
 MODEL_SOV_24_1;Borodino-class;Classe Borodino;Classe Borodino;Clase Borodino;Borodino-Klasse;Borodino-klasa;;класса 'Бородино';;;X
 MODEL_SOV_24_3;Kronshtadt-class;Classe Kronshtadt;Classe Kronshtadt;Clase Kronshtadt;Kronshtadt-Klasse;Kronshtadt-klasa;;класса 'Кронштадт';;;X
-MODEL_SOV_24_5;Stalingrad-class;Classe Stalingrad;Classe Stalingrad;Clase Stalingrad;Stalingrad-Klasse;Stalingrad-klasa;;класса 'Сталинград';;;X
+MODEL_SOV_24_5;Tsaritsyn-class;Classe Stalingrad;Classe Stalingrad;Clase Stalingrad;Stalingrad-Klasse;Stalingrad-klasa;;класса 'Сталинград';;;X
 MODEL_SOV_25_0;Pruitki-class;Classe Pruitki;Classe Pruitki;Clase Pruitki;Pruitki-Klasse;Pruitki-klasa;;класса 'Прыткий';;;X
 MODEL_SOV_25_1;Tverdi-class;Classe Tverdi;Classe Tverdi;Clase Tverdi;Tverdi-Klasse;Tverdi-klasa;;класса 'Твердый';;;X
 MODEL_SOV_25_3;Derzky-class;Classe Derzky;Classe Derzky;Clase Derzky;Derzky-Klasse;Derzky-klasa;;класса 'Дерзкий';;;X

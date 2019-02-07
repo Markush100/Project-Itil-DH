@@ -250,11 +250,11 @@ inventions = { 3000027 }
      democratic        = 9 
      political_left    = 6 
      free_market       = 8 
-     freedom           = 10 
+     freedom           = 9
      professional_army = 5 
      defense_lobby     = 7 
      interventionism   = 5 
-    } 
+    }
 	peacetime_ic_mod       = 0.3 #
    headofstate            = {  type = 9 id = 5001  } 
    headofgovernment       = {  type = 9 id = 5002  } 
@@ -510,6 +510,12 @@ inventions = { 3000027 }
 			extra2 = floatplane
 			brigade_model2 = 4
 			} 
+    division = { 
+      id = { type = 13500 id = 132 } 
+      name = "Courbet" 
+      type = battleship 
+      model = 2 
+      } 
 		division = { 
 			id = { type = 13500 id = 126 } 
 			name = "Primauguet" 
@@ -535,12 +541,6 @@ inventions = { 3000027 }
 		name = "2ème Flotte" 
 		location = 86 
 		base = 86 
-		division = { 
-			id = { type = 13500 id = 132 } 
-			name = "Courbet" 
-			type = battleship 
-			model = 2 
-			} 
 		division = { 
 			id = { type = 13500 id = 133 } 
 			name = "Paris" 
@@ -579,7 +579,7 @@ inventions = { 3000027 }
 			type = destroyer 
 			model = 4
 			} 
-		} 
+		}
 
 	navalunit = { 
 		id = { type = 13500 id = 140 } 
@@ -693,9 +693,9 @@ inventions = { 3000027 }
 			name = "8ème Flottille de Contre-torpilleurs" 
 			type = destroyer 
 			model = 4
-			} 
-		} 
-	navalunit = { 
+			}
+		}
+	navalunit = {
 		id = { type = 13500 id = 174 } 
 		name = "Transport Général" 
 		location = 86 
@@ -724,7 +724,7 @@ inventions = { 3000027 }
 			type = destroyer 
 			model = 4
 			} 
-		}      
+		}
 
 	navalunit = { 
 		id = { type = 13500 id = 184 } 
@@ -743,7 +743,7 @@ inventions = { 3000027 }
 			type = destroyer 
 			model = 0
 			} 
-		} 
+		}
 	# ###############
 	# French Airforce
 	# ###############
@@ -766,14 +766,7 @@ inventions = { 3000027 }
        type     = tactical_bomber 
 	   model = 4
       } 
-     Division = 
-     {  id       = {  type = 13500 id = 191  } 
-       name     = "Groupe de Bombardement Tactique 3" 
-       strength = 100 
-       type     = tactical_bomber 
-	   model = 4
-      } 
-    } 
+    }
    airunit = 
    {  location = 89 
      base     = 89 
@@ -786,7 +779,7 @@ inventions = { 3000027 }
        type     = tactical_bomber 
 	   model = 4
       } 
-    } 
+    }
    airunit = 
    {  location = 55 
      base     = 55 
@@ -806,10 +799,10 @@ inventions = { 3000027 }
        type     = interceptor 
        model    = 7 
       } 
-    } 
+    }
    airunit = 
-   {  location = 89 
-     base     = 89 
+   {  location = 65 
+     base     = 65 
      id       = {  type = 13500 id = 199  } 
      name     = "3ème Groupe de Chasse" 
      Division = 
@@ -819,7 +812,21 @@ inventions = { 3000027 }
        type     = interceptor 
 	   model = 7
       } 
-    } 
+    }
+airunit = 
+   {  id       = {  type = 13500 id = 201  } 
+     name     = "6ère Groupe de Bombardement" 
+     location = 43
+     base     = 43
+     Division = 
+     {  id       = {  type = 13500 id = 202  } 
+       name     = "Groupe de Bombardement Tactique 3" 
+       strength = 100 
+       type     = tactical_bomber 
+     model = 4
+      } 
+    }
+
 
 
    # ################################# 
@@ -827,5 +834,5 @@ inventions = { 3000027 }
    # ################################# 
    #france is shid lol they cant build ships
 
-} 
+}
  

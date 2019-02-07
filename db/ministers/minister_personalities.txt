@@ -2384,7 +2384,7 @@
 		command		= { type = production which = consumer value = 0.0250 }		
 	}
 
-	minister =  { 				#"Michail N. Tukhachevsky"
+	minister =  { 				
 		trait		= "Deep Battle Proponent1"
 		id			= 188
 		name		= NPERSONALITY_DEEPBATTLEDOCTRINE
@@ -2397,13 +2397,12 @@
 		command		= { type = unit which = mechanized when = defence value = -0.0500 }
 		command		= { type = unit which = motorized when = attack value = 0.0500 }
 		command		= { type = unit which = motorized when = defence value = -0.0500 }
-		command		= { type = unit which = infantry when = attack value = 0.0250 }
-		command		= { type = unit which = infantry when = defence value = -0.0500 }
+		command		= { type = unit which = hq when = defence value = 0.1000 }
 		command		= { type = unit which = tactical_bomber when = attack value = 0.0250 }
 		command		= { type = unit which = tactical_bomber when = defence value = 0.0250 }
 	}
 
-	minister =  { 				#"Michail N. Tukhachevsky"
+	minister =  { 				
 		trait		= "Deep Battle Proponent2"
 		id			= 153
 		name		= NPERSONALITY_DEEPBATTLEDOCTRINE
@@ -2419,7 +2418,7 @@
 		command		= { type = unit which = infantry when = attack value = 0.0250 }
 		command		= { type = unit which = infantry when = defence value = -0.0500 }
 		command		= { type = unit which = tactical_bomber when = attack value = 0.0250 }
-		command		= { type = unit which = tactical_bomber when = defence value = 0.0250 }
+		command		= { type = unit which = tactical_bomber when = defence value = -0.0250 }
 	}
 	
 	minister =  { 						#Vyacheslav M. Molotov

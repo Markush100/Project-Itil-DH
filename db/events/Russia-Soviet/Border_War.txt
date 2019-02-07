@@ -1,0 +1,136 @@
+##### Ante Rebellum
+#### Soviet-Russian border war events 
+
+##100001-100003 Intro
+#100001 #General Intro 
+#100002 #Soviet Intro 
+#100003 #Russian Intro
+##100004-  Battles
+
+
+   event = { #Intro Event
+id = 100001
+picture = "sovrus_skirmish1"
+style = 1
+
+TAG = { SOV RUS JAP }
+
+date = { day = 8 month = january year = 1936 }
+
+name = "The Uneasy Peace"
+desc = "The 2nd Russo-Japanese war ended in an unsatisfying stalemate for both sides. The Soviets couldn't reclaim their lost territory, and the Japanese couldn't fulfill their strategic goals. The border separating the Russian State and the SDSR is in a state of constant skirmishing, with larger battles erupting from time to time. The situation is delicate, and a well timed offensive can be the difference between victory or annihilation."
+
+action = {
+name = "Interesting"
+command = { }
+}
+}
+
+   event = { #Intro Event SOV
+id = 100002
+picture = "sovrus_skirmish1"
+style = 1
+
+TAG = { SOV }
+
+date = { day = 29 month = january year = 1936 }
+
+name = "The Traitorous Menace"
+desc = "The Russian State was formed when Kornilov and his White Hundreds gained Japanese support and invaded our far east. The buffer state has become a beacon of hope for delusional counterrevolutionaries seeking to undermine the world revolution. Once a larger border conflict erupts, we will have the chance to finally crush Japanese ambitions in our motherland, however marshal Triandafillov says the Eastern Army won't be prepared for an offensive this year."
+
+action = {
+name = "We shall prevail"
+command = { }
+}
+}
+
+
+   event = { #Intro Event RUS
+id = 100003
+picture = "sovrus_skirmish1"
+style = 1
+
+TAG = { RUS }
+
+date = { day = 29 month = january year = 1936 }
+
+name = "The Red Scourge"
+desc = "The SDSR was unable to stop the heroic advance of our troops during the 2nd Russo-Japanese war. With the aid of Japan we liberated significant territory from the Soviets, and our industry is gaining foot after the massive influx of refugees from the Primorye and Europe. Currently we are in no state to fight the Soviets, however if they are involved in a war we could take the chance and deal the final blow for our Russian motherland."
+
+action = {
+name = "We shall prevail"
+command = { }
+}
+}
+
+
+
+   event = { #1st  Battle
+id = 100004
+picture = "sovrus_skirmish2"
+style = 1
+
+TAG = { SOV }
+
+date = { hour = 8 day = 4 month = august year = 1936 }
+
+name = "Battle of Krasnoyar"
+desc = "EVT_100004_DESC"
+
+ action = {
+name = "They Started It!"
+ai_chance = 15
+command = { type = 	dissent value = 30 }
+command = { type = damage_division which = "11-ya Tankovaya Diviziya" value = SOV where = 20 }
+command = { type = 	war which = RUS }
+command = { type = 	relation which = RUS value = -200 }
+command = { type = 	relation which = JAP value = -200 }
+command = { type = 	relation which = MAN value = -200 }
+command = { type = 	relation which = MON value = -200 }
+command = { type = 	relation which = TRK value = -200 }
+command = { type = unlock_division which = 10848 value = 141  }
+command = { type = unlock_division which = 10848 value = 142  }
+command = { type = unlock_division which = 10848 value = 143  }
+command = { type = unlock_division which = 10848 value = 144  }
+command = { type = unlock_division which = 10848 value = 145  }
+command = { type = unlock_division which = 10848 value = 146  }
+command = { type = unlock_division which = 10848 value = 148  }
+command = { type = unlock_division which = 10848 value = 149  }
+command = { type = unlock_division which = 10848 value = 150  }
+command = { type = unlock_division which = 10848 value = 152  }
+command = { type = unlock_division which = 10848 value = 153  }
+command = { type = unlock_division which = 10848 value = 154  }
+command = { type = unlock_division which = 10848 value = 156  }
+command = { type = unlock_division which = 10848 value = 157  }
+command = { type = unlock_division which = 10848 value = 158  }
+command = { type = unlock_division which = 10848 value = 159  }
+}
+
+ action = {
+name = "It's Too Early"
+ai_chance = 85
+command = { type = 	dissent value = -1 }
+command = { type = damage_division which = "11-ya Tankovaya Diviziya" value = SOV where = 10 }
+command = { type = 	relation which = RUS value = -20 }
+command = { type = 	relation which = JAP value = 30 }
+command = { type = unlock_division which = 10848 value = 141  }
+command = { type = unlock_division which = 10848 value = 142  }
+command = { type = unlock_division which = 10848 value = 143  }
+command = { type = unlock_division which = 10848 value = 144  }
+command = { type = unlock_division which = 10848 value = 145  }
+command = { type = unlock_division which = 10848 value = 146  }
+command = { type = unlock_division which = 10848 value = 148  }
+command = { type = unlock_division which = 10848 value = 149  }
+command = { type = unlock_division which = 10848 value = 150  }
+command = { type = unlock_division which = 10848 value = 152  }
+command = { type = unlock_division which = 10848 value = 153  }
+command = { type = unlock_division which = 10848 value = 154  }
+command = { type = unlock_division which = 10848 value = 156  }
+command = { type = unlock_division which = 10848 value = 157  }
+command = { type = unlock_division which = 10848 value = 158  }
+command = { type = unlock_division which = 10848 value = 159  }
+}
+
+
+}
+

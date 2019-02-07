@@ -1,0 +1,99 @@
+###Rise of the Red Militia - SPF
+event = {
+id = 100301
+picture = "spf_mobilization"
+style = 1
+country = u11
+
+date = { day = 9 month = may year = 1936 }
+
+
+name = "Creation of the French Red Army"
+desc = "Following the betrayal of most the military, the PCF has assembled an emergency council to elect officers and organize what little manpower remained loyal to France. Along with that, thousands of workers and farmers flock to enlist in our Red Guard militias, in the hope to defend their hard-gained rights."
+
+action = {
+name = "For Socialism!"
+command = { type =	strength which = all when = 0 where = 1 value = 1 org = 1 }
+command = { type = add_division which = "etat-major general de l'armee rouge" when = 1 value = hq }
+command = { type = add_division which = "1ère Infanterie Rouge" when = 8 value = infantry } 
+command = { type = add_division which = "2ème Infanterie Rouge" when = 7 value = infantry }
+command = { type = add_division which = "1er Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "2e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "3e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "4e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "5e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "6e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "7e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "8e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "9e Garde Rouge" when = 5 value = militia }
+command = { type = add_division which = "10e Garde Rouge" when = 5 value = militia }
+command = { type = add_brigade value = artillery when = 5 }
+command = { type = add_brigade value = artillery when = 4 }
+command = { type = add_brigade value = artillery when = 4 }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+}
+}
+
+###The Republican Forces - Republicans
+event = {
+id = 100302
+picture = "u01_mobilization"
+style = 1
+country = U01
+
+date = { day = 12 month = may year = 1936 }
+
+
+name = "The defense of France"
+desc = "As the only sane faction in this chaos, we have been joined by many infantrymen and people simply wanting to stop oppurtunistic socialists and integralists from destroying what France stands, and has always stood for."
+
+action = {
+name = "For the Republic!"
+command = { type =	strength which = all when = 0 where = 1 value = 1 org = 1 }
+command = { type = add_division which = "QG de l'armee libre" when = 2 value = hq }
+command = { type = add_division which = "1re Reserve d'Infanterie Libre" when = 8 value = infantry }
+command = { type = add_division which = "2e Reserve d'Infanterie Libre" when = 8 value = infantry }
+command = { type = add_division which = "3e Reserve d'Infanterie Libre" when = 8 value = infantry }
+command = { type = add_division which = "4e Reserve d'Infanterie Libre" when = 8 value = infantry }
+command = { type = add_division which = "5e Reserve d'Infanterie Libre" when = 8 value = infantry }
+command = { type = add_division which = "1ère Milice Libre" when = 5 value = militia }
+command = { type = add_division which = "2e Milice Libre" when = 5 value = militia }
+command = { type = add_division which = "3e Milice Libre" when = 5 value = militia }
+command = { type = add_division which = "4e Milice Libre" when = 5 value = militia }
+command = { type = add_division which = "5e Milice Libre" when = 5 value = militia }
+command = { type = add_brigade value = artillery when = 5 }
+command = { type = add_brigade value = artillery when = 4 }
+command = { type = add_brigade value = artillery when = 4 }
+}
+}
+
+###Rise of the Anarchist Guard - CGT
+event = {
+id = 100303
+picture = "cgt_mobilization"
+style = 1
+country = U14
+
+date = { day = 13 month = may year = 1936 }
+
+
+
+name = "Formation of Revolutionary Guards"
+desc = "We finally have the chance to create a true workers' state in France. However, can we defend it? We have taken the example of Italy, and have formed Revolutionary Guard councils all over Provence and Savoy. Italy is sending military attaches over the border to help us organize the army."
+
+action = {
+name = "For Socialism!"
+command = { type =	strength which = all when = 0 where = 1 value = 1 org = 1 }
+command = { type = add_division which = "1er Garde Revolutionnaire" when = 5 value = militia }
+command = { type = add_division which = "2e Garde Revolutionnaire" when = 5 value = militia }
+command = { type = add_division which = "3e Garde Revolutionnaire" when = 5 value = militia }
+command = { type = add_division which = "4e Garde Revolutionnaire" when = 4 value = militia }
+command = { type = add_division which = "5e Garde Revolutionnaire" when = 4 value = militia }
+command = { type = add_division which = "6e Garde Revolutionnaire" when = 4 value = militia }
+command = { type = add_division which = "7e Garde Revolutionnaire" when = 4 value = militia }
+command = { type = add_division which = "8e Garde Revolutionnaire" when = 4 value = militia }
+command = { type = add_division which = "9e Garde Revolutionnaire" when = 4 value = militia }
+command = { type = add_division which = "10e Garde Revolutionnaire" when = 5 value = militia }
+}
+}

@@ -1,0 +1,7 @@
+999001-1000000 Generic
+91001-92000 Soviet Republic
+100000-100100 Soviet-Russian Border War
+100101-100200 French civil war start
+100201-100300 National Front events
+100301-100400 National Front events
+101101-101200 News Events
