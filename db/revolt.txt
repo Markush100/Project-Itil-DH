@@ -862,22 +862,6 @@
  } 
 
  
- U01 = { # Free France 
- date = { day = 0 month = january year = 1914 } 
- expirydate = { day = 29 month = december year = 1999 } 
- minimum = { 
- 85 86 89 81 82 80 70 84 79 67 40 77 71 68 
- 75 69 62 65 66 54 63 100 59 50 99 45 55 48 52 
- 60 61 37 38 39 57 58 42 43 44 47 72 73 93 78 74 
- 107 95 97 88 64 91 83 105 106 104 96 
- } 
- extra = { 
- 51 49 87 90 94 907 917 76 92 98 41 46 53 56 101 102 103 132 
- } 
- country = { ENG }
- capital = 55
- revolt = no  
- } 
  
  
  GAB = { # Gabon
@@ -2315,17 +2299,7 @@ SIB = { # Siberia
  capital = 1993 #Caracas 
  }  
  
- #VIC = { # Vichy
- #date = { day = 0 month = january year = 1933 } 
- #expirydate = { day = 29 month = december year = 1999 } 
- #minimum = { 78 72 73 75 76 84  80 77 74 71 82 81 89 93 85 94 86 87 90 83 64 88 91 92 79 } 
- # extra = { 
- #} 
- #capital = 72 
- #revolt = no 
- #regular_id = FRA 
- #intrinsic_gov_type = fascist 
- #} 
+ 
  
  VIE = { # Vietnam
  date = { day = 0 month = january year = 1914 } 
@@ -2442,15 +2416,69 @@ SIB = { # Siberia
 
 
 
+###Ante Rebellum 
+
+U11 = { # Socialist France 
+ date = { day = 0 month = january year = 1914 } 
+ expirydate = { day = 29 month = december year = 1999 } 
+ minimum = { 55 }
+ capital = 55    
+ 
+ revolt = no 
+ regular_id = FRA 
+ intrinsic_gov_type = leninist 
+ } 
+
+VIC = { # Petain France
+ date = { day = 0 month = january year = 1933 } 
+ expirydate = { day = 29 month = december year = 1999 } 
+ minimum = { 37 } 
+ capital = 37 
+ revolt = no 
+ regular_id = FRA 
+ intrinsic_gov_type = paternal_autocrat 
+ } 
 
 
+U14 = { # CGT 
+ date = { day = 0 month = january year = 1914 } 
+ expirydate = { day = 29 month = december year = 1999 } 
+ minimum = { 89 }
+ capital = 89 
+ revolt = no 
+ regular_id = FRA 
+ intrinsic_gov_type = left_wing_radical 
+ } 
 
+U04 = { # Action Francaise 
+ date = { day = 0 month = january year = 1914 } 
+ expirydate = { day = 29 month = december year = 1999 } 
+ minimum = { 106 }
+ capital = 106
+ revolt = no 
+ regular_id = FRA 
+ intrinsic_gov_type = fascist 
+ } 
 
+ U03 = { # Patriot League
+ date = { day = 0 month = january year = 1914 } 
+ expirydate = { day = 29 month = december year = 1999 } 
+ minimum = { 73 }
+ capital = 73
+ revolt = no 
+ regular_id = FRA 
+ intrinsic_gov_type = nazi 
+ } 
 
-
-
-
-
+ U01 = { # Republican France
+ date = { day = 0 month = january year = 1914 } 
+ expirydate = { day = 29 month = december year = 1999 } 
+ minimum = { 68 }
+ capital = 68
+ revolt = no 
+ regular_id = FRA 
+ intrinsic_gov_type = social_liberal 
+ }
 
 
 
@@ -2549,21 +2577,6 @@ U10 = { # Dutch Socialist Union
  intrinsic_gov_type = leninist 
  } 
  
-U11 = { # FRA 
- date = { day = 0 month = january year = 1914 } 
- expirydate = { day = 29 month = december year = 1999 } 
- minimum = { 55 102 104 107 }
- min = 1 
- extra = { 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 56 57 58 59 60 
-	61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 
-	84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 103 105 106 } 
- min_extra = 10
- capital = 55    
- 
- revolt = no 
- regular_id = FRA 
- intrinsic_gov_type = leninist 
- } 
  
 U12 = { # ENG 
  date = { day = 0 month = january year = 1914 } 
@@ -2589,19 +2602,7 @@ U13 = { # HUN
  intrinsic_gov_type = leninist 
  } 
  
-U14 = { # ITA 
- date = { day = 0 month = january year = 1914 } 
- expirydate = { day = 29 month = december year = 1999 } 
- minimum = { 398 400 407 419 421 430 434 }
- min = 1
- extra = { 393 394 395 396 399 401 402 403 404 405 406 408 410 411 412 
-	413 414 415 416 417 418 420 422 423 424 425 426 427 428 431 432 433 435 } 
- min_extra = 1
- capital = 419 
- revolt = no 
- regular_id = ITA 
- intrinsic_gov_type = leninist 
- } 
+
  
 U15 = { # POR 
  date = { day = 0 month = january year = 1914 } 

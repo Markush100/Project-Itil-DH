@@ -1,0 +1,105 @@
+###FCW Factions form
+event = {
+id = 101101
+picture = "petain_speech2"
+style = 2
+
+trigger = {
+ai = no 
+flag = FRA_civil_start
+}
+
+
+name = "Trouble in France"
+desc = "Terrible news from France. Marshal Petain and his National Front have contested the legitimacy of the late elections, calling upon voting fraud by the Socialist Party of France. Various Right-Wing groups have stormed local government buildings and thousands of militans rise in hastily organized militias. Various pretenders claiming to be france have rejected rule from Paris, and several proto-states are being formed. It would seem that a civil war, the worst case scenario, is now inevitable."
+
+action = {
+trigger = { or = {
+ideology = leninist
+ideology = stalinist
+}
+ }
+name = "May comrade Souvarine prevail!"
+command = { type = dissent value = 1 } 
+command = { type = 	relation which = U11 value = 150 }
+command = { type = 	relation which = U14 value = 50 }
+command = { type = 	relation which = U01 value = 10 }
+command = { type = 	relation which = U04 value = -150 }
+command = { type = 	relation which = U03 value = -150 }
+command = { type = 	relation which = VIC value = -100 }
+}
+
+
+action = {
+trigger = { or = {
+ideology = nazi
+ideology = fascist
+}
+ }
+name = "God is with Taittinger!"
+command = { type = dissent value = 1 } 
+command = { type = 	relation which = U11 value = -150 }
+command = { type = 	relation which = U14 value = -150 }
+command = { type = 	relation which = U01 value = -100 }
+command = { type = 	relation which = U04 value = -50 }
+command = { type = 	relation which = U03 value = 150 }
+command = { type = 	relation which = VIC value = 100 }
+}
+
+action = {
+trigger = { or = {
+ideology = left_wing_radical
+}
+ }
+name = "Monatte will bring the revolution!"
+command = { type = dissent value = 1 } 
+command = { type = 	relation which = U11 value = 50 }
+command = { type = 	relation which = U14 value = 150 }
+command = { type = 	relation which = U01 value = -50 }
+command = { type = 	relation which = U04 value = -150 }
+command = { type = 	relation which = U03 value = -150 }
+command = { type = 	relation which = VIC value = -100 }
+}
+
+action = {
+trigger = { or = {
+ideology = social_liberal
+ideology = social_democrat
+ideology = social_conservative
+ideology = market_liberal
+ideology = paternal_autocrat
+}
+ }
+name = "Not France!"
+command = { type = dissent value = 1 } 
+command = { type = 	relation which = U11 value = -50 }
+command = { type = 	relation which = U14 value = -50 }
+command = { type = 	relation which = U01 value = 100 }
+command = { type = 	relation which = U04 value = -150 }
+command = { type = 	relation which = U03 value = -150 }
+command = { type = 	relation which = VIC value = 50 }
+}
+
+}
+
+###FCW Start
+event = {
+id = 101101
+picture = "fcw1"
+style = 2
+
+trigger = {
+ai = no 
+flag = FCW_start
+}
+
+
+name = "Civil war in France!!!"
+desc = "Petain has announced in a radio communication this morning that the current Paris government is an invalid Judeo-Soviet plot. A few hours later, large scale fighting was reported in the suburbs of Paris as troops loyal to the Paris government are defending against the army of Petain. The French Civil War has started. "
+
+action = {
+name = "My God..."
+command = { type = dissent value = 2 }
+}
+
+}

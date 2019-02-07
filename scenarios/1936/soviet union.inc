@@ -1304,8 +1304,9 @@ landunit =
        strength = 100 
        type     = HQ
        model    = 3
-       extra    = anti_air
-       brigade_model = 3
+       extra    = police
+       brigade_model = 2
+       locked = yes
      } 
      Division = 
      {  id       = {  type = 10848 id = 142  } 
@@ -1314,6 +1315,7 @@ landunit =
        model    = 0
        extra    = medium_armor
        brigade_model = 2    
+       locked = yes
       }
      Division = 
      {  id       = {  type = 10848 id = 143  } 
@@ -1322,6 +1324,7 @@ landunit =
        model    = 0
        extra    = heavy_armor
        brigade_model = 1
+       locked = yes
       }
      Division = 
      {  id       = {  type = 10848 id = 144  } 
@@ -1331,6 +1334,7 @@ landunit =
        model    = 0
        extra    = heavy_armor
        brigade_model = 1
+       locked = yes
       }
      Division = 
      {  id       = {  type = 10848 id = 145  } 
@@ -1340,12 +1344,14 @@ landunit =
        model    = 0
        extra    = heavy_armor
        brigade_model = 1
+       locked = yes
       }
       Division = 
      {  id       = {  type = 10848 id = 146  } 
        name     = "19-ya Motostrelkovaya Diviziya" 
        type     = motorized 
        model    = 0
+       locked = yes
       }
  }
 
@@ -1361,6 +1367,7 @@ landunit =
        model     = 8
        extra = artillery
        brigade_model = 5
+       locked = yes
       } 
      Division = 
      {  id       = {  type = 10848 id = 149  } 
@@ -1368,6 +1375,7 @@ landunit =
        strength = 70 
        type     = infantry 
      model     = 8
+       locked = yes
       } 
      Division = 
      {  id       = {  type = 10848 id = 150  } 
@@ -1375,6 +1383,7 @@ landunit =
        strength = 70 
        type     = infantry 
      model     = 8
+       locked = yes
       } 
   } 
 
@@ -1390,6 +1399,7 @@ landunit =
      model     = 8
   extra = artillery
   brigade_model = 5
+       locked = yes
       } 
      Division = 
      {  id       = {  type = 10848 id = 153  } 
@@ -1397,6 +1407,7 @@ landunit =
        strength = 70 
        type     = infantry 
      model     = 8
+       locked = yes
       } 
      Division = 
      {  id       = {  type = 10848 id = 154  } 
@@ -1404,6 +1415,7 @@ landunit =
        strength = 70 
        type     = infantry 
      model     = 8
+       locked = yes
       } 
   } 
 
@@ -1417,6 +1429,7 @@ landunit =
        name     = "13-y Kavaleriyskiy Polk" 
        type     = cavalry 
        model     = 11
+       locked = yes
       } 
      Division = 
      {  id       = {  type = 10848 id = 157  } 
@@ -1424,6 +1437,7 @@ landunit =
        strength = 60 
        type     = armor 
      model     = 0
+       locked = yes
       } 
      Division = 
      {  id       = {  type = 10848 id = 158  } 
@@ -1431,6 +1445,7 @@ landunit =
        strength = 60 
        type     = armor 
      model     = 0
+       locked = yes
       } 
       Division = 
      {  id       = {  type = 10848 id = 159  } 
@@ -1438,6 +1453,7 @@ landunit =
        strength = 60 
        type     = light_armor 
      model     = 0
+       locked = yes
       } 
   } 
 
@@ -2130,7 +2146,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8505 }
-    date  = { year = 1937 month = july day = 31 }
+    date  = { year = 1937 month = july da = 30 }
   }
   division_development = {
     name  = "14-ya Tankovaya Diviziya"
@@ -2138,7 +2154,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8506 }
-    date  = { year = 1937 month = july day = 31 }
+    date  = { year = 1937 month = july da = 30 }
   }
   division_development = {
     name  = "15-ya Tankovaya Diviziya"
@@ -2146,7 +2162,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8507 }
-    date  = { year = 1937 month = july day = 31 }
+    date  = { year = 1937 month = july da = 30 }
   }
   division_development = {
     name  = "16-ya Tankovaya Diviziya"
@@ -2154,7 +2170,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8508 }
-    date  = { year = 1937 month = july day = 31 }
+    date  = { year = 1937 month = july da = 30 }
   }
   division_development = {
     name  = "17-ya Tankovaya Diviziya"
@@ -2162,7 +2178,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8509 }
-    date  = { year = 1937 month = july day = 31 }
+    date  = { year = 1937 month = july da = 30 }
   }
   division_development = {
     name  = "18-ya Tankovaya Diviziya"
@@ -2170,7 +2186,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8510 }
-    date  = { year = 1937 month = july day = 31 }
+    date  = { year = 1937 month = july da = 30 }
   }
 
  }

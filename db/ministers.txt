@@ -248,7 +248,7 @@ ministers_usa.csv
 ministers_UTC.csv
 ministers_uzb.csv
 ministers_ven.csv
-#ministers_vic.csv
+ministers_vic.csv
 ministers_vie.csv
 ministers_wll.csv
 ministers_yem.csv

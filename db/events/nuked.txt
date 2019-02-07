@@ -1,0 +1,565 @@
+################################
+# Nuked capital events
+################################
+event = {
+	id = 2049057
+	country = USA
+	random = no
+
+	trigger = {
+		nuked = { country = USA data = -1 where = 1809 } # Washington
+		owned = { province = 1805 data = -1 } # Philadelphia
+		control = { province = 1805 data = -1 } # Philadelphia
+		NOT = { nuked = { country = USA data = -1 where = 1805 } } # Philadelphia
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 0 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1805 } # Philadelphia
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2049058
+	country = USA
+	random = no
+
+	trigger = {
+		nuked = { country = USA data = -1 where = 1809 } # Washington
+		OR = {
+			nuked = { country = USA data = -1 where = 1805 } # Philadelphia
+			NOT = { owned = { province = 1805 data = -1 } } # Philadelphia
+			NOT = { control = { province = 1805 data = -1 } } #Philadelphia
+		}
+		owned = { province = 1908 data = -1 } # Denver
+		control = { province = 1908 data = -1 } # Denver
+		NOT = { nuked = { country = USA data = -1 where = 1908 } } # Denver
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 0 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1908 } #Denver
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2049057 } } type = sleepevent which = 2049057 }
+	}   
+}
+
+
+event = {
+	id = 2003087
+	country = GER
+	random = no
+
+	trigger = {
+		nuked = { country = GER data = -1 where = 163 } # Berlin
+		owned = { province = 179 data = -1 } # München
+		control = { province = 179 data = -1 } # München
+		NOT = { nuked = { country = GER data = -1 where = 179 } } # München
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 2 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 179 } # München
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2003088
+	country = GER
+	random = no
+
+	trigger = {
+		nuked = { country = GER data = -1 where = 163 } # Berlin
+		OR = {
+			nuked = { country = GER data = -1 where = 179 } # München
+			NOT = { owned = { province = 179 data = -1 } } #München
+			NOT = { control = { province = 179 data = -1 } } #München
+		}
+		owned = { province = 195 data = -1 } # Vienna
+		control = { province = 195 data = -1 } # Vienna
+		NOT = { nuked = { country = GER data = -1 where = 195 } } # Vienna
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 2 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 195 } #Vienna
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2003087 } } type = sleepevent which = 2003087 }
+	}   
+}
+
+
+event = {
+	id = 2002024
+	country = FRA
+	random = no
+
+	trigger = {
+		nuked = { country = FRA data = -1 where = 55 } # Paris
+		owned = { province = 68 data = -1 } # Bordeaux
+		control = { province = 68 data = -1 } # Bordeaux
+		NOT = { nuked = { country = FRA data = -1 where = 68 } } # Bordeaux
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 3 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 68 } # Bordeaux
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2002025
+	country = FRA
+	random = no
+	
+	trigger = {
+		nuked = { country = FRA data = -1 where = 55 } # Paris
+		OR = {
+			nuked = { country = FRA data = -1 where = 68 } # Bordeaux
+			NOT = { owned = { province = 68 data = -1 } } #Bordeaux
+			NOT = { control = { province = 68 data = -1 } } #Bordeaux
+		}
+		owned = { province = 85 data = -1 } # Lyon
+		control = { province = 85 data = -1 } # Lyon
+		NOT = { nuked = { country = FRA data = -1 where = 85 } } # Lyon
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 3 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 85 } #Lyon
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2002024 } } type = sleepevent which = 2002024 }
+	}   
+}
+
+
+event = {
+	id = 2006019
+	country = ITA
+	random = no
+
+	trigger = {
+		nuked = { country = ITA data = -1 where = 419 } # Roma
+		owned = { province = 407 data = -1 } # Milano
+		control = { province = 407 data = -1 } # Milano
+		NOT = { nuked = { country = ITA data = -1 where = 407 } } #Milano 
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 4 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 407 } # Milano
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2006020
+	country = ITA
+	random = no
+
+	trigger = {
+		nuked = { country = ITA data = -1 where = 419 } # Roma
+		OR = {
+			nuked = { country = ITA data = -1 where = 407 } # Milano
+			NOT = { owned = { province = 407 data = -1 } } #Milano
+			NOT = { control = { province = 407 data = -1 } } #Milano
+		}
+		owned = { province = 410 data = -1 } # Florence
+		control = { province = 410 data = -1 } # Florence
+		NOT = { nuked = { country = ITA data = -1 where = 410 } } # Florence
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 4 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 410 } #Florence
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2006019 } } type = sleepevent which = 2006019 }
+	}
+}
+
+
+event = {
+	id = 2007068
+	country = SOV
+	random = no
+
+	trigger = {
+		nuked = { country = SOV data = -1 where = 572 } # Moskva
+		owned = { province = 663 data = -1 } # Stalingrad
+		control = { province = 663 data = -1 } # Stalingrad
+		NOT = { nuked = { country = SOV data = -1 where = 663 } } # Stalingrad
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 5 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 663 } # Stalingrad
+		command = { type = dissent value = -1 }
+	}
+}
+
+event = {
+	id = 2007069
+	country = SOV
+	random = no
+
+	trigger = {
+		nuked = { country = SOV data = -1 where = 572 } # Moskva
+		OR = {
+			nuked = { country = SOV data = -1 where = 663 } # Stalingrad
+			NOT = { owned = { province = 663 data = -1 } } #Stalingrad
+			NOT = { control = { province = 663 data = -1 } } #Stalingrad
+		}
+		owned = { province = 668 data = -1 } # Kuybyshev
+		control = { province = 668 data = -1 } # Kuybyshev
+		NOT = { nuked = { country = SOV data = -1 where = 668 } } # Kuybyshev
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 5 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 668 } #Kuybyshev
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2007068 } } type = sleepevent which = 2007068 }
+	}   
+}
+
+
+event = {
+	id = 2011035
+	country = JAP
+	random = no
+
+	trigger = {
+		nuked = { country = JAP data = -1 where = 1552 } # Tokyo
+		owned = { province = 1558 data = -1 } # Kyoto
+		control = { province = 1558 data = -1 } # Kyoto
+		NOT = { nuked = { country = JAP data = -1 where = 1558 } } # Kyoto
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 6 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1558 } # Kyoto
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2011036
+	country = JAP
+	random = no
+
+	trigger = {
+		nuked = { country = JAP data = -1 where = 1552 } # Tokyo
+		OR = {
+			nuked = { country = JAP data = -1 where = 1558 } # Kyoto
+			NOT = { owned = { province = 1558 data = -1 } } #Kyoto
+			NOT = { control = { province = 1558 data = -1 } } #Kyoto
+		}
+		owned = { province = 1557 data = -1 } # Nagoya
+		control = { province = 1557 data = -1 } # Nagoya
+		NOT = { nuked = { country = JAP data = -1 where = 1557 } } # Nagoya
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 6 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1557 } #Nagoya
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2011035 } } type = sleepevent which = 2011035 }
+	}   
+}
+
+event = {
+	id = 2001075
+	country = ENG
+	random = no
+
+	trigger = {
+		nuked = { country = ENG data = -1 where = 29 } # London
+		owned = { province = 17 data = -1 } # Manchester
+		control = { province = 17 data = -1 } # Manchester
+		NOT = { nuked = { country = ENG data = -1 where = 17 } } # Manchester
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 7 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 17 } # Manchester
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2001076
+	country = ENG
+	random = no
+
+	trigger = {
+		nuked = { country = ENG data = -1 where = 29 } # London
+		OR = {
+			nuked = { country = ENG data = -1 where = 17 } # Manchester
+			NOT = { owned = { province = 17 data = -1 } } #Manchester
+			NOT = { control = { province = 17 data = -1 } } #Manchester
+		}
+		owned = { province = 12 data = -1 } # Edinburgh
+		control = { province = 12 data = -1 } # Edinburgh
+		NOT = { nuked = { country = ENG data = -1 where = 12 } } # Edinburgh
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 7 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 12 } #Edinburgh
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2001075 } } type = sleepevent which = 2001075 }
+	}   
+}
+
+event = {
+	id = 2012026
+	country = CHI
+	random = no
+
+	trigger = {
+		nuked = { country = CHI data = -1 where = 1337 } # Nanjing
+		owned = { province = 1369 data = -1 } # Guanzhou
+		control = { province = 1369 data = -1 } # Guanzhou
+		NOT = { nuked = { country = CHI data = -1 where = 1369 } } # Guanzhou
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 8 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1369 } # Guanzhou
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2012027
+	country = CHI
+	random = no
+
+	trigger = {
+		nuked = { country = CHI data = -1 where = 1337 } # Nanjing
+		OR = {
+			nuked = { country = CHI data = -1 where = 1369 } # Guanzhou
+			NOT = { owned = { province = 1369 data = -1 } } #Guanzhou
+			NOT = { control = { province = 1369 data = -1 } } #Guanzhou
+		}
+		owned = { province = 1357 data = -1 } # Nanping
+		control = { province = 1357 data = -1 } # Nanping
+		NOT = { nuked = { country = CHI data = -1 where = 1357 } } # Nanping
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 8 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1357 } #Nanping
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2012026 } } type = sleepevent which = 2012026 }
+	}   
+}
+
+event = {
+	id = 2053002
+	country = CHC
+	random = no
+
+	trigger = {
+		nuked = { country = CHC data = -1 where = 1260 } # Yulin
+		owned = { province = 1337 data = -1 } # Nanjing
+		control = { province = 1337 data = -1 } # Nanjing
+		NOT = { nuked = { country = CHC data = -1 where = 1337 } } # Nanjing
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 9 month = march year = 1943 } # got the tech as us with a nuke research rush in may 43
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1337 } # Nanjing
+		command = { type = dissent value = -1 }
+	}   
+}
+
+event = {
+	id = 2053003
+	country = CHC
+	random = no
+
+	trigger = {
+		nuked = { country = CHC data = -1 where = 1260 } # Yulin
+		OR = {
+			nuked = { country = CHC data = -1 where = 1337 } # Nanjing
+			NOT = { owned = { province = 1337 data = -1 } } #Nanjing
+			NOT = { control = { province = 1337 data = -1 } } #Nanjing
+		}
+		owned = { province = 1369 data = -1 } # Guangzhou
+		control = { province = 1369 data = -1 } # Guangzhou
+		NOT = { nuked = { country = CHC data = -1 where = 1369 } } # Guangzhou
+	}
+
+	name = "cnuke_name"
+	desc = "cnuke_desc"
+	style = 2
+	picture = "nuke"
+
+	date = { day = 9 month = march year = 1943 }
+	offset = 9
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = "Cnuke_act"
+		command = { type = capital which = 1369 } #Guangzhou
+		command = { type = dissent value = -1 }
+		command = { trigger = { NOT = { event = 2053002 } } type = sleepevent which = 2053002 }
+	}   
+}

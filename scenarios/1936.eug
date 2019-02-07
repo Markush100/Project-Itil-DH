@@ -47,7 +47,7 @@ globaldata =
   }
   alliance =
   { id          = { type = 15000 id = 12 }
-    participant = { JAP MAN }
+    participant = { JAP MAN RUS }
   }
   war =
   { id        = { type = 9430 id = 1 }

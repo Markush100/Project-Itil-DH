@@ -1,0 +1,103 @@
+###Mobilization of the army reserves - Petain
+event = {
+id = 100201
+picture = "natfrance_mobilization"
+style = 1
+country = VIC
+
+date = { day = 9 month = may year = 1936 }
+
+
+name = "Mobilization of the reserves"
+desc = "In the weeks following the outbreak of the civil war, marshal Petain has positioned the army reserves in the northwest, in preperation for a war. Now is the time to mobilize the French army, in order to defend against Judeo-Soviet scum."
+
+action = {
+name = "For the defense against Anarchism!"
+command = { type =	strength which = all when = 0 where = 1 value = 1 org = 1 }
+command = { type = add_division which = "Commandement supreme de l'armee" when = 2 value = hq }
+command = { type = add_division which = "1re Reserve d'Infanterie" when = 9 value = infantry }
+command = { type = add_division which = "2e Reserve d'Infanterie" when = 9 value = infantry }
+command = { type = add_division which = "3e Reserve d'Infanterie" when = 8 value = infantry }
+command = { type = add_division which = "4e Reserve d'Infanterie" when = 8 value = infantry }
+command = { type = add_division which = "5e Reserve d'Infanterie" when = 8 value = infantry }
+command = { type = add_division which = "6e Reserve d'Infanterie" when = 8 value = infantry }
+command = { type = add_division which = "7e Reserve d'Infanterie" when = 8 value = infantry }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = artillery when = 5 }
+command = { type = add_brigade value = artillery when = 5 }
+command = { type = add_brigade value = artillery when = 5 }
+command = { type = add_brigade value = artillery when = 4 }
+}
+}
+
+###Mobilization of the Croix-de-Feu - Patriots
+event = {
+id = 100202
+picture = "patriots_mobilization"
+style = 1
+country = U03
+
+date = { day = 10 month = may year = 1936 }
+
+
+name = "la Rocque's support"
+desc = "Colonel la Rocque has supported the League of Patriots since the start, and he has promised for his soldiers to fight for the French nation against red scum. The Croix-de-Feu has become the largest paramilitary organization in France, and now its troops have dedicated themselves to us."
+
+action = {
+name = "For the defense of France!"
+command = { type =	strength which = all when = 0 where = 1 value = 1 org = 1 } 
+command = { type = add_division which = "1ere Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "2e Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "3e Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "4e Infanterie de Croix-de-Feu" when = 4 value = militia }
+command = { type = add_division which = "5e Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "6e Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "7e Infanterie de Croix-de-Feu" when = 4 value = militia }
+command = { type = add_division which = "8e Infanterie de Croix-de-Feu" when = 4 value = militia }
+command = { type = add_division which = "9e Infanterie de Croix-de-Feu" when = 4 value = militia }
+command = { type = add_division which = "10e Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "11e Infanterie de Croix-de-Feu" when = 5 value = militia }
+command = { type = add_division which = "12e Infanterie de Croix-de-Feu" when = 4 value = militia }
+command = { type = add_division which = "Jeunesses Patriotes" when = 5 value = militia }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+}
+}
+
+###Mobilization of the Camelots du Roi - Action Francaise
+event = {
+id = 100203
+picture = "action_francaise_mobilization"
+style = 1
+country = U04
+
+date = { day = 11 month = may year = 1936 }
+
+
+name = "The Camelots du Roi"
+desc = "Even though the Croix-de-Feu has collected most of the war veterans in their militia, our organization, the Camelots du Roi has grown increasingly more popular with the youth. Along with our strong paramilitary wing, a large number of reservists have also grown tired of Republican corruption and have decided to pledge their support for the monarchy. Long live the King!"
+
+action = {
+name = "For the King!"
+command = { type =	strength which = all when = 0 where = 1 value = 1 org = 1 } 
+command = { type = add_division which = "1er Camelots du Roi" when = 5 value = militia }
+command = { type = add_division which = "2eme Camelots du Roi" when = 5 value = militia }
+command = { type = add_division which = "3eme Camelots du Roi" when = 5 value = militia }
+command = { type = add_division which = "4eme Camelots du Roi" when = 5 value = militia }
+command = { type = add_division which = "5eme Camelots du Roi" when = 5 value = militia }
+command = { type = add_division which = "6eme Camelots du Roi" when = 4 value = militia }
+command = { type = add_division which = "7eme Camelots du Roi" when = 4 value = militia }
+command = { type = add_division which = "8eme Camelots du Roi" when = 5 value = militia }
+command = { type = add_division which = "9eme Camelots du Roi" when = 4 value = militia }
+command = { type = add_division which = "10eme Camelots du Roi" when = 4 value = militia }
+command = { type = add_division which = "Infanterie royaliste" when = 7 value = infantry }
+command = { type = add_brigade value = artillery when = 4 }
+command = { type = add_brigade value = artillery when = 4 }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+command = { type = add_brigade value = police when = 1 }
+}
+}

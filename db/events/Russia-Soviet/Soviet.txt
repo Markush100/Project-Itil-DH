@@ -1,0 +1,31 @@
+##### Ante Rebellum
+#### Events for the Soviet Republic
+
+### 91001-91010 Misc. Events
+## 91001 Intro Event
+
+
+
+
+
+
+
+
+event = { #Intro Event
+id = 91001
+picture = "sovintro"
+style = 1
+
+trigger = { ai = no }
+TAG = { SOV }
+
+date = { day = 3 month = january year = 1936 }
+
+name = "The Social Democratic Soviet Republic"
+desc = "EVT_91001_DESC"
+
+action = {
+name = "Our Victory is Inevitable!"
+command = { }
+}
+}
