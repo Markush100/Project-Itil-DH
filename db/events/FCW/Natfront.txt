@@ -71,7 +71,7 @@ event = {
 id = 100203
 picture = "action_francaise_mobilization"
 style = 1
-country = U04
+TAG = U04
 
 date = { day = 11 month = may year = 1936 }
 
@@ -99,5 +99,31 @@ command = { type = add_brigade value = police when = 1 }
 command = { type = add_brigade value = police when = 1 }
 command = { type = add_brigade value = police when = 1 }
 command = { type = add_brigade value = police when = 1 }
+}
+} 
+
+###National Front Victory
+event = {
+id = 100204
+style = 1
+TAG = { VIC U04 U03 }
+
+trigger = {
+    not = {
+       exists = U11 
+       exists = U01 
+       exists = U14
+    }
+    flag = FRA_civil_start
+}
+
+name = "Victory!"
+desc = "EVT_100204_DESC"
+
+action = {
+name = "Wasn't is obvious?"
+command = { type = dissent value = -10 }
+command = { type = setflag which = NF_victory }
+command = { type = event which = 100205 where = U04 when = 2 }
 }
 }
