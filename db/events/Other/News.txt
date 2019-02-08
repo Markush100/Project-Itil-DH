@@ -84,7 +84,7 @@ command = { type = 	relation which = VIC value = 50 }
 
 ###FCW Start
 event = {
-id = 101101
+id = 101102
 picture = "fcw1"
 style = 2
 

@@ -2146,7 +2146,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8505 }
-    date  = { year = 1937 month = july da = 30 }
+   date  = { year = 1937 month = july day = 30 }
   }
   division_development = {
     name  = "14-ya Tankovaya Diviziya"
@@ -2154,7 +2154,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8506 }
-    date  = { year = 1937 month = july da = 30 }
+    date  = { year = 1937 month = july day = 30 }
   }
   division_development = {
     name  = "15-ya Tankovaya Diviziya"
@@ -2162,7 +2162,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8507 }
-    date  = { year = 1937 month = july da = 30 }
+    date  = { year = 1937 month = july day = 30 }
   }
   division_development = {
     name  = "16-ya Tankovaya Diviziya"
@@ -2170,7 +2170,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8508 }
-    date  = { year = 1937 month = july da = 30 }
+    date  = { year = 1937 month = july day = 30 }
   }
   division_development = {
     name  = "17-ya Tankovaya Diviziya"
@@ -2178,7 +2178,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8509 }
-    date  = { year = 1937 month = july da = 30 }
+    date  = { year = 1937 month = july day = 30 }
   }
   division_development = {
     name  = "18-ya Tankovaya Diviziya"
@@ -2186,7 +2186,7 @@ airunit = {
     model = 0
     cost  = 10
     id    = { type = 10848 id = 8510 }
-    date  = { year = 1937 month = july da = 30 }
+    date  = { year = 1937 month = july day = 30 }
   }
 
  }

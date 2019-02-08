@@ -201,7 +201,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50199;Minister of Security;Morinaga Teiichiro;1945;1987;1987;SD;Crime Fighter;Medium;M5234;X
 50200;Head of Military Intelligence;Kato Ryogoro;1918;1971;1971;SC;Political Specialist;Medium;M5235;X
 50201;Head of Military Intelligence;Ohara Naoshi;1912;1968;1968;SC;Technical Specialist;Medium;M5236;X
-50202;Head of Military Intelligence;Hanamura Shiro;1926;1964;1964;SD;Dismal Enigma;Medium;M5233;X
+50202;Head of Military Intelligence;Hanamura Shiro;1926;1964;1964;SL;Dismal Enigma;Medium;M5233;X
 50203;Chief of Air Force;Hino Kumazo;1913;1947;1947;SD;Army Aviation Doctrine;Medium;2735;X
 50204;Chief of Air Force;Inoue Ikutaro;1907;1966;1966;ML;Air Superiority Doctrine;Medium;2736;X
 50205;Chief of Air Force;Shirakawa Yoshinori;1904;1933;1933;ML;Vertical Envelopment Doctrine;Medium;2737;X
@@ -221,7 +221,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50219;Chief of Army;Tanaka Giichi;1899;1930;1930;ML;Guns and Butter Doctrine;Medium;2749;X
 50220;Chief of Army;Terauchi Masatake;1887;1920;1920;PA;Static Defence Doctrine;Medium;2750;X
 50221;Chief of Army;Uehara Yusaku;1891;1934;1934;FA;Guns and Butter Doctrine;Medium;2751;X
-50222;Chief of Army;Ugaki Kazushige;1903;1931;1931;FA;Armoured Spearhead Doctrine;Medium;2752;X
+50222;Chief of Army;Ugaki Kazushige;1903;1955;1955;ML;Armoured Spearhead Doctrine;Medium;2752;X
 50223;Chief of Navy;Ijuin Goro;1887;1922;1922;SD;Base Control Doctrine;Medium;2753;X
 50224;Chief of Navy;Kato Hiroharu;1905;1940;1940;FA;Decisive Naval Battle Doctrine;Medium;2754;X
 50225;Chief of Navy;Kato Tomosaburo;1896;1924;1924;ML;Decisive Naval Battle Doctrine;Medium;2755;X
@@ -246,7 +246,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50244;Chief of Staff;Tanaka Giichi;1899;1930;1930;ML;School of Psychology;Medium;2749;X
 50245;Chief of Staff;Terauchi Masatake;1887;1920;1920;PA;School of Fire Support;Medium;2750;X
 50246;Chief of Staff;Uehara Yusaku;1891;1934;1934;FA;School of Fire Support;Medium;2751;X
-50247;Chief of Staff;Ugaki Kazushige;1903;1931;1931;FA;School of Fire Support;Medium;2752;X
+50247;Chief of Staff;Ugaki Kazushige;1903;1955;1955;ML;School of Fire Support;Medium;2752;X
 50248;Foreign Minister;Arahata Kanson;1922;1982;1982;ST;General Staffer;Medium;2764;X
 50249;Foreign Minister;Inukai Tsuyoshi;1890;1933;1933;SD;General Staffer;Medium;2765;X
 50250;Foreign Minister;Ishii Kikujiro;1901;1946;1946;ML;Great Compromiser;Medium;2766;X
@@ -254,12 +254,12 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50252;Foreign Minister;Kiyoura Keigo;1885;1943;1943;FA;Biased Intellectual;Medium;2768;X
 50253;Foreign Minister;Makino Nobuaki;1896;1950;1950;ML;Biased Intellectual;High;2769;X
 50254;Foreign Minister;Motono Ichiro;1897;1919;1919;PA;The Cloak N Dagger Schemer;Medium;2770;X
-50255;Foreign Minister;Okuma Shigenobu;1873;1923;1923;ML;General Staffer;Medium;2771;X
+50255;Foreign Minister;Ashida Hitoshi;1873;1923;1923;ML;General Staffer;Medium;2771;X
 50256;Foreign Minister;Saionji Kinmochi;1884;1941;1941;ML;Great Compromiser;Medium;2772;X
 50257;Foreign Minister;Shidehara Kijuro;1907;1952;1952;SD;Great Compromiser;Medium;M5030;X
 50258;Foreign Minister;Terauchi Masatake;1887;1920;1920;PA;General Staffer;Medium;2750;X
 50259;Foreign Minister;Uchida Kosai;1900;1937;1937;ML;General Staffer;Medium;2774;X
-50260;Head of Government;Hamaguchi Osachi;1914;1932;1932;SD;Flamboyant Tough Guy;Medium;2775;X
+50260;Head of Government;Hamaguchi Osachi;1914;1932;1932;SL;silent workhorse;Medium;2775;X
 50261;Head of Government;Hara Takashi;1900;1922;1922;ML;Flamboyant Tough Guy;Medium;2776;X
 50262;Head of Government;Inukai Tsuyoshi;1899;1933;1933;SD;Ambitious Union Boss;Medium;2765;X
 50263;Head of Government;Kato Takaaki;1904;1927;1927;ML;Flamboyant Tough Guy;Medium;2767;X
@@ -301,7 +301,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50299;Minister of Armament;Shibusawa Eiichi;1875;1932;1932;ML;Administrative Genius;Medium;2793;X
 50300;Minister of Armament;Takahashi Korekiyo;1889;1937;1937;ML;Administrative Genius;High;2778;X
 50301;Minister of Armament;Taketomi Tokitoshi;1891;1939;1939;ML;Laissez-Faire Capitalist;Medium;2794;X
-50302;Minister of Armament;Wakatsuki Reijiro;1901;1950;1950;ML;Corrupt Kleptocrat;Medium;2795;X
+50302;Minister of Armament;Wakatsuki Reijiro;1901;1950;1950;ML;laissez-faire capitalist;Medium;2795;X
 50303;Minister of Armament;Yamakawa Hitoshi;1915;1959;1959;ST;Infantry Proponent;Medium;2780;X
 50304;Minister of Armament;Yamamoto Tatsuo;1891;1948;1948;PA;Laissez-Faire Capitalist;Medium;2796;X
 50305;Minister of Security;Goto Shinpei;1892;1930;1930;PA;Prince of Terror;Medium;2784;X

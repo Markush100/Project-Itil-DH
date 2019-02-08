@@ -1,0 +1,40 @@
+##### Ante Rebellum
+#### Events for Japan by Koach
+
+### 92001-920?? intro events 
+
+event = { #history of Japan
+id = 92001
+picture = "Japan_Celebration"
+style = 2
+
+trigger = { ai = no }
+TAG = { JAP }
+
+date = { day = 3 month = january year = 1936 }
+
+name = "The Empire of Japan"
+desc = "EVT_92001_DESC"
+
+action = {
+name = "May he live 10000 years!"
+command = { type = event which = 92002 where = JAP when = 1 } #Political situation
+}
+}
+
+event = { #Political situation
+id = 92002
+picture = "Japanese_Diet_Building"
+style = 1
+
+TAG = { JAP }
+
+name = "The Political situation"
+desc = "EVT_92002_DESC"
+
+action = {
+name = "Let us hope for a peaceful session"
+command = {}
+}
+}
+

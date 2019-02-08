@@ -321,7 +321,7 @@
       } 
     } 
    landunit = 
-   {  location = 1236 
+   {  location = 1218 
      id       = {  type = 28500 id = 33  } 
      name     = "Di'5 Chengde Jüntuan" 
      Division = 
@@ -353,5 +353,18 @@
        strength = 15 
       } 
     } 
+	airunit = {
+		id       = {  type = 28500 id = 38  } 
+		name     = "Manchurian Airforce" 
+		location = 1199 
+		base     = 1199 
+		division = {
+			id       = {  type = 28500 id = 39  } 
+			name     = "Dai 1 Kyokuchi Hikodan" 
+			strength = 70 
+			type     = interceptor 
+			model    = 7
+		} 
+	} 
   } 
  

@@ -29,6 +29,7 @@ event = "db\events\DHFBlueprints.txt"
 # Ante Rebellum
 event = "db\events\generic.txt"
 event = "db\events\Russia-Soviet\Soviet.txt"
+event = "db\events\Japan\Japandomestic.txt"
 event = "db\events\Russia-Soviet\Border_War.txt"
 event = "db\events\FCW\Start.txt"
 event = "db\events\FCW\Popfront.txt"

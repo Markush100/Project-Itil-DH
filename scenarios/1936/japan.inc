@@ -198,8 +198,8 @@ country = {
 
 	policy = {
 		date              = {  year = 0 month = january day = 0  } 
-		democratic        = 4 
-		political_left    = 2 
+		democratic        = 7 
+		political_left    = 4 
 		freedom           = 1#3 
 		free_market       = 3 
 		professional_army = 6 
@@ -207,16 +207,16 @@ country = {
 		interventionism   = 8 
 	} 
 
-	headofstate            = {  type = 9 id = 50001  } 
-	headofgovernment       = {  type = 9 id = 50002  } 
-	foreignminister        = {  type = 9 id = 50003  } 
-	armamentminister       = {  type = 9 id = 50300  } # Takahashi Korekiyo
-	ministerofsecurity     = {  type = 9 id = 50005  } 
-	ministerofintelligence = {  type = 9 id = 50006  } 
-	chiefofstaff           = {  type = 9 id = 50007  } 
+	headofstate            = {  type = 9 id = 50173  } 
+	headofgovernment       = {  type = 9 id = 50260  } 
+	foreignminister        = {  type = 9 id = 50253  } 
+	armamentminister       = {  type = 9 id = 50302  }
+	ministerofsecurity     = {  type = 9 id = 50308  } 
+	ministerofintelligence = {  type = 9 id = 50202  } 
+	chiefofstaff           = {  type = 9 id = 50247  } 
 	chiefofarmy            = {  type = 9 id = 50008  } 
-	chiefofnavy            = {  type = 9 id = 50009  } 
-	chiefofair             = {  type = 9 id = 50010  } 
+	chiefofnavy            = {  type = 9 id = 50230  } 
+	chiefofair             = {  type = 9 id = 50206  } 
 	
 	
 	### Japan Land OOB ### 
@@ -224,7 +224,7 @@ country = {
 	landunit = {
 		id       = {  type = 13016 id = 1  } 
 		name     = "Kantôgun" 
-		location = 1208 
+		location = 1191 
 		division = {
 			id       = {  type = 13016 id = 2  } 
 			name     = "Kantôgun saikô shireibu" 
@@ -349,7 +349,7 @@ country = {
 	landunit = {
 		id       = {  type = 13016 id = 5  } 
 		name     = "Kihei gurupu" 
-		location = 1240
+		location = 1167
 		division = {
 			id       = {  type = 13016 id = 11  } 
 			name     = "Dai 1 Kihei ryodan" 
@@ -457,8 +457,8 @@ country = {
 	}
 	landunit = {
 		id       = {  type = 13016 id = 16  } 
-		name     = "Shina chutongun" 
-		location = 1245
+		name     = "Kankoku chutongun" 
+		location = 1228
 		division = {
 			id       = {  type = 13016 id = 37  } 
 			name     = "Dai 5 Hoheishidan" 
@@ -749,8 +749,8 @@ country = {
 	}
 	landunit = {
 		id       = {  type = 13016 id = 42  } 
-		name     = "Uchi mouko gun" # Inner Mongolian army
-		location = 1240
+		name     = "Manchukoku gun" # Inner Mongolian army
+		location = 1218
 		division = {
 			id       = {  type = 13016 id = 14  } 
 			name     = "Uchi mouko gun" 
@@ -762,7 +762,7 @@ country = {
 	landunit = {
 		id       = {  type = 13016 id = 46  } 
 		name     = "Tobu kahoku gun" # Chinese collaborationists 
-		location = 1245
+		location = 1208
 		division = {
 			id       = {  type = 13016 id = 50  } 
 			name     = "Dai 1 Tai" 
@@ -780,13 +780,6 @@ country = {
 		division = {
 			id       = {  type = 13016 id = 55  } 
 			name     = "Dai 3 Tai" 
-			strength = 80
-			type     = militia
-			model    = 4
-		} 
-		division = {
-			id       = {  type = 13016 id = 56  } 
-			name     = "Dai 4 Tai" 
 			strength = 80
 			type     = militia
 			model    = 4
@@ -1787,22 +1780,10 @@ country = {
 			model = 2
 		} 
 	} 
-	airunit = {
-		id       = {  type = 13016 id = 250  } 
-		name     = "Dai 1 Kyokuchi Hikodan" 
-		location = 1199 
-		base     = 1199 
-		division = {
-			id       = {  type = 13016 id = 251  } 
-			name     = "Dai 1 Kyokuchi Hikodan" 
-			strength = 85 
-			type     = interceptor 
-			model    = 7
-		} 
-	} 
+	
 	airunit = {
 		id       = {  type = 13016 id = 252  } 
-		name     = "Dai 2 Kyokuchi Hikodan" 
+		name     = "Dai 1 Kyokuchi Hikodan" 
 		location = 1199 
 		base     = 1199 
 		division = {

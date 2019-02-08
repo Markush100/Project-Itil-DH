@@ -846,16 +846,6 @@ event      = "db\events\AI\AI_MON.txt"
 event      = "db\events\AI\AI_HOL.txt"
 event      = "db\events\AI\AI_BEL.txt"
 
-event 	   = "db\events\China\1928-CHI-Nanjing-Decade.txt"
-event 	   = "db\events\China\1933-CHC-Early-Republic.txt"
-event 	   = "db\events\China\1933-CHC-Domestic.txt"
-event 	   = "db\events\China\1928-UCH-Unification.txt"
-event 	   = "db\events\China\1937-CHI-United-Front.txt"
-event 	   = "db\events\China\1937-CHI-Minor-Warlords.txt"
-event 	   = "db\events\China\1937-CHI-Shanghai-Nanjing.txt"
-event 	   = "db\events\Japan\1933-MAN-Manchukuo.txt"
-event 	   = "db\events\Japan\1933-JAP-Domestic.txt"
-event 	   = "db\events\Japan\1937-JAP-Marco-Polo.txt"
 
 # Includes for global data
 include = "db\events.txt"
