@@ -1,7 +1,9 @@
 ##### Ante Rebellum
 #### Events for Japan by Koach
 
-### 92001-920?? intro events 
+### 92001-92002 intro events 
+### 92003 - 92014 Political crisis of 1936 
+### 92015 - 92??? Socialist Cabinet Reforms
 
 event = { #history of Japan
 id = 92001
@@ -24,17 +26,537 @@ command = { type = event which = 92002 where = JAP when = 1 } #Political situati
 
 event = { #Political situation
 id = 92002
-picture = "Japanese_Diet_Building"
-style = 1
+picture = "taisho_era_street"
+style = 2
 
 TAG = { JAP }
 
-name = "The Political situation"
+name = "The Showa Democracy"
 desc = "EVT_92002_DESC"
 
 action = {
-name = "Let us hope for a peaceful session"
+name = "Let us pray for a peaceful year."
 command = {}
 }
 }
 
+event = { #Assasination
+id = 92003
+picture = "ichishima_assasination"
+style = 2
+country = MAN 
+persistent = no
+trigger = { headofstate = 235073 }
+date = { day = 16 month = february year = 1936 }
+
+name = "Ichishima Hideki shot dead!"
+desc = "EVT_92003_DESC"
+
+
+action = {
+name = "A tragedy!"
+command = { type = sleepminister which = 235073 }
+command = { type = event which = 92004 where = JAP when = 0 }#Reaction in Japan
+command = { type = headofstate which = 235074 } #Mantetsu board
+command = { type = dissent value = 7.5 }
+}
+}
+
+event = { #Ichishima is shot dead - Japan
+id = 92004
+picture = "ichishima_assasination"
+style = 2
+
+country = JAP
+
+name = "Ichishima Hideki shot dead!"
+desc = "EVT_92004_DESC"
+
+
+action = {
+name = "This is bad..."
+command = { type = dissent value = 1 }
+command = { type = event which = 92005 where = JAP when = 7 }###Kawashima Resigns
+}
+}
+
+event = { #Constitutional crisis
+id = 92005
+picture = "japan_diet_indoor"
+style = 2
+
+country = JAP
+
+name = "Yoshiyuki Kawashima resigns"
+desc = "EVT_92005_DESC"
+
+
+action = {
+name = "Ready the ballots!"
+command = { type = dissent value = 1 }
+command = { type = chiefofarmy which = 50373 }
+command = { type = event which = 92006 where = JAP when = 40 }#elections of 1936
+command = { type = event which = 92008 where = JAP when = 10 }#Left wing coalition 
+}
+}
+
+event = { #Elections of 1936
+id = 92006
+picture = "japan_elections_leftist"
+style = 2
+
+country = JAP
+
+name = "Snap Elections of 1936"
+desc = "EVT_92006_DESC"
+
+
+action_a = {#Hamaguchi
+name = "Hamaguchi's Minseito wins a majority"
+ai_chance = 40
+command = { type = dissent value = -1 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 5 }
+command = { type = headofgovernment which = 50260 }#Hamaguchi
+command = { type = event which = 92010 where = JAP when = 7 }#forming the cabinet
+command = { type = local_setflag which = JAP_minseito_cabinet }
+
+}
+
+action_b = {#Inukai
+name = "Inukai's Seiyukai reclaims the majority"
+ai_chance = 30
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 3 }
+command = { type = headofgovernment which = 50262 }#Inukai
+command = { type = event which = 92011 where = JAP when = 7 }#forming the cabinet
+command = { type = local_setflag which = JAP_seiyukai_cabinet }
+
+}
+
+action_c= {#Socialist coalition
+name = "The leftist coalition surprises the nation"
+ai_chance = 20
+command = { type = dissent value = 5 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 7 }
+command = { type = headofgovernment which = 50374 }#Abe Isoo
+command = { type = event which = 92012 where = JAP when = 7 }#forming the cabinet
+command = { type = local_setflag which = JAP_leftist_cabinet }
+
+}
+
+action_d= {#Seiyukai-Kokuminto
+name = "The Seiyukai forms a coalition with the Kokuminto"
+ai_chance = 10
+command = { type = dissent value = 7.5 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 1 }
+command = { type = headofgovernment which = 50262 }#Inukai
+command = { type = event which = 92013 where = JAP when = 7 }#forming the cabinet
+command = { type = local_setflag which = JAP_rightist_cabinet }
+
+}
+
+}
+
+event = {#Left wing coalition 
+id = 92008
+picture = "japan_workers_listen"
+style = 2 
+
+name = "Left wing parties form a coalition"
+desc = "EVT_92008_DESC"
+
+country = JAP
+
+action = { 
+name = "A worrying development"
+command = { type = dissent value = 1.5  }
+command = { type = local_setflag which = JAP_left_coalition }
+command = { type = event which = 92009 where = JAP when = 3 }#Kokuhonsha endorses Kokuminto
+}
+
+}
+
+event = {#Kokuhonsha endorses Kokuminto
+id = 92009
+picture = "japan_nationalist_rally"
+style = 2 
+
+name = "Kokuhonsha Rally in Kyoto"
+desc = "EVT_92009_DESC"
+
+country = JAP
+
+action = { 
+name = "We must brace for a tide of populism"
+command = { type = dissent value = 2 }
+}
+
+}
+
+event = {#Cabinet for Hamaguchi
+id = 92010
+picture = "japan_diet_indoor"
+style = 2 
+
+name = "Hamaguchi forms a cabinet"
+desc = "EVT_92010_DESC"
+
+country = JAP
+
+action = { 
+name = "Very good"
+command = { type = foreignminister which = 50375 }#Wakatsuki Reijiro
+command = { type = armamentminister which = 50301 }#Taketomi Tokitoshi
+command = { type = ministerofsecurity which = 50308 }#Ichiki Kitokuro
+command = { type = ministerofintelligence which = 50376 }#Masanori Katsu
+command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+
+}
+}
+
+event = {#Cabinet for Inukai
+id = 92011
+picture = "japan_diet_indoor"
+style = 2 
+
+name = "Inukai forms a cabinet"
+desc = "EVT_92011_DESC"
+
+country = JAP
+
+action = { 
+name = "Very good"
+command = { type = foreignminister which = 50034 }#Yoshizawa Kenkichi
+command = { type = armamentminister which = 50300 }#Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50377 }#Suzuki Kisaburo
+command = { type = ministerofintelligence which = 50116 }#Kano Jigoro
+command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+}
+
+}
+
+event = {#Cabinet for Isoo
+id = 92012
+picture = "japan_diet_indoor"
+style = 2 
+
+name = "Isoo forms a cabinet"
+desc = "EVT_92012_DESC"
+
+country = JAP
+
+action = { 
+name = "Very good"
+command = { type = foreignminister which = 50378 }#Toyohiko Kagawa
+command = { type = armamentminister which = 50303 }#Yamakawa Hitoshi
+command = { type = ministerofsecurity which = 50379 }#Komaki Matsuoka
+command = { type = ministerofintelligence which = 50108 }#Nosaka Sanzo
+command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+}
+
+}
+
+event = {#Cabinet for kokuminto
+id = 92013
+picture = "japan_diet_indoor"
+style = 2 
+
+name = "Inukai forms a coalition cabinet"
+desc = "EVT_92013_DESC"
+
+country = JAP
+
+action = { 
+name = "Very good"
+command = { type = foreignminister which = 50380 }#Adachi Kenzo
+command = { type = armamentminister which = 50300 }#Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50099 }#Hiranuma Kiichiro
+command = { type = ministerofintelligence which = 50116 }#Kano Jigoro
+command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+}
+
+}
+
+event = {#Leftist coalition falls apart - not cabinet 
+id = 92014 
+picture = "japan_leftist_infighting"
+style = 2 
+
+country = JAP 
+persistent = no
+
+trigger = {
+local_flag = JAP_left_coalition
+NOT = { local_flag = JAP_leftist_cabinet } 
+event = 92006
+}
+
+date = { day = 14 month = april year = 1936 }
+offset = 3
+
+name = "Leftist coalition falls apart!"
+desc = "EVT_92014_DESC"
+
+action = {
+name = "let them fight"
+command = { type = local_clrflag which = JAP_left_coalition }
+}
+
+}
+
+event = {#Labor agitation
+id = 92015 
+picture = "japan_poverty"
+style = 2 
+
+name = "The economic depression"
+desc = "EVT_92015_DESC"
+	
+country = JAP 
+persistent = no 	
+
+date = { day = 1 month = may year = 1936 }
+offset = 10 
+
+action = {#oh 
+command = { type = dissent value = 5 }
+command = { trigger = { local_flag = JAP_leftist_cabinet } type = event which = 92016 where = JAP when = 15 }
+}
+	
+}
+
+#####Leftist reform events 
+event = {#Labor reforms
+id = 92016
+picture = "japan_factory_women"
+style = 2 
+
+name = "Socialist Labor Reforms"
+desc = "EVT_92016_DESC"
+	
+country = JAP 
+
+
+action = {#Labor reform 
+name = "For democracy!"
+command = { type = dissent value = -2 }
+command = { type = event which = 92018 where = JAP when = 30 }
+command = { type = local_setflag which = JAP_labor_reforms }
+command = { type = domestic which = freedom value = 2 }
+}
+	
+}
+
+event = {#Socialist financial reforms 
+id = 92017 
+picture = "japan_communist_meeting"
+style = 2 
+
+country = JAP 
+persistent = no 
+
+name = "Socialist Economic Reforms"
+desc = EVT_92017_DESC
+
+trigger = {
+local_flag = JAP_leftist_cabinet
+}
+
+date = { day = 20 month = may year = 1936 }
+offset = 10 
+
+action = {#enact reforms 
+name = "Enact the reforms"
+command = { type = dissent value = -1 }
+command = { type = domestic which = free_market value = -3 }
+}
+
+}
+
+event = {#Results of economic reforms- 6 months
+id = 92018 
+picture = "japanese_factory"
+style = 2 
+
+name = "Results of economic reforms"
+desc = "EVT_92018_DESC"
+
+country = JAP 
+persistent = no
+
+trigger = {
+OR = {
+local_flag = JAP_leftist_cabinet
+local_flag = JAP_socialist_government
+}
+event = { id = 92017 days = 190 }
+}
+
+offset = 10
+
+action = {
+name = "Great news"
+command = { type = wartime_ic_mod value = 20 }
+command = { type = peacetime_ic_mod value = 10 }
+command = { type = dissent value = 3 }
+}
+
+}
+
+event = {#Results of economic reforms- 1 year 
+id = 92019
+picture = "japanese_factory"
+style = 2
+
+name = "New factories"
+desc = "EVT_92019_DESC"
+
+country = JAP 
+persistent = no
+
+trigger = {
+OR = {
+local_flag = JAP_leftist_cabinet
+local_flag = JAP_socialist_government
+}
+event = { id = 92017 days = 90 }
+}
+
+offset = 10
+
+action = {
+name = "Great news"
+command = { type = construct which = ic where = 1553 value = 3  }
+command = { type = construct which = ic where = 1560 value = 1  }
+}
+
+}
+
+event = {#Proletarian art exhibition
+id = 92020
+picture = "japan_socialist_exhibition"
+style = 2 
+
+name = "8th Proletarian Art Exhibition"
+desc = "EVT_92020_DESC"
+
+country = JAP 
+persistent = no 
+
+trigger = {
+OR = {
+local_flag = JAP_leftist_cabinet
+local_flag = JAP_socialist_government 
+}
+atwar = no
+}
+
+date = { day = 5 month = november year = 1936 }
+offset = 10 
+
+action = {
+name = "Brilliant!"
+command = { type = dissent value = -1 }
+command = { type = 	relation which = SOV value = 15 }
+}
+
+}
+
+event = {
+id = 92021 
+picture = "japanese_red_youth"
+style = 2 
+
+name = "The Japanese Red Army"
+desc = "EVT_92021_DESC"
+
+country = JAP 
+persistent = no 
+
+trigger = {
+OR = {
+local_flag = JAP_leftist_cabinet
+local_flag = JAP_socialist_government
+}
+}
+
+date = { day = 15 month = march year = 1937 }
+offset = 10 
+
+action_a = {
+ai_chance = 65
+name = "They could be useful..."
+command = { type = dissent value = 1 }
+command = { type = local_setflag which = japanese_red_army }
+} 
+action_b = {
+ai_chance = 35
+name = "Ban these extremists"
+command = { type = dissent value = -1 }
+} 
+
+}
+
+event = {#labor crisis in Osaka
+id = 92022
+picture = "japan_leftist_protest"
+style = 2 
+name = "Labor crisis in Osaka"
+desc = "EVT_92022_DESC"
+
+country = JAP 
+persistent = no
+
+trigger = {
+OR = {
+local_flag = JAP_leftist_cabinet
+local_flag = JAP_socialist_government
+}
+local_flag = JAP_labor_reforms
+}
+
+date = { day = 25 month = may year = 1937 }
+offset = 10 
+
+action_a = {
+ai_chance = 50
+name = "Side with the radicals"
+command = { type = dissent value = 5}
+command = { type = wartime_ic_mod value = -5 }
+command = { type = peacetime_ic_mod value = -5 }
+command = { type = local_setflag which = jap_radical_socialists }
+command = { type = domestic which = free_market value = -1 }
+command = { type = event which = 92023 where = JAP when = 7 }#breakup of the coalition
+}
+action_b = {
+ai_chance = 50
+name = "Side with the moderates"
+command = { type = dissent value = 2.5 }
+command = { type = wartime_ic_mod value = -5 }
+command = { type = peacetime_ic_mod value = -5 }
+command = { type = local_setflag which = moderate_socialists }
+command = { type = event which = 92024 where = JAP when = 7 }#breakup of the coalition
+}
+
+}
+
+event = {#breakup of the coalition 
+id = 92023 
+picture = "japan_leftist_infighting"
+style = 2 
+name = "Ruling coalition falls apart!"
+desc = EVT_92023_DESC
+
+country = JAP 
+persistent = no 
+
+action = {
+name = "damned splitters!"
+command = { type = dissent value = 3 }
+command = { type = headofgovernment which = 50381 }
+####UNFINISHED NEEDS TO ADD MORE MINISTERS#####
+}
+}

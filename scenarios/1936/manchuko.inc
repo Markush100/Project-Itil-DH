@@ -93,7 +93,7 @@
     } 
 
    SpyInfo                = {  country = "MAN" NumberOfSpies = 5  } 
-   headofstate            = {  type = 9 id = 235001  } 
+   headofstate            = {  type = 9 id = 235073  } 
    headofgovernment       = {  type = 9 id = 235002  } 
    foreignminister        = {  type = 9 id = 235003  } 
    armamentminister       = {  type = 9 id = 235004  } 

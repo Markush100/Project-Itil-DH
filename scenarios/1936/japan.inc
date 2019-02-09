@@ -12,7 +12,8 @@ country = {
 	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes MOB6 = yes} }	
 	belligerence           = 10 
 	capital                = 1552 
-	manpower               = 686
+	manpower			   = 686
+	dissent				   = 5.43
 	# Resource Reserves 
 	energy                 = 1000 
 	metal                  = 1000 
@@ -199,22 +200,24 @@ country = {
 	policy = {
 		date              = {  year = 0 month = january day = 0  } 
 		democratic        = 7 
-		political_left    = 4 
-		freedom           = 1#3 
-		free_market       = 3 
-		professional_army = 6 
-		defense_lobby     = 8 
-		interventionism   = 8 
+		political_left    = 5 
+		freedom           = 6#3 
+		free_market       = 8 
+		professional_army = 4 
+		defense_lobby     = 5 
+		interventionism   = 5 
 	} 
+	peacetime_ic_mod       = 0.6 
+	wartime_ic_mod         = 0.6
 
 	headofstate            = {  type = 9 id = 50173  } 
 	headofgovernment       = {  type = 9 id = 50260  } 
-	foreignminister        = {  type = 9 id = 50253  } 
+	foreignminister        = {  type = 9 id = 50257  } 
 	armamentminister       = {  type = 9 id = 50302  }
 	ministerofsecurity     = {  type = 9 id = 50308  } 
 	ministerofintelligence = {  type = 9 id = 50202  } 
 	chiefofstaff           = {  type = 9 id = 50247  } 
-	chiefofarmy            = {  type = 9 id = 50008  } 
+	chiefofarmy            = {  type = 9 id = 50363  } 
 	chiefofnavy            = {  type = 9 id = 50230  } 
 	chiefofair             = {  type = 9 id = 50206  } 
 	
