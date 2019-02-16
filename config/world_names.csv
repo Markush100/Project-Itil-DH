@@ -29,7 +29,7 @@ CAL;California;Californie;California;California;Kalifornien;Kalifornia;;Калифорн
 CAM;Cameroon;Cameroun;Camerun;Camerъn;Kamerun;Kamerun;;Камерун;;;X
 CAN;Canada;Canada;Canada;Canadб;Kanada;Kanada;;Канада;;;X
 CGX;Guangxi Clique;Clan Guangxi;Cricca Guangxi;Camarilla de Guangxi;Guangxi Clique;Klika Guangxi;;Клика Гуанси;;;X
-CHC;Kuomintang;Chine communiste;Cina comunista;China Comunista;Rotchina;Kom. Chiny;;Коммун. Китай;;;X
+CHC;KMT-SDPC;Chine communiste;Cina comunista;China Comunista;Rotchina;Kom. Chiny;;Коммун. Китай;;;X
 CHI;China Reconstruction Society;Chine nationaliste;Cina Nazionalista;China Nacionalista;Nationalchina;Nacj. Chiny;;Нац. Китай;;;X
 CHL;Chile;Chili;Cile;Chile;Chile;Chile;;Чили;;;X
 CMB;Cambodia;Cambodge;Cambogia;Camboya;Kambodscha;Kambodїa;;Камбоджа;;;X
@@ -40,7 +40,7 @@ CRO;Croatia;Croatie;Croazia;Croacia;Kroatien;Chorwacja;;Хорватия;;;X
 CSA;Confederate States;Etats confйdйrйs;Stati Confederati;Estados Confederados;Konfцderierte Staaten;Konfederacja;;Конфедеративные штаты;;;X
 CSX;Shanxi Clique;Clan Shanxi;Cricca Shanxi;Camarilla de Shanxi;Shanxi Clique;Klika Shanxi;;Шаньси;;;X
 CUB;Cuba;Cuba;Cuba;Cuba;Kuba;Kuba;;Куба;;;X
-CXB;San Ma Clique;Clan San Ma;Cricca San Ma;Camarilla de San Ma;San Ma Clique;Klika San Ma;;Северозап. земли Ма;;;X
+CXB;Ma Clique;Clan San Ma;Cricca San Ma;Camarilla de San Ma;San Ma Clique;Klika San Ma;;Северозап. земли Ма;;;
 CYN;Yunnan Clique;Clan Yunnan;Cricca Yunnan;Camarilla de Yunnan;Yunnan Clique;Klika Yunnan;;Юньнань;;;X
 CYP;Cyprus;Chypre;Cipro;Chipre;Zypern;Cypr;;Кипр;;;X
 CZE;Bohemia;Tchйcoslovaquie;Cecoslovacchia;Checoslovaquia;Tschechoslowakei;Czechosіowacja;;Чехословакия;;;X
@@ -190,7 +190,7 @@ U20;Finnish Democratic Republic;Rйpublique dйmocratique de Finlande;Repubblica D
 U21;Swedish Socialist Union;Union socialiste de Suиde;Unione Socialista Svedese;Uniуn Socialista Sueca;Schwedische Sozialistische Union;Szwedzki Zwi№zek Socjalistyczny;;Шведский Социалистический Союз;;;X
 U22;People's Republic of Denmark;Rйpublique populaire du Danemark;Repubblica Popolare di Danimarca;Repъblica Popular de Dinamarca;Volksrepublik Dдnemark;Duсska Republika Ludowa;;Народная Республика Дания;;;X
 U23;Saarprotektorat;Protectorat de la Sarre;Protettorato della Saar;Protectorado del Sar;Saarprotektorat;Protektorat Saary;;Саарский Протекторат;;;X
-U24;Allied Occupation Zone;Zone d'occupation alliйe;Zona d'occupazione alleata;Zona de Ocupaciуn Aliada;Allierte Besatzungszone;Aliancka strefa okupacyjna;;Зона оккупации Союзников;;;X
+U24;Kokuhonsha;Zone d'occupation alliйe;Zona d'occupazione alleata;Zona de Ocupaciуn Aliada;Allierte Besatzungszone;Aliancka strefa okupacyjna;;Зона оккупации Союзников;;;X
 U25;Soviet Occupation Zone;Zone d'occupation soviйtique;Zona d'occupazione sovietica;Zona de Ocupaciуn Soviйtica;Sowjetische Besatzungszone;Radziecka strefa okupacyjna;;Советская оккупационная зона;;;X
 U26;Swiss Socialist Republic;Rйpublique socialiste de Suisse;Repubblica Socialista Svizzera;Repъblica Socialista de Suiza;Sozialistische Republik Schweiz;Szwajcarska Republika Socjalistyczna;;Социалистическая Республика Швейцария;;;X
 U27;Socialist Federal Republic of Yugoslavia;Rйpublique socialiste fйdйrale de Yougoslavie;Repubblica Socialista Federale di Jugoslavia;Repъblica Federal Socialista de Yugoslavia;Sozialistische Fцderative Republik Jugoslawien;Socjalistyczna Federacja Jugosіawii;;Социалистическая Федеративная Республика Югославия;;;X

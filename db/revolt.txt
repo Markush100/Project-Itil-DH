@@ -2717,22 +2717,19 @@ U23 = { # Saarprotektorat
  Country = { FRA U01 ENG USA CAN NZL AST }
  } 
  
-U24 = { # Allied occ ger 
+U24 = { # nationalist japan 
  date = { day = 0 month = january year = 1934 } 
  expirydate = { day = 29 month = december year = 1999 } 
- minimum = { 131 150 147 }
+ minimum = { 1191 }
  min = 1 
  extra = {}
  claims = { 
- 141 137 174 143 176 146 148 154 151 152 177 138 134 132 175 179 178 142 145 127 126 149 
- 180 144 129 136 130 128 139 135 140 133 
- 169 157 171 162 153 156 170 172 173 160 163 
- 186 187 188 189 190 191 192 193 194 195 
+	1191
   } 
- capital = 131 
+ capital = 1191 
  revolt = no 
- not = { GER DFR }
- country = { USA ENG FRA CAN U01 U02 AST NZL }
+ not = { JAP }
+ intrinsic_gov_type = fascist 
  } 
  
 U25 = { # Sov occ ger 
