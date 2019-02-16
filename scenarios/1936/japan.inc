@@ -49,7 +49,7 @@ country = {
         } 
 		relation = {  tag = PHI value = 1  } 
 		relation = {  tag = SIA value = 75  } 
-		relation = {  tag = SOV value = -10  } 
+		relation = {  tag = SOV value = -100  } 
 		relation = {  tag = USA value = 15  } 
 	} 
 	SpyInfo                = {  country = "JAP" NumberOfSpies = 9  } 
@@ -58,9 +58,7 @@ country = {
 	nationalprovinces = {  
 		1543 1544 1545 1546 1547 1548 1549 1550 1551 1552 1553 1554 1555 1556 1557 1558 1559 1560 1561 1562 1563 1564 1661 1662 1663 1664 1672 
 		1541 1542 # Sakhalin
-        1228 1229 1230 1231 1232 1233 # South Korea 
-		1221 1222 1223 1224 1225 1226 1227 # North Korea
-		1361 1362 1363 1364 # Taiwan 
+
 		1191 #Uraijo
 	} 
 	ownedprovinces = {  
@@ -82,9 +80,11 @@ country = {
 	claimedprovinces = { 
 		1665 1666 1667 1668 1669 1670 1671 1672 1674 1675 1676 1677 1681 1684 1685 1686 #Pacific Island
 		1219 #Port Arthur / Dalian
-		#Tangshan (border between Manchukuo and Japan under Japanese rule for gameplay reason)
-		1683 #Guam 
-		1338 #Shanghai
+		1228 1229 1230 1231 1232 1233 # South Korea 
+		1221 1222 1223 1224 1225 1226 1227 # North Korea
+		1361 1362 1363 1364 # Taiwan 
+		#Japan in Russia 
+	    1171 1174 1175 1181 1182 1183 1184 1185 1186 1187 1188 1189 1190 1191 1192 1193 1194 1195 1196 1541 
 	} 	
 	# JAP 1936 techs 
 	# ###################### 
@@ -340,7 +340,7 @@ country = {
 			brigade_model2 = 3
 		} 
 		division = {
-			id       = {  type = 13016 id = 1110  } 
+			id       = {  type = 13016 id = 1111  } 
 			name     = "Dai 29 Hoheishidan" 
 			strength = 50
 			type     = infantry 

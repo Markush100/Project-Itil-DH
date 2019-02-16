@@ -11,7 +11,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50009;Chief of Navy;Osumi Mineo;1911;1942;1942;FA;Power Projection Doctrine;Very High;M5009;X
 50010;Chief of Air Force;Yamamoto Isoroku;1919;1944;1944;FA;Naval Aviation Doctrine;Very High;M5010;X
 50011;Head of State;Yasuhito;1902;1954;1954;PA;Ruthless Powermonger;Very High;M5207;X
-50012;Head of State;Nosaka Sanzo;1892;1994;1994;SD;Barking Buffoon;High;M5011;X
+50012;Head of State;Nosaka Sanzo;1892;1994;1994;ST;Barking Buffoon;High;M5011;X
 50013;Head of Government;Hayashi Senjuro;1920;1944;1944;PA;Smiling Oilman;High;M5033;X
 50014;Head of Government;Konoe Fumimaro;1935;1946;1946;PA;Flamboyant Tough Guy;High;M5034;X
 50015;Head of Government;Abe Nobuyuki;1919;1954;1954;PA;Political Protege;High;M5035;X
@@ -31,7 +31,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50029;Head of Government;Yoshida Shigeru;1922;1968;1968;SC;Backroom Backstabber;High;M5031;X
 50030;Head of Government;Hatoyama Ichiro;1927;1960;1960;SC;Political Protege;High;M5032;X
 50031;Head of Government;Miyamoto Kenji;1952;1999;1999;LE;Smiling Oilman;High;M5012;X
-50032;Foreign Minister;Nosaka Sanzo;1927;1994;1994;SD;The Cloak N Dagger Schemer;Low;M5011;X
+50032;Foreign Minister;Nosaka Sanzo;1927;1994;1994;ST;The Cloak N Dagger Schemer;Low;M5011;X
 50033;Foreign Minister;Ashida Hitoshi;1922;1960;1960;SL;Apologetic Clerk;High;M5046;X
 50034;Foreign Minister;Yoshizawa Kenkichi;1909;1966;1966;SC;Ideological Crusader;High;M5047;X
 50035;Foreign Minister;Okada Keisuke;1903;1953;1953;SC;Iron Fisted Brute;High;M5002;X
@@ -106,8 +106,8 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50104;Minister of Security;Kato Hakujiro;1922;1952;1952;FA;Man of the People;Medium;M5124;X
 50105;Minister of Security;Odachi Shigeo;1927;1956;1956;FA;Man of the People;Medium;M5125;X
 50106;Minister of Security;Iimura Jo;1923;1977;1977;FA;Crime Fighter;Medium;M5126;X
-50107;Minister of Security;Nosaka Sanzo;1927;1994;1994;LE;Man of the People;Very High;M5011;X
-50108;Head of Military Intelligence;Nosaka Sanzo;1927;1994;1994;LE;Industrial Specialist;Low;M5011;X
+50107;Minister of Security;Nosaka Sanzo;1927;1994;1994;ST;Man of the People;Very High;M5011;X
+50108;Head of Military Intelligence;Nosaka Sanzo;1927;1994;1994;ST;Industrial Specialist;Low;M5011;X
 50109;Head of Military Intelligence;Katayama Tetsu;1922;1979;1979;SD;Naval Intelligence Specialist;Medium;M5027;X
 50110;Head of Military Intelligence;Ugaki Kazushige;1931;1957;1957;SC;Political Specialist;Medium;M5028;X
 50111;Head of Military Intelligence;Machida Chuji;1898;1947;1947;SC;Technical Specialist;High;M5004;X
@@ -228,7 +228,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50226;Chief of Navy;Murakami Kakuichi;1897;1928;1928;SD;Base Control Doctrine;Medium;2756;X
 50227;Chief of Navy;Okada Keisuke;1903;1953;1953;SD;Indirect Approach Doctrine;Medium;M5002;X
 50228;Chief of Navy;Fushimi Hiroyasu;1910;1947;1947;NS;Base Control Doctrine;Medium;2758;X
-50229;Chief of Navy;Saito Makoto;1893;1937;1937;ML;Decisive Naval Battle Doctrine;High;2759;X
+50229;Chief of Navy;Saito Makoto;1893;1941;1941;PA;Decisive Naval Battle Doctrine;High;2759;X
 50230;Chief of Navy;Takarabe Takeshi;1902;1950;1950;ML;Indirect Approach Doctrine;Medium;2760;X
 50231;Chief of Navy;Togo Heihachiro;1883;1935;1935;FA;Decisive Naval Battle Doctrine;Medium;2761;X
 50232;Chief of Navy;Yamamoto Gonnohyoe;1887;1934;1934;ML;Power Projection Doctrine;Medium;2762;X
@@ -247,7 +247,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50245;Chief of Staff;Terauchi Masatake;1887;1920;1920;PA;School of Fire Support;Medium;2750;X
 50246;Chief of Staff;Uehara Yusaku;1891;1934;1934;FA;School of Fire Support;Medium;2751;X
 50247;Chief of Staff;Ugaki Kazushige;1903;1955;1955;ML;School of Fire Support;Medium;2752;X
-50248;Foreign Minister;Arahata Kanson;1922;1982;1982;ST;General Staffer;Medium;2764;X
+50248;Foreign Minister;Arahata Kanson;1922;1982;1982;LWR;General Staffer;Medium;2764;X
 50249;Foreign Minister;Inukai Tsuyoshi;1890;1941;1941;SC;General Staffer;Medium;2765;X
 50250;Foreign Minister;Ishii Kikujiro;1901;1946;1946;ML;Great Compromiser;Medium;2766;X
 50251;Foreign Minister;Kato Takaaki;1895;1927;1927;SL;Apologetic Clerk;Medium;2767;X
@@ -292,7 +292,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50290;Minister of Armament;Hamaguchi Osachi;1905;1939;1939;SL;Administrative Genius;Medium;2775;X
 50291;Minister of Armament;Ichiki Otohiko;1907;1955;1955;FA;Military Entrepreneur;Medium;2787;X
 50292;Minister of Armament;Inoue Junnosuke;1904;1933;1933;SD;Resource Industrialist;Medium;2788;X
-50293;Minister of Armament;Kawakami Hajime;1914;1947;1947;ST;Resource Industrialist;Medium;2789;X
+50293;Minister of Armament;Kawakami Hajime;1914;1947;1947;LE;Resource Industrialist;Medium;2789;X
 50294;Minister of Armament;Ozaki Yukio;1893;1955;1955;SD;Laissez-Faire Capitalist;Medium;2790;X
 50295;Minister of Armament;Saionji Kinmochi;1884;1941;1941;ML;Laissez-Faire Capitalist;Medium;2772;X
 50296;Minister of Armament;Sakai Toshihiko;1906;1934;1934;ST;Military Entrepreneur;Medium;2777;X
@@ -322,7 +322,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50320;Chief of Staff;Yamagata Aritomo;1873;1923;1923;SC;School of Fire Support;Very High;2779;X
 50321;Chief of Navy;Yamagata Aritomo;1873;1923;1923;SC;Open Seas Doctrine;Very High;2779;X
 50322;Chief of Air Force;Yamagata Aritomo;1873;1923;1923;SC;Army Aviation Doctrine;Very High;2779;X
-50323;Head of Government;Saito Makoto;1902;1937;1937;ML;Old Admiral;High;2759;X
+50323;Head of Government;Saito Makoto;1902;1941;1941;PA;Old Admiral;High;2759;X
 50324;Head of State;Mutsuhito;1852;1913;1913;PA;Die-hard Reformer;Very High;9135;X
 50325;Head of Government;Katsura Taro;1892;1914;1914;PA;Silent Workhorse;Very High;9136;X
 50326;Minister of Security;Ohara Naoshi;1912;1968;1968;SC;Crime Fighter;Medium;M5236;X
@@ -380,4 +380,9 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50378;Foreign Minister;Toyohiko Kagawa;1902;1960;1960;SD;apologetic clerk;Medium;AR248;X
 50379;Minister of Security;Komaki Matsuoka;1902;1958;1958;SD;compassionate gentleman;Medium;AR249;X
 50380;Foreign Minister;Adachi Kenzō;1902;1948;1948;FA;Biased Intellectual;Medium;AR250;X
-50381;Head of Government;Tokuda Kyuichi;1929;1954;1954;LWR;flamboyant tough guy;Low;M5014;X
+50381;Head of Government;Tokuda Kyuichi;1929;1954;1954;LE;flamboyant tough guy;Low;M5014;X
+50382;Head of Government;Ikuo Oyama;1929;1956;1956;LWR;ambitious union boss;Low;AR251;X
+50383;Minister of Armament;Suzuki Bunji;1929;1947;1947;SD;Reformer;Low;AR252;X
+50384;Minister of Security;Tokuda Kyuichi;1929;1954;1954;LE;man of the people;Low;M5014;X
+
+
