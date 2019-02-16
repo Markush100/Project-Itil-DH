@@ -1,7 +1,7 @@
 ###Intro Event
 event = {
 id = 100101
-picture = "Franceintro"
+picture = "FRA_history"
 style = 1
 
 trigger = { ai = no }
@@ -9,19 +9,19 @@ TAG = { FRA }
 
 date = { day = 3 month = january year = 1936 }
 
-name = "France, 1936"
+name = "The Third Republic"
 desc = "EVT_100101_DESC"
 
 action = {
-name = "Terrible..."
+name = "France is eternal!"
 command = { }
 }
 }
 
-###National Front 
+###Intro 2 
 event = {
 id = 100102
-picture = "Croixdefeu"
+picture = "franceintro"
 style = 1
 
 trigger = { ai = no }
@@ -29,32 +29,32 @@ TAG = { FRA }
 
 date = { day = 10 month = january year = 1936 }
 
-name = "The French National Front"
+name = "1936 - A turning point"
 desc = "EVT_100102_DESC"
 
 action = {
 name = "Terrible..."
-command = { type = 	dissent value = 10 }
+command = { }
 }
 }
 
-###Popular Front 
+###daladier death
 event = {
 id = 100103
-picture = "popularfront"
-style = 1
+picture = "FRA_daladier_dead"
+style = 2
 
 trigger = { ai = no }
 TAG = { FRA }
 
 date = { day = 20 month = january year = 1936 }
 
-name = "The French Popular Front"
+name = "National tragedy"
 desc = "EVT_100103_DESC"
 
 action = {
 name = "Terrible..."
-command = { type = 	dissent value = 10 }
+command = { type = 	dissent value = 5 }
 }
 }
 
@@ -65,7 +65,7 @@ picture = "fraelect"
 style = 1
 
 TAG = { FRA }
-date = { day = 25 month = april year = 1936 }
+date = { day = 2 month = may year = 1936 }
 
 name = "French legislative elections - 1936"
 desc = "A new age for France is dawning. On one side, the Popular front, a coalition of the French Socialist Party and the Radical-Socialist Republican Party are opposed to the Conservative Republican Federation, and the Far-Right National Front, which even though enjoys popularity among the people, still lacks the political capital and organization to win an election. With the opening of the ballot boxes, violence has erupted on the streets as militants attempt to stop a Popular Front victory."
@@ -85,7 +85,7 @@ id = 100105
 picture = "petain_speech"
 style = 1
 
-date = { day = 8 month = may year = 1936 }
+deathdate = { day = 2 month = may year = 1933 } #Obsolete
 
 TAG = { FRA }
 
@@ -338,3 +338,137 @@ command = { type = 	set_domestic which = defense_lobby value = 5 }
 command = { type = 	set_domestic which = interventionism value = 1 }
 }
 }
+
+###Start of elections
+event = {
+id = 100113
+picture = "election_time"
+style = 2
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { day = 25 month = april year = 1936 }
+
+name = "Start of the French Elections"
+desc = "Today the ballot boxes have opened, and the future of France will be decided in the following weeks. The atmosphere is tense in the streets, with National Front militias unenthusiastic about the Socialist-Radical coalition."
+
+action = {
+name = "Hope they don't start fighting"
+command = { }
+}
+}
+
+###May Day Disaster
+event = {
+id = 100114
+picture = "FRA_may_day"
+style = 2
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { hour = 15 day = 0 month = may year = 1936 }
+
+name = "Disaster on May day"
+desc = "Today, a May 1st demonstration organized by the Socialist party in Paris meant to rally support for the Popular Front descended into bloody chaos. Initially, a group of Camelots decided to take riot measures into their own hands by blocking the streets with cars, which were smashed by the protesters. With the government being ineffective at preventing fights, the situation dramatically escalated with various paramilitary militias exchanging fire. Around 100 people died, leaving the people and government stumped on how could such a thing happen."
+
+action = {
+name = "Have they gone insane!?"
+command = { type = 	dissent value = 20 }
+}
+}
+
+###Socialist Intentions
+event = {
+id = 100115
+picture = "FRA_parliament"
+style = 2
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { day = 7 month = may year = 1936 }
+
+name = "The socialist ideas"
+desc = "General secretary of the Socialist Party, Boris Souvarine has announced the party's intention to draft a new constitution which will solve all the problems plaguing France, according to him. This has universally met negative responses, even from the Radical-Socialist Party whom he has a coalition with. Marshal Petain has issued a warning for Souvarine to resign, or he will be forced to establish martial law in defense of democracy."
+
+action = {
+name = "This is not looking good..."
+command = { }
+}
+}
+
+###Petain declares martial law
+event = {
+id = 100116
+picture = "petain_speech"
+style = 2
+
+trigger = { ai = no }
+TAG = { FRA }
+
+date = { day = 9 month = may year = 1936 }
+
+name = "Petain Declares Martial Law"
+desc = "Following the obvious refusal of Souvarine, Petain has officially declared martial law throughout the country. Declared an illegitimate move by the government, this order only de-jure took effect in some parts of France. Petain is expelled from the military, however most of the military staff follow his lead and flee to Brest to form an emergency council. The situation is gradually descending into chaos, and we may have gone past the point of no return."
+
+action = {
+name = "Insane old man..."
+####French Salvation Front
+command = { type = 	independence which = VIC value = 0 when = 0 }
+command = { type =	secedeprovince which = VIC value = 37 when = 2 }
+command = { type =	secedeprovince which = VIC value = 38 when = 2 }
+command = { type =	secedeprovince which = VIC value = 39 when = 2 }
+command = { type =	secedeprovince which = VIC value = 40 when = 2 }
+command = { type =	secedeprovince which = VIC value = 41 when = 2 }
+command = { type =	secedeprovince which = VIC value = 42 when = 2 }
+command = { type =	secedeprovince which = VIC value = 43 when = 2 }
+command = { type =	secedeprovince which = VIC value = 44 when = 2 }
+command = { type =	secedeprovince which = VIC value = 46 when = 2 }
+command = { type =	secedeprovince which = VIC value = 47 when = 2 }
+command = { type =	secedeprovince which = VIC value = 48 when = 2 }
+command = { type =	secedeprovince which = VIC value = 58 when = 2 }
+command = { type = secedeprovince which = VIC value = 59 when = 2 }
+command = { type = secedeprovince which = VIC value = 60 when = 2 }
+command = { type = secederegion which = VIC value = REGION_ALGERIA when = 2 }
+command = { type = secedearea which = VIC value = AREA_CENTRAL_AFRICA_DESERT when = 2 }
+command = { type = switch_allegiance which = 13500 value = 1 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 9 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 17 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 23 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 29 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 118 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 140 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 160 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 184 where = VIC }
+command = { type = switch_allegiance which = 13500 value = 201 where = VIC } 
+command = { type = event which = 100108 where = VIC } #Policy
+#AF territory
+command = { type =	secedeprovince which = VIC value = 63 when = 2 }
+command = { type =	secedeprovince which = VIC value = 64 when = 2 }
+command = { type =	secedeprovince which = VIC value = 95 when = 2 }
+command = { type =	secedeprovince which = VIC value = 96 when = 2 }
+command = { type =	secedeprovince which = VIC value = 97 when = 2 }
+command = { type =	secedeprovince which = VIC value = 100 when = 2 }
+command = { type =	secedeprovince which = VIC value = 102 when = 2 }
+command = { type =	secedeprovince which = VIC value = 106 when = 2 }
+#FLP territory
+command = { type =	secedeprovince which = VIC value = 69 when = 2 }
+command = { type =	secedeprovince which = VIC value = 70 when = 2 }
+command = { type =	secedeprovince which = VIC value = 71 when = 2 }
+command = { type =	secedeprovince which = VIC value = 72 when = 2 }
+command = { type =	secedeprovince which = VIC value = 73 when = 2 }
+command = { type =	secedeprovince which = VIC value = 74 when = 2 }
+command = { type =	secedeprovince which = VIC value = 75 when = 2 }
+command = { type =	secedeprovince which = VIC value = 76 when = 2 }
+command = { type =	secedeprovince which = VIC value = 61 when = 2 }
+command = { type =	secedeprovince which = VIC value = 62 when = 2 }
+command = { type =	secedeprovince which = VIC value = 65 when = 2 }
+command = { type =	secedeprovince which = VIC value = 57 when = 2 }
+command = { type = switch_allegiance which = 13500 value = 199 where = VIC }
+}
+}
+
+
+

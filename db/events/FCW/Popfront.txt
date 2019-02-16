@@ -97,3 +97,30 @@ command = { type = add_division which = "9e Garde Revolutionnaire" when = 4 valu
 command = { type = add_division which = "10e Garde Revolutionnaire" when = 5 value = militia }
 }
 }
+
+###Popular Front Victory
+event = {
+id = 100304
+style = 1
+TAG = { U11 U14 U01 }
+
+trigger = {
+    not = {
+       exists = VIC 
+       exists = U03 
+       exists = U04
+    }
+    flag = FRA_civil_start
+}
+
+name = "Victory!"
+desc = "EVT_100304_DESC"
+
+action = {
+name = "Wasn't is obvious?"
+command = { type = dissent value = -10 }
+command = { type = setflag which = PF_victory }
+command = { type = event which = 100205 where = U04 when = 2 }
+}
+}
+

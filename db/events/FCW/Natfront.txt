@@ -124,6 +124,24 @@ action = {
 name = "Wasn't is obvious?"
 command = { type = dissent value = -10 }
 command = { type = setflag which = NF_victory }
-command = { type = event which = 100205 where = U04 when = 2 }
+command = { type = event which = 100205 where = VIC when = 2 }
+}
+}
+
+###VIC decision
+event = {
+id = 100205
+style = 1
+
+
+name = "The Extremist problem"
+desc = "We have defeated the red scourge, but we are still left with a few thorns in our side. The far-right League of Patriots and Action Francaise are quite incompatible with our grand plan. They support ridiculous national-syndicalist and integralist ideologies which are a danger to the French nation and people. We can attempt to cooperate, but most of the generals support a simpler plan of restoring order to their unlawful territory."
+
+action = {
+name = "Send a telegram to de Gaulle"
+command = { type = war which = U04 }
+command = { type = war which = U03 }
+command = { type = event which = 100206 where = U04 }
+command = { type = event which = 100207 where = U03 }
 }
 }
