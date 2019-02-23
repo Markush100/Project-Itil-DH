@@ -44,17 +44,20 @@ id = 100103
 picture = "FRA_daladier_dead"
 style = 2
 
-trigger = { ai = no }
 TAG = { FRA }
 
 date = { day = 20 month = january year = 1936 }
 
-name = "National tragedy"
+name = "Daladier shot dead!"
 desc = "EVT_100103_DESC"
 
 action = {
 name = "Terrible..."
-command = { type = 	dissent value = 5 }
+command = { type = dissent value = 5 }
+command = { type = sleepminister which = 5002 }
+command = { type = headofgovernment which = 5013 }
+command = { type = event value = 5 }
+command = { type = event which = 100118 where = FRA when = 14 } 
 }
 }
 
@@ -297,21 +300,21 @@ command = { type = 	set_domestic which = interventionism value = 6 }
 }
 }
 
-###RF policy
+###SPF policy
 event = {
 id = 100111
 style = 1
 
 
-name = "The True France"
-desc = "Our government is the only one loyal to France, as the Socialists in the north have declared a provisional 'fourth' Republic. Our cabinet mainly consists of officers loyal to liberty, along with the previous cabinet."
+name = "The state within a state"
+desc = "While we are not technically an independent faction in this war, we are the secret apparatus of the French Socialist Party. Independent from the Bordeaux government, our goal is to strengthen socialist power in the case of a revolution against the Third Repbulic."
 
 action = {
 name = "Fair"
-command = { type = 	set_domestic which = political_left value = 6 }
-command = { type = 	set_domestic which = democratic value = 8 }
-command = { type = 	set_domestic which = free_market value = 8 }
-command = { type = 	set_domestic which = freedom value = 7 }
+command = { type = 	set_domestic which = political_left value = 8 }
+command = { type = 	set_domestic which = democratic value = 2 }
+command = { type = 	set_domestic which = free_market value = 2 }
+command = { type = 	set_domestic which = freedom value = 4 }
 command = { type = 	set_domestic which = professional_army value = 9 }
 command = { type = 	set_domestic which = defense_lobby value = 9 }
 command = { type = 	set_domestic which = interventionism value = 7 }
@@ -345,13 +348,12 @@ id = 100113
 picture = "election_time"
 style = 2
 
-trigger = { ai = no }
 TAG = { FRA }
 
 date = { day = 25 month = april year = 1936 }
 
 name = "Start of the French Elections"
-desc = "Today the ballot boxes have opened, and the future of France will be decided in the following weeks. The atmosphere is tense in the streets, with National Front militias unenthusiastic about the Socialist-Radical coalition."
+desc = "The long awaited legislative elections have finally arrived as voting begins throughout the country. Security around voting stations have been reinforced due to fears of political violence from anti-parliamentary groups. The results are expected to come in next week."
 
 action = {
 name = "Hope they don't start fighting"
@@ -365,37 +367,37 @@ id = 100114
 picture = "FRA_may_day"
 style = 2
 
-trigger = { ai = no }
 TAG = { FRA }
 
 date = { hour = 15 day = 0 month = may year = 1936 }
 
 name = "Disaster on May day"
-desc = "Today, a May 1st demonstration organized by the Socialist party in Paris meant to rally support for the Popular Front descended into bloody chaos. Initially, a group of Camelots decided to take riot measures into their own hands by blocking the streets with cars, which were smashed by the protesters. With the government being ineffective at preventing fights, the situation dramatically escalated with various paramilitary militias exchanging fire. Around 100 people died, leaving the people and government stumped on how could such a thing happen."
+desc = "EVT_100114_DESC"
 
 action = {
-name = "Have they gone insane!?"
+name = "I hope they don't start a war"
 command = { type = 	dissent value = 20 }
 }
 }
 
-###Socialist Intentions
+###Reforms
 event = {
 id = 100115
 picture = "FRA_parliament"
 style = 2
 
-trigger = { ai = no }
 TAG = { FRA }
 
 date = { day = 7 month = may year = 1936 }
 
-name = "The socialist ideas"
-desc = "General secretary of the Socialist Party, Boris Souvarine has announced the party's intention to draft a new constitution which will solve all the problems plaguing France, according to him. This has universally met negative responses, even from the Radical-Socialist Party whom he has a coalition with. Marshal Petain has issued a warning for Souvarine to resign, or he will be forced to establish martial law in defense of democracy."
+name = "People's Reconstruction Program"
+desc = "The first order of buisnesses for the new government is formulating a new economic policy that will both rebuild the French economy and prevent future crisis. A special parliamentary committee of Socialists and Radicals have been convened in Paris to come up with appropriate solutions. Right wing critics are warning any leftist reforms would be the first step towards a sovietization of France."
 
 action = {
 name = "This is not looking good..."
-command = { }
+command = { type = dissent value = -5 }
+command = { type = 	domestic which = political_left value = 1 }
+command = { type = 	domestic which = free_market value = -1 }
 }
 }
 
@@ -405,13 +407,12 @@ id = 100116
 picture = "petain_speech"
 style = 2
 
-trigger = { ai = no }
 TAG = { FRA }
 
 date = { day = 9 month = may year = 1936 }
 
 name = "Petain Declares Martial Law"
-desc = "Following the obvious refusal of Souvarine, Petain has officially declared martial law throughout the country. Declared an illegitimate move by the government, this order only de-jure took effect in some parts of France. Petain is expelled from the military, however most of the military staff follow his lead and flee to Brest to form an emergency council. The situation is gradually descending into chaos, and we may have gone past the point of no return."
+desc = "EVT_100116_DESC"
 
 action = {
 name = "Insane old man..."
@@ -443,6 +444,7 @@ command = { type = switch_allegiance which = 13500 value = 140 where = VIC }
 command = { type = switch_allegiance which = 13500 value = 160 where = VIC }
 command = { type = switch_allegiance which = 13500 value = 184 where = VIC }
 command = { type = switch_allegiance which = 13500 value = 201 where = VIC } 
+command = { type = switch_allegiance which = 13500 value = 6 where = VIC } 
 command = { type = event which = 100108 where = VIC } #Policy
 #AF territory
 command = { type =	secedeprovince which = VIC value = 63 when = 2 }
@@ -453,6 +455,9 @@ command = { type =	secedeprovince which = VIC value = 97 when = 2 }
 command = { type =	secedeprovince which = VIC value = 100 when = 2 }
 command = { type =	secedeprovince which = VIC value = 102 when = 2 }
 command = { type =	secedeprovince which = VIC value = 106 when = 2 }
+command = { type =	secedeprovince which = VIC value = 85 when = 2 }
+command = { type =	secedeprovince which = VIC value = 88 when = 2 }
+command = { type =	secedeprovince which = VIC value = 98 when = 2 }
 #FLP territory
 command = { type =	secedeprovince which = VIC value = 69 when = 2 }
 command = { type =	secedeprovince which = VIC value = 70 when = 2 }
@@ -466,9 +471,120 @@ command = { type =	secedeprovince which = VIC value = 61 when = 2 }
 command = { type =	secedeprovince which = VIC value = 62 when = 2 }
 command = { type =	secedeprovince which = VIC value = 65 when = 2 }
 command = { type =	secedeprovince which = VIC value = 57 when = 2 }
+command = { type =	secedeprovince which = VIC value = 78 when = 2 }
 command = { type = switch_allegiance which = 13500 value = 199 where = VIC }
 }
 }
 
 
+###Move of capital
+event = {
+id = 100117
+picture = "FRA_lebrun"
+style = 2
 
+TAG = { FRA }
+
+date = { day = 11 month = may year = 1936 }
+
+name = "Descent into chaos"
+desc = "EVT_100117_DESC"
+
+action = {
+name = "My dear France..."
+command = { type =	capital which = 68 } #Bordeauyx
+command = { type =	country which = U01 } 
+#SPF territory
+command = { type = 	independence which = U11 value = 0 when = 0 }
+command = { type =	secedeprovince which = U11 value = 49 when = 2 }
+command = { type =	secedeprovince which = U11 value = 50 when = 2 }
+command = { type =	secedeprovince which = U11 value = 51 when = 2 }
+command = { type =	secedeprovince which = U11 value = 52 when = 2 }
+command = { type =	secedeprovince which = U11 value = 53 when = 2 }
+command = { type =	secedeprovince which = U11 value = 54 when = 2 }
+command = { type =	secedeprovince which = U11 value = 55 when = 2 }
+command = { type =	secedeprovince which = U11 value = 56 when = 2 }
+command = { type =	secedeprovince which = U11 value = 45 when = 2 }
+command = { type =	secedeprovince which = U11 value = 66 when = 2 }
+command = { type =	secedeprovince which = U11 value = 99 when = 2 }
+command = { type =	secedeprovince which = U11 value = 101 when = 2 }
+command = { type =	secedeprovince which = U11 value = 103 when = 2 }
+command = { type =	alliance which = U11 when = 1 }
+command = { type = event which = 100111 where = U11 } #Policy
+}
+}
+
+###Tension within coalition
+event = {
+id = 100118
+picture = "FRA_herriot"
+style = 1
+
+TAG = { FRA }
+
+name = "Tensions within the ruling coalition"
+desc = "In the weeks following Daladier's assasination increasing disagreements within the ruling coalition have emerged, with Edouard Herriot's socialist sympathies causing tensions with the conservative elements of the coalition. Political experts predict a possible breakup of the Republican Coalition in favor of a Radical-Socialist front in the coming elections."
+
+action = {
+name = "This is not looking good..."
+command = { type = dissent value = 2 } 
+}
+}
+
+###Strike in Provence
+event = {
+id = 100119
+picture = "FRA_cgt_strike"
+style = 2
+
+TAG = { FRA }
+
+date = { day = 14 month = march year = 1936 }
+
+name = "General strike in Provence"
+desc = "Growing discontent with the Republican government have came to a head in Provence today as the Anarcho-Syndicalist labor union, the CGT, have declared a general strike in response to the growing influence of far right political groups. The CGT hopes direct action will awake a popular reaction against the right as it has done in Italy during the red years."
+
+action = {
+name = "France isn't Italy"
+command = { type = dissent value = 2 } 
+}
+}
+
+###Creation of Natfront
+event = {
+id = 100120
+picture = "FRA_petain"
+style = 2
+
+TAG = { FRA }
+
+date = { day = 3 month = april year = 1936 }
+
+name = "Petain forms the National Salvation Front"
+desc = "Cheif of staff Philip Petain have announced the creation of the 'National Salvation Front', an association of right leaning general and politicians with the aim of protecting order and stability in the face of growing violence and dissent.  This move was denounced by politicians on both the left and the right as a dangerous politicization of the military. Despite the backlash calls to dismiss petain have been blocked by conservative members of the Republican Coalition."
+
+action = {
+name = "This could be a problem."
+command = { type = dissent value = 2 } 
+}
+}
+
+###FPL creation
+event = {
+id = 100120
+picture = "FRA_petain"
+style = 2
+
+TAG = { FRA }
+
+date = { day = 9 month = may year = 1936 }
+
+name = "Petain forms the National Salvation Front"
+desc = "Cheif of staff Philip Petain have announced the creation of the 'National Salvation Front', an association of right leaning general and politicians with the aim of protecting order and stability in the face of growing violence and dissent.  This move was denounced by politicians on both the left and the right as a dangerous politicization of the military. Despite the backlash calls to dismiss petain have been blocked by conservative members of the Republican Coalition."
+
+action = {
+name = "This could be a problem."
+command = { type = dissent value = 2 } 
+}
+}
+ 
