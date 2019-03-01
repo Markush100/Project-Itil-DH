@@ -79,7 +79,10 @@ globaldata =
   }
   dormant_leaders = { 
 	#SPA
-	35014 35017 35028 35056 35067 35093 35094 35095 }
+	35014 35017 35028 35056 35067 35093 35094 35095
+  #U11 Zhukov 
+  870001
+   }
 	
   dormant_ministers = {
     #CHI - 1914 NPA

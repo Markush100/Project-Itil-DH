@@ -34,5 +34,6 @@ event = "db\events\Russia-Soviet\Border_War.txt"
 event = "db\events\FCW\Start.txt"
 event = "db\events\FCW\Popfront.txt"
 event = "db\events\FCW\Natfront.txt"
+event = "db\events\FCW\Intervention.txt"
 event = "db\events\Other\News.txt"
 

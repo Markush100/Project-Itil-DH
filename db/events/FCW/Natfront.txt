@@ -5,11 +5,8 @@ picture = "natfrance_mobilization"
 style = 1
 country = VIC
 
-date = { day = 9 month = may year = 1936 }
-
-
 name = "Mobilization of the reserves"
-desc = "In the weeks following the outbreak of the civil war, marshal Petain has positioned the army reserves in the northwest, in preperation for a war. Now is the time to mobilize the French army, in order to defend against Judeo-Soviet scum."
+desc = "In the weeks before the declaration of martial law, marshal Petain has positioned the army reserves in the northwest, in preperation for a war. Now is the time to mobilize the French army, in order to defend against Judeo-Soviet scum."
 
 action = {
 name = "For the defense against Anarchism!"
@@ -37,9 +34,6 @@ id = 100202
 picture = "patriots_mobilization"
 style = 1
 country = U03
-
-date = { day = 10 month = may year = 1936 }
-
 
 name = "la Rocque's support"
 desc = "Colonel la Rocque has supported the League of Patriots since the start, and he has promised for his soldiers to fight for the French nation against red scum. The Croix-de-Feu has become the largest paramilitary organization in France, and now its troops have dedicated themselves to us."
@@ -71,10 +65,7 @@ event = {
 id = 100203
 picture = "action_francaise_mobilization"
 style = 1
-TAG = U04
-
-date = { day = 11 month = may year = 1936 }
-
+country = U04
 
 name = "The Camelots du Roi"
 desc = "Even though the Croix-de-Feu has collected most of the war veterans in their militia, our organization, the Camelots du Roi has grown increasingly more popular with the youth. Along with our strong paramilitary wing, a large number of reservists have also grown tired of Republican corruption and have decided to pledge their support for the monarchy. Long live the King!"
@@ -135,7 +126,7 @@ style = 1
 
 
 name = "The Extremist problem"
-desc = "We have defeated the red scourge, but we are still left with a few thorns in our side. The far-right League of Patriots and Action Francaise are quite incompatible with our grand plan. They support ridiculous national-syndicalist and integralist ideologies which are a danger to the French nation and people. We can attempt to cooperate, but most of the generals support a simpler plan of restoring order to their unlawful territory."
+desc = "We have defeated the red scourge, but we are still left with a few thorns in our side. The far-right LPNF and Action Francaise are quite incompatible with our grand plan. They support ridiculous national-syndicalist and integralist ideologies which are a danger to the French nation and people. We can attempt to cooperate, but most of the generals support a simpler plan of restoring order to their unlawful territory."
 
 action = {
 name = "Send a telegram to de Gaulle"
@@ -143,5 +134,31 @@ command = { type = war which = U04 }
 command = { type = war which = U03 }
 command = { type = event which = 100206 where = U04 }
 command = { type = event which = 100207 where = U03 }
+}
+}
+
+###Schneider Reserves - AF
+event = {
+id = 100203
+picture = "FRA_ft_tanks"
+style = 1
+TAG = U04
+
+date = { day = 17 month = may year = 1936 }
+
+name = "Besançon armor reserve"
+desc = "In the period following the great war, the French army attempted to modernize its army and introduce higher concentrations of armor along with infantry. Tank production was booming in the 20s, but the onset of the great depression crushed any dreams of a modern mobile military. The factories kept producing tanks that would never be used, and a large number of tanks were stored in bases around Besancon. Now its time to put them to use for the King!"
+
+action = {
+name = "For the King!"
+command = { type = add_brigade value = medium_armor when = 0 }
+command = { type = add_brigade value = medium_armor when = 1 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = super_heavy_armor when = 0 }
 }
 }
