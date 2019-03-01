@@ -406,7 +406,7 @@ command = { type = dissent value = 3 }
 
 }
 
-event = { #Results of economic reforms- 1 year 
+event = { #Results of economic reforms- 3 months
 id = 92019
 picture = "japanese_factory"
 style = 2
@@ -551,7 +551,7 @@ id = 92023
 picture = "japan_leftist_infighting"
 style = 2 
 name = "Ruling coalition falls apart!"
-desc = EVT_92023_DESC
+desc = "EVT_92023_DESC"
 
 country = JAP 
 persistent = no 
@@ -743,8 +743,9 @@ command = { type = event which = 92028 where = U24 when = 0 }#INTRO for kokuhons
 command = { type = event which = 92029 where = JAP when = 1 }#Militias for commies
 command = { trigger = { local_flag = JAP_SOV_normal } type = event which = 92036 where = SOV when = 7 }#Soviet intervention
 command = { trigger = { NOT = { local_flag = JAP_SOV_normal } } type = event which = 92038 where = SOV when = 7 }#Soviet intervention
-command = { type = 	war which = U24 }
 command = { type = setflag which = japanese_civil_war }
+command = { type = 	war which = U24 }
+
 
 }
 
@@ -901,6 +902,9 @@ war = { country = JAP country = U24 }
 }
 event = { id = 92012 days = 10 }
 }
+
+date = { day = 1 month = january year = 1936 }
+offset = 5 
 
 offset = 30 
 
@@ -1070,80 +1074,75 @@ command = { type = dissent value = 2 }
 
 }
 
-event = { #civil war for Russia 
+event = { #civil war for Manchuria 
 id = 92039
 name = "Civil war in Japan"
 desc = "EVT_92039_DESC"
 
-
+persistent = no 
 
 trigger = {
-country = RUS
+country = MAN 
+
 war = { country = JAP country = U24 }
-flag = japanese_civil_war
 }
 
 date = { day = 1 month = january year = 1936 }
 offset = 1 
 
-action_a = { #ally kokuhonsha
-ai_chance = 50
+action_a = { #support kokuhonsha
+name = "We must support the Kokuhonsha"
+ai_chance = 70
 command = { type = 	end_puppet }
-command = { type = 	leave_alliance when = 1	 }
-command = { type =	alliance which = U24 }
-command = { type = 	war which = JAP }
-command = { type = event which = 92041 where = JAP when = 0 }
-command = { type = event which = 92042 where = U24 when = 0 }
-
-
+command = { type = leave_alliance when = 1 }
+command = { type = 	peace which = U24 value = 1  }
+command = { type = alliance where = U24 when = 1 }
+command = { type = 	relation which = U24 value = 100 }
 }
 
-action_b = { #attack both
-ai_chance = 50
-command = { type = 	end_puppet }
-command = { type = 	leave_alliance when = 1	 }
-command = { type =	war which = U24 }
-command = { type = 	war which = JAP }
-command = { type = event which = 92043 where = JAP when = 0 }
-command = { type = event which = 92044 where = U24 when = 0 }
+action_b = { #support rebels
+name = "We stay loyal"
+ai_chance = 30
+command = { type = 	relation which = JAP value = 75 }
 
 }
 
 }
 
-event = { #civil war for Manchuria
-id = 92045
+event = { #civil war for Russia 
+id = 92040
 name = "Civil war in Japan"
-desc = "EVT_92039_DESC"
+desc = "EVT_92040_DESC"
 
+persistent = no 
 
 trigger = {
-country = MAN
+country = RUS 
 war = { country = JAP country = U24 }
-flag = japanese_civil_war
 }
 
 date = { day = 1 month = january year = 1936 }
 offset = 1 
 
-action_a = { #ally kokuhonsha
-ai_chance = 80
+action_a = { #support kokuhonsha
+name = "We must support the Kokuhonsha"
+ai_chance = 60
 command = { type = 	end_puppet }
-command = { type = 	leave_alliance when = 1	 }
-command = { type = 	peace which = U24 value = 1 }
-command = { type =	alliance which = U24 }
-command = { type = 	war which = JAP }
-command = { type = event which = 92046 where = JAP when = 0 }
-command = { type = event which = 92047 where = U24 when = 0 }
-
+command = { type = leave_alliance when = 1 }
+command = { type = 	peace which = U24 value = 1  }
+command = { type = alliance where = U24 when = 1 }
+command = { type = 	relation which = U24 value = 100 }
 
 }
 
 action_b = { #attack both
-ai_chance = 20
-command = { type = event which = 92048 where = JAP when = 0 }
-
+name = "Its our chance! Destroy the Japanese!"
+ai_chance = 40
+command = { type = 	end_puppet }
+command = { type = leave_alliance when = 1 }
+command = { type = 	peace which = U24 value = 1  }
+command = { type = 	war which = JAP }
+command = { type = 	war which = U24 }
 }
 
 }
-
