@@ -1,0 +1,89 @@
+###Soviet intervetion in France
+event = {
+id = 100401
+picture = "SOV_fcw_intervention"
+decision_picture = "decision_sov_troops"
+style = 1
+country = SOV
+
+decision = {
+		flag = FCW_start
+		war = { country = VIC country = U11 }
+		NOT = {
+			OR = {
+				war = { country = SOV country = U01 }
+				war = { country = SOV country = GER }
+				war = { country = SOV country = ENG }
+				war = { country = SOV country = VIC }
+				war = { country = SOV country = ITA }
+			}
+		}
+		OR = {
+		   government = leninist 
+		   government = stalinist 
+		   government = left_wing_radical
+		}
+	}
+
+	decision_trigger = {
+        manpower = 30
+		supplies = 10000 
+	}
+
+	trigger = {
+		manpower = 30
+		supplies = 10000 
+		NOT = {
+			OR = {
+				war = { country = SOV country = U01 }
+				war = { country = SOV country = GER }
+				war = { country = SOV country = ENG }
+				war = { country = SOV country = VIC }
+				war = { country = SOV country = ITA }
+			}
+		}
+	}
+
+	name = "Send aid to France!"
+	desc = "Civil war has erupted in France, and we must take this chance to spread the peoples' revolution. The general staff has decided to form a corps consisting of 30,000 volunteers, along with several armored batallions for fighting in France. Lieutenant-General Georgy Zhukov has been selected to lead the expeditionary force and serve as our attache in autonomous socialist north France."
+
+	action = {
+		ai_chance = 30
+		name = "Send military support only"
+		command = { type = manpowerpool value = -10 }
+		command = { trigger = { ai = no } type = supplies value = -10000 }
+		command = { type = construct which = ic where = 572 value = -3 }
+		command = { type = relation which = U11 value = 50 }
+		command = { type = relation which = U01 value = -5 }
+		command = { type = relation which = GER value = -15 }
+		command = { type = relation which = ITA value = -5 }
+		command = { type = relation which = ENG value = -15 }
+		command = { type = relation which = VIC value = -50 }
+		command = { type = relation which = U03 value = -100 }
+		command = { type = relation which = U04 value = -100 }
+		command = { type = domestic which = interventionism value = 1 }
+		command = { type = belligerence which = SOV value = 3 }
+		command = { type = trigger which = 100305 } #U11
+	}
+
+	action = {
+		ai_chance = 70
+		name = "Send military and economic support"
+		command = { type = manpowerpool value = -10 }
+		command = { trigger = { ai = no } type = supplies value = -10000 }
+		command = { type = construct which = ic where = 572 value = -3 }
+		command = { type = construct which = ic where = 663 value = -3 }
+		command = { type = relation which = U11 value = 100 }
+		command = { type = relation which = U01 value = -5 }
+		command = { type = relation which = GER value = -15 }
+		command = { type = relation which = ITA value = -5 }
+		command = { type = relation which = ENG value = -15 }
+		command = { type = relation which = VIC value = -50 }
+		command = { type = relation which = U03 value = -100 }
+		command = { type = relation which = U04 value = -100 }
+		command = { type = domestic which = interventionism value = 1 }
+		command = { type = belligerence which = SOV value = 9 }
+		command = { type = trigger which = 100306 } #U11
+	}
+
+}

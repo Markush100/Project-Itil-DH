@@ -1,12 +1,12 @@
 U01;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
-820001;Head of State;Albert Lebrun;1932;1964;1999;SL;Barking Buffoon;High;3871;X
-820002;Head of Government;Louis Marin;1933;1964;1999;ML;naive optimist;High;AR93;X
-820003;Foreign Minister;Edouard Daladier;1933;1964;1999;SL;Ideological Crusader;Low;AR94;X
-820004;Minister of Armament;Paul Reynaud;1933;1964;1999;ML;laissez-faire capitalist;High;AR95;X
-820005;Minister of Security;Henri Roy;1938;1964;1999;SL;Man of the People;Medium;M2107;X
+820001;Head of State;Albert Lebrun;1932;1964;1999;SL;ruthless powermonger;High;3871;X
+820002;Head of Government;Boris Souvarine;1933;1964;1999;LWR;naive optimist;High;AR134;X
+820003;Foreign Minister;Louis Marin;1933;1964;1999;ML;iron fisted brute;Low;AR93;X
+820004;Minister of Armament;Paul Reynaud;1933;1964;1999;ML;corrupt kleptocrat;High;AR95;X
+820005;Minister of Security;Marx Dormoy;1933;1964;1999;LWR;Opposer of the far right;Medium;M2005;X
 820006;Head of Military Intelligence;Joseph Paganon;1933;1964;1999;SL;Political Specialist;Medium;M2006;X
 820007;Chief of Staff;Jean de Lattre de Tassigny;1933;1964;1999;SC;School of Mass Combat;Medium;5903;X
-820008;Chief of Army;Jean de Lattre de Tassigny;1940;1964;1999;SC;Armoured Spearhead Doctrine;Medium;5903;X
-820009;Chief of Navy;Joseph Paul Boncour;1938;1964;1999;SD;Base Control Doctrine;High;M2170;X
+820008;Chief of Army;Jean de Lattre de Tassigny;1933;1964;1999;SC;Armoured Spearhead Doctrine;Medium;5903;X
+820009;Chief of Navy;Joseph Paul Boncour;1933;1964;1999;SD;Base Control Doctrine;High;M2170;X
 820010;Chief of Air Force;Victor Denain;1933;1964;1999;SL;Carpet Bombing Doctrine;Medium;M2010;X

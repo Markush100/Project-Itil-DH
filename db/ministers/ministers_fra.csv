@@ -1,8 +1,8 @@
 FRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
 ;Replacements;;;;;;;;;X
 5001;Head of State;Albert Lebrun;1932;1964;1999;SL;Barking Buffoon;High;3871;X
-5002;Head of Government;Louis Marin;1933;1964;1999;ML;naive optimist;High;AR93;X
-5003;Foreign Minister;Edouard Daladier;1933;1964;1999;SL;Ideological Crusader;Low;AR94;X
+5002;Head of Government;Edouard Daladier;1933;1964;1999;SL;happy amateur;High;AR94;X
+5003;Foreign Minister;Louis Marin;1933;1964;1999;ML;Ideological Crusader;Low;AR93;X
 5004;Minister of Armament;Paul Reynaud;1933;1964;1999;ML;laissez-faire capitalist;High;AR95;X
 5005;Minister of Security;Marx Dormoy;1933;1964;1999;LWR;Opposer of the far right;Medium;M2005;X
 5006;Head of Military Intelligence;Joseph Paganon;1933;1964;1999;SL;Political Specialist;Medium;M2006;X
@@ -12,4 +12,4 @@ FRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 5010;Chief of Air Force;Victor Denain;1933;1964;1999;SL;Carpet Bombing Doctrine;Medium;M2010;X
 5011;Head of Government;Boris Souvarine;1933;1964;1999;LWR;happy amateur;High;AR134;X
 5012;Minister of Armament;Joseph Caillaux;1933;1964;1999;SL;Mixed economy;High;AR178;X
-
+5013;Head of Government;Édouard Herriot;1933;1964;1999;SL;backroom backstabber;Low;AR180;X

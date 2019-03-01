@@ -5,7 +5,6 @@ picture = "spf_mobilization"
 style = 1
 country = u11
 
-date = { day = 9 month = may year = 1936 }
 
 
 name = "Creation of the French Red Army"
@@ -42,8 +41,6 @@ picture = "u01_mobilization"
 style = 1
 country = U01
 
-date = { day = 12 month = may year = 1936 }
-
 
 name = "The defense of France"
 desc = "As the only sane faction in this chaos, we have been joined by many infantrymen and people simply wanting to stop oppurtunistic socialists and integralists from destroying what France stands, and has always stood for."
@@ -75,9 +72,6 @@ picture = "cgt_mobilization"
 style = 1
 country = U14
 
-date = { day = 13 month = may year = 1936 }
-
-
 
 name = "Formation of Revolutionary Guards"
 desc = "We finally have the chance to create a true workers' state in France. However, can we defend it? We have taken the example of Italy, and have formed Revolutionary Guard councils all over Provence and Savoy. Italy is sending military attaches over the border to help us organize the army."
@@ -96,4 +90,96 @@ command = { type = add_division which = "8e Garde Revolutionnaire" when = 4 valu
 command = { type = add_division which = "9e Garde Revolutionnaire" when = 4 value = militia }
 command = { type = add_division which = "10e Garde Revolutionnaire" when = 5 value = militia }
 }
+}
+
+###Popular Front Victory
+event = {
+id = 100304
+style = 1
+TAG = { U11 U14 U01 }
+
+trigger = {
+    not = {
+       exists = VIC 
+       exists = U03 
+       exists = U04
+    }
+    flag = FRA_civil_start
+}
+
+name = "Victory!"
+desc = "EVT_100304_DESC"
+
+action = {
+name = "Wasn't is obvious?"
+command = { type = dissent value = -10 }
+command = { type = setflag which = PF_victory }
+command = { type = event which = 100205 where = U04 when = 2 }
+}
+}
+
+##Soviets send military aid
+event = {
+	id = 100305
+	random = no
+	country = U11
+
+	# Triggered by SOV 
+
+	name = "Military aid by Soviets!"
+	desc = "The Soviet Republic has heroically sent us volunteers to aid us in our war against reactionarism. A corps under command of Lieutenant-General Zhukov recently arrived in Dunkerque, They have the newest in Soviet armor and equipment and are prepared to join our cause."
+	style = 2
+    picture = "SOV_fcw_intrevention"
+	
+
+	action = {
+		name = "Great!"
+		command = { type = supplies value = 5000 }
+		command = { type = wakeleader which = 870001 } #Zhukov
+		command = { type = add_corps which = "Volonterskiy korpus" value = land when = 870001 where = 51 }
+		command = { type = add_division which = "1-ya volonterskaya diviziya" value = infantry when = 9 where = light_armor_brigade }
+		command = { type = add_division which = "2-ya volonterskaya diviziya" value = infantry when = 9 where = police }
+		command = { type = add_division which = "Ekspeditsionnaya tankovaya diviziya" value = armor when = 0 }
+		command = { type = add_corps which = "ABR 'Parizhskaya Kommuna'" value = air where = 55 }
+		command = { type = add_division which = "ABR 'Dabrowski'" value = interceptor when = 7 }
+		command = { type = add_division which = "TBABR 'Delescluze'" value = tactical_bomber when = 5 }
+		command = { type = gain_tech which = 1080 } #1926 Infantry
+		command = { type = gain_tech which = 2030 } #1936 Light Tank
+		command = { type = steal_tech which = SOV } 
+		command = { type = steal_tech which = SOV } 
+	}
+}
+
+##Soviets send military-economic aid
+event = {
+	id = 100305
+	random = no
+	country = U11
+
+	# Triggered by SOV 
+
+	name = "Military-economic aid by Soviets!"
+	desc = "The Soviet Republic has heroically sent us volunteers to aid us in our war against reactionarism. A corps under command of Lieutenant-General Zhukov recently arrived in Dunkerque, They have the newest in Soviet armor and equipment and are prepared to join our cause. Along with troops, they have also sent experts and resources to help strengthen our wartime economy."
+	style = 2
+    picture = "SOV_fcw_intrevention"
+	
+
+	action = {
+		name = "Great!"
+		command = { type = supplies value = 5000 }
+		command = { type = wakeleader which = 870001 } #Zhukov
+		command = { type = add_corps which = "Volonterskiy korpus" value = land when = 870001 where = 51 }
+		command = { type = add_division which = "1-ya volonterskaya diviziya" value = infantry when = 9 where = light_armor_brigade }
+		command = { type = add_division which = "2-ya volonterskaya diviziya" value = infantry when = 9 where = police }
+		command = { type = add_division which = "Ekspeditsionnaya tankovaya diviziya" value = armor when = 0 }
+		command = { type = add_division which = "ABR 'Dabrowski'" value = interceptor when = 7 }
+		command = { type = add_division which = "TBABR 'Delescluze'" value = tactical_bomber when = 5 }
+		command = { type = gain_tech which = 1080 } #1926 Infantry
+		command = { type = gain_tech which = 2030 } #1936 Light Tank
+		command = { type = steal_tech which = SOV } 
+		command = { type = steal_tech which = SOV } 
+		command = { type = construct which = ic where = 50 value = 1 }
+		command = { type = construct which = ic where = 52 value = 1 }
+		command = { type = construct which = ic where = 56 value = 1 }
+	}
 }
