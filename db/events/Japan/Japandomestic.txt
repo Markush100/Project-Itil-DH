@@ -105,7 +105,7 @@ event = { #Elections of 1936
 id = 92006
 picture = "japan_elections_leftist"
 style = 2
-
+save_date = yes
 country = JAP
 
 name = "Snap Elections of 1936"
@@ -351,6 +351,7 @@ event = { #Socialist financial reforms
 id = 92017 
 picture = "japan_communist_meeting"
 style = 2 
+save_date = yes
 
 country = JAP 
 persistent = no 
@@ -369,6 +370,8 @@ action = { #enact reforms
 name = "Enact the reforms"
 command = { type = dissent value = -1 }
 command = { type = domestic which = free_market value = -3 }
+command = { type = event which = 92018 where = JAP when = 190 }
+
 }
 
 }
@@ -380,22 +383,6 @@ style = 2
 
 name = "Results of economic reforms"
 desc = "EVT_92018_DESC"
-
-country = JAP 
-persistent = no
-
-date = { day = 20 month = may year = 1936 }
-offset = 10 
-
-trigger = {
-OR = {
-local_flag = JAP_leftist_cabinet
-local_flag = JAP_socialist_cabinet
-}
-event = { id = 92017 days = 190 }
-}
-
-offset = 10
 
 action = {
 name = "Great news"
@@ -413,20 +400,6 @@ style = 2
 
 name = "New factories"
 desc = "EVT_92019_DESC"
-
-country = JAP 
-persistent = no
-
-date = { day = 20 month = may year = 1936 }
-offset = 10 
-
-trigger = {
-OR = {
-local_flag = JAP_leftist_cabinet
-local_flag = JAP_socialist_cabinet
-}
-event = { id = 92017 days = 90 }
-}
 
 offset = 10
 
@@ -743,6 +716,8 @@ command = { type = event which = 92028 where = U24 when = 0 }#INTRO for kokuhons
 command = { type = event which = 92029 where = JAP when = 1 }#Militias for commies
 command = { trigger = { local_flag = JAP_SOV_normal } type = event which = 92036 where = SOV when = 7 }#Soviet intervention
 command = { trigger = { NOT = { local_flag = JAP_SOV_normal } } type = event which = 92038 where = SOV when = 7 }#Soviet intervention
+command = { type = event which = 92039 where = MAN when = 4 }#Manchurian intervention
+command = { type = event which = 92040 where = RUS when = 4 }#Russian intervention
 command = { type = setflag which = japanese_civil_war }
 command = { type = 	war which = U24 }
 
@@ -891,8 +866,10 @@ desc = "EVT_92032_DESC"
 
 persistent = no
 
-trigger = {
 country = JAP 
+
+trigger = {
+
 OR = {
 local_flag = JAP_leftist_cabinet
 local_flag = JAP_socialist_cabinet
@@ -900,13 +877,12 @@ local_flag = JAP_socialist_cabinet
 NOT = { 
 war = { country = JAP country = U24 }
 }
-event = { id = 92012 days = 10 }
+
+
 }
 
-date = { day = 1 month = january year = 1936 }
-offset = 5 
+date = { day = 1 month = may year = 1936 }
 
-offset = 30 
 
 action_a = {
 ai_chance = 90 
@@ -995,7 +971,7 @@ name = "We can't intervene"
 command = { type = dissent value = 2 }
 }
 action_c = {
-ai_chance = 50 
+ai_chance = 70 
 trigger = { 
 atwar = yes
 }
@@ -1007,7 +983,7 @@ action_d = {
 trigger = { 
 atwar = yes
 }
-ai_chance = 50 
+ai_chance = 30 
 name = "We can't intervene"
 command = { type = dissent value = 2 }
 }
@@ -1079,25 +1055,21 @@ id = 92039
 name = "Civil war in Japan"
 desc = "EVT_92039_DESC"
 
-persistent = no 
-
-trigger = {
-country = MAN 
-
-war = { country = JAP country = U24 }
-}
-
-date = { day = 1 month = january year = 1936 }
-offset = 1 
 
 action_a = { #support kokuhonsha
 name = "We must support the Kokuhonsha"
 ai_chance = 70
 command = { type = 	end_puppet }
+command = { type = relation which = JAP value = -250 }
+command = { type = end_access which = JAP  }
+command = { type = end_non_aggression  which = JAP where = MAN	  }
+command = { type = end_trades which = JAP where = MAN  }
 command = { type = leave_alliance when = 1 }
-command = { type = 	peace which = U24 value = 1  }
+command = { type = 	war which = JAP }
 command = { type = alliance where = U24 when = 1 }
 command = { type = 	relation which = U24 value = 100 }
+command = { type = event which = 92041 where = U24 when = 0 }#Manchuria joins us
+command = { type = event which = 92042 where = JAP when = 0 }#Manchuria betrays us
 }
 
 action_b = { #support rebels
@@ -1114,24 +1086,15 @@ id = 92040
 name = "Civil war in Japan"
 desc = "EVT_92040_DESC"
 
-persistent = no 
-
-trigger = {
-country = RUS 
-war = { country = JAP country = U24 }
-}
-
-date = { day = 1 month = january year = 1936 }
-offset = 1 
-
 action_a = { #support kokuhonsha
 name = "We must support the Kokuhonsha"
 ai_chance = 60
 command = { type = 	end_puppet }
+command = { type = relation which = JAP value = -250 }
 command = { type = leave_alliance when = 1 }
-command = { type = 	peace which = U24 value = 1  }
-command = { type = alliance where = U24 when = 1 }
 command = { type = 	relation which = U24 value = 100 }
+command = { type = event which = 92043 where = U24 when = 0 }#Russia joins us
+command = { type = event which = 92044 where = JAP when = 0 }#Russia betrays us
 
 }
 
@@ -1139,10 +1102,71 @@ action_b = { #attack both
 name = "Its our chance! Destroy the Japanese!"
 ai_chance = 40
 command = { type = 	end_puppet }
+command = { type = relation which = JAP value = -250 }
+command = { type = relation which = U24 value = -250 }
 command = { type = leave_alliance when = 1 }
-command = { type = 	peace which = U24 value = 1  }
-command = { type = 	war which = JAP }
-command = { type = 	war which = U24 }
+command = { type = event which = 92045 where = U24 when = 0 }#Russia attaks us
+command = { type = event which = 92044 where = JAP when = 0 }#Russia betrays us
+}
+
+}
+
+event = {#machuria joins us 
+id = 92041 
+name = "Manchuria joins us!"
+desc = "EVT_92041_DESC"
+
+action = {
+name = "Great!"
+command = { type =	alliance which = MAN }
+}
+
+}
+
+event = {#machuria betrayes us 
+id = 92042 
+name = "Manchuria betrays us!"
+desc = "EVT_92042_DESC"
+
+action = {
+name = "Damned traitors!"
+command = { type = 	war which = MAN }
+}
+
+}
+
+event = {#Russia joins us 
+id = 92043 
+name = "Russia joins us!"
+desc = "EVT_92043_DESC"
+
+action = {
+name = "Great!"
+command = { type =	alliance which = RUS }
+}
+
+}
+
+event = {#Russia betrayes us 
+id = 92044 
+name = "Russia betrays us!"
+desc = "EVT_92044_DESC"
+
+action = {
+name = "Damned traitors!"
+command = { type = 	war which = RUS }
+}
+
+}
+
+event = {#Russia attacks us 
+id = 92045 
+name = "Russia attacks us!"
+desc = "EVT_92045_DESC"
+
+action = {
+name = "Damned traitors!"
+command = { type = 	war which = RUS }
 }
 
 }
