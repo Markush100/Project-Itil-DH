@@ -621,6 +621,7 @@ event = { #Japanese civil war
 id = 92027 
 picture = "japanese_military_coup"
 style = 2 
+save_date = yes 
 name = "Kokuhonsha seizes Uraijo"
 desc = "EVT_92027_DESC"
 
@@ -715,7 +716,6 @@ command = { type = sleepleader which = 50292 }
 command = { type = event which = 92028 where = U24 when = 0 }#INTRO for kokuhonsha
 command = { type = event which = 92029 where = JAP when = 1 }#Militias for commies
 command = { trigger = { local_flag = JAP_SOV_normal } type = event which = 92036 where = SOV when = 7 }#Soviet intervention
-command = { trigger = { NOT = { local_flag = JAP_SOV_normal } } type = event which = 92038 where = SOV when = 7 }#Soviet intervention
 command = { type = event which = 92039 where = MAN when = 4 }#Manchurian intervention
 command = { type = event which = 92040 where = RUS when = 4 }#Russian intervention
 command = { type = setflag which = japanese_civil_war }
@@ -877,12 +877,10 @@ local_flag = JAP_socialist_cabinet
 NOT = { 
 war = { country = JAP country = U24 }
 }
-
-
 }
 
-date = { day = 1 month = may year = 1936 }
-
+date = { day = 1 month = january year = 1936 }
+offset = 10
 
 action_a = {
 ai_chance = 90 
@@ -1010,6 +1008,7 @@ style = 2
 name = "Revolution in Japan"
 desc = "EVT_92038_DESC"
 
+
 persistent = no
 
 
@@ -1054,6 +1053,7 @@ event = { #civil war for Manchuria
 id = 92039
 name = "Civil war in Japan"
 desc = "EVT_92039_DESC"
+picture = ""
 
 
 action_a = { #support kokuhonsha
@@ -1085,6 +1085,7 @@ event = { #civil war for Russia
 id = 92040
 name = "Civil war in Japan"
 desc = "EVT_92040_DESC"
+picture = ""
 
 action_a = { #support kokuhonsha
 name = "We must support the Kokuhonsha"
@@ -1115,6 +1116,7 @@ event = {#machuria joins us
 id = 92041 
 name = "Manchuria joins us!"
 desc = "EVT_92041_DESC"
+picture = ""
 
 action = {
 name = "Great!"
@@ -1127,6 +1129,7 @@ event = {#machuria betrayes us
 id = 92042 
 name = "Manchuria betrays us!"
 desc = "EVT_92042_DESC"
+picture = ""
 
 action = {
 name = "Damned traitors!"
@@ -1139,6 +1142,7 @@ event = {#Russia joins us
 id = 92043 
 name = "Russia joins us!"
 desc = "EVT_92043_DESC"
+picture = ""
 
 action = {
 name = "Great!"
@@ -1151,6 +1155,7 @@ event = {#Russia betrayes us
 id = 92044 
 name = "Russia betrays us!"
 desc = "EVT_92044_DESC"
+picture = ""
 
 action = {
 name = "Damned traitors!"
@@ -1163,10 +1168,70 @@ event = {#Russia attacks us
 id = 92045 
 name = "Russia attacks us!"
 desc = "EVT_92045_DESC"
+picture = ""
 
 action = {
 name = "Damned traitors!"
 command = { type = 	war which = RUS }
 }
+
+}
+
+event = {#peace - red victory 
+id = 92046
+name = "Reactionaries Defeated!"
+desc = "EVT_92046_DESC"
+picture = ""
+
+country = JAP
+trigger = {
+local_flag = JAP_socialist_cabinet
+local_flag = japanese_civil_war
+OR = {
+NOT = { exists = U24 }
+control = { province = 1191 data = JAP }#Uraijo
+}
+}
+
+date = { day = 1 month = january year = 1936 }
+offset = 5
+
+action = {#Soviets in faction
+trigger = { alliance = { country = JAP country = SOV } }
+name = "Return the lands to our Allies"
+command = { trigger = { exists = U24 } type = inherit which = U24 value = 0 }
+command = { type = secedeprovince which = SOV value = 1191 }
+command = { type = secedeprovince which = SOV value = 1193 }
+command = { type = secedeprovince which = SOV value = 1171 }
+command = { type = secedeprovince which = SOV value = 1174 }
+command = { type = secedeprovince which = SOV value = 1175 }
+command = { type = secedeprovince which = SOV value = 1181 }
+command = { type = secedeprovince which = SOV value = 1182 }
+command = { type = secedeprovince which = SOV value = 1183 }
+command = { type = secedeprovince which = SOV value = 1184 }
+command = { type = secedeprovince which = SOV value = 1185 }
+command = { type = secedeprovince which = SOV value = 1186 }
+command = { type = secedeprovince which = SOV value = 1187 }
+command = { type = secedeprovince which = SOV value = 1188 }
+command = { type = secedeprovince which = SOV value = 1189 }
+command = { type = secedeprovince which = SOV value = 1190 }
+command = { type = secedeprovince which = SOV value = 1192 }
+command = { type = secedeprovince which = SOV value = 1194 }
+command = { type = secedeprovince which = SOV value = 1195 }
+command = { type = secedeprovince which = SOV value = 1196 }
+command = { type = secedeprovince which = SOV value = 1541 }
+command = { type = secedeprovince which = SOV value = 1542 }
+command = { type = remove_core_area which = primorsky where = JAP }
+command = { type = remove_core_area which = khabarovsk where = JAP }
+command = { type = remove_core_area which = kamchatka where = JAP }
+command = { type = remove_claim_area which = primorsky where = JAP }
+command = { type = remove_claim_area which = khabarovsk where = JAP }
+command = { type = remove_claim_area which = kamchatka where = JAP }
+command = { type = addcore which = 1171 where = JAP }
+command = { type = addcore which = 1174 where = JAP }
+command = { type = addcore which = 1175 where = JAP }
+
+}
+
 
 }
