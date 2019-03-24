@@ -650,15 +650,28 @@ command = { type = secedeprovince which = U24 value = 1195 }
 command = { type = secedeprovince which = U24 value = 1196 }
 command = { type = secedeprovince which = U24 value = 1541 }
 command = { type = secedeprovince which = U24 value = 1542 }
-command = { type = add_core_area which = primorsky where = U24 }
-command = { type = add_core_area which = khabarovsk where = U24 }
-command = { type = add_core_area which = kamchatka where = U24 }
-command = { type = add_claim_region which = korea where = U24 }
-command = { type = add_claim_region which = japan where = U24 }
-command = { type = add_claim_area which = taiwan where = U24 }
-command = { type = addcore which = 1171 where = U24 }
-command = { type = addcore which = 1174 where = U24 }
-command = { type = addcore which = 1175 where = U24 }
+command = { type = addcore which = 1171 where = JAP }
+command = { type = addcore which = 1174 where = JAP }
+command = { type = addcore which = 1175 where = JAP }
+command = { type = addcore which = 1191 where = JAP }
+command = { type = addcore which = 1193 where = JAP }
+command = { type = addcore which = 1181 where = JAP }
+command = { type = addcore which = 1182 where = JAP }
+command = { type = addcore which = 1183 where = JAP }
+command = { type = addcore which = 1184 where = JAP }
+command = { type = addcore which = 1186 where = JAP }
+command = { type = addcore which = 1185 where = JAP }
+command = { type = addcore which = 1187 where = JAP }
+command = { type = addcore which = 1188 where = JAP }
+command = { type = addcore which = 1189 where = JAP }
+command = { type = addcore which = 1190 where = JAP }
+command = { type = addcore which = 1192 where = JAP }
+command = { type = addcore which = 1194 where = JAP }
+command = { type = addcore which = 1195 where = JAP }
+command = { type = addcore which = 1196 where = JAP }
+command = { type = addcore which = 1541 where = JAP }
+command = { type = addcore which = 1542 where = JAP }
+command = { type = addcore which = 1188 where = JAP }
 command = { type = switch_allegiance which = -1 where = U24 }
 command = { type = switch_allegiance which = -1 where = U24 }
 command = { type = switch_allegiance which = -1 where = U24 }
@@ -873,6 +886,7 @@ trigger = {
 OR = {
 local_flag = JAP_leftist_cabinet
 local_flag = JAP_socialist_cabinet
+government = communist
 }
 NOT = { 
 war = { country = JAP country = U24 }
@@ -899,6 +913,7 @@ event = { #offer from Japan
 id = 92033
 name = "Reconcilation with the Japanese?"
 desc = "EVT_92033_DESC"
+style = 2 
 
 action_a = {
 ai_chance = 60 
@@ -919,6 +934,7 @@ event = { #Soviets agree
 id = 92034
 name = "The Soviets Agree!"
 desc = "EVT_92034_DESC"
+style = 2 
 
 action = {
 name = "Establish an embassy"
@@ -932,6 +948,7 @@ event = { #Soviets refuse
 id = 92035
 name = "The Soviets Refuse"
 desc = "EVT_92035_DESC"
+style = 2 
 
 action = {
 name = "Oh well"
@@ -992,6 +1009,7 @@ event = { #Soviet intervention
 id = 92037
 name = "The Soviets support us!"
 desc = "EVT_92037_DESC"
+style = 2 
 
 action = {
 name = "Workers of the world unite!"
@@ -1054,10 +1072,11 @@ id = 92039
 name = "Civil war in Japan"
 desc = "EVT_92039_DESC"
 picture = ""
+style = 2 
 
 
 action_a = { #support kokuhonsha
-name = "We must support the Kokuhonsha"
+name = "We must fight socialism"
 ai_chance = 70
 command = { type = 	end_puppet }
 command = { type = relation which = JAP value = -250 }
@@ -1072,20 +1091,15 @@ command = { type = event which = 92041 where = U24 when = 0 }#Manchuria joins us
 command = { type = event which = 92042 where = JAP when = 0 }#Manchuria betrays us
 }
 
-action_b = { #support rebels
-name = "We stay loyal"
-ai_chance = 30
-command = { type = 	relation which = JAP value = 75 }
-
 }
 
-}
 
 event = { #civil war for Russia 
 id = 92040
 name = "Civil war in Japan"
 desc = "EVT_92040_DESC"
 picture = ""
+style = 2 
 
 action_a = { #support kokuhonsha
 name = "We must support the Kokuhonsha"
@@ -1117,6 +1131,7 @@ id = 92041
 name = "Manchuria joins us!"
 desc = "EVT_92041_DESC"
 picture = ""
+style = 2 
 
 action = {
 name = "Great!"
@@ -1130,6 +1145,7 @@ id = 92042
 name = "Manchuria betrays us!"
 desc = "EVT_92042_DESC"
 picture = ""
+style = 2 
 
 action = {
 name = "Damned traitors!"
@@ -1143,6 +1159,7 @@ id = 92043
 name = "Russia joins us!"
 desc = "EVT_92043_DESC"
 picture = ""
+style = 2 
 
 action = {
 name = "Great!"
@@ -1156,6 +1173,7 @@ id = 92044
 name = "Russia betrays us!"
 desc = "EVT_92044_DESC"
 picture = ""
+style = 2 
 
 action = {
 name = "Damned traitors!"
@@ -1169,6 +1187,7 @@ id = 92045
 name = "Russia attacks us!"
 desc = "EVT_92045_DESC"
 picture = ""
+style = 2 
 
 action = {
 name = "Damned traitors!"
@@ -1181,57 +1200,400 @@ event = {#peace - red victory
 id = 92046
 name = "Reactionaries Defeated!"
 desc = "EVT_92046_DESC"
-picture = ""
-
+picture = "spread_revolution"
+style = 2 
+save_date = yes
 country = JAP
 trigger = {
 local_flag = JAP_socialist_cabinet
-local_flag = japanese_civil_war
+flag = japanese_civil_war
 OR = {
 NOT = { exists = U24 }
-control = { province = 1191 data = JAP }#Uraijo
+control = { province = 1191 data = -3 }#Uraijo
 }
 }
 
 date = { day = 1 month = january year = 1936 }
 offset = 5
-
-action = {#Soviets in faction
+deathdate = { day = 29 month = december year = 1963 }
+action = {#give to soviets
 trigger = { alliance = { country = JAP country = SOV } }
 name = "Return the lands to our Allies"
-command = { trigger = { exists = U24 } type = inherit which = U24 value = 0 }
-command = { type = secedeprovince which = SOV value = 1191 }
-command = { type = secedeprovince which = SOV value = 1193 }
-command = { type = secedeprovince which = SOV value = 1171 }
-command = { type = secedeprovince which = SOV value = 1174 }
-command = { type = secedeprovince which = SOV value = 1175 }
-command = { type = secedeprovince which = SOV value = 1181 }
-command = { type = secedeprovince which = SOV value = 1182 }
-command = { type = secedeprovince which = SOV value = 1183 }
-command = { type = secedeprovince which = SOV value = 1184 }
-command = { type = secedeprovince which = SOV value = 1185 }
-command = { type = secedeprovince which = SOV value = 1186 }
-command = { type = secedeprovince which = SOV value = 1187 }
-command = { type = secedeprovince which = SOV value = 1188 }
-command = { type = secedeprovince which = SOV value = 1189 }
-command = { type = secedeprovince which = SOV value = 1190 }
-command = { type = secedeprovince which = SOV value = 1192 }
-command = { type = secedeprovince which = SOV value = 1194 }
-command = { type = secedeprovince which = SOV value = 1195 }
-command = { type = secedeprovince which = SOV value = 1196 }
-command = { type = secedeprovince which = SOV value = 1541 }
-command = { type = secedeprovince which = SOV value = 1542 }
-command = { type = remove_core_area which = primorsky where = JAP }
-command = { type = remove_core_area which = khabarovsk where = JAP }
-command = { type = remove_core_area which = kamchatka where = JAP }
-command = { type = remove_claim_area which = primorsky where = JAP }
-command = { type = remove_claim_area which = khabarovsk where = JAP }
-command = { type = remove_claim_area which = kamchatka where = JAP }
-command = { type = addcore which = 1171 where = JAP }
-command = { type = addcore which = 1174 where = JAP }
-command = { type = addcore which = 1175 where = JAP }
+ai_chance = 80
+command = { type =	inherit which = U24 value = 1 }
+command = { type = removecore which = 1171 where = JAP }
+command = { type = removecore which = 1174 where = JAP }
+command = { type = removecore which = 1175 where = JAP }
+command = { type = removecore which = 1191 where = JAP }
+command = { type = removecore which = 1193 where = JAP }
+command = { type = removecore which = 1181 where = JAP }
+command = { type = removecore which = 1182 where = JAP }
+command = { type = removecore which = 1183 where = JAP }
+command = { type = removecore which = 1184 where = JAP }
+command = { type = removecore which = 1186 where = JAP }
+command = { type = removecore which = 1185 where = JAP }
+command = { type = removecore which = 1187 where = JAP }
+command = { type = removecore which = 1188 where = JAP }
+command = { type = removecore which = 1189 where = JAP }
+command = { type = removecore which = 1190 where = JAP }
+command = { type = removecore which = 1192 where = JAP }
+command = { type = removecore which = 1194 where = JAP }
+command = { type = removecore which = 1195 where = JAP }
+command = { type = removecore which = 1196 where = JAP }
+command = { type = removecore which = 1541 where = JAP }
+command = { type = removecore which = 1542 where = JAP }
+command = { type = removecore which = 1188 where = JAP }
+command = { type = removeclaim which = 1171 where = JAP }
+command = { type = removeclaim which = 1174 where = JAP }
+command = { type = removeclaim which = 1175 where = JAP }
+command = { type = removeclaim which = 1191 where = JAP }
+command = { type = removeclaim which = 1193 where = JAP }
+command = { type = removeclaim which = 1181 where = JAP }
+command = { type = removeclaim which = 1182 where = JAP }
+command = { type = removeclaim which = 1183 where = JAP }
+command = { type = removeclaim which = 1184 where = JAP }
+command = { type = removeclaim which = 1186 where = JAP }
+command = { type = removeclaim which = 1185 where = JAP }
+command = { type = removeclaim which = 1187 where = JAP }
+command = { type = removeclaim which = 1188 where = JAP }
+command = { type = removeclaim which = 1189 where = JAP }
+command = { type = removeclaim which = 1190 where = JAP }
+command = { type = removeclaim which = 1192 where = JAP }
+command = { type = removeclaim which = 1194 where = JAP }
+command = { type = removeclaim which = 1195 where = JAP }
+command = { type = removeclaim which = 1196 where = JAP }
+command = { type = removeclaim which = 1541 where = JAP }
+command = { type = removeclaim which = 1542 where = JAP }
+command = { type = removeclaim which = 1188 where = JAP }
+command = {  trigger = { control = { province = 1191 data = -3 } } type = secedeprovince which = SOV value = 1191 } 
+command = {  trigger = { control = { province = 1193 data = -3 } } type = secedeprovince which = SOV value = 1193 } 
+command = {  trigger = { control = { province = 1171 data = -3 } } type = secedeprovince which = SOV value = 1171 } 
+command = {  trigger = { control = { province = 1175 data = -3 } } type = secedeprovince which = SOV value = 1175 } 
+command = {  trigger = { control = { province = 1181 data = -3 } } type = secedeprovince which = SOV value = 1181 }  
+command = {  trigger = { control = { province = 1182 data = -3 } } type = secedeprovince which = SOV value = 1182 }
+command = {  trigger = { control = { province = 1183 data = -3 } } type = secedeprovince which = SOV value = 1183 } 
+command = {  trigger = { control = { province = 1184 data = -3 } } type = secedeprovince which = SOV value = 1184 }
+command = {  trigger = { control = { province = 1186 data = -3 } } type = secedeprovince which = SOV value = 1186 } 
+command = {  trigger = { control = { province = 1185 data = -3 } } type = secedeprovince which = SOV value = 1185 }
+command = {  trigger = { control = { province = 1187 data = -3 } } type = secedeprovince which = SOV value = 1187 } 
+command = {  trigger = { control = { province = 1188 data = -3 } } type = secedeprovince which = SOV value = 1188 } 
+command = {  trigger = { control = { province = 1189 data = -3 } } type = secedeprovince which = SOV value = 1189 } 
+command = {  trigger = { control = { province = 1190 data = -3 } } type = secedeprovince which = SOV value = 1190 }
+command = {  trigger = { control = { province = 1192 data = -3 } } type = secedeprovince which = SOV value = 1192 } 
+command = {  trigger = { control = { province = 1194 data = -3 } } type = secedeprovince which = SOV value = 1194 } 
+command = {  trigger = { control = { province = 1195 data = -3 } } type = secedeprovince which = SOV value = 1195 } 
+command = {  trigger = { control = { province = 1196 data = -3 } } type = secedeprovince which = SOV value = 1196 } 
+command = {  trigger = { control = { province = 1541 data = -3 } } type = secedeprovince which = SOV value = 1541 }
+command = {  trigger = { control = { province = 1542 data = -3 } } type = secedeprovince which = SOV value = 1542 } 
+command = {  trigger = { control = { province = 1188 data = -3 } } type = secedeprovince which = SOV value = 1188 } 
+command = { type = 	relation which = SOV value = 30	}
+command = { type = dissent value = -5 }
+command = { type = event which = 92049 where = SOV when = 0 }#Japanese hand territory
 
 }
 
+action = {#Military occupation
+ai_chance = 10
+name = "Maintain military control"
+command = { type =	inherit which = U24 value = 1 }
+command = { type = 	relation which = SOV value = -10	}
+command = { type = 	relation which = RUS value = -10	}
+command = { type = dissent value = -5 }
 
+
+}
+
+action = {#give to russia 
+trigger = {
+OR = {
+puppet = { country = RUS country = JAP }
+NOT = {
+exists = RUS
+}
+}
+}
+ai_chance = 10
+name = "Create an anti-soviet buffer state"
+command = { type = inherit which = U24 value = 0 }
+command = { type = independence which = RUS value = 1 }
+command = { type = removecore which = 1171 where = JAP }
+command = { type = removecore which = 1174 where = JAP }
+command = { type = removecore which = 1175 where = JAP }
+command = { type = removecore which = 1191 where = JAP }
+command = { type = removecore which = 1193 where = JAP }
+command = { type = removecore which = 1181 where = JAP }
+command = { type = removecore which = 1182 where = JAP }
+command = { type = removecore which = 1183 where = JAP }
+command = { type = removecore which = 1184 where = JAP }
+command = { type = removecore which = 1186 where = JAP }
+command = { type = removecore which = 1185 where = JAP }
+command = { type = removecore which = 1187 where = JAP }
+command = { type = removecore which = 1188 where = JAP }
+command = { type = removecore which = 1189 where = JAP }
+command = { type = removecore which = 1190 where = JAP }
+command = { type = removecore which = 1192 where = JAP }
+command = { type = removecore which = 1194 where = JAP }
+command = { type = removecore which = 1195 where = JAP }
+command = { type = removecore which = 1196 where = JAP }
+command = { type = removecore which = 1541 where = JAP }
+command = { type = removecore which = 1542 where = JAP }
+command = { type = removecore which = 1188 where = JAP }
+command = { type = removecore which = 1175 where = JAP }
+command = { type = removeclaim which = 1171 where = JAP }
+command = { type = removeclaim which = 1174 where = JAP }
+command = { type = removeclaim which = 1175 where = JAP }
+command = { type = removeclaim which = 1191 where = JAP }
+command = { type = removeclaim which = 1193 where = JAP }
+command = { type = removeclaim which = 1181 where = JAP }
+command = { type = removeclaim which = 1182 where = JAP }
+command = { type = removeclaim which = 1183 where = JAP }
+command = { type = removeclaim which = 1184 where = JAP }
+command = { type = removeclaim which = 1186 where = JAP }
+command = { type = removeclaim which = 1185 where = JAP }
+command = { type = removeclaim which = 1187 where = JAP }
+command = { type = removeclaim which = 1188 where = JAP }
+command = { type = removeclaim which = 1189 where = JAP }
+command = { type = removeclaim which = 1190 where = JAP }
+command = { type = removeclaim which = 1192 where = JAP }
+command = { type = removeclaim which = 1194 where = JAP }
+command = { type = removeclaim which = 1195 where = JAP }
+command = { type = removeclaim which = 1196 where = JAP }
+command = { type = removeclaim which = 1541 where = JAP }
+command = { type = removeclaim which = 1542 where = JAP }
+command = { type = removeclaim which = 1188 where = JAP }
+command = {  trigger = { control = { province = 1191 data = JAP } } type = secedeprovince which = RUS value = 1191 }
+command = {  trigger = { control = { province = 1193 data = JAP } } type = secedeprovince which = RUS value = 1193 }
+command = {  trigger = { control = { province = 1171 data = JAP } } type = secedeprovince which = RUS value = 1171 }
+command = {  trigger = { control = { province = 1175 data = JAP } } type = secedeprovince which = RUS value = 1175 }
+command = {  trigger = { control = { province = 1181 data = JAP } } type = secedeprovince which = RUS value = 1181 }
+command = {  trigger = { control = { province = 1182 data = JAP } } type = secedeprovince which = RUS value = 1182 }
+command = {  trigger = { control = { province = 1183 data = JAP } } type = secedeprovince which = RUS value = 1183 }
+command = {  trigger = { control = { province = 1184 data = JAP } } type = secedeprovince which = RUS value = 1184 }
+command = {  trigger = { control = { province = 1186 data = JAP } } type = secedeprovince which = RUS value = 1186 }
+command = {  trigger = { control = { province = 1185 data = JAP } } type = secedeprovince which = RUS value = 1185 }
+command = {  trigger = { control = { province = 1187 data = JAP } } type = secedeprovince which = RUS value = 1187 } 
+command = {  trigger = { control = { province = 1188 data = JAP } } type = secedeprovince which = RUS value = 1188 } 
+command = {  trigger = { control = { province = 1189 data = JAP } } type = secedeprovince which = RUS value = 1189 } 
+command = {  trigger = { control = { province = 1190 data = JAP } } type = secedeprovince which = RUS value = 1190 } 
+command = {  trigger = { control = { province = 1192 data = JAP } } type = secedeprovince which = RUS value = 1192 } 
+command = {  trigger = { control = { province = 1194 data = JAP } } type = secedeprovince which = RUS value = 1194 } 
+command = {  trigger = { control = { province = 1195 data = JAP } } type = secedeprovince which = RUS value = 1195 } 
+command = {  trigger = { control = { province = 1196 data = JAP } } type = secedeprovince which = RUS value = 1196 } 
+command = {  trigger = { control = { province = 1541 data = JAP } } type = secedeprovince which = RUS value = 1541 } 
+command = {  trigger = { control = { province = 1542 data = JAP } } type = secedeprovince which = RUS value = 1542 }
+command = {  trigger = { control = { province = 1188 data = JAP } } type = secedeprovince which = RUS value = 1188 }
+command = { type = 	make_puppet which = RUS }
+command = { type = 	set_relation which = RUS value = 200 }
+command = { type = 	relation which = SOV value = -70	}
+command = { type = dissent value = -5 }
+#to do chain for demands
+}
+}
+
+event = {#fall of Russia 
+id = 92047
+name = "Russia is defeated!"
+desc = "EVT_92047_DESC"
+picture = "spread_revolution"
+style = 2 
+country = JAP
+trigger = {
+local_flag = JAP_socialist_cabinet
+flag = japanese_civil_war
+NOT = { exists = RUS }
+OR = {
+control = { province = 1176 data = -3 }#
+control = { province = 1167 data = -3 }#
+}
+}
+
+date = { day = 1 month = january year = 1936 }
+offset = 5
+deathdate = { day = 29 month = december year = 1963 }
+action = {#give to soviets
+ai_chance = 80
+trigger = { alliance = { country = JAP country = SOV } }
+name = "Give it to our allies"
+command = { type = removecore which = 1161 where = JAP }
+command = { type = removecore which = 1163 where = JAP }
+command = { type = removecore which = 1167 where = JAP }
+command = { type = removecore which = 1168 where = JAP }
+command = { type = removecore which = 1169 where = JAP }
+command = { type = removecore which = 1170 where = JAP }
+command = { type = removecore which = 1176 where = JAP }
+command = { type = removecore which = 1177 where = JAP }
+command = { type = removecore which = 1178 where = JAP }
+command = { type = removecore which = 1179 where = JAP }
+command = { type = removecore which = 1180 where = JAP }
+command = { type = removeclaim which = 1161 where = JAP }
+command = { type = removeclaim which = 1163 where = JAP }
+command = { type = removeclaim which = 1167 where = JAP }
+command = { type = removeclaim which = 1168 where = JAP }
+command = { type = removeclaim which = 1169 where = JAP }
+command = { type = removeclaim which = 1170 where = JAP }
+command = { type = removeclaim which = 1176 where = JAP }
+command = { type = removeclaim which = 1177 where = JAP }
+command = { type = removeclaim which = 1178 where = JAP }
+command = { type = removeclaim which = 1179 where = JAP }
+command = { type = removeclaim which = 1180 where = JAP }
+command = {  trigger = { control = { province = 1161 data = JAP } } type = secedeprovince which = SOV value = 1161 } 
+command = {  trigger = { control = { province = 1163 data = JAP } } type = secedeprovince which = SOV value = 1163 } 
+command = {  trigger = { control = { province = 1167 data = JAP } } type = secedeprovince which = SOV value = 1167 } 
+command = {  trigger = { control = { province = 1168 data = JAP } } type = secedeprovince which = SOV value = 1168 } 
+command = {  trigger = { control = { province = 1169 data = JAP } } type = secedeprovince which = SOV value = 1169 } 
+command = {  trigger = { control = { province = 1170 data = JAP } } type = secedeprovince which = SOV value = 1170 } 
+command = {  trigger = { control = { province = 1176 data = JAP } } type = secedeprovince which = SOV value = 1176 } 
+command = {  trigger = { control = { province = 1177 data = JAP } } type = secedeprovince which = SOV value = 1177 } 
+command = {  trigger = { control = { province = 1178 data = JAP } } type = secedeprovince which = SOV value = 1178 } 
+command = {  trigger = { control = { province = 1179 data = JAP } } type = secedeprovince which = SOV value = 1179 } 
+command = {  trigger = { control = { province = 1180 data = JAP } } type = secedeprovince which = SOV value = 1180 } 
+command = { type = 	relation which = SOV value = 50	}
+command = { type = dissent value = -1 }
+command = { type = event which = 92050 where = SOV when = 0 }#Japanese hand territory
+}
+action = {#military occupation
+ai_chance = 10
+name = "Maintain military occupation"
+command = { type = 	relation which = SOV value = -50 }
+command = { type = dissent value = -1 }
+}
+
+action = {#buffer
+trigger = {
+OR = {
+puppet = { country = RUS country = JAP }
+NOT = {
+exists = RUS
+}
+}
+}
+ai_chance = 10
+name = "Create an anti-soviet buffer state"
+command = { type = independence which = RUS value = 1 }
+command = { type = removecore which = 1161 where = JAP }
+command = { type = removecore which = 1163 where = JAP }
+command = { type = removecore which = 1167 where = JAP }
+command = { type = removecore which = 1168 where = JAP }
+command = { type = removecore which = 1169 where = JAP }
+command = { type = removecore which = 1170 where = JAP }
+command = { type = removecore which = 1176 where = JAP }
+command = { type = removecore which = 1177 where = JAP }
+command = { type = removecore which = 1178 where = JAP }
+command = { type = removecore which = 1179 where = JAP }
+command = { type = removecore which = 1180 where = JAP }
+command = { type = removeclaim which = 1161 where = JAP }
+command = { type = removeclaim which = 1163 where = JAP }
+command = { type = removeclaim which = 1167 where = JAP }
+command = { type = removeclaim which = 1168 where = JAP }
+command = { type = removeclaim which = 1169 where = JAP }
+command = { type = removeclaim which = 1170 where = JAP }
+command = { type = removeclaim which = 1176 where = JAP }
+command = { type = removeclaim which = 1177 where = JAP }
+command = { type = removeclaim which = 1178 where = JAP }
+command = { type = removeclaim which = 1179 where = JAP }
+command = { type = removeclaim which = 1180 where = JAP }
+command = {  trigger = { control = { province = 1161 data = JAP } } type = secedeprovince which = RUS value = 1161 } 
+command = {  trigger = { control = { province = 1163 data = JAP } } type = secedeprovince which = RUS value = 1163 } 
+command = {  trigger = { control = { province = 1167 data = JAP } } type = secedeprovince which = RUS value = 1167 } 
+command = {  trigger = { control = { province = 1168 data = JAP } } type = secedeprovince which = RUS value = 1168 } 
+command = {  trigger = { control = { province = 1169 data = JAP } } type = secedeprovince which = RUS value = 1169 } 
+command = {  trigger = { control = { province = 1170 data = JAP } } type = secedeprovince which = RUS value = 1170 } 
+command = {  trigger = { control = { province = 1174 data = JAP } } type = secedeprovince which = RUS value = 1174 } 
+command = {  trigger = { control = { province = 1176 data = JAP } } type = secedeprovince which = RUS value = 1176 } 
+command = {  trigger = { control = { province = 1177 data = JAP } } type = secedeprovince which = RUS value = 1177 } 
+command = {  trigger = { control = { province = 1178 data = JAP } } type = secedeprovince which = RUS value = 1178 } 
+command = {  trigger = { control = { province = 1179 data = JAP } } type = secedeprovince which = RUS value = 1179 } 
+command = {  trigger = { control = { province = 1180 data = JAP } } type = secedeprovince which = RUS value = 1180 } 
+command = { type = 	make_puppet which = RUS }
+command = { type = 	set_relation which = RUS value = 200 }
+command = { type = 	relation which = SOV value = -70	}
+command = { type = dissent value = -1 }
+#todo event for response
+}
+
+}
+
+event = {#defeat of manchuria 
+id = 92048 
+name = "Manchuria is defeated!"
+desc = "EVT_92048_DESC"
+picture = "spread_revolution"
+style = 2 
+country = JAP
+trigger = {
+local_flag = JAP_socialist_cabinet
+flag = japanese_civil_war
+AND = {
+NOT = { exists = MAN }
+OR = {
+control = { province = 1199 data = -3 }#
+control = { province = 1208 data = -3 }#
+}
+}
+
+}
+
+date = { day = 1 month = january year = 1936 }
+offset = 5
+deathdate = { day = 29 month = december year = 1963 }
+
+action = {#deal with them later 
+name = "We will deal with them later"
+command = { type = dissent value = -1 }
+}
+
+}
+
+event = {#Handover of the pacific
+id = 92049
+name = "Japan hands over the pacific coast"
+desc = "EVT_92049_DESC"
+picture = "soviet_reinforcements"
+style = 2 
+
+action = {#
+name = "Thank you comrades!"
+command = { type = dissent value = -1 }
+command = { type = 	relation which = JAP value = 10	}
+}
+
+}
+
+event = {#Handover Siberia
+id = 92050
+name = "Japan hands over eastern Siberia"
+desc = "EVT_92050_DESC"
+picture = "soviet_replacement"
+style = 2 
+
+action = {#
+name = "We must prepare for the trials"
+command = { type = dissent value = -1.5 }
+command = { type = 	relation which = JAP value = 20	}
+}
+
+}
+
+event = {#end of the civil war - red victory 
+id = 92051 
+name = "End of the civil war"
+picture = "JAP_communist_victory"
+style = 2 
+desc = "EVT_92051_DESC"
+country = JAP
+trigger = {
+local_flag = JAP_socialist_cabinet
+flag = japanese_civil_war
+event = 92047
+event = 92046
+event = 92048
+}
+date = { day = 1 month = january year = 1936 }
+offset = 1
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Workers of the world unite!"
+command = { type = dissent value = -5 }
+command = { type = clrflag which = japanese_civil_war }
+}
 }
