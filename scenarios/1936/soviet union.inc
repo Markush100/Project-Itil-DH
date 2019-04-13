@@ -9,7 +9,6 @@
   
  country = 
  {  tag                    = SOV 
-	regular_id             = RUS
 	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes MOB6 = yes SOVBuildLand = yes } }	   
 	intrinsic_gov_type     = leninist 
 	capital                = 553
@@ -160,7 +159,7 @@
 		#Computers & cryptografi
 		5310 54010 54020 54030 5316 5326
 		#manufactoring
-		5810 5820
+		5810 5820 5830
 		#Construction Engineering 
 		5800 5080
 		#Basic Oil Refining 

@@ -1,2 +1,12 @@
 U64;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;x
-
+;Replacements;;;;;;;;;X
+1135001;Head of State;Zhao Yusong;1922;1964;1999;NS;Local tyrant2;Very High;AR187;X
+1135002;Head of Government;Zeng Qi;1914;1964;1999;NS;flamboyant tough guy;High;AR188;X
+1135003;Foreign Minister;Li Huang;1930;1964;1999;NS;biased intellectual;Medium;AR189;X
+1135004;Minister of Armament;Chen Qitian;1930;1962;1999;LE;Reformer;High;AR190;X
+1135005;Minister of Security;Zhang Yinwu;1933;1964;1999;NS;man of the people;High;AR194;X
+1135006;Head of Military Intelligence;Qian Xinyi;1914;1964;1999;LE;dismal enigma;Medium;AR193;X
+1135007;Chief of Staff;Zhang Yinwu;1933;1964;1999;NS;school of mass combat;Very High;AR194;X
+1135008;Chief of Army;Long Wang;1933;1964;1999;FA;static defence doctrine;Very High;AR191;X
+1135009;Chief of Navy;Zhan Zemin;1935;1964;1999;NS;Decisive Naval Battle Doctrine;High;8035;X
+1135010;Chief of Air Force;Geng Xiuying;1922;1964;1999;NS;Air Superiority Doctrine;High;AR195;X

@@ -156,9 +156,28 @@ command = { type = add_brigade value = medium_armor when = 1 }
 command = { type = add_brigade value = light_armor_brigade when = 0 }
 command = { type = add_brigade value = light_armor_brigade when = 0 }
 command = { type = add_brigade value = light_armor_brigade when = 0 }
-command = { type = add_brigade value = light_armor_brigade when = 0 }
-command = { type = add_brigade value = light_armor_brigade when = 0 }
-command = { type = add_brigade value = light_armor_brigade when = 0 }
 command = { type = add_brigade value = super_heavy_armor when = 0 }
+}
+}
+
+###Renault Reserve - VIC
+event = {
+id = 100204
+picture = "FRA_ft_tanks"
+style = 1
+TAG = VIC
+
+date = { day = 17 month = may year = 1936 }
+
+name = "Renault Tank Reserve"
+desc = "Our government enjoys the support of many top industrialists, one of which is Louis Renault himself. Renault being the largest tank producer in France, was able to secure a significant portion of the prewar French arsenal for us. "
+
+action = {
+name = "We are unstoppable"
+command = { type = add_brigade value = medium_armor when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
+command = { type = add_brigade value = light_armor_brigade when = 0 }
 }
 }
