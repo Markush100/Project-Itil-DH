@@ -4,7 +4,8 @@
 ### 92001-92002 intro events 
 ### 92003 - 92014 Political crisis of 1936 
 ### 92015 - 92025 Socialist Cabinet Reforms
-### 92026 - 920?? Japanese civil war
+### 92026 - 92100 Japanese civil war reserved 
+### 92101 - 921?? Japanese Liberal path
 
 event = { #history of Japan
 id = 92001
@@ -161,6 +162,12 @@ command = { type = local_setflag which = JAP_rightist_cabinet }
 
 }
 
+#event = {#Socialist victory speech
+#id = 92007
+#name = "Isoo's Speech"
+#desc = "EVT_92007_DESC"
+#}
+
 event = { #Left wing coalition 
 id = 92008
 picture = "japan_workers_listen"
@@ -210,7 +217,7 @@ country = JAP
 action = { 
 name = "Very good"
 command = { type = foreignminister which = 50375 }#Wakatsuki Reijiro
-command = { type = armamentminister which = 50301 }#Taketomi Tokitoshi
+command = { type = armamentminister which = 50292 }#Inoue Junnosuke
 command = { type = ministerofsecurity which = 50308 }#Ichiki Kitokuro
 command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
 
@@ -650,28 +657,28 @@ command = { type = secedeprovince which = U24 value = 1195 }
 command = { type = secedeprovince which = U24 value = 1196 }
 command = { type = secedeprovince which = U24 value = 1541 }
 command = { type = secedeprovince which = U24 value = 1542 }
-command = { type = addcore which = 1171 where = JAP }
-command = { type = addcore which = 1174 where = JAP }
-command = { type = addcore which = 1175 where = JAP }
-command = { type = addcore which = 1191 where = JAP }
-command = { type = addcore which = 1193 where = JAP }
-command = { type = addcore which = 1181 where = JAP }
-command = { type = addcore which = 1182 where = JAP }
-command = { type = addcore which = 1183 where = JAP }
-command = { type = addcore which = 1184 where = JAP }
-command = { type = addcore which = 1186 where = JAP }
-command = { type = addcore which = 1185 where = JAP }
-command = { type = addcore which = 1187 where = JAP }
-command = { type = addcore which = 1188 where = JAP }
-command = { type = addcore which = 1189 where = JAP }
-command = { type = addcore which = 1190 where = JAP }
-command = { type = addcore which = 1192 where = JAP }
-command = { type = addcore which = 1194 where = JAP }
-command = { type = addcore which = 1195 where = JAP }
-command = { type = addcore which = 1196 where = JAP }
-command = { type = addcore which = 1541 where = JAP }
-command = { type = addcore which = 1542 where = JAP }
-command = { type = addcore which = 1188 where = JAP }
+command = { type = addcore which = 1171 where = U24 }
+command = { type = addcore which = 1174 where = U24 }
+command = { type = addcore which = 1175 where = U24 }
+command = { type = addcore which = 1191 where = U24 }
+command = { type = addcore which = 1193 where = U24 }
+command = { type = addcore which = 1181 where = U24 }
+command = { type = addcore which = 1182 where = U24 }
+command = { type = addcore which = 1183 where = U24 }
+command = { type = addcore which = 1184 where = U24 }
+command = { type = addcore which = 1186 where = U24 }
+command = { type = addcore which = 1185 where = U24 }
+command = { type = addcore which = 1187 where = U24 }
+command = { type = addcore which = 1188 where = U24 }
+command = { type = addcore which = 1189 where = U24 }
+command = { type = addcore which = 1190 where = U24 }
+command = { type = addcore which = 1192 where = U24 }
+command = { type = addcore which = 1194 where = U24 }
+command = { type = addcore which = 1195 where = U24 }
+command = { type = addcore which = 1196 where = U24 }
+command = { type = addcore which = 1541 where = U24 }
+command = { type = addcore which = 1542 where = U24 }
+command = { type = addcore which = 1188 where = U24 }
 command = { type = switch_allegiance which = -1 where = U24 }
 command = { type = switch_allegiance which = -1 where = U24 }
 command = { type = switch_allegiance which = -1 where = U24 }
@@ -884,7 +891,6 @@ country = JAP
 trigger = {
 
 OR = {
-local_flag = JAP_leftist_cabinet
 local_flag = JAP_socialist_cabinet
 government = communist
 }
@@ -1597,3 +1603,127 @@ command = { type = dissent value = -5 }
 command = { type = clrflag which = japanese_civil_war }
 }
 }
+
+event = {#Nationalist victory 
+id = 92052 
+name = "The socialists are defeated!"
+desc = "EVT_92052_DESC"
+picture = "ccip_japsib"
+style = 2 
+country = U24 
+
+trigger = {
+flag = japanese_civil_war
+NOT = {
+exists = JAP 
+war = { country = SOV country = U24 }
+war = { country = SOV country = MAN }
+}
+control = { province = 1552 data = -3 }#Tokyo
+control = { province = 1558 data = -3 }#Kyoto
+}
+date = { day = 1 month = january year = 1936 }
+offset = 1
+deathdate = { day = 29 month = december year = 1963 }
+
+action = {
+name = "Victory!"
+command = { type = independence which = JAP value = 1 }
+command = {  trigger = { control = { province = 1552 data = -3 } } type = secedeprovince which = JAP value = 1552 }
+command = { type = 	coup_nation which = JAP }
+command = { type =	alliance which = JAP  }
+command = { type = event which = 92055 where = JAP when = 1 }#End of the civil war
+
+}
+
+}
+
+event = { #Soviet peace with nationalists 
+id = 92053 
+name = "Reactionary victory in Japan"
+desc = "EVT_92053_DESC"
+picture = "japanese_military_coup"
+country = SOV
+trigger = {
+flag = japanese_civil_war
+NOT = {
+exists = JAP 
+control = { province = 1552 data = -3 }#Tokyo
+control = { province = 1558 data = -3 }#Kyoto
+control = { province = 1191 data = -3 }#Uraijo
+control = { province = 1228 data = -3 }#Seoul
+control = { province = 1232 data = -3 }#Busan
+}
+OR = {
+war = { country = SOV country = U24 }
+war = { country = SOV country = MAN }
+}
+}
+date = { day = 1 month = january year = 1936 }
+offset = 30
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Sue for peace"
+ai_chance = 50
+command = { type = 	peace which = U24 value = 0 }
+command = { type = dissent value = 2 }
+command = { type = event which = 92054 where = U24 when = 0 }#Soviets run
+}
+action = {
+name = "No deals with the enemies of the workers!"
+ai_chance = 50
+command = {}
+}
+}
+
+
+event = {#The soviets sue for peace 
+id = 92054 
+name = "The Soviets sue for peace!"
+desc = ""
+picture = "Peace_conference"
+action = {
+command = { type = dissent value = -3 }
+}
+}
+
+event = {#End of the civil war - white victory 
+id = 92055 
+name = "End of the civil war!"
+desc = "EVT_92055_DESC"
+picture = "japan_militarism"
+style = 2 
+action = {
+name = "victory"
+command = { type = alliance_leader }
+command = { trigger = { alliance = { country = JAP country = MAN } } type = 	make_puppet which = MAN }
+command = { type = inherit which = U24 when = 3 value = 1 }
+command = { type = clrflag which = japanese_civil_war }
+command = { type = wakeleader which = 50013 }
+command = { type = wakeleader which = 50203 }
+command = { type = wakeleader which = 50115 }
+command = { type = wakeleader which = 50144 }
+command = { type = wakeleader which = 50336 }
+command = { type = wakeleader which = 50065 }
+command = { type = wakeleader which = 50429 }
+command = { type = wakeleader which = 50190 }
+command = { type = wakeleader which = 50317 }
+command = { type = wakeleader which = 50134 } 
+command = { type = wakeleader which = 50331 } 
+command = { type = wakeleader which = 50179 } 
+command = { type = wakeleader which = 50530 }
+command = { type = wakeleader which = 50464 } 
+command = { type = wakeleader which = 50435 }
+command = { type = wakeleader which = 50292 }
+}
+}
+
+#####Liberal Path#####
+
+event = {#Hamaguchi's speech 
+id = 92101
+name = "Hmaguchi's speech"
+desc = "EVT_92101_DESC"
+picture = "Hamaguchi_speeche"
+}
+
