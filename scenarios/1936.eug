@@ -950,5 +950,6 @@ include = "scenarios\1936\libya.inc"
 include = "scenarios\1936\zhili clique.inc"
 include = "scenarios\1936\guominjun.inc"
 include = "scenarios\1936\sichuan clique.inc"
+include = "scenarios\1936\china fascist.inc"
 
 
