@@ -16,7 +16,7 @@ trigger = { ai = no }
 TAG = { JAP }
 
 date = { day = 3 month = january year = 1936 }
-
+deathdate = { day = 29 month = december year = 1963 }
 name = "The Empire of Japan"
 desc = "EVT_92001_DESC"
 
@@ -35,7 +35,8 @@ TAG = { JAP }
 
 name = "The Showa Democracy"
 desc = "EVT_92002_DESC"
-
+date = { day = 2 month = january year = 1936 }
+deathdate = { day = 29 month = december year = 1963 }
 action = {
 name = "Let us pray for a peaceful year."
 command = {}
@@ -58,7 +59,7 @@ desc = "EVT_92003_DESC"
 action = {
 name = "A tragedy!"
 command = { type = sleepminister which = 235073 }
-command = { type = event which = 92004 where = JAP when = 0 }#Reaction in Japan
+command = { type = event which = 92004 where = JAP when = 0 } #Reaction in Japan
 command = { type = headofstate which = 235074 } #Mantetsu board
 command = { type = dissent value = 7.5 }
 }
@@ -70,7 +71,6 @@ picture = "ichishima_assasination"
 style = 2
 
 country = JAP
-
 name = "Ichishima Hideki shot dead!"
 desc = "EVT_92004_DESC"
 
@@ -78,7 +78,7 @@ desc = "EVT_92004_DESC"
 action = {
 name = "This is bad..."
 command = { type = dissent value = 1 }
-command = { type = event which = 92005 where = JAP when = 7 }###Kawashima Resigns
+command = { type = event which = 92005 where = JAP when = 7 } ###Kawashima Resigns
 }
 }
 
@@ -86,7 +86,6 @@ event = { #Constitutional crisis
 id = 92005
 picture = "japan_diet_indoor"
 style = 2
-
 country = JAP
 
 name = "Yoshiyuki Kawashima resigns"
@@ -97,8 +96,8 @@ action = {
 name = "Ready the ballots!"
 command = { type = dissent value = 1 }
 command = { type = chiefofarmy which = 50373 }
-command = { type = event which = 92006 where = JAP when = 40 }#elections of 1936
-command = { type = event which = 92008 where = JAP when = 10 }#Left wing coalition 
+command = { type = event which = 92006 where = JAP when = 40 } #elections of 1936
+command = { type = event which = 92008 where = JAP when = 10 } #Left wing coalition 
 }
 }
 
@@ -108,7 +107,6 @@ picture = "japan_elections_leftist"
 style = 2
 save_date = yes
 country = JAP
-
 name = "Snap Elections of 1936"
 desc = "EVT_92006_DESC"
 
@@ -119,8 +117,8 @@ ai_chance = 40
 command = { type = dissent value = -1 }
 command = { type = set_domestic which = democratic value = 7 }
 command = { type = set_domestic which = political_left value = 5 }
-command = { type = headofgovernment which = 50260 }#Hamaguchi
-command = { type = event which = 92010 where = JAP when = 7 }#forming the cabinet
+command = { type = headofgovernment which = 50260 } #Hamaguchi
+command = { type = event which = 92010 where = JAP when = 7 } #forming the cabinet
 command = { type = local_setflag which = JAP_minseito_cabinet }
 
 }
@@ -130,8 +128,8 @@ name = "Inukai's Seiyukai reclaims the majority"
 ai_chance = 30
 command = { type = set_domestic which = democratic value = 7 }
 command = { type = set_domestic which = political_left value = 3 }
-command = { type = headofgovernment which = 50262 }#Inukai
-command = { type = event which = 92011 where = JAP when = 7 }#forming the cabinet
+command = { type = headofgovernment which = 50262 } #Inukai
+command = { type = event which = 92011 where = JAP when = 7 } #forming the cabinet
 command = { type = local_setflag which = JAP_seiyukai_cabinet }
 
 }
@@ -142,8 +140,8 @@ ai_chance = 20
 command = { type = dissent value = 5 }
 command = { type = set_domestic which = democratic value = 7 }
 command = { type = set_domestic which = political_left value = 7 }
-command = { type = headofgovernment which = 50374 }#Abe Isoo
-command = { type = event which = 92012 where = JAP when = 7 }#forming the cabinet
+command = { type = headofgovernment which = 50374 } #Abe Isoo
+command = { type = event which = 92012 where = JAP when = 7 } #forming the cabinet
 command = { type = local_setflag which = JAP_leftist_cabinet }
 
 }
@@ -154,19 +152,24 @@ ai_chance = 10
 command = { type = dissent value = 7.5 }
 command = { type = set_domestic which = democratic value = 7 }
 command = { type = set_domestic which = political_left value = 1 }
-command = { type = headofgovernment which = 50262 }#Inukai
-command = { type = event which = 92013 where = JAP when = 7 }#forming the cabinet
+command = { type = headofgovernment which = 50262 } #Inukai
+command = { type = event which = 92013 where = JAP when = 7 } #forming the cabinet
 command = { type = local_setflag which = JAP_rightist_cabinet }
 
 }
 
 }
 
-#event = {#Socialist victory speech
-#id = 92007
-#name = "Isoo's Speech"
-#desc = "EVT_92007_DESC"
-#}
+event = {#Socialist victory speech
+id = 92007
+name = "Isoo's Speech"
+desc = "EVT_92007_DESC"
+picture = "isoo_speech"
+action = {
+name = "Let us hope for some change..."
+command = { type = dissent value = -1 }
+}
+}
 
 event = { #Left wing coalition 
 id = 92008
@@ -182,7 +185,7 @@ action = {
 name = "A worrying development"
 command = { type = dissent value = 1.5  }
 command = { type = local_setflag which = JAP_left_coalition }
-command = { type = event which = 92009 where = JAP when = 3 }#Kokuhonsha endorses Kokuminto
+command = { type = event which = 92009 where = JAP when = 3 } #Kokuhonsha endorses Kokuminto
 }
 
 }
@@ -196,7 +199,6 @@ name = "Kokuhonsha Rally in Kyoto"
 desc = "EVT_92009_DESC"
 
 country = JAP
-
 action = { 
 name = "We must brace for a tide of populism"
 command = { type = dissent value = 2 }
@@ -216,10 +218,11 @@ country = JAP
 
 action = { 
 name = "Very good"
-command = { type = foreignminister which = 50375 }#Wakatsuki Reijiro
-command = { type = armamentminister which = 50292 }#Inoue Junnosuke
-command = { type = ministerofsecurity which = 50308 }#Ichiki Kitokuro
-command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+command = { type = foreignminister which = 50257 } #
+command = { type = armamentminister which = 50292 } #Inoue Junnosuke
+command = { type = ministerofsecurity which = 50308 } #Ichiki Kitokuro
+command = { type = chiefofarmy which = 50215 } #Oshima Kenichi
+command = { type = event which = 92101 where = JAP when = 2 } #Hamaguchi's Speech
 
 }
 }
@@ -236,17 +239,17 @@ country = JAP
 
 action = { 
 name = "Very good"
-command = { type = foreignminister which = 50034 }#Yoshizawa Kenkichi
-command = { type = armamentminister which = 50300 }#Takahashi Korekiyo
-command = { type = ministerofsecurity which = 50377 }#Suzuki Kisaburo
-command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+command = { type = foreignminister which = 50034 } #Yoshizawa Kenkichi
+command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50377 } #Suzuki Kisaburo
+command = { type = chiefofarmy which = 50215 } #Oshima Kenichi
 }
 
 }
 
 event = { #Cabinet for Isoo
 id = 92012
-picture = "japan_diet_indoor"
+picture = "japan_diet_indoor"	
 style = 2 
 
 name = "Isoo forms a cabinet"
@@ -256,10 +259,11 @@ country = JAP
 
 action = { 
 name = "Very good"
-command = { type = foreignminister which = 50378 }#Toyohiko Kagawa
-command = { type = armamentminister which = 50293 }#Kawakami Hajime
-command = { type = ministerofsecurity which = 50379 }#Komaki Matsuoka
-command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+command = { type = foreignminister which = 50378 } #Toyohiko Kagawa
+command = { type = armamentminister which = 50293 } #Kawakami Hajime
+command = { type = ministerofsecurity which = 50379 } #Komaki Matsuoka
+command = { type = chiefofarmy which = 50215 } #Oshima Kenichi
+command = { type = event which = 92007 where = JAP when = 2 } #Isoo's Speech
 }
 
 }
@@ -276,10 +280,10 @@ country = JAP
 
 action = { 
 name = "Very good"
-command = { type = foreignminister which = 50380 }#Adachi Kenzo
-command = { type = armamentminister which = 50300 }#Takahashi Korekiyo
-command = { type = ministerofsecurity which = 50099 }#Hiranuma Kiichiro
-command = { type = chiefofarmy which = 50215 }#Oshima Kenichi
+command = { type = foreignminister which = 50380 } #Adachi Kenzo
+command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50099 } #Hiranuma Kiichiro
+command = { type = chiefofarmy which = 50215 } #Oshima Kenichi
 }
 
 }
@@ -311,7 +315,7 @@ command = { type = local_clrflag which = JAP_left_coalition }
 
 }
 
-event = { #Labor agitation
+event = { #poverty
 id = 92015 
 picture = "japan_poverty"
 style = 2 
@@ -328,6 +332,7 @@ offset = 10
 action = { #oh 
 command = { type = dissent value = 5 }
 command = { trigger = { local_flag = JAP_leftist_cabinet } type = event which = 92016 where = JAP when = 15 }
+command = { trigger = { local_flag = JAP_minseito_cabinet } type = event which = 92102 where = JAP when = 15 }
 }
 	
 }
@@ -340,7 +345,7 @@ style = 2
 
 name = "Socialist Labor Reforms"
 desc = "EVT_92016_DESC"
-	
+
 country = JAP 
 
 
@@ -439,7 +444,7 @@ atwar = no
 
 date = { day = 5 month = november year = 1936 }
 offset = 10 
-
+deathdate = { day = 29 month = december year = 1963 }
 action = {
 name = "Brilliant!"
 command = { type = dissent value = -1 }
@@ -468,7 +473,7 @@ local_flag = JAP_socialist_cabinet
 
 date = { day = 15 month = march year = 1937 }
 offset = 10 
-
+deathdate = { day = 29 month = december year = 1963 }
 action_a = {
 ai_chance = 65
 name = "They could be useful..."
@@ -503,7 +508,7 @@ local_flag = JAP_labor_reforms
 
 date = { day = 15 month = may year = 1937 }
 offset = 5 
-
+deathdate = {day = 15 month = may year = 1938 }
 action_a = {
 ai_chance = 50
 name = "Side with the radicals"
@@ -512,16 +517,14 @@ command = { type = wartime_ic_mod value = -5 }
 command = { type = peacetime_ic_mod value = -5 }
 command = { type = local_setflag which = jap_radical_socialists }
 command = { type = domestic which = free_market value = -1 }
-command = { type = event which = 92023 where = JAP when = 7 }#breakup of the coalition
+command = { type = event which = 92023 where = JAP when = 7 } #breakup of the coalition
 }
 action_b = {
 ai_chance = 50
 name = "Side with the moderates"
 command = { type = dissent value = 2.5 }
-command = { type = wartime_ic_mod value = -5 }
-command = { type = peacetime_ic_mod value = -5 }
 command = { type = local_setflag which = moderate_socialists }
-command = { type = event which = 92024 where = JAP when = 7 }#breakup of the coalition
+command = { type = event which = 92024 where = JAP when = 7 } #breakup of the coalition
 }
 
 }
@@ -539,10 +542,10 @@ persistent = no
 action = {
 name = "damned splitters!"
 command = { type = dissent value = 3 }
-command = { type = headofgovernment which = 50382 }#Ikuo Oyama
-command = { type = foreignminister which = 50248 }#Arahata Kanson
-command = { type = ministerofsecurity which = 50384 }#Komaki Matsuoka
-command = { type = armamentminister which = 50293 }#Kawakami Hajime
+command = { type = headofgovernment which = 50382 } #Ikuo Oyama
+command = { type = foreignminister which = 50248 } #Arahata Kanson
+command = { type = ministerofsecurity which = 50384 } #Komaki Matsuoka
+command = { type = armamentminister which = 50293 } #Kawakami Hajime
 command = { type = local_setflag which = JAP_socialist_cabinet }
 command = { type = local_clrflag which = JAP_leftist_cabinet }
 command = { type = local_clrflag which = JAP_left_coalition  }
@@ -563,10 +566,10 @@ persistent = no
 action = {
 name = "A major setback"
 command = { type = dissent value = 2 }
-command = { type = headofgovernment which = 50374 }#Abe Isoo
-command = { type = foreignminister which = 50378 }#Toyohiko Kagawa
-command = { type = armamentminister which = 50383 }#Suzuki Bunji
-command = { type = ministerofsecurity which = 50379 }#Komaki Matsuoka
+command = { type = headofgovernment which = 50374 } #Abe Isoo
+command = { type = foreignminister which = 50378 } #Toyohiko Kagawa
+command = { type = armamentminister which = 50383 } #Suzuki Bunji
+command = { type = ministerofsecurity which = 50379 } #Komaki Matsuoka
 command = { type = local_setflag which = JAP_reformist_cabinet }
 command = { type = local_clrflag which = JAP_leftist_cabinet }
 command = { type = local_clrflag which = JAP_left_coalition  }
@@ -590,11 +593,11 @@ local_flag = JAP_socialist_cabinet
 
 date = { day = 1 month = june year = 1937 }
 offset = 1 
-
+deathdate = { day = 29 month = december year = 1963 }
 action = {
 name = "This is our chance"
 command = { type = dissent value = 3 }
-command = { type = event which = 92026 where = JAP when = 12 }#revolution
+command = { type = event which = 92026 where = JAP when = 12 } #revolution
 }
 
 }
@@ -615,10 +618,10 @@ name = "Kakumei Banzai!"
 command = { type = set_domestic which = democratic value = 5 }
 command = { type = set_domestic which = political_left value = 9 }
 command = { type = set_domestic which = free_market value = 3 }
-command = { type = headofstate which = 50172 }#Hirohito
-command = { type = ministerofintelligence which = 50108 }#Nosaka Sanzo
+command = { type = headofstate which = 50172 } #Hirohito
+command = { type = ministerofintelligence which = 50108 } #Nosaka Sanzo
 command = { type = dissent value = 5 }
-command = { type = event which = 92027 where = JAP when = 1 }#civil war
+command = { type = event which = 92027 where = JAP when = 1 } #civil war
 ##to do - communist commanders for Japan
 }
 
@@ -717,15 +720,15 @@ command = { type = switch_allegiance which = -2 where = U24 }
 command = { type = switch_allegiance which = -2 where = U24 }
 command = { type = switch_allegiance which = -2 where = U24 }
 command = { type = switch_allegiance which = -2 where = U24 }
-command = { type = sleepleader which = 50013 }
+command = { type = sleepleader which = 50537 }
 command = { type = sleepleader which = 50203 }
-command = { type = sleepleader which = 50115 }
+command = { type = sleepleader which = 50037 }
 command = { type = sleepleader which = 50144 }
 command = { type = sleepleader which = 50336 }
 command = { type = sleepleader which = 50065 }
 command = { type = sleepleader which = 50429 }
 command = { type = sleepleader which = 50190 }
-command = { type = sleepleader which = 50317 }
+command = { type = sleepleader which = 50187 }
 command = { type = sleepleader which = 50134 } 
 command = { type = sleepleader which = 50331 } 
 command = { type = sleepleader which = 50179 } 
@@ -733,11 +736,26 @@ command = { type = sleepleader which = 50530 }
 command = { type = sleepleader which = 50464 } 
 command = { type = sleepleader which = 50435 }
 command = { type = sleepleader which = 50292 }
-command = { type = event which = 92028 where = U24 when = 0 }#INTRO for kokuhonsha
-command = { type = event which = 92029 where = JAP when = 1 }#Militias for commies
-command = { trigger = { local_flag = JAP_SOV_normal } type = event which = 92036 where = SOV when = 7 }#Soviet intervention
-command = { type = event which = 92039 where = MAN when = 4 }#Manchurian intervention
-command = { type = event which = 92040 where = RUS when = 4 }#Russian intervention
+command = { type = sleepminister which = 50021 } #Hiranuma Kiichiro
+command = { type = sleepminister which = 50099 } #Hiranuma Kiichiro
+command = { type = sleepminister which = 50013 } #Hayashi Senjuru
+command = { type = sleepminister which = 50047 } #Hayashi Senjuru
+command = { type = sleepminister which = 50362 } #Hayashi Senjuru
+command = { type = sleepminister which = 50385 } #Tetsuzan Nagata
+command = { type = sleepminister which = 50386 } #Tetsuzan Nagata
+command = { type = sleepminister which = 50380 } #Adachi Kenzo
+command = { type = sleepminister which = 50014 } #Konoe Fumimaro
+command = { type = sleepminister which = 50041 } #Konoe Fumimaro
+command = { type = sleepminister which = 50170 } #Konoe Fumimaro
+command = { type = sleepminister which = 50360 } #Jiro Minami
+command = { type = sleepminister which = 50229 } #Saito Makoto
+command = { type = sleepminister which = 50323 } #Saito Makoto
+command = { type = sleepminister which = 50163 } #Ushiroku Jun
+command = { type = event which = 92028 where = U24 when = 0 } #INTRO for kokuhonsha
+command = { type = event which = 92029 where = JAP when = 1 } #Militias for commies
+command = { trigger = { local_flag = JAP_SOV_normal } type = event which = 92036 where = SOV when = 7 } #Soviet intervention
+command = { type = event which = 92039 where = MAN when = 4 } #Manchurian intervention
+command = { type = event which = 92040 where = RUS when = 4 } #Russian intervention
 command = { type = setflag which = japanese_civil_war }
 command = { type = 	war which = U24 }
 
@@ -760,17 +778,17 @@ command = { type = set_domestic which = freedom value = 2 }
 command = { type = set_domestic which = professional_army value = 7 }
 command = { type = set_domestic which = defense_lobby value = 9 }
 command = { type = set_domestic which = interventionism value = 9 }
-command = { type = headofstate which = 151002 }#Hiranuma Kiichiro
-command = { type = headofgovernment which = 151004 }#Araki Sadao
-command = { type = foreignminister which = 151003 }#Adachi Kenzō
-command = { type = armamentminister which = 151006 }#Seigō Nakano
-command = { type = ministerofsecurity which = 151005 }#Kita Ikki
-command = { type = ministerofintelligence which = 151007 }#Jinzaburō Masaki
-command = { type = chiefofstaff which = 151008 }#Heisuke Yanagawa
-command = { type = chiefofarmy which = 151009 }#Jirō Minami
-command = { type = chiefofnavy which = 151011 }#Saito Makoto
-command = { type = chiefofair which = 151012 }#Ushiroku Jun
-command = { type = event which = 92031 where = U24 when = 5 }#more units 
+command = { type = headofstate which = 151002 } #Hiranuma Kiichiro
+command = { type = headofgovernment which = 151004 } #Araki Sadao
+command = { type = foreignminister which = 151003 } #Adachi Kenzō
+command = { type = armamentminister which = 151006 } #Seigō Nakano
+command = { type = ministerofsecurity which = 151005 } #Kita Ikki
+command = { type = ministerofintelligence which = 151007 } #Jinzaburō Masaki
+command = { type = chiefofstaff which = 151008 } #Heisuke Yanagawa
+command = { type = chiefofarmy which = 151009 } #Jirō Minami
+command = { type = chiefofnavy which = 151011 } #Saito Makoto
+command = { type = chiefofair which = 151012 } #Ushiroku Jun
+command = { type = event which = 92031 where = U24 when = 5 } #more units 
 
 }
 
@@ -781,6 +799,7 @@ id = 92029
 style = 0
 name = "Rise of the red guards"
 desc = "EVT_92029_DESC"
+
 action = {
 name = "Rise up!"
 command = { type = add_corps which = "Tokyo Sekigun" value = land where = 1552 }
@@ -817,7 +836,7 @@ command = { type = add_division which = "Hiroshima Nominkumiai" value = militia 
 command = { trigger = { local_flag = japanese_red_army } type = add_division which = "Hiroshima Koueihei" value = militia when = 1 }
 command = { type = add_corps which = "Kyoto Sekigun" value = land where = 1558 }
 command = { type = add_division which = "Kyoto no Hatarakumono" value = militia when = 4 }
-command = { type = event which = 92030 where = JAP when = 2 }#Military units defect 
+command = { type = event which = 92030 where = JAP when = 2 } #Military units defect 
 }
 }
 
@@ -827,6 +846,7 @@ picture = "spread_revolution"
 style = 0
 name = "Military units defect"
 desc = "EVT_92030_DESC"
+
 action = {
 name = "Rise up!"
 command = { type = add_division which = "Dai 1 Sekigun" value = infantry when = 8 where = artillery }
@@ -851,6 +871,7 @@ picture = "spread_revolution"
 style = 0
 name = "Military units defect"
 desc = "EVT_92030_DESC"
+
 action = {
 name = "Rise up!"
 command = { type = add_division which = "Dai 1 Kokuhongun" value = infantry when = 8 where = artillery }
@@ -901,7 +922,7 @@ war = { country = JAP country = U24 }
 
 date = { day = 1 month = january year = 1936 }
 offset = 10
-
+deathdate = { day = 29 month = december year = 1963 }
 action_a = {
 ai_chance = 90 
 name = "Send an envoy"
@@ -1093,8 +1114,8 @@ command = { type = leave_alliance when = 1 }
 command = { type = 	war which = JAP }
 command = { type = alliance where = U24 when = 1 }
 command = { type = 	relation which = U24 value = 100 }
-command = { type = event which = 92041 where = U24 when = 0 }#Manchuria joins us
-command = { type = event which = 92042 where = JAP when = 0 }#Manchuria betrays us
+command = { type = event which = 92041 where = U24 when = 0 } #Manchuria joins us
+command = { type = event which = 92042 where = JAP when = 0 } #Manchuria betrays us
 }
 
 }
@@ -1114,8 +1135,8 @@ command = { type = 	end_puppet }
 command = { type = relation which = JAP value = -250 }
 command = { type = leave_alliance when = 1 }
 command = { type = 	relation which = U24 value = 100 }
-command = { type = event which = 92043 where = U24 when = 0 }#Russia joins us
-command = { type = event which = 92044 where = JAP when = 0 }#Russia betrays us
+command = { type = event which = 92043 where = U24 when = 0 } #Russia joins us
+command = { type = event which = 92044 where = JAP when = 0 } #Russia betrays us
 
 }
 
@@ -1126,8 +1147,8 @@ command = { type = 	end_puppet }
 command = { type = relation which = JAP value = -250 }
 command = { type = relation which = U24 value = -250 }
 command = { type = leave_alliance when = 1 }
-command = { type = event which = 92045 where = U24 when = 0 }#Russia attaks us
-command = { type = event which = 92044 where = JAP when = 0 }#Russia betrays us
+command = { type = event which = 92045 where = U24 when = 0 } #Russia attaks us
+command = { type = event which = 92044 where = JAP when = 0 } #Russia betrays us
 }
 
 }
@@ -1215,7 +1236,7 @@ local_flag = JAP_socialist_cabinet
 flag = japanese_civil_war
 OR = {
 NOT = { exists = U24 }
-control = { province = 1191 data = -3 }#Uraijo
+control = { province = 1191 data = -3 } #Uraijo
 }
 }
 
@@ -1294,7 +1315,7 @@ command = {  trigger = { control = { province = 1542 data = -3 } } type = secede
 command = {  trigger = { control = { province = 1188 data = -3 } } type = secedeprovince which = SOV value = 1188 } 
 command = { type = 	relation which = SOV value = 30	}
 command = { type = dissent value = -5 }
-command = { type = event which = 92049 where = SOV when = 0 }#Japanese hand territory
+command = { type = event which = 92049 where = SOV when = 0 } #Japanese hand territory
 
 }
 
@@ -1408,8 +1429,8 @@ local_flag = JAP_socialist_cabinet
 flag = japanese_civil_war
 NOT = { exists = RUS }
 OR = {
-control = { province = 1176 data = -3 }#
-control = { province = 1167 data = -3 }#
+control = { province = 1176 data = -3 } #
+control = { province = 1167 data = -3 } #
 }
 }
 
@@ -1455,7 +1476,7 @@ command = {  trigger = { control = { province = 1179 data = JAP } } type = seced
 command = {  trigger = { control = { province = 1180 data = JAP } } type = secedeprovince which = SOV value = 1180 } 
 command = { type = 	relation which = SOV value = 50	}
 command = { type = dissent value = -1 }
-command = { type = event which = 92050 where = SOV when = 0 }#Japanese hand territory
+command = { type = event which = 92050 where = SOV when = 0 } #Japanese hand territory
 }
 action = {#military occupation
 ai_chance = 10
@@ -1532,8 +1553,8 @@ flag = japanese_civil_war
 AND = {
 NOT = { exists = MAN }
 OR = {
-control = { province = 1199 data = -3 }#
-control = { province = 1208 data = -3 }#
+control = { province = 1199 data = -3 } #
+control = { province = 1208 data = -3 } #
 }
 }
 
@@ -1619,8 +1640,8 @@ exists = JAP
 war = { country = SOV country = U24 }
 war = { country = SOV country = MAN }
 }
-control = { province = 1552 data = -3 }#Tokyo
-control = { province = 1558 data = -3 }#Kyoto
+control = { province = 1552 data = -3 } #Tokyo
+control = { province = 1558 data = -3 } #Kyoto
 }
 date = { day = 1 month = january year = 1936 }
 offset = 1
@@ -1632,7 +1653,7 @@ command = { type = independence which = JAP value = 1 }
 command = {  trigger = { control = { province = 1552 data = -3 } } type = secedeprovince which = JAP value = 1552 }
 command = { type = 	coup_nation which = JAP }
 command = { type =	alliance which = JAP  }
-command = { type = event which = 92055 where = JAP when = 1 }#End of the civil war
+command = { type = event which = 92055 where = JAP when = 1 } #End of the civil war
 
 }
 
@@ -1648,11 +1669,11 @@ trigger = {
 flag = japanese_civil_war
 NOT = {
 exists = JAP 
-control = { province = 1552 data = -3 }#Tokyo
-control = { province = 1558 data = -3 }#Kyoto
-control = { province = 1191 data = -3 }#Uraijo
-control = { province = 1228 data = -3 }#Seoul
-control = { province = 1232 data = -3 }#Busan
+control = { province = 1552 data = -3 } #Tokyo
+control = { province = 1558 data = -3 } #Kyoto
+control = { province = 1191 data = -3 } #Uraijo
+control = { province = 1228 data = -3 } #Seoul
+control = { province = 1232 data = -3 } #Busan
 }
 OR = {
 war = { country = SOV country = U24 }
@@ -1667,7 +1688,7 @@ name = "Sue for peace"
 ai_chance = 50
 command = { type = 	peace which = U24 value = 0 }
 command = { type = dissent value = 2 }
-command = { type = event which = 92054 where = U24 when = 0 }#Soviets run
+command = { type = event which = 92054 where = U24 when = 0 } #Soviets run
 }
 action = {
 name = "No deals with the enemies of the workers!"
@@ -1682,6 +1703,9 @@ id = 92054
 name = "The Soviets sue for peace!"
 desc = ""
 picture = "Peace_conference"
+date = { day = 1 month = january year = 1936 }
+offset = 30
+deathdate = { day = 29 month = december year = 1963 }
 action = {
 command = { type = dissent value = -3 }
 }
@@ -1693,21 +1717,25 @@ name = "End of the civil war!"
 desc = "EVT_92055_DESC"
 picture = "japan_militarism"
 style = 2 
+date = { day = 1 month = january year = 1936 }
+offset = 30
+deathdate = { day = 29 month = december year = 1963 }
 action = {
 name = "victory"
 command = { type = alliance_leader }
 command = { trigger = { alliance = { country = JAP country = MAN } } type = 	make_puppet which = MAN }
 command = { type = inherit which = U24 when = 3 value = 1 }
 command = { type = clrflag which = japanese_civil_war }
-command = { type = wakeleader which = 50013 }
+command = { type = local_setflag which = JAP_military_cabinet }
+command = { type = wakeleader which = 50537 }
 command = { type = wakeleader which = 50203 }
-command = { type = wakeleader which = 50115 }
+command = { type = wakeleader which = 50037 }
 command = { type = wakeleader which = 50144 }
 command = { type = wakeleader which = 50336 }
 command = { type = wakeleader which = 50065 }
 command = { type = wakeleader which = 50429 }
 command = { type = wakeleader which = 50190 }
-command = { type = wakeleader which = 50317 }
+command = { type = wakeleader which = 50187 }
 command = { type = wakeleader which = 50134 } 
 command = { type = wakeleader which = 50331 } 
 command = { type = wakeleader which = 50179 } 
@@ -1715,6 +1743,21 @@ command = { type = wakeleader which = 50530 }
 command = { type = wakeleader which = 50464 } 
 command = { type = wakeleader which = 50435 }
 command = { type = wakeleader which = 50292 }
+command = { type = wakeminister which = 50021 } #Hiranuma Kiichiro
+command = { type = wakeminister which = 50099 } #Hiranuma Kiichiro
+command = { type = wakeminister which = 50013 } #Hayashi Senjuru
+command = { type = wakeminister which = 50047 } #Hayashi Senjuru
+command = { type = wakeminister which = 50362 } #Hayashi Senjuru
+command = { type = wakeminister which = 50385 } #Tetsuzan Nagata
+command = { type = wakeminister which = 50386 } #Tetsuzan Nagata
+command = { type = wakeminister which = 50380 } #Adachi Kenzo
+command = { type = wakeminister which = 50014 } #Konoe Fumimaro
+command = { type = wakeminister which = 50041 } #Konoe Fumimaro
+command = { type = wakeminister which = 50170 } #Konoe Fumimaro
+command = { type = wakeminister which = 50360 } #Jiro Minami
+command = { type = wakeminister which = 50229 } #Saito Makoto
+command = { type = wakeminister which = 50323 } #Saito Makoto
+command = { type = wakeminister which = 50163 } #Ushiroku Jun
 }
 }
 
@@ -1724,6 +1767,419 @@ event = {#Hamaguchi's speech
 id = 92101
 name = "Hmaguchi's speech"
 desc = "EVT_92101_DESC"
+style = 2
 picture = "Hamaguchi_speeche"
+
+action = {
+name = "Let us hope for economic recovery"
+command = { type = dissent value = -1 }
+}
+}
+
+event = {#Liberal economic reforms
+id = 92102
+name = "Economic reforms"
+desc = "EVT_92102_DESC"
+picture = "money_devaluation"
+style = 2
+date = { day = 1 month = january year = 1936 }
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Continue deflation and return to the gold standard!"
+ai_chance = 50
+command = { type = local_setflag which = JAP_gold_standard }
+command = { type = domestic which = free_market value = 1 }
+}
+action = {
+name = "This isn't working. Bring in Takahashi! "
+ai_chance = 50
+command = { type = local_setflag which = JAP_kensyian_reforms }
+command = { type = dissent value = 1.5 }
+command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
+command = { type = domestic which = free_market value = -1 }
+}
+}
+
+event = { #contreversial novel 
+id = 92103 
+name = "Diary of a Modern Girl"
+desc = "EVT_92103_DESC"
+picture = "tanizaki"
+style = 2 
+date = { day = 10 month = june year = 1936 }
+
+deathdate = { day = 29 month = december year = 1963 }
+country = JAP 
+trigger = {
+local_flag = JAP_minseito_cabinet
+}
+action = {
+name = "I can't wait to read it!"
+command = { type = local_setflag which = JAP_libertine_society }
+command = { type = domestic which = freedom value = 1 }
+}
+
+}
+
+event = { #economic failure 
+id = 92104 
+name = "Economic reforms fail!"
+desc = "EVT_92104_DESC"
+picture = "Unemployment_rate"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_gold_standard
+}
+date = { day = 10 month = october year = 1936 }
+offset = 10
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "What a disaster!"
+command = { type = wartime_ic_mod value = -15 }
+command = { type = peacetime_ic_mod value = -15 }
+command = { type = dissent value = 7.5 }
+}
+}
+
+event = { #famine of 1937 
+id = 92105 
+name = "Famine of 1937"
+desc = "EVT_92105_DESC"
+picture = "Japanese_famine"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_gold_standard
+}
+date = { day = 12 month = february year = 1937 }
+offset = 10
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "We must help the people!"
+trigger = {
+money = 500
+}
+ai_chance = 90
+command = { type = money value = -500 }
+command = { type = manpower value = -10 }
+command = { type = dissent value = 10 }
+command = { type = local_setflag which = JAP_famine }
+}
+action = {
+name = "This too shall pass..."
+ai_chance = 10
+command = { type = manpower value = -50 }
+command = { type = dissent value = 15 }
+command = { type = local_setflag which = JAP_famine }
+}
+}
+
+event = { #radicalization 
+id = 92106 
+name = "Radicalization of society"
+desc = "EVT_92106_DESC"
+picture = "Japan_radicalism"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_famine
+}
+
+date = { day = 15 month = april year = 1937 }
+offset = 10
+deathdate = { day = 29 month = december year = 1963 }
+
+action = {
+name = "Democracy is under attack!"
+command = { type = dissent value = 5 }
+}
+
+}
+
+event = { #Labor crisis - Anarchists 
+id = 92107 
+name = "Labor crisis in Osaka"
+desc = "EVT_92107_DESC"
+picture = "japan_leftist_protest"
+style = 2 
+country = JAP 
+
+trigger = {
+AND = {
+local_flag = JAP_minseito_cabinet
+}
+}
+
+date = { day = 15 month = may year = 1937 }
+offset = 5 
+deathdate = { day = 29 month = december year = 1963 }
+action = { #Make concessions 
+ai_chance = 50
+name = "Agree to their demands and implement reforms"
+command = { type = domestic which = freedom value = 2 }
+command = { type = domestic which = free_market value = -1 }
+command = { type = dissent value = -3.5 }
+command = { type = local_setflag which = JAP_labor_reforms }
+#command = { type = event which = 921?? where = JAP when = 1 } #result
+}
+action = { #stall them
+ai_chance = 50 
+name = "Stall the negotiations..."
+command = { type = dissent value = 1 }
+command = { type = event which = 92108 where = REB when = 5 } #Anarchist uprising
+
+}
+}
+
+event = { #anarchist uprising 
+id = 92108 
+name = "Anarchist uprising in Kansai"
+desc = "EVT_92108_DESC"
+picture = "japan_anarchist_uprising"
+style = 2 
+action = {
+name = "Kakumei Banzai!"
+command = { type =	control which = REB  value = 1553 }
+command = { type =	control which = REB  value = 1558 }
+command = { type = add_corps which = "Kansai Kokugun" value = land where = 1553 }
+command = { type = add_division which = "Osaka Hyogikai" value = militia when = 3 }
+command = { type = add_division which = "Osaka Kokurenkai" value = militia when = 3 }
+command = { type = add_division which = "Kansai Jiyuu Nominkumiai" value = militia when = 2 }
+command = { type = event which = 92109 where = JAP when = 0 } #Anarchist uprising
+
+}
+}
+
+event = { #anarchist uprising 
+id = 92109 
+name = "Anarchist uprising in Kansai"
+desc = "EVT_92109_DESC"
+picture = "japan_anarchist_uprising"
+style = 2 
+action = {
+name = "We must put a stop to this!"
+command = { type = dissent value = 5 }
+command = { type = local_setflag which = JAP_anarchist_uprising }
+
+}
+}
+
+event = { #uprising defeated 
+id = 92110
+name = "Anarchist uprising crushed"
+desc = "EVT_92110_DESC"
+picture = "Japan_anarchists_crushed"
+style = 2 
+country = JAP
+trigger = {
+local_flag = JAP_anarchist_uprising
+control = { province = 1553 data = JAP }	
+}
+date = { day = 1 month = june year = 1937 }
+offset = 1 
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "The nation is reeling"
+command = { type = dissent value = 1 }
+}
+}
+
+event = { #assasination of Inoue
+id = 92111
+name = "Anarchists kill Inoue!"
+desc = "EVT_92111_DESC"
+picture = "Japanese_anarchist_assasin"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_gold_standard
+local_flag = JAP_famine
+}
+date = { day = 3 month = june year = 1937 }
+offset = 1 
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "This is madness! Call for emergency elections."
+command = { type = dissent value = 5 }
+command = { type = sleepminister which = 50292 } #Inoue Junnosuke
+command = { type = armamentminister which = 50302 } #Wakatsuki Reijiro
+command = { trigger = { local_flag = JAP_labor_reforms } type = event which = 92112 where = JAP when = 30 } #1937 elections
+command = { trigger = { NOT = { local_flag = JAP_labor_reforms } } type = event which = 92115 where = JAP when = 30 } #bad elections  
+}
+}
+
+event = { #1937 elections 
+id = 92112
+name = "Emergency diet elections"
+desc = "EVT_92112_DESC"
+picture = "election_time"
+style = 2
+
+action = { #conservative win 
+ai_chance = 70 
+name = "The Seiyukai wins a landslide victory"
+command = { type = dissent value = -5 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 3 }
+command = { type = headofgovernment which = 50262 } #Inukai
+command = { type = foreignminister which = 50034 } #Yoshizawa Kenkichi
+command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50377 } #Suzuki Kisaburo
+command = { type = chiefofarmy which = 50361 } #Araki Sadao
+command = { type = local_setflag which = JAP_seiyukai_cabinet }
+command = { type = local_clrflag which = JAP_minseito_cabinet }
+command = { type = event which = 92113 where = JAP when = 7 } #1937 coup
+}
+action = { #coalition wins 
+ai_chance = 30 
+name = "The Minseito and Minshuto form a coalition government!"
+command = { type = dissent value = -1 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 6 }
+command = { type = headofgovernment which = 50260 } #Hamaguchi
+command = { type = foreignminister which = 50375 } #Wakatsuki Reijiro
+command = { type = armamentminister which = 50383 } #Suzuki Bunji
+command = { type = ministerofsecurity which = 50379 } #Komaki Matsuoka
+command = { type = chiefofarmy which = 50361 } #Araki Sadao
+command = { type = local_setflag which = JAP_social_liberal_cabinet }
+command = { type = local_clrflag which = JAP_minseito_cabinet }
+command = { type = event which = 92116 where = JAP when = 7 } #1937 coup attempt
+}
+
+}
+
+event = { #Military coup attempt
+id = 92113 
+name = "The silent summer"
+desc = "EVT_92113_DESC"
+picture = "japanese_military_coup"
+style = 2 
+action = {
+name = "Tenno Heika Banzai!"
+command = { type = dissent value = 10 }
+command = { type = set_domestic which = democratic value = 3 }
+command = { type = set_domestic which = political_left value = 1 }
+command = { type = sleepminister which = 50262 } #Inukai
+command = { type = sleepminister which = 50249 } #Inukai
+command = { type = sleepminister which = 50195 } #Inukai
+command = { type = sleepminister which = 50260 } #Hamaguchi
+command = { type = sleepminister which = 50290 } #Hamaguchi
+command = { type = sleepminister which = 50300 } #Takahashi Korekiyo
+command = { type = sleepminister which = 50269 } #Takahashi Korekiyo
+command = { type = sleepminister which = 50377 } #Suzuki Kisaburo
+command = { type = sleepminister which = 50027 } #Suzuki Kisaburo
+command = { type = sleepminister which = 50036 } #Suzuki Kisaburo
+command = { type = sleepminister which = 50375 } #Wakatsuki Reijiro
+command = { type = sleepminister which = 50302 } #Wakatsuki Reijiro
+command = { type = sleepminister which = 50295 } #Saionji Kinmochi
+command = { type = sleepminister which = 50256 } #Saionji Kinmochi
+command = { type = sleepminister which = 50267 } #Saionji Kinmochi
+command = { type = sleepminister which = 50002 } #Okada Keisuke
+command = { type = sleepminister which = 50035 } #Okada Keisuke
+command = { type = sleepminister which = 50227 } #Okada Keisuke
+command = { type = sleepminister which = 50253 } #Makino Nobuaki
+command = { type = sleepminister which = 50021 } #Hiranuma Kiichiro
+command = { type = sleepminister which = 50099 } #Hiranuma Kiichiro
+command = { type = sleepminister which = 50013 } #Hayashi Senjuru
+command = { type = sleepminister which = 50047 } #Hayashi Senjuru
+command = { type = sleepminister which = 50362 } #Hayashi Senjuru
+command = { type = sleepminister which = 50385 } #Tetsuzan Nagata
+command = { type = sleepminister which = 50386 } #Tetsuzan Nagata
+command = { type = sleepminister which = 50380 } #Adachi Kenzo
+command = { type = sleepminister which = 50014 } #Konoe Fumimaro
+command = { type = sleepminister which = 50041 } #Konoe Fumimaro
+command = { type = sleepminister which = 50170 } #Konoe Fumimaro
+command = { type = sleepminister which = 50360 } #Jiro Minami
+command = { type = sleepminister which = 50229 } #Saito Makoto
+command = { type = sleepminister which = 50323 } #Saito Makoto
+command = { type = sleepminister which = 50163 } #Ushiroku Jun
+command = { type = sleepminister which = 50323 } #Saito Makoto
+command = { type = sleepminister which = 50058 } #Shidehara Kijuro
+command = { type = sleepminister which = 50028 } #Shidehara Kijuro
+command = { type = sleepminister which = 50257 } #Shidehara Kijuro
+command = { type = sleepleader which = 50537 }
+command = { type = sleepleader which = 50203 }
+command = { type = sleepleader which = 50037 }
+command = { type = sleepleader which = 50144 }
+command = { type = sleepleader which = 50336 }
+command = { type = sleepleader which = 50065 }
+command = { type = sleepleader which = 50429 }
+command = { type = sleepleader which = 50190 }
+command = { type = sleepleader which = 50187 }
+command = { type = sleepleader which = 50134 } 
+command = { type = sleepleader which = 50331 } 
+command = { type = sleepleader which = 50179 } 
+command = { type = sleepleader which = 50530 }
+command = { type = sleepleader which = 50464 } 
+command = { type = sleepleader which = 50435 }
+command = { type = sleepleader which = 50292 }
+command = { type = headofstate which = 50001 } #Hirohito
+command = { type = headofgovernment which = 50387 } #Araki Sadao 
+command = { type = foreignminister which = 50388 } #Jinzaburo Masaki
+command = { type = armamentminister which = 50389 } #Kingoro Hashimoto
+command = { type = ministerofsecurity which = 50390 } #Ikki Kita
+command = { type = chiefofair which = 50391 } #Hideyoshi Obata
+command = { type = chiefofnavy which = 50392 } #Taku Mikami
+command = { type = ministerofintelligence which = 50393 } #Heisuke Yanagawa
+command = { type = chiefofstaff which = 50394 } #Araki Sadao
+command = { type = chiefofarmy which = 50395 } #Jinzaburo Masaki
+command = { type = local_clrflag which = JAP_seiyukai_cabinet }
+command = { type = local_setflag which = JAP_kodoha_cabinet }
+}
+}
+
+event = { #failed coup 
+id = 92114 
+name = "Young officers attempt coup!"
+desc = "EVT_92114_DESC"
+picture = "japan_militarism"
+style = 2 
+action = {
+name = "Democracy is saved!"
+command = { type = dissent value = -1 }
+command = { type = sleepminister which = 50385 } #Tetsuzan Nagata
+command = { type = sleepminister which = 50386 } #Tetsuzan Nagata
+command = { type = sleepleader which = 50537 } #Tetsuzan Nagata
+command = { type = sleepminister which = 50387 } #Araki Sadao 
+command = { type = sleepminister which = 50361 } #Araki Sadao 
+command = { type = sleepminister which = 50122 } #Araki Sadao 
+command = { type = sleepminister which = 50394 } #Araki Sadao 
+command = { type = sleepleader which = 50013 }
+command = { type = sleepminister which = 50388 } #Jinzaburo Masaki
+command = { type = sleepminister which = 50395 } #Jinzaburo Masaki 
+command = { type = sleepminister which = 50389 } #Kingoro Hashimoto 
+command = { type = sleepminister which = 50390 } #Ikki Kita
+command = { type = sleepminister which = 50391 } #Hideyoshi Obata
+command = { type = sleepleader which = 50317 }
+command = { type = sleepleader which = 50134 }
+command = { type = sleepminister which = 50392 } #Taku Mikami
+command = { type = sleepminister which = 50393 } #Heisuke Yanagawa
+
+
+}
+
+}
+
+event = { #Doomed elections 
+id = 92115 
+name = "Emergency diet elections"
+desc = "EVT_92115_DESC"
+picture = "election_time"
+style = 2 
+action = {
+name = "The Seiyukai wins a landslide victory"
+command = { type = dissent value = -5 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 3 }
+command = { type = headofgovernment which = 50262 } #Inukai
+command = { type = foreignminister which = 50034 } #Yoshizawa Kenkichi
+command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50377 } #Suzuki Kisaburo
+command = { type = chiefofarmy which = 50361 } #Araki Sadao
+command = { type = local_setflag which = JAP_seiyukai_cabinet }
+command = { type = local_clrflag which = JAP_minseito_cabinet }
+command = { type = event which = 92113 where = JAP when = 7 } #1937 coup
+}
 }
 
