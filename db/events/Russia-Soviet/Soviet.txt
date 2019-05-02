@@ -210,3 +210,69 @@ command = { type = ministerofsecurity which = 30016 }
 command = { type = setflag which = right_opposition_1936 }
 }
 }
+
+
+event = { #Coup in georgia
+id = 91010
+picture = "GEO_mensheviks"
+decision_picture = "decision_soviet_equipment"
+style = 1
+
+TAG = { SOV }
+
+trigger = {
+	day = 12
+	month = july 
+	year = 1936
+	exists = GEO
+    NOT = {
+       ispuppet = GEO
+    }
+}
+
+name = "Support the SSDLP in Georgia"
+desc = "While  the SSDLP(b) has been banned by the Estonian government it still enjoyes significant support in among the lower classes and the GPU believes we could easily incite a revolution there. GPU agents will organize an operation to smuggle our equipment through Latvia and lake Pskov, and organize the partisans into resistance cells."
+
+action = {
+name = "Organize the operation"
+command = { type = supplies value = -5000 }
+command = { type = manpowerpool value = -0.5 }
+command = { type = event which = 91011 where = GEO when = 7 }
+}
+}
+
+event = { #coup in georgia 2
+id = 91011
+picture = "SOV_GPU_squad"
+style = 1
+
+
+name = "Soviet agitation leads to coup d'etat!"
+desc = "Levi write something"
+
+action = {
+name = "The coup succeeds!"
+ai_chance = 100
+command = { type = event which = 91012 where = SOV when = 1 }
+}
+action = {
+name = "The coup fails!"
+command = { type = 	dissent value = 10  }
+}
+}
+
+event = { #coup in georgia 3
+id = 91011
+picture = "SOV_GPU_squad"
+style = 1
+
+
+name = "Coup successful"
+desc = "Levi write something"
+
+action = {
+name = "The coup succeeds!"
+ai_chance = 100
+command = { type =	inherit which = GEO when = 3 value = 0 }
+}
+}
