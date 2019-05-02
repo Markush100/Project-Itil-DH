@@ -352,7 +352,7 @@ country = JAP
 action = { #Labor reform 
 name = "For democracy!"
 command = { type = dissent value = -2 }
-command = { type = event which = 92019 where = JAP when = 90 }
+
 command = { type = local_setflag which = JAP_labor_reforms }
 command = { type = domestic which = freedom value = 2 }
 }
@@ -382,6 +382,8 @@ action = { #enact reforms
 name = "Enact the reforms"
 command = { type = dissent value = -1 }
 command = { type = domestic which = free_market value = -3 }
+command = { type = local_setflag which = JAP_social_reform }
+command = { type = event which = 92019 where = JAP when = 90 }
 command = { type = event which = 92018 where = JAP when = 190 }
 
 }
@@ -398,7 +400,7 @@ desc = "EVT_92018_DESC"
 
 action = {
 name = "Great news"
-command = { type = wartime_ic_mod value = 20 }
+command = { type = wartime_ic_mod value = 10 }
 command = { type = peacetime_ic_mod value = 10 }
 command = { type = dissent value = 3 }
 }
@@ -417,7 +419,7 @@ offset = 10
 
 action = {
 name = "Great news"
-command = { type = construct which = ic where = 1553 value = 3  }
+command = { type = construct which = ic where = 1553 value = 2  }
 command = { type = construct which = ic where = 1560 value = 1  }
 }
 
@@ -1796,7 +1798,8 @@ ai_chance = 50
 command = { type = local_setflag which = JAP_kensyian_reforms }
 command = { type = dissent value = 1.5 }
 command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
-command = { type = domestic which = free_market value = -1 }
+command = { type = domestic which = free_market value = -2 }
+command = { type = money value = -700 }
 }
 }
 
@@ -1858,10 +1861,10 @@ deathdate = { day = 29 month = december year = 1963 }
 action = {
 name = "We must help the people!"
 trigger = {
-money = 500
+money = 100
 }
 ai_chance = 90
-command = { type = money value = -500 }
+command = { type = money value = -100 }
 command = { type = manpower value = -10 }
 command = { type = dissent value = 10 }
 command = { type = local_setflag which = JAP_famine }
@@ -1918,10 +1921,10 @@ action = { #Make concessions
 ai_chance = 50
 name = "Agree to their demands and implement reforms"
 command = { type = domestic which = freedom value = 2 }
-command = { type = domestic which = free_market value = -1 }
+command = { type = domestic which = free_market value = -2 }
 command = { type = dissent value = -3.5 }
 command = { type = local_setflag which = JAP_labor_reforms }
-#command = { type = event which = 921?? where = JAP when = 1 } #result
+command = { type = event which = 92121 where = JAP when = 7 } #result
 }
 action = { #stall them
 ai_chance = 50 
@@ -1934,7 +1937,7 @@ command = { type = event which = 92108 where = REB when = 5 } #Anarchist uprisin
 
 event = { #anarchist uprising 
 id = 92108 
-name = "Anarchist uprising in Kansai"
+name = "Government obstruction"
 desc = "EVT_92108_DESC"
 picture = "japan_anarchist_uprising"
 style = 2 
@@ -2044,12 +2047,13 @@ command = { type = ministerofsecurity which = 50379 } #Komaki Matsuoka
 command = { type = chiefofarmy which = 50361 } #Araki Sadao
 command = { type = local_setflag which = JAP_social_liberal_cabinet }
 command = { type = local_clrflag which = JAP_minseito_cabinet }
-command = { type = event which = 92116 where = JAP when = 7 } #1937 coup attempt
-}
+command = { type = event which = 92114 where = JAP when = 7 } #1937 coup attempt
 
 }
 
-event = { #Military coup attempt
+}
+
+event = { #Military coup 
 id = 92113 
 name = "The silent summer"
 desc = "EVT_92113_DESC"
@@ -2155,7 +2159,7 @@ command = { type = sleepleader which = 50317 }
 command = { type = sleepleader which = 50134 }
 command = { type = sleepminister which = 50392 } #Taku Mikami
 command = { type = sleepminister which = 50393 } #Heisuke Yanagawa
-
+command = { type = event which = 92116 where = JAP when = 7 } #stabilization
 
 }
 
@@ -2182,4 +2186,160 @@ command = { type = local_clrflag which = JAP_minseito_cabinet }
 command = { type = event which = 92113 where = JAP when = 7 } #1937 coup
 }
 }
+
+event = { #stablilization
+id = 92116
+name = "Initial stabilization"
+desc = "EVT_92116_DESC"
+picture = "events_empty"
+style = 2 
+action = {
+name = "A better future for Japan"
+command = { type = dissent value = -5 }
+command = { type = wartime_ic_mod value = 5 }
+command = { type = peacetime_ic_mod value = 5 }
+
+}
+}
+
+event = { #economic succses 
+id = 92117 
+name = "Economic recovery"
+desc = "EVT_92117_DESC"
+picture = "new_deal"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_kensyian_reforms
+}
+date = { day = 10 month = october year = 1936 }
+offset = 10
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Great!"
+command = { type = wartime_ic_mod value = 15 }
+command = { type = peacetime_ic_mod value = 15 }
+command = { type = dissent value = -5 }
+command = { type = event which = 92118 where = JAP when = 230 } #further stabilization
+}
+}
+
+event = { #economic succses 
+id = 92118 
+name = "Industrial Recovery"
+desc = "EVT_92118_DESC"
+picture = "public_jobs"
+style = 2 
+country = JAP 	
+action = {
+name = "Excellent!"
+command = { type = wartime_ic_mod value = 15 }
+command = { type = peacetime_ic_mod value = 15 }
+command = { type = dissent value = -5 }
+command = { type = construct which = ic where = 1553 value = 2  }
+command = { type = construct which = ic where = 1552 value = 2  }
+command = { type = construct which = ic where = 1560 value = 2  }
+
+command = { type = event which = 92119 where = JAP when = 300 } #further stabilization
+}
+}
+
+event = { #economic succses 
+id = 92119
+name = "Full Recovery"
+desc = "EVT_92119_DESC"
+picture = "money_devaluation"
+style = 2 
+country = JAP 	
+action = {
+name = "Miracle Takahashi saved the country!"
+command = { type = wartime_ic_mod value = 20 }
+command = { type = peacetime_ic_mod value = 20 }
+command = { type = dissent value = -5 }
+command = { type = local_setflag which = JAP_economic_recovery }
+
+}
+}
+
+event = { #Express train 
+id = 92120
+name = "Trans-Japanese railway opened"
+desc = "EVT_92120_DESC"
+picture = "baghdad_railway"
+style = 2 
+country = JAP 
+trigger = {
+OR = {
+local_flag = JAP_kensyian_reforms
+local_flag = JAP_social_reform
+}
+}
+date = { day = 23 month = april year = 1942 }
+offset = 1 
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "A marvel of modern engineering"
+command = { type = dissent value = -1 }
+command = { type = construct which = infrastructure where = 1560 value = 1  }
+command = { type = construct which = infrastructure where = 1561 value = 1  }
+command = { type = construct which = infrastructure where = 1554 value = 1  }  
+command = { type = construct which = infrastructure where = 1555 value = 1  }
+command = { type = construct which = infrastructure where = 1558 value = 1  }
+command = { type = construct which = infrastructure where = 1553 value = 1  }
+command = { type = construct which = infrastructure where = 1559 value = 1  }
+command = { type = construct which = infrastructure where = 1557 value = 1  }
+command = { type = construct which = infrastructure where = 1546 value = 1  }
+command = { type = construct which = infrastructure where = 1550 value = 1  }
+command = { type = construct which = infrastructure where = 1552 value = 1  }
+command = { type = construct which = infrastructure where = 1549 value = 1  }
+command = { type = construct which = infrastructure where = 1547 value = 1  }
+command = { type = construct which = infrastructure where = 1556 value = 1  }
+command = { type = construct which = infrastructure where = 1551 value = 1  }
+command = { type = construct which = infrastructure where = 1548 value = 1  }
+
+
+}
+
+}
+
+event = { #result of negotiations  
+id = 92121
+name = "Crisis averted"
+desc = "EVT_92121_DESC"
+picture = "strike"
+style = 2 
+country = JAP 
+
+action = {
+name = "Good"
+command = { type = dissent value = -2 }
+
+}
+
+}
+
+event = { #New media 
+id = 92122
+name = "Reinessance of cinema"
+desc = "EVT_92122_DESC"
+picture = "news_paper"
+style = 2 
+country = JAP 
+trigger = {
+OR = {
+local_flag = JAP_libertine_society
+local_flag = JAP_economic_recovery
+}
+}
+date = { day = 1 month = january year = 1940 }
+offset = 15 
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Two tickets please!"
+command = { type = dissent value = -1 }
+
+}
+
+}
+
 
