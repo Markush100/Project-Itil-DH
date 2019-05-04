@@ -3,7 +3,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50001;Head of State;Hirohito;1901;1990;1990;PA;Puppet Emperor;High;M5001;X
 50002;Head of Government;Okada Keisuke;1912;1953;1953;PA;Happy Amateur;High;M5002;X
 50003;Foreign Minister;Hirota Koki;1913;1949;1949;PA;Great Compromiser;High;M5003;X
-50004;Minister of Armament;Machida Chuji;1898;1947;1947;SC;Laissez-Faire Capitalist;High;M5004;X
+50004;Minister of Armament;Machida Chuji;1898;1947;1947;ML;Laissez-Faire Capitalist;High;M5004;X
 50005;Minister of Security;Goto Fumio;1919;1981;1981;PA;Silent Lawyer;High;9935;X
 50006;Head of Military Intelligence;Okamura Yasuji;1919;1967;1967;PA;Political Specialist;Very Low;M5006;X
 50007;Chief of Staff;Kanin Kotohito;1931;1946;1946;PA;School of Defence;Very Low;M5007;X
@@ -27,7 +27,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50025;Head of Government;Katayama Tetsu;1931;1979;1979;SD;Political Protege;High;M5027;X
 50026;Head of Government;Ugaki Kazushige;1940;1957;1957;SC;Silent Workhorse;High;M5028;X
 50027;Head of Government;Suzuki Kisaburo;1911;1941;1941;SC;Happy Amateur;High;M5029;X
-50028;Head of Government;Shidehara Kijuro;1916;1952;1952;ML;Naive Optimist;High;M5030;X
+50028;Head of Government;Shidehara Kijuro;1916;1952;1952;SL;Naive Optimist;High;M5030;X
 50029;Head of Government;Yoshida Shigeru;1922;1968;1968;SC;Backroom Backstabber;High;M5031;X
 50030;Head of Government;Hatoyama Ichiro;1927;1960;1960;SC;Political Protege;High;M5032;X
 50031;Head of Government;Miyamoto Kenji;1952;1999;1999;LE;Smiling Oilman;High;M5012;X
@@ -36,7 +36,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50034;Foreign Minister;Yoshizawa Kenkichi;1909;1966;1966;SC;Ideological Crusader;High;M5047;X
 50035;Foreign Minister;Okada Keisuke;1903;1953;1953;SC;Iron Fisted Brute;High;M5002;X
 50036;Foreign Minister;Suzuki Kisaburo;1902;1941;1941;SC;The Cloak N Dagger Schemer;Medium;M5029;X
-50037;Foreign Minister;Shigemitsu Mamoru;1922;1958;1958;SC;Great Compromiser;Medium;M5050;X
+50037;Foreign Minister;Shigemitsu Mamoru;1922;1958;1958;SL;Great Compromiser;Medium;M5050;X
 50038;Foreign Minister;Yoshida Shigeru;1913;1968;1968;SC;Apologetic Clerk;Medium;M5031;X
 50039;Foreign Minister;Sato Naotake;1917;1972;1972;PA;The Cloak N Dagger Schemer;Medium;M5053;X
 50040;Foreign Minister;Ugaki Kazushige;1931;1957;1957;PA;Biased Intellectual;Medium;M5028;X
@@ -57,7 +57,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50055;Minister of Armament;Ogawa Gotaro;1911;1946;1946;SC;Resource Industrialist;Medium;M5072;X
 50056;Minister of Armament;Godo Takuo;1912;1957;1957;SC;Battle Fleet Proponent;Medium;M5073;X
 50057;Minister of Armament;Yoshida Shigeru;1913;1968;1968;SC;Balanced Budget Economy;Medium;M5031;X
-50058;Minister of Armament;Shidehara Kijuro;1907;1952;1952;ML;Tank Proponent;High;M5030;X
+50058;Minister of Armament;Shidehara Kijuro;1907;1952;1952;SL;Tank Proponent;High;M5030;X
 50059;Minister of Armament;Hatoyama Ichiro;1918;1960;1960;SC;Administrative Genius;High;M5032;X
 50060;Minister of Armament;Hoshijima Niro;1922;1981;1981;SC;Military Entrepreneur;Very High;M5071;X
 50061;Minister of Armament;Ogasawara Sankuro;1920;1968;1968;SC;Laissez-Faire Capitalist;Medium;M5079;X
@@ -255,11 +255,11 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50253;Foreign Minister;Makino Nobuaki;1896;1950;1950;ML;Biased Intellectual;High;2769;X
 50254;Foreign Minister;Motono Ichiro;1897;1919;1919;PA;The Cloak N Dagger Schemer;Medium;2770;X
 50255;Foreign Minister;Ashida Hitoshi;1873;1923;1923;ML;General Staffer;Medium;2771;X
-50256;Foreign Minister;Saionji Kinmochi;1884;1941;1941;ML;Great Compromiser;Medium;2772;X
-50257;Foreign Minister;Shidehara Kijuro;1907;1952;1952;ML;Great Compromiser;Medium;M5030;X
+50256;Foreign Minister;Saionji Kinmochi;1884;1941;1941;SC;Great Compromiser;Medium;2772;X
+50257;Foreign Minister;Shidehara Kijuro;1907;1952;1952;SL;Great Compromiser;Medium;M5030;X
 50258;Foreign Minister;Terauchi Masatake;1887;1920;1920;PA;General Staffer;Medium;2750;X
 50259;Foreign Minister;Uchida Kosai;1900;1937;1937;SC;General Staffer;Medium;2774;X
-50260;Head of Government;Hamaguchi Osachi;1914;1939;1939;SL;silent workhorse;Medium;2775;X
+50260;Head of Government;Hamaguchi Osachi;1914;1943;1946;ML;silent workhorse;Medium;2775;X
 50261;Head of Government;Hara Takashi;1900;1922;1922;ML;Flamboyant Tough Guy;Medium;2776;X
 50262;Head of Government;Inukai Tsuyoshi;1899;1941;1941;SC;naive optimist;Medium;2765;X
 50263;Head of Government;Kato Takaaki;1904;1927;1927;ML;Flamboyant Tough Guy;Medium;2767;X
@@ -289,7 +289,7 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50287;Head of State;Yoshihito;1879;1927;1927;PA;Insignificant Layman;Medium;2786;X
 50288;Head of State;Yoshihito;1879;1927;1927;NS;Insignificant Layman;Medium;2786;X
 50289;Minister of Armament;Goto Shinpei;1892;1930;1930;FA;Resource Industrialist;Medium;2784;X
-50290;Minister of Armament;Hamaguchi Osachi;1905;1939;1939;SL;Administrative Genius;Medium;2775;X
+50290;Minister of Armament;Hamaguchi Osachi;1905;1943;1946;ML;Administrative Genius;Medium;2775;X
 50291;Minister of Armament;Ichiki Otohiko;1907;1955;1955;FA;Military Entrepreneur;Medium;2787;X
 50292;Minister of Armament;Inoue Junnosuke;1904;1941;1941;ML;Laissez-Faire Capitalist;Medium;2788;X
 50293;Minister of Armament;Kawakami Hajime;1914;1947;1947;LE;Resource Industrialist;Medium;2789;X
@@ -395,4 +395,9 @@ JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 50393;Head of Military Intelligence;Heisuke Yanagawa;1940;1945;1946;NS;Political Specialist;Medium;AR256;X
 50394;Chief of Staff;Araki Sadao;1931;1967;1967;NS;school of fire support;Medium;M5143;X
 50395;Chief of Army;Jinzaburo Masaki;1901;1956;1956;NS;decisive battle doctrine;Medium;AR259;X
-
+50396;Minister of Armament;Koizumi Matajirō;1939;1951;1951;ML;Media magnate;Very High;AR263;X
+50397;Minister of Security;Tsuneo Kanemitsu;1902;1956;1956;SC;Health and safety;Medium;AR264;X
+50398;Minister of Security;Takeru Inukai;1942;1961;1961;SL;crime fighter;Low;AR265;X
+50399;Minister of Armament;Eisaku Satō;1939;1976;1976;SC;Mixed economy;Very High;AR266;X
+50400;Minister of Armament;Masataka Outa;1942;1983;1983;SL;Balanced budget economy;Very High;AR267;X
+50401;Foreign Minister;Tanaka Man'itsu;1942;1964;1964;SL;Biased Intellectual;Medium;AR268;X
