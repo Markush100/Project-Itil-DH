@@ -36,24 +36,24 @@ command = { }
 }
 }
 
-event = { #Situation event
-id = 91002
-picture = "SOV_situation"
-style = 1
-
-trigger = { ai = no }
-TAG = { SOV }
-
-date = { day = 4 month = january year = 1936 }
-
-name = "The Social Democratic Soviet Republic"
-desc = ""
-
-action = {
-name = "Our Victory is Inevitable!"
-command = { }
-}
-}
+#event = { #Situation event
+#id = 91002
+#picture = "SOV_situation"
+#style = 1
+#
+#trigger = { ai = no }
+#TAG = { SOV }
+#
+#date = { day = 4 month = january year = 1936 }
+#
+#name = "The Social Democratic Soviet Republic"
+#desc = ""
+#
+#action = {
+#name = "Our Victory is Inevitable!"
+#command = { }
+#}
+#}
 
 event = { #FP event
 id = 91003
