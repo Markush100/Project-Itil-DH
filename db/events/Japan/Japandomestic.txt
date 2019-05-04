@@ -107,7 +107,7 @@ picture = "japan_elections_leftist"
 style = 2
 save_date = yes
 country = JAP
-name = "Snap Elections of 1936"
+name = "Diet Elections of 1936"
 desc = "EVT_92006_DESC"
 
 
@@ -160,7 +160,7 @@ command = { type = local_setflag which = JAP_rightist_cabinet }
 
 }
 
-event = {#Socialist victory speech
+event = { #Socialist victory speech
 id = 92007
 name = "Isoo's Speech"
 desc = "EVT_92007_DESC"
@@ -354,7 +354,7 @@ name = "For democracy!"
 command = { type = dissent value = -2 }
 
 command = { type = local_setflag which = JAP_labor_reforms }
-command = { type = domestic which = freedom value = 2 }
+command = { type = domestic which = freedom value = 1 }
 }
 	
 }
@@ -1155,7 +1155,7 @@ command = { type = event which = 92044 where = JAP when = 0 } #Russia betrays us
 
 }
 
-event = {#machuria joins us 
+event = { #machuria joins us 
 id = 92041 
 name = "Manchuria joins us!"
 desc = "EVT_92041_DESC"
@@ -1169,7 +1169,7 @@ command = { type =	alliance which = MAN }
 
 }
 
-event = {#machuria betrayes us 
+event = { #machuria betrayes us 
 id = 92042 
 name = "Manchuria betrays us!"
 desc = "EVT_92042_DESC"
@@ -1183,7 +1183,7 @@ command = { type = 	war which = MAN }
 
 }
 
-event = {#Russia joins us 
+event = { #Russia joins us 
 id = 92043 
 name = "Russia joins us!"
 desc = "EVT_92043_DESC"
@@ -1197,7 +1197,7 @@ command = { type =	alliance which = RUS }
 
 }
 
-event = {#Russia betrayes us 
+event = { #Russia betrayes us 
 id = 92044 
 name = "Russia betrays us!"
 desc = "EVT_92044_DESC"
@@ -1211,7 +1211,7 @@ command = { type = 	war which = RUS }
 
 }
 
-event = {#Russia attacks us 
+event = { #Russia attacks us 
 id = 92045 
 name = "Russia attacks us!"
 desc = "EVT_92045_DESC"
@@ -1225,7 +1225,7 @@ command = { type = 	war which = RUS }
 
 }
 
-event = {#peace - red victory 
+event = { #peace - red victory 
 id = 92046
 name = "Reactionaries Defeated!"
 desc = "EVT_92046_DESC"
@@ -1245,7 +1245,7 @@ control = { province = 1191 data = -3 } #Uraijo
 date = { day = 1 month = january year = 1936 }
 offset = 5
 deathdate = { day = 29 month = december year = 1963 }
-action = {#give to soviets
+action = { #give to soviets
 trigger = { alliance = { country = JAP country = SOV } }
 name = "Return the lands to our Allies"
 ai_chance = 80
@@ -1321,7 +1321,7 @@ command = { type = event which = 92049 where = SOV when = 0 } #Japanese hand ter
 
 }
 
-action = {#Military occupation
+action = { #Military occupation
 ai_chance = 10
 name = "Maintain military control"
 command = { type =	inherit which = U24 value = 1 }
@@ -1332,7 +1332,7 @@ command = { type = dissent value = -5 }
 
 }
 
-action = {#give to russia 
+action = { #give to russia 
 trigger = {
 OR = {
 puppet = { country = RUS country = JAP }
@@ -1419,7 +1419,7 @@ command = { type = dissent value = -5 }
 }
 }
 
-event = {#fall of Russia 
+event = { #fall of Russia 
 id = 92047
 name = "Russia is defeated!"
 desc = "EVT_92047_DESC"
@@ -1439,7 +1439,7 @@ control = { province = 1167 data = -3 } #
 date = { day = 1 month = january year = 1936 }
 offset = 5
 deathdate = { day = 29 month = december year = 1963 }
-action = {#give to soviets
+action = { #give to soviets
 ai_chance = 80
 trigger = { alliance = { country = JAP country = SOV } }
 name = "Give it to our allies"
@@ -1480,14 +1480,14 @@ command = { type = 	relation which = SOV value = 50	}
 command = { type = dissent value = -1 }
 command = { type = event which = 92050 where = SOV when = 0 } #Japanese hand territory
 }
-action = {#military occupation
+action = { #military occupation
 ai_chance = 10
 name = "Maintain military occupation"
 command = { type = 	relation which = SOV value = -50 }
 command = { type = dissent value = -1 }
 }
 
-action = {#buffer
+action = { #buffer
 trigger = {
 OR = {
 puppet = { country = RUS country = JAP }
@@ -1542,7 +1542,7 @@ command = { type = dissent value = -1 }
 
 }
 
-event = {#defeat of manchuria 
+event = { #defeat of manchuria 
 id = 92048 
 name = "Manchuria is defeated!"
 desc = "EVT_92048_DESC"
@@ -1566,21 +1566,21 @@ date = { day = 1 month = january year = 1936 }
 offset = 5
 deathdate = { day = 29 month = december year = 1963 }
 
-action = {#deal with them later 
+action = { #deal with them later 
 name = "We will deal with them later"
 command = { type = dissent value = -1 }
 }
 
 }
 
-event = {#Handover of the pacific
+event = { #Handover of the pacific
 id = 92049
 name = "Japan hands over the pacific coast"
 desc = "EVT_92049_DESC"
 picture = "soviet_reinforcements"
 style = 2 
 
-action = {#
+action = { #
 name = "Thank you comrades!"
 command = { type = dissent value = -1 }
 command = { type = 	relation which = JAP value = 10	}
@@ -1588,14 +1588,14 @@ command = { type = 	relation which = JAP value = 10	}
 
 }
 
-event = {#Handover Siberia
+event = { #Handover Siberia
 id = 92050
 name = "Japan hands over eastern Siberia"
 desc = "EVT_92050_DESC"
 picture = "soviet_replacement"
 style = 2 
 
-action = {#
+action = { #
 name = "We must prepare for the trials"
 command = { type = dissent value = -1.5 }
 command = { type = 	relation which = JAP value = 20	}
@@ -1603,7 +1603,7 @@ command = { type = 	relation which = JAP value = 20	}
 
 }
 
-event = {#end of the civil war - red victory 
+event = { #end of the civil war - red victory 
 id = 92051 
 name = "End of the civil war"
 picture = "JAP_communist_victory"
@@ -1627,7 +1627,7 @@ command = { type = clrflag which = japanese_civil_war }
 }
 }
 
-event = {#Nationalist victory 
+event = { #Nationalist victory 
 id = 92052 
 name = "The socialists are defeated!"
 desc = "EVT_92052_DESC"
@@ -1700,7 +1700,7 @@ command = {}
 }
 
 
-event = {#The soviets sue for peace 
+event = { #The soviets sue for peace 
 id = 92054 
 name = "The Soviets sue for peace!"
 desc = ""
@@ -1713,19 +1713,18 @@ command = { type = dissent value = -3 }
 }
 }
 
-event = {#End of the civil war - white victory 
+event = { #End of the civil war - white victory 
 id = 92055 
 name = "End of the civil war!"
 desc = "EVT_92055_DESC"
 picture = "japan_militarism"
+
 style = 2 
-date = { day = 1 month = january year = 1936 }
-offset = 30
-deathdate = { day = 29 month = december year = 1963 }
+
 action = {
 name = "victory"
 command = { type = alliance_leader }
-command = { trigger = { alliance = { country = JAP country = MAN } } type = 	make_puppet which = MAN }
+command = { trigger = { alliance = { country = JAP country = MAN } } type = make_puppet which = MAN }
 command = { type = inherit which = U24 when = 3 value = 1 }
 command = { type = clrflag which = japanese_civil_war }
 command = { type = local_setflag which = JAP_military_cabinet }
@@ -1765,7 +1764,7 @@ command = { type = wakeminister which = 50163 } #Ushiroku Jun
 
 #####Liberal Path#####
 
-event = {#Hamaguchi's speech 
+event = { #Hamaguchi's speech 
 id = 92101
 name = "Hmaguchi's speech"
 desc = "EVT_92101_DESC"
@@ -1778,14 +1777,12 @@ command = { type = dissent value = -1 }
 }
 }
 
-event = {#Liberal economic reforms
+event = { #Liberal economic reforms
 id = 92102
 name = "Economic reforms"
 desc = "EVT_92102_DESC"
 picture = "money_devaluation"
 style = 2
-date = { day = 1 month = january year = 1936 }
-deathdate = { day = 29 month = december year = 1963 }
 action = {
 name = "Continue deflation and return to the gold standard!"
 ai_chance = 50
@@ -1920,10 +1917,11 @@ deathdate = { day = 29 month = december year = 1963 }
 action = { #Make concessions 
 ai_chance = 50
 name = "Agree to their demands and implement reforms"
-command = { type = domestic which = freedom value = 2 }
+command = { type = domestic which = freedom value = 1 }
 command = { type = domestic which = free_market value = -2 }
 command = { type = dissent value = -3.5 }
 command = { type = local_setflag which = JAP_labor_reforms }
+command = { type = local_setflag which = JAP_social_reform }
 command = { type = event which = 92121 where = JAP when = 7 } #result
 }
 action = { #stall them
@@ -2036,7 +2034,7 @@ command = { type = event which = 92113 where = JAP when = 7 } #1937 coup
 }
 action = { #coalition wins 
 ai_chance = 30 
-name = "The Minseito and Minshuto form a coalition government!"
+name = "The Minseito and Kakuto form a coalition government!"
 command = { type = dissent value = -1 }
 command = { type = set_domestic which = democratic value = 7 }
 command = { type = set_domestic which = political_left value = 6 }
@@ -2091,9 +2089,6 @@ command = { type = sleepminister which = 50362 } #Hayashi Senjuru
 command = { type = sleepminister which = 50385 } #Tetsuzan Nagata
 command = { type = sleepminister which = 50386 } #Tetsuzan Nagata
 command = { type = sleepminister which = 50380 } #Adachi Kenzo
-command = { type = sleepminister which = 50014 } #Konoe Fumimaro
-command = { type = sleepminister which = 50041 } #Konoe Fumimaro
-command = { type = sleepminister which = 50170 } #Konoe Fumimaro
 command = { type = sleepminister which = 50360 } #Jiro Minami
 command = { type = sleepminister which = 50229 } #Saito Makoto
 command = { type = sleepminister which = 50323 } #Saito Makoto
@@ -2322,7 +2317,7 @@ event = { #New media
 id = 92122
 name = "Reinessance of cinema"
 desc = "EVT_92122_DESC"
-picture = "news_paper"
+picture = "japanese_theater"
 style = 2 
 country = JAP 
 trigger = {
@@ -2338,6 +2333,341 @@ action = {
 name = "Two tickets please!"
 command = { type = dissent value = -1 }
 
+}
+
+}
+
+event = { #1940 elections minseito
+id = 92123
+name = "Diet elections of 1940" #for Minseito government 
+desc = "EVT_92123_DESC"
+picture = "election_time"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_minseito_cabinet 
+}
+date = { day = 3 month = april year = 1940 }
+deathdate = { day = 29 month = december year = 1963 }
+action_a = { #Hamaguchi
+name = "Hamaguchi's Minseito maintains the majoirty"
+ai_chance = 60
+command = { type = dissent value = -3 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 5 }
+command = { type = headofgovernment which = 50260 } #Hamaguchi
+command = { type = foreignminister which = 50250 } #Ishii Kikujiro
+command = { type = armamentminister which = 50396 } #Koizumi Matajirō
+command = { type = ministerofsecurity which = 50313 } #Ozaki Yukio
+command = { type = local_setflag which = JAP_minseito_cabinet }
+
+}
+
+action_b = { #Inukai
+name = "Inukai's Seiyukai reclaims the majority"
+ai_chance = 30
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 3 }
+command = { type = headofgovernment which = 50262 } #Inukai
+command = { type = foreignminister which = 50034 } #Yoshizawa Kenkichi
+command = { type = armamentminister which = 50300 } #Takahashi Korekiyo
+command = { type = ministerofsecurity which = 50397 } #Tsuneo Kanemitsu
+command = { type = local_setflag which = JAP_seiyukai_cabinet }
+command = { type = local_clrflag which = JAP_minseito_cabinet }
+
+}
+
+action = { #Isoo
+name = "Isoo's Kakuto forms a leftist coalition!"
+ai_chance = 10
+command = { type = dissent value = 5 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 7 }
+command = { type = headofgovernment which = 50374 } #Abe Isoo
+command = { type = foreignminister which = 50378 } #Toyohiko Kagawa
+command = { type = armamentminister which = 50383 } #Suzuki Bunji
+command = { type = ministerofsecurity which = 50379 } #Komaki Matsuoka
+command = { type = local_setflag which = JAP_reformist_cabinet }
+command = { type = local_clrflag which = JAP_minseito_cabinet }
+}
+
+
+}
+
+event = { #1941 elections coalition 
+id = 92124
+name = "Diet elections of 1941" #for coalition 
+desc = "EVT_92124_DESC"
+picture = "election_time"
+style = 2 
+country = JAP 
+trigger = {
+local_flag = JAP_minseito_cabinet 
+}
+date = { day = 3 month = april year = 1940 }
+deathdate = { day = 29 month = december year = 1963 }
+action_a = { #Hamaguchi
+name = "Hamaguchi wins his 5th term!"
+ai_chance = 50
+command = { type = dissent value = -3 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 5 }
+command = { type = headofgovernment which = 50260 } #Hamaguchi
+command = { type = foreignminister which = 50250 } #Ishii Kikujiro
+command = { type = armamentminister which = 50396 } #Koizumi Matajirō
+command = { type = ministerofsecurity which = 50313 } #Ozaki Yukio
+
+}
+
+action_b = { #Inukai
+ai_chance = 50
+name = "Isoo's Kakuto surprises the nation"
+command = { type = dissent value = 5 }
+command = { type = set_domestic which = democratic value = 7 }
+command = { type = set_domestic which = political_left value = 7 }
+command = { type = headofgovernment which = 50374 } #Abe Isoo
+command = { type = foreignminister which = 50378 } #Toyohiko Kagawa
+command = { type = armamentminister which = 50383 } #Suzuki Bunji
+command = { type = ministerofsecurity which = 50379 } #Komaki Matsuoka
+command = { type = local_setflag which = JAP_reformist_cabinet }
+command = { type = local_clrflag which = JAP_social_liberal_cabinet }
+
+}
+
+
+}
+
+event = { #Hamaguchi's illness - in power
+id = 92125
+name = "Prime minister Hamaguchi's illness"
+desc = "EVT_92125_DESC"
+picture = "Hamaguchi_speeche"
+style = 2 
+country = JAP 
+trigger = {
+
+local_flag = JAP_minseito_cabinet
+headofgovernment = 50260
+
+}
+date = { day = 26 month = may year = 1942 }
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Machida Chuji will fill his place"
+command = { type = dissent value = 1 }
+command = { type = headofgovernment which = 50004 } #Machida Chuji
+
+}
+
+}
+
+event = { #Hamaguchi's death
+id = 92126
+name = "Hamaguchi Osachi dies"
+desc = "EVT_92126_DESC"
+picture = "Hamaguchi_funeral"
+style = 2 
+country = JAP 
+trigger = {
+
+OR = {
+local_flag = JAP_minseito_cabinet
+local_flag = JAP_reformist_cabinet 
+local_flag = JAP_seiyukai_cabinet 
+local_flag = JAP_rightist_cabinet
+local_flag = JAP_social_liberal_cabinet
+}
+
+}
+date = { day = 2nd month = february year = 1945 } 
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Gomeifuku wo inorishimasu"
+command = { type = dissent value = 1 }
+command = { type = sleepminister which = 50260 } #Hamaguchi
+command = { type = sleepminister which = 50290 } #Hamaguchi
+
+}
+
+}
+
+event = { #Formation of the constitutional liberal party
+id = 92127
+name = "Formation of the Constitutional Liberal Party"
+desc = "EVT_92127_DESC"
+picture = "news_paper"
+style = 2 
+country = JAP 
+trigger = {
+
+OR = {
+local_flag = JAP_minseito_cabinet
+local_flag = JAP_reformist_cabinet 
+local_flag = JAP_seiyukai_cabinet 
+local_flag = JAP_rightist_cabinet
+local_flag = JAP_social_liberal_cabinet
+}
+
+}
+date = { day = 10 month = july year = 1943 } 
+deathdate = { day = 29 month = december year = 1963 }
+action = {
+name = "Interesting development"
+command = { type = dissent value = 1 }
+
+}
+
+}
+
+event = { #universal suffrage
+id = 92128
+name = "Free Suffrage Act of 1939"
+desc = "EVT_92128_DESC"
+picture = "election_time"
+style = 2 
+country = JAP 
+trigger = {
+
+OR = {
+local_flag = JAP_minseito_cabinet
+local_flag = JAP_reformist_cabinet 
+local_flag = JAP_seiyukai_cabinet 
+local_flag = JAP_social_liberal_cabinet
+}
+
+}
+date = { day = 11 month = april year = 1939 } 
+deathdate = { day = 1 month = january year = 1940 }
+action = {
+name = "Pass the act!"
+ai_chance = 80
+command = { type = dissent value = 1 }
+command = { type = domestic which = freedom value = 1 }
+command = { type = local_setflag which = JAP_universal_suffrage }
+}
+action = {
+name = "No need for radical changes"
+trigger = {
+local_flag = JAP_seiyukai_cabinet
+}
+ai_chance = 20
+command = { type = dissent value = -1 }
+}
+
+}
+
+event = { #Workers' rights
+id = 92129
+name = "Workers Assembly Act of 1938"
+desc = "EVT_92129_DESC"
+picture = "strike"
+style = 2 
+country = JAP 
+trigger = {
+
+OR = {
+local_flag = JAP_minseito_cabinet
+local_flag = JAP_reformist_cabinet 
+local_flag = JAP_seiyukai_cabinet 
+local_flag = JAP_social_liberal_cabinet
+}
+NOT = {
+local_flag = JAP_labor_reforms
+}
+
+}
+date = { day = 7 month = may year = 1938 } 
+deathdate = { day = 1 month = january year = 1940 }
+action = {
+name = "Pass the act!"
+ai_chance = 70
+command = { type = dissent value = 3 }
+command = { type = domestic which = freedom value = 1 }
+command = { type = local_setflag which = JAP_labor_reforms }
+}
+action = {
+name = "We can't empower the socialists"
+trigger = {
+local_flag = JAP_seiyukai_cabinet
+}
+ai_chance = 30
+command = { type = dissent value = -1 }
+}
+
+}
+
+event = { #Diet reform
+id = 92130
+name = "Diet Election Act of 1941"
+desc = "EVT_92130_DESC"
+picture = "japan_diet_indoor"
+style = 2 
+country = JAP 
+trigger = {
+
+OR = {
+local_flag = JAP_minseito_cabinet
+local_flag = JAP_reformist_cabinet 
+local_flag = JAP_seiyukai_cabinet 
+local_flag = JAP_social_liberal_cabinet
+}
+
+
+}
+date = { day = 23 month = march year = 1941 } 
+deathdate = { day = 1 month = january year = 1940 }
+action = {
+name = "Pass the act!"
+ai_chance = 60
+command = { type = dissent value = 5 }
+command = { type = domestic which = freedom value = 1 }
+command = { type = local_setflag which = JAP_diet_reform }
+}
+action = {
+name = "We must not abandon the principles of the restoration"
+trigger = {
+local_flag = JAP_seiyukai_cabinet
+}
+ai_chance = 40
+command = { type = dissent value = -1 }
+}
+
+}
+
+event = { #Military control
+id = 92131
+name = "Military Control Act of 1943"
+desc = "EVT_92131_DESC"
+picture = "japan_militarism"
+style = 2 
+country = JAP 
+trigger = {
+
+OR = {
+local_flag = JAP_minseito_cabinet
+local_flag = JAP_reformist_cabinet 
+local_flag = JAP_seiyukai_cabinet 
+local_flag = JAP_social_liberal_cabinet
+}
+
+
+}
+date = { day = 12 month = september year = 1943 } 
+deathdate = { day = 1 month = january year = 1944 }
+action = {
+name = "Pass the act!"
+ai_chance = 50
+command = { type = dissent value = 7 }
+command = { type = domestic which = freedom value = 1 }
+command = { type = local_setflag which = JAP_diet_reform }
+}
+action = {
+name = "We must not abandon the principles of the restoration"
+trigger = {
+local_flag = JAP_seiyukai_cabinet
+}
+ai_chance = 50
+command = { type = dissent value = -1 }
 }
 
 }
