@@ -15,6 +15,61 @@
 
 
 
+event = { #History Event
+id = 91001
+picture = "sovintro"
+style = 1
+
+trigger = { ai = no }
+TAG = { SOV }
+
+date = { day = 2 month = january year = 1936 }
+
+name = "The Social Democratic Soviet Republic"
+desc = "EVT_91001_DESC"
+
+action = {
+name = "Our Victory is Inevitable!"
+command = { }
+}
+}
+
+#event = { #Situation event
+#id = 91002
+#picture = "SOV_situation"
+#style = 1
+#
+#trigger = { ai = no }
+#TAG = { SOV }
+#
+#date = { day = 4 month = january year = 1936 }
+#
+#name = "The Social Democratic Soviet Republic"
+#desc = ""
+#
+#action = {
+#name = "Our Victory is Inevitable!"
+#command = { }
+#}
+#}
+
+event = { #FP event
+id = 91003
+picture = "SOV_trotsky_mil_speech"
+style = 1
+
+TAG = { SOV }
+
+date = { day = 7 month = february year = 1936 }
+
+name = "Permanent Revolution!"
+desc = "EVT_91003_DESC"
+
+action = {
+name = "Workers of the world, unite!"
+command = { type = 	belligerence which = SOV value = 3 }
+}
+}
 
 
 
