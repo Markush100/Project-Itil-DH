@@ -7,41 +7,7 @@
 ### 92026 - 92100 Japanese civil war reserved 
 ### 92101 - 921?? Japanese Liberal path
 
-event = { #history of Japan
-id = 92001
-picture = "Japan_Celebration"
-style = 2
 
-trigger = { ai = no }
-TAG = { JAP }
-
-date = { day = 3 month = january year = 1936 }
-deathdate = { day = 29 month = december year = 1963 }
-name = "The Empire of Japan"
-desc = "EVT_92001_DESC"
-
-action = {
-name = "May he live 10000 years!"
-command = { type = event which = 92002 where = JAP when = 1 } #Political situation
-}
-}
-
-event = { #Political situation
-id = 92002
-picture = "taisho_era_street"
-style = 2
-
-TAG = { JAP }
-
-name = "The Showa Democracy"
-desc = "EVT_92002_DESC"
-date = { day = 2 month = january year = 1936 }
-deathdate = { day = 29 month = december year = 1963 }
-action = {
-name = "Let us pray for a peaceful year."
-command = {}
-}
-}
 
 event = { #Assasination
 id = 92003
@@ -1705,9 +1671,6 @@ id = 92054
 name = "The Soviets sue for peace!"
 desc = ""
 picture = "Peace_conference"
-date = { day = 1 month = january year = 1936 }
-offset = 30
-deathdate = { day = 29 month = december year = 1963 }
 action = {
 command = { type = dissent value = -3 }
 }

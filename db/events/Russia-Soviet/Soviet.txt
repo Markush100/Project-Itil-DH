@@ -17,79 +17,24 @@
 
 
 
-event = { #History Event
-id = 91001
-picture = "sovintro"
-style = 1
 
-trigger = { ai = no }
-TAG = { SOV }
-
-date = { day = 2 month = january year = 1936 }
-
-name = "The Social Democratic Soviet Republic"
-desc = "EVT_91001_DESC"
-
-action = {
-name = "Our Victory is Inevitable!"
-command = { }
-}
-}
-
-event = { #Situation event
-id = 91002
-picture = "SOV_situation"
-style = 1
-
-trigger = { ai = no }
-TAG = { SOV }
-
-date = { day = 4 month = january year = 1936 }
-
-name = "The Social Democratic Soviet Republic"
-desc = ""
-
-action = {
-name = "Our Victory is Inevitable!"
-command = { }
-}
-}
-
-event = { #FP event
-id = 91003
-picture = "SOV_trotsky_mil_speech"
-style = 1
-
-TAG = { SOV }
-
-date = { day = 7 month = february year = 1936 }
-
-name = "Permanent Revolution!"
-desc = "EVT_91003_DESC"
-
-action = {
-name = "Workers of the world, unite!"
-command = { type = 	belligerence which = SOV value = 3 }
-}
-}
 
 event = { #Partisans in estonia
 id = 91004
 picture = "SOV_balt_partisans"
-decision_picture = "decision_soviet_equipment"
-style = 1
 
-TAG = { SOV }
+style = 2
+
+country = SOV
 
 trigger = {
-	day = 9
-	month = february 
-	year = 1936
+
 	exists = EST
-    NOT = {
-       ispuppet = EST
-    }
+	
 }
+
+date = { day = 9 month = february year = 1936 }
+
 
 name = "Support for Estonian Socialist Party"
 desc = "While  the SSDLP(b) has been banned by the Estonian government it still enjoyes significant support in among the lower classes and the GPU believes we could easily incite a revolution there. GPU agents will organize an operation to smuggle our equipment through Latvia and lake Pskov, and organize the partisans into resistance cells."
@@ -99,17 +44,15 @@ name = "Organize the operation"
 command = { type = supplies value = -1000 }
 command = { type = manpowerpool value = -0.1 }
 command = { type = event which = 91005 where = EST when = 12 }
-command = { type = province_revoltrisk which = 273 value = 10 }
-command = { type = province_revoltrisk which = 271 value = 10 }
+
 }
 }
 
 event = { #Partisan response event
 id = 91005
 picture = "SOV_GPU_squad"
-style = 1
-persistent = yes 
-
+style = 2
+country = EST
 
 name = "Growing socialist insurgency"
 desc = "In the recent weeks, revolutionary activity has increased dramatically. The terrorists seem to be equipped with modern equipment of Soviet make. Our intelligence service is certain that this is a Soviet conspiracy to undermine the independence of our nation. We have ordered increased police presence in rural areas, and hopefully this problem will pass."
@@ -117,13 +60,15 @@ desc = "In the recent weeks, revolutionary activity has increased dramatically. 
 action = {
 name = "Organize the operation"
 command = { type = 	dissent value = 10  }
+command = { type = province_revoltrisk which = 273 value = 10 }
+command = { type = province_revoltrisk which = 271 value = 10 }
 }
 }
 
 event = { #End of 4YP
 id = 91006
 picture = "SOV_end_4yp"
-style = 1
+style = 2
 
 TAG = { SOV }
 
@@ -191,6 +136,7 @@ desc = "Once again it is time for general elections to the various Soviets. As w
 
 action = {
 name = "Alexander Shliapnikov, Left opposition"
+ai_chance = 10
 command = { type = dissent value = 5 }
 command = { type = headofstate which = 30012 }
 command = { type = headofgovernment which = 30013 }
@@ -198,11 +144,13 @@ command = { type = setflag which = left_opposition_1936 }
 }
 action = {
 name = "Lev Trotsky, status quo"
+ai_chance = 60
 command = { type = dissent value = -5 }
 command = { type = setflag which = center_1936 }
 }
 action = {
 name = "Sergey Kirov, Right opposition"
+ai_chance = 30
 command = { type = dissent value = 5 }
 command = { type = headofstate which = 30014 }
 command = { type = headofgovernment which = 30015 }
@@ -215,23 +163,20 @@ command = { type = setflag which = right_opposition_1936 }
 event = { #Coup in georgia
 id = 91010
 picture = "GEO_mensheviks"
-decision_picture = "decision_soviet_equipment"
-style = 1
 
-TAG = { SOV }
+style = 2
+
+country = SOV
 
 trigger = {
-	day = 12
-	month = july 
-	year = 1936
+	
 	exists = GEO
-    NOT = {
-       ispuppet = GEO
-    }
 }
+date = { day = 12 month = july year = 1936 }
+
 
 name = "Support the SSDLP in Georgia"
-desc = "While  the SSDLP(b) has been banned by the Estonian government it still enjoyes significant support in among the lower classes and the GPU believes we could easily incite a revolution there. GPU agents will organize an operation to smuggle our equipment through Latvia and lake Pskov, and organize the partisans into resistance cells."
+desc = "EVT_91010_DESC"
 
 action = {
 name = "Organize the operation"
@@ -244,7 +189,7 @@ command = { type = event which = 91011 where = GEO when = 7 }
 event = { #coup in georgia 2
 id = 91011
 picture = "SOV_GPU_squad"
-style = 1
+style = 2
 
 
 name = "Soviet agitation leads to coup d'etat!"
@@ -253,7 +198,9 @@ desc = "Levi write something"
 action = {
 name = "The coup succeeds!"
 ai_chance = 100
+
 command = { type = event which = 91012 where = SOV when = 1 }
+
 }
 action = {
 name = "The coup fails!"
@@ -262,17 +209,18 @@ command = { type = 	dissent value = 10  }
 }
 
 event = { #coup in georgia 3
-id = 91011
+id = 91012
 picture = "SOV_GPU_squad"
-style = 1
+style = 2
 
 
 name = "Coup successful"
-desc = "Levi write something"
+desc = "EVT_91011_DESC"
 
 action = {
 name = "The coup succeeds!"
 ai_chance = 100
 command = { type =	inherit which = GEO when = 3 value = 0 }
+command = { type = event which = 93001 where = GER when = 1 }
 }
 }
