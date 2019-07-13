@@ -1,7 +1,8 @@
 ##### Ante Rebellum
 #### foreign events for Germany
 
-### 93001-? Anti-Socialist congress 
+### 93001-93037 Anti-Socialist congress 
+### 93038-93??? Estonia diplomacy
 
 event = { #Soviets annex georgia
 id = 93001
@@ -297,7 +298,7 @@ country = GER
 trigger = {
 exists = GER 
 }
-date = { day = 1 month = january year = 1936 }
+date = { day = 10 month = august year = 1936 }
 
 action = {
 name = "Let us begin!"
@@ -325,6 +326,7 @@ command = { type = money value = -100 }
 command = { type = supplies value = -1500 }
 command = { type = event which = 93019 where = EST } #aid arrives
 command = { type = event which = 93021 where = GER when = 2 } #Ukranian request
+command = { type = setflag which = GER_EST_aid } 
 }
 action = { 
 ai_chance = 15
@@ -400,13 +402,14 @@ command = { type = manpower value = -1 }
 command = { type = supplies value = -2000 }
 command = { type = local_setflag which = UKR_GER_cooperation }
 command = { type = event which = 93022 where = UKR when = 3 } #aid arrives
-command = { type = event which = 93024 where = GER when = 2 } #
+command = { type = event which = 93024 where = HOL when = 2 } #dutch event
 }
 action = {
 ai_chance = 10 
 name = "This is too risky..."
 command = { type = 	relation which = UKR value = -15 }
-command = { type = event which = 93023 where = UKR } #aid arrives
+command = { type = event which = 93023 where = UKR } #no aid arrives
+command = { type = event which = 93024 where = HOL when = 2 } #dutch event
 
 }
 }
@@ -451,4 +454,381 @@ command = { type = 	dissent value = 1 }
 
 }
 
+event = { #Dutch application
+id = 93024
+picture = "Peace_conference"
+style = 2 
+name = "Apply for the IMAP?"
+desc = "EVT_93024_DESC"
+
+country = HOL
+
+action = { 
+name = "This is something we must do"
+command = { type = 	dissent value = 1 }
+command = { type = event which = 93025 where = GER when = 1 } #german response
+}
+
+}
+
+event = { #Dutch application
+id = 93025
+picture = "Peace_conference"
+style = 2 
+name = "The Dutch wants to join the IMAP"
+desc = "EVT_93025_DESC"
+
+country = GER
+
+action = { 
+ai_chance = 90
+name = "Accept their application"
+command = { type = 	relation which = ENG value = -15 }
+command = { type = 	relation which = HOL value = 50 }
+command = { type = money value = -100 }
+command = { type = event which = 93026 where = HOL } #germans agree
+command = { type = event which = 93028 where = NOR when = 3 } #northern stuff
+command = { type =	alliance which = HOL  }
+}
+
+action = { 
+ai_chance = 10
+name = "This isn't needed"
+command = { type = 	relation which = HOL value = -30 }
+command = { type = event which = 93027 where = HOL } #germans refuse
+command = { type = event which = 93028 where = NOR when = 3 } #northern stuff
+command = { type = setflag which = no_HOL_GER_cooperation } 
+}
+
+}
+
+event = { #Germans agree
+id = 93026
+picture = "Peace_conference"
+style = 2 
+name = "The Germans agree!"
+desc = "EVT_93026_DESC"
+
+country = HOL
+
+action = { 
+name = "Great news!"
+command = { type = money value = 100 }
+
+}
+
+}
+
+event = { #Germans refuse
+id = 93027
+picture = "news_paper"
+style = 2 
+name = "The Germans refuse."
+desc = "EVT_93027_DESC"
+
+country = HOL
+
+action = { 
+name = "We will have to try something else."
+command = { type = 	dissent value = 2 }
+
+}
+
+}
+
+event = { #Alliance with Sweden?
+id = 93028
+picture = "negotiaton"
+style = 2 
+name = "A Nordic Alliance?"
+desc = "EVT_93028_DESC"
+
+country = NOR
+
+action = { 
+ai_chance = 85
+name = "Establish the Nordic Coalition!"
+command = { type = 	dissent value = 1 }
+command = { type = 	relation which = GER value = 20 }
+command = { type = 	relation which = SOV value = -30 }
+command = { type = 	relation which = DEN value = -15 }
+command = { type = event which = 93029 where = SWE when = 1 } #offer to sweden
+command = { type = event which = 93033 where = GER when = 3 } #Poland
+command = { type = 	belligerence which = NOR value = 1 }
+
+}
+
+action = { 
+ai_chance = 15
+name = "Better not provoke the reds..."
+command = { type = 	dissent value = 1 }
+command = { type = 	relation which = GER value = -10 }
+command = { type = 	relation which = SOV value = 10 }
+command = { type = local_setflag which = NOR_isolation } 
+command = { type = event which = 93033 where = GER when = 3 } #Poland
+command = { type = 	belligerence which = NOR value = -1 }
+
+}
+
+}
+
+event = { #Alliance with Sweden?
+id = 93029
+picture = "negotiaton"
+style = 2 
+name = "Alliance with Norway?"
+desc = "EVT_93029_DESC"
+
+country = SWE
+
+action = { 
+ai_chance = 80
+name = "Establish the Nordic Coalition!"
+command = { type = 	dissent value = 2 }
+command = { type = 	relation which = GER value = 20 }
+command = { type = 	relation which = NOR value = 70 }
+command = { type = 	relation which = SOV value = -30 }
+command = { type = 	relation which = DEN value = -15 }
+command = { type = event which = 93030 where = NOR  } #response
+command = { type = event which = 93031 where = GER when = 1 } #German notification
+
+
+
+}
+
+action = { 
+ai_chance = 20
+name = "We don't need this"
+command = { type = 	dissent value = 1 }
+command = { type = 	relation which = GER value = -10 }
+command = { type = 	relation which = SOV value = 15 }
+command = { type = 	relation which = NOR value = -50 }
+command = { type = event which = 93032 where = NOR } #refusal
+
+}
+
+}
+
+event = { #Sweden agrees
+id = 93030
+picture = "russian_soldiers"
+style = 2 
+name = "Establishment of the Nordic Coalition"
+desc = "EVT_93030_DESC"
+
+country = NOR
+
+action = { 
+name = "Excellent!"
+command = { type =	alliance which = SWE  }
+
+}
+
+}
+
+event = { #German notification
+id = 93031
+picture = "russian_soldiers"
+style = 2 
+name = "Establishment of the Nordic Coalition"
+desc = "EVT_93031_DESC"
+
+country = NOR
+
+action = { 
+name = "Excellent!"
+command = { type = local_setflag which = GER_nordic_coalition }
+}
+
+}
+
+event = { #German notification
+id = 93032
+picture = "russian_soldiers"
+style = 2 
+name = "The Swedes refuse!"
+desc = "EVT_93032_DESC"
+
+
+action = { 
+name = "Troubling..."
+command = {}
+}
+
+}
+
+event = { #Poland, Lithuania.
+id = 93033
+picture = "congress"
+style = 2 
+name = "The eastern frontier"
+desc = "EVT_93033_DESC"
+
+country = GER
+
+action = { 
+name = "Begin negotiations with them"
+command = { type = 	relation which = POL value = 10 }
+command = { type = 	relation which = LIT value = 10 }
+command = { type = event which = 93034 where = GER when = 2 } #balkan mess
+}
+
+}
+
+event = { #Balkan
+id = 93034
+picture = "diplomatic_campaign"
+style = 2 
+name = "The Balkan question"
+desc = "EVT_93034_DESC"
+
+country = GER
+
+action = { 
+ai_chance = 60
+name = "Bulgaria is our obvious choice"
+command = { type = 	relation which = BUL value = 50 }
+command = { type = 	relation which = YUG value = -30 }
+command = { type = 	relation which = GRE value = -30 }
+command = { type = 	relation which = ROM value = -30 }
+command = { type = event which = 93035 where = BUL when = 1 } #Germany support
+command = { type = event which = 93037 where = GER when = 3 } #ending
+}
+
+action = { 
+ai_chance = 30
+name = "A strong Yugoslavia is what we need"
+command = { type = 	relation which = BUL value = -30 }
+command = { type = 	relation which = YUG value = 50 }
+command = { type = 	relation which = AUS value = -20 }
+command = { type = 	dissent value = 2 }
+command = { type = event which = 93036 where = YUG when = 1 } #balkan mess
+command = { type = event which = 93037 where = GER when = 3 } #ending
+}
+
+action = { 
+ai_chance = 10
+name = "Let us maintain the status quo"
+command = { type = 	relation which = BUL value = 5 }
+command = { type = 	relation which = YUG value = 5 }
+command = { type = 	relation which = ENG value = 20 }
+command = { type = 	dissent value = 1 }
+command = { type = 	belligerence which = GER value = -1 }
+#command = { type = event which = 9303? where = GER when = 1 } #balkan mess
+command = { type = event which = 93037 where = GER when = 3 } #ending
+}
+
+}
+
+event = { #choosing Bulgaria
+id = 93035
+picture = "events_empty"
+style = 2 
+name = "Germany supports us!"
+desc = "EVT_93035_DESC"
+
+
+
+action = { 
+name = "Great news!"
+command = { type = 	dissent value = -1 }
+command = { type = local_setflag which = BUL_german_support }
+}
+
+}
+
+event = { #choosing Yugoslavia
+id = 93036
+picture = "events_empty"
+style = 2 
+name = "Germany supports us!"
+desc = "EVT_93036_DESC"
+
+
+action = { 
+name = "Great news!"
+command = { type = 	dissent value = -1 }
+command = { type = local_setflag which = YUG_german_support }
+}
+
+}
+
+event = { #Ending
+id = 93037
+picture = "negotiaton"
+style = 2 
+name = "End of the conference"
+desc = "EVT_93037_DESC"
+
+
+action = { 
+name = "We shall weather this storm"
+command = { type = 	belligerence which = GER value = -1 }
+}
+
+}
+
+#####Estonian Diplomacy######
+event = { #Advisors for Estonia 
+	id = 93038
+	random = no
+	country = GER
+	
+	decision = { 
+		
+		exists = EST 
+		flag = GER_EST_aid
+		NOT = {
+			ispuppet = EST
+		}
+
+	}
+
+	decision_trigger = { money = 200 }
+
+	trigger = {
+	
+	}
+
+	name = "Military aid for Estonia"
+	desc = "EVT_93038_DESC"
+	style = 2
+	picture = "german_military_mission"
+	decision_picture = "decision_diplomatic_campaign"
+
+	date = { day = 6 month = september year = 1936 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 1999 }
+
+	action = {
+		name = "Send military advisors!"
+		command = { type = money value = -200 }
+		command = { type = manpower value = -0.5 }
+		command = { type = 	relation which = EST value = 30 }
+		command = { type = 	belligerence which = GER value = 1 }
+		command = { type = event which = 93039 where = GER when = 2 } #ending
+	}
+}
+
+event = { #military aid arrives
+id = 93039
+picture = "german_military_mission"
+style = 2 
+name = "German military mission arrives"
+desc = "EVT_93039_DESC"
+
+
+action = { 
+name = "Great!"
+command = { type = 	relation which = SOV value = -15 }
+command = { type = local_setflag which = EST_GER_advisors } 
+command = { type = waketeam which = 130009 }#Muller
+command = { type = gain_tech which = 2646  }
+command = { type = gain_tech which = 2650  }
+command = { type = gain_tech which = 6120  }
+command = { type = gain_tech which = 6110  }
+command = { type = 	access which = GER }
+}
+
+}
 

@@ -83,12 +83,12 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-   1331 1328 1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344
+   1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1324 1325 1326 1327 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-   1331 1328 1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1324 1325 1326 1327 1329 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
+   1338 1332 1314 1315 1316 1317 1319 1320 1321 1322 1324 1325 1326 1327 1330 1333 1334 1335 1336 1337 1338 1339 1340 1341 1343 1344 
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
@@ -361,7 +361,7 @@ inventions = { 3000027 }
    # http://forum.paradoxplaza.com/forum/showthread.php?687389-OOB-and-information-of-China-for-moders&p=15468195&viewfull=1#post15468195
 
     landunit = 
-   {  location = 1328 # Jinan 
+   {  location = 1332 # Jinan 
      name     = "Shandong Blueshirt Militia" 
      id       = {  type = 22000 id = 1513  } 
      Division = 
@@ -683,10 +683,10 @@ inventions = { 3000027 }
 	# Navy OOB #
 	############
 	navalunit = 
-   {  location = 1328 # Qingdao 
+   {  location = 1332 # Qingdao 
      name     = "1st Fleet" 
      id       = {  type = 22000 id = 204  } 
-     base     = 1328
+     base     = 1332
 	  Division = 
      {  id    = {  type = 22000 id = 205  } 
        name  = "Ninghai"
@@ -749,10 +749,10 @@ inventions = { 3000027 }
       }
 	}
 	navalunit = 
-   {  location = 1328 # Qingdao 
+   {  location = 1332 # Qingdao 
      name     = "2nd Fleet" 
      id       = {  type = 22000 id = 213  } 
-     base     = 1328
+     base     = 1332
 
 	 Division = 
      {  id    = {  type = 22000 id = 214  } 
@@ -788,10 +788,10 @@ inventions = { 3000027 }
       }
 	}
      navalunit = 
-   {  location = 1328 # Qingdao 
+   {  location = 1332 # Qingdao 
      name     = "Training Fleet" 
      id       = {  type = 22000 id = 218  } 
-     base     = 1328
+     base     = 1332
 	 Division = 
      {  id    = {  type = 22000 id = 219  } 
        name  = "Yingrui"
@@ -808,10 +808,10 @@ inventions = { 3000027 }
       }
 	}
 	navalunit = 
-   {  location = 1328 # Qingdao 
+   {  location = 1332 # Qingdao 
      name     = "3rd Fleet" 
      id       = {  type = 22000 id = 221  } 
-     base     = 1328
+     base     = 1332
 	 Division = 
      {  id    = {  type = 22000 id = 222  } 
        name  = "Zhenhai"
@@ -837,10 +837,10 @@ inventions = { 3000027 }
       }
 	}
 	navalunit = 
-   {  location = 1328 # Qingdao 
+   {  location = 1332 # Qingdao 
      name     = "RoC Naval Academy Fleet" 
      id       = {  type = 22000 id = 225  } 
-     base     = 1328
+     base     = 1332
 	   Division = 
      {  id           = {  type = 22000 id = 226  } 
        name  = "Wen-42, Wen-88, Wen-93, Shi-34, Shi-102" 
