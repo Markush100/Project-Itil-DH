@@ -282,7 +282,7 @@ blueprints = { 6240 6260 6270 7560 } # Elastic Defense, Combined Arms Off. and K
      defense_lobby     = 6 
      interventionism   = 7 
     } 
-	peacetime_ic_mod       = 1.0
+	peacetime_ic_mod       = 0.4
    headofstate            = {  type = 9 id = 1  } 
    headofgovernment       = {  type = 9 id = 2  } 
    foreignminister        = {  type = 9 id = 3  } 

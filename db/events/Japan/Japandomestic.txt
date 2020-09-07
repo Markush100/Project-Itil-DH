@@ -16,13 +16,11 @@ trigger = { ai = no }
 TAG = { JAP }
 
 date = { day = 3 month = january year = 1936 }
-deathdate = { day = 29 month = december year = 1963 }
 name = "The Empire of Japan"
 desc = "EVT_92001_DESC"
 
 action = {
 name = "May he live 10000 years!"
-command = { type = event which = 92002 where = JAP when = 1 } #Political situation
 }
 }
 

@@ -191,6 +191,7 @@ desc = "Once again it is time for general elections to the various Soviets. As w
 
 action = {
 name = "Alexander Shliapnikov, Left opposition"
+ai_chance = 33
 command = { type = dissent value = 5 }
 command = { type = headofstate which = 30012 }
 command = { type = headofgovernment which = 30013 }
@@ -198,11 +199,13 @@ command = { type = setflag which = left_opposition_1936 }
 }
 action = {
 name = "Lev Trotsky, status quo"
+ai_chance = 33
 command = { type = dissent value = -5 }
 command = { type = setflag which = center_1936 }
 }
 action = {
 name = "Sergey Kirov, Right opposition"
+ai_chance = 33
 command = { type = dissent value = 5 }
 command = { type = headofstate which = 30014 }
 command = { type = headofgovernment which = 30015 }

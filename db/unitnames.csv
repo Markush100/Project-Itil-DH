@@ -39,30 +39,30 @@ AFG;Cav;Mazar-i-Sharif Cavalry
 AFG;Cav;Zahir Shah Cavalry
 AFG;Cav;Abdur Rahman Cavalry
 AFG;Cav;Nadir Shah Cavalry
-AFG;GAR;Faizabad Division
-AFG;GAR;Ghazni Division
-AFG;GAR;Herat Division
-AFG;GAR;Jalalabad Division
-AFG;GAR;Kandahar Division
-AFG;GAR;Maymeneh Division
-AFG;GAR;Mazar-i-Sharif Division
-AFG;GAR;Zahir Shah Division
-AFG;GAR;Abdur Rahman Division
-AFG;GAR;Nadir Shah Division
-AFG;GAR;Dost Mohammed Division
-AFG;GAR;Shah Shuja Division
-AFG;GAR;Taloqan Division
-AFG;GAR;Qondoz Division
-AFG;GAR;Kholm Division
-AFG;GAR;Aybak Division
-AFG;GAR;Sheberghan Division
-AFG;GAR;Balkh Division
-AFG;GAR;Meymaneh Division
-AFG;GAR;Dawlatabad Division
-AFG;GAR;Tarin Kowt Division
-AFG;GAR;Dalat Division
-AFG;GAR;Khash Division
-AFG;GAR;Lashkar Gan Division
+AFG;Gar;Faizabad Division
+AFG;Gar;Ghazni Division
+AFG;Gar;Herat Division
+AFG;Gar;Jalalabad Division
+AFG;Gar;Kandahar Division
+AFG;Gar;Maymeneh Division
+AFG;Gar;Mazar-i-Sharif Division
+AFG;Gar;Zahir Shah Division
+AFG;Gar;Abdur Rahman Division
+AFG;Gar;Nadir Shah Division
+AFG;Gar;Dost Mohammed Division
+AFG;Gar;Shah Shuja Division
+AFG;Gar;Taloqan Division
+AFG;Gar;Qondoz Division
+AFG;Gar;Kholm Division
+AFG;Gar;Aybak Division
+AFG;Gar;Sheberghan Division
+AFG;Gar;Balkh Division
+AFG;Gar;Meymaneh Division
+AFG;Gar;Dawlatabad Division
+AFG;Gar;Tarin Kowt Division
+AFG;Gar;Dalat Division
+AFG;Gar;Khash Division
+AFG;Gar;Lashkar Gan Division
 AFG;Mot;Faizabad Motor Div.
 AFG;Mot;Ghazni Motor Div.
 AFG;Mot;Herat Motor Div.
@@ -286,18 +286,18 @@ ALB;Inf;IX Këmbësori Pjesëtim
 ALB;Inf;X Këmbësori Pjesëtim
 ALB;Inf;XI Këmbësori Pjesëtim
 ALB;Inf;XII Këmbësori Pjesëtim
-ALB;GAR;I Këmbësori Pjesëtim
-ALB;GAR;II Këmbësori Pjesëtim
-ALB;GAR;III Këmbësori Pjesëtim
-ALB;GAR;IV Këmbësori Pjesëtim
-ALB;GAR;V Këmbësori Pjesëtim
-ALB;GAR;VI Këmbësori Pjesëtim
-ALB;GAR;VII Këmbësori Pjesëtim
-ALB;GAR;VIII Këmbësori Pjesëtim
-ALB;GAR;IX Këmbësori Pjesëtim
-ALB;GAR;X Këmbësori Pjesëtim
-ALB;GAR;XI Këmbësori Pjesëtim
-ALB;GAR;XII Këmbësori Pjesëtim
+ALB;Gar;I Këmbësori Pjesëtim
+ALB;Gar;II Këmbësori Pjesëtim
+ALB;Gar;III Këmbësori Pjesëtim
+ALB;Gar;IV Këmbësori Pjesëtim
+ALB;Gar;V Këmbësori Pjesëtim
+ALB;Gar;VI Këmbësori Pjesëtim
+ALB;Gar;VII Këmbësori Pjesëtim
+ALB;Gar;VIII Këmbësori Pjesëtim
+ALB;Gar;IX Këmbësori Pjesëtim
+ALB;Gar;X Këmbësori Pjesëtim
+ALB;Gar;XI Këmbësori Pjesëtim
+ALB;Gar;XII Këmbësori Pjesëtim
 ALB;Cav;I Kavaleri Pjesëtim
 ALB;Cav;II Kavaleri Pjesëtim
 ALB;Cav;III Kavaleri Pjesëtim
@@ -521,16 +521,16 @@ ALG;Mec;al-Mushati al-17r
 ALG;Mec;al-Mushati al-18r
 ALG;Mec;al-Mushati al-19r
 ALG;Mec;al-Mushati al-20r
-ALG;L Arm;Sipahis al-1i
-ALG;L Arm;Sipahis al-2i
-ALG;L Arm;Sipahis al-3i
-ALG;L Arm;Sipahis al-4i
-ALG;L Arm;Sipahis al-5i
-ALG;L Arm;Sipahis al-6i
-ALG;L Arm;Sipahis al-7i
-ALG;L Arm;Sipahis al-8i
-ALG;L Arm;Sipahis al-9i
-ALG;L Arm;Sipahis al-10i
+ALG;L ARM;Sipahis al-1i
+ALG;L ARM;Sipahis al-2i
+ALG;L ARM;Sipahis al-3i
+ALG;L ARM;Sipahis al-4i
+ALG;L ARM;Sipahis al-5i
+ALG;L ARM;Sipahis al-6i
+ALG;L ARM;Sipahis al-7i
+ALG;L ARM;Sipahis al-8i
+ALG;L ARM;Sipahis al-9i
+ALG;L ARM;Sipahis al-10i
 ALG;Arm;Sipahis al-1i
 ALG;Arm;Sipahis al-2i
 ALG;Arm;Sipahis al-3i
@@ -953,26 +953,26 @@ ARA;Mec;al-Mushati al-27r
 ARA;Mec;al-Mushati al-28r
 ARA;Mec;al-Mushati al-29r
 ARA;Mec;al-Mushati al-30r
-ARA;L Arm;Sipahis al-1i
-ARA;L Arm;Sipahis al-2i
-ARA;L Arm;Sipahis al-3i
-ARA;L Arm;Sipahis al-4i
-ARA;L Arm;Sipahis al-5i
-ARA;L Arm;Sipahis al-6i
-ARA;L Arm;Sipahis al-7i
-ARA;L Arm;Sipahis al-8i
-ARA;L Arm;Sipahis al-9i
-ARA;L Arm;Sipahis al-10i
-ARA;L Arm;Sipahis al-11r
-ARA;L Arm;Sipahis al-12r
-ARA;L Arm;Sipahis al-13r
-ARA;L Arm;Sipahis al-14r
-ARA;L Arm;Sipahis al-15r
-ARA;L Arm;Sipahis al-16r
-ARA;L Arm;Sipahis al-17r
-ARA;L Arm;Sipahis al-18r
-ARA;L Arm;Sipahis al-19r
-ARA;L Arm;Sipahis al-20r
+ARA;L ARM;Sipahis al-1i
+ARA;L ARM;Sipahis al-2i
+ARA;L ARM;Sipahis al-3i
+ARA;L ARM;Sipahis al-4i
+ARA;L ARM;Sipahis al-5i
+ARA;L ARM;Sipahis al-6i
+ARA;L ARM;Sipahis al-7i
+ARA;L ARM;Sipahis al-8i
+ARA;L ARM;Sipahis al-9i
+ARA;L ARM;Sipahis al-10i
+ARA;L ARM;Sipahis al-11r
+ARA;L ARM;Sipahis al-12r
+ARA;L ARM;Sipahis al-13r
+ARA;L ARM;Sipahis al-14r
+ARA;L ARM;Sipahis al-15r
+ARA;L ARM;Sipahis al-16r
+ARA;L ARM;Sipahis al-17r
+ARA;L ARM;Sipahis al-18r
+ARA;L ARM;Sipahis al-19r
+ARA;L ARM;Sipahis al-20r
 ARA;Arm;Sipahis al-1i
 ARA;Arm;Sipahis al-2i
 ARA;Arm;Sipahis al-3i
@@ -1600,23 +1600,23 @@ ARM;Inf;47th Rifle Division
 ARM;Inf;48th Rifle Division
 ARM;Inf;49th Rifle Division
 ARM;Inf;50th Rifle Division
-ARM;GAR;1st Garrison Division
-ARM;GAR;2nd Garrison Division
-ARM;GAR;3rd Garrison Division
-ARM;GAR;4th Garrison Division
-ARM;GAR;5th Garrison Division
-ARM;GAR;6th Garrison Division
-ARM;GAR;7th Garrison Division
-ARM;GAR;8th Garrison Division
-ARM;GAR;9th Garrison Division
-ARM;GAR;10th Garrison Division
-ARM;GAR;11st Garrison Division
-ARM;GAR;12nd Garrison Division
-ARM;GAR;13rd Garrison Division
-ARM;GAR;14th Garrison Division
-ARM;GAR;16th Garrison Division
-ARM;GAR;17th Garrison Division
-ARM;GAR;19th Garrison Division
+ARM;Gar;1st Garrison Division
+ARM;Gar;2nd Garrison Division
+ARM;Gar;3rd Garrison Division
+ARM;Gar;4th Garrison Division
+ARM;Gar;5th Garrison Division
+ARM;Gar;6th Garrison Division
+ARM;Gar;7th Garrison Division
+ARM;Gar;8th Garrison Division
+ARM;Gar;9th Garrison Division
+ARM;Gar;10th Garrison Division
+ARM;Gar;11st Garrison Division
+ARM;Gar;12nd Garrison Division
+ARM;Gar;13rd Garrison Division
+ARM;Gar;14th Garrison Division
+ARM;Gar;16th Garrison Division
+ARM;Gar;17th Garrison Division
+ARM;Gar;19th Garrison Division
 ARM;Cav;3rd Cavalry Division
 ARM;Cav;5th Cavalry Division
 ARM;Cav;6th Cavalry Division
@@ -3550,16 +3550,16 @@ BEN;CA;Liberté
 BEN;CA;Egalité
 BEN;CA;Fraternité
 BEN;CA;Nation
-BEN;CL;Indépendance
-BEN;CL;Liberté
-BEN;CL;Egalité
-BEN;CL;Fraternité
-BEN;CL;Nation
 BEN;CA;Indépendance
 BEN;CA;Liberté
 BEN;CA;Egalité
 BEN;CA;Fraternité
 BEN;CA;Nation
+BEN;CL;Indépendance
+BEN;CL;Liberté
+BEN;CL;Egalité
+BEN;CL;Fraternité
+BEN;CL;Nation
 BEN;DD;1ere Division de Torpilleurs
 BEN;DD;2e Division de Torpilleurs
 BEN;DD;3e Division de Torpilleurs
@@ -5466,16 +5466,16 @@ BRU;Mec;al-Mushati al-17r
 BRU;Mec;al-Mushati al-18r
 BRU;Mec;al-Mushati al-19r
 BRU;Mec;al-Mushati al-20r
-BRU;L Arm;Sipahis al-1i
-BRU;L Arm;Sipahis al-2i
-BRU;L Arm;Sipahis al-3i
-BRU;L Arm;Sipahis al-4i
-BRU;L Arm;Sipahis al-5i
-BRU;L Arm;Sipahis al-6i
-BRU;L Arm;Sipahis al-7i
-BRU;L Arm;Sipahis al-8i
-BRU;L Arm;Sipahis al-9i
-BRU;L Arm;Sipahis al-10i
+BRU;L ARM;Sipahis al-1i
+BRU;L ARM;Sipahis al-2i
+BRU;L ARM;Sipahis al-3i
+BRU;L ARM;Sipahis al-4i
+BRU;L ARM;Sipahis al-5i
+BRU;L ARM;Sipahis al-6i
+BRU;L ARM;Sipahis al-7i
+BRU;L ARM;Sipahis al-8i
+BRU;L ARM;Sipahis al-9i
+BRU;L ARM;Sipahis al-10i
 BRU;Arm;Sipahis al-1i
 BRU;Arm;Sipahis al-2i
 BRU;Arm;Sipahis al-3i
@@ -7113,24 +7113,24 @@ CAN;L ARM;33rd Canadian Armoured Division
 CAN;L ARM;34th Canadian Armoured Division
 CAN;L ARM;38th Canadian Armoured Division
 CAN;L ARM;39th Canadian Armoured Division
-CAN;L Arm;43rd Canadian Armoured Division
-CAN;L Arm;44th Canadian Armoured Division
-CAN;L Arm;45th Canadian Armoured Division
-CAN;L Arm;46th Canadian Armoured Division
-CAN;L Arm;47th Canadian Armoured Division
-CAN;L Arm;48th Canadian Armoured Division
-CAN;L Arm;49th Canadian Armoured Division
-CAN;L Arm;50th Canadian Armoured Division
-CAN;L Arm;51st Canadian Armoured Division
-CAN;L Arm;52nd Canadian Armoured Division
-CAN;L Arm;53rd Canadian Armoured Division
-CAN;L Arm;54th Canadian Armoured Division
-CAN;L Arm;55th Canadian Armoured Division
-CAN;L Arm;56th Canadian Armoured Division
-CAN;L Arm;57th Canadian Armoured Division
-CAN;L Arm;58th Canadian Armoured Division
-CAN;L Arm;59th Canadian Armoured Division
-CAN;L Arm;60th Canadian Armoured Division
+CAN;L ARM;43rd Canadian Armoured Division
+CAN;L ARM;44th Canadian Armoured Division
+CAN;L ARM;45th Canadian Armoured Division
+CAN;L ARM;46th Canadian Armoured Division
+CAN;L ARM;47th Canadian Armoured Division
+CAN;L ARM;48th Canadian Armoured Division
+CAN;L ARM;49th Canadian Armoured Division
+CAN;L ARM;50th Canadian Armoured Division
+CAN;L ARM;51st Canadian Armoured Division
+CAN;L ARM;52nd Canadian Armoured Division
+CAN;L ARM;53rd Canadian Armoured Division
+CAN;L ARM;54th Canadian Armoured Division
+CAN;L ARM;55th Canadian Armoured Division
+CAN;L ARM;56th Canadian Armoured Division
+CAN;L ARM;57th Canadian Armoured Division
+CAN;L ARM;58th Canadian Armoured Division
+CAN;L ARM;59th Canadian Armoured Division
+CAN;L ARM;60th Canadian Armoured Division
 CAN;Arm;4th Canadian Armoured Division
 CAN;Arm;5th Canadian Armoured Division
 CAN;Arm;10th Canadian Armoured Division
@@ -7409,6 +7409,43 @@ CAN;BC;HMCS Alberta
 CAN;BC;HMCS Saskatchewan
 CAN;BC;HMCS Prince Edward Island
 CAN;CA;HMCS Kingston
+CAN;CA;HMCS Ontario
+CAN;CA;HMCS Québec
+CAN;CA;HMCS British Columbia
+CAN;CA;HMCS Nova Scotia
+CAN;CA;HMCS New Brunswick
+CAN;CA;HMCS Manitoba
+CAN;CA;HMCS Alberta
+CAN;CA;HMCS Saskatchewan
+CAN;CA;HMCS Prince Edward Island
+CAN;CA;HMCS Niobe
+CAN;CA;HMCS Rainbow
+CAN;CA;HMCS Toronto
+CAN;CA;HMCS Montréal
+CAN;CA;HMCS Vancouver
+CAN;CA;HMCS Ottawa
+CAN;CA;HMCS Calgary
+CAN;CA;HMCS Edmonton
+CAN;CA;HMCS Ile de Québec
+CAN;CA;HMCS Winnipeg
+CAN;CA;HMCS Hamilton
+CAN;CA;HMCS London
+CAN;CA;HMCS Kitchener
+CAN;CA;HMCS St. Catharines
+CAN;CA;HMCS Halifax
+CAN;CA;HMCS Victoria
+CAN;CA;HMCS Windsor
+CAN;CA;HMCS Oshawa
+CAN;CA;HMCS Saskatoon
+CAN;CA;HMCS Regina
+CAN;CA;HMCS Sherbrooke
+CAN;CA;HMCS Barrie
+CAN;CA;HMCS Kelowna
+CAN;CA;HMCS Abbotsford
+CAN;CA;HMCS Kingson
+CAN;CA;HMCS Trois-Rivières
+CAN;CA;HMCS Saint John
+CAN;CA;HMCS Moncton
 CAN;CL;HMCS Ontario
 CAN;CL;HMCS Québec
 CAN;CL;HMCS British Columbia
@@ -7459,43 +7496,6 @@ CAN;31;HMCS Magnificent
 CAN;31;HMCS Bonaventure
 CAN;31;HMCS Nabob
 CAN;31;HMCS Puncher
-CAN;CA;HMCS Ontario
-CAN;CA;HMCS Québec
-CAN;CA;HMCS British Columbia
-CAN;CA;HMCS Nova Scotia
-CAN;CA;HMCS New Brunswick
-CAN;CA;HMCS Manitoba
-CAN;CA;HMCS Alberta
-CAN;CA;HMCS Saskatchewan
-CAN;CA;HMCS Prince Edward Island
-CAN;CA;HMCS Niobe
-CAN;CA;HMCS Rainbow
-CAN;CA;HMCS Toronto
-CAN;CA;HMCS Montréal
-CAN;CA;HMCS Vancouver
-CAN;CA;HMCS Ottawa
-CAN;CA;HMCS Calgary
-CAN;CA;HMCS Edmonton
-CAN;CA;HMCS Ile de Québec
-CAN;CA;HMCS Winnipeg
-CAN;CA;HMCS Hamilton
-CAN;CA;HMCS London
-CAN;CA;HMCS Kitchener
-CAN;CA;HMCS St. Catharines
-CAN;CA;HMCS Halifax
-CAN;CA;HMCS Victoria
-CAN;CA;HMCS Windsor
-CAN;CA;HMCS Oshawa
-CAN;CA;HMCS Saskatoon
-CAN;CA;HMCS Regina
-CAN;CA;HMCS Sherbrooke
-CAN;CA;HMCS Barrie
-CAN;CA;HMCS Kelowna
-CAN;CA;HMCS Abbotsford
-CAN;CA;HMCS Kingson
-CAN;CA;HMCS Trois-Rivières
-CAN;CA;HMCS Saint John
-CAN;CA;HMCS Moncton
 CAN;DD;Destroyer Flotilla 1
 CAN;DD;Destroyer Flotilla 2
 CAN;DD;Destroyer Flotilla 3
@@ -8824,36 +8824,36 @@ CHC;Arm;Zhuangjiabing Di 27 Shi
 CHC;Arm;Zhuangjiabing Di 28 Shi
 CHC;Arm;Zhuangjiabing Di 29 Shi
 CHC;Arm;Zhuangjiabing Di 30 Shi
-CHC;ARM;Zhuangjia Di 1 Shi
-CHC;ARM;Zhuangjia Di 2 Shi
-CHC;ARM;Zhuangjia Di 3 Shi
-CHC;ARM;Zhuangjia Di 4 Shi
-CHC;ARM;Zhuangjia Di 5 Shi
-CHC;ARM;Zhuangjia Di 6 Shi
-CHC;ARM;Zhuangjia Di 7 Shi
-CHC;ARM;Zhuangjia Di 8 Shi
-CHC;ARM;Zhuangjia Di 9 Shi
-CHC;ARM;Zhuangjia Di 10 Shi
-CHC;ARM;Zhuangjia Di 11 Shi
-CHC;ARM;Zhuangjia Di 12 Shi
-CHC;ARM;Zhuangjia Di 13 Shi
-CHC;ARM;Zhuangjia Di 14 Shi
-CHC;ARM;Zhuangjia Di 15 Shi
-CHC;ARM;Zhuangjia Di 16 Shi
-CHC;ARM;Zhuangjia Di 17 Shi
-CHC;ARM;Zhuangjia Di 18 Shi
-CHC;ARM;Zhuangjia Di 19 Shi
-CHC;ARM;Zhuangjia Di 20 Shi
-CHC;ARM;Zhuangjia Di 21 Shi
-CHC;ARM;Zhuangjia Di 22 Shi
-CHC;ARM;Zhuangjia Di 23 Shi
-CHC;ARM;Zhuangjia Di 24 Shi
-CHC;ARM;Zhuangjia Di 25 Shi
-CHC;ARM;Zhuangjia Di 26 Shi
-CHC;ARM;Zhuangjia Di 27 Shi
-CHC;ARM;Zhuangjia Di 28 Shi
-CHC;ARM;Zhuangjia Di 29 Shi
-CHC;ARM;Zhuangjia Di 30 Shi
+CHC;Arm;Zhuangjia Di 1 Shi
+CHC;Arm;Zhuangjia Di 2 Shi
+CHC;Arm;Zhuangjia Di 3 Shi
+CHC;Arm;Zhuangjia Di 4 Shi
+CHC;Arm;Zhuangjia Di 5 Shi
+CHC;Arm;Zhuangjia Di 6 Shi
+CHC;Arm;Zhuangjia Di 7 Shi
+CHC;Arm;Zhuangjia Di 8 Shi
+CHC;Arm;Zhuangjia Di 9 Shi
+CHC;Arm;Zhuangjia Di 10 Shi
+CHC;Arm;Zhuangjia Di 11 Shi
+CHC;Arm;Zhuangjia Di 12 Shi
+CHC;Arm;Zhuangjia Di 13 Shi
+CHC;Arm;Zhuangjia Di 14 Shi
+CHC;Arm;Zhuangjia Di 15 Shi
+CHC;Arm;Zhuangjia Di 16 Shi
+CHC;Arm;Zhuangjia Di 17 Shi
+CHC;Arm;Zhuangjia Di 18 Shi
+CHC;Arm;Zhuangjia Di 19 Shi
+CHC;Arm;Zhuangjia Di 20 Shi
+CHC;Arm;Zhuangjia Di 21 Shi
+CHC;Arm;Zhuangjia Di 22 Shi
+CHC;Arm;Zhuangjia Di 23 Shi
+CHC;Arm;Zhuangjia Di 24 Shi
+CHC;Arm;Zhuangjia Di 25 Shi
+CHC;Arm;Zhuangjia Di 26 Shi
+CHC;Arm;Zhuangjia Di 27 Shi
+CHC;Arm;Zhuangjia Di 28 Shi
+CHC;Arm;Zhuangjia Di 29 Shi
+CHC;Arm;Zhuangjia Di 30 Shi
 CHC;Par;Sanbing Di 43 Shi
 CHC;Par;Sanbing Di 44 Shi
 CHC;Par;Sanbing Di 45 Shi
@@ -10317,36 +10317,36 @@ CHI;Arm;Zhuangjiabing Di 27 Shi
 CHI;Arm;Zhuangjiabing Di 28 Shi
 CHI;Arm;Zhuangjiabing Di 29 Shi
 CHI;Arm;Zhuangjiabing Di 30 Shi
-CHI;ARM;Zhuangjia Di 1 Shi
-CHI;ARM;Zhuangjia Di 2 Shi
-CHI;ARM;Zhuangjia Di 3 Shi
-CHI;ARM;Zhuangjia Di 4 Shi
-CHI;ARM;Zhuangjia Di 5 Shi
-CHI;ARM;Zhuangjia Di 6 Shi
-CHI;ARM;Zhuangjia Di 7 Shi
-CHI;ARM;Zhuangjia Di 8 Shi
-CHI;ARM;Zhuangjia Di 9 Shi
-CHI;ARM;Zhuangjia Di 10 Shi
-CHI;ARM;Zhuangjia Di 11 Shi
-CHI;ARM;Zhuangjia Di 12 Shi
-CHI;ARM;Zhuangjia Di 13 Shi
-CHI;ARM;Zhuangjia Di 14 Shi
-CHI;ARM;Zhuangjia Di 15 Shi
-CHI;ARM;Zhuangjia Di 16 Shi
-CHI;ARM;Zhuangjia Di 17 Shi
-CHI;ARM;Zhuangjia Di 18 Shi
-CHI;ARM;Zhuangjia Di 19 Shi
-CHI;ARM;Zhuangjia Di 20 Shi
-CHI;ARM;Zhuangjia Di 21 Shi
-CHI;ARM;Zhuangjia Di 22 Shi
-CHI;ARM;Zhuangjia Di 23 Shi
-CHI;ARM;Zhuangjia Di 24 Shi
-CHI;ARM;Zhuangjia Di 25 Shi
-CHI;ARM;Zhuangjia Di 26 Shi
-CHI;ARM;Zhuangjia Di 27 Shi
-CHI;ARM;Zhuangjia Di 28 Shi
-CHI;ARM;Zhuangjia Di 29 Shi
-CHI;ARM;Zhuangjia Di 30 Shi
+CHI;Arm;Zhuangjia Di 1 Shi
+CHI;Arm;Zhuangjia Di 2 Shi
+CHI;Arm;Zhuangjia Di 3 Shi
+CHI;Arm;Zhuangjia Di 4 Shi
+CHI;Arm;Zhuangjia Di 5 Shi
+CHI;Arm;Zhuangjia Di 6 Shi
+CHI;Arm;Zhuangjia Di 7 Shi
+CHI;Arm;Zhuangjia Di 8 Shi
+CHI;Arm;Zhuangjia Di 9 Shi
+CHI;Arm;Zhuangjia Di 10 Shi
+CHI;Arm;Zhuangjia Di 11 Shi
+CHI;Arm;Zhuangjia Di 12 Shi
+CHI;Arm;Zhuangjia Di 13 Shi
+CHI;Arm;Zhuangjia Di 14 Shi
+CHI;Arm;Zhuangjia Di 15 Shi
+CHI;Arm;Zhuangjia Di 16 Shi
+CHI;Arm;Zhuangjia Di 17 Shi
+CHI;Arm;Zhuangjia Di 18 Shi
+CHI;Arm;Zhuangjia Di 19 Shi
+CHI;Arm;Zhuangjia Di 20 Shi
+CHI;Arm;Zhuangjia Di 21 Shi
+CHI;Arm;Zhuangjia Di 22 Shi
+CHI;Arm;Zhuangjia Di 23 Shi
+CHI;Arm;Zhuangjia Di 24 Shi
+CHI;Arm;Zhuangjia Di 25 Shi
+CHI;Arm;Zhuangjia Di 26 Shi
+CHI;Arm;Zhuangjia Di 27 Shi
+CHI;Arm;Zhuangjia Di 28 Shi
+CHI;Arm;Zhuangjia Di 29 Shi
+CHI;Arm;Zhuangjia Di 30 Shi
 CHI;Par;Sanbing Di 1 Shi
 CHI;Par;Sanbing Di 2 Shi
 CHI;Par;Sanbing Di 3 Shi
@@ -11398,16 +11398,16 @@ CMB;CA;Liberté
 CMB;CA;Egalité
 CMB;CA;Fraternité
 CMB;CA;Nation
-CMB;CL;Indépendance
-CMB;CL;Liberté
-CMB;CL;Egalité
-CMB;CL;Fraternité
-CMB;CL;Nation
 CMB;CA;Indépendance
 CMB;CA;Liberté
 CMB;CA;Egalité
 CMB;CA;Fraternité
 CMB;CA;Nation
+CMB;CL;Indépendance
+CMB;CL;Liberté
+CMB;CL;Egalité
+CMB;CL;Fraternité
+CMB;CL;Nation
 CMB;DD;1ère Division de Torpilleurs
 CMB;DD;2e Division de Torpilleurs
 CMB;DD;3e Division de Torpilleurs
@@ -11553,16 +11553,16 @@ CON;CA;Liberté
 CON;CA;Egalité
 CON;CA;Fraternité
 CON;CA;Nation
-CON;CL;Indépendance
-CON;CL;Liberté
-CON;CL;Egalité
-CON;CL;Fraternité
-CON;CL;Nation
 CON;CA;Indépendance
 CON;CA;Liberté
 CON;CA;Egalité
 CON;CA;Fraternité
 CON;CA;Nation
+CON;CL;Indépendance
+CON;CL;Liberté
+CON;CL;Egalité
+CON;CL;Fraternité
+CON;CL;Nation
 CON;DD;1ère Division de Torpilleurs
 CON;DD;2e Division de Torpilleurs
 CON;DD;3e Division de Torpilleurs
@@ -12066,19 +12066,19 @@ CRO;Str;15. Bombardersko-legionarska skupina
 CRO;Str;skupina Cenic
 CRO;Tac;26. zrakoplovna skupina
 CRO;Tac;27. zrakoplovna skupina
-CRO;TAC;28. zrakoplovna skupina
-CRO;TAC;29. zrakoplovna skupina
-CRO;TAC;30. zrakoplovna skupina
-CRO;TAC;31. zrakoplovna skupina
-CRO;TAC;32. zrakoplovna skupina
-CRO;TAC;33. zrakoplovna skupina
-CRO;TAC;34. zrakoplovna skupina
-CRO;TAC;35. zrakoplovna skupina
-CRO;TAC;36. zrakoplovna skupina
-CRO;TAC;37. zrakoplovna skupina
-CRO;TAC;38. zrakoplovna skupina
-CRO;TAC;39. zrakoplovna skupina
-CRO;TAC;40. zrakoplovna skupina
+CRO;Tac;28. zrakoplovna skupina
+CRO;Tac;29. zrakoplovna skupina
+CRO;Tac;30. zrakoplovna skupina
+CRO;Tac;31. zrakoplovna skupina
+CRO;Tac;32. zrakoplovna skupina
+CRO;Tac;33. zrakoplovna skupina
+CRO;Tac;34. zrakoplovna skupina
+CRO;Tac;35. zrakoplovna skupina
+CRO;Tac;36. zrakoplovna skupina
+CRO;Tac;37. zrakoplovna skupina
+CRO;Tac;38. zrakoplovna skupina
+CRO;Tac;39. zrakoplovna skupina
+CRO;Tac;40. zrakoplovna skupina
 CRO;CAS;26. zrakoplovna skupina
 CRO;CAS;27. zrakoplovna skupina
 CRO;CAS;28. zrakoplovna skupina
@@ -12714,26 +12714,26 @@ CSA;Mec;147th Confederate Infantry Division
 CSA;Mec;148th Confederate Infantry Division
 CSA;Mec;149th Confederate Infantry Division
 CSA;Mec;150th Confederate Infantry Division
-CSA;L Arm;1st Confederate Armored Division
-CSA;L Arm;2nd Confederate Armored Division
-CSA;L Arm;3rd Confederate Armored Division
-CSA;L Arm;4th Confederate Armored Division
-CSA;L Arm;5th Confederate Armored Division
-CSA;L Arm;6th Confederate Armored Division
-CSA;L Arm;7th Confederate Armored Division
-CSA;L Arm;8th Confederate Armored Division
-CSA;L Arm;9th Confederate Armored Division
-CSA;L Arm;10th Confederate Armored Division
-CSA;L Arm;11th Confederate Armored Division
-CSA;L Arm;12th Confederate Armored Division
-CSA;L Arm;13th Confederate Armored Division
-CSA;L Arm;14th Confederate Armored Division
-CSA;L Arm;15th Confederate Armored Division
-CSA;L Arm;16th Confederate Armored Division
-CSA;L Arm;17th Confederate Armored Division
-CSA;L Arm;18th Confederate Armored Division
-CSA;L Arm;19th Confederate Armored Division
-CSA;L Arm;20th Confederate Armored Division
+CSA;L ARM;1st Confederate Armored Division
+CSA;L ARM;2nd Confederate Armored Division
+CSA;L ARM;3rd Confederate Armored Division
+CSA;L ARM;4th Confederate Armored Division
+CSA;L ARM;5th Confederate Armored Division
+CSA;L ARM;6th Confederate Armored Division
+CSA;L ARM;7th Confederate Armored Division
+CSA;L ARM;8th Confederate Armored Division
+CSA;L ARM;9th Confederate Armored Division
+CSA;L ARM;10th Confederate Armored Division
+CSA;L ARM;11th Confederate Armored Division
+CSA;L ARM;12th Confederate Armored Division
+CSA;L ARM;13th Confederate Armored Division
+CSA;L ARM;14th Confederate Armored Division
+CSA;L ARM;15th Confederate Armored Division
+CSA;L ARM;16th Confederate Armored Division
+CSA;L ARM;17th Confederate Armored Division
+CSA;L ARM;18th Confederate Armored Division
+CSA;L ARM;19th Confederate Armored Division
+CSA;L ARM;20th Confederate Armored Division
 CSA;Arm;1st Armored 'Stuart' Division
 CSA;Arm;2nd Armored 'Van Dorn' Division
 CSA;Arm;3rd Armored 'Hampton' Division
@@ -16378,7 +16378,7 @@ DFR;Arm;6. Panzer-Division
 DFR;Arm;7. Panzer-Division
 DFR;Arm;8. Panzer-Division
 DFR;Arm;9. Panzer-Division
-DFR;ARM;10. Panzer-Division
+DFR;Arm;10. Panzer-Division
 DFR;Arm;11. Panzer-Division
 DFR;Arm;14. Panzer-Division
 DFR;Arm;12. Panzer-Division
@@ -17542,16 +17542,16 @@ EGY;Mec;al-Mushati al-17r
 EGY;Mec;al-Mushati al-18r
 EGY;Mec;al-Mushati al-19r
 EGY;Mec;al-Mushati al-20r
-EGY;L Arm;Sipahis al-1i
-EGY;L Arm;Sipahis al-2i
-EGY;L Arm;Sipahis al-3i
-EGY;L Arm;Sipahis al-4i
-EGY;L Arm;Sipahis al-5i
-EGY;L Arm;Sipahis al-6i
-EGY;L Arm;Sipahis al-7i
-EGY;L Arm;Sipahis al-8i
-EGY;L Arm;Sipahis al-9i
-EGY;L Arm;Sipahis al-10i
+EGY;L ARM;Sipahis al-1i
+EGY;L ARM;Sipahis al-2i
+EGY;L ARM;Sipahis al-3i
+EGY;L ARM;Sipahis al-4i
+EGY;L ARM;Sipahis al-5i
+EGY;L ARM;Sipahis al-6i
+EGY;L ARM;Sipahis al-7i
+EGY;L ARM;Sipahis al-8i
+EGY;L ARM;Sipahis al-9i
+EGY;L ARM;Sipahis al-10i
 EGY;Arm;Sipahis al-1i
 EGY;Arm;Sipahis al-2i
 EGY;Arm;Sipahis al-3i
@@ -17799,18 +17799,6 @@ ENG;Inf;5th Infantry Division
 ENG;Inf;6th Infantry Division
 ENG;Inf;7th Infantry Division
 ENG;Inf;8th Infantry Division
-U02;Inf;1st Indian Infantry
-U02;Inf;2nd Indian Infantry
-U02;Inf;3rd Indian Infantry
-U02;Inf;4th Indian Infantry
-U02;Inf;5th Indian Infantry
-U02;Inf;6th Indian Infantry
-U02;Inf;7th Indian Infantry
-U02;Inf;8th Indian Infantry
-U02;Inf;9th Indian Infantry
-U02;Inf;10th Indian Infantry
-U02;Inf;11th Indian Infantry
-U02;Inf;12th Indian Infantry
 ENG;Inf;9th 'Highland' Division
 ENG;Inf;12th 'Eastern' Division
 ENG;Inf;15th 'Scottish' Division
@@ -17836,9 +17824,6 @@ ENG;Inf;55th 'West Lancashire' Division
 ENG;Inf;56th 'London' Division
 ENG;Inf;59th 'Staffordshire' Division
 ENG;Inf;61st Infantry Division
-U02;Inf;15th Indian Infantry
-U02;Inf;16th Indian Infantry
-U02;Inf;17th Indian Infantry
 ENG;Inf;66th Infantry Division
 ENG;Inf;70th Infantry Division
 ENG;Inf;76th Infantry Division
@@ -17850,9 +17835,6 @@ ENG;Inf;80th Infantry Division
 ENG;Inf;36th Infantry Division
 ENG;Inf;Guards Infantry Division
 ENG;Inf;28th Infantry Division
-U02;Inf;18th Indian Infantry
-U02;Inf;19th Indian Infantry
-U02;Inf;20th Indian Infantry
 ENG;Inf;33rd Infantry Division
 ENG;Inf;34th Infantry Division
 ENG;Inf;37th Infantry Division
@@ -18092,11 +18074,6 @@ ENG;Mot;147th Infantry Division
 ENG;Mot;148th Infantry Division
 ENG;Mot;149th Infantry Division
 ENG;Mot;150th Infantry Division
-U02;Mot;1st Indian Division
-U02;Mot;2nd Indian Division
-U02;Mot;3rd Indian Division
-U02;Mot;4th Indian Division
-U02;Mot;5th Indian Division
 ENG;Mec;1st Infantry Division
 ENG;Mec;2nd Infantry Division
 ENG;Mec;3rd Infantry Division
@@ -18183,11 +18160,6 @@ ENG;Mec;147th Infantry Division
 ENG;Mec;148th Infantry Division
 ENG;Mec;149th Infantry Division
 ENG;Mec;150th Infantry Division
-U02;Mec;1st Indian Division
-U02;Mec;2nd Indian Division
-U02;Mec;3rd Indian Division
-U02;Mec;4th Indian Division
-U02;Mec;5th Indian Division
 ENG;L ARM;1st Armoured Div. 'Royal Hussars'
 ENG;L ARM;2nd Armoured Division
 ENG;L ARM;7th Armoured Division
@@ -19436,6 +19408,442 @@ ENG;TP;97th Transport Flotilla
 ENG;TP;98th Transport Flotilla
 ENG;TP;99th Transport Flotilla
 ENG;TP;100th Transport Flotilla
+U02;Inf;1st Indian Infantry
+U02;Inf;2nd Indian Infantry
+U02;Inf;3rd Indian Infantry
+U02;Inf;4th Indian Infantry
+U02;Inf;5th Indian Infantry
+U02;Inf;6th Indian Infantry
+U02;Inf;7th Indian Infantry
+U02;Inf;8th Indian Infantry
+U02;Inf;9th Indian Infantry
+U02;Inf;10th Indian Infantry
+U02;Inf;11th Indian Infantry
+U02;Inf;12th Indian Infantry
+U02;Inf;15th Indian Infantry
+U02;Inf;16th Indian Infantry
+U02;Inf;17th Indian Infantry
+U02;Inf;18th Indian Infantry
+U02;Inf;19th Indian Infantry
+U02;Inf;20th Indian Infantry
+U02;Inf;1st Indian Infantry Division
+U02;Inf;2nd Indian Infantry Division
+U02;Inf;3rd Indian Infantry Division
+U02;Inf;4th Indian Infantry Division
+U02;Inf;5th Indian Infantry Division
+U02;Inf;6th Indian Infantry Division
+U02;Inf;7th Indian Infantry Division
+U02;Inf;8th Indian Infantry Division
+U02;Inf;9th Indian Infantry Division
+U02;Inf;10th Indian Infantry Division
+U02;Inf;11th Indian Infantry Division
+U02;Inf;12th Indian Infantry Division
+U02;Inf;13th Indian Infantry Division
+U02;Inf;14th Indian Infantry Division
+U02;Inf;15th Indian Infantry Division
+U02;Inf;16th Indian Infantry Division
+U02;Inf;17th Indian Infantry Division
+U02;Inf;18th Indian Infantry Division
+U02;Inf;19th Indian Infantry Division
+U02;Inf;20th Indian Infantry Division
+U02;Mot;1st Indian Division
+U02;Mot;2nd Indian Division
+U02;Mot;3rd Indian Division
+U02;Mot;4th Indian Division
+U02;Mot;5th Indian Division
+U02;Mot;1st Infantry Division
+U02;Mot;2nd Infantry Division
+U02;Mot;3rd Infantry Division
+U02;Mot;1st Motorized Division
+U02;Mot;2nd Motorized Division
+U02;Mot;3rd Motorized Division
+U02;Mot;4th Motorized Division
+U02;Mot;5th Motorized Division
+U02;Mot;6th Motorized Division
+U02;Mec;1st Indian Division
+U02;Mec;2nd Indian Division
+U02;Mec;3rd Indian Division
+U02;Mec;4th Indian Division
+U02;Mec;5th Indian Division
+U02;Mec;1st Infantry Division
+U02;Mec;2nd Infantry Division
+U02;Mec;3rd Infantry Division
+U02;Mec;1st Mechanized Division
+U02;Mec;2nd Mechanized Division
+U02;Mec;3rd Mechanized Division
+U02;Mec;4th Mechanized Division
+U02;Mec;5th Mechanized Division
+U02;Mec;6th Mechanized Division
+U02;Mec;7th Mechanized Division
+U02;Mec;8th Mechanized Division
+U02;Mec;9th Mechanized Division
+U02;Mec;10th Mechanized Division
+U02;HQ;1st Indian Army
+U02;HQ;2nd Indian Army
+U02;HQ;3rd Indian Army
+U02;HQ;4th Indian Army
+U02;HQ;5th Indian Army
+U02;HQ;6th Indian Army
+U02;HQ;7th Indian Army
+U02;HQ;8th Indian Army
+U02;Gar;1st Indian Garrison Division
+U02;Gar;2nd Indian Garrison Division
+U02;Gar;3rd Indian Garrison Division
+U02;Gar;4th Indian Garrison Division
+U02;Gar;5th Indian Garrison Division
+U02;Gar;6th Indian Garrison Division
+U02;Gar;7th Indian Garrison Division
+U02;Gar;8th Indian Garrison Division
+U02;Gar;9th Indian Garrison Division
+U02;Gar;10th Indian Garrison Division
+U02;Gar;11th Indian Garrison Division
+U02;Gar;12th Indian Garrison Division
+U02;Gar;13th Indian Garrison Division
+U02;Gar;14th Indian Garrison Division
+U02;Gar;15th Indian Garrison Division
+U02;Gar;16th Indian Garrison Division
+U02;Gar;17th Indian Garrison Division
+U02;Gar;18th Indian Garrison Division
+U02;Gar;19th Indian Garrison Division
+U02;Gar;20th Indian Garrison Division
+U02;Cav;1st Cavalry Division
+U02;Cav;2nd Cavalry Division
+U02;Cav;3rd Cavalry Division
+U02;Cav;4th Cavalry Division
+U02;Cav;5th Cavalry Division
+U02;Cav;6th Cavalry Division
+U02;Cav;7th Cavalry Division
+U02;Cav;8th Cavalry Division
+U02;Cav;9th Cavalry Division
+U02;Cav;10th Cavalry Division
+U02;L ARM;1st Armoured Division
+U02;L ARM;2nd Armoured Division
+U02;L ARM;3rd Armoured Division
+U02;L ARM;4th Armoured Division
+U02;L ARM;5th Armoured Division
+U02;L ARM;6th Armoured Division
+U02;L ARM;7th Armoured Division
+U02;L ARM;8th Armoured Division
+U02;L ARM;9th Armoured Division
+U02;L ARM;10th Armoured Division
+U02;L ARM;11th Armoured Division
+U02;L ARM;12th Armoured Division
+U02;L ARM;14th Armoured Division
+U02;L ARM;15th Armoured Division
+U02;Arm;1st Armoured Division
+U02;Arm;2nd Armoured Division
+U02;Arm;3rd Armoured Division
+U02;Arm;4th Armoured Division
+U02;Arm;5th Armoured Division
+U02;Arm;6th Armoured Division
+U02;Arm;7th Armoured Division
+U02;Arm;8th Armoured Division
+U02;Arm;9th Armoured Division
+U02;Arm;10th Armoured Division
+U02;Arm;11th Armoured Division
+U02;Arm;12th Armoured Division
+U02;Arm;14th Armoured Division
+U02;Arm;15th Armoured Division
+U02;Par;1st Airborne Division
+U02;Par;2nd Airborne Division
+U02;Par;3rd Airborne Division
+U02;Par;4th Airborne Division
+U02;Par;5th Airborne Division
+U02;Par;6th Airborne Division
+U02;Par;7th Airborne Division
+U02;Par;8th Airborne Division
+U02;Par;9th Airborne Division
+U02;Par;10th Airborne Division
+U02;Mar;1st Marine Division
+U02;Mar;2nd Marine Division
+U02;Mar;3rd Marine Division
+U02;Mar;4th Marine Division
+U02;Mar;5th Marine Division
+U02;Mar;6th Marine Division
+U02;Mar;7th Marine Division
+U02;Mar;8th Marine Division
+U02;Mar;9th Marine Division
+U02;Mar;10th Marine Division
+U02;Mtn;1st Gurkha Division
+U02;Mtn;2nd Gurkha Division
+U02;Mtn;3rd Gurkha Division
+U02;Mtn;4th Gurkha Division
+U02;Mtn;5th Gurkha Division
+U02;Mtn;8th Gurkha Division
+U02;Mtn;10th Gurkha Division
+U02;Mtn;11th Gurkha Division
+U02;Mtn;12th Gurkha Division
+U02;Mil;1st Infantry Division
+U02;Mil;2nd Infantry Division
+U02;Mil;3rd Infantry Division
+U02;Mil;4th Infantry Division
+U02;Mil;5th Infantry Division
+U02;Mil;6th Infantry Division
+U02;Mil;7th Infantry Division
+U02;Mil;8th Infantry Division
+U02;Mil;9th Infantry Division
+U02;Mil;10th Infantry Division
+U02;Mil;11th Infantry Division
+U02;Mil;12th Infantry Division
+U02;Mil;13th Infantry Division
+U02;Mil;14th Infantry Division
+U02;Mil;15th Infantry Division
+U02;Mil;16th Infantry Division
+U02;Mil;17th Infantry Division
+U02;Mil;18th Infantry Division
+U02;Mil;19th Infantry Division
+U02;Mil;20th Infantry Division
+U02;Mil;21st Infantry Division
+U02;Mil;22nd Infantry Division
+U02;Mil;23rd Infantry Division
+U02;Mil;24th Infantry Division
+U02;Mil;25th Infantry Division
+U02;Mil;26th Infantry Division
+U02;Mil;27th Infantry Division
+U02;Mil;28th Infantry Division
+U02;Mil;29th Infantry Division
+U02;Mil;30th Infantry Division
+U02;Fig;No.1 Group
+U02;Fig;No.2 Group
+U02;Fig;No.3 Group
+U02;Fig;No.4 Group
+U02;Fig;No.5 Group
+U02;Fig;No.7 Group
+U02;Fig;No.8 Group
+U02;Fig;No.9 Group
+U02;Fig;No.10 Group
+U02;Fig;No.11 Group
+U02;Fig;No.12 Group
+U02;Fig;No.13 Group
+U02;Fig;No.14 Group
+U02;Fig;No.15 Group
+U02;Fig;No.16 Group
+U02;Fig;No.17 Group
+U02;Fig;No.18 Group
+U02;Fig;No.19 Group
+U02;Fig;No.20 Group
+U02;Int F;No.1 Group
+U02;Int F;No.2 Group
+U02;Int F;No.3 Group
+U02;Int F;No.4 Group
+U02;Int F;No.5 Group
+U02;Int F;No.7 Group
+U02;Int F;No.8 Group
+U02;Int F;No.9 Group
+U02;Int F;No.10 Group
+U02;Int F;No.11 Group
+U02;Int F;No.12 Group
+U02;Int F;No.13 Group
+U02;Int F;No.14 Group
+U02;Int F;No.15 Group
+U02;Int F;No.16 Group
+U02;Int F;No.17 Group
+U02;Int F;No.18 Group
+U02;Int F;No.19 Group
+U02;Int F;No.20 Group
+U02;Str;No.1 Group
+U02;Str;No.2 Group
+U02;Str;No.6 Group
+U02;Str;No.3 Group
+U02;Str;No.4 Group
+U02;Str;No.7 Group
+U02;Str;No.8 Group
+U02;Str;No.9 Group
+U02;Str;No.10 Group
+U02;Str;No.11 Group
+U02;Str;No.12 Group
+U02;Str;No.13 Group
+U02;Str;No.14 Group
+U02;Str;No.15 Group
+U02;Str;No.16 Group
+U02;Str;No.17 Group
+U02;Str;No.18 Group
+U02;Str;No.19 Group
+U02;Str;No.20 Group
+U02;Tac;No.1 Group
+U02;Tac;No.2 Group
+U02;Tac;No.6 Group
+U02;Tac;No.3 Group
+U02;Tac;No.4 Group
+U02;Tac;No.7 Group
+U02;Tac;No.8 Group
+U02;Tac;No.9 Group
+U02;Tac;No.10 Group
+U02;Tac;No.11 Group
+U02;Tac;No.12 Group
+U02;Tac;No.13 Group
+U02;Tac;No.14 Group
+U02;Tac;No.15 Group
+U02;Tac;No.16 Group
+U02;Tac;No.17 Group
+U02;Tac;No.18 Group
+U02;Tac;No.19 Group
+U02;Tac;No.20 Group
+U02;CAS;No.1 Group
+U02;CAS;No.2 Group
+U02;CAS;No.6 Group
+U02;CAS;No.3 Group
+U02;CAS;No.4 Group
+U02;CAS;No.7 Group
+U02;CAS;No.8 Group
+U02;CAS;No.9 Group
+U02;CAS;No.10 Group
+U02;CAS;No.11 Group
+U02;CAS;No.12 Group
+U02;CAS;No.13 Group
+U02;CAS;No.14 Group
+U02;CAS;No.15 Group
+U02;CAS;No.16 Group
+U02;CAS;No.17 Group
+U02;CAS;No.18 Group
+U02;CAS;No.19 Group
+U02;CAS;No.20 Group
+U02;Nav;No.1 Group
+U02;Nav;No.2 Group
+U02;Nav;No.3 Group
+U02;Nav;No.4 Group
+U02;Nav;No.5 Group
+U02;Nav;No.7 Group
+U02;Nav;No.8 Group
+U02;Nav;No.9 Group
+U02;Nav;No.10 Group
+U02;Nav;No.11 Group
+U02;Nav;No.12 Group
+U02;Nav;No.13 Group
+U02;Nav;No.14 Group
+U02;Nav;No.15 Group
+U02;Nav;No.16 Group
+U02;Nav;No.17 Group
+U02;Nav;No.18 Group
+U02;Nav;No.19 Group
+U02;Nav;No.20 Group
+U02;Nav;No.1 Group
+U02;Nav;No.2 Group
+U02;Nav;No.3 Group
+U02;Nav;No.4 Group
+U02;Nav;No.5 Group
+U02;Nav;No.7 Group
+U02;Nav;No.8 Group
+U02;Nav;No.9 Group
+U02;Nav;No.10 Group
+U02;Nav;No.11 Group
+U02;Nav;No.12 Group
+U02;Nav;No.13 Group
+U02;Nav;No.14 Group
+U02;Nav;No.15 Group
+U02;Nav;No.16 Group
+U02;Nav;No.17 Group
+U02;Nav;No.18 Group
+U02;Nav;No.19 Group
+U02;Nav;No.20 Group
+U02;Trp;No.1 Group
+U02;Trp;No.2 Group
+U02;Trp;No.3 Group
+U02;Trp;No.4 Group
+U02;Trp;No.5 Group
+U02;Trp;No.7 Group
+U02;Trp;No.8 Group
+U02;Trp;No.9 Group
+U02;Trp;No.10 Group
+U02;Trp;No.11 Group
+U02;Trp;No.12 Group
+U02;Trp;No.13 Group
+U02;Trp;No.14 Group
+U02;Trp;No.15 Group
+U02;Trp;No.16 Group
+U02;Trp;No.17 Group
+U02;Trp;No.18 Group
+U02;Trp;No.19 Group
+U02;Trp;No.20 Group
+U02;CV;HMIS Vikrant
+U02;CV;HMIS Virrant
+U02;CV;HMIS Viraat
+U02;CV;HMIS Mysore
+U02;27;HMIS Vikrant
+U02;27;HMIS Virrant
+U02;27;HMIS Viraat
+U02;27;HMIS Mysore
+U02;31;HMIS Vikrant
+U02;31;HMIS Virrant
+U02;31;HMIS Viraat
+U02;31;HMIS Mysore
+U02;BB;HMIS Taragiri
+U02;BB;HMIS Vindhyagiri
+U02;BB;HMIS Brahmaputra
+U02;BC;HMIS Taragiri
+U02;BC;HMIS Vindhyagiri
+U02;BC;HMIS Brahmaputra
+U02;CA;HMIS Nilgiri
+U02;CA;HMIS Orissa
+U02;CA;HMIS Deccan
+U02;CA;HMIS Bihar
+U02;CA;HMIS Kumaon
+U02;CA;HMIS Rohilkhand
+U02;CA;HMIS Khyber
+U02;CA;HMIS Carnafic
+U02;CA;HMIS Rajputana
+U02;CA;HMIS Konkan
+U02;CA;HMIS Bombay
+U02;CA;HMIS Bengal
+U02;CA;HMIS Madras
+U02;CL;HMIS Nilgiri
+U02;CL;HMIS Orissa
+U02;CL;HMIS Deccan
+U02;CL;HMIS Bihar
+U02;CL;HMIS Kumaon
+U02;CL;HMIS Rohilkhand
+U02;CL;HMIS Khyber
+U02;CL;HMIS Carnafic
+U02;CL;HMIS Rajputana
+U02;CL;HMIS Konkan
+U02;CL;HMIS Bombay
+U02;CL;HMIS Bengal
+U02;CL;HMIS Madras
+U02;DD;1st Destroyer Division
+U02;DD;2nd Destroyer Division
+U02;DD;3rd Destroyer Division
+U02;DD;4th Destroyer Division
+U02;DD;5th Destroyer Division
+U02;DD;6th Destroyer Division
+U02;DD;7th Destroyer Division
+U02;DD;8th Destroyer Division
+U02;DD;9th Destroyer Division
+U02;DD;10th Destroyer Division
+U02;DD;11th Destroyer Division
+U02;DD;12th Destroyer Division
+U02;DD;13th Destroyer Division
+U02;DD;14th Destroyer Division
+U02;DD;15th Destroyer Division
+U02;SS;1st Submarine Division
+U02;SS;2nd Submarine Division
+U02;SS;3rd Submarine Division
+U02;SS;4th Submarine Division
+U02;SS;5th Submarine Division
+U02;SS;6th Submarine Division
+U02;SS;7th Submarine Division
+U02;SS;8th Submarine Division
+U02;SS;9th Submarine Division
+U02;SS;10th Submarine Division
+U02;SS;11th Submarine Division
+U02;SS;12th Submarine Division
+U02;SS;13th Submarine Division
+U02;SS;14th Submarine Division
+U02;SS;15th Submarine Division
+U02;TP;1st Transport Division
+U02;TP;2nd Transport Division
+U02;TP;3rd Transport Division
+U02;TP;4th Transport Division
+U02;TP;5th Transport Division
+U02;TP;6th Transport Division
+U02;TP;7th Transport Division
+U02;TP;8th Transport Division
+U02;TP;9th Transport Division
+U02;TP;10th Transport Division
+U02;TP;11th Transport Division
+U02;TP;12th Transport Division
+U02;TP;13th Transport Division
+U02;TP;14th Transport Division
+U02;TP;15th Transport Division
 EQA;HQ;1ère Armée de l'Afrique Éq.
 EQA;HQ;2ème Armée de l'Afrique Éq.
 EQA;HQ;3ème Armée de l'Afrique Éq.
@@ -19566,16 +19974,16 @@ EQA;CA;Liberté
 EQA;CA;Egalité
 EQA;CA;Fraternité
 EQA;CA;Nation
-EQA;CL;Indépendance
-EQA;CL;Liberté
-EQA;CL;Egalité
-EQA;CL;Fraternité
-EQA;CL;Nation
 EQA;CA;Indépendance
 EQA;CA;Liberté
 EQA;CA;Egalité
 EQA;CA;Fraternité
 EQA;CA;Nation
+EQA;CL;Indépendance
+EQA;CL;Liberté
+EQA;CL;Egalité
+EQA;CL;Fraternité
+EQA;CL;Nation
 EQA;DD;1ère Divisionde Torpilleurs
 EQA;DD;2ème Divisionde Torpilleurs
 EQA;DD;3ème Divisionde Torpilleurs
@@ -19814,12 +20222,12 @@ EST;CA;EML Mustvee
 EST;CA;EML Haapsalu
 EST;CA;EML Rapla
 EST;CA;EML Paldiski
+EST;CA;EML Kihnu
+EST;CA;EML Vormsi
 EST;CL;EML Muhu
 EST;CL;EML Hiiumaa
 EST;CL;EML Saaremaa
 EST;CL;EML Abruka
-EST;CA;EML Kihnu
-EST;CA;EML Vormsi
 EST;CV;EML Tallinn
 EST;CV;EML Valga
 EST;CV;EML Tartu
@@ -21987,16 +22395,16 @@ GAB;CA;Liberté
 GAB;CA;Egalité
 GAB;CA;Fraternité
 GAB;CA;Nation
-GAB;CL;Indépendance
-GAB;CL;Liberté
-GAB;CL;Egalité
-GAB;CL;Fraternité
-GAB;CL;Nation
 GAB;CA;Indépendance
 GAB;CA;Liberté
 GAB;CA;Egalité
 GAB;CA;Fraternité
 GAB;CA;Nation
+GAB;CL;Indépendance
+GAB;CL;Liberté
+GAB;CL;Egalité
+GAB;CL;Fraternité
+GAB;CL;Nation
 GAB;DD;1ère Division de Torpilleurs
 GAB;DD;2e Division de Torpilleurs
 GAB;DD;3e Division de Torpilleurs
@@ -23651,9 +24059,6 @@ GER;Mec;Infanterie-Div. 'Schlesien'
 GER;Mec;Infanterie-Div. 'Seeland'
 GER;Mec;Infanterie-Div. 'Wahn'
 GER;Mec;Infanterie-Div. 'Wildflecken'
-U40;Mec;15. Waffen Gr. SS (1st Latvian)
-U40;Mec;19. Waffen Gr. SS (2nd Latvian)
-U40;Mec;20. Waffen Gr. SS (1st Estonian)
 GER;L ARM;1. Panzer-Division
 GER;L ARM;2. Panzer-Division
 GER;L ARM;3. Panzer-Division
@@ -25214,6 +25619,39 @@ GER;TP;97. Truppentransporterflottille
 GER;TP;98. Truppentransporterflottille
 GER;TP;99. Truppentransporterflottille
 GER;TP;100. Truppentransporterflottille
+U40;Mec;15. Waffen Gr. SS (1st Latvian)
+U40;Mec;19. Waffen Gr. SS (2nd Latvian)
+U40;Mec;20. Waffen Gr. SS (1st Estonian)
+U40;Inf;1. RK. Ostland Schutz-Kommando
+U40;Inf;2. RK. Ostland Schutz-Kommando
+U40;Inf;3. RK. Ostland Schutz-Kommando
+U40;Inf;4. RK. Ostland Schutz-Kommando
+U40;Inf;5. RK. Ostland Schutz-Kommando
+U40;Inf;6. RK. Ostland Schutz-Kommando
+U40;Inf;7. RK. Ostland Schutz-Kommando
+U40;Inf;8. RK. Ostland Schutz-Kommando
+U40;Inf;9. RK. Ostland Schutz-Kommando
+U40;Inf;10. RK. Ostland Schutz-Kommando
+U40;Gar;1. Reichswehr Ostland
+U40;Gar;2. Reichswehr Ostland
+U40;Gar;3. Reichswehr Ostland
+U40;Gar;4. Reichswehr Ostland
+U40;Gar;5. Reichswehr Ostland
+U40;Gar;6. Reichswehr Ostland
+U40;Gar;7. Reichswehr Ostland
+U40;Gar;8. Reichswehr Ostland
+U40;Gar;9. Reichswehr Ostland
+U40;Gar;10. Reichswehr Ostland
+U40;Mil;1. RK. Ostland Reserve
+U40;Mil;2. RK. Ostland Reserve
+U40;Mil;3. RK. Ostland Reserve
+U40;Mil;4. RK. Ostland Reserve
+U40;Mil;5. RK. Ostland Reserve
+U40;Mil;6. RK. Ostland Reserve
+U40;Mil;7. RK. Ostland Reserve
+U40;Mil;8. RK. Ostland Reserve
+U40;Mil;9. RK. Ostland Reserve
+U40;Mil;10. RK. Ostland Reserve
 GLD;HQ;1st Gold Coastian Army
 GLD;HQ;2nd Gold Coastian Army
 GLD;HQ;3rd Gold Coastian Army
@@ -26182,16 +26620,16 @@ GUI;CA;Liberté
 GUI;CA;Egalité
 GUI;CA;Fraternité
 GUI;CA;Nation
-GUI;CL;Indépendance
-GUI;CL;Liberté
-GUI;CL;Egalité
-GUI;CL;Fraternité
-GUI;CL;Nation
 GUI;CA;Indépendance
 GUI;CA;Liberté
 GUI;CA;Egalité
 GUI;CA;Fraternité
 GUI;CA;Nation
+GUI;CL;Indépendance
+GUI;CL;Liberté
+GUI;CL;Egalité
+GUI;CL;Fraternité
+GUI;CL;Nation
 GUI;DD;1ère Division de Torpilleurs
 GUI;DD;2e Division de Torpilleurs
 GUI;DD;3e Division de Torpilleurs
@@ -28071,16 +28509,16 @@ IDC;CA;Liberté
 IDC;CA;Egalité
 IDC;CA;Fraternité
 IDC;CA;Nation
-IDC;CL;Indépendance
-IDC;CL;Liberté
-IDC;CL;Egalité
-IDC;CL;Fraternité
-IDC;CL;Nation
 IDC;CA;Indépendance
 IDC;CA;Liberté
 IDC;CA;Egalité
 IDC;CA;Fraternité
 IDC;CA;Nation
+IDC;CL;Indépendance
+IDC;CL;Liberté
+IDC;CL;Egalité
+IDC;CL;Fraternité
+IDC;CL;Nation
 IDC;DD;1ère Division de Torpilleurs
 IDC;DD;2e Division de Torpilleurs
 IDC;DD;3e Division de Torpilleurs
@@ -29466,16 +29904,16 @@ IRQ;Mec;Iraqi al-Mushati al-17r
 IRQ;Mec;Iraqi al-Mushati al-18r
 IRQ;Mec;Iraqi al-Mushati al-19r
 IRQ;Mec;Iraqi al-Mushati al-20r
-IRQ;L Arm;Iraqi Sipahis al-1i
-IRQ;L Arm;Iraqi Sipahis al-2i
-IRQ;L Arm;Iraqi Sipahis al-3i
-IRQ;L Arm;Iraqi Sipahis al-4i
-IRQ;L Arm;Iraqi Sipahis al-5i
-IRQ;L Arm;Iraqi Sipahis al-6i
-IRQ;L Arm;Iraqi Sipahis al-7i
-IRQ;L Arm;Iraqi Sipahis al-8i
-IRQ;L Arm;Iraqi Sipahis al-9i
-IRQ;L Arm;Iraqi Sipahis al-10i
+IRQ;L ARM;Iraqi Sipahis al-1i
+IRQ;L ARM;Iraqi Sipahis al-2i
+IRQ;L ARM;Iraqi Sipahis al-3i
+IRQ;L ARM;Iraqi Sipahis al-4i
+IRQ;L ARM;Iraqi Sipahis al-5i
+IRQ;L ARM;Iraqi Sipahis al-6i
+IRQ;L ARM;Iraqi Sipahis al-7i
+IRQ;L ARM;Iraqi Sipahis al-8i
+IRQ;L ARM;Iraqi Sipahis al-9i
+IRQ;L ARM;Iraqi Sipahis al-10i
 IRQ;Arm;Iraqi Sipahis al-1i
 IRQ;Arm;Iraqi Sipahis al-2i
 IRQ;Arm;Iraqi Sipahis al-3i
@@ -31087,16 +31525,16 @@ JOR;Mec;al-Mushati al-17r
 JOR;Mec;al-Mushati al-18r
 JOR;Mec;al-Mushati al-19r
 JOR;Mec;al-Mushati al-20r
-JOR;L Arm;Sipahis al-1i
-JOR;L Arm;Sipahis al-2i
-JOR;L Arm;Sipahis al-3i
-JOR;L Arm;Sipahis al-4i
-JOR;L Arm;Sipahis al-5i
-JOR;L Arm;Sipahis al-6i
-JOR;L Arm;Sipahis al-7i
-JOR;L Arm;Sipahis al-8i
-JOR;L Arm;Sipahis al-9i
-JOR;L Arm;Sipahis al-10i
+JOR;L ARM;Sipahis al-1i
+JOR;L ARM;Sipahis al-2i
+JOR;L ARM;Sipahis al-3i
+JOR;L ARM;Sipahis al-4i
+JOR;L ARM;Sipahis al-5i
+JOR;L ARM;Sipahis al-6i
+JOR;L ARM;Sipahis al-7i
+JOR;L ARM;Sipahis al-8i
+JOR;L ARM;Sipahis al-9i
+JOR;L ARM;Sipahis al-10i
 JOR;Arm;Sipahis al-1i
 JOR;Arm;Sipahis al-2i
 JOR;Arm;Sipahis al-3i
@@ -31703,36 +32141,36 @@ JAP;L ARM;Dai 27 Senshashidan
 JAP;L ARM;Dai 28 Senshashidan
 JAP;L ARM;Dai 29 Senshashidan
 JAP;L ARM;Dai 30 Senshashidan
-JAP;ARM;Dai 1 Senshashidan
-JAP;ARM;Dai 2 Senshashidan
-JAP;ARM;Dai 3 Senshashidan
-JAP;ARM;Dai 4 Senshashidan
-JAP;ARM;Dai 5 Senshashidan
-JAP;ARM;Dai 6 Senshashidan
-JAP;ARM;Dai 7 Senshashidan
-JAP;ARM;Dai 8 Senshashidan
-JAP;ARM;Dai 9 Senshashidan
-JAP;ARM;Dai 10 Senshashidan
-JAP;ARM;Dai 11 Senshashidan
-JAP;ARM;Dai 12 Senshashidan
-JAP;ARM;Dai 13 Senshashidan
-JAP;ARM;Dai 14 Senshashidan
-JAP;ARM;Dai 15 Senshashidan
-JAP;ARM;Dai 16 Senshashidan
-JAP;ARM;Dai 17 Senshashidan
-JAP;ARM;Dai 18 Senshashidan
-JAP;ARM;Dai 19 Senshashidan
-JAP;ARM;Dai 20 Senshashidan
-JAP;ARM;Dai 21 Senshashidan
-JAP;ARM;Dai 22 Senshashidan
-JAP;ARM;Dai 23 Senshashidan
-JAP;ARM;Dai 24 Senshashidan
-JAP;ARM;Dai 25 Senshashidan
-JAP;ARM;Dai 26 Senshashidan
-JAP;ARM;Dai 27 Senshashidan
-JAP;ARM;Dai 28 Senshashidan
-JAP;ARM;Dai 29 Senshashidan
-JAP;ARM;Dai 30 Senshashidan
+JAP;Arm;Dai 1 Senshashidan
+JAP;Arm;Dai 2 Senshashidan
+JAP;Arm;Dai 3 Senshashidan
+JAP;Arm;Dai 4 Senshashidan
+JAP;Arm;Dai 5 Senshashidan
+JAP;Arm;Dai 6 Senshashidan
+JAP;Arm;Dai 7 Senshashidan
+JAP;Arm;Dai 8 Senshashidan
+JAP;Arm;Dai 9 Senshashidan
+JAP;Arm;Dai 10 Senshashidan
+JAP;Arm;Dai 11 Senshashidan
+JAP;Arm;Dai 12 Senshashidan
+JAP;Arm;Dai 13 Senshashidan
+JAP;Arm;Dai 14 Senshashidan
+JAP;Arm;Dai 15 Senshashidan
+JAP;Arm;Dai 16 Senshashidan
+JAP;Arm;Dai 17 Senshashidan
+JAP;Arm;Dai 18 Senshashidan
+JAP;Arm;Dai 19 Senshashidan
+JAP;Arm;Dai 20 Senshashidan
+JAP;Arm;Dai 21 Senshashidan
+JAP;Arm;Dai 22 Senshashidan
+JAP;Arm;Dai 23 Senshashidan
+JAP;Arm;Dai 24 Senshashidan
+JAP;Arm;Dai 25 Senshashidan
+JAP;Arm;Dai 26 Senshashidan
+JAP;Arm;Dai 27 Senshashidan
+JAP;Arm;Dai 28 Senshashidan
+JAP;Arm;Dai 29 Senshashidan
+JAP;Arm;Dai 30 Senshashidan
 JAP;Par;Dai 1 Teishinshudan
 JAP;Par;Dai 2 Teishinshudan
 JAP;Par;Dai 3 Teishinshudan
@@ -33747,16 +34185,16 @@ KUR;Mec;al-Mushati al-17r
 KUR;Mec;al-Mushati al-18r
 KUR;Mec;al-Mushati al-19r
 KUR;Mec;al-Mushati al-20r
-KUR;L Arm;Sipahis al-1i
-KUR;L Arm;Sipahis al-2i
-KUR;L Arm;Sipahis al-3i
-KUR;L Arm;Sipahis al-4i
-KUR;L Arm;Sipahis al-5i
-KUR;L Arm;Sipahis al-6i
-KUR;L Arm;Sipahis al-7i
-KUR;L Arm;Sipahis al-8i
-KUR;L Arm;Sipahis al-9i
-KUR;L Arm;Sipahis al-10i
+KUR;L ARM;Sipahis al-1i
+KUR;L ARM;Sipahis al-2i
+KUR;L ARM;Sipahis al-3i
+KUR;L ARM;Sipahis al-4i
+KUR;L ARM;Sipahis al-5i
+KUR;L ARM;Sipahis al-6i
+KUR;L ARM;Sipahis al-7i
+KUR;L ARM;Sipahis al-8i
+KUR;L ARM;Sipahis al-9i
+KUR;L ARM;Sipahis al-10i
 KUR;Arm;Sipahis al-1i
 KUR;Arm;Sipahis al-2i
 KUR;Arm;Sipahis al-3i
@@ -34564,16 +35002,16 @@ LAO;CA;Liberté
 LAO;CA;Egalité
 LAO;CA;Fraternité
 LAO;CA;Nation
-LAO;CL;Indépendance
-LAO;CL;Liberté
-LAO;CL;Egalité
-LAO;CL;Fraternité
-LAO;CL;Nation
 LAO;CA;Indépendance
 LAO;CA;Liberté
 LAO;CA;Egalité
 LAO;CA;Fraternité
 LAO;CA;Nation
+LAO;CL;Indépendance
+LAO;CL;Liberté
+LAO;CL;Egalité
+LAO;CL;Fraternité
+LAO;CL;Nation
 LAO;DD;1ère Division de Torpilleurs
 LAO;DD;2e Division de Torpilleurs
 LAO;DD;3e Division de Torpilleurs
@@ -35014,16 +35452,16 @@ LBY;Mec;al-Mushati al-17r
 LBY;Mec;al-Mushati al-18r
 LBY;Mec;al-Mushati al-19r
 LBY;Mec;al-Mushati al-20r
-LBY;L Arm;Sipahis al-1i
-LBY;L Arm;Sipahis al-2i
-LBY;L Arm;Sipahis al-3i
-LBY;L Arm;Sipahis al-4i
-LBY;L Arm;Sipahis al-5i
-LBY;L Arm;Sipahis al-6i
-LBY;L Arm;Sipahis al-7i
-LBY;L Arm;Sipahis al-8i
-LBY;L Arm;Sipahis al-9i
-LBY;L Arm;Sipahis al-10i
+LBY;L ARM;Sipahis al-1i
+LBY;L ARM;Sipahis al-2i
+LBY;L ARM;Sipahis al-3i
+LBY;L ARM;Sipahis al-4i
+LBY;L ARM;Sipahis al-5i
+LBY;L ARM;Sipahis al-6i
+LBY;L ARM;Sipahis al-7i
+LBY;L ARM;Sipahis al-8i
+LBY;L ARM;Sipahis al-9i
+LBY;L ARM;Sipahis al-10i
 LBY;Arm;Sipahis al-1i
 LBY;Arm;Sipahis al-2i
 LBY;Arm;Sipahis al-3i
@@ -35296,16 +35734,16 @@ LEB;Mec;al-Mushati al-17r
 LEB;Mec;al-Mushati al-18r
 LEB;Mec;al-Mushati al-19r
 LEB;Mec;al-Mushati al-20r
-LEB;L Arm;Sipahis al-1i
-LEB;L Arm;Sipahis al-2i
-LEB;L Arm;Sipahis al-3i
-LEB;L Arm;Sipahis al-4i
-LEB;L Arm;Sipahis al-5i
-LEB;L Arm;Sipahis al-6i
-LEB;L Arm;Sipahis al-7i
-LEB;L Arm;Sipahis al-8i
-LEB;L Arm;Sipahis al-9i
-LEB;L Arm;Sipahis al-10i
+LEB;L ARM;Sipahis al-1i
+LEB;L ARM;Sipahis al-2i
+LEB;L ARM;Sipahis al-3i
+LEB;L ARM;Sipahis al-4i
+LEB;L ARM;Sipahis al-5i
+LEB;L ARM;Sipahis al-6i
+LEB;L ARM;Sipahis al-7i
+LEB;L ARM;Sipahis al-8i
+LEB;L ARM;Sipahis al-9i
+LEB;L ARM;Sipahis al-10i
 LEB;Arm;Sipahis al-1i
 LEB;Arm;Sipahis al-2i
 LEB;Arm;Sipahis al-3i
@@ -36409,16 +36847,16 @@ MAD;CA;Liberté
 MAD;CA;Egalité
 MAD;CA;Fraternité
 MAD;CA;Nation
-MAD;CL;Indépendance
-MAD;CL;Liberté
-MAD;CL;Egalité
-MAD;CL;Fraternité
-MAD;CL;Nation
 MAD;CA;Indépendance
 MAD;CA;Liberté
 MAD;CA;Egalité
 MAD;CA;Fraternité
 MAD;CA;Nation
+MAD;CL;Indépendance
+MAD;CL;Liberté
+MAD;CL;Egalité
+MAD;CL;Fraternité
+MAD;CL;Nation
 MAD;DD;1ère Division de Torpilleurs
 MAD;DD;2e Division de Torpilleurs
 MAD;DD;3e Division de Torpilleurs
@@ -36563,16 +37001,16 @@ MAL;CA;Liberté
 MAL;CA;Egalité
 MAL;CA;Fraternité
 MAL;CA;Nation
-MAL;CL;Indépendance
-MAL;CL;Liberté
-MAL;CL;Egalité
-MAL;CL;Fraternité
-MAL;CL;Nation
 MAL;CA;Indépendance
 MAL;CA;Liberté
 MAL;CA;Egalité
 MAL;CA;Fraternité
 MAL;CA;Nation
+MAL;CL;Indépendance
+MAL;CL;Liberté
+MAL;CL;Egalité
+MAL;CL;Fraternité
+MAL;CL;Nation
 MAL;DD;1ère Division de Torpilleurs
 MAL;DD;2e Division de Torpilleurs
 MAL;DD;3e Division de Torpilleurs
@@ -37720,16 +38158,16 @@ MLY;Mec;al-Mushati al-17r
 MLY;Mec;al-Mushati al-18r
 MLY;Mec;al-Mushati al-19r
 MLY;Mec;al-Mushati al-20r
-MLY;L Arm;Sipahis al-1i
-MLY;L Arm;Sipahis al-2i
-MLY;L Arm;Sipahis al-3i
-MLY;L Arm;Sipahis al-4i
-MLY;L Arm;Sipahis al-5i
-MLY;L Arm;Sipahis al-6i
-MLY;L Arm;Sipahis al-7i
-MLY;L Arm;Sipahis al-8i
-MLY;L Arm;Sipahis al-9i
-MLY;L Arm;Sipahis al-10i
+MLY;L ARM;Sipahis al-1i
+MLY;L ARM;Sipahis al-2i
+MLY;L ARM;Sipahis al-3i
+MLY;L ARM;Sipahis al-4i
+MLY;L ARM;Sipahis al-5i
+MLY;L ARM;Sipahis al-6i
+MLY;L ARM;Sipahis al-7i
+MLY;L ARM;Sipahis al-8i
+MLY;L ARM;Sipahis al-9i
+MLY;L ARM;Sipahis al-10i
 MLY;Arm;Sipahis al-1i
 MLY;Arm;Sipahis al-2i
 MLY;Arm;Sipahis al-3i
@@ -38214,16 +38652,16 @@ MOR;Mec;al-Mushati al-17r
 MOR;Mec;al-Mushati al-18r
 MOR;Mec;al-Mushati al-19r
 MOR;Mec;al-Mushati al-20r
-MOR;L Arm;Sipahis al-1i
-MOR;L Arm;Sipahis al-2i
-MOR;L Arm;Sipahis al-3i
-MOR;L Arm;Sipahis al-4i
-MOR;L Arm;Sipahis al-5i
-MOR;L Arm;Sipahis al-6i
-MOR;L Arm;Sipahis al-7i
-MOR;L Arm;Sipahis al-8i
-MOR;L Arm;Sipahis al-9i
-MOR;L Arm;Sipahis al-10i
+MOR;L ARM;Sipahis al-1i
+MOR;L ARM;Sipahis al-2i
+MOR;L ARM;Sipahis al-3i
+MOR;L ARM;Sipahis al-4i
+MOR;L ARM;Sipahis al-5i
+MOR;L ARM;Sipahis al-6i
+MOR;L ARM;Sipahis al-7i
+MOR;L ARM;Sipahis al-8i
+MOR;L ARM;Sipahis al-9i
+MOR;L ARM;Sipahis al-10i
 MOR;Arm;Sipahis al-1i
 MOR;Arm;Sipahis al-2i
 MOR;Arm;Sipahis al-3i
@@ -40657,16 +41095,16 @@ OMN;Mec;Omani al-Mushati al-17r
 OMN;Mec;Omani al-Mushati al-18r
 OMN;Mec;Omani al-Mushati al-19r
 OMN;Mec;Omani al-Mushati al-20r
-OMN;L Arm;Omani Sipahis al-1i
-OMN;L Arm;Omani Sipahis al-2i
-OMN;L Arm;Omani Sipahis al-3i
-OMN;L Arm;Omani Sipahis al-4i
-OMN;L Arm;Omani Sipahis al-5i
-OMN;L Arm;Omani Sipahis al-6i
-OMN;L Arm;Omani Sipahis al-7i
-OMN;L Arm;Omani Sipahis al-8i
-OMN;L Arm;Omani Sipahis al-9i
-OMN;L Arm;Omani Sipahis al-10i
+OMN;L ARM;Omani Sipahis al-1i
+OMN;L ARM;Omani Sipahis al-2i
+OMN;L ARM;Omani Sipahis al-3i
+OMN;L ARM;Omani Sipahis al-4i
+OMN;L ARM;Omani Sipahis al-5i
+OMN;L ARM;Omani Sipahis al-6i
+OMN;L ARM;Omani Sipahis al-7i
+OMN;L ARM;Omani Sipahis al-8i
+OMN;L ARM;Omani Sipahis al-9i
+OMN;L ARM;Omani Sipahis al-10i
 OMN;Arm;Omani Sipahis al-1i
 OMN;Arm;Omani Sipahis al-2i
 OMN;Arm;Omani Sipahis al-3i
@@ -41546,16 +41984,16 @@ PAK;Mec;al-Mushati al-17r
 PAK;Mec;al-Mushati al-18r
 PAK;Mec;al-Mushati al-19r
 PAK;Mec;al-Mushati al-20r
-PAK;L Arm;Sipahis al-1i
-PAK;L Arm;Sipahis al-2i
-PAK;L Arm;Sipahis al-3i
-PAK;L Arm;Sipahis al-4i
-PAK;L Arm;Sipahis al-5i
-PAK;L Arm;Sipahis al-6i
-PAK;L Arm;Sipahis al-7i
-PAK;L Arm;Sipahis al-8i
-PAK;L Arm;Sipahis al-9i
-PAK;L Arm;Sipahis al-10i
+PAK;L ARM;Sipahis al-1i
+PAK;L ARM;Sipahis al-2i
+PAK;L ARM;Sipahis al-3i
+PAK;L ARM;Sipahis al-4i
+PAK;L ARM;Sipahis al-5i
+PAK;L ARM;Sipahis al-6i
+PAK;L ARM;Sipahis al-7i
+PAK;L ARM;Sipahis al-8i
+PAK;L ARM;Sipahis al-9i
+PAK;L ARM;Sipahis al-10i
 PAK;Arm;Sipahis al-1i
 PAK;Arm;Sipahis al-2i
 PAK;Arm;Sipahis al-3i
@@ -41858,16 +42296,16 @@ PAL;Mec;al-Mushati al-17r
 PAL;Mec;al-Mushati al-18r
 PAL;Mec;al-Mushati al-19r
 PAL;Mec;al-Mushati al-20r
-PAL;L Arm;Sipahis al-1i
-PAL;L Arm;Sipahis al-2i
-PAL;L Arm;Sipahis al-3i
-PAL;L Arm;Sipahis al-4i
-PAL;L Arm;Sipahis al-5i
-PAL;L Arm;Sipahis al-6i
-PAL;L Arm;Sipahis al-7i
-PAL;L Arm;Sipahis al-8i
-PAL;L Arm;Sipahis al-9i
-PAL;L Arm;Sipahis al-10i
+PAL;L ARM;Sipahis al-1i
+PAL;L ARM;Sipahis al-2i
+PAL;L ARM;Sipahis al-3i
+PAL;L ARM;Sipahis al-4i
+PAL;L ARM;Sipahis al-5i
+PAL;L ARM;Sipahis al-6i
+PAL;L ARM;Sipahis al-7i
+PAL;L ARM;Sipahis al-8i
+PAL;L ARM;Sipahis al-9i
+PAL;L ARM;Sipahis al-10i
 PAL;Arm;Sipahis al-1i
 PAL;Arm;Sipahis al-2i
 PAL;Arm;Sipahis al-3i
@@ -43488,13 +43926,13 @@ POL;Tac;1/V Dyon Bombowy
 POL;Tac;2/V Dyon Bombowy
 POL;Tac;1/VI Dyon Bombowy
 POL;Tac;2/VI Dyon Bombowy
+POL;Tac;3 Dyon I Brygady Bombowej
+POL;Tac;3 Dyon II Brygady Bombowej
 POL;CAS;I Dyon Lotnictwa Armijnego
 POL;CAS;II Dyon Lotnictwa Armijnego
 POL;CAS;III Dyon Lotnictwa Armijnego
 POL;CAS;IV Dyon Lotnictwa Armijnego
 POL;CAS;V Dyon Lotnictwa Armijnego
-POL;Tac;3 Dyon I Brygady Bombowej
-POL;Tac;3 Dyon II Brygady Bombowej
 POL;CAS;VI Dyon Lotnictwa Armijnego
 POL;CAS;VII Dyon Lotnictwa Armijnego
 POL;CAS;VIII Dyon Lotnictwa Armijnego
@@ -44670,16 +45108,16 @@ QUE;CA;Liberté
 QUE;CA;Egalité
 QUE;CA;Fraternité
 QUE;CA;Nation
-QUE;CL;Indépendance
-QUE;CL;Liberté
-QUE;CL;Egalité
-QUE;CL;Fraternité
-QUE;CL;Nation
 QUE;CA;Indépendance
 QUE;CA;Liberté
 QUE;CA;Egalité
 QUE;CA;Fraternité
 QUE;CA;Nation
+QUE;CL;Indépendance
+QUE;CL;Liberté
+QUE;CL;Egalité
+QUE;CL;Fraternité
+QUE;CL;Nation
 QUE;DD;1ère Division de Torpilleurs
 QUE;DD;2e Division de Torpilleurs
 QUE;DD;3e Division de Torpilleurs
@@ -47668,16 +48106,16 @@ SAR;Mec;al-Mushati al-17r
 SAR;Mec;al-Mushati al-18r
 SAR;Mec;al-Mushati al-19r
 SAR;Mec;al-Mushati al-20r
-SAR;L Arm;Sipahis al-1i
-SAR;L Arm;Sipahis al-2i
-SAR;L Arm;Sipahis al-3i
-SAR;L Arm;Sipahis al-4i
-SAR;L Arm;Sipahis al-5i
-SAR;L Arm;Sipahis al-6i
-SAR;L Arm;Sipahis al-7i
-SAR;L Arm;Sipahis al-8i
-SAR;L Arm;Sipahis al-9i
-SAR;L Arm;Sipahis al-10i
+SAR;L ARM;Sipahis al-1i
+SAR;L ARM;Sipahis al-2i
+SAR;L ARM;Sipahis al-3i
+SAR;L ARM;Sipahis al-4i
+SAR;L ARM;Sipahis al-5i
+SAR;L ARM;Sipahis al-6i
+SAR;L ARM;Sipahis al-7i
+SAR;L ARM;Sipahis al-8i
+SAR;L ARM;Sipahis al-9i
+SAR;L ARM;Sipahis al-10i
 SAR;Arm;Sipahis al-1i
 SAR;Arm;Sipahis al-2i
 SAR;Arm;Sipahis al-3i
@@ -47917,16 +48355,16 @@ SAU;Mec;al-Mushati al-17r
 SAU;Mec;al-Mushati al-18r
 SAU;Mec;al-Mushati al-19r
 SAU;Mec;al-Mushati al-20r
-SAU;L Arm;Sipahis al-1i
-SAU;L Arm;Sipahis al-2i
-SAU;L Arm;Sipahis al-3i
-SAU;L Arm;Sipahis al-4i
-SAU;L Arm;Sipahis al-5i
-SAU;L Arm;Sipahis al-6i
-SAU;L Arm;Sipahis al-7i
-SAU;L Arm;Sipahis al-8i
-SAU;L Arm;Sipahis al-9i
-SAU;L Arm;Sipahis al-10i
+SAU;L ARM;Sipahis al-1i
+SAU;L ARM;Sipahis al-2i
+SAU;L ARM;Sipahis al-3i
+SAU;L ARM;Sipahis al-4i
+SAU;L ARM;Sipahis al-5i
+SAU;L ARM;Sipahis al-6i
+SAU;L ARM;Sipahis al-7i
+SAU;L ARM;Sipahis al-8i
+SAU;L ARM;Sipahis al-9i
+SAU;L ARM;Sipahis al-10i
 SAU;Arm;Sipahis al-1i
 SAU;Arm;Sipahis al-2i
 SAU;Arm;Sipahis al-3i
@@ -50912,26 +51350,26 @@ SIK;Mec;Jixiehua Di'10 Shi
 SIK;Mec;Jixiehua Di'12 Shi
 SIK;Mec;Jixiehua Di'14 Shi
 SIK;Mec;Jixiehua Di'15 Shi
-SIK;L Arm;Zhuangjiabing Di'1 Shi
-SIK;L Arm;Zhuangjiabing Di'2 Shi
-SIK;L Arm;Zhuangjiabing Di'3 Shi
-SIK;L Arm;Zhuangjiabing Di'4 Shi
-SIK;L Arm;Zhuangjiabing Di'5 Shi
-SIK;L Arm;Zhuangjiabing Di'6 Shi
-SIK;L Arm;Zhuangjiabing Di'7 Shi
-SIK;L Arm;Zhuangjiabing Di'8 Shi
-SIK;L Arm;Zhuangjiabing Di'9 Shi
-SIK;L Arm;Zhuangjiabing Di'10 Shi
-SIK;L Arm;Zhuangjiabing Di'11 Shi
-SIK;L Arm;Zhuangjiabing Di'12 Shi
-SIK;L Arm;Zhuangjiabing Di'13 Shi
-SIK;L Arm;Zhuangjiabing Di'14 Shi
-SIK;L Arm;Zhuangjiabing Di'15 Shi
-SIK;L Arm;Zhuangjiabing Di'16 Shi
-SIK;L Arm;Zhuangjiabing Di'17 Shi
-SIK;L Arm;Zhuangjiabing Di'18 Shi
-SIK;L Arm;Zhuangjiabing Di'19 Shi
-SIK;L Arm;Zhuangjiabing Di'20 Shi
+SIK;L ARM;Zhuangjiabing Di'1 Shi
+SIK;L ARM;Zhuangjiabing Di'2 Shi
+SIK;L ARM;Zhuangjiabing Di'3 Shi
+SIK;L ARM;Zhuangjiabing Di'4 Shi
+SIK;L ARM;Zhuangjiabing Di'5 Shi
+SIK;L ARM;Zhuangjiabing Di'6 Shi
+SIK;L ARM;Zhuangjiabing Di'7 Shi
+SIK;L ARM;Zhuangjiabing Di'8 Shi
+SIK;L ARM;Zhuangjiabing Di'9 Shi
+SIK;L ARM;Zhuangjiabing Di'10 Shi
+SIK;L ARM;Zhuangjiabing Di'11 Shi
+SIK;L ARM;Zhuangjiabing Di'12 Shi
+SIK;L ARM;Zhuangjiabing Di'13 Shi
+SIK;L ARM;Zhuangjiabing Di'14 Shi
+SIK;L ARM;Zhuangjiabing Di'15 Shi
+SIK;L ARM;Zhuangjiabing Di'16 Shi
+SIK;L ARM;Zhuangjiabing Di'17 Shi
+SIK;L ARM;Zhuangjiabing Di'18 Shi
+SIK;L ARM;Zhuangjiabing Di'19 Shi
+SIK;L ARM;Zhuangjiabing Di'20 Shi
 SIK;Arm;Zhuangjiabing Di'1 Shi
 SIK;Arm;Zhuangjiabing Di'2 Shi
 SIK;Arm;Zhuangjiabing Di'3 Shi
@@ -51693,16 +52131,16 @@ SOM;Mec;al-Mushati al-17r
 SOM;Mec;al-Mushati al-18r
 SOM;Mec;al-Mushati al-19r
 SOM;Mec;al-Mushati al-20r
-SOM;L Arm;Sipahis al-1i
-SOM;L Arm;Sipahis al-2i
-SOM;L Arm;Sipahis al-3i
-SOM;L Arm;Sipahis al-4i
-SOM;L Arm;Sipahis al-5i
-SOM;L Arm;Sipahis al-6i
-SOM;L Arm;Sipahis al-7i
-SOM;L Arm;Sipahis al-8i
-SOM;L Arm;Sipahis al-9i
-SOM;L Arm;Sipahis al-10i
+SOM;L ARM;Sipahis al-1i
+SOM;L ARM;Sipahis al-2i
+SOM;L ARM;Sipahis al-3i
+SOM;L ARM;Sipahis al-4i
+SOM;L ARM;Sipahis al-5i
+SOM;L ARM;Sipahis al-6i
+SOM;L ARM;Sipahis al-7i
+SOM;L ARM;Sipahis al-8i
+SOM;L ARM;Sipahis al-9i
+SOM;L ARM;Sipahis al-10i
 SOM;Arm;Sipahis al-1i
 SOM;Arm;Sipahis al-2i
 SOM;Arm;Sipahis al-3i
@@ -57075,16 +57513,16 @@ SUD;Mec;al-Mushati al-17r
 SUD;Mec;al-Mushati al-18r
 SUD;Mec;al-Mushati al-19r
 SUD;Mec;al-Mushati al-20r
-SUD;L Arm;Sipahis al-1i
-SUD;L Arm;Sipahis al-2i
-SUD;L Arm;Sipahis al-3i
-SUD;L Arm;Sipahis al-4i
-SUD;L Arm;Sipahis al-5i
-SUD;L Arm;Sipahis al-6i
-SUD;L Arm;Sipahis al-7i
-SUD;L Arm;Sipahis al-8i
-SUD;L Arm;Sipahis al-9i
-SUD;L Arm;Sipahis al-10i
+SUD;L ARM;Sipahis al-1i
+SUD;L ARM;Sipahis al-2i
+SUD;L ARM;Sipahis al-3i
+SUD;L ARM;Sipahis al-4i
+SUD;L ARM;Sipahis al-5i
+SUD;L ARM;Sipahis al-6i
+SUD;L ARM;Sipahis al-7i
+SUD;L ARM;Sipahis al-8i
+SUD;L ARM;Sipahis al-9i
+SUD;L ARM;Sipahis al-10i
 SUD;Arm;Sipahis al-1i
 SUD;Arm;Sipahis al-2i
 SUD;Arm;Sipahis al-3i
@@ -57791,16 +58229,16 @@ SYR;Mec;al-Mushati al-17r
 SYR;Mec;al-Mushati al-18r
 SYR;Mec;al-Mushati al-19r
 SYR;Mec;al-Mushati al-20r
-SYR;L Arm;Sipahis al-1i
-SYR;L Arm;Sipahis al-2i
-SYR;L Arm;Sipahis al-3i
-SYR;L Arm;Sipahis al-4i
-SYR;L Arm;Sipahis al-5i
-SYR;L Arm;Sipahis al-6i
-SYR;L Arm;Sipahis al-7i
-SYR;L Arm;Sipahis al-8i
-SYR;L Arm;Sipahis al-9i
-SYR;L Arm;Sipahis al-10i
+SYR;L ARM;Sipahis al-1i
+SYR;L ARM;Sipahis al-2i
+SYR;L ARM;Sipahis al-3i
+SYR;L ARM;Sipahis al-4i
+SYR;L ARM;Sipahis al-5i
+SYR;L ARM;Sipahis al-6i
+SYR;L ARM;Sipahis al-7i
+SYR;L ARM;Sipahis al-8i
+SYR;L ARM;Sipahis al-9i
+SYR;L ARM;Sipahis al-10i
 SYR;Arm;Sipahis al-1i
 SYR;Arm;Sipahis al-2i
 SYR;Arm;Sipahis al-3i
@@ -59152,26 +59590,26 @@ TIB;Mec;Jixiehua Di'10 Shi
 TIB;Mec;Jixiehua Di'12 Shi
 TIB;Mec;Jixiehua Di'14 Shi
 TIB;Mec;Jixiehua Di'15 Shi
-TIB;L Arm;Zhuangjiabing Di'1 Shi
-TIB;L Arm;Zhuangjiabing Di'2 Shi
-TIB;L Arm;Zhuangjiabing Di'3 Shi
-TIB;L Arm;Zhuangjiabing Di'4 Shi
-TIB;L Arm;Zhuangjiabing Di'5 Shi
-TIB;L Arm;Zhuangjiabing Di'6 Shi
-TIB;L Arm;Zhuangjiabing Di'7 Shi
-TIB;L Arm;Zhuangjiabing Di'8 Shi
-TIB;L Arm;Zhuangjiabing Di'9 Shi
-TIB;L Arm;Zhuangjiabing Di'10 Shi
-TIB;L Arm;Zhuangjiabing Di'11 Shi
-TIB;L Arm;Zhuangjiabing Di'12 Shi
-TIB;L Arm;Zhuangjiabing Di'13 Shi
-TIB;L Arm;Zhuangjiabing Di'14 Shi
-TIB;L Arm;Zhuangjiabing Di'15 Shi
-TIB;L Arm;Zhuangjiabing Di'16 Shi
-TIB;L Arm;Zhuangjiabing Di'17 Shi
-TIB;L Arm;Zhuangjiabing Di'18 Shi
-TIB;L Arm;Zhuangjiabing Di'19 Shi
-TIB;L Arm;Zhuangjiabing Di'20 Shi
+TIB;L ARM;Zhuangjiabing Di'1 Shi
+TIB;L ARM;Zhuangjiabing Di'2 Shi
+TIB;L ARM;Zhuangjiabing Di'3 Shi
+TIB;L ARM;Zhuangjiabing Di'4 Shi
+TIB;L ARM;Zhuangjiabing Di'5 Shi
+TIB;L ARM;Zhuangjiabing Di'6 Shi
+TIB;L ARM;Zhuangjiabing Di'7 Shi
+TIB;L ARM;Zhuangjiabing Di'8 Shi
+TIB;L ARM;Zhuangjiabing Di'9 Shi
+TIB;L ARM;Zhuangjiabing Di'10 Shi
+TIB;L ARM;Zhuangjiabing Di'11 Shi
+TIB;L ARM;Zhuangjiabing Di'12 Shi
+TIB;L ARM;Zhuangjiabing Di'13 Shi
+TIB;L ARM;Zhuangjiabing Di'14 Shi
+TIB;L ARM;Zhuangjiabing Di'15 Shi
+TIB;L ARM;Zhuangjiabing Di'16 Shi
+TIB;L ARM;Zhuangjiabing Di'17 Shi
+TIB;L ARM;Zhuangjiabing Di'18 Shi
+TIB;L ARM;Zhuangjiabing Di'19 Shi
+TIB;L ARM;Zhuangjiabing Di'20 Shi
 TIB;Arm;Zhuangjiabing Di'1 Shi
 TIB;Arm;Zhuangjiabing Di'2 Shi
 TIB;Arm;Zhuangjiabing Di'3 Shi
@@ -59961,16 +60399,16 @@ TUN;Mec;al-Mushati al-17r
 TUN;Mec;al-Mushati al-18r
 TUN;Mec;al-Mushati al-19r
 TUN;Mec;al-Mushati al-20r
-TUN;L Arm;Sipahis al-1i
-TUN;L Arm;Sipahis al-2i
-TUN;L Arm;Sipahis al-3i
-TUN;L Arm;Sipahis al-4i
-TUN;L Arm;Sipahis al-5i
-TUN;L Arm;Sipahis al-6i
-TUN;L Arm;Sipahis al-7i
-TUN;L Arm;Sipahis al-8i
-TUN;L Arm;Sipahis al-9i
-TUN;L Arm;Sipahis al-10i
+TUN;L ARM;Sipahis al-1i
+TUN;L ARM;Sipahis al-2i
+TUN;L ARM;Sipahis al-3i
+TUN;L ARM;Sipahis al-4i
+TUN;L ARM;Sipahis al-5i
+TUN;L ARM;Sipahis al-6i
+TUN;L ARM;Sipahis al-7i
+TUN;L ARM;Sipahis al-8i
+TUN;L ARM;Sipahis al-9i
+TUN;L ARM;Sipahis al-10i
 TUN;Arm;Sipahis al-1i
 TUN;Arm;Sipahis al-2i
 TUN;Arm;Sipahis al-3i
@@ -60774,414 +61212,6 @@ TUR;TP;Inegöl
 TUR;TP;Kalkan
 TUR;TP;Yenice
 TUR;TP;Canakkale
-U02;HQ;1st Indian Army
-U02;HQ;2nd Indian Army
-U02;HQ;3rd Indian Army
-U02;HQ;4th Indian Army
-U02;HQ;5th Indian Army
-U02;HQ;6th Indian Army
-U02;HQ;7th Indian Army
-U02;HQ;8th Indian Army
-U02;Inf;1st Indian Infantry Division
-U02;Inf;2nd Indian Infantry Division
-U02;Inf;3rd Indian Infantry Division
-U02;Inf;4th Indian Infantry Division
-U02;Inf;5th Indian Infantry Division
-U02;Inf;6th Indian Infantry Division
-U02;Inf;7th Indian Infantry Division
-U02;Inf;8th Indian Infantry Division
-U02;Inf;9th Indian Infantry Division
-U02;Inf;10th Indian Infantry Division
-U02;Inf;11th Indian Infantry Division
-U02;Inf;12th Indian Infantry Division
-U02;Inf;13th Indian Infantry Division
-U02;Inf;14th Indian Infantry Division
-U02;Inf;15th Indian Infantry Division
-U02;Inf;16th Indian Infantry Division
-U02;Inf;17th Indian Infantry Division
-U02;Inf;18th Indian Infantry Division
-U02;Inf;19th Indian Infantry Division
-U02;Inf;20th Indian Infantry Division
-U02;Gar;1st Indian Garrison Division
-U02;Gar;2nd Indian Garrison Division
-U02;Gar;3rd Indian Garrison Division
-U02;Gar;4th Indian Garrison Division
-U02;Gar;5th Indian Garrison Division
-U02;Gar;6th Indian Garrison Division
-U02;Gar;7th Indian Garrison Division
-U02;Gar;8th Indian Garrison Division
-U02;Gar;9th Indian Garrison Division
-U02;Gar;10th Indian Garrison Division
-U02;Gar;11th Indian Garrison Division
-U02;Gar;12th Indian Garrison Division
-U02;Gar;13th Indian Garrison Division
-U02;Gar;14th Indian Garrison Division
-U02;Gar;15th Indian Garrison Division
-U02;Gar;16th Indian Garrison Division
-U02;Gar;17th Indian Garrison Division
-U02;Gar;18th Indian Garrison Division
-U02;Gar;19th Indian Garrison Division
-U02;Gar;20th Indian Garrison Division
-U02;Cav;1st Cavalry Division
-U02;Cav;2nd Cavalry Division
-U02;Cav;3rd Cavalry Division
-U02;Cav;4th Cavalry Division
-U02;Cav;5th Cavalry Division
-U02;Cav;6th Cavalry Division
-U02;Cav;7th Cavalry Division
-U02;Cav;8th Cavalry Division
-U02;Cav;9th Cavalry Division
-U02;Cav;10th Cavalry Division
-U02;Mot;1st Infantry Division
-U02;Mot;2nd Infantry Division
-U02;Mot;3rd Infantry Division
-U02;Mot;1st Motorized Division
-U02;Mot;2nd Motorized Division
-U02;Mot;3rd Motorized Division
-U02;Mot;4th Motorized Division
-U02;Mot;5th Motorized Division
-U02;Mot;6th Motorized Division
-U02;Mec;1st Infantry Division
-U02;Mec;2nd Infantry Division
-U02;Mec;3rd Infantry Division
-U02;Mec;1st Mechanized Division
-U02;Mec;2nd Mechanized Division
-U02;Mec;3rd Mechanized Division
-U02;Mec;4th Mechanized Division
-U02;Mec;5th Mechanized Division
-U02;Mec;6th Mechanized Division
-U02;Mec;7th Mechanized Division
-U02;Mec;8th Mechanized Division
-U02;Mec;9th Mechanized Division
-U02;Mec;10th Mechanized Division
-U02;L ARM;1st Armoured Division
-U02;L ARM;2nd Armoured Division
-U02;L ARM;3rd Armoured Division
-U02;L ARM;4th Armoured Division
-U02;L ARM;5th Armoured Division
-U02;L ARM;6th Armoured Division
-U02;L ARM;7th Armoured Division
-U02;L ARM;8th Armoured Division
-U02;L ARM;9th Armoured Division
-U02;L ARM;10th Armoured Division
-U02;L ARM;11th Armoured Division
-U02;L ARM;12th Armoured Division
-U02;L ARM;14th Armoured Division
-U02;L ARM;15th Armoured Division
-U02;Arm;1st Armoured Division
-U02;Arm;2nd Armoured Division
-U02;Arm;3rd Armoured Division
-U02;Arm;4th Armoured Division
-U02;Arm;5th Armoured Division
-U02;Arm;6th Armoured Division
-U02;Arm;7th Armoured Division
-U02;Arm;8th Armoured Division
-U02;Arm;9th Armoured Division
-U02;Arm;10th Armoured Division
-U02;Arm;11th Armoured Division
-U02;Arm;12th Armoured Division
-U02;Arm;14th Armoured Division
-U02;Arm;15th Armoured Division
-U02;Par;1st Airborne Division
-U02;Par;2nd Airborne Division
-U02;Par;3rd Airborne Division
-U02;Par;4th Airborne Division
-U02;Par;5th Airborne Division
-U02;Par;6th Airborne Division
-U02;Par;7th Airborne Division
-U02;Par;8th Airborne Division
-U02;Par;9th Airborne Division
-U02;Par;10th Airborne Division
-U02;Mar;1st Marine Division
-U02;Mar;2nd Marine Division
-U02;Mar;3rd Marine Division
-U02;Mar;4th Marine Division
-U02;Mar;5th Marine Division
-U02;Mar;6th Marine Division
-U02;Mar;7th Marine Division
-U02;Mar;8th Marine Division
-U02;Mar;9th Marine Division
-U02;Mar;10th Marine Division
-U02;Mtn;1st Gurkha Division
-U02;Mtn;2nd Gurkha Division
-U02;Mtn;3rd Gurkha Division
-U02;Mtn;4th Gurkha Division
-U02;Mtn;5th Gurkha Division
-U02;Mtn;8th Gurkha Division
-U02;Mtn;10th Gurkha Division
-U02;Mtn;11th Gurkha Division
-U02;Mtn;12th Gurkha Division
-U02;Mil;1st Infantry Division
-U02;Mil;2nd Infantry Division
-U02;Mil;3rd Infantry Division
-U02;Mil;4th Infantry Division
-U02;Mil;5th Infantry Division
-U02;Mil;6th Infantry Division
-U02;Mil;7th Infantry Division
-U02;Mil;8th Infantry Division
-U02;Mil;9th Infantry Division
-U02;Mil;10th Infantry Division
-U02;Mil;11th Infantry Division
-U02;Mil;12th Infantry Division
-U02;Mil;13th Infantry Division
-U02;Mil;14th Infantry Division
-U02;Mil;15th Infantry Division
-U02;Mil;16th Infantry Division
-U02;Mil;17th Infantry Division
-U02;Mil;18th Infantry Division
-U02;Mil;19th Infantry Division
-U02;Mil;20th Infantry Division
-U02;Mil;21st Infantry Division
-U02;Mil;22nd Infantry Division
-U02;Mil;23rd Infantry Division
-U02;Mil;24th Infantry Division
-U02;Mil;25th Infantry Division
-U02;Mil;26th Infantry Division
-U02;Mil;27th Infantry Division
-U02;Mil;28th Infantry Division
-U02;Mil;29th Infantry Division
-U02;Mil;30th Infantry Division
-U02;Fig;No.1 Group
-U02;Fig;No.2 Group
-U02;Fig;No.3 Group
-U02;Fig;No.4 Group
-U02;Fig;No.5 Group
-U02;Fig;No.7 Group
-U02;Fig;No.8 Group
-U02;Fig;No.9 Group
-U02;Fig;No.10 Group
-U02;Fig;No.11 Group
-U02;Fig;No.12 Group
-U02;Fig;No.13 Group
-U02;Fig;No.14 Group
-U02;Fig;No.15 Group
-U02;Fig;No.16 Group
-U02;Fig;No.17 Group
-U02;Fig;No.18 Group
-U02;Fig;No.19 Group
-U02;Fig;No.20 Group
-U02;Int F;No.1 Group
-U02;Int F;No.2 Group
-U02;Int F;No.3 Group
-U02;Int F;No.4 Group
-U02;Int F;No.5 Group
-U02;Int F;No.7 Group
-U02;Int F;No.8 Group
-U02;Int F;No.9 Group
-U02;Int F;No.10 Group
-U02;Int F;No.11 Group
-U02;Int F;No.12 Group
-U02;Int F;No.13 Group
-U02;Int F;No.14 Group
-U02;Int F;No.15 Group
-U02;Int F;No.16 Group
-U02;Int F;No.17 Group
-U02;Int F;No.18 Group
-U02;Int F;No.19 Group
-U02;Int F;No.20 Group
-U02;Str;No.1 Group
-U02;Str;No.2 Group
-U02;Str;No.6 Group
-U02;Str;No.3 Group
-U02;Str;No.4 Group
-U02;Str;No.7 Group
-U02;Str;No.8 Group
-U02;Str;No.9 Group
-U02;Str;No.10 Group
-U02;Str;No.11 Group
-U02;Str;No.12 Group
-U02;Str;No.13 Group
-U02;Str;No.14 Group
-U02;Str;No.15 Group
-U02;Str;No.16 Group
-U02;Str;No.17 Group
-U02;Str;No.18 Group
-U02;Str;No.19 Group
-U02;Str;No.20 Group
-U02;Tac;No.1 Group
-U02;Tac;No.2 Group
-U02;Tac;No.6 Group
-U02;Tac;No.3 Group
-U02;Tac;No.4 Group
-U02;Tac;No.7 Group
-U02;Tac;No.8 Group
-U02;Tac;No.9 Group
-U02;Tac;No.10 Group
-U02;Tac;No.11 Group
-U02;Tac;No.12 Group
-U02;Tac;No.13 Group
-U02;Tac;No.14 Group
-U02;Tac;No.15 Group
-U02;Tac;No.16 Group
-U02;Tac;No.17 Group
-U02;Tac;No.18 Group
-U02;Tac;No.19 Group
-U02;Tac;No.20 Group
-U02;CAS;No.1 Group
-U02;CAS;No.2 Group
-U02;CAS;No.6 Group
-U02;CAS;No.3 Group
-U02;CAS;No.4 Group
-U02;CAS;No.7 Group
-U02;CAS;No.8 Group
-U02;CAS;No.9 Group
-U02;CAS;No.10 Group
-U02;CAS;No.11 Group
-U02;CAS;No.12 Group
-U02;CAS;No.13 Group
-U02;CAS;No.14 Group
-U02;CAS;No.15 Group
-U02;CAS;No.16 Group
-U02;CAS;No.17 Group
-U02;CAS;No.18 Group
-U02;CAS;No.19 Group
-U02;CAS;No.20 Group
-U02;Nav;No.1 Group
-U02;Nav;No.2 Group
-U02;Nav;No.3 Group
-U02;Nav;No.4 Group
-U02;Nav;No.5 Group
-U02;Nav;No.7 Group
-U02;Nav;No.8 Group
-U02;Nav;No.9 Group
-U02;Nav;No.10 Group
-U02;Nav;No.11 Group
-U02;Nav;No.12 Group
-U02;Nav;No.13 Group
-U02;Nav;No.14 Group
-U02;Nav;No.15 Group
-U02;Nav;No.16 Group
-U02;Nav;No.17 Group
-U02;Nav;No.18 Group
-U02;Nav;No.19 Group
-U02;Nav;No.20 Group
-U02;Nav;No.1 Group
-U02;Nav;No.2 Group
-U02;Nav;No.3 Group
-U02;Nav;No.4 Group
-U02;Nav;No.5 Group
-U02;Nav;No.7 Group
-U02;Nav;No.8 Group
-U02;Nav;No.9 Group
-U02;Nav;No.10 Group
-U02;Nav;No.11 Group
-U02;Nav;No.12 Group
-U02;Nav;No.13 Group
-U02;Nav;No.14 Group
-U02;Nav;No.15 Group
-U02;Nav;No.16 Group
-U02;Nav;No.17 Group
-U02;Nav;No.18 Group
-U02;Nav;No.19 Group
-U02;Nav;No.20 Group
-U02;Trp;No.1 Group
-U02;Trp;No.2 Group
-U02;Trp;No.3 Group
-U02;Trp;No.4 Group
-U02;Trp;No.5 Group
-U02;Trp;No.7 Group
-U02;Trp;No.8 Group
-U02;Trp;No.9 Group
-U02;Trp;No.10 Group
-U02;Trp;No.11 Group
-U02;Trp;No.12 Group
-U02;Trp;No.13 Group
-U02;Trp;No.14 Group
-U02;Trp;No.15 Group
-U02;Trp;No.16 Group
-U02;Trp;No.17 Group
-U02;Trp;No.18 Group
-U02;Trp;No.19 Group
-U02;Trp;No.20 Group
-U02;CV;HMIS Vikrant
-U02;CV;HMIS Virrant
-U02;CV;HMIS Viraat
-U02;CV;HMIS Mysore
-U02;27;HMIS Vikrant
-U02;27;HMIS Virrant
-U02;27;HMIS Viraat
-U02;27;HMIS Mysore
-U02;31;HMIS Vikrant
-U02;31;HMIS Virrant
-U02;31;HMIS Viraat
-U02;31;HMIS Mysore
-U02;BB;HMIS Taragiri
-U02;BB;HMIS Vindhyagiri
-U02;BB;HMIS Brahmaputra
-U02;BC;HMIS Taragiri
-U02;BC;HMIS Vindhyagiri
-U02;BC;HMIS Brahmaputra
-U02;CA;HMIS Nilgiri
-U02;CA;HMIS Orissa
-U02;CA;HMIS Deccan
-U02;CA;HMIS Bihar
-U02;CA;HMIS Kumaon
-U02;CA;HMIS Rohilkhand
-U02;CA;HMIS Khyber
-U02;CA;HMIS Carnafic
-U02;CA;HMIS Rajputana
-U02;CA;HMIS Konkan
-U02;CA;HMIS Bombay
-U02;CA;HMIS Bengal
-U02;CA;HMIS Madras
-U02;CL;HMIS Nilgiri
-U02;CL;HMIS Orissa
-U02;CL;HMIS Deccan
-U02;CL;HMIS Bihar
-U02;CL;HMIS Kumaon
-U02;CL;HMIS Rohilkhand
-U02;CL;HMIS Khyber
-U02;CL;HMIS Carnafic
-U02;CL;HMIS Rajputana
-U02;CL;HMIS Konkan
-U02;CL;HMIS Bombay
-U02;CL;HMIS Bengal
-U02;CL;HMIS Madras
-U02;DD;1st Destroyer Division
-U02;DD;2nd Destroyer Division
-U02;DD;3rd Destroyer Division
-U02;DD;4th Destroyer Division
-U02;DD;5th Destroyer Division
-U02;DD;6th Destroyer Division
-U02;DD;7th Destroyer Division
-U02;DD;8th Destroyer Division
-U02;DD;9th Destroyer Division
-U02;DD;10th Destroyer Division
-U02;DD;11th Destroyer Division
-U02;DD;12th Destroyer Division
-U02;DD;13th Destroyer Division
-U02;DD;14th Destroyer Division
-U02;DD;15th Destroyer Division
-U02;SS;1st Submarine Division
-U02;SS;2nd Submarine Division
-U02;SS;3rd Submarine Division
-U02;SS;4th Submarine Division
-U02;SS;5th Submarine Division
-U02;SS;6th Submarine Division
-U02;SS;7th Submarine Division
-U02;SS;8th Submarine Division
-U02;SS;9th Submarine Division
-U02;SS;10th Submarine Division
-U02;SS;11th Submarine Division
-U02;SS;12th Submarine Division
-U02;SS;13th Submarine Division
-U02;SS;14th Submarine Division
-U02;SS;15th Submarine Division
-U02;TP;1st Transport Division
-U02;TP;2nd Transport Division
-U02;TP;3rd Transport Division
-U02;TP;4th Transport Division
-U02;TP;5th Transport Division
-U02;TP;6th Transport Division
-U02;TP;7th Transport Division
-U02;TP;8th Transport Division
-U02;TP;9th Transport Division
-U02;TP;10th Transport Division
-U02;TP;11th Transport Division
-U02;TP;12th Transport Division
-U02;TP;13th Transport Division
-U02;TP;14th Transport Division
-U02;TP;15th Transport Division
 U03;HQ;1ère Armée
 U03;HQ;2ème Armée
 U03;HQ;3ème Armée
@@ -65620,36 +65650,6 @@ U09;Inf;324. Infanterie-Division
 U09;Inf;703. Infanterie-Division
 U09;Inf;719. Infanterie-Division
 U09;Inf;827. Infanterie-Division
-U09;Gar;1. Infantriedivision
-U09;Gar;2. Infantriedivision
-U09;Gar;3. Infantriedivision
-U09;Gar;4. Infantriedivision
-U09;Gar;5. Infantriedivision
-U09;Gar;6. Infantriedivision
-U09;Gar;7. Infantriedivision
-U09;Gar;8. Infantriedivision
-U09;Gar;9. Infantriedivision
-U09;Gar;10. Infantriedivision
-U09;Gar;11. Infantriedivision
-U09;Gar;12. Infantriedivision
-U09;Gar;13. Infantriedivision
-U09;Gar;14. Infantriedivision
-U09;Gar;15. Infantriedivision
-U09;Gar;16. Infantriedivision
-U09;Gar;17. Infantriedivision
-U09;Gar;18. Infantriedivision
-U09;Gar;19. Infantriedivision
-U09;Gar;20. Infantriedivision
-U09;Gar;21. Infantriedivision
-U09;Gar;22. Infantriedivision
-U09;Gar;23. Infantriedivision
-U09;Gar;24. Infantriedivision
-U09;Gar;25. Infantriedivision
-U09;Gar;26. Infantriedivision
-U09;Gar;27. Infantriedivision
-U09;Gar;28. Infantriedivision
-U09;Gar;29. Infantriedivision
-U09;Gar;30. Infantriedivision
 U09;Inf;31. Infanterie-Division
 U09;Inf;32. Infanterie-Division
 U09;Inf;34. Infanterie-Division
@@ -65913,6 +65913,36 @@ U09;Inf;324. Infanterie-Division
 U09;Inf;703. Infanterie-Division
 U09;Inf;719. Infanterie-Division
 U09;Inf;827. Infanterie-Division
+U09;Gar;1. Infantriedivision
+U09;Gar;2. Infantriedivision
+U09;Gar;3. Infantriedivision
+U09;Gar;4. Infantriedivision
+U09;Gar;5. Infantriedivision
+U09;Gar;6. Infantriedivision
+U09;Gar;7. Infantriedivision
+U09;Gar;8. Infantriedivision
+U09;Gar;9. Infantriedivision
+U09;Gar;10. Infantriedivision
+U09;Gar;11. Infantriedivision
+U09;Gar;12. Infantriedivision
+U09;Gar;13. Infantriedivision
+U09;Gar;14. Infantriedivision
+U09;Gar;15. Infantriedivision
+U09;Gar;16. Infantriedivision
+U09;Gar;17. Infantriedivision
+U09;Gar;18. Infantriedivision
+U09;Gar;19. Infantriedivision
+U09;Gar;20. Infantriedivision
+U09;Gar;21. Infantriedivision
+U09;Gar;22. Infantriedivision
+U09;Gar;23. Infantriedivision
+U09;Gar;24. Infantriedivision
+U09;Gar;25. Infantriedivision
+U09;Gar;26. Infantriedivision
+U09;Gar;27. Infantriedivision
+U09;Gar;28. Infantriedivision
+U09;Gar;29. Infantriedivision
+U09;Gar;30. Infantriedivision
 U09;Cav;1. Kavallerie-Division
 U09;Cav;2. Kavallerie-Division
 U09;Cav;3. Kavallerie-Division
@@ -74894,18 +74924,18 @@ U28;Fig;2. Avion Luftarak Grup
 U28;Fig;3. Avion Luftarak Grup
 U28;Fig;4. Avion Luftarak Grup
 U28;Fig;5. Avion Luftarak Grup
-U28;GAR;I Këmbësori Pjesëtim
-U28;GAR;II Këmbësori Pjesëtim
-U28;GAR;III Këmbësori Pjesëtim
-U28;GAR;IV Këmbësori Pjesëtim
-U28;GAR;V Këmbësori Pjesëtim
-U28;GAR;VI Këmbësori Pjesëtim
-U28;GAR;VII Këmbësori Pjesëtim
-U28;GAR;VIII Këmbësori Pjesëtim
-U28;GAR;IX Këmbësori Pjesëtim
-U28;GAR;X Këmbësori Pjesëtim
-U28;GAR;XI Këmbësori Pjesëtim
-U28;GAR;XII Këmbësori Pjesëtim
+U28;Gar;I Këmbësori Pjesëtim
+U28;Gar;II Këmbësori Pjesëtim
+U28;Gar;III Këmbësori Pjesëtim
+U28;Gar;IV Këmbësori Pjesëtim
+U28;Gar;V Këmbësori Pjesëtim
+U28;Gar;VI Këmbësori Pjesëtim
+U28;Gar;VII Këmbësori Pjesëtim
+U28;Gar;VIII Këmbësori Pjesëtim
+U28;Gar;IX Këmbësori Pjesëtim
+U28;Gar;X Këmbësori Pjesëtim
+U28;Gar;XI Këmbësori Pjesëtim
+U28;Gar;XII Këmbësori Pjesëtim
 U28;HQ;I. Shqiperia Armé
 U28;HQ;II. Shqiperia Armé
 U28;HQ;III. Shqiperia Armé
@@ -82240,53 +82270,53 @@ USA;Mot;396th Infantry Division
 USA;Mot;397th Infantry Division
 USA;Mot;398th Infantry Division
 USA;Mot;399th Infantry Division
-USA;L Arm;1st Armored Division 'Old Ironsides'
-USA;L Arm;2nd Armored Division 'Hell on Wheels'
-USA;L Arm;3rd Armored Division 'Spearhead'
-USA;L Arm;4th Armored Division
-USA;L Arm;5th Armored Division 'Victory'
-USA;L Arm;6th Armored Division 'Super Sixth'
-USA;L Arm;7th Armored Division 'Lucky Seventh'
-USA;L Arm;8th Armored Division 'Thundering Herd'
-USA;L Arm;9th Armored Division 'Phantom'
-USA;L Arm;10th Armored Division 'Tiger'
-USA;L Arm;11th Armored Division 'Thunderbolt'
-USA;L Arm;12th Armored Division 'Hellcat'
-USA;L Arm;13th Armored Division 'Black Cat'
-USA;L Arm;14th Armored Division 'Liberator'
-USA;L Arm;16th Armored Division 'Armadillo'
-USA;L Arm;20th Armored Division 'Armoraiders'
-USA;L Arm;15th Armored Division
-USA;L Arm;27th Armored Division 'Empire'
-USA;L Arm;30th Armored Division 'Volunteers'
-USA;L Arm;40th Armored Division 'Grizzly'
-USA;L Arm;48th Armored Division 'Hurricane'
-USA;L Arm;49th Armored Division 'Lone Star'
-USA;L Arm;50rd Armored Division 'Jersey Blues'
-USA;L Arm;51st Armored Division
-USA;L Arm;52nd Armored Division
-USA;L Arm;53rd Armored Division
-USA;L Arm;54th Armored Division
-USA;L Arm;55th Armored Division
-USA;L Arm;56th Armored Division
-USA;L Arm;57th Armored Division
-USA;L Arm;58th Armored Division
-USA;L Arm;59th Armored Division
-USA;L Arm;60th Armored Division
-USA;L Arm;61st Armored Division
-USA;L Arm;62nd Armored Division
-USA;L Arm;63rd Armored Division
-USA;L Arm;64th Armored Division
-USA;L Arm;65th Armored Division
-USA;L Arm;66th Armored Division
-USA;L Arm;67th Armored Division
-USA;L Arm;68th Armored Division
-USA;L Arm;69th Armored Division
-USA;L Arm;70th Armored Division
-USA;L Arm;71st Armored Division
-USA;L Arm;72nd Armored Division
-USA;L Arm;73rd Armored Division
-USA;L Arm;74th Armored Division
+USA;L ARM;1st Armored Division 'Old Ironsides'
+USA;L ARM;2nd Armored Division 'Hell on Wheels'
+USA;L ARM;3rd Armored Division 'Spearhead'
+USA;L ARM;4th Armored Division
+USA;L ARM;5th Armored Division 'Victory'
+USA;L ARM;6th Armored Division 'Super Sixth'
+USA;L ARM;7th Armored Division 'Lucky Seventh'
+USA;L ARM;8th Armored Division 'Thundering Herd'
+USA;L ARM;9th Armored Division 'Phantom'
+USA;L ARM;10th Armored Division 'Tiger'
+USA;L ARM;11th Armored Division 'Thunderbolt'
+USA;L ARM;12th Armored Division 'Hellcat'
+USA;L ARM;13th Armored Division 'Black Cat'
+USA;L ARM;14th Armored Division 'Liberator'
+USA;L ARM;16th Armored Division 'Armadillo'
+USA;L ARM;20th Armored Division 'Armoraiders'
+USA;L ARM;15th Armored Division
+USA;L ARM;27th Armored Division 'Empire'
+USA;L ARM;30th Armored Division 'Volunteers'
+USA;L ARM;40th Armored Division 'Grizzly'
+USA;L ARM;48th Armored Division 'Hurricane'
+USA;L ARM;49th Armored Division 'Lone Star'
+USA;L ARM;50rd Armored Division 'Jersey Blues'
+USA;L ARM;51st Armored Division
+USA;L ARM;52nd Armored Division
+USA;L ARM;53rd Armored Division
+USA;L ARM;54th Armored Division
+USA;L ARM;55th Armored Division
+USA;L ARM;56th Armored Division
+USA;L ARM;57th Armored Division
+USA;L ARM;58th Armored Division
+USA;L ARM;59th Armored Division
+USA;L ARM;60th Armored Division
+USA;L ARM;61st Armored Division
+USA;L ARM;62nd Armored Division
+USA;L ARM;63rd Armored Division
+USA;L ARM;64th Armored Division
+USA;L ARM;65th Armored Division
+USA;L ARM;66th Armored Division
+USA;L ARM;67th Armored Division
+USA;L ARM;68th Armored Division
+USA;L ARM;69th Armored Division
+USA;L ARM;70th Armored Division
+USA;L ARM;71st Armored Division
+USA;L ARM;72nd Armored Division
+USA;L ARM;73rd Armored Division
+USA;L ARM;74th Armored Division
 USA;Arm;1st Armored Division 'Old Ironsides'
 USA;Arm;2nd Armored Division 'Hell on Wheels'
 USA;Arm;3rd Armored Division 'Spearhead'
@@ -85344,16 +85374,16 @@ VIE;CA;Liberté
 VIE;CA;Egalité
 VIE;CA;Fraternité
 VIE;CA;Nation
-VIE;CL;Indépendance
-VIE;CL;Liberté
-VIE;CL;Egalité
-VIE;CL;Fraternité
-VIE;CL;Nation
 VIE;CA;Indépendance
 VIE;CA;Liberté
 VIE;CA;Egalité
 VIE;CA;Fraternité
 VIE;CA;Nation
+VIE;CL;Indépendance
+VIE;CL;Liberté
+VIE;CL;Egalité
+VIE;CL;Fraternité
+VIE;CL;Nation
 VIE;DD;1ère Division de Torpilleurs
 VIE;DD;2e Division de Torpilleurs
 VIE;DD;3e Division de Torpilleurs
@@ -85510,16 +85540,16 @@ WLL;CA;Liberté
 WLL;CA;Egalité
 WLL;CA;Fraternité
 WLL;CA;Nation
-WLL;CL;Indépendance
-WLL;CL;Liberté
-WLL;CL;Egalité
-WLL;CL;Fraternité
-WLL;CL;Nation
 WLL;CA;Indépendance
 WLL;CA;Liberté
 WLL;CA;Egalité
 WLL;CA;Fraternité
 WLL;CA;Nation
+WLL;CL;Indépendance
+WLL;CL;Liberté
+WLL;CL;Egalité
+WLL;CL;Fraternité
+WLL;CL;Nation
 WLL;DD;1ère Division de Torpilleurs
 WLL;DD;2e Division de Torpilleurs
 WLL;DD;3e Division de Torpilleurs
@@ -85630,16 +85660,16 @@ YEM;Mec;Yemeni al-Mushati al-17r
 YEM;Mec;Yemeni al-Mushati al-18r
 YEM;Mec;Yemeni al-Mushati al-19r
 YEM;Mec;Yemeni al-Mushati al-20r
-YEM;L Arm;Yemeni Sipahis al-1i
-YEM;L Arm;Yemeni Sipahis al-2i
-YEM;L Arm;Yemeni Sipahis al-3i
-YEM;L Arm;Yemeni Sipahis al-4i
-YEM;L Arm;Yemeni Sipahis al-5i
-YEM;L Arm;Yemeni Sipahis al-6i
-YEM;L Arm;Yemeni Sipahis al-7i
-YEM;L Arm;Yemeni Sipahis al-8i
-YEM;L Arm;Yemeni Sipahis al-9i
-YEM;L Arm;Yemeni Sipahis al-10i
+YEM;L ARM;Yemeni Sipahis al-1i
+YEM;L ARM;Yemeni Sipahis al-2i
+YEM;L ARM;Yemeni Sipahis al-3i
+YEM;L ARM;Yemeni Sipahis al-4i
+YEM;L ARM;Yemeni Sipahis al-5i
+YEM;L ARM;Yemeni Sipahis al-6i
+YEM;L ARM;Yemeni Sipahis al-7i
+YEM;L ARM;Yemeni Sipahis al-8i
+YEM;L ARM;Yemeni Sipahis al-9i
+YEM;L ARM;Yemeni Sipahis al-10i
 YEM;Arm;Yemeni Sipahis al-1i
 YEM;Arm;Yemeni Sipahis al-2i
 YEM;Arm;Yemeni Sipahis al-3i
@@ -86206,36 +86236,6 @@ YUG;TP;17. Pomorski Saobrac Flotila
 YUG;TP;18. Pomorski Saobrac Flotila
 YUG;TP;19. Pomorski Saobrac Flotila
 YUG;TP;20. Pomorski Saobrac Flotila
-U40;Inf;1. RK. Ostland Schutz-Kommando
-U40;Inf;2. RK. Ostland Schutz-Kommando
-U40;Inf;3. RK. Ostland Schutz-Kommando
-U40;Inf;4. RK. Ostland Schutz-Kommando
-U40;Inf;5. RK. Ostland Schutz-Kommando
-U40;Inf;6. RK. Ostland Schutz-Kommando
-U40;Inf;7. RK. Ostland Schutz-Kommando
-U40;Inf;8. RK. Ostland Schutz-Kommando
-U40;Inf;9. RK. Ostland Schutz-Kommando
-U40;Inf;10. RK. Ostland Schutz-Kommando
-U40;Gar;1. Reichswehr Ostland
-U40;Gar;2. Reichswehr Ostland
-U40;Gar;3. Reichswehr Ostland
-U40;Gar;4. Reichswehr Ostland
-U40;Gar;5. Reichswehr Ostland
-U40;Gar;6. Reichswehr Ostland
-U40;Gar;7. Reichswehr Ostland
-U40;Gar;8. Reichswehr Ostland
-U40;Gar;9. Reichswehr Ostland
-U40;Gar;10. Reichswehr Ostland
-U40;Mil;1. RK. Ostland Reserve
-U40;Mil;2. RK. Ostland Reserve
-U40;Mil;3. RK. Ostland Reserve
-U40;Mil;4. RK. Ostland Reserve
-U40;Mil;5. RK. Ostland Reserve
-U40;Mil;6. RK. Ostland Reserve
-U40;Mil;7. RK. Ostland Reserve
-U40;Mil;8. RK. Ostland Reserve
-U40;Mil;9. RK. Ostland Reserve
-U40;Mil;10. RK. Ostland Reserve
 U41;Inf;1. RK. Ukraine Schutz-Kommando
 U41;Inf;2. RK. Ukraine Schutz-Kommando
 U41;Inf;3. RK. Ukraine Schutz-Kommando
@@ -86476,3 +86476,2206 @@ U44;Mil;7. Reserve Polen
 U44;Mil;8. Reserve Polen
 U44;Mil;9. Reserve Polen
 U44;Mil;10. Reserve Polen
+U00;Inf;50th Infantry Division
+U00;Inf;52nd Infantry Division
+U00;Inf;53rd Infantry Division
+U00;Inf;54th Infantry Division
+U00;Inf;55th Infantry Division
+U00;Inf;56th Infantry Division
+U00;Inf;57th Infantry Division
+U00;Inf;58th Infantry Division
+U00;Inf;59th Infantry Division
+U00;Inf;60th Infantry Division
+U00;Inf;61st Infantry Division
+U00;Inf;62nd Infantry Division
+U00;Inf;67th Infantry Division
+U00;Inf;68th Infantry Division
+U00;Inf;72nd Infantry Division
+U00;Inf;73rd Infantry Division
+U00;Inf;74th Infantry Division
+U00;Inf;107th Infantry Division
+U00;Inf;109th Infantry Division
+U00;Inf;110th Infantry Division
+U00;Inf;111th Infantry Division
+U00;Inf;112th Infantry Division
+U00;Inf;113rd Infantry Division
+U00;Inf;114th Infantry Division
+U00;Inf;115th Infantry Division
+U00;Inf;116th Infantry Division
+U00;Inf;117th Infantry Division
+U00;Inf;118th Infantry Division
+U00;Inf;119th Infantry Division
+U00;Inf;120th Infantry Division
+U00;Inf;121st Infantry Division
+U00;Inf;122nd Infantry Division
+U00;Inf;123rd Infantry Division
+U00;Inf;124th Infantry Division
+U00;Inf;125th Infantry Division
+U00;Inf;126th Infantry Division
+U00;Inf;127th Infantry Division
+U00;Inf;128th Infantry Division
+U00;Inf;129th Infantry Division
+U00;Inf;130th Infantry Division
+U00;Inf;131st Infantry Division
+U00;Inf;132nd Infantry Division
+U00;Inf;133rd Infantry Division
+U00;Inf;134th Infantry Division
+U00;Inf;135th Infantry Division
+U00;Inf;136th Infantry Division
+U00;Inf;137th Infantry Division
+U00;Inf;138th Infantry Division
+U00;Inf;139th Infantry Division
+U00;Inf;140th Infantry Division
+U00;Inf;141st Infantry Division
+U00;Inf;142nd Infantry Division
+U00;Inf;143rd Infantry Division
+U00;Inf;144th Infantry Division
+U00;Inf;145th Infantry Division
+U00;Inf;146th Infantry Division
+U00;Inf;147th Infantry Division
+U00;Inf;148th Infantry Division
+U00;Inf;149th Infantry Division
+U00;Inf;150th Infantry Division
+U00;Inf;151st Infantry Division
+U00;Inf;152nd Infantry Division
+U00;Inf;153rd Infantry Division
+U00;Inf;154th Infantry Division
+U00;Inf;155th Infantry Division
+U00;Inf;156th Infantry Division
+U00;Inf;157th Infantry Division
+U00;Inf;158th Infantry Division
+U00;Inf;159th Infantry Division
+U00;Inf;160th Infantry Division
+U00;Inf;161st Infantry Division
+U00;Inf;162nd Infantry Division
+U00;Inf;163rd Infantry Division
+U00;Inf;164th Infantry Division
+U00;Inf;165th Infantry Division
+U00;Inf;166th Infantry Division
+U00;Inf;167th Infantry Division
+U00;Inf;168th Infantry Division
+U00;Inf;169th Infantry Division
+U00;Inf;170th Infantry Division
+U00;Inf;171st Infantry Division
+U00;Inf;172nd Infantry Division
+U00;Inf;173rd Infantry Division
+U00;Inf;174th Infantry Division
+U00;Inf;175th Infantry Division
+U00;Inf;176th Infantry Division
+U00;Inf;177th Infantry Division
+U00;Inf;178th Infantry Division
+U00;Inf;179th Infantry Division
+U00;Inf;180th Infantry Division
+U00;Inf;181st Infantry Division
+U00;Inf;182nd Infantry Division
+U00;Inf;183rd Infantry Division
+U00;Inf;184th Infantry Division
+U00;Inf;185th Infantry Division
+U00;Inf;186th Infantry Division
+U00;Inf;187th Infantry Division
+U00;Inf;188th Infantry Division
+U00;Inf;189th Infantry Division
+U00;Inf;190th Infantry Division
+U00;Inf;191st Infantry Division
+U00;Inf;192nd Infantry Division
+U00;Inf;193rd Infantry Division
+U00;Inf;194th Infantry Division
+U00;Inf;195th Infantry Division
+U00;Inf;196th Infantry Division
+U00;Inf;197th Infantry Division
+U00;Inf;198th Infantry Division
+U00;Inf;199th Infantry Division
+U00;Inf;200th Infantry Division
+U00;Inf;201st Infantry Division
+U00;Inf;202nd Infantry Division
+U00;Inf;203rd Infantry Division
+U00;Inf;204th Infantry Division
+U00;Inf;205th Infantry Division
+U00;Inf;206th Infantry Division
+U00;Inf;207th Infantry Division
+U00;Inf;208th Infantry Division
+U00;Inf;209th Infantry Division
+U00;Inf;210th Infantry Division
+U00;Inf;211th Infantry Division
+U00;Inf;212th Infantry Division
+U00;Inf;213rd Infantry Division
+U00;Inf;214th Infantry Division
+U00;Inf;215th Infantry Division
+U00;Inf;216th Infantry Division
+U00;Inf;217th Infantry Division
+U00;Inf;218th Infantry Division
+U00;Inf;219th Infantry Division
+U00;Inf;220th Infantry Division
+U00;Inf;221st Infantry Division
+U00;Inf;222nd Infantry Division
+U00;Inf;223rd Infantry Division
+U00;Inf;224th Infantry Division
+U00;Inf;225th Infantry Division
+U00;Inf;226th Infantry Division
+U00;Inf;227th Infantry Division
+U00;Inf;228th Infantry Division
+U00;Inf;229th Infantry Division
+U00;Inf;230th Infantry Division
+U00;Inf;231st Infantry Division
+U00;Inf;232nd Infantry Division
+U00;Inf;233rd Infantry Division
+U00;Inf;234th Infantry Division
+U00;Inf;235th Infantry Division
+U00;Inf;236th Infantry Division
+U00;Inf;237th Infantry Division
+U00;Inf;238th Infantry Division
+U00;Inf;239th Infantry Division
+U00;Inf;240th Infantry Division
+U00;Inf;241st Infantry Division
+U00;Inf;242nd Infantry Division
+U00;Inf;243rd Infantry Division
+U00;Inf;244th Infantry Division
+U00;Inf;245th Infantry Division
+U00;Inf;246th Infantry Division
+U00;Inf;247th Infantry Division
+U00;Inf;248th Infantry Division
+U00;Inf;249th Infantry Division
+U00;Inf;250th Infantry Division
+U00;Inf;251st Infantry Division
+U00;Inf;252nd Infantry Division
+U00;Inf;253rd Infantry Division
+U00;Inf;254th Infantry Division
+U00;Inf;255th Infantry Division
+U00;Inf;256th Infantry Division
+U00;Inf;257th Infantry Division
+U00;Inf;258th Infantry Division
+U00;Inf;259th Infantry Division
+U00;Inf;260th Infantry Division
+U00;Inf;261st Infantry Division
+U00;Inf;262nd Infantry Division
+U00;Inf;263rd Infantry Division
+U00;Inf;264th Infantry Division
+U00;Inf;265th Infantry Division
+U00;Inf;266th Infantry Division
+U00;Inf;267th Infantry Division
+U00;Inf;268th Infantry Division
+U00;Inf;269th Infantry Division
+U00;Inf;270th Infantry Division
+U00;Inf;271st Infantry Division
+U00;Inf;272nd Infantry Division
+U00;Inf;273rd Infantry Division
+U00;Inf;274th Infantry Division
+U00;Inf;275th Infantry Division
+U00;Inf;276th Infantry Division
+U00;Inf;277th Infantry Division
+U00;Inf;278th Infantry Division
+U00;Inf;279th Infantry Division
+U00;Inf;280th Infantry Division
+U00;Inf;281st Infantry Division
+U00;Inf;282nd Infantry Division
+U00;Inf;283rd Infantry Division
+U00;Inf;284th Infantry Division
+U00;Inf;285th Infantry Division
+U00;Inf;286th Infantry Division
+U00;Inf;287th Infantry Division
+U00;Inf;288th Infantry Division
+U00;Inf;289th Infantry Division
+U00;Inf;290th Infantry Division
+U00;Inf;291st Infantry Division
+U00;Inf;292nd Infantry Division
+U00;Inf;293rd Infantry Division
+U00;Inf;294th Infantry Division
+U00;Inf;295th Infantry Division
+U00;Inf;296th Infantry Division
+U00;Inf;297th Infantry Division
+U00;Inf;298th Infantry Division
+U00;Inf;299th Infantry Division
+U00;Inf;300th Infantry Division
+U00;Inf;301st Infantry Division
+U00;Inf;302nd Infantry Division
+U00;Inf;303rd Infantry Division
+U00;Inf;304th Infantry Division
+U00;Inf;305th Infantry Division
+U00;Inf;306th Infantry Division
+U00;Inf;307th Infantry Division
+U00;Inf;308th Infantry Division
+U00;Inf;309th Infantry Division
+U00;Inf;310th Infantry Division
+U00;Inf;311th Infantry Division
+U00;Inf;312th Infantry Division
+U00;Inf;313rd Infantry Division
+U00;Inf;314th Infantry Division
+U00;Inf;315th Infantry Division
+U00;Inf;316th Infantry Division
+U00;Inf;317th Infantry Division
+U00;Inf;318th Infantry Division
+U00;Inf;319th Infantry Division
+U00;Inf;320th Infantry Division
+U00;Inf;321st Infantry Division
+U00;Inf;322nd Infantry Division
+U00;Inf;323rd Infantry Division
+U00;Inf;324th Infantry Division
+U00;Inf;325th Infantry Division
+U00;Inf;326th Infantry Division
+U00;Inf;327th Infantry Division
+U00;Inf;328th Infantry Division
+U00;Inf;329th Infantry Division
+U00;Inf;330th Infantry Division
+U00;Inf;331st Infantry Division
+U00;Inf;332nd Infantry Division
+U00;Inf;333rd Infantry Division
+U00;Inf;334th Infantry Division
+U00;Inf;335th Infantry Division
+U00;Inf;336th Infantry Division
+U00;Inf;337th Infantry Division
+U00;Inf;338th Infantry Division
+U00;Inf;339th Infantry Division
+U00;Inf;340th Infantry Division
+U00;Inf;341st Infantry Division
+U00;Inf;342nd Infantry Division
+U00;Inf;343rd Infantry Division
+U00;Inf;344th Infantry Division
+U00;Inf;345th Infantry Division
+U00;Inf;346th Infantry Division
+U00;Inf;347th Infantry Division
+U00;Inf;348th Infantry Division
+U00;Inf;349th Infantry Division
+U00;Inf;350th Infantry Division
+U00;Inf;351st Infantry Division
+U00;Inf;352nd Infantry Division
+U00;Inf;353rd Infantry Division
+U00;Inf;354th Infantry Division
+U00;Inf;355th Infantry Division
+U00;Inf;356th Infantry Division
+U00;Inf;357th Infantry Division
+U00;Inf;358th Infantry Division
+U00;Inf;359th Infantry Division
+U00;Inf;360th Infantry Division
+U00;Inf;361st Infantry Division
+U00;Inf;362nd Infantry Division
+U00;Inf;363rd Infantry Division
+U00;Inf;364th Infantry Division
+U00;Inf;365th Infantry Division
+U00;Inf;366th Infantry Division
+U00;Inf;367th Infantry Division
+U00;Inf;368th Infantry Division
+U00;Inf;369th Infantry Division
+U00;Inf;370th Infantry Division
+U00;Inf;371st Infantry Division
+U00;Inf;372nd Infantry Division
+U00;Inf;373rd Infantry Division
+U00;Inf;374th Infantry Division
+U00;Inf;375th Infantry Division
+U00;Inf;376th Infantry Division
+U00;Inf;377th Infantry Division
+U00;Inf;378th Infantry Division
+U00;Inf;379th Infantry Division
+U00;Inf;380th Infantry Division
+U00;Inf;381st Infantry Division
+U00;Inf;382nd Infantry Division
+U00;Inf;383rd Infantry Division
+U00;Inf;384th Infantry Division
+U00;Inf;385th Infantry Division
+U00;Inf;386th Infantry Division
+U00;Inf;387th Infantry Division
+U00;Inf;388th Infantry Division
+U00;Inf;389th Infantry Division
+U00;Inf;390th Infantry Division
+U00;Inf;391st Infantry Division
+U00;Inf;392nd Infantry Division
+U00;Inf;393rd Infantry Division
+U00;Inf;394th Infantry Division
+U00;Inf;395th Infantry Division
+U00;Inf;396th Infantry Division
+U00;Inf;397th Infantry Division
+U00;Inf;398th Infantry Division
+U00;Inf;399th Infantry Division
+U00;HQ;1st Army
+U00;HQ;2nd Army
+U00;HQ;3rd Army
+U00;HQ;4th Army
+U00;HQ;5th Army
+U00;HQ;6th Army
+U00;HQ;7th Army
+U00;HQ;8th Army
+U00;HQ;9th Army
+U00;HQ;10th Army
+U00;HQ;15th Army
+U00;Gar;200th Infantry Division
+U00;Gar;201st Infantry Division
+U00;Gar;202nd Infantry Division
+U00;Gar;203rd Infantry Division
+U00;Gar;204th Infantry Division
+U00;Gar;205th Infantry Division
+U00;Gar;206th Infantry Division
+U00;Gar;207th Infantry Division
+U00;Gar;208th Infantry Division
+U00;Gar;209th Infantry Division
+U00;Gar;210th Infantry Division
+U00;Gar;211th Infantry Division
+U00;Gar;212th Infantry Division
+U00;Gar;213rd Infantry Division
+U00;Gar;214th Infantry Division
+U00;Gar;215th Infantry Division
+U00;Gar;216th Infantry Division
+U00;Gar;217th Infantry Division
+U00;Gar;218th Infantry Division
+U00;Gar;219th Infantry Division
+U00;Gar;220th Infantry Division
+U00;Gar;221st Infantry Division
+U00;Gar;222nd Infantry Division
+U00;Gar;223rd Infantry Division
+U00;Gar;224th Infantry Division
+U00;Gar;225th Infantry Division
+U00;Gar;226th Infantry Division
+U00;Gar;227th Infantry Division
+U00;Gar;228th Infantry Division
+U00;Gar;229th Infantry Division
+U00;Gar;230th Infantry Division
+U00;Gar;231st Infantry Division
+U00;Gar;232nd Infantry Division
+U00;Gar;233rd Infantry Division
+U00;Gar;234th Infantry Division
+U00;Gar;235th Infantry Division
+U00;Gar;236th Infantry Division
+U00;Gar;237th Infantry Division
+U00;Gar;238th Infantry Division
+U00;Gar;239th Infantry Division
+U00;Gar;240th Infantry Division
+U00;Gar;241st Infantry Division
+U00;Gar;242nd Infantry Division
+U00;Gar;243rd Infantry Division
+U00;Gar;244th Infantry Division
+U00;Gar;245th Infantry Division
+U00;Gar;246th Infantry Division
+U00;Gar;247th Infantry Division
+U00;Gar;248th Infantry Division
+U00;Gar;249th Infantry Division
+U00;Gar;250th Infantry Division
+U00;Gar;251st Infantry Division
+U00;Gar;252nd Infantry Division
+U00;Gar;253rd Infantry Division
+U00;Gar;254th Infantry Division
+U00;Gar;255th Infantry Division
+U00;Gar;256th Infantry Division
+U00;Gar;257th Infantry Division
+U00;Gar;258th Infantry Division
+U00;Gar;259th Infantry Division
+U00;Gar;260th Infantry Division
+U00;Gar;261st Infantry Division
+U00;Gar;262nd Infantry Division
+U00;Gar;263rd Infantry Division
+U00;Gar;264th Infantry Division
+U00;Gar;265th Infantry Division
+U00;Gar;266th Infantry Division
+U00;Gar;267th Infantry Division
+U00;Gar;268th Infantry Division
+U00;Gar;269th Infantry Division
+U00;Gar;270th Infantry Division
+U00;Cav;61st Cavalry Division
+U00;Cav;62nd Cavalry Division
+U00;Cav;63rd Cavalry Division
+U00;Cav;64th Cavalry Division
+U00;Cav;65th Cavalry Division
+U00;Cav;66th Cavalry Division
+U00;Cav;15th Cavalry Division
+U00;Cav;25th Cavalry Division
+U00;Cav;26th Cavalry Division
+U00;Cav;27th Cavalry Division
+U00;Cav;28th Cavalry Division
+U00;Cav;29th Cavalry Division
+U00;Cav;30th Cavalry Division
+U00;L ARM;6th Armored Division 'Super Sixth'
+U00;L ARM;7th Armored Division 'Lucky Seventh'
+U00;L ARM;8th Armored Division 'Thundering Herd'
+U00;L ARM;9th Armored Division 'Phantom'
+U00;L ARM;10th Armored Division 'Tiger'
+U00;L ARM;11th Armored Division 'Thunderbolt'
+U00;L ARM;12th Armored Division 'Hellcat'
+U00;L ARM;13th Armored Division 'Black Cat'
+U00;L ARM;14th Armored Division 'Liberator'
+U00;L ARM;16th Armored Division 'Armadillo'
+U00;L ARM;20th Armored Division 'Armoraiders'
+U00;L ARM;15th Armored Division
+U00;L ARM;27th Armored Division 'Empire'
+U00;L ARM;30th Armored Division 'Volunteers'
+U00;L ARM;40th Armored Division 'Grizzly'
+U00;L ARM;48th Armored Division 'Hurricane'
+U00;L ARM;49th Armored Division 'Lone Star'
+U00;L ARM;50rd Armored Division 'Jersey Blues'
+U00;L ARM;51st Armored Division
+U00;L ARM;52nd Armored Division
+U00;L ARM;53rd Armored Division
+U00;L ARM;54th Armored Division
+U00;L ARM;55th Armored Division
+U00;L ARM;56th Armored Division
+U00;L ARM;57th Armored Division
+U00;L ARM;58th Armored Division
+U00;L ARM;59th Armored Division
+U00;L ARM;60th Armored Division
+U00;Arm;6th Armored Division 'Super Sixth'
+U00;Arm;7th Armored Division 'Lucky Seventh'
+U00;Arm;8th Armored Division 'Thundering Herd'
+U00;Arm;9th Armored Division 'Phantom'
+U00;Arm;10th Armored Division 'Tiger'
+U00;Arm;11th Armored Division 'Thunderbolt'
+U00;Arm;12th Armored Division 'Hellcat'
+U00;Arm;13th Armored Division 'Black Cat'
+U00;Arm;14th Armored Division 'Liberator'
+U00;Arm;16th Armored Division 'Armadillo'
+U00;Arm;20th Armored Division 'Armoraiders'
+U00;Arm;15th Armored Division
+U00;Arm;27th Armored Division 'Empire'
+U00;Arm;30th Armored Division 'Volunteers'
+U00;Arm;40th Armored Division 'Grizzly'
+U00;Arm;48th Armored Division 'Hurricane'
+U00;Arm;49th Armored Division 'Lone Star'
+U00;Arm;50rd Armored Division 'Jersey Blues'
+U00;Arm;51st Armored Division
+U00;Arm;52nd Armored Division
+U00;Arm;53rd Armored Division
+U00;Arm;54th Armored Division
+U00;Arm;55th Armored Division
+U00;Arm;56th Armored Division
+U00;Arm;57th Armored Division
+U00;Arm;58th Armored Division
+U00;Arm;59th Armored Division
+U00;Arm;60th Armored Division
+U00;Par;13th Airborne Division
+U00;Par;17th Airborne Division 'Golden Talons'
+U00;Par;18th Airborne Division
+U00;Par;21st Airborne Division
+U00;Par;135th Airborne Division
+U00;Par;9th Airborne Division
+U00;Par;202nd Airborne Division
+U00;Par;271st Airborne Division
+U00;Par;272nd Airborne Division
+U00;Par;273th Airborne Division
+U00;Par;274th Airborne Division
+U00;Par;275th Airborne Division
+U00;Par;276th Airborne Division
+U00;Par;277th Airborne Division
+U00;Par;278th Airborne Division
+U00;Mar;1st Marine Division 'Old Breed'
+U00;Mar;2nd Marine Division 'Silent Second'
+U00;Mar;3rd Marine Division 'Fighting Third'
+U00;Mar;4th Marine Division 'Fighting Fourth'
+U00;Mar;5th Marine Division 'Spearhead'
+U00;Mar;6th Marine Division 'Striking Sixth'
+U00;Mar;7th Marine Division
+U00;Mar;8th Marine Division
+U00;Mar;9th Marine Division
+U00;Mar;10th Marine Division
+U00;Mar;11th Marine Division
+U00;Mar;12th Marine Division
+U00;Mar;13th Marine Division
+U00;Mar;14th Marine Division
+U00;Mar;15th Marine Division
+U00;Mar;16th Marine Division
+U00;Mar;17th Marine Division
+U00;Mar;18th Marine Division
+U00;Mar;19th Marine Division
+U00;Mar;20th Marine Division
+U00;Mar;21st Marine Division
+U00;Mar;22nd Marine Division
+U00;Mar;23rd Marine Division
+U00;Mar;24th Marine Division
+U00;Mar;25th Marine Division
+U00;Mar;26th Marine Division
+U00;Mar;27th Marine Division
+U00;Mar;28th Marine Division
+U00;Mar;29th Marine Division
+U00;Mar;30th Marine Division
+U00;Mar;31st Marine Division
+U00;Mar;32nd Marine Division
+U00;Mar;33rd Marine Division
+U00;Mar;34th Marine Division
+U00;Mar;35th Marine Division
+U00;Mar;36th Marine Division
+U00;Mar;37th Marine Division
+U00;Mar;38th Marine Division
+U00;Mar;39th Marine Division
+U00;Mar;40th Marine Division
+U00;Mar;41st Marine Division
+U00;Mar;42nd Marine Division
+U00;Mar;43rd Marine Division
+U00;Mar;44th Marine Division
+U00;Mar;45th Marine Division
+U00;Mar;46th Marine Division
+U00;Mar;47th Marine Division
+U00;Mar;48th Marine Division
+U00;Mar;49th Marine Division
+U00;Mtn;10th Mountain Division
+U00;Mtn;14th Mountain Division
+U00;Mtn;22nd Mountain Division
+U00;Mtn;50th Mountain Division
+U00;Mtn;55th Mountain Division
+U00;Mtn;12th Mountain Division
+U00;Mtn;15th Mountain Division
+U00;Mtn;16th Mountain Division
+U00;Mtn;19th Mountain Division
+U00;Mtn;20th Mountain Division
+U00;Mtn;48th Mountain Division
+U00;Mtn;49th Mountain Division
+U00;Mtn;51st Mountain Division
+U00;Mtn;52nd Mountain Division
+U00;Mtn;53rd Mountain Division
+U00;Mtn;54th Mountain Division
+U00;Mtn;56th Mountain Division
+U00;Mtn;57th Mountain Division
+U00;Mtn;58th Mountain Division
+U00;Mtn;59th Mountain Division
+U00;Mtn;204th Mountain Division
+U00;Mtn;279th Mountain Division
+U00;Mtn;280th Mountain Division
+U00;Mtn;281st Mountain Division
+U00;Mtn;282nd Mountain Division
+U00;Mtn;283rd Mountain Division
+U00;Mtn;284th Mountain Division
+U00;Mtn;285th Mountain Division
+U00;Mtn;286th Mountain Division
+U00;Mtn;287th Mountain Division
+U00;Mtn;288th Mountain Division
+U00;Mil;1st Klan Militiamen
+U00;Mil;2nd Klan Militiam
+U00;Mil;3rd Klan Militiamen
+U00;Mil;4th Klan Militiamen
+U00;Mil;5th Klan Militiamen
+U00;Mil;6th Klan Militiamen
+U00;Mil;6st Klan Militiamen
+U00;Mil;7st Klan Militiamen
+U00;Mil;8st Klan Militiamen
+U00;Mil;9st Klan Militiamen
+U00;Mil;10st Klan Militiamen
+U00;Mil;11st Klan Militiamen
+U00;Mil;12st Klan Militiamen
+U00;Mil;13st Klan Militiamen
+U00;Mil;14st Klan Militiamen
+U00;Mil;15st Klan Militiamen
+U00;Mil;16st Klan Militiamen
+U00;Mil;17st Klan Militiamen
+U00;Mil;18st Klan Militiamen
+U00;Mil;19st Klan Militiamen
+U00;Mil;20st Klan Militiamen
+U00;Mil;21st Klan Militiamen
+U00;Mil;22st Klan Militiamen
+U00;Mil;23st Klan Militiamen
+U00;Mil;24st Klan Militiamen
+U00;Mil;25st Klan Militiamen
+U00;Mil;26st Klan Militiamen
+U00;Mil;27st Klan Militiamen
+U00;Mil;28st Klan Militiamen
+U00;Mil;29st Klan Militiamen
+U00;Mil;30st Klan Militiamen
+U00;Mil;31st Klan Militiamen
+U00;Mil;32st Klan Militiamen
+U00;Mil;33st Klan Militiamen
+U00;Mil;34st Klan Militiamen
+U00;Mil;35st Klan Militiamen
+U00;Mil;36st Klan Militiamen
+U00;Mil;37st Klan Militiamen
+U00;Mil;38st Klan Militiamen
+U00;Mil;39st Klan Militiamen
+U00;Mil;40st Klan Militiamen
+U00;Mil;41st Klan Militiamen
+U00;Mil;42st Klan Militiamen
+U00;Mil;43st Klan Militiamen
+U00;Fig;6th AAAF Fighter Wing
+U00;Fig;7th AAAF Fighter Wing
+U00;Fig;9th AAAF Fighter Wing
+U00;Fig;10th AAAF Fighter Wing
+U00;Fig;11th AAAF Fighter Wing
+U00;Fig;62d AAAF Fighter Wing
+U00;Fig;63d AAAF Fighter Wing
+U00;Fig;64th AAAF Fighter Wing
+U00;Fig;65th AAAF Fighter Wing
+U00;Fig;66th AAAF Fighter Wing
+U00;Fig;67th AAAF Fighter Wing
+U00;Fig;70th AAAF Fighter Wing
+U00;Fig;71st AAAF Fighter Wing
+U00;Fig;84th AAAF Fighter Wing
+U00;Fig;85th AAAF Fighter Wing
+U00;Fig;86th AAAF Fighter Wing
+U00;Fig;87th AAAF Fighter Wing
+U00;Fig;100th AAAF Fighter Wing
+U00;Fig;303nd AAAF Fighter Wing
+U00;Fig;306th AAAF Fighter Wing
+U00;Fig;312th AAAF Fighter Wing
+U00;Fig;48th AAAF Fighter Wing
+U00;Fig;301st AAAF Fighter Wing
+U00;Fig;72nd AAAF Fighter Wing
+U00;Fig;35th AAAF Fighter Wing
+U00;Fig;355th AAAF Fighter Wing
+U00;Fig;366th AAAF Fighter Wing
+U00;Fig;388th AAAF Fighter Wing
+U00;Fig;419th AAAF Fighter Wing
+U00;Fig;442nd AAAF Fighter Wing
+U00;Fig;482nd AAAF Fighter Wing
+U00;Fig;926th AAAF Fighter Wing
+U00;Fig;944th AAAF Fighter Wing
+U00;Fig;948th AAAF Fighter Wing
+U00;Fig;954th AAAF Fighter Wing
+U00;Fig;964th AAAF Fighter Wing
+U00;Fig;974th AAAF Fighter Wing
+U00;Fig;984th AAAF Fighter Wing
+U00;Fig;994th AAAF Fighter Wing
+U00;Fig;456th AAAF Fighter Wing
+U00;Fig;789th AAAF Fighter Wing
+U00;Fig;278th AAAF Fighter Wing
+U00;Fig;443rd AAAF Fighter Wing
+U00;Fig;444th AAAF Fighter Wing
+U00;Fig;445th AAAF Fighter Wing
+U00;Fig;446th AAAF Fighter Wing
+U00;Fig;447th AAAF Fighter Wing
+U00;Fig;448th AAAF Fighter Wing
+U00;Fig;449th AAAF Fighter Wing
+U00;Fig;450th AAAF Fighter Wing
+U00;Fig;451st AAAF Fighter Wing
+U00;Fig;452d AAAF Fighter Wing
+U00;Fig;453rd AAAF Fighter Wing
+U00;Fig;454th AAAF Fighter Wing
+U00;Fig;455th AAAF Fighter Wing
+U00;Fig;457th AAAF Fighter Wing
+U00;Fig;458th AAAF Fighter Wing
+U00;Fig;459th AAAF Fighter Wing
+U00;Fig;460th AAAF Fighter Wing
+U00;Int F;6th AAAF Fighter Wing
+U00;Int F;7th AAAF Fighter Wing
+U00;Int F;9th AAAF Fighter Wing
+U00;Int F;10th AAAF Fighter Wing
+U00;Int F;11th AAAF Fighter Wing
+U00;Int F;62d AAAF Fighter Wing
+U00;Int F;63d AAAF Fighter Wing
+U00;Int F;64th AAAF Fighter Wing
+U00;Int F;65th AAAF Fighter Wing
+U00;Int F;66th AAAF Fighter Wing
+U00;Int F;67th AAAF Fighter Wing
+U00;Int F;70th AAAF Fighter Wing
+U00;Int F;71st AAAF Fighter Wing
+U00;Int F;84th AAAF Fighter Wing
+U00;Int F;85th AAAF Fighter Wing
+U00;Int F;86th AAAF Fighter Wing
+U00;Int F;87th AAAF Fighter Wing
+U00;Int F;100th AAAF Fighter Wing
+U00;Int F;303nd AAAF Fighter Wing
+U00;Int F;306th AAAF Fighter Wing
+U00;Int F;312th AAAF Fighter Wing
+U00;Int F;48th AAAF Fighter Wing
+U00;Int F;301st AAAF Fighter Wing
+U00;Int F;72nd AAAF Fighter Wing
+U00;Int F;35th AAAF Fighter Wing
+U00;Int F;355th AAAF Fighter Wing
+U00;Int F;366th AAAF Fighter Wing
+U00;Int F;388th AAAF Fighter Wing
+U00;Int F;419th AAAF Fighter Wing
+U00;Int F;442nd AAAF Fighter Wing
+U00;Int F;482nd AAAF Fighter Wing
+U00;Int F;926th AAAF Fighter Wing
+U00;Int F;944th AAAF Fighter Wing
+U00;Int F;948th AAAF Fighter Wing
+U00;Int F;954th AAAF Fighter Wing
+U00;Int F;964th AAAF Fighter Wing
+U00;Int F;974th AAAF Fighter Wing
+U00;Int F;984th AAAF Fighter Wing
+U00;Int F;994th AAAF Fighter Wing
+U00;Int F;456th AAAF Fighter Wing
+U00;Int F;789th AAAF Fighter Wing
+U00;Int F;278th AAAF Fighter Wing
+U00;Int F;443rd AAAF Fighter Wing
+U00;Int F;444th AAAF Fighter Wing
+U00;Int F;445th AAAF Fighter Wing
+U00;Int F;446th AAAF Fighter Wing
+U00;Int F;447th AAAF Fighter Wing
+U00;Int F;448th AAAF Fighter Wing
+U00;Int F;449th AAAF Fighter Wing
+U00;Int F;450th AAAF Fighter Wing
+U00;Int F;451st AAAF Fighter Wing
+U00;Int F;452d AAAF Fighter Wing
+U00;Int F;453rd AAAF Fighter Wing
+U00;Int F;454th AAAF Fighter Wing
+U00;Int F;455th AAAF Fighter Wing
+U00;Int F;457th AAAF Fighter Wing
+U00;Int F;458th AAAF Fighter Wing
+U00;Int F;459th AAAF Fighter Wing
+U00;Int F;460th AAAF Fighter Wing
+U00;32;6th AAAF Fighter Wing
+U00;32;7th AAAF Fighter Wing
+U00;32;9th AAAF Fighter Wing
+U00;32;10th AAAF Fighter Wing
+U00;32;11th AAAF Fighter Wing
+U00;32;62d AAAF Fighter Wing
+U00;32;63d AAAF Fighter Wing
+U00;32;64th AAAF Fighter Wing
+U00;32;65th AAAF Fighter Wing
+U00;32;66th AAAF Fighter Wing
+U00;32;67th AAAF Fighter Wing
+U00;32;70th AAAF Fighter Wing
+U00;32;71st AAAF Fighter Wing
+U00;32;84th AAAF Fighter Wing
+U00;32;85th AAAF Fighter Wing
+U00;32;86th AAAF Fighter Wing
+U00;32;87th AAAF Fighter Wing
+U00;32;100th AAAF Fighter Wing
+U00;32;303nd AAAF Fighter Wing
+U00;32;306th AAAF Fighter Wing
+U00;32;312th AAAF Fighter Wing
+U00;32;48th AAAF Fighter Wing
+U00;32;301st AAAF Fighter Wing
+U00;32;72nd AAAF Fighter Wing
+U00;32;35th AAAF Fighter Wing
+U00;32;355th AAAF Fighter Wing
+U00;32;366th AAAF Fighter Wing
+U00;32;388th AAAF Fighter Wing
+U00;32;419th AAAF Fighter Wing
+U00;32;442nd AAAF Fighter Wing
+U00;32;482nd AAAF Fighter Wing
+U00;32;926th AAAF Fighter Wing
+U00;32;944th AAAF Fighter Wing
+U00;32;948th AAAF Fighter Wing
+U00;32;954th AAAF Fighter Wing
+U00;32;964th AAAF Fighter Wing
+U00;32;974th AAAF Fighter Wing
+U00;32;984th AAAF Fighter Wing
+U00;32;994th AAAF Fighter Wing
+U00;32;456th AAAF Fighter Wing
+U00;32;789th AAAF Fighter Wing
+U00;32;278th AAAF Fighter Wing
+U00;32;443rd AAAF Fighter Wing
+U00;32;444th AAAF Fighter Wing
+U00;32;445th AAAF Fighter Wing
+U00;32;446th AAAF Fighter Wing
+U00;32;447th AAAF Fighter Wing
+U00;32;448th AAAF Fighter Wing
+U00;32;449th AAAF Fighter Wing
+U00;32;450th AAAF Fighter Wing
+U00;32;451st AAAF Fighter Wing
+U00;32;452d AAAF Fighter Wing
+U00;32;453rd AAAF Fighter Wing
+U00;32;454th AAAF Fighter Wing
+U00;32;455th AAAF Fighter Wing
+U00;32;457th AAAF Fighter Wing
+U00;32;458th AAAF Fighter Wing
+U00;32;459th AAAF Fighter Wing
+U00;32;460th AAAF Fighter Wing
+U00;Esc F;6th AAAF Fighter Wing
+U00;Esc F;7th AAAF Fighter Wing
+U00;Esc F;9th AAAF Fighter Wing
+U00;Esc F;10th AAAF Fighter Wing
+U00;Esc F;11th AAAF Fighter Wing
+U00;Esc F;62d AAAF Fighter Wing
+U00;Esc F;63d AAAF Fighter Wing
+U00;Esc F;64th AAAF Fighter Wing
+U00;Esc F;65th AAAF Fighter Wing
+U00;Esc F;66th AAAF Fighter Wing
+U00;Esc F;67th AAAF Fighter Wing
+U00;Esc F;70th AAAF Fighter Wing
+U00;Esc F;71st AAAF Fighter Wing
+U00;Esc F;84th AAAF Fighter Wing
+U00;Esc F;85th AAAF Fighter Wing
+U00;Esc F;86th AAAF Fighter Wing
+U00;Esc F;87th AAAF Fighter Wing
+U00;Esc F;100th AAAF Fighter Wing
+U00;Esc F;303nd AAAF Fighter Wing
+U00;Esc F;306th AAAF Fighter Wing
+U00;Esc F;312th AAAF Fighter Wing
+U00;Esc F;48th AAAF Fighter Wing
+U00;Esc F;301st AAAF Fighter Wing
+U00;Esc F;72nd AAAF Fighter Wing
+U00;Esc F;35th AAAF Fighter Wing
+U00;Esc F;355th AAAF Fighter Wing
+U00;Esc F;366th AAAF Fighter Wing
+U00;Esc F;388th AAAF Fighter Wing
+U00;Esc F;419th AAAF Fighter Wing
+U00;Esc F;442nd AAAF Fighter Wing
+U00;Esc F;482nd AAAF Fighter Wing
+U00;Esc F;926th AAAF Fighter Wing
+U00;Esc F;944th AAAF Fighter Wing
+U00;Esc F;948th AAAF Fighter Wing
+U00;Esc F;954th AAAF Fighter Wing
+U00;Esc F;964th AAAF Fighter Wing
+U00;Esc F;974th AAAF Fighter Wing
+U00;Esc F;984th AAAF Fighter Wing
+U00;Esc F;994th AAAF Fighter Wing
+U00;Esc F;456th AAAF Fighter Wing
+U00;Esc F;789th AAAF Fighter Wing
+U00;Esc F;278th AAAF Fighter Wing
+U00;Esc F;443rd AAAF Fighter Wing
+U00;Esc F;444th AAAF Fighter Wing
+U00;Esc F;445th AAAF Fighter Wing
+U00;Esc F;446th AAAF Fighter Wing
+U00;Esc F;447th AAAF Fighter Wing
+U00;Esc F;448th AAAF Fighter Wing
+U00;Esc F;449th AAAF Fighter Wing
+U00;Esc F;450th AAAF Fighter Wing
+U00;Esc F;451st AAAF Fighter Wing
+U00;Esc F;452d AAAF Fighter Wing
+U00;Esc F;453rd AAAF Fighter Wing
+U00;Esc F;454th AAAF Fighter Wing
+U00;Esc F;455th AAAF Fighter Wing
+U00;Esc F;457th AAAF Fighter Wing
+U00;Esc F;458th AAAF Fighter Wing
+U00;Esc F;459th AAAF Fighter Wing
+U00;Esc F;460th AAAF Fighter Wing
+U00;Str;1st AAAF Strategic Bomb. Wing
+U00;Str;2nd AAAF Strategic Bomb. Wing
+U00;Str;13th AAAF Strategic Bomb. Wing
+U00;Str;4th AAAF Strategic Bomb. Wing
+U00;Str;5th AAAF Strategic Bomb. Wing
+U00;Str;12th AAAF Strategic Bomb. Wing
+U00;Str;47th AAAF Strategic Bomb. Wing
+U00;Str;57th AAAF Strategic Bomb. Wing
+U00;Str;14th AAAF Strategic Bomb. Wing
+U00;Str;20th AAAF Strategic Bomb. Wing
+U00;Str;98th AAAF Strategic Bomb. Wing
+U00;Str;21st AAAF Strategic Bomb. Wing
+U00;Str;40th AAAF Strategic Bomb. Wing
+U00;Str;41st AAAF Strategic Bomb. Wing
+U00;Str;42d AAAF Strategic Bomb. Wing
+U00;Str;45th AAAF Strategic Bomb. Wing
+U00;Str;99th AAAF Strategic Bomb. Wing
+U00;Str;49th AAAF Strategic Bomb. Wing
+U00;Str;55th AAAF Strategic Bomb. Wing
+U00;Str;58th AAAF Strategic Bomb. Wing
+U00;Str;92d AAAF Strategic Bomb. Wing
+U00;Str;93rd AAAF Strategic Bomb. Wing
+U00;Str;94th AAAF Strategic Bomb. Wing
+U00;Str;95th AAAF Strategic Bomb. Wing
+U00;Str;97th AAAF Strategic Bomb. Wing
+U00;Str;96th AAAF Strategic Bomb. Wing
+U00;Str;73rd AAAF Strategic Bomb. Wing
+U00;Str;304th AAAF Strategic Bomb. Wing
+U00;Str;305th AAAF Strategic Bomb. Wing
+U00;Str;307th AAAF Strategic Bomb. Wing
+U00;Str;308th AAAF Strategic Bomb. Wing
+U00;Str;309th AAAF Strategic Bomb. Wing
+U00;Str;310th AAAF Strategic Bomb. Wing
+U00;Str;313th AAAF Strategic Bomb. Wing
+U00;Str;314th AAAF Strategic Bomb. Wing
+U00;Str;315th AAAF Strategic Bomb. Wing
+U00;Str;316th AAAF Strategic Bomb. Wing
+U00;Str;15th AAAF Strategic Bomb. Wing
+U00;Str;16th AAAF Strategic Bomb. Wing
+U00;Str;17th AAAF Strategic Bomb. Wing
+U00;Str;317th AAAF Strategic Bomb. Wing
+U00;Str;318th AAAF Strategic Bomb. Wing
+U00;Str;319th AAAF Strategic Bomb. Wing
+U00;Str;320th AAAF Strategic Bomb. Wing
+U00;Str;321st AAAF Strategic Bomb. Wing
+U00;Str;323rd AAAF Strategic Bomb. Wing
+U00;Str;324th AAAF Strategic Bomb. Wing
+U00;Str;325th AAAF Strategic Bomb. Wing
+U00;Str;326th AAAF Strategic Bomb. Wing
+U00;Str;327th AAAF Strategic Bomb. Wing
+U00;Str;328th AAAF Strategic Bomb. Wing
+U00;Str;329th AAAF Strategic Bomb. Wing
+U00;Str;330th AAAF Strategic Bomb. Wing
+U00;Str;331st AAAF Strategic Bomb. Wing
+U00;Str;332nd AAAF Strategic Bomb. Wing
+U00;Str;333rd AAAF Strategic Bomb. Wing
+U00;Str;334th AAAF Strategic Bomb. Wing
+U00;Str;335th AAAF Strategic Bomb. Wing
+U00;Str;336th AAAF Strategic Bomb. Wing
+U00;Str;337th AAAF Strategic Bomb. Wing
+U00;Str;338th AAAF Strategic Bomb. Wing
+U00;Str;339th AAAF Strategic Bomb. Wing
+U00;Str;340th AAAF Strategic Bomb. Wing
+U00;Str;417th AAAF Strategic Bomb. Wing
+U00;Str;418th AAAF Strategic Bomb. Wing
+U00;Str;419th AAAF Strategic Bomb. Wing
+U00;Str;420th AAAF Strategic Bomb. Wing
+U00;Str;421st AAAF Strategic Bomb. Wing
+U00;Str;423rd AAAF Strategic Bomb. Wing
+U00;Str;424th AAAF Strategic Bomb. Wing
+U00;Str;425th AAAF Strategic Bomb. Wing
+U00;Str;426th AAAF Strategic Bomb. Wing
+U00;Str;427th AAAF Strategic Bomb. Wing
+U00;Str;428th AAAF Strategic Bomb. Wing
+U00;Str;429th AAAF Strategic Bomb. Wing
+U00;Str;430th AAAF Strategic Bomb. Wing
+U00;Str;431st AAAF Strategic Bomb. Wing
+U00;Str;432d AAAF Strategic Bomb. Wing
+U00;Str;433rd AAAF Strategic Bomb. Wing
+U00;Str;434th AAAF Strategic Bomb. Wing
+U00;Str;435th AAAF Strategic Bomb. Wing
+U00;Str;436th AAAF Strategic Bomb. Wing
+U00;Str;437th AAAF Strategic Bomb. Wing
+U00;Str;438th AAAF Strategic Bomb. Wing
+U00;Str;439th AAAF Strategic Bomb. Wing
+U00;Str;440th AAAF Strategic Bomb. Wing
+U00;Tac;1st AAAF Tactical Bomb. Wing
+U00;Tac;2nd AAAF Tactical Bomb. Wing
+U00;Tac;13th AAAF Tactical Bomb. Wing
+U00;Tac;4th AAAF Tactical Bomb. Wing
+U00;Tac;5th AAAF Tactical Bomb. Wing
+U00;Tac;12th AAAF Tactical Bomb. Wing
+U00;Tac;47th AAAF Tactical Bomb. Wing
+U00;Tac;57th AAAF Tactical Bomb. Wing
+U00;Tac;14th AAAF Tactical Bomb. Wing
+U00;Tac;20th AAAF Tactical Bomb. Wing
+U00;Tac;98th AAAF Tactical Bomb. Wing
+U00;Tac;21st AAAF Tactical Bomb. Wing
+U00;Tac;40th AAAF Tactical Bomb. Wing
+U00;Tac;41st AAAF Tactical Bomb. Wing
+U00;Tac;42d AAAF Tactical Bomb. Wing
+U00;Tac;45th AAAF Tactical Bomb. Wing
+U00;Tac;99th AAAF Tactical Bomb. Wing
+U00;Tac;49th AAAF Tactical Bomb. Wing
+U00;Tac;55th AAAF Tactical Bomb. Wing
+U00;Tac;58th AAAF Tactical Bomb. Wing
+U00;Tac;92d AAAF Tactical Bomb. Wing
+U00;Tac;93rd AAAF Tactical Bomb. Wing
+U00;Tac;94th AAAF Tactical Bomb. Wing
+U00;Tac;95th AAAF Tactical Bomb. Wing
+U00;Tac;97th AAAF Tactical Bomb. Wing
+U00;Tac;96th AAAF Tactical Bomb. Wing
+U00;Tac;73rd AAAF Tactical Bomb. Wing
+U00;Tac;304th AAAF Tactical Bomb. Wing
+U00;Tac;305th AAAF Tactical Bomb. Wing
+U00;Tac;307th AAAF Tactical Bomb. Wing
+U00;Tac;308th AAAF Tactical Bomb. Wing
+U00;Tac;309th AAAF Tactical Bomb. Wing
+U00;Tac;310th AAAF Tactical Bomb. Wing
+U00;Tac;313th AAAF Tactical Bomb. Wing
+U00;Tac;314th AAAF Tactical Bomb. Wing
+U00;Tac;315th AAAF Tactical Bomb. Wing
+U00;Tac;316th AAAF Tactical Bomb. Wing
+U00;Tac;15th AAAF Tactical Bomb. Wing
+U00;Tac;16th AAAF Tactical Bomb. Wing
+U00;Tac;17th AAAF Tactical Bomb. Wing
+U00;Tac;317th AAAF Tactical Bomb. Wing
+U00;Tac;318th AAAF Tactical Bomb. Wing
+U00;Tac;319th AAAF Tactical Bomb. Wing
+U00;Tac;320th AAAF Tactical Bomb. Wing
+U00;Tac;321st AAAF Tactical Bomb. Wing
+U00;Tac;323rd AAAF Tactical Bomb. Wing
+U00;Tac;324th AAAF Tactical Bomb. Wing
+U00;Tac;325th AAAF Tactical Bomb. Wing
+U00;Tac;326th AAAF Tactical Bomb. Wing
+U00;Tac;327th AAAF Tactical Bomb. Wing
+U00;Tac;328th AAAF Tactical Bomb. Wing
+U00;Tac;329th AAAF Tactical Bomb. Wing
+U00;Tac;330th AAAF Tactical Bomb. Wing
+U00;Tac;331st AAAF Tactical Bomb. Wing
+U00;Tac;332nd AAAF Tactical Bomb. Wing
+U00;Tac;333rd AAAF Tactical Bomb. Wing
+U00;Tac;334th AAAF Tactical Bomb. Wing
+U00;Tac;335th AAAF Tactical Bomb. Wing
+U00;Tac;336th AAAF Tactical Bomb. Wing
+U00;Tac;337th AAAF Tactical Bomb. Wing
+U00;Tac;338th AAAF Tactical Bomb. Wing
+U00;Tac;339th AAAF Tactical Bomb. Wing
+U00;Tac;340th AAAF Tactical Bomb. Wing
+U00;Tac;417th AAAF Tactical Bomb. Wing
+U00;Tac;418th AAAF Tactical Bomb. Wing
+U00;Tac;419th AAAF Tactical Bomb. Wing
+U00;Tac;420th AAAF Tactical Bomb. Wing
+U00;Tac;421st AAAF Tactical Bomb. Wing
+U00;Tac;423rd AAAF Tactical Bomb. Wing
+U00;Tac;424th AAAF Tactical Bomb. Wing
+U00;Tac;425th AAAF Tactical Bomb. Wing
+U00;Tac;426th AAAF Tactical Bomb. Wing
+U00;Tac;427th AAAF Tactical Bomb. Wing
+U00;Tac;428th AAAF Tactical Bomb. Wing
+U00;Tac;429th AAAF Tactical Bomb. Wing
+U00;Tac;430th AAAF Tactical Bomb. Wing
+U00;Tac;431st AAAF Tactical Bomb. Wing
+U00;Tac;432d AAAF Tactical Bomb. Wing
+U00;Tac;433rd AAAF Tactical Bomb. Wing
+U00;Tac;434th AAAF Tactical Bomb. Wing
+U00;Tac;435th AAAF Tactical Bomb. Wing
+U00;Tac;436th AAAF Tactical Bomb. Wing
+U00;Tac;437th AAAF Tactical Bomb. Wing
+U00;Tac;438th AAAF Tactical Bomb. Wing
+U00;Tac;439th AAAF Tactical Bomb. Wing
+U00;Tac;440th AAAF Tactical Bomb. Wing
+U00;CAS;47th AAAF Dive Bomb. Wing
+U00;CAS;57th AAAF Dive Bomb. Wing
+U00;CAS;14th AAAF Dive Bomb. Wing
+U00;CAS;20th AAAF Dive Bomb. Wing
+U00;CAS;98th AAAF Dive Bomb. Wing
+U00;CAS;21st AAAF Dive Bomb. Wing
+U00;CAS;40th AAAF Dive Bomb. Wing
+U00;CAS;41st AAAF Dive Bomb. Wing
+U00;CAS;42d AAAF Dive Bomb. Wing
+U00;CAS;45th AAAF Dive Bomb. Wing
+U00;CAS;99th AAAF Dive Bomb. Wing
+U00;CAS;49th AAAF Dive Bomb. Wing
+U00;CAS;55th AAAF Dive Bomb. Wing
+U00;CAS;58th AAAF Dive Bomb. Wing
+U00;CAS;92d AAAF Dive Bomb. Wing
+U00;CAS;93rd AAAF Dive Bomb. Wing
+U00;CAS;94th AAAF Dive Bomb. Wing
+U00;CAS;95th AAAF Dive Bomb. Wing
+U00;CAS;97th AAAF Dive Bomb. Wing
+U00;CAS;96th AAAF Dive Bomb. Wing
+U00;CAS;73rd AAAF Dive Bomb. Wing
+U00;CAS;304th AAAF Dive Bomb. Wing
+U00;CAS;305th AAAF Dive Bomb. Wing
+U00;CAS;307th AAAF Dive Bomb. Wing
+U00;CAS;308th AAAF Dive Bomb. Wing
+U00;CAS;309th AAAF Dive Bomb. Wing
+U00;CAS;310th AAAF Dive Bomb. Wing
+U00;CAS;313th AAAF Dive Bomb. Wing
+U00;CAS;314th AAAF Dive Bomb. Wing
+U00;CAS;315th AAAF Dive Bomb. Wing
+U00;CAS;316th AAAF Dive Bomb. Wing
+U00;CAS;15th AAAF Dive Bomb. Wing
+U00;CAS;16th AAAF Dive Bomb. Wing
+U00;CAS;17th AAAF Dive Bomb. Wing
+U00;CAS;317th AAAF Dive Bomb. Wing
+U00;CAS;318th AAAF Dive Bomb. Wing
+U00;CAS;319th AAAF Dive Bomb. Wing
+U00;CAS;320th AAAF Dive Bomb. Wing
+U00;CAS;321st AAAF Dive Bomb. Wing
+U00;CAS;323rd AAAF Dive Bomb. Wing
+U00;CAS;324th AAAF Dive Bomb. Wing
+U00;CAS;325th AAAF Dive Bomb. Wing
+U00;CAS;326th AAAF Dive Bomb. Wing
+U00;CAS;327th AAAF Dive Bomb. Wing
+U00;CAS;328th AAAF Dive Bomb. Wing
+U00;CAS;329th AAAF Dive Bomb. Wing
+U00;CAS;330th AAAF Dive Bomb. Wing
+U00;CAS;331st AAAF Dive Bomb. Wing
+U00;CAS;332nd AAAF Dive Bomb. Wing
+U00;CAS;333rd AAAF Dive Bomb. Wing
+U00;CAS;334th AAAF Dive Bomb. Wing
+U00;CAS;335th AAAF Dive Bomb. Wing
+U00;CAS;336th AAAF Dive Bomb. Wing
+U00;CAS;337th AAAF Dive Bomb. Wing
+U00;CAS;338th AAAF Dive Bomb. Wing
+U00;CAS;339th AAAF Dive Bomb. Wing
+U00;CAS;340th AAAF Dive Bomb. Wing
+U00;CAS;417th AAAF Dive Bomb. Wing
+U00;CAS;418th AAAF Dive Bomb. Wing
+U00;CAS;419th AAAF Dive Bomb. Wing
+U00;CAS;420th AAAF Dive Bomb. Wing
+U00;CAS;421st AAAF Dive Bomb. Wing
+U00;CAS;423rd AAAF Dive Bomb. Wing
+U00;CAS;424th AAAF Dive Bomb. Wing
+U00;CAS;425th AAAF Dive Bomb. Wing
+U00;CAS;426th AAAF Dive Bomb. Wing
+U00;CAS;427th AAAF Dive Bomb. Wing
+U00;CAS;428th AAAF Dive Bomb. Wing
+U00;CAS;429th AAAF Dive Bomb. Wing
+U00;CAS;430th AAAF Dive Bomb. Wing
+U00;CAS;431st AAAF Dive Bomb. Wing
+U00;CAS;432d AAAF Dive Bomb. Wing
+U00;CAS;433rd AAAF Dive Bomb. Wing
+U00;CAS;434th AAAF Dive Bomb. Wing
+U00;CAS;435th AAAF Dive Bomb. Wing
+U00;CAS;436th AAAF Dive Bomb. Wing
+U00;CAS;437th AAAF Dive Bomb. Wing
+U00;CAS;438th AAAF Dive Bomb. Wing
+U00;CAS;439th AAAF Dive Bomb. Wing
+U00;CAS;440th AAAF Dive Bomb. Wing
+U00;Trp;50th AAAF Troop Carrier Wing
+U00;Trp;51st AAAF Troop Carrier Wing
+U00;Trp;52d AAAF Troop Carrier Wing
+U00;Trp;53rd AAAF Troop Carrier Wing
+U00;Trp;54th AAAF Troop Carrier Wing
+U00;Trp;60th AAAF Troop Carrier Wing
+U00;Trp;61st AAAF Troop Carrier Wing
+U00;Trp;322d AAAF Troop Carrier Wing
+U00;Trp;333th AAAF Troop Carrier Wing
+U00;Trp;334th AAAF Troop Carrier Wing
+U00;Trp;335th AAAF Troop Carrier Wing
+U00;Trp;336th AAAF Troop Carrier Wing
+U00;BB;USS North Carolina
+U00;BB;USS Washington
+U00;BB;USS South Dakota
+U00;BB;USS Indiana
+U00;BB;USS Massachusetts
+U00;BB;USS Alabama
+U00;BB;USS Iowa
+U00;BB;USS New Jersey
+U00;BB;USS Missouri
+U00;BB;USS Wisconsin
+U00;BB;USS Illinois
+U00;BB;USS Kentucky
+U00;BB;USS Montana
+U00;BB;USS Ohio
+U00;BB;USS Maine
+U00;BB;USS New Hampshire
+U00;BB;USS Louisiana
+U00;BB;USS South Carolina
+U00;BB;USS Michigan
+U00;BB;USS Delaware
+U00;BB;USS North Dakota
+U00;BB;USS Florida
+U00;BB;USS Utah
+U00;BB;USS Wyoming
+U00;BB;USS Arkansas
+U00;BB;USS New York
+U00;BB;USS Texas
+U00;BB;USS Nevada
+U00;BB;USS Oklahoma
+U00;BB;USS Pennsylvania
+U00;BB;USS Arizona
+U00;BB;USS New Mexico
+U00;BB;USS Mississippi
+U00;BB;USS Idaho
+U00;BB;USS Tennessee
+U00;BB;USS California
+U00;BB;USS Colorado
+U00;BB;USS Maryland
+U00;BB;USS West Virginia
+U00;BC;USS Alaska
+U00;BC;USS Guam
+U00;BC;USS Hawaii
+U00;BC;USS Philippines
+U00;BC;USS Puerto Rico
+U00;BC;USS Samoa
+U00;BC;USS Lexington
+U00;BC;USS Constellation
+U00;BC;USS Saratoga
+U00;BC;USS Ranger
+U00;BC;USS Constitution
+U00;BC;USS United States
+U00;CV;USS Lexington
+U00;CV;USS Saratoga
+U00;CV;USS Ranger
+U00;CV;USS Yorktown
+U00;CV;USS Enterprise
+U00;CV;USS Wasp
+U00;CV;USS Hornet
+U00;CV;USS Essex
+U00;CV;USS Intrepid
+U00;CV;USS Franklin
+U00;CV;USS Ticonderoga
+U00;CV;USS Randolph
+U00;CV;USS Bunker Hill
+U00;CV;USS Hancock
+U00;CV;USS Bennington
+U00;CV;USS Bon Homme Richard
+U00;CV;USS Leyte
+U00;CV;USS Kearsarge
+U00;CV;USS Oriskany
+U00;CV;USS Reprisal
+U00;CV;USS Antietam
+U00;CV;USS Shangri-La
+U00;CV;USS Lake Champlain
+U00;CV;USS Midway
+U00;CV;USS Franklin D. Roosevelt
+U00;CV;USS Coral Sea
+U00;CV;USS Philippine Sea
+U00;CV;USS United States
+U00;CV;USS Forrestal
+U00;CV;USS Saratoga
+U00;CV;USS Kitty Hawk
+U00;CV;USS Constellation
+U00;CV;USS America
+U00;CV;USS Theodore Roosevelt
+U00;CV;USS Abraham Lincoln
+U00;CV;USS George Washington
+U00;27;USS Long Island
+U00;27;USS Bogue
+U00;27;USS Card
+U00;27;USS Copahee
+U00;27;USS Core
+U00;27;USS Nassau
+U00;27;USS Altamaha
+U00;27;USS Barnes
+U00;27;USS Block Island
+U00;27;USS Breton
+U00;27;USS Croatan
+U00;27;USS Prince William
+U00;27;USS Sangamon
+U00;27;USS Suwannee
+U00;27;USS Chenango
+U00;27;USS Santee
+U00;27;USS Charger
+U00;27;USS Casablanca
+U00;27;USS Liscome Bay
+U00;27;USS Anzio
+U00;27;USS Corregidor
+U00;27;USS Mission Bay
+U00;27;USS Guadalcanal
+U00;27;USS Manila Bay
+U00;27;USS Natoma Bay
+U00;27;USS St. Lo
+U00;27;USS Tripoli
+U00;27;USS Wake Island
+U00;27;USS White Plains
+U00;27;USS Solomons
+U00;27;USS Kalinin Bay
+U00;27;USS Kasaan Bay
+U00;27;USS Fanshaw Bay
+U00;27;USS Kitkun Bay
+U00;27;USS Tulagi
+U00;27;USS Gambier Bay
+U00;27;USS Nehenta Bay
+U00;27;USS Hoggatt Bay
+U00;27;USS Kadasahan Bay
+U00;27;USS Marcus Island
+U00;27;USS Savo Island
+U00;27;USS Ommaney Bay
+U00;27;USS Petrof Bay
+U00;27;USS Rudyerd Bay
+U00;27;USS Saginaw Bay
+U00;27;USS Sargent Bay
+U00;27;USS Shamrock Bay
+U00;27;USS Shipley Bay
+U00;27;USS Sitkoh Bay
+U00;27;USS Steamer Bay
+U00;27;USS Cape Esperance
+U00;27;USS Takanis Bay
+U00;27;USS Thetis Bay
+U00;27;USS Makassar Strait
+U00;27;USS Windham Bay
+U00;27;USS Makin Island
+U00;27;USS Lunga Point
+U00;27;USS Bismarck Sea
+U00;27;USS Salamaua
+U00;27;USS Hollandia
+U00;27;USS Kwajalein
+U00;27;USS Admiralty Islands
+U00;27;USS Bougainville
+U00;27;USS Matanikau
+U00;27;USS Attu
+U00;27;USS Roi
+U00;27;USS Munda
+U00;27;USS Commencement Bay
+U00;27;USS Gilbert Islands
+U00;27;USS Kula Gulf
+U00;27;USS Cape Gloucester
+U00;27;USS Salerno Bay
+U00;27;USS Vella Gulf
+U00;27;USS Siboney
+U00;27;USS Puget Sound
+U00;27;USS Rendova
+U00;27;USS Bairoka
+U00;27;USS Badoeng Strait
+U00;27;USS Saidor
+U00;27;USS Sicily
+U00;27;USS Point Cruz
+U00;27;USS Mindoro
+U00;27;USS Rabaul
+U00;27;USS Palau
+U00;27;USS Tinian
+U00;27;USS Bastogne
+U00;27;USS Eniwetok
+U00;27;USS Lingayen
+U00;27;USS Okinawa
+U00;27;USS Iwo Jima
+U00;27;USS Inchon
+U00;27;USS Tarawa
+U00;27;USS Peleliu
+U00;31;USS Independence
+U00;31;USS Princeton
+U00;31;USS Belleau Wood
+U00;31;USS Cowpens
+U00;31;USS Monterey
+U00;31;USS Langley
+U00;31;USS Cabot
+U00;31;USS Bataan
+U00;31;USS San Jacinto
+U00;31;USS Saipan
+U00;31;USS Wright
+U00;CA;USS Pensacola
+U00;CA;USS Salt Lake City
+U00;CA;USS Northampton
+U00;CA;USS Chester
+U00;CA;USS Louisville
+U00;CA;USS Chicago
+U00;CA;USS Houston
+U00;CA;USS Augusta
+U00;CA;USS Portland
+U00;CA;USS Indianapolis
+U00;CA;USS New Orleans
+U00;CA;USS Astoria
+U00;CA;USS Minneapolis
+U00;CA;USS Tuscaloosa
+U00;CA;USS Quincy
+U00;CA;USS Vincennes
+U00;CA;USS San Francisco
+U00;CA;USS Wichita
+U00;CA;USS Baltimore
+U00;CA;USS Boston
+U00;CA;USS Canberra
+U00;CA;USS Quincy
+U00;CA;USS Pittsburgh
+U00;CA;USS St Paul
+U00;CA;USS Bremerton
+U00;CA;USS Columbus
+U00;CA;USS Fall River
+U00;CA;USS Los Angeles
+U00;CA;USS Macon
+U00;CA;USS Helena
+U00;CA;USS Oregon City
+U00;CA;USS Albany
+U00;CA;USS Toledo
+U00;CA;USS Rochester
+U00;CA;USS Cambridge
+U00;CA;USS Bridgeport
+U00;CA;USS Kansas City
+U00;CA;USS Tulsa
+U00;CA;USS Norfolk
+U00;CA;USS Scranton
+U00;CA;USS Des Moines
+U00;CA;USS Salem
+U00;CA;USS Newport News
+U00;CA;USS Dallas
+U00;CA;USS Long Beach
+U00;CL;USS Brooklyn
+U00;CL;USS Philadelphia
+U00;CL;USS Savannah
+U00;CL;USS Nashville
+U00;CL;USS Honolulu
+U00;CL;USS Phoenix
+U00;CL;USS Boise
+U00;CL;USS St Louis
+U00;CL;USS Helena
+U00;CL;USS Atlanta
+U00;CL;USS Juneau
+U00;CL;USS San Diego
+U00;CL;USS San Juan
+U00;CL;USS Oakland
+U00;CL;USS Cleveland
+U00;CL;USS Columbia
+U00;CL;USS Montpelier
+U00;CL;USS Denver
+U00;CL;USS Santa Fe
+U00;CL;USS Reno
+U00;CL;USS Birmingham
+U00;CL;USS Mobile
+U00;CL;USS Biloxi
+U00;CL;USS Houston
+U00;CL;USS Miami
+U00;CL;USS Flint
+U00;CL;USS Vincennes
+U00;CL;USS Pasadena
+U00;CL;USS Springfield
+U00;CL;USS Topeka
+U00;CL;USS Vicksburg
+U00;CL;USS Duluth
+U00;CL;USS Astoria
+U00;CL;USS Oklahoma City
+U00;CL;USS Wilkes-Barre
+U00;CL;USS Tucson
+U00;CL;USS Providence
+U00;CL;USS Little Rock
+U00;CL;USS Amsterdam
+U00;CL;USS Portsmouth
+U00;CL;USS Dayton
+U00;CL;USS Fargo
+U00;CL;USS Spokane
+U00;CL;USS Fresno
+U00;CL;USS Manchester
+U00;CL;USS Galveston
+U00;CL;USS Huntington
+U00;CL;USS Worcester
+U00;CL;USS Roanoke
+U00;CL;USS Tallahassee
+U00;CL;USS New Haven
+U00;CL;USS Wilmington
+U00;CL;USS Buffalo
+U00;CL;USS Youngstown
+U00;CL;USS Newark
+U00;CL;USS Vallejo
+U00;CL;USS Cheyenne
+U00;CL;USS Chattanooga
+U00;CL;USS Gary
+U00;CL;USS Omaha
+U00;CL;USS Milwaukee
+U00;CL;USS Detroit
+U00;CL;USS Richmond
+U00;CL;USS Concord
+U00;CL;USS Cincinnati
+U00;CL;USS Raleigh
+U00;CL;USS Trenton
+U00;CL;USS Marblehead
+U00;CL;USS Memphis
+U00;DD;Destroyer Division 8
+U00;DD;Destroyer Division 9
+U00;DD;Destroyer Division 10
+U00;DD;Destroyer Division 11
+U00;DD;Destroyer Division 12
+U00;DD;Destroyer Division 13
+U00;DD;Destroyer Division 14
+U00;DD;Destroyer Division 15
+U00;DD;Destroyer Division 16
+U00;DD;Destroyer Division 17
+U00;DD;Destroyer Division 18
+U00;DD;Destroyer Division 19
+U00;DD;Destroyer Division 20
+U00;DD;Destroyer Division 21
+U00;DD;Destroyer Division 22
+U00;DD;Destroyer Division 23
+U00;DD;Destroyer Division 24
+U00;DD;Destroyer Division 25
+U00;DD;Destroyer Division 26
+U00;DD;Destroyer Division 27
+U00;DD;Destroyer Division 28
+U00;DD;Destroyer Division 29
+U00;DD;Destroyer Division 30
+U00;DD;Destroyer Division 31
+U00;DD;Destroyer Division 32
+U00;DD;Destroyer Division 33
+U00;DD;Destroyer Division 34
+U00;DD;Destroyer Division 35
+U00;DD;Destroyer Division 36
+U00;DD;Destroyer Division 37
+U00;DD;Destroyer Division 38
+U00;DD;Destroyer Division 39
+U00;DD;Destroyer Division 40
+U00;DD;Destroyer Division 41
+U00;DD;Destroyer Division 42
+U00;DD;Destroyer Division 43
+U00;DD;Destroyer Division 44
+U00;DD;Destroyer Division 45
+U00;DD;Destroyer Division 46
+U00;DD;Destroyer Division 47
+U00;DD;Destroyer Division 48
+U00;DD;Destroyer Division 49
+U00;DD;Destroyer Division 50
+U00;DD;Destroyer Division 51
+U00;DD;Destroyer Division 52
+U00;DD;Destroyer Division 53
+U00;DD;Destroyer Division 54
+U00;DD;Destroyer Division 55
+U00;DD;Destroyer Division 56
+U00;DD;Destroyer Division 57
+U00;DD;Destroyer Division 58
+U00;DD;Destroyer Division 59
+U00;DD;Destroyer Division 60
+U00;DD;Destroyer Division 61
+U00;DD;Destroyer Division 62
+U00;DD;Destroyer Division 63
+U00;DD;Destroyer Division 64
+U00;DD;Destroyer Division 65
+U00;DD;Destroyer Division 66
+U00;DD;Destroyer Division 67
+U00;DD;Destroyer Division 68
+U00;DD;Destroyer Division 69
+U00;DD;Destroyer Division 70
+U00;DD;Destroyer Division 71
+U00;DD;Destroyer Division 72
+U00;DD;Destroyer Division 73
+U00;DD;Destroyer Division 74
+U00;DD;Destroyer Division 75
+U00;DD;Destroyer Division 76
+U00;DD;Destroyer Division 77
+U00;DD;Destroyer Division 78
+U00;DD;Destroyer Division 79
+U00;DD;Destroyer Division 80
+U00;DD;Destroyer Division 81
+U00;DD;Destroyer Division 82
+U00;DD;Destroyer Division 83
+U00;DD;Destroyer Division 84
+U00;DD;Destroyer Division 85
+U00;DD;Destroyer Division 86
+U00;DD;Destroyer Division 87
+U00;DD;Destroyer Division 88
+U00;DD;Destroyer Division 89
+U00;DD;Destroyer Division 90
+U00;DD;Destroyer Division 91
+U00;DD;Destroyer Division 92
+U00;DD;Destroyer Division 93
+U00;DD;Destroyer Division 94
+U00;DD;Destroyer Division 95
+U00;DD;Destroyer Division 96
+U00;DD;Destroyer Division 97
+U00;DD;Destroyer Division 98
+U00;DD;Destroyer Division 99
+U00;DD;Destroyer Division 100
+U00;SS;Submarine Division 16
+U00;SS;Submarine Division 17
+U00;SS;Submarine Division 18
+U00;SS;Submarine Division 19
+U00;SS;Submarine Division 20
+U00;SS;Submarine Division 21
+U00;SS;Submarine Division 22
+U00;SS;Submarine Division 23
+U00;SS;Submarine Division 24
+U00;SS;Submarine Division 25
+U00;SS;Submarine Division 26
+U00;SS;Submarine Division 27
+U00;SS;Submarine Division 28
+U00;SS;Submarine Division 29
+U00;SS;Submarine Division 30
+U00;SS;Submarine Division 31
+U00;SS;Submarine Division 32
+U00;SS;Submarine Division 33
+U00;SS;Submarine Division 34
+U00;SS;Submarine Division 35
+U00;SS;Submarine Division 36
+U00;SS;Submarine Division 37
+U00;SS;Submarine Division 38
+U00;SS;Submarine Division 39
+U00;SS;Submarine Division 40
+U00;SS;Submarine Division 41
+U00;SS;Submarine Division 42
+U00;SS;Submarine Division 43
+U00;SS;Submarine Division 44
+U00;SS;Submarine Division 45
+U00;SS;Submarine Division 46
+U00;SS;Submarine Division 47
+U00;SS;Submarine Division 48
+U00;SS;Submarine Division 49
+U00;SS;Submarine Division 50
+U00;SS;Submarine Division 51
+U00;SS;Submarine Division 52
+U00;SS;Submarine Division 53
+U00;SS;Submarine Division 54
+U00;SS;Submarine Division 55
+U00;SS;Submarine Division 56
+U00;SS;Submarine Division 57
+U00;SS;Submarine Division 58
+U00;SS;Submarine Division 59
+U00;SS;Submarine Division 60
+U00;SS;Submarine Division 61
+U00;SS;Submarine Division 62
+U00;SS;Submarine Division 63
+U00;SS;Submarine Division 64
+U00;SS;Submarine Division 65
+U00;SS;Submarine Division 66
+U00;SS;Submarine Division 67
+U00;SS;Submarine Division 68
+U00;SS;Submarine Division 69
+U00;SS;Submarine Division 70
+U00;SS;Submarine Division 71
+U00;SS;Submarine Division 72
+U00;SS;Submarine Division 73
+U00;SS;Submarine Division 74
+U00;SS;Submarine Division 75
+U00;SS;Submarine Division 76
+U00;SS;Submarine Division 77
+U00;SS;Submarine Division 78
+U00;SS;Submarine Division 79
+U00;SS;Submarine Division 80
+U00;SS;Submarine Division 81
+U00;SS;Submarine Division 82
+U00;SS;Submarine Division 83
+U00;SS;Submarine Division 84
+U00;SS;Submarine Division 85
+U00;SS;Submarine Division 86
+U00;SS;Submarine Division 87
+U00;SS;Submarine Division 88
+U00;SS;Submarine Division 89
+U00;SS;Submarine Division 90
+U00;SS;Submarine Division 91
+U00;SS;Submarine Division 92
+U00;SS;Submarine Division 93
+U00;SS;Submarine Division 94
+U00;SS;Submarine Division 95
+U00;SS;Submarine Division 96
+U00;SS;Submarine Division 97
+U00;SS;Submarine Division 98
+U00;SS;Submarine Division 99
+U00;SS;Submarine Division 100
+U00;NS;USS Narwhal
+U00;NS;USS Nautilus
+U00;NS;USS Pelley
+U00;Mot;50th Motor Infantry Division
+U00;Mot;52nd Motor Infantry Division
+U00;Mot;53rd Motor Infantry Division
+U00;Mot;54th Motor Infantry Division
+U00;Mot;55th Motor Infantry Division
+U00;Mot;56th Motor Infantry Division
+U00;Mot;57th Motor Infantry Division
+U00;Mot;58th Motor Infantry Division
+U00;Mot;59th Motor Infantry Division
+U00;Mot;60th Motor Infantry Division
+U00;Mot;61st Motor Infantry Division
+U00;Mot;62nd Motor Infantry Division
+U00;Mot;67th Motor Infantry Division
+U00;Mot;68th Motor Infantry Division
+U00;Mot;72nd Motor Infantry Division
+U00;Mot;73rd Motor Infantry Division
+U00;Mot;74th Motor Infantry Division
+U00;Mot;107th Motor Infantry Division
+U00;Mot;109th Motor Infantry Division
+U00;Mot;110th Motor Infantry Division
+U00;Mot;111th Motor Infantry Division
+U00;Mot;112th Motor Infantry Division
+U00;Mot;113rd Motor Infantry Division
+U00;Mot;114th Motor Infantry Division
+U00;Mot;115th Motor Infantry Division
+U00;Mot;116th Motor Infantry Division
+U00;Mot;117th Motor Infantry Division
+U00;Mot;118th Motor Infantry Division
+U00;Mot;119th Motor Infantry Division
+U00;Mot;120th Motor Infantry Division
+U00;Mot;121st Motor Infantry Division
+U00;Mot;122nd Motor Infantry Division
+U00;Mot;123rd Motor Infantry Division
+U00;Mot;124th Motor Infantry Division
+U00;Mot;125th Motor Infantry Division
+U00;Mot;126th Motor Infantry Division
+U00;Mot;127th Motor Infantry Division
+U00;Mot;128th Motor Infantry Division
+U00;Mot;129th Motor Infantry Division
+U00;Mot;130th Motor Infantry Division
+U00;Mot;131st Motor Infantry Division
+U00;Mot;132nd Motor Infantry Division
+U00;Mot;133rd Motor Infantry Division
+U00;Mot;134th Motor Infantry Division
+U00;Mot;135th Motor Infantry Division
+U00;Mot;136th Motor Infantry Division
+U00;Mot;137th Motor Infantry Division
+U00;Mot;138th Motor Infantry Division
+U00;Mot;139th Motor Infantry Division
+U00;Mot;140th Motor Infantry Division
+U00;Mot;141st Motor Infantry Division
+U00;Mot;142nd Motor Infantry Division
+U00;Mot;143rd Motor Infantry Division
+U00;Mot;144th Motor Infantry Division
+U00;Mot;145th Motor Infantry Division
+U00;Mot;146th Motor Infantry Division
+U00;Mot;147th Motor Infantry Division
+U00;Mot;148th Motor Infantry Division
+U00;Mot;149th Motor Infantry Division
+U00;Mot;150th Motor Infantry Division
+U00;Mot;151st Motor Infantry Division
+U00;Mot;152nd Motor Infantry Division
+U00;Mot;153rd Motor Infantry Division
+U00;Mot;154th Motor Infantry Division
+U00;Mot;155th Motor Infantry Division
+U00;Mot;156th Motor Infantry Division
+U00;Mot;157th Motor Infantry Division
+U00;Mot;158th Motor Infantry Division
+U00;Mot;159th Motor Infantry Division
+U00;Mot;160th Motor Infantry Division
+U00;Mot;161st Motor Infantry Division
+U00;Mot;162nd Motor Infantry Division
+U00;Mot;163rd Motor Infantry Division
+U00;Mot;164th Motor Infantry Division
+U00;Mot;165th Motor Infantry Division
+U00;Mot;166th Motor Infantry Division
+U00;Mot;167th Motor Infantry Division
+U00;Mot;168th Motor Infantry Division
+U00;Mot;169th Motor Infantry Division
+U00;Mot;170th Motor Infantry Division
+U00;Mot;171st Motor Infantry Division
+U00;Mot;172nd Motor Infantry Division
+U00;Mot;173rd Motor Infantry Division
+U00;Mot;174th Motor Infantry Division
+U00;Mot;175th Motor Infantry Division
+U00;Mot;176th Motor Infantry Division
+U00;Mot;177th Motor Infantry Division
+U00;Mot;178th Motor Infantry Division
+U00;Mot;179th Motor Infantry Division
+U00;Mot;180th Motor Infantry Division
+U00;Mot;181st Motor Infantry Division
+U00;Mot;182nd Motor Infantry Division
+U00;Mot;183rd Motor Infantry Division
+U00;Mot;184th Motor Infantry Division
+U00;Mot;185th Motor Infantry Division
+U00;Mot;186th Motor Infantry Division
+U00;Mot;187th Motor Infantry Division
+U00;Mot;188th Motor Infantry Division
+U00;Mot;189th Motor Infantry Division
+U00;Mot;190th Motor Infantry Division
+U00;Mot;191st Motor Infantry Division
+U00;Mot;192nd Motor Infantry Division
+U00;Mot;193rd Motor Infantry Division
+U00;Mot;194th Motor Infantry Division
+U00;Mot;195th Motor Infantry Division
+U00;Mot;196th Motor Infantry Division
+U00;Mot;197th Motor Infantry Division
+U00;Mot;198th Motor Infantry Division
+U00;Mot;199th Motor Infantry Division
+U00;Mot;200th Motor Infantry Division
+U00;Mot;201st Motor Infantry Division
+U00;Mot;202nd Motor Infantry Division
+U00;Mot;203rd Motor Infantry Division
+U00;Mot;204th Motor Infantry Division
+U00;Mot;205th Motor Infantry Division
+U00;Mot;206th Motor Infantry Division
+U00;Mot;207th Motor Infantry Division
+U00;Mot;208th Motor Infantry Division
+U00;Mot;209th Motor Infantry Division
+U00;Mot;210th Motor Infantry Division
+U00;Mot;211th Motor Infantry Division
+U00;Mot;212th Motor Infantry Division
+U00;Mot;213rd Motor Infantry Division
+U00;Mot;214th Motor Infantry Division
+U00;Mot;215th Motor Infantry Division
+U00;Mot;216th Motor Infantry Division
+U00;Mot;217th Motor Infantry Division
+U00;Mot;218th Motor Infantry Division
+U00;Mot;219th Motor Infantry Division
+U00;Mot;220th Motor Infantry Division
+U00;Mot;221st Motor Infantry Division
+U00;Mot;222nd Motor Infantry Division
+U00;Mot;223rd Motor Infantry Division
+U00;Mot;224th Motor Infantry Division
+U00;Mot;225th Motor Infantry Division
+U00;Mot;226th Motor Infantry Division
+U00;Mot;227th Motor Infantry Division
+U00;Mot;228th Motor Infantry Division
+U00;Mot;229th Motor Infantry Division
+U00;Mot;230th Motor Infantry Division
+U00;Mot;231st Motor Infantry Division
+U00;Mot;232nd Motor Infantry Division
+U00;Mot;233rd Motor Infantry Division
+U00;Mot;234th Motor Infantry Division
+U00;Mot;235th Motor Infantry Division
+U00;Mot;236th Motor Infantry Division
+U00;Mot;237th Motor Infantry Division
+U00;Mot;238th Motor Infantry Division
+U00;Mot;239th Motor Infantry Division
+U00;Mot;240th Motor Infantry Division
+U00;Mot;241st Motor Infantry Division
+U00;Mot;242nd Motor Infantry Division
+U00;Mot;243rd Motor Infantry Division
+U00;Mot;244th Motor Infantry Division
+U00;Mot;245th Motor Infantry Division
+U00;Mot;246th Motor Infantry Division
+U00;Mot;247th Motor Infantry Division
+U00;Mot;248th Motor Infantry Division
+U00;Mot;249th Motor Infantry Division
+U00;Mot;250th Motor Infantry Division
+U00;Mot;251st Motor Infantry Division
+U00;Mot;252nd Motor Infantry Division
+U00;Mot;253rd Motor Infantry Division
+U00;Mot;254th Motor Infantry Division
+U00;Mot;255th Motor Infantry Division
+U00;Mot;256th Motor Infantry Division
+U00;Mot;257th Motor Infantry Division
+U00;Mot;258th Motor Infantry Division
+U00;Mot;259th Motor Infantry Division
+U00;Mot;260th Motor Infantry Division
+U00;Mot;261st Motor Infantry Division
+U00;Mot;262nd Motor Infantry Division
+U00;Mot;263rd Motor Infantry Division
+U00;Mot;264th Motor Infantry Division
+U00;Mot;265th Motor Infantry Division
+U00;Mot;266th Motor Infantry Division
+U00;Mot;267th Motor Infantry Division
+U00;Mot;268th Motor Infantry Division
+U00;Mot;269th Motor Infantry Division
+U00;Mot;270th Motor Infantry Division
+U00;Mot;271st Motor Infantry Division
+U00;Mot;272nd Motor Infantry Division
+U00;Mot;273rd Motor Infantry Division
+U00;Mot;274th Motor Infantry Division
+U00;Mot;275th Motor Infantry Division
+U00;Mot;276th Motor Infantry Division
+U00;Mot;277th Motor Infantry Division
+U00;Mot;278th Motor Infantry Division
+U00;Mot;279th Motor Infantry Division
+U00;Mot;280th Motor Infantry Division
+U00;Mot;281st Motor Infantry Division
+U00;Mot;282nd Motor Infantry Division
+U00;Mot;283rd Motor Infantry Division
+U00;Mot;284th Motor Infantry Division
+U00;Mot;285th Motor Infantry Division
+U00;Mot;286th Motor Infantry Division
+U00;Mot;287th Motor Infantry Division
+U00;Mot;288th Motor Infantry Division
+U00;Mot;289th Motor Infantry Division
+U00;Mot;290th Motor Infantry Division
+U00;Mot;291st Motor Infantry Division
+U00;Mot;292nd Motor Infantry Division
+U00;Mot;293rd Motor Infantry Division
+U00;Mot;294th Motor Infantry Division
+U00;Mot;295th Motor Infantry Division
+U00;Mot;296th Motor Infantry Division
+U00;Mot;297th Motor Infantry Division
+U00;Mot;298th Motor Infantry Division
+U00;Mot;299th Motor Infantry Division
+U00;Mot;300th Motor Infantry Division
+U00;Mot;301st Motor Infantry Division
+U00;Mot;302nd Motor Infantry Division
+U00;Mot;303rd Motor Infantry Division
+U00;Mot;304th Motor Infantry Division
+U00;Mot;305th Motor Infantry Division
+U00;Mot;306th Motor Infantry Division
+U00;Mot;307th Motor Infantry Division
+U00;Mot;308th Motor Infantry Division
+U00;Mot;309th Motor Infantry Division
+U00;Mot;310th Motor Infantry Division
+U00;Mot;311th Motor Infantry Division
+U00;Mot;312th Motor Infantry Division
+U00;Mot;313rd Motor Infantry Division
+U00;Mot;314th Motor Infantry Division
+U00;Mot;315th Motor Infantry Division
+U00;Mot;316th Motor Infantry Division
+U00;Mot;317th Motor Infantry Division
+U00;Mot;318th Motor Infantry Division
+U00;Mot;319th Motor Infantry Division
+U00;Mot;320th Motor Infantry Division
+U00;Mot;321st Motor Infantry Division
+U00;Mot;322nd Motor Infantry Division
+U00;Mot;323rd Motor Infantry Division
+U00;Mot;324th Motor Infantry Division
+U00;Mot;325th Motor Infantry Division
+U00;Mot;326th Motor Infantry Division
+U00;Mot;327th Motor Infantry Division
+U00;Mot;328th Motor Infantry Division
+U00;Mot;329th Motor Infantry Division
+U00;Mot;330th Motor Infantry Division
+U00;Mot;331st Motor Infantry Division
+U00;Mot;332nd Motor Infantry Division
+U00;Mot;333rd Motor Infantry Division
+U00;Mot;334th Motor Infantry Division
+U00;Mot;335th Motor Infantry Division
+U00;Mot;336th Motor Infantry Division
+U00;Mot;337th Motor Infantry Division
+U00;Mot;338th Motor Infantry Division
+U00;Mot;339th Motor Infantry Division
+U00;Mot;340th Motor Infantry Division
+U00;Mot;341st Motor Infantry Division
+U00;Mot;342nd Motor Infantry Division
+U00;Mot;343rd Motor Infantry Division
+U00;Mot;344th Motor Infantry Division
+U00;Mot;345th Motor Infantry Division
+U00;Mot;346th Motor Infantry Division
+U00;Mot;347th Motor Infantry Division
+U00;Mot;348th Motor Infantry Division
+U00;Mot;349th Motor Infantry Division
+U00;Mot;350th Motor Infantry Division
+U00;Mot;351st Motor Infantry Division
+U00;Mot;352nd Motor Infantry Division
+U00;Mot;353rd Motor Infantry Division
+U00;Mot;354th Motor Infantry Division
+U00;Mot;355th Motor Infantry Division
+U00;Mot;356th Motor Infantry Division
+U00;Mot;357th Motor Infantry Division
+U00;Mot;358th Motor Infantry Division
+U00;Mot;359th Motor Infantry Division
+U00;Mot;360th Motor Infantry Division
+U00;Mot;361st Motor Infantry Division
+U00;Mot;362nd Motor Infantry Division
+U00;Mot;363rd Motor Infantry Division
+U00;Mot;364th Motor Infantry Division
+U00;Mot;365th Motor Infantry Division
+U00;Mot;366th Motor Infantry Division
+U00;Mot;367th Motor Infantry Division
+U00;Mot;368th Motor Infantry Division
+U00;Mot;369th Motor Infantry Division
+U00;Mot;370th Motor Infantry Division
+U00;Mot;371st Motor Infantry Division
+U00;Mot;372nd Motor Infantry Division
+U00;Mot;373rd Motor Infantry Division
+U00;Mot;374th Motor Infantry Division
+U00;Mot;375th Motor Infantry Division
+U00;Mot;376th Motor Infantry Division
+U00;Mot;377th Motor Infantry Division
+U00;Mot;378th Motor Infantry Division
+U00;Mot;379th Motor Infantry Division
+U00;Mot;380th Motor Infantry Division
+U00;Mot;381st Motor Infantry Division
+U00;Mot;382nd Motor Infantry Division
+U00;Mot;383rd Motor Infantry Division
+U00;Mot;384th Motor Infantry Division
+U00;Mot;385th Motor Infantry Division
+U00;Mot;386th Motor Infantry Division
+U00;Mot;387th Motor Infantry Division
+U00;Mot;388th Motor Infantry Division
+U00;Mot;389th Motor Infantry Division
+U00;Mot;390th Motor Infantry Division
+U00;Mot;391st Motor Infantry Division
+U00;Mot;392nd Motor Infantry Division
+U00;Mot;393rd Motor Infantry Division
+U00;Mot;394th Motor Infantry Division
+U00;Mot;395th Motor Infantry Division
+U00;Mot;396th Motor Infantry Division
+U00;Mot;397th Motor Infantry Division
+U00;Mot;398th Motor Infantry Division
+U00;Mot;399th Motor Infantry Division
+U00;Mec;50th Motor Infantry Division
+U00;Mec;52nd Motor Infantry Division
+U00;Mec;53rd Motor Infantry Division
+U00;Mec;54th Motor Infantry Division
+U00;Mec;55th Motor Infantry Division
+U00;Mec;56th Motor Infantry Division
+U00;Mec;57th Motor Infantry Division
+U00;Mec;58th Motor Infantry Division
+U00;Mec;59th Motor Infantry Division
+U00;Mec;60th Motor Infantry Division
+U00;Mec;61st Motor Infantry Division
+U00;Mec;62nd Motor Infantry Division
+U00;Mec;67th Motor Infantry Division
+U00;Mec;68th Motor Infantry Division
+U00;Mec;72nd Motor Infantry Division
+U00;Mec;73rd Motor Infantry Division
+U00;Mec;74th Motor Infantry Division
+U00;Mec;107th Motor Infantry Division
+U00;Mec;109th Motor Infantry Division
+U00;Mec;110th Motor Infantry Division
+U00;Mec;111th Motor Infantry Division
+U00;Mec;112th Motor Infantry Division
+U00;Mec;113rd Motor Infantry Division
+U00;Mec;114th Motor Infantry Division
+U00;Mec;115th Motor Infantry Division
+U00;Mec;116th Motor Infantry Division
+U00;Mec;117th Motor Infantry Division
+U00;Mec;118th Motor Infantry Division
+U00;Mec;119th Motor Infantry Division
+U00;Mec;120th Motor Infantry Division
+U00;Mec;121st Motor Infantry Division
+U00;Mec;122nd Motor Infantry Division
+U00;Mec;123rd Motor Infantry Division
+U00;Mec;124th Motor Infantry Division
+U00;Mec;125th Motor Infantry Division
+U00;Mec;126th Motor Infantry Division
+U00;Mec;127th Motor Infantry Division
+U00;Mec;128th Motor Infantry Division
+U00;Mec;129th Motor Infantry Division
+U00;Mec;130th Motor Infantry Division
+U00;Mec;131st Motor Infantry Division
+U00;Mec;132nd Motor Infantry Division
+U00;Mec;133rd Motor Infantry Division
+U00;Mec;134th Motor Infantry Division
+U00;Mec;135th Motor Infantry Division
+U00;Mec;136th Motor Infantry Division
+U00;Mec;137th Motor Infantry Division
+U00;Mec;138th Motor Infantry Division
+U00;Mec;139th Motor Infantry Division
+U00;Mec;140th Motor Infantry Division
+U00;Mec;141st Motor Infantry Division
+U00;Mec;142nd Motor Infantry Division
+U00;Mec;143rd Motor Infantry Division
+U00;Mec;144th Motor Infantry Division
+U00;Mec;145th Motor Infantry Division
+U00;Mec;146th Motor Infantry Division
+U00;Mec;147th Motor Infantry Division
+U00;Mec;148th Motor Infantry Division
+U00;Mec;149th Motor Infantry Division
+U00;Mec;150th Motor Infantry Division
+U00;Mec;151st Motor Infantry Division
+U00;Mec;152nd Motor Infantry Division
+U00;Mec;153rd Motor Infantry Division
+U00;Mec;154th Motor Infantry Division
+U00;Mec;155th Motor Infantry Division
+U00;Mec;156th Motor Infantry Division
+U00;Mec;157th Motor Infantry Division
+U00;Mec;158th Motor Infantry Division
+U00;Mec;159th Motor Infantry Division
+U00;Mec;160th Motor Infantry Division
+U00;Mec;161st Motor Infantry Division
+U00;Mec;162nd Motor Infantry Division
+U00;Mec;163rd Motor Infantry Division
+U00;Mec;164th Motor Infantry Division
+U00;Mec;165th Motor Infantry Division
+U00;Mec;166th Motor Infantry Division
+U00;Mec;167th Motor Infantry Division
+U00;Mec;168th Motor Infantry Division
+U00;Mec;169th Motor Infantry Division
+U00;Mec;170th Motor Infantry Division
+U00;Mec;171st Motor Infantry Division
+U00;Mec;172nd Motor Infantry Division
+U00;Mec;173rd Motor Infantry Division
+U00;Mec;174th Motor Infantry Division
+U00;Mec;175th Motor Infantry Division
+U00;Mec;176th Motor Infantry Division
+U00;Mec;177th Motor Infantry Division
+U00;Mec;178th Motor Infantry Division
+U00;Mec;179th Motor Infantry Division
+U00;Mec;180th Motor Infantry Division
+U00;Mec;181st Motor Infantry Division
+U00;Mec;182nd Motor Infantry Division
+U00;Mec;183rd Motor Infantry Division
+U00;Mec;184th Motor Infantry Division
+U00;Mec;185th Motor Infantry Division
+U00;Mec;186th Motor Infantry Division
+U00;Mec;187th Motor Infantry Division
+U00;Mec;188th Motor Infantry Division
+U00;Mec;189th Motor Infantry Division
+U00;Mec;190th Motor Infantry Division
+U00;Mec;191st Motor Infantry Division
+U00;Mec;192nd Motor Infantry Division
+U00;Mec;193rd Motor Infantry Division
+U00;Mec;194th Motor Infantry Division
+U00;Mec;195th Motor Infantry Division
+U00;Mec;196th Motor Infantry Division
+U00;Mec;197th Motor Infantry Division
+U00;Mec;198th Motor Infantry Division
+U00;Mec;199th Motor Infantry Division
+U00;Mec;200th Motor Infantry Division
+U00;Mec;201st Motor Infantry Division
+U00;Mec;202nd Motor Infantry Division
+U00;Mec;203rd Motor Infantry Division
+U00;Mec;204th Motor Infantry Division
+U00;Mec;205th Motor Infantry Division
+U00;Mec;206th Motor Infantry Division
+U00;Mec;207th Motor Infantry Division
+U00;Mec;208th Motor Infantry Division
+U00;Mec;209th Motor Infantry Division
+U00;Mec;210th Motor Infantry Division
+U00;Mec;211th Motor Infantry Division
+U00;Mec;212th Motor Infantry Division
+U00;Mec;213rd Motor Infantry Division
+U00;Mec;214th Motor Infantry Division
+U00;Mec;215th Motor Infantry Division
+U00;Mec;216th Motor Infantry Division
+U00;Mec;217th Motor Infantry Division
+U00;Mec;218th Motor Infantry Division
+U00;Mec;219th Motor Infantry Division
+U00;Mec;220th Motor Infantry Division
+U00;Mec;221st Motor Infantry Division
+U00;Mec;222nd Motor Infantry Division
+U00;Mec;223rd Motor Infantry Division
+U00;Mec;224th Motor Infantry Division
+U00;Mec;225th Motor Infantry Division
+U00;Mec;226th Motor Infantry Division
+U00;Mec;227th Motor Infantry Division
+U00;Mec;228th Motor Infantry Division
+U00;Mec;229th Motor Infantry Division
+U00;Mec;230th Motor Infantry Division
+U00;Mec;231st Motor Infantry Division
+U00;Mec;232nd Motor Infantry Division
+U00;Mec;233rd Motor Infantry Division
+U00;Mec;234th Motor Infantry Division
+U00;Mec;235th Motor Infantry Division
+U00;Mec;236th Motor Infantry Division
+U00;Mec;237th Motor Infantry Division
+U00;Mec;238th Motor Infantry Division
+U00;Mec;239th Motor Infantry Division
+U00;Mec;240th Motor Infantry Division
+U00;Mec;241st Motor Infantry Division
+U00;Mec;242nd Motor Infantry Division
+U00;Mec;243rd Motor Infantry Division
+U00;Mec;244th Motor Infantry Division
+U00;Mec;245th Motor Infantry Division
+U00;Mec;246th Motor Infantry Division
+U00;Mec;247th Motor Infantry Division
+U00;Mec;248th Motor Infantry Division
+U00;Mec;249th Motor Infantry Division
+U00;Mec;250th Motor Infantry Division
+U00;Mec;251st Motor Infantry Division
+U00;Mec;252nd Motor Infantry Division
+U00;Mec;253rd Motor Infantry Division
+U00;Mec;254th Motor Infantry Division
+U00;Mec;255th Motor Infantry Division
+U00;Mec;256th Motor Infantry Division
+U00;Mec;257th Motor Infantry Division
+U00;Mec;258th Motor Infantry Division
+U00;Mec;259th Motor Infantry Division
+U00;Mec;260th Motor Infantry Division
+U00;Mec;261st Motor Infantry Division
+U00;Mec;262nd Motor Infantry Division
+U00;Mec;263rd Motor Infantry Division
+U00;Mec;264th Motor Infantry Division
+U00;Mec;265th Motor Infantry Division
+U00;Mec;266th Motor Infantry Division
+U00;Mec;267th Motor Infantry Division
+U00;Mec;268th Motor Infantry Division
+U00;Mec;269th Motor Infantry Division
+U00;Mec;270th Motor Infantry Division
+U00;Mec;271st Motor Infantry Division
+U00;Mec;272nd Motor Infantry Division
+U00;Mec;273rd Motor Infantry Division
+U00;Mec;274th Motor Infantry Division
+U00;Mec;275th Motor Infantry Division
+U00;Mec;276th Motor Infantry Division
+U00;Mec;277th Motor Infantry Division
+U00;Mec;278th Motor Infantry Division
+U00;Mec;279th Motor Infantry Division
+U00;Mec;280th Motor Infantry Division
+U00;Mec;281st Motor Infantry Division
+U00;Mec;282nd Motor Infantry Division
+U00;Mec;283rd Motor Infantry Division
+U00;Mec;284th Motor Infantry Division
+U00;Mec;285th Motor Infantry Division
+U00;Mec;286th Motor Infantry Division
+U00;Mec;287th Motor Infantry Division
+U00;Mec;288th Motor Infantry Division
+U00;Mec;289th Motor Infantry Division
+U00;Mec;290th Motor Infantry Division
+U00;Mec;291st Motor Infantry Division
+U00;Mec;292nd Motor Infantry Division
+U00;Mec;293rd Motor Infantry Division
+U00;Mec;294th Motor Infantry Division
+U00;Mec;295th Motor Infantry Division
+U00;Mec;296th Motor Infantry Division
+U00;Mec;297th Motor Infantry Division
+U00;Mec;298th Motor Infantry Division
+U00;Mec;299th Motor Infantry Division
+U00;Mec;300th Motor Infantry Division
+U00;Mec;301st Motor Infantry Division
+U00;Mec;302nd Motor Infantry Division
+U00;Mec;303rd Motor Infantry Division
+U00;Mec;304th Motor Infantry Division
+U00;Mec;305th Motor Infantry Division
+U00;Mec;306th Motor Infantry Division
+U00;Mec;307th Motor Infantry Division
+U00;Mec;308th Motor Infantry Division
+U00;Mec;309th Motor Infantry Division
+U00;Mec;310th Motor Infantry Division
+U00;Mec;311th Motor Infantry Division
+U00;Mec;312th Motor Infantry Division
+U00;Mec;313rd Motor Infantry Division
+U00;Mec;314th Motor Infantry Division
+U00;Mec;315th Motor Infantry Division
+U00;Mec;316th Motor Infantry Division
+U00;Mec;317th Motor Infantry Division
+U00;Mec;318th Motor Infantry Division
+U00;Mec;319th Motor Infantry Division
+U00;Mec;320th Motor Infantry Division
+U00;Mec;321st Motor Infantry Division
+U00;Mec;322nd Motor Infantry Division
+U00;Mec;323rd Motor Infantry Division
+U00;Mec;324th Motor Infantry Division
+U00;Mec;325th Motor Infantry Division
+U00;Mec;326th Motor Infantry Division
+U00;Mec;327th Motor Infantry Division
+U00;Mec;328th Motor Infantry Division
+U00;Mec;329th Motor Infantry Division
+U00;Mec;330th Motor Infantry Division
+U00;Mec;331st Motor Infantry Division
+U00;Mec;332nd Motor Infantry Division
+U00;Mec;333rd Motor Infantry Division
+U00;Mec;334th Motor Infantry Division
+U00;Mec;335th Motor Infantry Division
+U00;Mec;336th Motor Infantry Division
+U00;Mec;337th Motor Infantry Division
+U00;Mec;338th Motor Infantry Division
+U00;Mec;339th Motor Infantry Division
+U00;Mec;340th Motor Infantry Division
+U00;Mec;341st Motor Infantry Division
+U00;Mec;342nd Motor Infantry Division
+U00;Mec;343rd Motor Infantry Division
+U00;Mec;344th Motor Infantry Division
+U00;Mec;345th Motor Infantry Division
+U00;Mec;346th Motor Infantry Division
+U00;Mec;347th Motor Infantry Division
+U00;Mec;348th Motor Infantry Division
+U00;Mec;349th Motor Infantry Division
+U00;Mec;350th Motor Infantry Division
+U00;Mec;351st Motor Infantry Division
+U00;Mec;352nd Motor Infantry Division
+U00;Mec;353rd Motor Infantry Division
+U00;Mec;354th Motor Infantry Division
+U00;Mec;355th Motor Infantry Division
+U00;Mec;356th Motor Infantry Division
+U00;Mec;357th Motor Infantry Division
+U00;Mec;358th Motor Infantry Division
+U00;Mec;359th Motor Infantry Division
+U00;Mec;360th Motor Infantry Division
+U00;Mec;361st Motor Infantry Division
+U00;Mec;362nd Motor Infantry Division
+U00;Mec;363rd Motor Infantry Division
+U00;Mec;364th Motor Infantry Division
+U00;Mec;365th Motor Infantry Division
+U00;Mec;366th Motor Infantry Division
+U00;Mec;367th Motor Infantry Division
+U00;Mec;368th Motor Infantry Division
+U00;Mec;369th Motor Infantry Division
+U00;Mec;370th Motor Infantry Division
+U00;Mec;371st Motor Infantry Division
+U00;Mec;372nd Motor Infantry Division
+U00;Mec;373rd Motor Infantry Division
+U00;Mec;374th Motor Infantry Division
+U00;Mec;375th Motor Infantry Division
+U00;Mec;376th Motor Infantry Division
+U00;Mec;377th Motor Infantry Division
+U00;Mec;378th Motor Infantry Division
+U00;Mec;379th Motor Infantry Division
+U00;Mec;380th Motor Infantry Division
+U00;Mec;381st Motor Infantry Division
+U00;Mec;382nd Motor Infantry Division
+U00;Mec;383rd Motor Infantry Division
+U00;Mec;384th Motor Infantry Division
+U00;Mec;385th Motor Infantry Division
+U00;Mec;386th Motor Infantry Division
+U00;Mec;387th Motor Infantry Division
+U00;Mec;388th Motor Infantry Division
+U00;Mec;389th Motor Infantry Division
+U00;Mec;390th Motor Infantry Division
+U00;Mec;391st Motor Infantry Division
+U00;Mec;392nd Motor Infantry Division
+U00;Mec;393rd Motor Infantry Division
+U00;Mec;394th Motor Infantry Division
+U00;Mec;395th Motor Infantry Division
+U00;Mec;396th Motor Infantry Division
+U00;Mec;397th Motor Infantry Division
+U00;Mec;398th Motor Infantry Division
+U00;Mec;399th Motor Infantry Division
