@@ -36,4 +36,5 @@ event = "db\events\FCW\Popfront.txt"
 event = "db\events\FCW\Natfront.txt"
 event = "db\events\FCW\Intervention.txt"
 event = "db\events\Other\News.txt"
+event = "db\events\Germany\German_foreign.txt"
 

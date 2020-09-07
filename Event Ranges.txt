@@ -2,6 +2,8 @@
 
 91001-92000 Soviet Republic
 92001-93000 Japan general
+93001-94000 Germany foreign
+94001-95000 Germany domestic
 100000-100100 Soviet-Russian Border War
 100101-100200 French civil war start
 100201-100300 National Front events

@@ -81,12 +81,12 @@
                              } 
    ownedprovinces         = {    
  #Nationalist China at start 
-      1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323
+      1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323 1329 1328 1331
                              } 
 
    controlledprovinces    = {   
  #Nationalist China at start 
-    1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323
+    1235 1216 1236 1237 1247 1246 1241 1245 1243 1242 1244 1323 1329 1328 1331
                              } 
 	claimedprovinces = { 
 	1455 1458 #Arunachal Pradesh
@@ -250,7 +250,7 @@ inventions = { 3000027 }
 	##############################################
     landunit = 
    {  location = 1244 # Beijing
-     name     = "Zhili 1st Army" 
+     name     = "Beiyang 1st Army" 
      id       = {  type = 22222 id = 1  } 
      Division = 
      {  experience = 30 
@@ -277,8 +277,35 @@ inventions = { 3000027 }
 	}
 	landunit = 
    {  location = 1323 # Anyang
-     name     = "Zhili 2nd Army" 
+     name     = "Beiyang 2nd Army" 
      id       = {  type = 22222 id = 11  } 
+     Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 12  } 
+       name       = "9th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 4
+      }
+	  Division = 
+     {  experience = 30 
+       id         = {  type = 22222 id = 13  } 
+       name       = "10th Division" 
+       type       = infantry
+	   strength  = 100
+       model     = 6
+	   locked = no
+	   extra1 = artillery
+	   brigade_model1 = 2
+      }
+    }
+	landunit = 
+   {  location = 1331 # Anyang
+     name     = "Beiyang 12th Army" 
+     id       = {  type = 22222 id = 150  } 
      Division = 
      {  experience = 30 
        id         = {  type = 22222 id = 12  } 
@@ -304,7 +331,7 @@ inventions = { 3000027 }
     }
 	landunit = {
 	location = 1244 # 
-     name     = "Zhili Cavalry Corps" 
+     name     = "Beiyang Cavalry Corps" 
      id       = {  type = 22222 id = 14  } 
 	  Division = 
      {  experience = 30 
@@ -338,7 +365,7 @@ inventions = { 3000027 }
 
 	landunit = {
 	location = 1247# 
-     name     = "Zhili Clique" 
+     name     = "Beiyang Clique" 
      id       = {  type = 22222 id = 17  } 
 		 Division = 
      {  experience = 30 
@@ -386,7 +413,7 @@ inventions = { 3000027 }
 	  Division = 
      {  experience = 30 
        id         = {  type = 22222 id = 10  } 
-       name       = "Zhili Clique" 
+       name       = "Beiyang Clique" 
        type       = hq
 	   strength  = 100
        model     = 1
@@ -397,7 +424,7 @@ inventions = { 3000027 }
 	
   landunit = 
    {  location = 1235 # Fuxin
-     name     = "Zhili 3rd Army" 
+     name     = "Beiyang 3rd Army" 
      id       = {  type = 22222 id = 18  } 
      Division = 
      {  experience = 30 
@@ -431,7 +458,7 @@ inventions = { 3000027 }
 	}
 	landunit = 
    {  location = 1216 # 
-     name     = "Zhili 4th Army" 
+     name     = "Beiyang 4th Army" 
      id       = {  type = 22222 id = 22  } 
      Division = 
      {  experience = 30 
@@ -470,7 +497,7 @@ inventions = { 3000027 }
 	
 	landunit = 
    {  location = 1216 # 
-     name     = "Zhili Motorized Corps" 
+     name     = "Beiyang Motorized Corps" 
      id       = {  type = 22222 id = 26  } 
      Division = 
      {  experience = 30 
@@ -521,19 +548,19 @@ inventions = { 3000027 }
 	 
 	airunit = 
    {  location = 1247 # Jinan
-     name     = "Zhili Airforce" 
+     name     = "Beiyang Airforce" 
      base     = 1247 # Jinan
      id       = {  type = 22222 id = 43  } 
      Division = 
      {  id           = {  type = 22222 id = 32  } 
-       name         = "Zhili Bomber Squad" 
+       name         = "Beiyang Bomber Squad" 
        type         = tactical_bomber
        model        = 4
        strength     = 40
       } 
 	  Division = 
      {  id           = {  type = 22222 id = 33  } 
-       name         = "Zhili Intercepter Squads" 
+       name         = "Beiyang Intercepter Squads" 
        type         = interceptor
        model        = 5
        strength     = 100
@@ -583,7 +610,7 @@ inventions = { 3000027 }
       } 
 	  Division = 
      {  id    = {  type = 22222 id = 40  } 
-       name  = "Zhili"
+       name  = "Beiyang"
        type  = light_cruiser
 	   strength = 100
        model = 1  #Scout Cruiser

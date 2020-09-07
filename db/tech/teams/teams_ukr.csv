@@ -12,3 +12,4 @@ UKR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 545011;Kiev Military Academy;T10401;4;1900;1970;large_unit_tactics;combined_arms_focus;infantry_focus;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 545012;Odessa State Maritime Academy;T14011;4;1944;1970;naval_training;seamanship;submarine_tactics;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 545013;Charkov Air Command Center;T10402;4;1920;1970;centralized_execution;bomber_tactics;fighter_tactics;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+545014;Joachim von Ribbentrop;ART7;5;1999;1999;rt_user_1;large_taskforce_tactics;large_unit_focus;large_unit_tactics;centralized_execution;management;;;;;;;;;;;;;;;;;;;;;;;;;;;x
