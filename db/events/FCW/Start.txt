@@ -429,7 +429,7 @@ command = { type =	secedeprovince which = VIC value = 44 when = 2 }
 command = { type =	secedeprovince which = VIC value = 46 when = 2 }
 command = { type =	secedeprovince which = VIC value = 47 when = 2 }
 command = { type =	secedeprovince which = VIC value = 48 when = 2 }
-command = { type =	secedeprovince which = VIC value = 58 when = 2 }
+command = { type = secedeprovince which = VIC value = 58 when = 2 }
 command = { type = secedeprovince which = VIC value = 59 when = 2 }
 command = { type = secedeprovince which = VIC value = 60 when = 2 }
 command = { type = secederegion which = VIC value = REGION_ALGERIA when = 2 }

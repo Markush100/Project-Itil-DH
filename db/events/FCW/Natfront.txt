@@ -139,7 +139,7 @@ command = { type = event which = 100207 where = U03 }
 
 ###Schneider Reserves - AF
 event = {
-id = 100203
+id = 100206
 picture = "FRA_ft_tanks"
 style = 1
 TAG = U04
@@ -162,7 +162,7 @@ command = { type = add_brigade value = super_heavy_armor when = 0 }
 
 ###Renault Reserve - VIC
 event = {
-id = 100204
+id = 100207
 picture = "FRA_ft_tanks"
 style = 1
 TAG = VIC

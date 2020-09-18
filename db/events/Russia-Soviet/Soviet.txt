@@ -265,7 +265,7 @@ command = { type = 	dissent value = 10  }
 }
 
 event = { #coup in georgia 3
-id = 91011
+id = 91012
 picture = "SOV_GPU_squad"
 style = 1
 
@@ -279,3 +279,4 @@ ai_chance = 100
 command = { type =	inherit which = GEO when = 3 value = 0 }
 }
 }
+

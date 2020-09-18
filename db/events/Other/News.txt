@@ -6,7 +6,7 @@ style = 2
 
 trigger = {
 ai = no 
-flag = FRA_civil_start
+flag = FCW_start
 }
 
 

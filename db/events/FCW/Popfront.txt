@@ -24,8 +24,6 @@ command = { type = add_division which = "5e Garde Rouge" when = 5 value = militi
 command = { type = add_division which = "6e Garde Rouge" when = 5 value = militia }
 command = { type = add_division which = "7e Garde Rouge" when = 5 value = militia }
 command = { type = add_division which = "8e Garde Rouge" when = 5 value = militia }
-command = { type = add_division which = "9e Garde Rouge" when = 5 value = militia }
-command = { type = add_division which = "10e Garde Rouge" when = 5 value = militia }
 command = { type = add_brigade value = artillery when = 5 }
 command = { type = add_brigade value = artillery when = 4 }
 command = { type = add_brigade value = artillery when = 4 }
@@ -152,7 +150,7 @@ event = {
 
 ##Soviets send military-economic aid
 event = {
-	id = 100305
+	id = 100306
 	random = no
 	country = U11
 

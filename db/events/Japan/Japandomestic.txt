@@ -1806,14 +1806,13 @@ picture = "tanizaki"
 style = 2 
 date = { day = 10 month = june year = 1936 }
 
-deathdate = { day = 29 month = december year = 1963 }
 country = JAP 
 trigger = {
 local_flag = JAP_minseito_cabinet
 }
 action = {
 name = "I can't wait to read it!"
-command = { type = local_setflag which = JAP_libertine_society }
+command = { type = setflag which = JAP_libertine_society }
 command = { type = domestic which = freedom value = 1 }
 }
 
